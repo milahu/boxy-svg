@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/"/>
+    <meta charset="UTF-8">
+
+    <!-- Security settings -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src
+       'self';
+      script-src
+       'self'
+        blob:
+        https://apis.google.com
+        https://*.paddle.com
+        https://www.youtube.com
+        https://s.ytimg.com;
+      child-src
+       'self'
+        blob:
+        https://www.youtube-nocookie.com
+        https://*.paddle.com;
+      frame-src
+       'self'
+        blob:
+        https://boxy-svg.com/__/auth/iframe
+        https://www.youtube-nocookie.com
+        https://*.paddle.com;
+      object-src
+        'none';
+      font-src
+       'self'
+        blob:
+        data:
+        https://fonts.gstatic.com;
+      style-src
+       'self'
+       'unsafe-inline'
+        https://*.paddle.com
+        https://fonts.googleapis.com;
+      img-src
+       'self'
+        data:
+        blob:
+        https://boxy-svg.com
+        https://storage.boxy-svg.com
+        https://*.paddle.com
+        https://i.ytimg.com
+        https://img.youtube.com;
+      media-src
+        'none';
+      connect-src
+       'self'
+        data:
+        blob:
+        https://storage.boxy-svg.com
+        https://*.googleapis.com
+        https://*.cloudfunctions.net
+        https://fonts.gstatic.com
+        https://paddle.com
+        https://*.paddle.com
+        https://*.a1.typesense.net;
+    ">
+
+    <!-- Crawler settings -->
+    <title>Boxy SVG Editor</title>
+    <meta name="description" content="Create and edit Scalable Vector Graphics (SVG) files online">
+    <meta id="robots-meta" name="robots" content="index, follow" />
+    <link id="canonical-link" rel="canonical" href="https://boxy-svg.com"/>
+
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- Xel settings -->
+    <meta name="xel-theme">
+    <meta name="xel-accent-color">
+    <meta name="xel-iconsets" content="/images/iconsets/default.svg">
+    <meta name="xel-locales" content="/locales/en.ftl">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="128x128" href="/images/app/128.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/app/16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/app/32.png">
+
+    <!-- Paddle -->
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+
+    <!-- YouTube -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- App -->
+    <script src="/fallback.js"></script>
+    <script src="/portal-web-app.js" type="module"></script>
+  </head>
+
+  <body id="body" data-app="portal" data-system="">
+    <bx-portalwebapp id="app"></bx-portalwebapp>
+  </body>
+</html>

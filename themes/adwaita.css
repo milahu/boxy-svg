@@ -1,0 +1,1400 @@
+
+/*
+ * @copyright
+ *   © 2012-2024 Jarosław Foksa
+ */
+
+@import url("/libs/xel/themes/adwaita.css");
+@import url("/themes/base.css");
+
+@font-face {
+  font-family: "Cantarell";
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("libs/cantarell/cantarell.woff2") format("woff2");
+}
+
+body {
+  --titlebar-color: var(--background-color);
+  --green-status-color: #26A269;
+  --red-status-color: #C01C28;
+  --rubber-band-background-color: hsla(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
+  --rubber-band-border-color: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 10%));
+}
+
+/******************************************************************************************************************
+ * ARTICLES
+ *****************************************************************************************************************/
+
+article hr {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+article img {
+  border-color: var(--border-color);
+}
+
+article pre {
+  background: white;
+  border-color: var(--border-color);
+}
+
+/******************************************************************************************************************
+ * SYNTAX HIGHLIGHTING
+ *****************************************************************************************************************/
+
+code .tok-typeName {
+  color: #c45b29;
+}
+code .tok-propertyName {
+  color: #c45b29;
+}
+code .tok-string {
+  color: #72ab41;
+}
+code .tok-comment {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.55);
+}
+code .tok-keyword {
+  color: #ad2367;
+}
+code .tok-variableName {
+  color: #d06537;
+}
+code .tok-definition {
+  color: #d06537;
+}
+code .tok-number {
+  color: #801d30;
+  font-weight: 500;
+}
+code .tok-atom {
+  color: #693A17;
+}
+code .tok-operator {
+  color: #794938;
+}
+
+/******************************************************************************************************************
+ * CORE
+ *****************************************************************************************************************/
+
+/**
+ * Web app
+ */
+
+bx-progressivewebapp::part(header),
+bx-embeddedwebapp::part(header) {
+  background: var(--light-background-color);
+  border-color: var(--dark-border-color);
+}
+
+@media all and (display-mode: standalone), (display-mode: fullscreen), (display-mode: tabbed) {
+  bx-progressivewebapp::part(header),
+  bx-embeddedwebapp::part(header) {
+    background: transparent;
+  }
+}
+
+/**
+ * Board
+ */
+
+bx-board {
+  --canvas-background-color: var(--background-color);
+}
+
+/**
+ * Toolbar
+ */
+
+bx-toolbar {
+  background: var(--background-color);
+}
+
+/**
+ * Sidebar
+ */
+
+bx-sidebar {
+  background: var(--background-color);
+}
+
+/**
+ * Bottombar
+ */
+
+bx-bottombar {
+  border-color: var(--border-color);
+  background-color: var(--background-color);
+}
+
+bx-bottombar::part(buttons) {
+  background: white;
+}
+
+/**
+ * Settings
+ */
+
+bx-settings::part(sidebar) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Quick settings
+ */
+
+bx-quickuisettings::part(footer),
+bx-quickprofilesettings::part(footer) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * About
+ */
+
+bx-about {
+  background: var(--dark-background-color);
+}
+
+bx-about::part(name) {
+  font-weight: 800;
+}
+
+bx-about::part(main) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Board rulers
+ */
+
+bx-boardrulers::part(ruler) {
+  background: white;
+  border-color: var(--border-color);
+}
+
+bx-boardrulers::part(tick) {
+  color: var(--text-color);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+/******************************************************************************************************************
+ * BLOCKS
+ *****************************************************************************************************************/
+
+/**
+ * Header block
+ */
+
+bx-headerblock::part(subheading) {
+  background: var(--light-background-color);
+  border-color: var(--border-color);
+  border-radius: 6px;
+}
+
+/**
+ * Demo block
+ */
+
+bx-demoblock::before {
+  background: var(--dark-background-color);
+  border-color: transparent;
+}
+
+bx-demoblock::part(preview) {
+  background: var(--background-color);
+  border-radius: 12px;
+}
+
+/**
+ * Intro block
+ */
+
+bx-introblock::before {
+  background: var(--dark-background-color);
+}
+
+/**
+ * Purchase block
+ */
+
+bx-purchaseblock::before {
+  background: #505050;
+}
+
+bx-purchaseblock {
+  color: rgba(255, 255, 255, 0.8);
+  --selection-background-color: rgba(255, 255, 255, 0.85);
+  --selection-color: #333333;
+}
+
+bx-purchaseblock::part(heading) {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+bx-purchaseblock::part(help-button) {
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #404040;
+}
+
+bx-purchaseblock::part(table) {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+bx-purchaseblock::part(cell) {
+  border-color: transparent;
+}
+bx-purchaseblock::part(header-cell),
+bx-purchaseblock::part(footer-cell) {
+  background: rgba(0, 0, 0, 0.16);
+  font-weight: 800;
+}
+
+bx-purchaseblock::part(true-icon) {
+  color: #2ec27e;
+}
+
+bx-purchaseblock::part(false-icon) {
+  color: #db4a6e;
+}
+
+/**
+ * Tour block
+ */
+
+bx-tourblock::part(thumb) {
+  border-color: var(--dark-border-color);
+  border-radius: 7px;
+}
+
+bx-tourblock::part(toggled-thumb) {
+  outline: 5px solid #ff8585;
+  border-color: #88514f;
+}
+
+bx-tourblock::part(image) {
+  border: 4px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+/**
+ * Profile block
+ */
+
+bx-profileblock {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Blog block
+ * Idea block
+ * Bug block
+ * Question block
+ * Comment block
+ */
+
+bx-blogblock::part(header),
+bx-ideablock::part(header),
+bx-bugblock::part(header),
+bx-questionblock::part(header),
+bx-commentblock::part(header) {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: transparent;
+  border-radius: 12px 12px 0 0;
+}
+
+bx-blogblock::part(main),
+bx-ideablock::part(main),
+bx-bugblock::part(main),
+bx-questionblock::part(main),
+bx-commentblock::part(main) {
+  background: var(--light-background-color);
+  border-color: var(--border-color);
+  border-radius: 0 0 12px 12px;
+}
+
+bx-blogblock::part(hashtag),
+bx-ideablock::part(hashtag),
+bx-bugblock::part(hashtag),
+bx-questionblock::part(hashtag) {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+bx-ideablock[status="done"]::part(status),
+bx-bugblock[status="fixed"]::part(status),
+bx-questionblock[status="answered"]::part(status) {
+  color: var(--green-status-color);
+  border-radius: 6px;
+  font-weight: 750;
+}
+bx-ideablock[status="rejected"]::part(status),
+bx-ideablock[status="duplicate"]::part(status),
+bx-ideablock[status="out-of-date"]::part(status),
+bx-bugblock[status="wont-fix"]::part(status),
+bx-bugblock[status="duplicate"]::part(status),
+bx-bugblock[status="out-of-date"]::part(status),
+bx-questionblock[status="duplicate"]::part(status),
+bx-questionblock[status="out-of-date"]::part(status) {
+  color: var(--red-status-color);
+  border-radius: 6px;
+}
+
+bx-commentblock::part(skeleton-item) {
+  background: var(--dark-background-color);
+}
+
+/**
+ * Blog preview block
+ * Idea preview block
+ * Bug preview block
+ * Question preview block
+ */
+
+bx-blogpreviewblock[blink],
+bx-ideapreviewblock[blink],
+bx-bugpreviewblock[blink],
+bx-questionpreviewblock[blink] {
+  background: var(--dark-background-color);
+}
+
+bx-blogpreviewblock::part(hashtag),
+bx-ideapreviewblock::part(hashtag),
+bx-bugpreviewblock::part(hashtag),
+bx-questionpreviewblock::part(hashtag) {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+bx-blogpreviewblock::part(details),
+bx-ideapreviewblock::part(details),
+bx-bugpreviewblock::part(details),
+bx-questionpreviewblock::part(details) {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+bx-blogpreviewblock::part(skeleton-item),
+bx-ideapreviewblock::part(skeleton-item),
+bx-bugpreviewblock::part(skeleton-item),
+bx-questionpreviewblock::part(skeleton-item) {
+  background: var(--dark-background-color);
+}
+
+bx-blogpreviewblock::part(title),
+bx-ideapreviewblock::part(title),
+bx-bugpreviewblock::part(title),
+bx-questionpreviewblock::part(title) {
+  font-weight: 800;
+}
+bx-ideapreviewblock[status="done"]::part(title),
+bx-bugpreviewblock[status="fixed"]::part(title),
+bx-questionpreviewblock[status="answered"]::part(title) {
+  color: var(--green-status-color);
+}
+bx-ideapreviewblock[status="rejected"]::part(title),
+bx-ideapreviewblock[status="duplicate"]::part(title),
+bx-ideapreviewblock[status="out-of-date"]::part(title),
+bx-bugpreviewblock[status="wont-fix"]::part(title),
+bx-bugpreviewblock[status="duplicate"]::part(title),
+bx-bugpreviewblock[status="out-of-date"]::part(title),
+bx-questionpreviewblock[status="duplicate"]::part(title),
+bx-questionpreviewblock[status="out-of-date"]::part(title) {
+  color: var(--red-status-color);
+}
+
+/**
+ * Tutorial preview block
+ */
+
+bx-tutorialpreviewblock[blink] {
+  background: var(--dark-background-color);
+}
+
+/**
+ * Filter & search blocks
+ */
+
+bx-blogfilterblock,
+bx-ideasfilterblock,
+bx-bugsfilterblock,
+bx-questionsfilterblock,
+bx-changelogfilterblock,
+bx-searchblock {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: transparent;
+  border-radius: 12px;
+}
+
+/**
+ * Placeholder block
+ */
+
+bx-placeholderblock {
+  background: white;
+  border-color: var(--border-color);
+}
+
+/******************************************************************************************************************
+ * BROWSERS
+ *****************************************************************************************************************/
+
+/**
+ * Colors browser
+ * Filters browser
+ * Fonts browser
+ * Gradients browser
+ * Markers browser
+ * Patterns browser
+ * Symbols browser
+ */
+
+bx-colorsbrowser::part(header),
+bx-filtersbrowser::part(header),
+bx-fontsbrowser::part(header),
+bx-gradientsbrowser::part(header),
+bx-markersbrowser::part(header),
+bx-patternsbrowser::part(header),
+bx-symbolsbrowser::part(header) {
+  border-color: var(--border-color);
+}
+
+bx-colorsbrowser::part(main),
+bx-filtersbrowser::part(main),
+bx-fontsbrowser::part(main),
+bx-gradientsbrowser::part(main),
+bx-markersbrowser::part(main),
+bx-patternsbrowser::part(main),
+bx-symbolsbrowser::part(main) {
+  background: var(--light-background-color);
+}
+
+bx-colorsbrowser::part(footer),
+bx-filtersbrowser::part(footer),
+bx-fontsbrowser::part(footer),
+bx-gradientsbrowser::part(footer),
+bx-markersbrowser::part(footer),
+bx-patternsbrowser::part(footer),
+bx-symbolsbrowser::part(footer) {
+  border-color: var(--border-color);
+}
+
+bx-colorsbrowser::part(thumbnail),
+bx-filtersbrowser::part(thumbnail),
+bx-gradientsbrowser::part(thumbnail),
+bx-markersbrowser::part(thumbnail),
+bx-patternsbrowser::part(thumbnail),
+bx-symbolsbrowser::part(thumbnail) {
+  border-color: var(--border-color);
+  border-radius: 4px;
+}
+
+/**
+ * Colors library browser
+ * Gradients library browser
+ * Fonts library browser
+ * Bitmaps library browser
+ * Vectors library browser
+ */
+
+bx-colorslibrarybrowser::part(header),
+bx-gradientslibrarybrowser::part(header),
+bx-fontslibrarybrowser::part(header),
+bx-bitmapslibrarybrowser::part(header),
+bx-vectorslibrarybrowser::part(header) {
+  border-color: var(--border-color);
+}
+
+bx-colorslibrarybrowser::part(main),
+bx-gradientslibrarybrowser::part(main),
+bx-fontslibrarybrowser::part(main),
+bx-bitmapslibrarybrowser::part(main),
+bx-vectorslibrarybrowser::part(main) {
+  background: var(--light-background-color);
+}
+
+bx-colorslibrarybrowser::part(footer),
+bx-gradientslibrarybrowser::part(footer),
+bx-fontslibrarybrowser::part(footer),
+bx-bitmapslibrarybrowser::part(footer),
+bx-vectorslibrarybrowser::part(footer) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+bx-colorslibrarybrowser::part(item),
+bx-gradientslibrarybrowser::part(item),
+bx-bitmapslibrarybrowser::part(item),
+bx-vectorslibrarybrowser::part(item) {
+  border-color: var(--border-color);
+  border-radius: 4px;
+}
+
+/**
+ * Cloud browser
+ */
+
+bx-cloudbrowser {
+  background: var(--light-background-color);
+}
+
+bx-cloudbrowser::part(header) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+bx-cloudbrowser::part(footer) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+bx-iconscloudbrowserview::part(ghost) {
+  color: rgba(255, 255, 255, 0.9);
+  background: #434343;
+}
+
+/**
+ * Objects browser
+ */
+
+bx-objectsbrowser::part(main) {
+  background: var(--light-background-color);
+}
+
+bx-objectsbrowser::part(footer) {
+  border-color: var(--border-color);
+}
+
+/******************************************************************************************************************
+ * FORMS
+ *****************************************************************************************************************/
+
+*[extends="bx-form"]::part(header),
+*[extends="bx-form"]::part(footer) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+*[extends="bx-form"][blink]::part(footer) {
+  outline: 3px solid var(--light-accent-color);
+  outline-offset: -3px;
+}
+
+/******************************************************************************************************************
+ * GENERATORS
+ *****************************************************************************************************************/
+
+*[extends="bx-generator"]::part(footer) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+*[extends="bx-generator"]::part(preview) {
+  border-color: var(--border-color);
+  border-radius: 4px;
+}
+
+/******************************************************************************************************************
+ * INSPECTORS
+ *****************************************************************************************************************/
+
+/**
+ * Image primitive inspector
+ */
+
+bx-imageprimitiveinspector::part(thumbnail) {
+  background-color: white;
+  border-color: var(--border-color);
+  border-radius: 4px;
+}
+
+/**
+ * CSS cascade inspector
+ */
+
+bx-csscascadeinspector {
+  border-color: var(--border-color);
+  --property-name-color: #a81792;
+  --property-value-color: #303030;
+}
+
+bx-csscascadeinspector::part(heading) {
+  background: var(--dark-background-color);
+}
+
+bx-csscascadeinspector::part(input) {
+  background: white;
+  color: var(--text-color);
+  outline: 3px solid var(--light-accent-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px;
+}
+
+bx-csscascadeinspector::part(invalid-input) {
+  outline-color: var(--error-color);
+  background: rgba(255, 0, 0, 0.1);
+}
+
+bx-csscascadeinspector::part(invalid-input)::selection {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+bx-csscascadeinspector::part(autocompletion-list) {
+  background: white;
+  border-color: var(--border-color);
+}
+
+/**
+ * Elements inspector
+ */
+
+bx-elementsinspector {
+  background: var(--light-background-color);
+  --bracket-color: #a50d8e;
+  --tag-color: #a50d8e;
+  --attribute-color: #aa1c95;
+  --attribute-name-color: #856e2f;
+  --attribute-value-color: #c2211e;
+  --highlight-color: #bb38b2;
+}
+
+bx-elementsinspector::part(input) {
+  background: white;
+  color: var(--text-color);
+  outline: 3px solid var(--light-accent-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px;
+}
+
+bx-csscascadeinspector::part(invalid-input) {
+  outline-color: var(--error-color);
+  background: rgba(255, 0, 0, 0.1);
+}
+
+bx-csscascadeinspector::part(invalid-input)::selection {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+/**
+ * Filter inspector
+ */
+
+bx-filtergraphinspector {
+  --edge-color: #676767;
+  --node-background-color: #f6f6f6;
+  --node-foreground-color: #989898;
+}
+
+bx-filtergraphinspector::part(main) {
+  background: var(--light-background-color);
+  border-radius: 4px 0 0 4px;
+}
+
+bx-filtergraphinspector::part(sidebar) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+  border-radius: 0 4px 4px 0;
+}
+
+bx-filtergraphinspector::part(sidebar-header) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+  border-top-right-radius: 4px;
+}
+
+/**
+ * Gradient inspector
+ */
+
+bx-gradientinspector::part(gradient-slider) {
+  border-color: var(--border-color);
+  background-color: white;
+}
+
+/**
+ * Timeline inspector
+ */
+
+bx-timelineinspector::part(ruler) {
+  background: white;
+  border-color: var(--border-color);
+}
+
+bx-timelineinspector::part(interval-line) {
+  color: var(--text-color);
+}
+
+/******************************************************************************************************************
+ * PAGES
+ *****************************************************************************************************************/
+
+bx-legalpage::part(footer) {
+  background: var(--dark-background-color);
+  border-color: transparent;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+/******************************************************************************************************************
+ * PANELS
+ *****************************************************************************************************************/
+
+/**
+ * Animations panel
+ */
+
+bx-animationspanel {
+  border-color: var(--border-color);
+}
+
+/**
+ * Commands panel
+ */
+
+bx-commandspanel::part(dialog) {
+  background: var(--light-background-color);
+  border-color: var(--dark-border-color);
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 6px;
+}
+
+bx-commandspanel::part(header) {
+  border-color: var(--border-color);
+}
+
+bx-commandspanel::part(heading) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Export panel
+ */
+
+bx-exportpanel::part(header),
+bx-exportpanel::part(footer) {
+  border-color: var(--border-color);
+}
+
+bx-exportpanel::part(main) {
+  background: var(--light-background-color);
+}
+
+bx-exportpanel::part(preview) {
+  background-color: white;
+  border-color: var(--border-color);
+}
+
+/**
+ * Generators panel
+ */
+
+bx-generatorspanel::part(header) {
+  border-color: var(--border-color);
+}
+
+bx-generatorspanel::part(main) {
+  background: var(--light-background-color);
+}
+
+/**
+ * Geometry panel
+ */
+
+bx-geometrypanel::part(footer) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * History panel
+ */
+
+bx-historypanel::part(header),
+bx-historypanel::part(footer) {
+  border-color: var(--border-color);
+}
+
+bx-historypanel::part(main) {
+  background: var(--light-background-color);
+}
+
+/**
+ * Objects panel
+ */
+
+bx-objectspanel::part(header) {
+  border-color: var(--border-color);
+}
+
+/******************************************************************************************************************
+ * SETTINGS
+ *****************************************************************************************************************/
+
+/**
+ * Subscription settings
+ */
+
+bx-subscriptionsettings::part(selected-cell) {
+  background: #ffffff;
+}
+
+bx-subscriptionsettings::part(yes-icon) {
+  color: var(--green-status-color);
+}
+
+bx-subscriptionsettings::part(no-icon) {
+  color: var(--red-status-color);
+}
+
+/**
+ * Delete account settings
+ */
+
+bx-deleteaccountsettings::part(delete-button) {
+  background: #e0383e;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+bx-deleteaccountsettings::part(delete-button):active {
+  background: #b7282e;
+}
+
+/**
+ * Tool settings
+ */
+
+*[extends="bx-toolsettings"]::part(preview) {
+  color: currentColor;
+  background: white;
+  border-color: var(--border-color);
+  border-radius: 6px;
+}
+
+/******************************************************************************************************************
+ * WIDGETS
+ *****************************************************************************************************************/
+
+/**
+ * Button ("header" skin)
+ */
+
+x-button[skin="header"] {
+  color: var(--text-color);
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+x-button[skin="header"]:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+x-button[skin="header"][pressed] {
+  background: rgba(0, 0, 0, 0.2);
+}
+x-button[skin="header"][toggled] {
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(135deg, #d22986 0%, #da5e38 100%);
+}
+
+/* Icon */
+x-button[skin="header"] > x-icon {
+  color: #d33182;
+}
+x-button[skin="header"][toggled] > x-icon {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Label */
+x-button[skin="header"] > x-label {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/**
+ * Button ("footer" skin)
+ */
+
+x-button[skin="footer"] {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+}
+x-button[skin="footer"]:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+x-button[skin="footer"][pressed] {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.7);
+}
+x-button[skin="footer"][toggled] {
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(135deg, #d22986 0%, #da5e38 100%);
+}
+
+/* Label */
+x-button[skin="footer"] > x-label {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/**
+ * Download button
+ */
+
+bx-downloadbutton {
+  background-color: #3c3c3c;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+/**
+ * Tag ("colored" skin)
+ */
+
+x-tag[skin="colored"] {
+  height: 18px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+x-tag[skin="colored"]:not([scoped]) {
+  color: #fff;
+}
+
+x-tag[skin="colored"]::part(scope) {
+  background: none;
+  color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Card ("document" skin)
+ */
+
+x-card[skin="document"] {
+  margin: 30px 0;
+  border: 1px solid var(--border-color);
+  background: white;
+}
+x-card[skin="document"]:first-of-type {
+  margin-top: 0;
+}
+
+x-card[skin="document"] > main {
+  padding: 24px;
+}
+
+/**
+ * Align buttons
+ */
+
+bx-alignbuttons {
+  border-color: transparent;
+}
+
+bx-alignbuttons::part(button) {
+  border-radius: 4px;
+}
+
+/**
+ * Avatar
+ */
+
+bx-avatar {
+  background: var(--background-color);
+  border-color: var(--border-color);
+  border-radius: 99px;
+}
+bx-avatar[transparent] {
+  background: var(--checkboard-background);
+}
+
+/**
+ * Navbar
+ */
+
+bx-navbar {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Editor breadcrumb
+ */
+
+bx-editorbreadcrumb {
+  background: white;
+  border-radius: 4px;
+}
+
+bx-editorbreadcrumb::part(item) {
+  border-color: var(--border-color);
+}
+bx-editorbreadcrumb::part(item):focus {
+  border-color: var(--dark-accent-color);
+  outline: 3px solid var(--light-accent-color);
+}
+bx-editorbreadcrumb::part(toggled-item) {
+  background: var(--accent-color);
+  border-color: var(--dark-accent-color);
+  color: rgba(255, 255, 255, 0.94);
+}
+bx-editorbreadcrumb::part(first-item) {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+bx-editorbreadcrumb::part(last-item) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/**
+ * Page breadcrumb
+ */
+
+bx-pagebreadcrumb::part(item) {
+  color: var(--text-color);
+  background: rgba(0, 0, 0, 0.08);
+  border-width: 0 0 0 1px;
+  border-color: rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+}
+bx-pagebreadcrumb::part(item):hover {
+  background: rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+bx-pagebreadcrumb::part(item):active {
+  background: rgba(0, 0, 0, 0.2);
+}
+bx-pagebreadcrumb::part(item):focus {
+  outline: 2px solid var(--light-accent-color);
+  outline-offset: -1px;
+}
+bx-pagebreadcrumb::part(toggled-item),
+bx-pagebreadcrumb::part(toggled-item):hover {
+  background: var(--accent-color);
+  border-color: var(--dark-accent-color);
+  color: white;
+}
+bx-pagebreadcrumb::part(first-item) {
+  border-left: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+bx-pagebreadcrumb::part(last-item) {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/**
+ * Cloud breadcrumb
+ */
+
+bx-cloudbreadcrumb::part(item) {
+  color: var(--text-color);
+  background: rgba(0, 0, 0, 0.08);
+  border-width: 0 0 0 1px;
+  border-color: rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+}
+bx-cloudbreadcrumb::part(item):hover {
+  background: rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+bx-cloudbreadcrumb::part(item):active {
+  background: rgba(0, 0, 0, 0.2);
+}
+bx-cloudbreadcrumb::part(item):focus {
+  outline: 2px solid var(--light-accent-color);
+  outline-offset: -1px;
+}
+bx-cloudbreadcrumb::part(toggled-item),
+bx-cloudbreadcrumb::part(toggled-item):hover {
+  background: var(--accent-color);
+  border-color: var(--dark-accent-color);
+  color: white;
+}
+bx-cloudbreadcrumb::part(first-item) {
+  border-left: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+bx-cloudbreadcrumb::part(last-item) {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/**
+ * Cloud file preview
+ */
+
+bx-cloudfilepreview::part(main) {
+  border-radius: 8px;
+  border: none;
+}
+bx-cloudfilepreview[selected]::part(main) {
+  background: var(--dark-background-color);
+}
+
+bx-cloudfilepreview::part(name) {
+  border-radius: 8px;
+}
+bx-cloudfilepreview[selected]::part(name) {
+  background: var(--dark-background-color);
+}
+
+bx-cloudfilepreview::part(thumbnail) {
+  border-color: var(--border-color);
+  border-radius: 8px;
+}
+
+/**
+ * Cloud folder preview
+ */
+
+bx-cloudfolderpreview::part(main) {
+  border-radius: 7px;
+}
+bx-cloudfolderpreview[selected]::part(main) {
+  background: var(--dark-background-color);
+}
+
+bx-cloudfolderpreview::part(name) {
+  border-radius: 7px;
+}
+bx-cloudfolderpreview[selected]::part(name) {
+  background: var(--dark-background-color);
+}
+
+bx-cloudfolderpreview::part(icon) {
+  color: #d6c5b3;
+}
+
+/**
+ * Color select
+ * Gradient select
+ * Pattern select
+ * Marker select
+ */
+
+bx-colorselect::part(thumbnail),
+bx-gradientselect::part(thumbnail),
+bx-patternselect::part(thumbnail),
+bx-markerselect::part(thumbnail) {
+  background-color: white;
+  border-color: var(--border-color);
+  border-radius: 6px;
+}
+
+bx-colorselect::part(footer),
+bx-gradientselect::part(footer),
+bx-patternselect::part(footer),
+bx-markerselect::part(footer) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Filters inspector
+ */
+
+bx-filtersinspector::part(thumbnail) {
+  background-color: white;
+  border-color: var(--border-color);
+  border-radius: 6px;
+}
+
+bx-filtersinspector::part(list-heading),
+bx-filtersinspector::part(popover-footer) {
+  background: var(--background-color);
+  border-color: var(--border-color);
+}
+
+/**
+ * Font family picker
+ */
+
+bx-fontfamilypicker::part(header) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+bx-fontfamilypicker::part(footer) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+}
+
+bx-fontfamilypicker::part(thumbnail) {
+  filter: invert(100%);
+}
+bx-fontfamilypicker::part(selected-thumbnail) {
+  filter: none;
+}
+
+/**
+ * Image viewer
+ */
+
+bx-imageviewer::part(backdrop) {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+bx-imageviewer::part(image) {
+  background-color: white;
+  border-color: var(--border-color);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 22px;
+}
+
+/**
+ * Pager
+ */
+
+bx-pager::part(item) {
+  color: var(--text-color);
+  background: rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+bx-pager::part(item):hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+bx-pager::part(item):active {
+  background: rgba(0, 0, 0, 0.2);
+}
+bx-pager::part(item):focus {
+  outline: 2px solid var(--light-accent-color);
+  outline-offset: -1px;
+}
+bx-pager::part(toggled-item),
+bx-pager::part(toggled-item):hover {
+  background: var(--accent-color);
+  color: white;
+}
+
+/**
+ * Paint order switch
+ */
+
+bx-paintorderswitch {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+bx-paintorderswitch::part(thumb) {
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+bx-paintorderswitch::part(dragged-thumb) {
+  background: var(--dark-accent-color);
+}
+
+bx-paintorderswitch::part(toggled-thumb) {
+  background: var(--light-background-color);
+  color: var(--accent-color);
+}
+bx-paintorderswitch:focus::part(toggled-thumb) {
+  box-shadow: 0 0 0px 5px var(--light-accent-color);
+}
+
+/**
+ * Rich text area
+ */
+
+bx-richtextarea {
+  background: rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 6px;
+}
+bx-richtextarea:focus {
+  z-index: 10;
+  outline: 2px solid var(--light-accent-color);
+  outline-offset: -1px;
+}
+bx-richtextarea[error] {
+  background: var(--error-background-color);
+  outline: 2px solid var(--error-color);
+  outline-offset: -1px;
+}
+
+/**
+ * Shortcuts editor
+ */
+
+bx-shortcutseditor {
+  background: var(--light-background-color);
+  border-color: var(--border-color);
+  border-radius: 8px;
+}
+
+bx-shortcutseditor::part(header) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+bx-shortcutseditor::part(footer) {
+  background: var(--dark-background-color);
+  border-color: var(--border-color);
+  border-radius: 0 0 8px 8px;
+}
+
+bx-shortcutseditor::part(item) {
+  border-radius: 6px;
+}
+
+/**
+ * Style picker
+ */
+
+bx-stylepicker::part(thumbnail) {
+  border-color: var(--border-color);
+  border-radius: 4px;
+}
+
+/**
+ * Users editor
+ */
+
+bx-userseditor {
+  background: var(--light-background-color);
+  border-color: var(--border-color);
+  border-radius: 7px;
+}
+
+bx-userseditor::part(cell) {
+  border-color: var(--border-color);
+}
+
+bx-userseditor::part(index-cell) {
+  background: var(--dark-background-color);
+}
+
+bx-userseditor:focus-within::part(selected-cell) {
+  color: white;
+  background: var(--accent-color);
+}
+
+/**
+ * Video player
+ */
+
+bx-videoplayer {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/**
+ * Easing function picker
+ */
+
+bx-easingfunctionpicker::part(preview) {
+  color: currentColor;
+  background: white;
+  border-color: var(--border-color);
+  border-radius: 6px;
+}

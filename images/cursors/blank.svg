@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stub rect is needed, otherwise the browser will assume the cursor is "none" (which is buggy) -->
+  <rect x="0" y="0" width="1" height="1" opacity="0.01"/>
+</svg>

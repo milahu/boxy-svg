@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html style="overflow: hidden;">
+  <head>
+    <base href="/" target="_blank"/>
+    <meta charset="UTF-8">
+
+    <!-- Security settings -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src
+       'self';
+      script-src
+       'self'
+        blob:
+        https://apis.google.com
+        https://*.paddle.com;
+      child-src
+       'self'
+        blob:
+        https://*.paddle.com;
+      frame-src
+       'self'
+        blob:
+        https://boxy-svg.com/__/auth/iframe
+        https://*.paddle.com;
+      object-src
+        'none';
+      font-src
+       'self'
+        blob:
+        data:
+        https://fonts.gstatic.com;
+      style-src
+       'self'
+       'unsafe-inline'
+        https://*.paddle.com
+        https://fonts.googleapis.com;
+      img-src
+       'self'
+        data:
+        blob:
+        https://boxy-svg.com
+        https://storage.boxy-svg.com
+        https://*.paddle.com
+        https://images.pexels.com
+        https://cdn.pixabay.com
+        https://images.unsplash.com
+        https://upload.wikimedia.org;
+      media-src
+        'none';
+      connect-src
+       'self'
+        data:
+        blob:
+        https://storage.boxy-svg.com
+        https://*.googleapis.com
+        https://*.cloudfunctions.net
+        https://fonts.gstatic.com
+        https://paddle.com
+        https://*.paddle.com
+        https://*.a1.typesense.net
+        https://api.pexels.com
+        https://images.pexels.com
+        https://pixabay.com
+        https://images.unsplash.com
+        https://commons.wikimedia.org
+        https://upload.wikimedia.org;
+    ">
+
+    <!-- Crawler settings -->
+    <title>Boxy SVG</title>
+    <meta name="description" content="Create and edit Scalable Vector Graphics (SVG) files online">
+    <meta name="robots" content="noindex">
+
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- Xel settings -->
+    <meta name="xel-theme">
+    <meta name="xel-accent-color">
+    <meta name="xel-iconsets" content="/images/iconsets/default.svg">
+    <meta name="xel-locales" content="/locales/en.ftl">
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/boxy-svg.webmanifest">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="128x128" href="/images/app/128.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/app/16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/app/32.png">
+
+    <!-- Paddle -->
+    <script src="/libs/paddle/paddle.js"></script>
+
+    <!-- App -->
+    <script src="/fallback.js"></script>
+    <script src="/progressive-web-app.js" type="module"></script>
+  </head>
+  <body id="body" data-app="progressive-web" data-system="" hidden>
+    <bx-progressivewebapp id="app" tabindex="0"></bx-progressivewebapp>
+  </body>
+</html>
