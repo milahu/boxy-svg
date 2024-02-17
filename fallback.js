@@ -28,7 +28,7 @@ if (
   window.fallback = true;
   window.addEventListener("load", function (event) {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "/templates/fallback.tpl");
+    xhr.open("GET", "./templates/fallback.tpl");
     xhr.send();
     xhr.addEventListener("readystatechange", function (response) {
       if (xhr.readyState === 4 && xhr.status === 200) {

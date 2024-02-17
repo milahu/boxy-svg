@@ -1360,7 +1360,7 @@ no-gradients-found = No gradients found
 no-gradient-stops-selected = No gradient stops selected
 no-history-items = No history items
 no-local-fonts-api = Your browser does not support the Local Font Access API
-no-local-fonts-permission = <a href="https://boxy-svg.com/questions/498">Give Boxy SVG permission</a> to use your local fonts
+no-local-fonts-permission = <a href="./questions//498">Give Boxy SVG permission</a> to use your local fonts
 no-local-fonts-trigger = <a href="">Click here</a> to give Boxy SVG permission to use your local fonts
 no-markers-found = No markers found
 no-multiple-filters = Your browser does not support multiple filters per object

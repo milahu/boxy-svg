@@ -26,7 +26,7 @@ let o = {
   solid: "solid",
 };
 globalThis.addEventListener("message", async (d) => {
-  e ||= (await import("/libs/rough/rough.js")).default;
+  e ||= (await import("../libs/rough/rough.js")).default;
   let f = e.generator();
   let [j, k, m] = d.data;
   k = i(t, k);

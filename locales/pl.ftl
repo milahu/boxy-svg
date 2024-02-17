@@ -1377,8 +1377,8 @@ no-fonts-found = Nie znaleziono żadnych czcionek
 no-gradients-found = Nie znaleziono żadnych gradientów
 no-gradient-stops-selected = Nie wybrano żadnego punktu
 no-history-items = Brak historii
-no-local-fonts-api = Twoja przeglądarka nie wspira <a href="https://boxy-svg.com/blog/15">dostępu do czcionek lokalnych</a>
-no-local-fonts-permission = <a href="https://boxy-svg.com/questions/498">Zezwól Boxy SVG</a> na korzystanie z twoich lokalnych czcionek
+no-local-fonts-api = Twoja przeglądarka nie wspira <a href="./blog//15">dostępu do czcionek lokalnych</a>
+no-local-fonts-permission = <a href="./questions//498">Zezwól Boxy SVG</a> na korzystanie z twoich lokalnych czcionek
 no-local-fonts-trigger = <a href="">Kliknij tutaj</a> aby umożliwić Boxy SVG dostęp do lokalnych czcionek
 no-markers-found = Nie znaleziono żadnych markerów
 no-multiple-filters = Twoja przeglądarka nie obsługuje wielu filtrów na jednym obiekcie

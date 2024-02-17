@@ -1,12 +1,12 @@
-import a2 from "/libs/xel/xel.js";
-import a3 from "/libs/css-parser/css-parser.js";
-import a4 from "/libs/color/color.js";
-import "/libs/paper/paper.js";
-import "/libs/seed-random/seed-random.js";
-import "/libs/dom-purify/dom-purify.js";
-import a5 from "/libs/dexie/dexie.js";
-import a6 from "/libs/typesense/typesense.js";
-import "/libs/pako/pako.js";
+import a2 from "../../libs/xel/xel.js";
+import a3 from "../../libs/css-parser/css-parser.js";
+import a4 from "../../libs/color/color.js";
+import "../../libs/paper/paper.js";
+import "../../libs/seed-random/seed-random.js";
+import "../../libs/dom-purify/dom-purify.js";
+import a5 from "../../libs/dexie/dexie.js";
+import a6 from "../../libs/typesense/typesense.js";
+import "../../libs/pako/pako.js";
 class l {
   currentToken = null;
   position = 0;
@@ -206,7 +206,7 @@ class s {
     return new DOMRect(this.x, this.y, this.width, this.height);
   }
 }
-const o = "https://boxy-svg.com";
+const o = "./";
 const r = "http://www.w3.org/2000/svg";
 const p = "http://www.w3.org/1999/xlink";
 const h = "http://www.w3.org/2000/xmlns/";
@@ -2858,9 +2858,9 @@ let ae = (a7, a8 = "png", a9 = {}) =>
           aj.fillStyle = ah;
           aj.fillRect(0, 0, ad.naturalWidth, ad.naturalHeight);
           aj.drawImage(ad, 0, 0);
-          let ak = (await import("/libs/upng/upng.js")).default;
+          let ak = (await import("../../libs/upng/upng.js")).default;
           let { changeDpiBlob } = await import(
-            "/libs/change-dpi/change-dpi.js"
+            "../../libs/change-dpi/change-dpi.js"
           );
           let am = aj.getImageData(0, 0, ai.width, ai.height);
           let an = ak.encode([am.data.buffer], am.width, am.height, ag);
@@ -2897,7 +2897,7 @@ let ae = (a7, a8 = "png", a9 = {}) =>
           am.fillRect(0, 0, ah.naturalWidth, ah.naturalHeight);
           am.drawImage(ah, 0, 0);
           let { changeDpiBlob } = await import(
-            "/libs/change-dpi/change-dpi.js"
+            "../../libs/change-dpi/change-dpi.js"
           );
           let ao = await al.convertToBlob({
             type: "image/jpeg",
@@ -2944,7 +2944,7 @@ let ae = (a7, a8 = "png", a9 = {}) =>
           ao.fillRect(0, 0, ak.naturalWidth, ak.naturalHeight);
           ao.drawImage(ak, 0, 0);
           let ap = ao.getImageData(0, 0, ak.naturalWidth, ak.naturalHeight);
-          let aq = new (0, (await import("/libs/gif/gif.js")).default)({
+          let aq = new (0, (await import("../../libs/gif/gif.js")).default)({
             workers: 2,
             quality: 1,
             dither: an,

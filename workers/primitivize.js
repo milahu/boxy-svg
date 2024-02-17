@@ -15,7 +15,7 @@ let e = {
 };
 let s = null;
 globalThis.addEventListener("message", async (k) => {
-  t ||= (await import("/libs/seed-random/seed-random.js")).default;
+  t ||= (await import("../libs/seed-random/seed-random.js")).default;
   let [q, v] = k.data;
   v = i(e, v);
   s = new f(q, v, t);

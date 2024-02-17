@@ -1,13 +1,13 @@
-import a2 from "/libs/xel/xel.js";
-import "/libs/color/color.js";
-import a3 from "/libs/css-parser/css-parser.js";
-import "/libs/paper/paper.js";
-import "/libs/seed-random/seed-random.js";
-import "/libs/dom-purify/dom-purify.js";
-import a4 from "/libs/dexie/dexie.js";
-import a5 from "/libs/typesense/typesense.js";
-import "/libs/pako/pako.js";
-const a = "https://boxy-svg.com";
+import a2 from "../../libs/xel/xel.js";
+import "../../libs/color/color.js";
+import a3 from "../../libs/css-parser/css-parser.js";
+import "../../libs/paper/paper.js";
+import "../../libs/seed-random/seed-random.js";
+import "../../libs/dom-purify/dom-purify.js";
+import a4 from "../../libs/dexie/dexie.js";
+import a5 from "../../libs/typesense/typesense.js";
+import "../../libs/pako/pako.js";
+const a = "./";
 const o = "http://www.w3.org/2000/svg";
 const l = "http://www.w3.org/1999/xlink";
 const s = "http://www.w3.org/2000/xmlns/";
@@ -2430,7 +2430,7 @@ let R = (a6) =>
     }
     let a8 = R.t;
     let a9 = null;
-    let aa = (await import("/libs/font-kit/font-kit.js")).default;
+    let aa = (await import("../../libs/font-kit/font-kit.js")).default;
     if (a6 instanceof FontFace) {
       let ab = a6.family + " " + a6.weight + " " + a6.style;
       if (a8[ab]) {
@@ -2723,7 +2723,7 @@ class G {
       if (a6.src) {
         let a9 = T.fromString(a6.src).items[0].url.value;
         let aa = await this.#u(a9, "arrayBuffer");
-        let ab = (await import("/libs/font-kit/font-kit.js")).default.create(
+        let ab = (await import("../../libs/font-kit/font-kit.js")).default.create(
           new Uint8Array(aa)
         );
         if (ab) {
@@ -5117,7 +5117,7 @@ class Re extends Ae {
           let ag;
           let ah = ze;
           if (Ee === null) {
-            Ee = new Worker("/workers/sketchify.js");
+            Ee = new Worker("../../workers/sketchify.js");
           }
           Ee.postMessage([ad, a8, ah]);
           Ee.addEventListener(

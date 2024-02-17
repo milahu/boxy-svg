@@ -1,13 +1,13 @@
-import a2 from "/libs/xel/xel.js";
-import a3 from "/libs/color/color.js";
-import a4 from "/libs/css-parser/css-parser.js";
-import "/libs/paper/paper.js";
-import "/libs/seed-random/seed-random.js";
-import a5 from "/libs/dom-purify/dom-purify.js";
-import a6 from "/libs/dexie/dexie.js";
-import a7 from "/libs/typesense/typesense.js";
-import "/libs/pako/pako.js";
-const r = "https://boxy-svg.com";
+import a2 from "../../libs/xel/xel.js";
+import a3 from "../../libs/color/color.js";
+import a4 from "../../libs/css-parser/css-parser.js";
+import "../../libs/paper/paper.js";
+import "../../libs/seed-random/seed-random.js";
+import a5 from "../../libs/dom-purify/dom-purify.js";
+import a6 from "../../libs/dexie/dexie.js";
+import a7 from "../../libs/typesense/typesense.js";
+import "../../libs/pako/pako.js";
+const r = "./";
 const s = "http://www.w3.org/2000/svg";
 const o = "http://www.w3.org/1999/xlink";
 const p = "http://www.w3.org/2000/xmlns/";
@@ -4408,9 +4408,9 @@ let Ee = (a8, a9 = "png", aa = {}) =>
           ak.fillStyle = ai;
           ak.fillRect(0, 0, af.naturalWidth, af.naturalHeight);
           ak.drawImage(af, 0, 0);
-          let al = (await import("/libs/upng/upng.js")).default;
+          let al = (await import("../../libs/upng/upng.js")).default;
           let { changeDpiBlob } = await import(
-            "/libs/change-dpi/change-dpi.js"
+            "../../libs/change-dpi/change-dpi.js"
           );
           let an = ak.getImageData(0, 0, aj.width, aj.height);
           let ao = al.encode([an.data.buffer], an.width, an.height, ah);
@@ -4447,7 +4447,7 @@ let Ee = (a8, a9 = "png", aa = {}) =>
           an.fillRect(0, 0, ai.naturalWidth, ai.naturalHeight);
           an.drawImage(ai, 0, 0);
           let { changeDpiBlob } = await import(
-            "/libs/change-dpi/change-dpi.js"
+            "../../libs/change-dpi/change-dpi.js"
           );
           let ap = await am.convertToBlob({
             type: "image/jpeg",
@@ -4494,7 +4494,7 @@ let Ee = (a8, a9 = "png", aa = {}) =>
           ap.fillRect(0, 0, al.naturalWidth, al.naturalHeight);
           ap.drawImage(al, 0, 0);
           let aq = ap.getImageData(0, 0, al.naturalWidth, al.naturalHeight);
-          let ar = new (0, (await import("/libs/gif/gif.js")).default)({
+          let ar = new (0, (await import("../../libs/gif/gif.js")).default)({
             workers: 2,
             quality: 1,
             dither: ao,
@@ -4805,7 +4805,7 @@ class Ae extends ge {
   }
   #z(a8, a9) {
     return new Promise((aa) => {
-      let ab = new Worker("/workers/asciify.js");
+      let ab = new Worker("../../workers/asciify.js");
       ab.addEventListener("message", (ac) => aa(ac.data), false);
       ab.postMessage([a8, a9]);
     });

@@ -1,13 +1,13 @@
-import a2 from "/libs/xel/xel.js";
-import a3 from "/libs/color/color.js";
-import "/libs/css-parser/css-parser.js";
-import a4 from "/libs/paper/paper.js";
-import "/libs/seed-random/seed-random.js";
-import "/libs/dom-purify/dom-purify.js";
-import a5 from "/libs/dexie/dexie.js";
-import a6 from "/libs/typesense/typesense.js";
-import "/libs/pako/pako.js";
-const s = "https://boxy-svg.com";
+import a2 from "../../libs/xel/xel.js";
+import a3 from "../../libs/color/color.js";
+import "../../libs/css-parser/css-parser.js";
+import a4 from "../../libs/paper/paper.js";
+import "../../libs/seed-random/seed-random.js";
+import "../../libs/dom-purify/dom-purify.js";
+import a5 from "../../libs/dexie/dexie.js";
+import a6 from "../../libs/typesense/typesense.js";
+import "../../libs/pako/pako.js";
+const s = "./";
 const l = "http://www.w3.org/2000/svg";
 const o = "http://www.w3.org/1999/xlink";
 const r = "http://www.w3.org/2000/xmlns/";
@@ -4383,9 +4383,9 @@ class Be extends ze {
                 ap.fillStyle = an;
                 ap.fillRect(0, 0, ak.naturalWidth, ak.naturalHeight);
                 ap.drawImage(ak, 0, 0);
-                let aq = (await import("/libs/upng/upng.js")).default;
+                let aq = (await import("../../libs/upng/upng.js")).default;
                 let { changeDpiBlob } = await import(
-                  "/libs/change-dpi/change-dpi.js"
+                  "../../libs/change-dpi/change-dpi.js"
                 );
                 let as = ap.getImageData(0, 0, ao.width, ao.height);
                 let at = aq.encode([as.data.buffer], as.width, as.height, am);
@@ -4422,7 +4422,7 @@ class Be extends ze {
                 as.fillRect(0, 0, an.naturalWidth, an.naturalHeight);
                 as.drawImage(an, 0, 0);
                 let { changeDpiBlob } = await import(
-                  "/libs/change-dpi/change-dpi.js"
+                  "../../libs/change-dpi/change-dpi.js"
                 );
                 let au = await ar.convertToBlob({
                   type: "image/jpeg",
@@ -4474,7 +4474,7 @@ class Be extends ze {
                   aq.naturalWidth,
                   aq.naturalHeight
                 );
-                let aw = new (0, (await import("/libs/gif/gif.js")).default)({
+                let aw = new (0, (await import("../../libs/gif/gif.js")).default)({
                   workers: 2,
                   quality: 1,
                   dither: at,
@@ -4525,7 +4525,7 @@ class Be extends ze {
       });
       a8 = await createImageBitmap(ac);
     }
-    this.#S = new Worker("/workers/primitivize.js");
+    this.#S = new Worker("../../workers/primitivize.js");
     this.#S.postMessage([a8, this.options]);
     this.#V = a9;
     this["#progress-bar"].value = 0;

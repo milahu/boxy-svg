@@ -1,12 +1,12 @@
-import z from "/libs/xel/xel.js";
-import "/libs/color/color.js";
-import "/libs/css-parser/css-parser.js";
-import "/libs/paper/paper.js";
-import "/libs/seed-random/seed-random.js";
-import "/libs/dom-purify/dom-purify.js";
-import A from "/libs/dexie/dexie.js";
-import B from "/libs/typesense/typesense.js";
-import "/libs/pako/pako.js";
+import z from "../../libs/xel/xel.js";
+import "../../libs/color/color.js";
+import "../../libs/css-parser/css-parser.js";
+import "../../libs/paper/paper.js";
+import "../../libs/seed-random/seed-random.js";
+import "../../libs/dom-purify/dom-purify.js";
+import A from "../../libs/dexie/dexie.js";
+import B from "../../libs/typesense/typesense.js";
+import "../../libs/pako/pako.js";
 const a = "http://www.w3.org/2000/svg";
 const n = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
 const o = ["text", "textPath", "tspan"];
@@ -2829,7 +2829,7 @@ class U extends C {
   }
   #O(D, E) {
     return new Promise((F) => {
-      let G = new Worker("/workers/vectorize.js");
+      let G = new Worker("../../workers/vectorize.js");
       G.addEventListener("message", (H) => F(H.data), false);
       G.postMessage([D, E]);
     });

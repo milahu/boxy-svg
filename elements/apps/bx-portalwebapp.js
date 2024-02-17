@@ -1,16 +1,16 @@
-import a2 from "/libs/xel/xel.js";
-import a3 from "/libs/color/color.js";
-import a4 from "/libs/css-parser/css-parser.js";
-import "/libs/paper/paper.js";
-import a5 from "/libs/seed-random/seed-random.js";
-import a6 from "/libs/dom-purify/dom-purify.js";
-import a7 from "/libs/dexie/dexie.js";
-import a8 from "/libs/typesense/typesense.js";
-import a9 from "/libs/pako/pako.js";
-import ab from "/libs/firebase/firebase.js";
-import ac from "/libs/prose-mirror/prose-mirror.js";
-import ad from "/libs/code-mirror/code-mirror-tiny.js";
-const d = "https://boxy-svg.com";
+import a2 from "../../libs/xel/xel.js";
+import a3 from "../../libs/color/color.js";
+import a4 from "../../libs/css-parser/css-parser.js";
+import "../../libs/paper/paper.js";
+import a5 from "../../libs/seed-random/seed-random.js";
+import a6 from "../../libs/dom-purify/dom-purify.js";
+import a7 from "../../libs/dexie/dexie.js";
+import a8 from "../../libs/typesense/typesense.js";
+import a9 from "../../libs/pako/pako.js";
+import ab from "../../libs/firebase/firebase.js";
+import ac from "../../libs/prose-mirror/prose-mirror.js";
+import ad from "../../libs/code-mirror/code-mirror-tiny.js";
+const d = "./";
 const u = "http://www.w3.org/2000/svg";
 const p = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
 const m = ["text", "textPath", "tspan"];
@@ -3810,7 +3810,7 @@ let Me = (af) =>
     }
     let ah = Me.t;
     let aj = null;
-    let ak = (await import("/libs/font-kit/font-kit.js")).default;
+    let ak = (await import("../../libs/font-kit/font-kit.js")).default;
     if (af instanceof FontFace) {
       let al = af.family + " " + af.weight + " " + af.style;
       if (ah[al]) {
@@ -3946,7 +3946,7 @@ class Re {
       if (af.src) {
         let aj = oe.fromString(af.src).items[0].url.value;
         let ak = await this.#g(aj, "arrayBuffer");
-        let al = (await import("/libs/font-kit/font-kit.js")).default.create(
+        let al = (await import("../../libs/font-kit/font-kit.js")).default.create(
           new Uint8Array(ak)
         );
         if (al) {
@@ -6413,7 +6413,7 @@ let ai = (af, ag) => {
 };
 class oi extends HTMLElement {
   static observedAttributes = ["name", "version"];
-  static #C = ie` <template> <div id="container"> <header part="header"> <img id="logo" src="/images/boxy-svg.svg" width="80px" height="80px"> <h1 id="name" part="name">Boxy SVG</h1> <h2 id="version"> <x-message href="#version"></x-message> <span id="version-number">0.0.0</span> </h2> </header> <main id="main" part="main"></main> <footer part="footer"> <h2 id="copyright">© 2012-${new Date().getFullYear()} <a href="http://foksa.name/">Jarosław Foksa</a></h2> </footer> </div> </template>
+  static #C = ie` <template> <div id="container"> <header part="header"> <img id="logo" src="./images/boxy-svg.svg" width="80px" height="80px"> <h1 id="name" part="name">Boxy SVG</h1> <h2 id="version"> <x-message href="#version"></x-message> <span id="version-number">0.0.0</span> </h2> </header> <main id="main" part="main"></main> <footer part="footer"> <h2 id="copyright">© 2012-${new Date().getFullYear()} <a href="http://foksa.name/">Jarosław Foksa</a></h2> </footer> </div> </template>
   `;
   static #S = se`
     :host {
@@ -6598,7 +6598,7 @@ class oi extends HTMLElement {
     this.#$ = si(this, "dialog");
     if (this["#main"].firstElementChild === null) {
       this["#main"].innerHTML = await (
-        await fetch("/templates/about.tpl")
+        await fetch("./templates/about.tpl")
       ).text();
       let af = this.#T.localName.endsWith("webapp");
       for (let ag of this["#main"].querySelectorAll("a")) {
@@ -8572,7 +8572,7 @@ class Di extends EventTarget {
   }
   getMetadata(af) {
     let ag;
-    ag = af.startsWith("https://storage.boxy-svg.com/")
+    ag = af.startsWith("./storage/")
       ? new URL(af).pathname
       : af;
     if (ag.startsWith("/")) {
@@ -9372,7 +9372,7 @@ class Fi extends HTMLElement {
         this["#img"].hidden = true;
       } else {
         this["#img"].src =
-          "https://storage.boxy-svg.com/avatars/" + this.value + ".png";
+          "./storage/avatars/" + this.value + ".png";
         this["#img"].hidden = false;
       }
     } else if (this.type === "random") {
@@ -9474,12 +9474,12 @@ class Ni extends ni {
   #Oe() {
     if (this.o.displayMode === "standalone") {
       window.open(
-        "/app/avatar",
+        "./app//app/avatar",
         "_blank",
         "noopener,menubar=no,toolbar=no,location=no,status=no"
       );
     } else {
-      window.open("/app/avatar", "_blank", "noopener");
+      window.open("./app//app/avatar", "_blank", "noopener");
     }
   }
   #_e() {
@@ -11855,7 +11855,7 @@ class Yi extends HTMLElement {
 customElements.define("bx-metabar", Yi);
 class Xi extends HTMLElement {
   static observedAttributes = ["collapsed"];
-  static #C = ie` <template> <div id="resize-grippie"></div> <main id="main"> <section id="branding-section"> <a id="logo-anchor" href="/" tabindex="-1"> <img id="logo" src="/images/boxy-svg.svg" alt="Boxy SVG logo" width="50px" height="50px" fetchpriority="high"> </a> <a id="heading-anchor" href="/" tabindex="-1"> <h1 part="heading">Boxy SVG</h1> </a> </section> <hr> <section id="locale-section"> <x-icon href="#locale"></x-icon> <x-select id="locale-select"> <x-menu id="locale-select-menu"></x-menu> </x-select> </section> <hr> <section id="nav-section"> <x-buttons id="nav-buttons" tracking="1"> <a id="home-anchor"> <x-button id="home-button" skin="nav" data-context="home"> <x-icon href="#home"></x-icon> <x-label><x-message href="#home"></x-message></x-label> <x-tooltip><x-label><x-message href="#home"></x-message></x-label></x-tooltip> </x-button> </a> <a id="blog-anchor"> <x-button id="blog-button" skin="nav" data-context="blog"> <x-icon href="#blog"></x-icon> <x-label><x-message href="#blog"></x-message></x-label> <x-tooltip><x-label><x-message href="#blog"></x-message></x-label></x-tooltip> </x-button> </a> <a id="ideas-anchor"> <x-button id="ideas-button" skin="nav" data-context="ideas"> <x-icon href="#ideas"></x-icon> <x-label class="label"><x-message href="#ideas"></x-message></x-label> <x-tooltip><x-label><x-message href="#ideas"></x-message></x-label></x-tooltip> </x-button> </a> <a id="bugs-anchor"> <x-button id="bugs-button" skin="nav" data-context="bugs"> <x-icon href="#bugs"></x-icon> <x-label class="label"><x-message href="#bugs"></x-message></x-label> <x-tooltip><x-label><x-message href="#bugs"></x-message></x-label></x-tooltip> </x-button> </a> <a id="questions-anchor"> <x-button id="questions-button" skin="nav" data-context="questions"> <x-icon href="#questions"></x-icon> <x-label class="label"><x-message href="#questions"></x-message></x-label> <x-tooltip><x-label><x-message href="#questions"></x-message></x-label></x-tooltip> </x-button> </a> <a id="tutorials-anchor"> <x-button id="tutorials-button" skin="nav" data-context="tutorials"> <x-icon href="#tutorials"></x-icon> <x-label class="label"><x-message href="#tutorials"></x-message></x-label> <x-tooltip><x-label><x-message href="#tutorials"></x-message></x-label></x-tooltip> </x-button> </a> <a id="changelog-anchor"> <x-button id="changelog-button" skin="nav" data-context="changelog"> <x-icon href="#document"></x-icon> <x-label class="label"><x-message href="#changelog"></x-message></x-label> <x-tooltip><x-label><x-message href="#changelog"></x-message></x-label></x-tooltip> </x-button> </a> <a id="embed-anchor"> <x-button id="embed-button" skin="nav" data-context="embed"> <x-icon href="#settings-markup"></x-icon> <x-label class="label"><x-message href="#embed"></x-message></x-label> <x-tooltip><x-label><x-message href="#embed"></x-message></x-label></x-tooltip> </x-button> </a> <a id="search-anchor"> <x-button id="search-button" skin="nav" data-context="search"> <x-icon href="#search"></x-icon> <x-label class="label"><x-message href="#search"></x-message></x-label> <x-tooltip><x-label><x-message href="#search"></x-message></x-label></x-tooltip> </x-button> </a> </x-buttons> </section> <section id="launch-section"> <a id="launch-anchor" href="/app" target="_blank"> <x-button id="launch-button" skin="header" size="large" toggled> <x-icon href="#open"></x-icon> <x-label><x-message href="#launch-app"></x-message></x-label> <x-tooltip><x-label><x-message href="#launch-app"></x-message></x-label></x-tooltip> </x-button> </a> </section> <hr> <section id="settings-section"> <bx-metabar id="metabar"></bx-metabar> </section> <hr> <section id="footer-section"> <span><a id="about-anchor" href="?dialog=about"><x-message href="#about"></x-message></a></span> <span><a id="contact-anchor" href="?dialog=contact"><x-message href="#contact"></x-message></a></span> <span><a href="/press"><x-message href="#press"></x-message></a></span> <span><a href="/legal"><x-message href="#legal"></x-message></a></span> </section> </main> </template>
+  static #C = ie` <template> <div id="resize-grippie"></div> <main id="main"> <section id="branding-section"> <a id="logo-anchor" href="/" tabindex="-1"> <img id="logo" src="./images/boxy-svg.svg" alt="Boxy SVG logo" width="50px" height="50px" fetchpriority="high"> </a> <a id="heading-anchor" href="/" tabindex="-1"> <h1 part="heading">Boxy SVG</h1> </a> </section> <hr> <section id="locale-section"> <x-icon href="#locale"></x-icon> <x-select id="locale-select"> <x-menu id="locale-select-menu"></x-menu> </x-select> </section> <hr> <section id="nav-section"> <x-buttons id="nav-buttons" tracking="1"> <a id="home-anchor"> <x-button id="home-button" skin="nav" data-context="home"> <x-icon href="#home"></x-icon> <x-label><x-message href="#home"></x-message></x-label> <x-tooltip><x-label><x-message href="#home"></x-message></x-label></x-tooltip> </x-button> </a> <a id="blog-anchor"> <x-button id="blog-button" skin="nav" data-context="blog"> <x-icon href="#blog"></x-icon> <x-label><x-message href="#blog"></x-message></x-label> <x-tooltip><x-label><x-message href="#blog"></x-message></x-label></x-tooltip> </x-button> </a> <a id="ideas-anchor"> <x-button id="ideas-button" skin="nav" data-context="ideas"> <x-icon href="#ideas"></x-icon> <x-label class="label"><x-message href="#ideas"></x-message></x-label> <x-tooltip><x-label><x-message href="#ideas"></x-message></x-label></x-tooltip> </x-button> </a> <a id="bugs-anchor"> <x-button id="bugs-button" skin="nav" data-context="bugs"> <x-icon href="#bugs"></x-icon> <x-label class="label"><x-message href="#bugs"></x-message></x-label> <x-tooltip><x-label><x-message href="#bugs"></x-message></x-label></x-tooltip> </x-button> </a> <a id="questions-anchor"> <x-button id="questions-button" skin="nav" data-context="questions"> <x-icon href="#questions"></x-icon> <x-label class="label"><x-message href="#questions"></x-message></x-label> <x-tooltip><x-label><x-message href="#questions"></x-message></x-label></x-tooltip> </x-button> </a> <a id="tutorials-anchor"> <x-button id="tutorials-button" skin="nav" data-context="tutorials"> <x-icon href="#tutorials"></x-icon> <x-label class="label"><x-message href="#tutorials"></x-message></x-label> <x-tooltip><x-label><x-message href="#tutorials"></x-message></x-label></x-tooltip> </x-button> </a> <a id="changelog-anchor"> <x-button id="changelog-button" skin="nav" data-context="changelog"> <x-icon href="#document"></x-icon> <x-label class="label"><x-message href="#changelog"></x-message></x-label> <x-tooltip><x-label><x-message href="#changelog"></x-message></x-label></x-tooltip> </x-button> </a> <a id="embed-anchor"> <x-button id="embed-button" skin="nav" data-context="embed"> <x-icon href="#settings-markup"></x-icon> <x-label class="label"><x-message href="#embed"></x-message></x-label> <x-tooltip><x-label><x-message href="#embed"></x-message></x-label></x-tooltip> </x-button> </a> <a id="search-anchor"> <x-button id="search-button" skin="nav" data-context="search"> <x-icon href="#search"></x-icon> <x-label class="label"><x-message href="#search"></x-message></x-label> <x-tooltip><x-label><x-message href="#search"></x-message></x-label></x-tooltip> </x-button> </a> </x-buttons> </section> <section id="launch-section"> <a id="launch-anchor" href="./app" target="_blank"> <x-button id="launch-button" skin="header" size="large" toggled> <x-icon href="#open"></x-icon> <x-label><x-message href="#launch-app"></x-message></x-label> <x-tooltip><x-label><x-message href="#launch-app"></x-message></x-label></x-tooltip> </x-button> </a> </section> <hr> <section id="settings-section"> <bx-metabar id="metabar"></bx-metabar> </section> <hr> <section id="footer-section"> <span><a id="about-anchor" href="?dialog=about"><x-message href="#about"></x-message></a></span> <span><a id="contact-anchor" href="?dialog=contact"><x-message href="#contact"></x-message></a></span> <span><a href="/press"><x-message href="#press"></x-message></a></span> <span><a href="/legal"><x-message href="#legal"></x-message></a></span> </section> </main> </template>
   `;
   static #S = se`
     :host {
@@ -12231,7 +12231,7 @@ class Xi extends HTMLElement {
       if (
         origin === location.origin &&
         pathname.startsWith("/") &&
-        pathname !== "/app"
+        pathname !== "./app"
       ) {
         af.preventDefault();
         this.#T.navigate(ag.href);
@@ -12370,7 +12370,7 @@ class Xi extends HTMLElement {
 }
 customElements.define("bx-navbar", Xi);
 class Ji extends HTMLElement {
-  static #C = ie` <template> <img src="/images/boxy-svg.svg" alt="Boxy SVG logo" width="120px" height="120px" fetchpriority="high"> <h1 part="heading">Boxy SVG</h1> <h2 part="subheading"><x-message href="#scalable-vector-graphics-editor"></x-message></h2> </template>
+  static #C = ie` <template> <img src="./images/boxy-svg.svg" alt="Boxy SVG logo" width="120px" height="120px" fetchpriority="high"> <h1 part="heading">Boxy SVG</h1> <h2 part="subheading"><x-message href="#scalable-vector-graphics-editor"></x-message></h2> </template>
   `;
   static #S = se`
     :host {
@@ -12424,7 +12424,7 @@ class Ji extends HTMLElement {
 }
 customElements.define("bx-headerblock", Ji);
 class Qi extends HTMLElement {
-  static #C = ie` <template> <div id="intro-text"> <x-message href="#app-description-short"></x-message> </div> <a href="/app" target="_blank" id="launch-app-anchor"> <x-button id="launch-app-button" skin="header" toggled> <x-icon href="#open"></x-icon> <x-label><x-message href="#launch-app"></x-message></x-label> </x-button> </a> </template>
+  static #C = ie` <template> <div id="intro-text"> <x-message href="#app-description-short"></x-message> </div> <a href="./app" target="_blank" id="launch-app-anchor"> <x-button id="launch-app-button" skin="header" toggled> <x-icon href="#open"></x-icon> <x-label><x-message href="#launch-app"></x-message></x-label> </x-button> </a> </template>
   `;
   static #S = se`
     :host {
@@ -12828,7 +12828,7 @@ class es extends HTMLElement {
     if (this.throbber === false) {
       this["#thumbnail"].hidden = false;
       this["#thumbnail"].src =
-        "https://storage.boxy-svg.com/artworks/" + this.value + ".png";
+        "./storage/artworks/" + this.value + ".png";
       this["#throbber"].hidden = true;
     } else {
       this["#thumbnail"].hidden = true;
@@ -12853,7 +12853,7 @@ if (customElements.get("bx-cloudfilepreview") === undefined) {
   customElements.define("bx-cloudfilepreview", es);
 }
 class ts extends HTMLElement {
-  static #C = ie` <template> <main id="main"> <h3><x-message href="#live-demo"></x-message></h3> <p><x-message href="#live-demo-hint"></x-message></p> <div id="items"> <a href="/app/-LYzdDlq8VjMN2Bl9HUD" target="_blank"> <bx-cloudfilepreview value="-LYzdDlq8VjMN2Bl9HUD" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LYgyzb88SCpJUl7gX90" target="_blank"> <bx-cloudfilepreview value="-LYgyzb88SCpJUl7gX90" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTc2une_8JtTkYo-5f" target="_blank"> <bx-cloudfilepreview value="-LZTc2une_8JtTkYo-5f" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LYgzGKeBXA-G2mfb7WG" target="_blank"> <bx-cloudfilepreview value="-LYgzGKeBXA-G2mfb7WG" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LYgz5nLXlz4Ao0RgrPq" target="_blank"> <bx-cloudfilepreview value="-LYgz5nLXlz4Ao0RgrPq" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTa9ZcpvUBMChd1-jc" target="_blank"> <bx-cloudfilepreview value="-LZTa9ZcpvUBMChd1-jc" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTcQ2XxWmLFiMHIif_" target="_blank"> <bx-cloudfilepreview value="-LZTcQ2XxWmLFiMHIif_" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTce0ULMNZW_iGGi0_" target="_blank"> <bx-cloudfilepreview value="-LZTce0ULMNZW_iGGi0_" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZT_kgM3DaZxqKRPPwy" target="_blank"> <bx-cloudfilepreview value="-LZT_kgM3DaZxqKRPPwy" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTaT_p33ZVSikjDgrn" target="_blank"> <bx-cloudfilepreview value="-LZTaT_p33ZVSikjDgrn" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTbRDkQe2L2kWYhety" target="_blank"> <bx-cloudfilepreview value="-LZTbRDkQe2L2kWYhety" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTd3leeSFbl_73Unfv" target="_blank"> <bx-cloudfilepreview value="-LZTd3leeSFbl_73Unfv" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZT_IJcQVKTJ6OK_ar8" target="_blank"> <bx-cloudfilepreview value="-LZT_IJcQVKTJ6OK_ar8" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTahHRSRXnFr1RaHZC" target="_blank"> <bx-cloudfilepreview value="-LZTahHRSRXnFr1RaHZC" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTb4z9OwCTNhQaxnEx" target="_blank"> <bx-cloudfilepreview value="-LZTb4z9OwCTNhQaxnEx" part="preview"></bx-cloudfilepreview> </a> <a href="/app/-LZTfGP2359sW4GS4dxb" target="_blank"> <bx-cloudfilepreview value="-LZTfGP2359sW4GS4dxb" part="preview"></bx-cloudfilepreview> </a> </div> </main> </template>
+  static #C = ie` <template> <main id="main"> <h3><x-message href="#live-demo"></x-message></h3> <p><x-message href="#live-demo-hint"></x-message></p> <div id="items"> <a href="./app//app/-LYzdDlq8VjMN2Bl9HUD" target="_blank"> <bx-cloudfilepreview value="-LYzdDlq8VjMN2Bl9HUD" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LYgyzb88SCpJUl7gX90" target="_blank"> <bx-cloudfilepreview value="-LYgyzb88SCpJUl7gX90" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTc2une_8JtTkYo-5f" target="_blank"> <bx-cloudfilepreview value="-LZTc2une_8JtTkYo-5f" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LYgzGKeBXA-G2mfb7WG" target="_blank"> <bx-cloudfilepreview value="-LYgzGKeBXA-G2mfb7WG" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LYgz5nLXlz4Ao0RgrPq" target="_blank"> <bx-cloudfilepreview value="-LYgz5nLXlz4Ao0RgrPq" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTa9ZcpvUBMChd1-jc" target="_blank"> <bx-cloudfilepreview value="-LZTa9ZcpvUBMChd1-jc" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTcQ2XxWmLFiMHIif_" target="_blank"> <bx-cloudfilepreview value="-LZTcQ2XxWmLFiMHIif_" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTce0ULMNZW_iGGi0_" target="_blank"> <bx-cloudfilepreview value="-LZTce0ULMNZW_iGGi0_" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZT_kgM3DaZxqKRPPwy" target="_blank"> <bx-cloudfilepreview value="-LZT_kgM3DaZxqKRPPwy" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTaT_p33ZVSikjDgrn" target="_blank"> <bx-cloudfilepreview value="-LZTaT_p33ZVSikjDgrn" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTbRDkQe2L2kWYhety" target="_blank"> <bx-cloudfilepreview value="-LZTbRDkQe2L2kWYhety" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTd3leeSFbl_73Unfv" target="_blank"> <bx-cloudfilepreview value="-LZTd3leeSFbl_73Unfv" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZT_IJcQVKTJ6OK_ar8" target="_blank"> <bx-cloudfilepreview value="-LZT_IJcQVKTJ6OK_ar8" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTahHRSRXnFr1RaHZC" target="_blank"> <bx-cloudfilepreview value="-LZTahHRSRXnFr1RaHZC" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTb4z9OwCTNhQaxnEx" target="_blank"> <bx-cloudfilepreview value="-LZTb4z9OwCTNhQaxnEx" part="preview"></bx-cloudfilepreview> </a> <a href="./app//app/-LZTfGP2359sW4GS4dxb" target="_blank"> <bx-cloudfilepreview value="-LZTfGP2359sW4GS4dxb" part="preview"></bx-cloudfilepreview> </a> </div> </main> </template>
   `;
   static #S = se`
     :host {
@@ -12930,16 +12930,16 @@ class ts extends HTMLElement {
 }
 customElements.define("bx-demoblock", ts);
 let is = {
-  ui: "https://storage.boxy-svg.com/artworks/-M538anEpEaHc8nctPwz.svg",
-  svg: "https://storage.boxy-svg.com/artworks/-M52fICO8STo3jd7f3h-.svg",
-  filters: "https://storage.boxy-svg.com/artworks/-M53G22SpckyLLTDWdKC.svg",
-  typography: "https://storage.boxy-svg.com/artworks/-M538swplS6o-0WSX9gT.svg",
-  developer: "https://storage.boxy-svg.com/artworks/-M539HDvYB3OU3xq88gc.svg",
-  export: "https://storage.boxy-svg.com/artworks/-M53A7hg2lfqGOxkFpyD.svg",
-  library: "https://storage.boxy-svg.com/artworks/-M539obL12yiuWowe01C.svg",
-  tracing: "https://storage.boxy-svg.com/artworks/-MIbjeYwL8MnSm_Eq0if.svg",
-  symbols: "https://storage.boxy-svg.com/artworks/-MIbjhwuFbRk_NV2Xuy-.svg",
-  thumbnails: "https://storage.boxy-svg.com/artworks/-Mfmib4taXaHpujTANsc.svg",
+  ui: "./storage/artworks/-M538anEpEaHc8nctPwz.svg",
+  svg: "./storage/artworks/-M52fICO8STo3jd7f3h-.svg",
+  filters: "./storage/artworks/-M53G22SpckyLLTDWdKC.svg",
+  typography: "./storage/artworks/-M538swplS6o-0WSX9gT.svg",
+  developer: "./storage/artworks/-M539HDvYB3OU3xq88gc.svg",
+  export: "./storage/artworks/-M53A7hg2lfqGOxkFpyD.svg",
+  library: "./storage/artworks/-M539obL12yiuWowe01C.svg",
+  tracing: "./storage/artworks/-MIbjeYwL8MnSm_Eq0if.svg",
+  symbols: "./storage/artworks/-MIbjhwuFbRk_NV2Xuy-.svg",
+  thumbnails: "./storage/artworks/-Mfmib4taXaHpujTANsc.svg",
 };
 class ss extends HTMLElement {
   static observedAttributes = ["value"];
@@ -13080,7 +13080,7 @@ class ss extends HTMLElement {
       user-drag: none;
       -webkit-user-drag: none;
     }
-    #image[src="https://storage.boxy-svg.com/artworks/-M539obL12yiuWowe01C.svg"] {
+    #image[src="./storage/artworks/-M539obL12yiuWowe01C.svg"] {
       background: none;
       border: none;
     }
@@ -14680,7 +14680,7 @@ let ds = (af, ag = "svg", ah = true) => {
 let us = Symbol();
 class ps extends HTMLElement {
   static observedAttributes = ["spellcheck", "readonly", "disabled"];
-  static #C = ie` <template> <link rel="stylesheet" href="/libs/prose-mirror/prose-mirror.css"> <div id="toolbar"> <x-buttons id="inline-buttons" tracking="2"> <x-button id="bold-button" value="bold" condensed> <x-icon href="#bold"></x-icon> <x-tooltip> <x-message href="#bold"></x-message> <x-shortcut value="Control+B"></x-shortcut> </x-tooltip> </x-button> <x-button id="italic-button" value="italic" condensed> <x-icon href="#italic"></x-icon> <x-tooltip> <x-message href="#italic"></x-message> <x-shortcut value="Control+I"></x-shortcut> </x-tooltip> </x-button> <x-button id="underline-button" value="underline" condensed> <x-icon href="#underline"></x-icon> <x-tooltip> <x-message href="#underline"></x-message> <x-shortcut value="Control+U"></x-shortcut> </x-tooltip> </x-button> <x-button id="strikethrough-button" value="strikethrough" condensed> <x-icon href="#strikethrough"></x-icon> <x-tooltip> <x-message href="#strikethrough"></x-message> <x-shortcut value="Control+Shift+X"></x-shortcut> </x-tooltip> </x-button> <x-button id="highlight-button" value="highlight" condensed> <x-icon href="#highlight"></x-icon> <x-tooltip> <x-message href="#highlight"></x-message> <x-shortcut value="Control+Shift+H"></x-shortcut> </x-tooltip> </x-button> <x-button id="code-button" value="code" condensed> <x-icon href="#code"></x-icon> <x-tooltip> <x-message href="#code"></x-message> <x-shortcut value="Control+E"></x-shortcut> </x-tooltip> </x-button> </x-buttons> <x-buttons id="block-buttons" tracking="1"> <x-button id="heading-button" value="heading" condensed> <x-icon href="#heading"></x-icon> <x-tooltip> <x-message href="#heading"></x-message> </x-tooltip> </x-button> <x-button id="subheading-button" value="subheading" condensed> <x-icon href="#subheading"></x-icon> <x-tooltip> <x-message href="#subheading"></x-message> </x-tooltip> </x-button> <x-button id="paragraph-button" value="paragraph" condensed> <x-icon href="#paragraph"></x-icon> <x-tooltip> <x-message href="#paragraph"></x-message> </x-tooltip> </x-button> <x-button id="unordered-list-button" value="unordered-list" condensed> <x-icon href="#unordered-list"></x-icon> <x-tooltip> <x-message href="#unordered-list"></x-message> </x-tooltip> </x-button> <x-button id="ordered-list-button" value="ordered-list" condensed> <x-icon href="#ordered-list"></x-icon> <x-tooltip> <x-message href="#ordered-list"></x-message> </x-tooltip> </x-button> </x-buttons> <x-buttons id="language-buttons" tracking="0"> <x-button value="svg" condensed> <x-icon href="#logo-svg"></x-icon> <x-tooltip>SVG</x-tooltip> </x-button> <x-button value="html" condensed> <x-icon href="#logo-html"></x-icon> <x-tooltip>HTML</x-tooltip> </x-button> <x-button value="css" condensed> <x-icon href="#logo-css"></x-icon> <x-tooltip>CSS</x-tooltip> </x-button> <x-button value="js" condensed> <x-icon href="#logo-js"></x-icon> <x-tooltip>JavaScript</x-tooltip> </x-button> </x-buttons> <x-input id="alt-input"> <x-label><x-message href="#none"></x-message></x-label> <x-tooltip><x-message href="#alternative-text"></x-message></x-tooltip> </x-input> <x-numberinput id="size-input" suffix="%" min="10" max="100" condensed> <x-label><x-message href="#size.auto"></x-message></x-label> <x-stepper></x-stepper> <x-tooltip><x-message href="#size"></x-message></x-tooltip> </x-numberinput> <x-buttons id="nesting-buttons" tracking="-1"> <x-button id="decrease-indent-button" value="decrease-indent" condensed> <x-icon href="#decrease-indent"></x-icon> <x-tooltip> <x-message href="#decrease-indent"></x-message> <x-shortcut value="Control+["></x-shortcut> </x-tooltip> </x-button> <x-button id="increase-indent-button" value="increase-indent" condensed> <x-icon href="#increase-indent"></x-icon> <x-tooltip> <x-message href="#increase-indent"></x-message> <x-shortcut value="Control+]"></x-shortcut> </x-tooltip> </x-button> </x-buttons> <x-box id="link-box"> <x-button id="link-button" value="link" condensed> <x-icon href="#link"></x-icon> <x-tooltip> <x-message href="#link"></x-message> <x-shortcut value="Control+K"></x-shortcut> </x-tooltip> </x-button> <x-input id="link-input"> <x-label><x-message href="#url"></x-message></x-label> </x-input> </x-box> <x-button id="insert-button" condensed> <x-icon href="#plus"></x-icon> <x-tooltip> <x-message href="#add"></x-message> </x-tooltip> <x-menu id="insert-menu"> <x-menuitem id="image-menuitem" value="image"> <x-icon href="#image"></x-icon> <x-label><x-message href="#image"></x-message></x-label> </x-menuitem> <x-menuitem id="code-block-menuitem" value="code-block"> <x-icon href="#code-block"></x-icon> <x-label><x-message href="#code-block"></x-message></x-label> </x-menuitem> <x-menuitem id="separator-menuitem" value="separator"> <x-icon href="#separator"></x-icon> <x-label><x-message href="#separator"></x-message></x-label> </x-menuitem> </x-menu> </x-button> </div> <article id="editor-wrapper"></article> <input id="image-input" type="file" accept=".svg,.svgz,.jpg,.jpeg,.png,.webp,.gif" hidden> <slot></slot> </template>
+  static #C = ie` <template> <link rel="stylesheet" href="../../libs/prose-mirror/prose-mirror.css"> <div id="toolbar"> <x-buttons id="inline-buttons" tracking="2"> <x-button id="bold-button" value="bold" condensed> <x-icon href="#bold"></x-icon> <x-tooltip> <x-message href="#bold"></x-message> <x-shortcut value="Control+B"></x-shortcut> </x-tooltip> </x-button> <x-button id="italic-button" value="italic" condensed> <x-icon href="#italic"></x-icon> <x-tooltip> <x-message href="#italic"></x-message> <x-shortcut value="Control+I"></x-shortcut> </x-tooltip> </x-button> <x-button id="underline-button" value="underline" condensed> <x-icon href="#underline"></x-icon> <x-tooltip> <x-message href="#underline"></x-message> <x-shortcut value="Control+U"></x-shortcut> </x-tooltip> </x-button> <x-button id="strikethrough-button" value="strikethrough" condensed> <x-icon href="#strikethrough"></x-icon> <x-tooltip> <x-message href="#strikethrough"></x-message> <x-shortcut value="Control+Shift+X"></x-shortcut> </x-tooltip> </x-button> <x-button id="highlight-button" value="highlight" condensed> <x-icon href="#highlight"></x-icon> <x-tooltip> <x-message href="#highlight"></x-message> <x-shortcut value="Control+Shift+H"></x-shortcut> </x-tooltip> </x-button> <x-button id="code-button" value="code" condensed> <x-icon href="#code"></x-icon> <x-tooltip> <x-message href="#code"></x-message> <x-shortcut value="Control+E"></x-shortcut> </x-tooltip> </x-button> </x-buttons> <x-buttons id="block-buttons" tracking="1"> <x-button id="heading-button" value="heading" condensed> <x-icon href="#heading"></x-icon> <x-tooltip> <x-message href="#heading"></x-message> </x-tooltip> </x-button> <x-button id="subheading-button" value="subheading" condensed> <x-icon href="#subheading"></x-icon> <x-tooltip> <x-message href="#subheading"></x-message> </x-tooltip> </x-button> <x-button id="paragraph-button" value="paragraph" condensed> <x-icon href="#paragraph"></x-icon> <x-tooltip> <x-message href="#paragraph"></x-message> </x-tooltip> </x-button> <x-button id="unordered-list-button" value="unordered-list" condensed> <x-icon href="#unordered-list"></x-icon> <x-tooltip> <x-message href="#unordered-list"></x-message> </x-tooltip> </x-button> <x-button id="ordered-list-button" value="ordered-list" condensed> <x-icon href="#ordered-list"></x-icon> <x-tooltip> <x-message href="#ordered-list"></x-message> </x-tooltip> </x-button> </x-buttons> <x-buttons id="language-buttons" tracking="0"> <x-button value="svg" condensed> <x-icon href="#logo-svg"></x-icon> <x-tooltip>SVG</x-tooltip> </x-button> <x-button value="html" condensed> <x-icon href="#logo-html"></x-icon> <x-tooltip>HTML</x-tooltip> </x-button> <x-button value="css" condensed> <x-icon href="#logo-css"></x-icon> <x-tooltip>CSS</x-tooltip> </x-button> <x-button value="js" condensed> <x-icon href="#logo-js"></x-icon> <x-tooltip>JavaScript</x-tooltip> </x-button> </x-buttons> <x-input id="alt-input"> <x-label><x-message href="#none"></x-message></x-label> <x-tooltip><x-message href="#alternative-text"></x-message></x-tooltip> </x-input> <x-numberinput id="size-input" suffix="%" min="10" max="100" condensed> <x-label><x-message href="#size.auto"></x-message></x-label> <x-stepper></x-stepper> <x-tooltip><x-message href="#size"></x-message></x-tooltip> </x-numberinput> <x-buttons id="nesting-buttons" tracking="-1"> <x-button id="decrease-indent-button" value="decrease-indent" condensed> <x-icon href="#decrease-indent"></x-icon> <x-tooltip> <x-message href="#decrease-indent"></x-message> <x-shortcut value="Control+["></x-shortcut> </x-tooltip> </x-button> <x-button id="increase-indent-button" value="increase-indent" condensed> <x-icon href="#increase-indent"></x-icon> <x-tooltip> <x-message href="#increase-indent"></x-message> <x-shortcut value="Control+]"></x-shortcut> </x-tooltip> </x-button> </x-buttons> <x-box id="link-box"> <x-button id="link-button" value="link" condensed> <x-icon href="#link"></x-icon> <x-tooltip> <x-message href="#link"></x-message> <x-shortcut value="Control+K"></x-shortcut> </x-tooltip> </x-button> <x-input id="link-input"> <x-label><x-message href="#url"></x-message></x-label> </x-input> </x-box> <x-button id="insert-button" condensed> <x-icon href="#plus"></x-icon> <x-tooltip> <x-message href="#add"></x-message> </x-tooltip> <x-menu id="insert-menu"> <x-menuitem id="image-menuitem" value="image"> <x-icon href="#image"></x-icon> <x-label><x-message href="#image"></x-message></x-label> </x-menuitem> <x-menuitem id="code-block-menuitem" value="code-block"> <x-icon href="#code-block"></x-icon> <x-label><x-message href="#code-block"></x-message></x-label> </x-menuitem> <x-menuitem id="separator-menuitem" value="separator"> <x-icon href="#separator"></x-icon> <x-label><x-message href="#separator"></x-message></x-label> </x-menuitem> </x-menu> </x-button> </div> <article id="editor-wrapper"></article> <input id="image-input" type="file" accept=".svg,.svgz,.jpg,.jpeg,.png,.webp,.gif" hidden> <slot></slot> </template>
   `;
   static #S = se`
     :host {
@@ -16112,7 +16112,7 @@ class bs extends HTMLElement {
     }
   }
 }
-const fs = "https://storage.boxy-svg.com/artworks/-Nm_AjKqYsA_iDxqe_jA.svg";
+const fs = "./storage/artworks/-Nm_AjKqYsA_iDxqe_jA.svg";
 class ws extends bs {
   static observedAttributes = ["type"];
   static v = ie` <template> <x-box id="heading-box"> <h2 id="heading"><x-message id="heading-message"></x-message></h2> <bx-avatar id="avatar"></bx-avatar> </x-box> <section id="title-section"> <h3><x-message href="#title"></x-message></h3> <x-input id="title-input" validation="manual" maxlength="135"></x-input> </section> <section id="banner-section"> <h3><x-message href="#banner-image"></x-message></h3> <x-input id="banner-input" type="url"> <x-label>${fs}</x-label> </x-input> </section> <section id="description-section"> <h3><x-message href="#description"></x-message></h3> <bx-richtextarea id="description-textarea" spellcheck></bx-richtextarea> </section> <section id="options-section"> <x-checkbox id="watch-checkbox" toggled> <x-label><strong><x-message href="#watch-thread"></x-message></strong></x-label> <x-label><x-message href="#watch-thread.detail"></x-message></x-label> </x-checkbox> </section> </template>
@@ -17229,7 +17229,7 @@ class Cs extends HTMLElement {
       let [ah, aj] = af.split("/");
       this["#user-agent-button"].hidden = false;
       this["#user-agent-icon"].href =
-        "/images/iconsets/user-agents.svg#" + ah.toLowerCase();
+        "./images/iconsets/user-agents.svg#" + ah.toLowerCase();
       let ak = "<strong>" + ah + "</strong>";
       if (aj !== undefined) {
         ak += " " + aj;
@@ -19164,7 +19164,7 @@ class zs extends HTMLElement {
   #A() {
     let af = this.#Ui.messageID.substring(this.#Ui.messageID.indexOf("-") + 1);
     this["#thumbnail"].src =
-      "https://storage.boxy-svg.com/artworks/" + this.#Ui.thumbnailUID + ".svg";
+      "./storage/artworks/" + this.#Ui.thumbnailUID + ".svg";
     this["#thumbnail-anchor"].href =
       "/tutorials/" + this.#Ui.videoUID + "/" + af;
     this["#title-anchor"].href = "/tutorials/" + this.#Ui.videoUID + "/" + af;
@@ -27625,7 +27625,7 @@ class ca extends ns {
     }
     return (this.#sa = new Promise(async (af) => {
       let ag =
-        "https://storage.boxy-svg.com/artworks/" + this.artworkID + ".svg";
+        "./storage/artworks/" + this.artworkID + ".svg";
       let ah = null;
       let aj = null;
       let ak = null;
@@ -28131,14 +28131,14 @@ class ma extends ns {
 }
 customElements.define("bx-legalsubpage", ma);
 let xa = [
-  "https://storage.boxy-svg.com/linux/screenshot-1.png",
-  "https://storage.boxy-svg.com/linux/screenshot-2.png",
-  "https://storage.boxy-svg.com/linux/screenshot-3.png",
-  "https://storage.boxy-svg.com/linux/screenshot-4.png",
-  "https://storage.boxy-svg.com/linux/screenshot-5.png",
+  "./storage/linux/screenshot-1.png",
+  "./storage/linux/screenshot-2.png",
+  "./storage/linux/screenshot-3.png",
+  "./storage/linux/screenshot-4.png",
+  "./storage/linux/screenshot-5.png",
 ];
 class ga extends ns {
-  static _shadowTemplate = ie` <template> <header id="header"> <bx-pagebreadcrumb id="breadcrumb"></bx-pagebreadcrumb> </header> <main id="main"> <x-card> <main> <article> <h2><x-message href="#press"></x-message></h2> <x-message href="#press-hint"></x-message> </article> </main> </x-card> <hr> <x-card id="icons-card" skin="document"> <main> <article> <h2><x-message href="#icons"></x-message></h2> <x-box> <x-box vertical> <h3><x-message href="#icon.normal"></x-message></h3> <img id="normal-icon-img" src="/images/boxy-svg.svg"> </x-box> <x-box vertical> <h3><x-message href="#icon.monochromatic"></x-message></h3> <img id="monochromatic-icon-img"> </x-box> </x-box> </article> </main> </x-card> <hr> <x-card id="screenshots-card" skin="document"> <main> <article> <h2><x-message href="#screenshots"></x-message></h2> <a href="${xa[0]}" target="_blank"> <img src="${xa[0]}"> </a> <a href="${xa[1]}" target="_blank"> <img src="${xa[1]}"> </a> <a href="${xa[2]}" target="_blank"> <img src="${xa[2]}"> </a> <a href="${xa[3]}" target="_blank"> <img src="${xa[3]}"> </a> <a href="${xa[4]}" target="_blank"> <img src="${xa[4]}"> </a> </article> </main> </x-card> <hr> <x-card id="description-card" skin="document"> <main> <article> <h2><x-message href="#description"></x-message></h2> <h3>Boxy SVG</h3> <p><strong><x-message href="#scalable-vector-graphics-editor"></x-message></strong></p> <x-message href="#app-description-long"></x-message> </article> </main> </x-card> </main> </template>
+  static _shadowTemplate = ie` <template> <header id="header"> <bx-pagebreadcrumb id="breadcrumb"></bx-pagebreadcrumb> </header> <main id="main"> <x-card> <main> <article> <h2><x-message href="#press"></x-message></h2> <x-message href="#press-hint"></x-message> </article> </main> </x-card> <hr> <x-card id="icons-card" skin="document"> <main> <article> <h2><x-message href="#icons"></x-message></h2> <x-box> <x-box vertical> <h3><x-message href="#icon.normal"></x-message></h3> <img id="normal-icon-img" src="./images/boxy-svg.svg"> </x-box> <x-box vertical> <h3><x-message href="#icon.monochromatic"></x-message></h3> <img id="monochromatic-icon-img"> </x-box> </x-box> </article> </main> </x-card> <hr> <x-card id="screenshots-card" skin="document"> <main> <article> <h2><x-message href="#screenshots"></x-message></h2> <a href="${xa[0]}" target="_blank"> <img src="${xa[0]}"> </a> <a href="${xa[1]}" target="_blank"> <img src="${xa[1]}"> </a> <a href="${xa[2]}" target="_blank"> <img src="${xa[2]}"> </a> <a href="${xa[3]}" target="_blank"> <img src="${xa[3]}"> </a> <a href="${xa[4]}" target="_blank"> <img src="${xa[4]}"> </a> </article> </main> </x-card> <hr> <x-card id="description-card" skin="document"> <main> <article> <h2><x-message href="#description"></x-message></h2> <h3>Boxy SVG</h3> <p><strong><x-message href="#scalable-vector-graphics-editor"></x-message></strong></p> <x-message href="#app-description-long"></x-message> </article> </main> </x-card> </main> </template>
   `;
   get canonicalURL() {
     return location.origin + "/press";
@@ -29404,7 +29404,7 @@ class Ca extends HTMLElement {
       if (!this.#Xo[af]) {
         let ah = {};
         let aj = await (
-          await fetch("/libs/xel/themes/" + this.#Zo + ".css")
+          await fetch("../../libs/xel/themes/" + this.#Zo + ".css")
         ).text();
         let ak = new CSSStyleSheet();
         ak.replaceSync(aj);
@@ -29486,7 +29486,7 @@ class Sa extends ns {
   #in() {
     let { name, locale, theme, accentColor } = this["#settings"];
     let ak =
-      '\n      <!-- Add to <head> -->\n      <script src="https://boxy-svg.com/embed.js" async></script>\n\n      <!-- Add to <body> -->\n      <boxy-svg' +
+      '\n      <!-- Add to <head> -->\n      <script src="./embed.js" async></script>\n\n      <!-- Add to <body> -->\n      <boxy-svg' +
       (name === null ? "" : ' name="' + name + '"') +
       (locale === "en" ? "" : ' locale="' + locale + '"') +
       (theme === "fluent" ? "" : ' theme="' + theme + '"') +
@@ -29957,7 +29957,7 @@ class La extends bs {
         await Bi.auth.whenReady;
         let ah = await Bi.database.getDocument("artworks", this.value);
         let aj = ah?.library ? ah.library : "none";
-        this["#url-input"].value = "https://boxy-svg.com/share/" + this.value;
+        this["#url-input"].value = "./share/" + this.value;
         if (Bi.auth.userID === ah.authorUID) {
           this["#library-section"].hidden = false;
           this["#library-separator"].hidden = false;
@@ -30163,7 +30163,7 @@ class Ua extends bs {
         let ah = await Bi.database.getDocument("artworks", this.value);
         let aj = ah?.cacheControl ? ah.cacheControl : "max-age=21600";
         this["#url-input"].value =
-          "https://storage.boxy-svg.com/artworks/" + this.value + ".svg";
+          "./storage/artworks/" + this.value + ".svg";
         if (Bi.auth.userID === ah.authorUID) {
           this["#cache-control-section"].hidden = false;
           this["#cache-control-separator"].hidden = false;
@@ -32345,13 +32345,13 @@ class Ka extends HTMLElement {
     } else if (ag === "browser") {
       if (this.#T.displayMode === "standalone") {
         window.open(
-          "https://storage.boxy-svg.com/artworks/" + af + ".svg",
+          "./storage/artworks/" + af + ".svg",
           "",
           "noopener,menubar=no,toolbar=no,location=no,status=no"
         );
       } else {
         window.open(
-          "https://storage.boxy-svg.com/artworks/" + af + ".svg",
+          "./storage/artworks/" + af + ".svg",
           "",
           "noopener"
         );
@@ -32361,7 +32361,7 @@ class Ka extends HTMLElement {
   #qn(af) {
     return new Promise(async (ag) => {
       let ah = await fetch(
-        "https://storage.boxy-svg.com/artworks/" + af + ".svg",
+        "./storage/artworks/" + af + ".svg",
         {
           cache: "no-cache",
           headers: {
@@ -32648,7 +32648,7 @@ class Ka extends HTMLElement {
                 ],
               });
             } else if (ap === this.#T.artworkID) {
-              this.#T.navigate("/app", true);
+              this.#T.navigate("./app", true);
               this.#T.loadNewArtwork();
             }
           }
@@ -34022,8 +34022,8 @@ class po {
   }
   toSVG(af = true, ag = true) {
     return new Promise(async (ah) => {
-      this.#ml.PDF = await import("/libs/pdf/pdf.js");
-      this.#ml.UPNG = (await import("/libs/upng/upng.js")).default;
+      this.#ml.PDF = await import("../../libs/pdf/pdf.js");
+      this.#ml.UPNG = (await import("../../libs/upng/upng.js")).default;
       let aj = await this.#ml.PDF.getDocument({
         data: this.#gl,
         disableFontFace: ag,
@@ -36387,7 +36387,7 @@ class So extends yo {
     this["#canonical-link"] = document.head.querySelector("#canonical-link");
     this["#robots-meta"] = document.head.querySelector("#robots-meta");
     Co();
-    fetch("/boxy-svg.webmanifest").then(async (af) => {
+    fetch("./boxy-svg.webmanifest").then(async (af) => {
       this.#Vr = await af.json();
     });
     history.scrollRestoration = "manual";
@@ -36569,7 +36569,7 @@ class So extends yo {
   getAppMenuCommandsIndex() {
     return new Promise(async (af) => {
       let ag = await (
-        await fetch("/templates/progressive-web-app-menu.tpl")
+        await fetch("./templates/progressive-web-app-menu.tpl")
       ).text();
       let ah = new DOMParser().parseFromString(ag, "text/html");
       let aj = [];
@@ -37440,11 +37440,11 @@ class So extends yo {
       if (ag.includes("-")) {
         let [ah, aj] = ag.split("-");
         a2.locales = [
-          "/locales/" + ah + "-" + aj + ".ftl",
-          "/locales/" + ah + ".ftl",
+          "./locales/" + ah + "-" + aj + ".ftl",
+          "./locales/" + ah + ".ftl",
         ];
       } else {
-        a2.locales = ["/locales/" + ag + ".ftl"];
+        a2.locales = ["./locales/" + ag + ".ftl"];
       }
       await a2.whenLocalesReady;
       document.documentElement.lang = a2.locale;
@@ -37474,8 +37474,8 @@ class So extends yo {
       }
       a2.theme =
         ah === "light"
-          ? "/themes/" + ag + ".css"
-          : "/themes/" + ag + "-dark.css";
+          ? "./themes/" + ag + ".css"
+          : "./themes/" + ag + "-dark.css";
       await a2.whenThemeReady;
       this.#hh();
       af();

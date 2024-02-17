@@ -1348,8 +1348,8 @@ no-fonts-found = No se han encontrado fuentes
 no-gradients-found = No se han encontrado degradados
 no-gradient-stops-selected = No hay paradas de degradado seleccionadas
 no-history-items = Sin historial
-no-local-fonts-api = Su navegador no soporta el <a href="https://boxy-svg.com/blog/15">acceso a fuentes</a> locales
-no-local-fonts-permission = <a href="https://boxy-svg.com/questions/498">Dale permiso a Boxy SVG</a> para usar tus fuentes locales
+no-local-fonts-api = Su navegador no soporta el <a href="./blog//15">acceso a fuentes</a> locales
+no-local-fonts-permission = <a href="./questions//498">Dale permiso a Boxy SVG</a> para usar tus fuentes locales
 no-local-fonts-trigger = <a href="">Haga clic aquí</a> para autorizar a Boxy SVG a utilizar sus fuentes locales
 no-markers-found = No se han encontrado marcadores
 no-multiple-filters = Su navegador no soporta múltiples filtros en el mismo objeto

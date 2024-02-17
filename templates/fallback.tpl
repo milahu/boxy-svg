@@ -185,7 +185,7 @@
 <section id="branding">
   <div class="inner">
     <a id="home-anchor">
-      <img src="/images/boxy-svg.svg" width="100px" height="100px" alt="Boxy SVG logo">
+      <img src="../images/boxy-svg.svg" width="100px" height="100px" alt="Boxy SVG logo">
     </a>
     <h1>Boxy SVG</h1>
     <h2><span>Scalable Vector Graphics Editor</span></h2>
@@ -202,7 +202,7 @@
 
 <section id="screenshots">
   <div class="inner">
-    <img src="https://storage.boxy-svg.com/artworks/-M538anEpEaHc8nctPwz.svg" alt="Boxy SVG screenshot" style="">
+    <img src="./storage/artworks/-M538anEpEaHc8nctPwz.svg" alt="Boxy SVG screenshot" style="">
   </div>
 </section>
 
@@ -218,23 +218,23 @@
 
     <div id="browser-links">
       <a href="https://www.google.com/chrome" class="item" target="_blank" rel="noopener">
-        <img src="https://storage.boxy-svg.com/artworks/-MPSjmOBBhiGMzosIRXq.svg" width="85px" height="85px"/>
+        <img src="./storage/artworks/-MPSjmOBBhiGMzosIRXq.svg" width="85px" height="85px"/>
         <p>Chrome</p>
       </a>
       <a href="https://www.chromium.org/Home" class="item" target="_blank" rel="noopener">
-        <img src="https://storage.boxy-svg.com/artworks/-N4OC9cIJGCj4SKaVn82.svg" width="85px" height="85px"/>
+        <img src="./storage/artworks/-N4OC9cIJGCj4SKaVn82.svg" width="85px" height="85px"/>
         <p>Chromium</p>
       </a>
       <a href="https://www.microsoft.com/edge" class="item" target="_blank" rel="noopener">
-        <img src="https://storage.boxy-svg.com/artworks/-MPSjg6Dg9kKD6DCEDdZ.svg" width="85px" height="85px"/>
+        <img src="./storage/artworks/-MPSjg6Dg9kKD6DCEDdZ.svg" width="85px" height="85px"/>
         <p>Edge</p>
       </a>
       <a href="https://vivaldi.com" class="item" target="_blank" rel="noopener">
-        <img src="https://storage.boxy-svg.com/artworks/-MPSjPvVrefkHbG3ABXH.svg" width="85px" height="85px"/>
+        <img src="./storage/artworks/-MPSjPvVrefkHbG3ABXH.svg" width="85px" height="85px"/>
         <p>Vivaldi</p>
       </a>
       <a href="https://opera.com" class="item" target="_blank" rel="noopener">
-        <img src="https://storage.boxy-svg.com/artworks/-MPSjZQqixHfZReE2pX4.svg" width="85px" height="85px"/>
+        <img src="./storage/artworks/-MPSjZQqixHfZReE2pX4.svg" width="85px" height="85px"/>
         <p>Opera</p>
       </a>
     </div>
@@ -243,12 +243,12 @@
 
     <div id="download-links">
       <a href="https://itunes.apple.com/us/app/boxy-svg/id611658502" class="item" target="_blank" rel="noopener">
-        <img src="https://storage.boxy-svg.com/artworks/-N4NrZQgMzzO1SHNWbfU.svg"/>
+        <img src="./storage/artworks/-N4NrZQgMzzO1SHNWbfU.svg"/>
       </a>
 
       <a href="https://flathub.org/apps/details/com.boxy_svg.BoxySVG" target="_blank" rel="noopener" id="flathub-link">
         <img id="flathub-badge" class="badge" alt="Download on Flathub"
-             src="https://storage.boxy-svg.com/artworks/-N4NsvvrN3H9y2MEK066.svg"/>
+             src="./storage/artworks/-N4NsvvrN3H9y2MEK066.svg"/>
       </a>
     </div>
   </div>

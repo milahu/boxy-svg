@@ -19,8 +19,8 @@ let r = {
 };
 globalThis.addEventListener("message", async (d) => {
   if (!e && !t) {
-    e = (await import("/libs/image-tracer/image-tracer.js")).default;
-    t = (await import("/libs/color/color.js")).default;
+    e = (await import("../libs/image-tracer/image-tracer.js")).default;
+    t = (await import("../libs/color/color.js")).default;
   }
   let [j, k] = d.data;
   k = l(r, k);

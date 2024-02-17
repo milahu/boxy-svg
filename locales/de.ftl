@@ -1374,8 +1374,8 @@ no-fonts-found = Keine Schriften gefunden
 no-gradients-found = Keine Farbverläufe gefunden
 no-gradient-stops-selected = Keine Farbverlaufsstopps ausgewählt
 no-history-items = Keine Verlaufseinträge
-no-local-fonts-api = Ihr Browser unterstützt die <a href="https://boxy-svg.com/blog/15">Local Font Access API</a> nicht.
-no-local-fonts-permission = <a href="https://boxy-svg.com/questions/498">Geben Sie Boxy SVG die Erlaubnis</a>, Ihre lokalen Schriftarten zu verwenden
+no-local-fonts-api = Ihr Browser unterstützt die <a href="./blog//15">Local Font Access API</a> nicht.
+no-local-fonts-permission = <a href="./questions//498">Geben Sie Boxy SVG die Erlaubnis</a>, Ihre lokalen Schriftarten zu verwenden
 no-local-fonts-trigger = <a href="">Klicken Sie hier</a>, um Boxy SVG die Verwendung Ihrer lokalen Schriften zu erlauben.
 no-markers-found = Keine Markierungen gefunden
 no-multiple-filters = Ihr Browser unterstützt nicht mehrere Filter für dasselbe Objekt

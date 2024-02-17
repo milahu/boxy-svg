@@ -4,8 +4,8 @@
  *   © 2012-2024 Jarosław Foksa
  */
 
-@import url("/libs/xel/themes/fluent-dark.css");
-@import url("/themes/base.css");
+@import url("./libs/xel/themes/fluent-dark.css");
+@import url("./themes/base.css");
 
 body {
   --titlebar-color: var(--dark-background-color);

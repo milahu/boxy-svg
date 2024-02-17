@@ -1,12 +1,12 @@
-import a2 from "/libs/xel/xel.js";
-import "/libs/color/color.js";
-import a3 from "/libs/css-parser/css-parser.js";
-import "/libs/paper/paper.js";
-import "/libs/seed-random/seed-random.js";
-import "/libs/dom-purify/dom-purify.js";
-import a4 from "/libs/dexie/dexie.js";
-import a5 from "/libs/typesense/typesense.js";
-import "/libs/pako/pako.js";
+import a2 from "../../libs/xel/xel.js";
+import "../../libs/color/color.js";
+import a3 from "../../libs/css-parser/css-parser.js";
+import "../../libs/paper/paper.js";
+import "../../libs/seed-random/seed-random.js";
+import "../../libs/dom-purify/dom-purify.js";
+import a4 from "../../libs/dexie/dexie.js";
+import a5 from "../../libs/typesense/typesense.js";
+import "../../libs/pako/pako.js";
 let l = document.createElement("template");
 let a = (a6, ...a7) => {
   let a8 = [];
@@ -289,7 +289,7 @@ class r extends HTMLElement {
 if (customElements.get("bx-edgeinput") === undefined) {
   customElements.define("bx-edgeinput", r);
 }
-const o = "https://boxy-svg.com";
+const o = "./";
 const p = "http://www.w3.org/2000/svg";
 const u = "http://www.w3.org/1999/xlink";
 const h = "http://www.w3.org/2000/xmlns/";

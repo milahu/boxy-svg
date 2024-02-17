@@ -9,11 +9,11 @@ if (!window.fallback) {
   });
   window.addEventListener("load", () => {
     if (navigator.serviceWorker) {
-      navigator.serviceWorker.register("/workers/service.js", {
+      navigator.serviceWorker.register("./workers/service.js", {
         type: "module",
-        scope: "/app",
+        scope: "./app",
       });
     }
   });
-  import("/elements/apps/bx-progressivewebapp.js");
+  import("./elements/apps/bx-progressivewebapp.js");
 }

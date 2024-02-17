@@ -9,8 +9,8 @@ let l = {
 };
 globalThis.addEventListener("message", async (j) => {
   if (!e && !t) {
-    e = (await import("/libs/delaunator/delaunator.js")).default;
-    t = (await import("/libs/seed-random/seed-random.js")).default;
+    e = (await import("../libs/delaunator/delaunator.js")).default;
+    t = (await import("../libs/seed-random/seed-random.js")).default;
   }
   let [k, q] = j.data;
   q = r(l, q);

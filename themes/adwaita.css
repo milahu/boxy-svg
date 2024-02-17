@@ -4,8 +4,8 @@
  *   © 2012-2024 Jarosław Foksa
  */
 
-@import url("/libs/xel/themes/adwaita.css");
-@import url("/themes/base.css");
+@import url("./libs/xel/themes/adwaita.css");
+@import url("./themes/base.css");
 
 @font-face {
   font-family: "Cantarell";
