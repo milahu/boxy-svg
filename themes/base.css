@@ -115,7 +115,7 @@ article img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
-  background: var(--checkboard-background);
+  background: var(--checkboard-background); image-rendering: pixelated;
   border-width: 1px;
   border-style: solid;
   cursor: zoom-in;

@@ -1003,7 +1003,7 @@ bx-avatar {
   border-radius: 4px;
 }
 bx-avatar[transparent] {
-  background: var(--checkboard-background);
+  background: var(--checkboard-background); image-rendering: pixelated;
 }
 
 /**

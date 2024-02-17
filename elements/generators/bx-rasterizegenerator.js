@@ -2576,7 +2576,7 @@ class ee extends HTMLElement {
       height: 100px;
       user-select: none;
       -webkit-user-select: none;
-      background: var(--checkboard-background);
+      background: var(--checkboard-background); image-rendering: pixelated;
       border-width: 1px;
       border-style: solid;
     }

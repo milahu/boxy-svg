@@ -9294,7 +9294,7 @@ class Fi extends HTMLElement {
       overflow: hidden;
     }
     :host([transparent]) {
-      background: var(--checkboard-background);
+      background: var(--checkboard-background); image-rendering: pixelated;
     }
     :host([hidden]) {
       display: none;
@@ -12545,7 +12545,7 @@ class es extends HTMLElement {
       width: 100%;
       height: auto;
       display: block;
-      background: var(--checkboard-background);
+      background: var(--checkboard-background); image-rendering: pixelated;
       border-width: 1px;
       border-style: solid;
       box-sizing: border-box;
@@ -19064,7 +19064,7 @@ class zs extends HTMLElement {
       user-select: none;
       -webkit-user-select: none;
       position: relative;
-      background: var(--checkboard-background);
+      background: var(--checkboard-background); image-rendering: pixelated;
     }
 
     #thumbnail {
@@ -33808,7 +33808,7 @@ class Xa extends HTMLElement {
       transform-origin: 0 0;
       will-change: transform;
       box-sizing: border-box;
-      background: var(--checkboard-background);
+      background: var(--checkboard-background); image-rendering: pixelated;
       border-width: 1px;
       border-style: solid;
       cursor: zoom-out;
