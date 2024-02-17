@@ -1975,12 +1975,12 @@ new (class {
         }
         {
           let av = this.#s.cache;
-          for (let { family: aw, faceNames: ax } of a9) {
+          for (let { family, faceNames } of a9) {
             let ay = await av.get({
-              family: aw,
+              family: family,
             });
             if (ay) {
-              for (let az of ax) {
+              for (let az of faceNames) {
                 let aA = ay.urls[az];
                 if (aA) {
                   let aB = az.substring(0, 3);
@@ -1997,7 +1997,7 @@ new (class {
                   let aE = aD.join(",");
                   let aF = x`
                     @font-face {
-                      font-family: "${aw}";
+                      font-family: "${family}";
                       font-style: ${aC};
                       font-weight: ${aB};
                       font-display: ${ab};
@@ -2515,25 +2515,14 @@ let D = (a3, a4 = true) => {
   }
   return a5;
 };
-let {
-  sin: E,
-  cos: P,
-  acos: V,
-  atan2: S,
-  abs: O,
-  sqrt: B,
-  pow: z,
-  PI: R,
-  min: $,
-  max: L,
-} = Math;
+let { sin, cos, acos, atan2, abs, sqrt, pow, PI, min, max } = Math;
 document.createElementNS("http://www.w3.org/2000/svg", "svg");
 let G = (a3, a4, a5, a6) => {
   let a7 = a3.x + a4 * Math.cos(j(a6));
   let a8 = a3.y + a5 * Math.sin(j(a6));
   return new DOMPoint(a7, a8);
 };
-let j = (a3) => (R * a3) / 180;
+let j = (a3) => (PI * a3) / 180;
 let I = (a3, a4) => {
   let a5 = [
     new DOMPoint(a3.x, a3.y),
@@ -2543,10 +2532,10 @@ let I = (a3, a4) => {
   ].map((ac) => ac.matrixTransform(a4));
   let a6 = a5.map((ac) => ac.x);
   let a7 = a5.map((ac) => ac.y);
-  let a8 = $(...a6);
-  let a9 = $(...a7);
-  let aa = L(...a6);
-  let ab = L(...a7);
+  let a8 = min(...a6);
+  let a9 = min(...a7);
+  let aa = max(...a6);
+  let ab = max(...a7);
   return new DOMRect(a8, a9, aa - a8, ab - a9);
 };
 let W = (a3) => {

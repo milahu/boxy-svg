@@ -1823,12 +1823,12 @@ new (class {
         }
         {
           let ag = this.#e.cache;
-          for (let { family: ah, faceNames: ai } of R) {
+          for (let { family, faceNames } of R) {
             let aj = await ag.get({
-              family: ah,
+              family: family,
             });
             if (aj) {
-              for (let ak of ai) {
+              for (let ak of faceNames) {
                 let al = aj.urls[ak];
                 if (al) {
                   let am = ak.substring(0, 3);
@@ -1845,7 +1845,7 @@ new (class {
                   let ap = ao.join(",");
                   let aq = g`
                     @font-face {
-                      font-family: "${ah}";
+                      font-family: "${family}";
                       font-style: ${an};
                       font-weight: ${am};
                       font-display: ${W};
@@ -2452,7 +2452,7 @@ class A extends HTMLElement {
     this.setAttribute("tabindex", "0");
   }
 }
-let { min: C, max: F, floor: T } = Math;
+let { min, max, floor } = Math;
 let z = ["#247ba0", "#70c1b3", "#b2dbbf", "#f3ffbd", "#ff1654"];
 class V extends A {
   static t = u` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options" autocapitalize></x-message></h3> <section id="size-subsection"> <x-box id="width-box" vertical> <h4 id="width-heading"><x-message href="#width" autocapitalize></x-message></h4> <x-numberinput id="width-input" value="600" min="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-button id="aspect-ratio-button" togglable skin="flat"> <x-icon id="aspect-ratio-icon" href="#lock-on"></x-icon> </x-button> <x-box id="height-box" vertical> <h4 id="height-heading"><x-message href="#height" autocapitalize></x-message></h4> <x-numberinput id="height-input" value="400" min="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="cell-size-subsection"> <h4 id="cell-size-heading"><x-message href="#cell-size" autocapitalize></x-message></h4> <x-box id="cell-size-box"> <x-slider id="cell-size-slider" value="10" min="2" max="100" step="1"></x-slider> <x-numberinput id="cell-size-input" value="10" min="2" max="100" step="1" suffix="%" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="variance-subsection"> <h4 id="variance-heading"><x-message href="#variance" autocapitalize></x-message></h4> <x-box id="variance-box"> <x-slider id="variance-slider" value="10" min="2" max="100" step="1"></x-slider> <x-numberinput id="variance-input" value="10" min="2" max="100" step="1" suffix="%" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="seed-subsection"> <h4 id="seed-heading"><x-message href="#seed" autocapitalize></x-message></h4> <x-box id="seed-box"> <x-slider id="seed-slider" value="100" min="0" max="200" step="1"></x-slider> <x-numberinput id="seed-input" value="100" min="0" max="200" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="colors-subsection"> <h4 id="colors-heading"><x-message href="#colors" autocapitalize></x-message></h4> <x-box id="colors-box"> <x-colorselect spaces="srgb"></x-colorselect> <x-colorselect spaces="srgb"></x-colorselect> <x-colorselect spaces="srgb"></x-colorselect> <x-colorselect spaces="srgb"></x-colorselect> <x-colorselect spaces="srgb"></x-colorselect> </x-box> <x-button id="random-colors-button" condensed> <x-label><x-message href="#generate-random-colors" autocapitalize></x-message></x-label> </x-button> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview" autocapitalize></x-message></h3> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid"></svg> </section> </template>
@@ -2689,13 +2689,13 @@ class V extends A {
     if (O < L * 0.02) {
       O = d(L * 0.02);
     }
-    let R = T((L + O * 4) / O);
-    let S = T((M + O * 4) / O);
+    let R = floor((L + O * 4) / O);
+    let S = floor((M + O * 4) / O);
     let W = (R * O - L) / 2;
     let X = (S * O - M) / 2;
     let Y = (a6, a7, a8) =>
       ((a6 - a7[0]) * (a8[1] - a8[0])) / (a7[1] - a7[0]) + a8[0];
-    let Z = (a6, a7) => C(F(a6, a7[0]), a7[1]);
+    let Z = (a6, a7) => min(max(a6, a7[0]), a7[1]);
     let a0 = [];
     let a1 = [];
     let a2 = "";
@@ -2706,7 +2706,7 @@ class V extends A {
         for (let a9 = -X; a9 < M + X; a9 += O) {
           let aa = a8 + O * 0.5 + (a7() * a6 * 2 - a6);
           let ab = a9 + O * 0.5 + (a7() * a6 * 2 - a6);
-          a0.push([T(aa), T(ab)]);
+          a0.push([floor(aa), floor(ab)]);
         }
       }
     }
@@ -2765,7 +2765,7 @@ class V extends A {
   #k() {
     let K = this["#width-input"].value;
     let L = this["#height-input"].value;
-    let M = (this["#cell-size-slider"].value / 100) * C(K, L);
+    let M = (this["#cell-size-slider"].value / 100) * min(K, L);
     let O = this["#variance-slider"].value / 100;
     let P = this["#seed-slider"].value;
     let Q = [...this["#colors-box"].children].map((S) => S.value);

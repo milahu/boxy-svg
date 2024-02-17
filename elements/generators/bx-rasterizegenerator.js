@@ -1994,12 +1994,12 @@ new (class {
         }
         {
           let aA = this.#l.cache;
-          for (let { family: aB, faceNames: aC } of ad) {
+          for (let { family, faceNames } of ad) {
             let aD = await aA.get({
-              family: aB,
+              family: family,
             });
             if (aD) {
-              for (let aE of aC) {
+              for (let aE of faceNames) {
                 let aF = aD.urls[aE];
                 if (aF) {
                   let aG = aE.substring(0, 3);
@@ -2016,7 +2016,7 @@ new (class {
                   let aJ = aI.join(",");
                   let aK = v`
                     @font-face {
-                      font-family: "${aB}";
+                      font-family: "${family}";
                       font-style: ${aH};
                       font-weight: ${aG};
                       font-display: ${ag};
@@ -2458,18 +2458,7 @@ let R = (a7, a8 = true) => {
   }
   return a9;
 };
-let {
-  sin: O,
-  cos: j,
-  acos: $,
-  atan2: L,
-  abs: I,
-  sqrt: G,
-  pow: W,
-  PI: H,
-  min: q,
-  max: _,
-} = Math;
+let { sin, cos, acos, atan2, abs, sqrt, pow, PI, min, max } = Math;
 document.createElementNS("http://www.w3.org/2000/svg", "svg");
 let K = (a7, a8) => {
   let a9 = [
@@ -2480,10 +2469,10 @@ let K = (a7, a8) => {
   ].map((ah) => ah.matrixTransform(a8));
   let aa = a9.map((ah) => ah.x);
   let ab = a9.map((ah) => ah.y);
-  let ac = q(...aa);
-  let ad = q(...ab);
-  let af = _(...aa);
-  let ag = _(...ab);
+  let ac = min(...aa);
+  let ad = min(...ab);
+  let af = max(...aa);
+  let ag = max(...ab);
   return new DOMRect(ac, ad, af - ac, ag - ad);
 };
 let J = (a7) => {
@@ -2795,15 +2784,15 @@ let ne = (a7, a8) => {
           a9.replaceWith(ad);
           ac = true;
         } else {
-          for (let { name: ah, value: ai } of [...a9.attributes]) {
-            if (ah === "href" || ah === "_href") {
-              a9.setAttribute("xlink:href", ai);
-              a9.removeAttribute(ah);
+          for (let { name, value } of [...a9.attributes]) {
+            if (name === "href" || name === "_href") {
+              a9.setAttribute("xlink:href", value);
+              a9.removeAttribute(name);
               ab = true;
-            } else if (ah.startsWith("data-bx-")) {
-              let aj = ah.substring(8);
-              a9.setAttributeNS(o, "bx:" + aj, ai);
-              a9.removeAttribute(ah);
+            } else if (name.startsWith("data-bx-")) {
+              let aj = name.substring(8);
+              a9.setAttributeNS(o, "bx:" + aj, value);
+              a9.removeAttribute(name);
               ac = true;
             }
           }
@@ -2811,8 +2800,8 @@ let ne = (a7, a8) => {
       } else {
         let ak = Q("svg:title");
         ak.innerHTML = a9.innerHTML;
-        for (let { name: al, value: am } of a9.attributes) {
-          ak.setAttribute(al, am);
+        for (let { name, value } of a9.attributes) {
+          ak.setAttribute(name, value);
         }
         a9.replaceWith(ak);
       }
@@ -2832,17 +2821,17 @@ let ne = (a7, a8) => {
     let ao = document.createNodeIterator(a7, NodeFilter.SHOW_ELEMENT);
     while ((an = ao.nextNode())) {
       if (an.localName !== "bx-title") {
-        for (let { name: ap, value: aq } of [...an.attributes]) {
-          if (ap === "href" || ap === "_href") {
-            an.setAttribute("xlink:href", aq);
-            an.removeAttribute(ap);
+        for (let { name, value } of [...an.attributes]) {
+          if (name === "href" || name === "_href") {
+            an.setAttribute("xlink:href", value);
+            an.removeAttribute(name);
           }
         }
       } else {
         let ar = Q("svg:title");
         ar.innerHTML = an.innerHTML;
-        for (let { name: as, value: at } of an.attributes) {
-          ar.setAttribute(as, at);
+        for (let { name, value } of an.attributes) {
+          ar.setAttribute(name, value);
         }
         an.replaceWith(ar);
       }
@@ -2870,7 +2859,7 @@ let ae = (a7, a8 = "png", a9 = {}) =>
           aj.fillRect(0, 0, ad.naturalWidth, ad.naturalHeight);
           aj.drawImage(ad, 0, 0);
           let ak = (await import("/libs/upng/upng.js")).default;
-          let { changeDpiBlob: al } = await import(
+          let { changeDpiBlob } = await import(
             "/libs/change-dpi/change-dpi.js"
           );
           let am = aj.getImageData(0, 0, ai.width, ai.height);
@@ -2879,7 +2868,7 @@ let ae = (a7, a8 = "png", a9 = {}) =>
           let ap = new Blob([ao], {
             type: "image/png",
           });
-          ap = al(ap, af);
+          ap = changeDpiBlob(ap, af);
           URL.revokeObjectURL(ac);
           aa(ap);
         },
@@ -2907,14 +2896,14 @@ let ae = (a7, a8 = "png", a9 = {}) =>
           am.fillStyle = aj;
           am.fillRect(0, 0, ah.naturalWidth, ah.naturalHeight);
           am.drawImage(ah, 0, 0);
-          let { changeDpiBlob: an } = await import(
+          let { changeDpiBlob } = await import(
             "/libs/change-dpi/change-dpi.js"
           );
           let ao = await al.convertToBlob({
             type: "image/jpeg",
             quality: ak,
           });
-          ao = an(ao, ai);
+          ao = changeDpiBlob(ao, ai);
           URL.revokeObjectURL(ag);
           aa(ao);
         },

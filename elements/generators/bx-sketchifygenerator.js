@@ -2049,12 +2049,12 @@ var C = new (class {
         }
         {
           let az = this.#i.cache;
-          for (let { family: aA, faceNames: aB } of ac) {
+          for (let { family, faceNames } of ac) {
             let aC = await az.get({
-              family: aA,
+              family: family,
             });
             if (aC) {
-              for (let aD of aB) {
+              for (let aD of faceNames) {
                 let aE = aC.urls[aD];
                 if (aE) {
                   let aF = aD.substring(0, 3);
@@ -2071,7 +2071,7 @@ var C = new (class {
                   let aI = aH.join(",");
                   let aJ = F`
                     @font-face {
-                      font-family: "${aA}";
+                      font-family: "${family}";
                       font-style: ${aG};
                       font-weight: ${aF};
                       font-display: ${af};
@@ -2456,22 +2456,22 @@ let R = (a6) =>
   });
 let V = (a6) => {
   let a7 = [];
-  for (let { command: a8, args: a9 } of a6.path.commands) {
+  for (let { command, args } of a6.path.commands) {
     let aa;
-    if (a8 === "moveTo") {
+    if (command === "moveTo") {
       aa = "M";
-    } else if (a8 === "lineTo") {
+    } else if (command === "lineTo") {
       aa = "L";
-    } else if (a8 === "quadraticCurveTo") {
+    } else if (command === "quadraticCurveTo") {
       aa = "Q";
-    } else if (a8 === "bezierCurveTo") {
+    } else if (command === "bezierCurveTo") {
       aa = "C";
-    } else if (a8 === "closePath") {
+    } else if (command === "closePath") {
       aa = "Z";
     }
     a7.push({
       type: aa,
-      values: [...a9],
+      values: [...args],
     });
   }
   return a7;
@@ -2586,10 +2586,10 @@ class G {
       {
         let ar = [];
         for (let as of a7) {
-          let { styleElement: at, fontRulesByFamily: au, otherRules: av } = as;
-          let aw = Object.keys(au);
+          let { styleElement, fontRulesByFamily, otherRules } = as;
+          let aw = Object.keys(fontRulesByFamily);
           if (aw.length === 0) {
-            if (at.hasAttribute("data-bx-fonts")) {
+            if (styleElement.hasAttribute("data-bx-fonts")) {
               a8 = true;
               break;
             }
@@ -2599,11 +2599,11 @@ class G {
               a8 = true;
               break;
             }
-            if (at.getAttribute("data-bx-fonts") !== ax) {
+            if (styleElement.getAttribute("data-bx-fonts") !== ax) {
               a8 = true;
               break;
             }
-            if (av.length > 0) {
+            if (otherRules.length > 0) {
               a8 = true;
               break;
             }
@@ -2624,12 +2624,8 @@ class G {
             }
           }
         }
-        for (let {
-          styleElement: aC,
-          fontRulesByFamily: aD,
-          otherRules: aE,
-        } of a7) {
-          for (let [aF, aG] of Object.entries(aD)) {
+        for (let { styleElement, fontRulesByFamily, otherRules } of a7) {
+          for (let [aF, aG] of Object.entries(fontRulesByFamily)) {
             let aH = Ce("svg:style");
             let aI = "";
             aG.sort((aJ) => (aJ.type === CSSRule.IMPORT_RULE ? -1 : 1));
@@ -2638,21 +2634,21 @@ class G {
             }
             aH.textContent = aI;
             aH.setAttribute("data-bx-fonts", aF);
-            if (aC.hasAttribute("data-bx-pinned")) {
+            if (styleElement.hasAttribute("data-bx-pinned")) {
               aH.setAttribute("data-bx-pinned", "");
             }
-            aC.before(aH);
+            styleElement.before(aH);
           }
-          if (aE.length === 0) {
-            aC.remove();
+          if (otherRules.length === 0) {
+            styleElement.remove();
           } else {
             let aK = "";
-            for (let aL of aE) {
+            for (let aL of otherRules) {
               aK += aL.cssText;
             }
-            aC.removeAttribute("data-bx-fonts");
-            aC.removeAttribute("data-bx-pinned");
-            aC.textContent = aK;
+            styleElement.removeAttribute("data-bx-fonts");
+            styleElement.removeAttribute("data-bx-pinned");
+            styleElement.textContent = aK;
           }
         }
       }
@@ -3213,7 +3209,7 @@ let Z = (a6, a7) => {
     return a8;
   };
 };
-let { abs: J, tan: X } = Math;
+let { abs, tan } = Math;
 let Q = (a6) => {
   if (a6.isConnected === false) {
     new _(a6);
@@ -3303,8 +3299,8 @@ let ee = (a6, a7, a8 = "userSpaceOnUse", a9 = null, aa = null) => {
       let au = Z(() => ce(ao));
       {
         let av = getComputedStyle(ao);
-        let { transformBox: aw } = av;
-        if (aw === "fill-box" && ao.style.transformOrigin !== "") {
+        let { transformBox } = av;
+        if (transformBox === "fill-box" && ao.style.transformOrigin !== "") {
           let ax = ao.style.transformOrigin
             .split(" ")
             .map((ay) => ay.trim())
@@ -3338,9 +3334,11 @@ let ee = (a6, a7, a8 = "userSpaceOnUse", a9 = null, aa = null) => {
           }
           as = "objectBoundingBox";
         } else {
-          let { transformOrigin: aA } = av;
-          let aB = aA.split(" ").map((aC) => CSSUnitValue.parse(aC));
-          if (aw === "fill-box") {
+          let { transformOrigin } = av;
+          let aB = transformOrigin
+            .split(" ")
+            .map((aC) => CSSUnitValue.parse(aC));
+          if (transformBox === "fill-box") {
             let aC = au();
             aq = aB[0].value / aC.width;
             ar = aB[1].value / aC.height;
@@ -3485,7 +3483,7 @@ let ie = (a6, a7, a8, a9 = 0, aa = 0) => {
   let ac = Ne(a7);
   let ad = Ne(a8);
   let af = new DOMMatrix();
-  af = ne(af, X(ac), X(ad));
+  af = ne(af, tan(ac), tan(ad));
   ab = ae(ab, a9, aa);
   ab.multiplySelf(af);
   ab = ae(ab, -a9, -aa);
@@ -3507,7 +3505,7 @@ let ae = (a6, a7, a8) => {
   a9.f = a9.f + a7 * a9.b + a8 * a9.d;
   return a9;
 };
-let { keys: oe } = Object;
+let { keys } = Object;
 let le = (a6) => {
   let a7 = {
     rootItem: null,
@@ -3658,7 +3656,7 @@ let le = (a6) => {
     }
   }
   for (let aE of a7.childItems) {
-    for (let aF of oe(aE.inheritableProperties)) {
+    for (let aF of keys(aE.inheritableProperties)) {
       if (
         a7.rootItem.inheritableProperties[aF] === aE.inheritableProperties[aF]
       ) {
@@ -3670,7 +3668,7 @@ let le = (a6) => {
     let aG = a7.childItems.filter((aH) => !aH.isLineBreak);
     if (aG.length > 0) {
       let [aH, ...aI] = aG;
-      for (let aJ of oe(aH.inheritableProperties)) {
+      for (let aJ of keys(aH.inheritableProperties)) {
         let aK = true;
         for (let aL of aI) {
           if (aL.inheritableProperties[aJ] !== aH.inheritableProperties[aJ]) {
@@ -3885,14 +3883,14 @@ let ue = (a6, a7 = 3, a8 = 6, a9 = false) =>
       }
       {
         let ax = getComputedStyle(ai);
-        for (let ay of oe(ak.rootItem.inheritableProperties)) {
+        for (let ay of keys(ak.rootItem.inheritableProperties)) {
           if (
             ax.getPropertyValue(ay) !== ak.rootItem.inheritableProperties[ay]
           ) {
             ai.style.setProperty(ay, ak.rootItem.inheritableProperties[ay]);
           }
         }
-        for (let az of oe(ak.rootItem.nonInheritableProperties)) {
+        for (let az of keys(ak.rootItem.nonInheritableProperties)) {
           if (
             ax.getPropertyValue(az) !== ak.rootItem.nonInheritableProperties[az]
           ) {
@@ -3930,12 +3928,12 @@ let ue = (a6, a7 = 3, a8 = 6, a9 = false) =>
             }
             {
               let aG = getComputedStyle(aD);
-              for (let aH of oe(aC.inheritableProperties)) {
+              for (let aH of keys(aC.inheritableProperties)) {
                 if (aG.getPropertyValue(aH) !== aC.inheritableProperties[aH]) {
                   aD.style.setProperty(aH, aC.inheritableProperties[aH]);
                 }
               }
-              for (let aI of oe(aC.nonInheritableProperties)) {
+              for (let aI of keys(aC.nonInheritableProperties)) {
                 if (
                   aG.getPropertyValue(aI) !== aC.nonInheritableProperties[aI]
                 ) {
@@ -4336,18 +4334,7 @@ let ce = (a6, a7 = true) => {
   }
   return a8;
 };
-let {
-  sin: me,
-  cos: fe,
-  acos: de,
-  atan2: ge,
-  abs: be,
-  sqrt: xe,
-  pow: ye,
-  PI: ke,
-  min: we,
-  max: ve,
-} = Math;
+let { sin, cos, acos, atan2, abs: be, sqrt, pow, PI: ke, min, max } = Math;
 document.createElementNS("http://www.w3.org/2000/svg", "svg");
 let Ne = (a6) => (ke * a6) / 180;
 let Ue = (a6, a7) => {
@@ -4359,10 +4346,10 @@ let Ue = (a6, a7) => {
   ].map((ag) => ag.matrixTransform(a7));
   let a9 = a8.map((ag) => ag.x);
   let aa = a8.map((ag) => ag.y);
-  let ab = we(...a9);
-  let ac = we(...aa);
-  let ad = ve(...a9);
-  let af = ve(...aa);
+  let ab = min(...a9);
+  let ac = min(...aa);
+  let ad = max(...a9);
+  let af = max(...aa);
   return new DOMRect(ab, ac, ad - ab, af - ac);
 };
 let Se = (a6) => {
@@ -4674,15 +4661,15 @@ let Oe = (a6, a7) => {
           a8.replaceWith(ac);
           ab = true;
         } else {
-          for (let { name: ag, value: ah } of [...a8.attributes]) {
-            if (ag === "href" || ag === "_href") {
-              a8.setAttribute("xlink:href", ah);
-              a8.removeAttribute(ag);
+          for (let { name, value } of [...a8.attributes]) {
+            if (name === "href" || name === "_href") {
+              a8.setAttribute("xlink:href", value);
+              a8.removeAttribute(name);
               aa = true;
-            } else if (ag.startsWith("data-bx-")) {
-              let ai = ag.substring(8);
-              a8.setAttributeNS(a, "bx:" + ai, ah);
-              a8.removeAttribute(ag);
+            } else if (name.startsWith("data-bx-")) {
+              let ai = name.substring(8);
+              a8.setAttributeNS(a, "bx:" + ai, value);
+              a8.removeAttribute(name);
               ab = true;
             }
           }
@@ -4690,8 +4677,8 @@ let Oe = (a6, a7) => {
       } else {
         let aj = Ce("svg:title");
         aj.innerHTML = a8.innerHTML;
-        for (let { name: ak, value: al } of a8.attributes) {
-          aj.setAttribute(ak, al);
+        for (let { name, value } of a8.attributes) {
+          aj.setAttribute(name, value);
         }
         a8.replaceWith(aj);
       }
@@ -4711,17 +4698,17 @@ let Oe = (a6, a7) => {
     let an = document.createNodeIterator(a6, NodeFilter.SHOW_ELEMENT);
     while ((am = an.nextNode())) {
       if (am.localName !== "bx-title") {
-        for (let { name: ao, value: ap } of [...am.attributes]) {
-          if (ao === "href" || ao === "_href") {
-            am.setAttribute("xlink:href", ap);
-            am.removeAttribute(ao);
+        for (let { name, value } of [...am.attributes]) {
+          if (name === "href" || name === "_href") {
+            am.setAttribute("xlink:href", value);
+            am.removeAttribute(name);
           }
         }
       } else {
         let aq = Ce("svg:title");
         aq.innerHTML = am.innerHTML;
-        for (let { name: ar, value: as } of am.attributes) {
-          aq.setAttribute(ar, as);
+        for (let { name, value } of am.attributes) {
+          aq.setAttribute(name, value);
         }
         am.replaceWith(aq);
       }

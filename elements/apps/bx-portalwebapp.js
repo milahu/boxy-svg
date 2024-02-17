@@ -2614,8 +2614,8 @@ let G = (af, ag) => {
   }
   return true;
 };
-let { isFinite: H, isNaN: W, parseFloat: K } = Number;
-let Z = (af) => !Array.isArray(af) && af - K(af) + 1 >= 0;
+let { isFinite, isNaN, parseFloat } = Number;
+let Z = (af) => !Array.isArray(af) && af - parseFloat(af) + 1 >= 0;
 let Y = "AIzaSyBZd8UahlnRn53EWC7snRmOAuuktqBaP6k";
 let X = "92f3tewguhsn8o0qp.a1.typesense.net";
 const J = [
@@ -2977,12 +2977,12 @@ var ae = new (class {
         }
         {
           let aL = this.#l.cache;
-          for (let { family: aM, faceNames: aN } of am) {
+          for (let { family, faceNames } of am) {
             let aO = await aL.get({
-              family: aM,
+              family: family,
             });
             if (aO) {
-              for (let aP of aN) {
+              for (let aP of faceNames) {
                 let aQ = aO.urls[aP];
                 if (aQ) {
                   let aR = aP.substring(0, 3);
@@ -2999,7 +2999,7 @@ var ae = new (class {
                   let aU = aT.join(",");
                   let aV = se`
                     @font-face {
-                      font-family: "${aM}";
+                      font-family: "${family}";
                       font-style: ${aS};
                       font-weight: ${aR};
                       font-display: ${ap};
@@ -3637,10 +3637,10 @@ let Ee = (af) => {
   {
     let aD = [];
     for (let aE of ag) {
-      let { styleElement: aF, fontRulesByFamily: aG, otherRules: aH } = aE;
-      let aI = Object.keys(aG);
+      let { styleElement, fontRulesByFamily, otherRules } = aE;
+      let aI = Object.keys(fontRulesByFamily);
       if (aI.length === 0) {
-        if (aF.hasAttribute("data-bx-fonts")) {
+        if (styleElement.hasAttribute("data-bx-fonts")) {
           ah = true;
           break;
         }
@@ -3650,11 +3650,11 @@ let Ee = (af) => {
           ah = true;
           break;
         }
-        if (aF.getAttribute("data-bx-fonts") !== aJ) {
+        if (styleElement.getAttribute("data-bx-fonts") !== aJ) {
           ah = true;
           break;
         }
-        if (aH.length > 0) {
+        if (otherRules.length > 0) {
           ah = true;
           break;
         }
@@ -3675,12 +3675,8 @@ let Ee = (af) => {
         }
       }
     }
-    for (let {
-      styleElement: aO,
-      fontRulesByFamily: aP,
-      otherRules: aQ,
-    } of ag) {
-      for (let [aR, aS] of Object.entries(aP)) {
+    for (let { styleElement, fontRulesByFamily, otherRules } of ag) {
+      for (let [aR, aS] of Object.entries(fontRulesByFamily)) {
         let aT = ei("svg:style");
         let aU = "";
         aS.sort((aV) => (aV.type === CSSRule.IMPORT_RULE ? -1 : 1));
@@ -3689,21 +3685,21 @@ let Ee = (af) => {
         }
         aT.textContent = aU;
         aT.setAttribute("data-bx-fonts", aR);
-        if (aO.hasAttribute("data-bx-pinned")) {
+        if (styleElement.hasAttribute("data-bx-pinned")) {
           aT.setAttribute("data-bx-pinned", "");
         }
-        aO.before(aT);
+        styleElement.before(aT);
       }
-      if (aQ.length === 0) {
-        aO.remove();
+      if (otherRules.length === 0) {
+        styleElement.remove();
       } else {
         let aW = "";
-        for (let aX of aQ) {
+        for (let aX of otherRules) {
           aW += aX.cssText;
         }
-        aO.removeAttribute("data-bx-fonts");
-        aO.removeAttribute("data-bx-pinned");
-        aO.textContent = aW;
+        styleElement.removeAttribute("data-bx-fonts");
+        styleElement.removeAttribute("data-bx-pinned");
+        styleElement.textContent = aW;
       }
     }
   }
@@ -3840,22 +3836,22 @@ let Me = (af) =>
   });
 let Ae = (af) => {
   let ag = [];
-  for (let { command: ah, args: aj } of af.path.commands) {
+  for (let { command, args } of af.path.commands) {
     let ak;
-    if (ah === "moveTo") {
+    if (command === "moveTo") {
       ak = "M";
-    } else if (ah === "lineTo") {
+    } else if (command === "lineTo") {
       ak = "L";
-    } else if (ah === "quadraticCurveTo") {
+    } else if (command === "quadraticCurveTo") {
       ak = "Q";
-    } else if (ah === "bezierCurveTo") {
+    } else if (command === "bezierCurveTo") {
       ak = "C";
-    } else if (ah === "closePath") {
+    } else if (command === "closePath") {
       ak = "Z";
     }
     ag.push({
       type: ak,
-      values: [...aj],
+      values: [...args],
     });
   }
   return ag;
@@ -4698,7 +4694,7 @@ let it = (af) =>
   });
 let st = (af) => af / 1000 / 60 / 60 / 24;
 let at = () => new Date().getFullYear();
-let { abs: ot, tan: nt } = Math;
+let { abs, tan } = Math;
 let lt = (af) => {
   if (af.isConnected === false) {
     new Qe(af);
@@ -4788,8 +4784,8 @@ let ht = (af, ag, ah = "userSpaceOnUse", aj = null, ak = null) => {
       let aG = tt(() => St(aA));
       {
         let aH = getComputedStyle(aA);
-        let { transformBox: aI } = aH;
-        if (aI === "fill-box" && aA.style.transformOrigin !== "") {
+        let { transformBox } = aH;
+        if (transformBox === "fill-box" && aA.style.transformOrigin !== "") {
           let aJ = aA.style.transformOrigin
             .split(" ")
             .map((aK) => aK.trim())
@@ -4823,9 +4819,11 @@ let ht = (af, ag, ah = "userSpaceOnUse", aj = null, ak = null) => {
           }
           aE = "objectBoundingBox";
         } else {
-          let { transformOrigin: aM } = aH;
-          let aN = aM.split(" ").map((aO) => CSSUnitValue.parse(aO));
-          if (aI === "fill-box") {
+          let { transformOrigin } = aH;
+          let aN = transformOrigin
+            .split(" ")
+            .map((aO) => CSSUnitValue.parse(aO));
+          if (transformBox === "fill-box") {
             let aO = aG();
             aC = aN[0].value / aO.width;
             aD = aN[1].value / aO.height;
@@ -4979,7 +4977,7 @@ let ut = (af, ag, ah, aj = 0, ak = 0) => {
   let am = Bt(ag);
   let an = Bt(ah);
   let ap = new DOMMatrix();
-  ap = pt(ap, nt(am), nt(an));
+  ap = pt(ap, tan(am), tan(an));
   al = mt(al, aj, ak);
   al.multiplySelf(ap);
   al = mt(al, -aj, -ak);
@@ -5001,7 +4999,7 @@ let mt = (af, ag, ah) => {
   aj.f = aj.f + ag * aj.b + ah * aj.d;
   return aj;
 };
-let { keys: xt } = Object;
+let { keys } = Object;
 let gt = (af) => {
   let ag = af.querySelectorAll("textPath");
   af.querySelectorAll("tspan");
@@ -5222,7 +5220,7 @@ let ft = (af) => {
     }
   }
   for (let aQ of ag.childItems) {
-    for (let aR of xt(aQ.inheritableProperties)) {
+    for (let aR of keys(aQ.inheritableProperties)) {
       if (
         ag.rootItem.inheritableProperties[aR] === aQ.inheritableProperties[aR]
       ) {
@@ -5234,7 +5232,7 @@ let ft = (af) => {
     let aS = ag.childItems.filter((aT) => !aT.isLineBreak);
     if (aS.length > 0) {
       let [aT, ...aU] = aS;
-      for (let aV of xt(aT.inheritableProperties)) {
+      for (let aV of keys(aT.inheritableProperties)) {
         let aW = true;
         for (let aX of aU) {
           if (aX.inheritableProperties[aV] !== aT.inheritableProperties[aV]) {
@@ -5449,14 +5447,14 @@ let Ct = (af, ag = 3, ah = 6, aj = false) =>
       }
       {
         let aJ = getComputedStyle(au);
-        for (let aK of xt(aw.rootItem.inheritableProperties)) {
+        for (let aK of keys(aw.rootItem.inheritableProperties)) {
           if (
             aJ.getPropertyValue(aK) !== aw.rootItem.inheritableProperties[aK]
           ) {
             au.style.setProperty(aK, aw.rootItem.inheritableProperties[aK]);
           }
         }
-        for (let aL of xt(aw.rootItem.nonInheritableProperties)) {
+        for (let aL of keys(aw.rootItem.nonInheritableProperties)) {
           if (
             aJ.getPropertyValue(aL) !== aw.rootItem.nonInheritableProperties[aL]
           ) {
@@ -5494,12 +5492,12 @@ let Ct = (af, ag = 3, ah = 6, aj = false) =>
             }
             {
               let aS = getComputedStyle(aP);
-              for (let aT of xt(aO.inheritableProperties)) {
+              for (let aT of keys(aO.inheritableProperties)) {
                 if (aS.getPropertyValue(aT) !== aO.inheritableProperties[aT]) {
                   aP.style.setProperty(aT, aO.inheritableProperties[aT]);
                 }
               }
-              for (let aU of xt(aO.nonInheritableProperties)) {
+              for (let aU of keys(aO.nonInheritableProperties)) {
                 if (
                   aS.getPropertyValue(aU) !== aO.nonInheritableProperties[aU]
                 ) {
@@ -5900,18 +5898,7 @@ let St = (af, ag = true) => {
   }
   return ah;
 };
-let {
-  sin: Tt,
-  cos: $t,
-  acos: Pt,
-  atan2: Et,
-  abs: Lt,
-  sqrt: Ut,
-  pow: Dt,
-  PI: zt,
-  min: Mt,
-  max: At,
-} = Math;
+let { sin, cos, acos, atan2, abs: Lt, sqrt, pow, PI: zt, min, max } = Math;
 document.createElementNS("http://www.w3.org/2000/svg", "svg");
 let Bt = (af) => (zt * af) / 180;
 let Rt = (af, ag) => {
@@ -5923,10 +5910,10 @@ let Rt = (af, ag) => {
   ].map((aq) => aq.matrixTransform(ag));
   let aj = ah.map((aq) => aq.x);
   let ak = ah.map((aq) => aq.y);
-  let al = Mt(...aj);
-  let am = Mt(...ak);
-  let an = At(...aj);
-  let ap = At(...ak);
+  let al = min(...aj);
+  let am = min(...ak);
+  let an = max(...aj);
+  let ap = max(...ak);
   return new DOMRect(al, am, an - al, ap - am);
 };
 let It = (af) => {
@@ -6361,7 +6348,7 @@ let Jt = (af, ag = false) => {
   }
   return ah;
 };
-let { parseInt: Qt } = Number;
+let { parseInt } = Number;
 let ei = (af, ag = null) => {
   let ah = af.split(":");
   let aj = null;
@@ -6386,7 +6373,7 @@ let ti = (af) => {
 let ii = (af) => {
   for (let ag in af.parentElement.children) {
     if (af.parentElement.children[ag] === af) {
-      return Qt(ag);
+      return parseInt(ag);
     }
   }
 };
@@ -6965,26 +6952,26 @@ class ri extends ni {
         this["#color-scheme-select"].value = aq;
       }
       {
-        let { presetAccentColors: au } = a2;
+        let { presetAccentColors } = a2;
         for (let av of [
           ...this["#accent-color-preset-menu"].querySelectorAll("x-swatch"),
         ]) {
           let aw = av.parentElement;
-          av.value = au[aw.value];
+          av.value = presetAccentColors[aw.value];
         }
         if (this.o.localName === "bx-macapp") {
           this["#accent-color-subsection"].hidden = true;
         } else if (this.o.localName === "bx-linuxapp") {
           let ax = a2.getConfig("bx-uisettings:accentColor", "blue");
-          let ay = !!au[ax];
+          let ay = !!presetAccentColors[ax];
           this["#accent-color-preset-menu"].children[0].hidden = true;
           this["#accent-color-preset-menu"].children[1].hidden = true;
           this["#accent-color-preset-select"].value = ay ? ax : "custom";
-          this["#accent-color-select"].value = ay ? au[ax] : ax;
+          this["#accent-color-select"].value = ay ? presetAccentColors[ax] : ax;
         } else {
           let az = a2.getConfig("bx-uisettings:accentColor", "auto");
           let aA = this.o.getSystemAccentColorName();
-          let aB = au[aA];
+          let aB = presetAccentColors[aA];
           this["#auto-accent-color-preset-label"].innerHTML =
             '<x-message href="#color.auto"></x-message> (<x-message href="#color.' +
             aA +
@@ -6994,9 +6981,11 @@ class ri extends ni {
             this["#accent-color-preset-select"].value = "auto";
             this["#accent-color-select"].value = aB;
           } else {
-            let aC = !!au[az];
+            let aC = !!presetAccentColors[az];
             this["#accent-color-preset-select"].value = aC ? az : "custom";
-            this["#accent-color-select"].value = aC ? au[az] : az;
+            this["#accent-color-select"].value = aC
+              ? presetAccentColors[az]
+              : az;
           }
         }
       }
@@ -7619,7 +7608,7 @@ class xi extends HTMLElement {
   #oe() {}
   #he(af) {
     let ag = af.target.closest(".reset-button").closest(".item");
-    let { commandID: ah } = ag[pi];
+    let { commandID } = ag[pi];
     delete this.#ee[ah];
     this.dispatchEvent(new CustomEvent("change"));
     this.#re(ag);
@@ -7646,12 +7635,12 @@ class xi extends HTMLElement {
           ah.removeAttribute("data-editable");
           this.#re(ah);
         } else if (ag.key && mi.includes(ag.toString()) === false) {
-          let { commandID: aj, defaultShortcut: ak } = ah[pi];
+          let { commandID, defaultShortcut } = ah[pi];
           let al = this.#ee[aj] || null;
           if (al && ag.toString() === al) {
             ah.removeAttribute("data-editable");
             this.#re(ah);
-          } else if (ak && ag.toString() === ak) {
+          } else if (defaultShortcut && ag.toString() === defaultShortcut) {
             delete this.#ee[aj];
             this.dispatchEvent(new CustomEvent("change"));
             ah.removeAttribute("data-editable");
@@ -7682,14 +7671,14 @@ class xi extends HTMLElement {
         let an = this["#items"].querySelector(
           ".item[data-selected]:not([hidden])"
         );
-        let { commandID: ap, defaultShortcut: aq } = an[pi];
+        let { commandID, defaultShortcut } = an[pi];
         if (this.#ee[ap] !== undefined) {
           af.preventDefault();
           delete this.#ee[ap];
           this.dispatchEvent(new CustomEvent("change"));
           this.#re(an);
           this.#de();
-        } else if (aq !== null) {
+        } else if (defaultShortcut !== null) {
           af.preventDefault();
           this.#ee[ap] = null;
           this.dispatchEvent(new CustomEvent("change"));
@@ -7753,14 +7742,14 @@ class xi extends HTMLElement {
     this.#de();
   }
   #re(af) {
-    let { commandID: ag, label: ah, defaultShortcut: aj } = af[pi];
+    let { commandID, label, defaultShortcut } = af[pi];
     let ak = this.#ee[ag];
     if (ak || ak === null) {
       af.setAttribute("data-user-shortcut", "");
     } else {
       af.removeAttribute("data-user-shortcut");
     }
-    af.querySelector(".command-label").innerHTML = ah;
+    af.querySelector(".command-label").innerHTML = label;
     {
       let al = af.querySelector(".shortcut-label");
       if (af.hasAttribute("data-editable")) {
@@ -7770,7 +7759,9 @@ class xi extends HTMLElement {
       } else if (ak === null) {
         al.textContent = "";
       } else if (ak === undefined) {
-        al.textContent = aj ? ui.fromString(aj).toDisplayString() : "";
+        al.textContent = defaultShortcut
+          ? ui.fromString(defaultShortcut).toDisplayString()
+          : "";
       }
     }
     af.querySelector(".reset-button").hidden = ak === undefined;
@@ -7778,8 +7769,8 @@ class xi extends HTMLElement {
   #de() {
     let af = 0;
     for (let ag of this["#items"].children) {
-      let { commandID: ah, defaultShortcut: aj } = ag[pi];
-      let ak = this.#ee[ah] || aj;
+      let { commandID, defaultShortcut } = ag[pi];
+      let ak = this.#ee[ah] || defaultShortcut;
       let al = false;
       if (ak) {
         for (let am of this["#items"].children) {
@@ -9276,7 +9267,7 @@ var Bi = new (class {
     return this.#Re;
   }
 })();
-let { ceil: Ri, floor: Ii } = Math;
+let { ceil, floor } = Math;
 class Fi extends HTMLElement {
   static observedAttributes = ["type", "value"];
   static #C = ie` <template> <img id="img" hidden> </template>
@@ -9427,12 +9418,12 @@ class Fi extends HTMLElement {
               '" style="fill: ' +
               aq[0] +
               '; opacity: 0.2;"/>';
-            for (let av = 0; av < Ri(ak / 2); av++) {
+            for (let av = 0; av < ceil(ak / 2); av++) {
               for (let aw = 0; aw < ak; aw++) {
                 if (Ht(0, 1, 10, aj + av * aw) < an) {
                   let ax = aq[Ht(0, aq.length - 1, 0, aj + av * aw)];
                   au(av, aw, ax);
-                  if (av < Ii(ak / 2)) {
+                  if (av < floor(ak / 2)) {
                     au(ak - 1 - av, aw, ax);
                   }
                 }
@@ -9663,16 +9654,16 @@ class Ni extends ni {
   async #A() {
     let af = Bi.auth.userProfile;
     if (af) {
-      let { name: ag, bio: ah, websiteURL: aj } = af;
+      let { name, bio, websiteURL } = af;
       this["#avatar"].type = af.avatar || "random";
       this["#avatar"].value = Bi.auth.userID;
-      this["#name-input"].value = ag;
+      this["#name-input"].value = name;
       this["#name-change-button"].toggled = false;
       this["#name-change-button"].disabled = true;
-      this["#website-input"].value = aj;
+      this["#website-input"].value = websiteURL;
       this["#website-change-button"].toggled = false;
       this["#website-change-button"].disabled = true;
-      this["#bio-editor"].value = ah;
+      this["#bio-editor"].value = bio;
       this["#bio-change-button"].toggled = false;
       this["#bio-change-button"].disabled = true;
     } else {
@@ -11427,21 +11418,21 @@ class Ki extends HTMLElement {
       this["#color-scheme-buttons"].value = ah === "auto" ? aj : ah;
     }
     {
-      let { presetAccentColors: ak } = a2;
+      let { presetAccentColors } = a2;
       let al = a2.getConfig("bx-uisettings:accentColor", "auto");
       let am = this.#T.getSystemAccentColorName();
-      ak[am];
+      presetAccentColors[am];
       if (al === "auto") {
         this["#accent-color-buttons"].value = am;
       } else {
-        let an = !!ak[al];
+        let an = !!presetAccentColors[al];
         this["#accent-color-buttons"].value = an ? al : null;
       }
       for (let ap of [
         ...this["#accent-color-buttons"].querySelectorAll("x-swatch"),
       ]) {
         let aq = ap.parentElement;
-        ap.value = ak[aq.value];
+        ap.value = presetAccentColors[aq.value];
       }
     }
   }
@@ -11826,8 +11817,8 @@ class Yi extends HTMLElement {
     this.#T.removeEventListener("installedchange", this.#R);
   }
   #Zt(af) {
-    let { key: ag, value: ah, origin: aj } = af.detail;
-    if (ag === "bx-uisettings:showInstallButton") {
+    let { key, value, origin } = af.detail;
+    if (key === "bx-uisettings:showInstallButton") {
       this.#A();
     }
   }
@@ -12202,22 +12193,23 @@ class Xi extends HTMLElement {
     }
   }
   #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    let ak = new URLSearchParams(ag ? ag.search : "");
-    let al = new URLSearchParams(ah.search);
-    let am = ag === null || ag.pathname !== ah.pathname;
-    let an = ag === null || ag.search !== ah.search;
+    let { fromLocation, toLocation, method } = af.detail;
+    let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+    let al = new URLSearchParams(toLocation.search);
+    let am =
+      fromLocation === null || fromLocation.pathname !== toLocation.pathname;
+    let an = fromLocation === null || fromLocation.search !== toLocation.search;
     let ap = ak.get("page") !== al.get("page");
     let aq = ak.get("year") !== al.get("year");
     if (am || an || ap || aq) {
       this.#A();
     }
-    if (aj === "push" || aj === "replace") {
+    if (method === "push" || method === "replace") {
       this.#ei = af.detail.state.index;
       if (am || ap || aq) {
         this.#ai();
       }
-    } else if (aj === "pop") {
+    } else if (method === "pop") {
       if ((am || ap || aq) && this.#ei !== null) {
         this.#ai(af.detail.state.index < this.#ei);
       }
@@ -12235,8 +12227,12 @@ class Xi extends HTMLElement {
   #Xe(af) {
     let ag = af.target.closest("a");
     if (ag) {
-      let { origin: ah, pathname: aj } = ag;
-      if (ah === location.origin && aj.startsWith("/") && aj !== "/app") {
+      let { origin, pathname } = ag;
+      if (
+        origin === location.origin &&
+        pathname.startsWith("/") &&
+        pathname !== "/app"
+      ) {
         af.preventDefault();
         this.#T.navigate(ag.href);
       }
@@ -13832,8 +13828,12 @@ class ls extends ns {
     this["#tour-block"].removeEventListener("change", this.#yi);
   }
   #ii(af) {
-    let { fromLocation: ag, toLocation: ah } = af.detail;
-    if (ah.pathname === "/" && ag?.pathname === "/" && ag.hash !== ah.hash) {
+    let { fromLocation, toLocation } = af.detail;
+    if (
+      toLocation.pathname === "/" &&
+      fromLocation?.pathname === "/" &&
+      fromLocation.hash !== toLocation.hash
+    ) {
       this.#ki();
     }
   }
@@ -15039,10 +15039,13 @@ class ps extends HTMLElement {
         ac.Tiptap.Extensions.Paragraph,
         ac.Tiptap.Extensions.Strike.extend({
           addKeyboardShortcuts: () => ({}),
-          renderHTML({ HTMLAttributes: ah }) {
+          renderHTML({ HTMLAttributes }) {
             return [
               "del",
-              ac.Tiptap.Core.mergeAttributes(this.options.HTMLAttributes, ah),
+              ac.Tiptap.Core.mergeAttributes(
+                this.options.HTMLAttributes,
+                HTMLAttributes
+              ),
               0,
             ];
           },
@@ -15659,11 +15662,11 @@ let ms = ac.Tiptap.Core.Extension.create({
   addCommands: () => ({
     loadContent:
       (af) =>
-      ({ tr: ag, dispatch: ah, commands: aj }) => {
-        aj.setContent(af, false, {
+      ({ tr: ag, dispatch, commands }) => {
+        commands.setContent(af, false, {
           preserveWhitespace: true,
         });
-        if (ah) {
+        if (dispatch) {
           ag.setMeta("addToHistory", false);
         }
         return true;
@@ -15690,14 +15693,17 @@ let xs = ac.Tiptap.Extensions.CodeBlock.extend({
       },
     },
   }),
-  renderHTML({ node: af, HTMLAttributes: ag }) {
+  renderHTML({ node, HTMLAttributes }) {
     return [
       "pre",
-      ac.Tiptap.Core.mergeAttributes(this.options.HTMLAttributes, ag),
+      ac.Tiptap.Core.mergeAttributes(
+        this.options.HTMLAttributes,
+        HTMLAttributes
+      ),
       [
         "code",
         {
-          "data-language": af.attrs.language,
+          "data-language": node.attrs.language,
           translate: "no",
           spellcheck: false,
         },
@@ -15736,7 +15742,7 @@ let xs = ac.Tiptap.Extensions.CodeBlock.extend({
         return new ac.State.Plugin({
           key: new ac.State.PluginKey("codeBlockSyntaxHighlighter"),
           state: {
-            init: (ag, { doc: ah }) => af(ah),
+            init: (ag, { doc }) => af(doc),
             apply: (ag, ah, aj, ak) => {
               let al = aj.selection.$head.parent.type.name;
               let am = ak.selection.$head.parent.type.name;
@@ -15830,10 +15836,10 @@ let gs = ac.Tiptap.Extensions.Image.extend({
                   ak.doc,
                   (am) => am.type.name === "image"
                 );
-                for (let { node: am, pos: an } of al) {
+                for (let { node, pos } of al) {
                   ah = ah.add(ak.doc, [
                     ac.View.Decoration.widget(
-                      an + 1 + am.content.size,
+                      pos + 1 + node.content.size,
                       aj.cloneNode(true)
                     ),
                   ]);
@@ -15871,7 +15877,7 @@ let gs = ac.Tiptap.Extensions.Image.extend({
                     }
                     if (an) {
                       let ar = URL.createObjectURL(an);
-                      let { width: au, height: av } = await ((ap = ar),
+                      let { width, height } = await ((ap = ar),
                       new Promise((aw) => {
                         let ax = new Image();
                         ax.onload = () => {
@@ -15889,8 +15895,8 @@ let gs = ac.Tiptap.Extensions.Image.extend({
                           type: "image",
                           attrs: {
                             src: ar,
-                            width: au,
-                            height: av,
+                            width: width,
+                            height: height,
                           },
                         })
                         .run();
@@ -16874,20 +16880,20 @@ class ks extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname === "/blog") {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname === "/blog") {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       {
         let an = ["search", "watched-by", "created-by", "sort", "tag", "page"];
         if (am.find((ap) => an.includes(ap)) !== undefined) {
-          if (aj === "push" || aj === "replace") {
+          if (method === "push" || method === "replace") {
             this.o.resetScrollOffset();
           }
           this.#Es();
           await this.#Ls();
-          if (aj === "pop") {
+          if (method === "pop") {
             this.o.restoreScrollOffset();
           }
         }
@@ -17069,18 +17075,18 @@ class ks extends ns {
         preview: true,
       };
       {
-        let { tag: al, createdBy: am, watchedBy: an } = this["#filter-block"];
-        if (al !== null) {
-          ah.tag = al;
+        let { tag, createdBy, watchedBy } = this["#filter-block"];
+        if (tag !== null) {
+          ah.tag = tag;
         }
-        if (am !== null || an !== null) {
+        if (createdBy !== null || watchedBy !== null) {
           await Bi.auth.whenReady;
           if (Bi.auth.userID !== null) {
-            if (am !== null) {
-              ah.authorID = am;
+            if (createdBy !== null) {
+              ah.authorID = createdBy;
             }
-            if (an !== null) {
-              ah.watchedBy = an;
+            if (watchedBy !== null) {
+              ah.watchedBy = watchedBy;
             }
           }
         }
@@ -17673,12 +17679,15 @@ class Ss extends HTMLElement {
         let ag = af.threadID.split("-")[1];
         let ah = af.id.split("-")[1];
         let aj = af.threadType === "blog" ? af.threadType : af.threadType + "s";
-        let { createdTime: ak } = af;
+        let { createdTime } = af;
         this["#wrote-author-anchor"].href =
           "/profiles/" + af.authorID + "/" + $e(af.authorName);
         this["#wrote-author-anchor"].textContent = af.authorName;
         this["#wrote-date-message"].setAttribute("href", "#date-wrote");
-        this["#wrote-date-message"].setAttribute("args", "date: " + ak + "}");
+        this["#wrote-date-message"].setAttribute(
+          "args",
+          "date: " + createdTime + "}"
+        );
         this["#thread-title-anchor"].innerHTML = "" + af.threadTitle;
         this["#thread-title-anchor"].href =
           "/" + aj + "/" + ag + "/" + af.threadSlug + "#comment-" + ah;
@@ -18548,10 +18557,10 @@ class Ds extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname.startsWith("/blog/")) {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname.startsWith("/blog/")) {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       if (V([...ak.keys(), ...al.keys()]).includes("dialog")) {
         let am = ak.get("dialog");
         let an = al.get("dialog");
@@ -18871,17 +18880,13 @@ class Ds extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = "blog-" + location.pathname.split("/")[2];
-      let {
-        title: ag,
-        description: ah,
-        banner: aj,
-        revision: ak,
-      } = await Bi.database.getDocument("posts", af);
+      let { title, description, banner, revision } =
+        await Bi.database.getDocument("posts", af);
       this["#blog-form"].clear();
-      this["#blog-form"].title = ag;
-      this["#blog-form"].description = ah;
-      this["#blog-form"].banner = aj;
-      this["#blog-form"].revision = ak;
+      this["#blog-form"].title = title;
+      this["#blog-form"].description = description;
+      this["#blog-form"].banner = banner;
+      this["#blog-form"].revision = revision;
       this["#blog-form"].throbber = false;
       this["#blog-dialog"].hidden = false;
       this["#blog-dialog"].showModal();
@@ -18941,14 +18946,14 @@ class Ds extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = new URLSearchParams(location.search).get("dialog").substring(5);
-      let { description: ag, revision: ah } = await Bi.database.getDocument(
+      let { description, revision } = await Bi.database.getDocument(
         "posts",
         af
       );
       this["#comment-form"].clear();
       this["#comment-form"].type = "edit";
-      this["#comment-form"].description = ag;
-      this["#comment-form"].revision = ah;
+      this["#comment-form"].description = description;
+      this["#comment-form"].revision = revision;
       this["#comment-form"].throbber = false;
       this["#comment-dialog"].hidden = false;
       this["#comment-dialog"].showModal();
@@ -20378,10 +20383,10 @@ class Os extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname === "/bugs") {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname === "/bugs") {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       {
         let an = [
@@ -20395,12 +20400,12 @@ class Os extends ns {
           "page",
         ];
         if (am.find((ap) => an.includes(ap)) !== undefined) {
-          if (aj === "push" || aj === "replace") {
+          if (method === "push" || method === "replace") {
             this.o.resetScrollOffset();
           }
           this.#Es();
           await this.#Ls();
-          if (aj === "pop") {
+          if (method === "pop") {
             this.o.restoreScrollOffset();
           }
         }
@@ -20605,32 +20610,27 @@ class Os extends ns {
         preview: true,
       };
       {
-        let {
-          tag: al,
-          status: am,
-          createdBy: an,
-          watchedBy: ap,
-          upvotedBy: aq,
-        } = this["#filter-block"];
-        if (al !== null) {
-          ah.tag = al;
+        let { tag, status, createdBy, watchedBy, upvotedBy } =
+          this["#filter-block"];
+        if (tag !== null) {
+          ah.tag = tag;
         }
-        if (am === "open") {
+        if (status === "open") {
           ah.closed = false;
-        } else if (am === "closed") {
+        } else if (status === "closed") {
           ah.closed = true;
         }
-        if (an !== null || ap !== null || aq !== null) {
+        if (createdBy !== null || watchedBy !== null || upvotedBy !== null) {
           await Bi.auth.whenReady;
           if (Bi.auth.userID !== null) {
-            if (an !== null) {
-              ah.authorID = an;
+            if (createdBy !== null) {
+              ah.authorID = createdBy;
             }
-            if (ap !== null) {
-              ah.watchedBy = ap;
+            if (watchedBy !== null) {
+              ah.watchedBy = watchedBy;
             }
-            if (aq !== null) {
-              ah.upvotedBy = aq;
+            if (upvotedBy !== null) {
+              ah.upvotedBy = upvotedBy;
             }
           }
         }
@@ -21638,10 +21638,10 @@ class Gs extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname.startsWith("/bugs/")) {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname.startsWith("/bugs/")) {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       if (V([...ak.keys(), ...al.keys()]).includes("dialog")) {
         let am = ak.get("dialog");
         let an = al.get("dialog");
@@ -22001,15 +22001,14 @@ class Gs extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = "bug-" + location.pathname.split("/")[2];
-      let {
-        title: ag,
-        description: ah,
-        revision: aj,
-      } = await Bi.database.getDocument("posts", af);
+      let { title, description, revision } = await Bi.database.getDocument(
+        "posts",
+        af
+      );
       this["#bug-form"].clear();
-      this["#bug-form"].title = ag;
-      this["#bug-form"].description = ah;
-      this["#bug-form"].revision = aj;
+      this["#bug-form"].title = title;
+      this["#bug-form"].description = description;
+      this["#bug-form"].revision = revision;
       this["#bug-form"].throbber = false;
       this["#bug-dialog"].hidden = false;
       this["#bug-dialog"].showModal();
@@ -22066,14 +22065,14 @@ class Gs extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = new URLSearchParams(location.search).get("dialog").substring(5);
-      let { description: ag, revision: ah } = await Bi.database.getDocument(
+      let { description, revision } = await Bi.database.getDocument(
         "posts",
         af
       );
       this["#comment-form"].clear();
       this["#comment-form"].type = "edit";
-      this["#comment-form"].description = ag;
-      this["#comment-form"].revision = ah;
+      this["#comment-form"].description = description;
+      this["#comment-form"].revision = revision;
       this["#comment-form"].throbber = false;
       this["#comment-dialog"].hidden = false;
       this["#comment-dialog"].showModal();
@@ -23077,10 +23076,10 @@ class Zs extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname === "/ideas") {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname === "/ideas") {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       {
         let an = [
@@ -23094,12 +23093,12 @@ class Zs extends ns {
           "page",
         ];
         if (am.find((ap) => an.includes(ap)) !== undefined) {
-          if (aj === "push" || aj === "replace") {
+          if (method === "push" || method === "replace") {
             this.o.resetScrollOffset();
           }
           this.#Es();
           await this.#Ls();
-          if (aj === "pop") {
+          if (method === "pop") {
             this.o.restoreScrollOffset();
           }
         }
@@ -23304,32 +23303,27 @@ class Zs extends ns {
         preview: true,
       };
       {
-        let {
-          tag: al,
-          status: am,
-          createdBy: an,
-          watchedBy: ap,
-          upvotedBy: aq,
-        } = this["#filter-block"];
-        if (al !== null) {
-          ah.tag = al;
+        let { tag, status, createdBy, watchedBy, upvotedBy } =
+          this["#filter-block"];
+        if (tag !== null) {
+          ah.tag = tag;
         }
-        if (am === "open") {
+        if (status === "open") {
           ah.closed = false;
-        } else if (am === "closed") {
+        } else if (status === "closed") {
           ah.closed = true;
         }
-        if (an !== null || ap !== null || aq !== null) {
+        if (createdBy !== null || watchedBy !== null || upvotedBy !== null) {
           await Bi.auth.whenReady;
           if (Bi.auth.userID !== null) {
-            if (an !== null) {
-              ah.authorID = an;
+            if (createdBy !== null) {
+              ah.authorID = createdBy;
             }
-            if (ap !== null) {
-              ah.watchedBy = ap;
+            if (watchedBy !== null) {
+              ah.watchedBy = watchedBy;
             }
-            if (aq !== null) {
-              ah.upvotedBy = aq;
+            if (upvotedBy !== null) {
+              ah.upvotedBy = upvotedBy;
             }
           }
         }
@@ -24379,10 +24373,10 @@ class ea extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname.startsWith("/ideas/")) {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname.startsWith("/ideas/")) {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       if (V([...ak.keys(), ...al.keys()]).includes("dialog")) {
         let am = ak.get("dialog");
         let an = al.get("dialog");
@@ -24745,15 +24739,14 @@ class ea extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = "idea-" + location.pathname.split("/")[2];
-      let {
-        title: ag,
-        description: ah,
-        revision: aj,
-      } = await Bi.database.getDocument("posts", af);
+      let { title, description, revision } = await Bi.database.getDocument(
+        "posts",
+        af
+      );
       this["#idea-form"].clear();
-      this["#idea-form"].title = ag;
-      this["#idea-form"].description = ah;
-      this["#idea-form"].revision = aj;
+      this["#idea-form"].title = title;
+      this["#idea-form"].description = description;
+      this["#idea-form"].revision = revision;
       this["#idea-form"].throbber = false;
       this["#idea-dialog"].hidden = false;
       this["#idea-dialog"].showModal();
@@ -24826,14 +24819,14 @@ class ea extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = new URLSearchParams(location.search).get("dialog").substring(5);
-      let { description: ag, revision: ah } = await Bi.database.getDocument(
+      let { description, revision } = await Bi.database.getDocument(
         "posts",
         af
       );
       this["#comment-form"].clear();
       this["#comment-form"].type = "edit";
-      this["#comment-form"].description = ag;
-      this["#comment-form"].revision = ah;
+      this["#comment-form"].description = description;
+      this["#comment-form"].revision = revision;
       this["#comment-form"].throbber = false;
       this["#comment-dialog"].hidden = false;
       this["#comment-dialog"].showModal();
@@ -25809,10 +25802,10 @@ class aa extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname === "/questions") {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname === "/questions") {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       {
         let an = [
@@ -25826,12 +25819,12 @@ class aa extends ns {
           "page",
         ];
         if (am.find((ap) => an.includes(ap)) !== undefined) {
-          if (aj === "push" || aj === "replace") {
+          if (method === "push" || method === "replace") {
             this.o.resetScrollOffset();
           }
           this.#Es();
           await this.#Ls();
-          if (aj === "pop") {
+          if (method === "pop") {
             this.o.restoreScrollOffset();
           }
         }
@@ -26028,32 +26021,27 @@ class aa extends ns {
         preview: true,
       };
       {
-        let {
-          tag: al,
-          status: am,
-          createdBy: an,
-          watchedBy: ap,
-          upvotedBy: aq,
-        } = this["#filter-block"];
-        if (al !== null) {
-          ah.tag = al;
+        let { tag, status, createdBy, watchedBy, upvotedBy } =
+          this["#filter-block"];
+        if (tag !== null) {
+          ah.tag = tag;
         }
-        if (am === "open") {
+        if (status === "open") {
           ah.closed = false;
-        } else if (am === "closed") {
+        } else if (status === "closed") {
           ah.closed = true;
         }
-        if (an !== null || ap !== null || aq !== null) {
+        if (createdBy !== null || watchedBy !== null || upvotedBy !== null) {
           await Bi.auth.whenReady;
           if (Bi.auth.userID !== null) {
-            if (an !== null) {
-              ah.authorID = an;
+            if (createdBy !== null) {
+              ah.authorID = createdBy;
             }
-            if (ap !== null) {
-              ah.watchedBy = ap;
+            if (watchedBy !== null) {
+              ah.watchedBy = watchedBy;
             }
-            if (aq !== null) {
-              ah.upvotedBy = aq;
+            if (upvotedBy !== null) {
+              ah.upvotedBy = upvotedBy;
             }
           }
         }
@@ -27070,10 +27058,10 @@ class ha extends ns {
     }
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname.startsWith("/questions/")) {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname.startsWith("/questions/")) {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       if (V([...ak.keys(), ...al.keys()]).includes("dialog")) {
         let am = ak.get("dialog");
         let an = al.get("dialog");
@@ -27436,15 +27424,14 @@ class ha extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = "question-" + location.pathname.split("/")[2];
-      let {
-        title: ag,
-        description: ah,
-        revision: aj,
-      } = await Bi.database.getDocument("posts", af);
+      let { title, description, revision } = await Bi.database.getDocument(
+        "posts",
+        af
+      );
       this["#question-form"].clear();
-      this["#question-form"].title = ag;
-      this["#question-form"].description = ah;
-      this["#question-form"].revision = aj;
+      this["#question-form"].title = title;
+      this["#question-form"].description = description;
+      this["#question-form"].revision = revision;
       this["#question-form"].throbber = false;
       this["#question-dialog"].hidden = false;
       this["#question-dialog"].showModal();
@@ -27517,14 +27504,14 @@ class ha extends ns {
       this.o.openEmailVerifyMessageDialog();
     } else {
       let af = new URLSearchParams(location.search).get("dialog").substring(5);
-      let { description: ag, revision: ah } = await Bi.database.getDocument(
+      let { description, revision } = await Bi.database.getDocument(
         "posts",
         af
       );
       this["#comment-form"].clear();
       this["#comment-form"].type = "edit";
-      this["#comment-form"].description = ag;
-      this["#comment-form"].revision = ah;
+      this["#comment-form"].description = description;
+      this["#comment-form"].revision = revision;
       this["#comment-form"].throbber = false;
       this["#comment-dialog"].hidden = false;
       this["#comment-dialog"].showModal();
@@ -27877,19 +27864,19 @@ class ua extends ns {
     this.#A();
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname.startsWith("/profiles/")) {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname.startsWith("/profiles/")) {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       {
         let an = ["category", "page"];
         if (am.find((ap) => an.includes(ap)) !== undefined) {
-          if (aj === "push" || aj === "replace") {
+          if (method === "push" || method === "replace") {
             this.o.resetScrollOffset();
           }
           await this.#A();
-          if (aj === "pop") {
+          if (method === "pop") {
             this.o.restoreScrollOffset();
           }
         }
@@ -28786,13 +28773,13 @@ class va extends ns {
       for (let ap = 0; ap < aj.length; ap += 1) {
         let aq = aj[ap];
         let ar = aj[ap - 1];
-        let { version: au, createdTime: av, changes: aw } = aq;
+        let { version, createdTime, changes } = aq;
         let ax = "";
-        let ay = new Date(av).toISOString().split("T")[0];
+        let ay = new Date(createdTime).toISOString().split("T")[0];
         let az = ar
           ? new Date(ar.createdTime).toISOString().split("T")[0]
           : af + "-01-01";
-        for (let aA of aw) {
+        for (let aA of changes) {
           let aB;
           if (aA.type === "added") {
             aB = "Dodano";
@@ -28808,7 +28795,7 @@ class va extends ns {
         }
         al +=
           "\n          <section>\n            <h2>Wersja " +
-          au +
+          version +
           " <span>(" +
           az +
           " - " +
@@ -28851,17 +28838,17 @@ class va extends ns {
     this.#Io();
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname === "/changelog") {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname === "/changelog") {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       {
         let an = ["year", "sort"];
         if (am.find((ap) => an.includes(ap)) !== undefined) {
           this.#Es();
           await this.#Fo();
-          if (aj === "pop") {
+          if (method === "pop") {
             this.o.restoreScrollOffset();
           }
         }
@@ -28921,31 +28908,31 @@ class va extends ns {
   }
   async #Ao() {
     this["#changelog-form"].throbber = true;
-    let { version: af, changes: ag } = this["#changelog-form"];
+    let { version, changes } = this["#changelog-form"];
     let ah = await Bi.database.getDocument("posts", "changelog-x.y.z");
-    ah.version = af;
-    ah.changes = ag;
+    ah.version = version;
+    ah.changes = changes;
     await Bi.functions.postMessage("editPost", {
       id: "changelog-x.y.z",
-      version: af,
-      changes: ag,
+      version: version,
+      changes: changes,
     });
     this["#changelog-form"].throbber = false;
   }
   async #Bo() {
     this["#changelog-form"].throbber = true;
-    let { version: af, changes: ag } = this["#changelog-form"];
+    let { version, changes } = this["#changelog-form"];
     await Bi.functions.postMessage("newPost", {
       type: "changelog",
-      version: af,
-      changes: ag,
+      version: version,
+      changes: changes,
     });
     await Bi.functions.postMessage("editPost", {
       id: "changelog-x.y.z",
       version: "x.y.z",
       changes: [],
     });
-    await Bi.index.whenPostCreated("changelog-" + af, a2.locale);
+    await Bi.index.whenPostCreated("changelog-" + version, a2.locale);
     this["#changelog-form"].throbber = false;
     this.#Fo();
   }
@@ -29190,12 +29177,12 @@ class ka extends HTMLElement {
     this.setAttribute("tabindex", "0");
     this.#Ho = new ya(this["#iframe"]);
     this.#Ho.addMessageListener("beforeready", (ag, ah) => {
-      let { name: aj, locale: ak, theme: al, accent: am } = this;
+      let { name, locale, theme, accent } = this;
       ah({
-        name: aj,
-        locale: ak,
-        theme: al,
-        accent: am,
+        name: name,
+        locale: locale,
+        theme: theme,
+        accent: accent,
       });
     });
     this.#Ho.addMessageListener("ready", () => {
@@ -29497,18 +29484,13 @@ class Sa extends ns {
     this.#in();
   }
   #in() {
-    let {
-      name: af,
-      locale: ag,
-      theme: ah,
-      accentColor: aj,
-    } = this["#settings"];
+    let { name, locale, theme, accentColor } = this["#settings"];
     let ak =
       '\n      <!-- Add to <head> -->\n      <script src="https://boxy-svg.com/embed.js" async></script>\n\n      <!-- Add to <body> -->\n      <boxy-svg' +
-      (af === null ? "" : ' name="' + af + '"') +
-      (ag === "en" ? "" : ' locale="' + ag + '"') +
-      (ah === "fluent" ? "" : ' theme="' + ah + '"') +
-      (aj === "blue" ? "" : ' accent="' + aj + '"') +
+      (name === null ? "" : ' name="' + name + '"') +
+      (locale === "en" ? "" : ' locale="' + locale + '"') +
+      (theme === "fluent" ? "" : ' theme="' + theme + '"') +
+      (accentColor === "blue" ? "" : ' accent="' + accentColor + '"') +
       "></boxy-svg>\n    ";
     this["#code"].innerHTML = ds(
       ((al) => {
@@ -29635,39 +29617,39 @@ class $a extends ns {
     this.o.removeEventListener("locationchange", this.#ys);
   }
   async #ii(af) {
-    let { fromLocation: ag, toLocation: ah, method: aj } = af.detail;
-    if (ah.pathname === "/search") {
-      let ak = new URLSearchParams(ag ? ag.search : "");
-      let al = new URLSearchParams(ah.search);
+    let { fromLocation, toLocation, method } = af.detail;
+    if (toLocation.pathname === "/search") {
+      let ak = new URLSearchParams(fromLocation ? fromLocation.search : "");
+      let al = new URLSearchParams(toLocation.search);
       let am = _i(ak, al);
       if (
         am.includes("query") ||
         am.includes("category") ||
         am.includes("page")
       ) {
-        if (aj === "push" || aj === "replace") {
+        if (method === "push" || method === "replace") {
           this.o.resetScrollOffset();
         }
         await this.#A();
-        if (aj === "pop") {
+        if (method === "pop") {
           this.o.restoreScrollOffset();
         }
       }
     }
   }
   #on() {
-    let { query: af, category: ag } = this["#search-block"];
+    let { query, category } = this["#search-block"];
     let ah = new URL(location.href);
     let aj = new URLSearchParams(location.search);
-    if (af === "") {
+    if (query === "") {
       aj.delete("query");
     } else {
-      aj.set("query", af);
+      aj.set("query", query);
     }
-    if (ag === "all") {
+    if (category === "all") {
       aj.delete("category");
     } else {
-      aj.set("category", ag);
+      aj.set("category", category);
     }
     aj.delete("page");
     ah.search = aj.toString();
@@ -31305,13 +31287,13 @@ let ja = (af) => {
         al.style.setProperty(am, ap);
       }
     }
-    for (let { name: aq, value: ar } of af.attributes) {
+    for (let { name, value } of af.attributes) {
       if (
-        D.includes(aq) &&
-        aq !== "transform" &&
-        al.hasAttribute(aq) === false
+        D.includes(name) &&
+        name !== "transform" &&
+        al.hasAttribute(name) === false
       ) {
-        al.setAttribute(aq, ar);
+        al.setAttribute(name, value);
       }
     }
     for (let au of af.classList) {
@@ -31373,8 +31355,8 @@ let Ga = (af, ag = Va) => {
       if (ah.localName === "title") {
         let aw = ei("svg:bx-title");
         aw.innerHTML = ah.innerHTML;
-        for (let { name: ax, value: ay } of ah.attributes) {
-          aw.setAttribute(ax, ay);
+        for (let { name, value } of ah.attributes) {
+          aw.setAttribute(name, value);
         }
         ah.replaceWith(aw);
         continue;
@@ -31389,12 +31371,12 @@ let Ga = (af, ag = Va) => {
       }
       if (ah.localName === "set") {
         let aB = ei("svg:animate");
-        for (let { name: aC, value: aD } of ah.attributes) {
-          if (aC === "to") {
-            aB.setAttribute("from", aD);
-            aB.setAttribute("to", aD);
+        for (let { name, value } of ah.attributes) {
+          if (name === "to") {
+            aB.setAttribute("from", value);
+            aB.setAttribute("to", value);
           } else {
-            aB.setAttribute(aC, aD);
+            aB.setAttribute(name, value);
           }
         }
         ah.replaceWith(aB);
@@ -31422,44 +31404,47 @@ let Ga = (af, ag = Va) => {
           continue;
         }
       }
-      for (let { name: aE, value: aF } of [...ah.attributes]) {
-        if (aE.includes(":")) {
-          ah.removeAttribute(aE);
-          if (aE.startsWith("bx:")) {
-            aE = "data-bx-" + aE.split(":")[1];
-            ah.setAttribute(aE, aF);
-          } else if (aE === "xlink:href" && ah.hasAttribute("href") === false) {
-            aE = "href";
-            ah.setAttribute(aE, aF);
+      for (let { name, value } of [...ah.attributes]) {
+        if (name.includes(":")) {
+          ah.removeAttribute(name);
+          if (name.startsWith("bx:")) {
+            name = "data-bx-" + name.split(":")[1];
+            ah.setAttribute(name, value);
           } else if (
-            aE === "xlink:title" &&
+            name === "xlink:href" &&
+            ah.hasAttribute("href") === false
+          ) {
+            name = "href";
+            ah.setAttribute(name, value);
+          } else if (
+            name === "xlink:title" &&
             ah.hasAttribute("title") === false
           ) {
-            aE = "title";
-            ah.setAttribute(aE, aF);
+            name = "title";
+            ah.setAttribute(name, value);
           } else {
-            if (aE !== "xml:lang") {
+            if (name !== "xml:lang") {
               continue;
             }
-            aE = "lang";
-            ah.setAttribute(aE, aF);
+            name = "lang";
+            ah.setAttribute(name, value);
           }
         }
-        if (aE.startsWith("data-")) {
-          if (aE === "data-bx-shape") {
+        if (name.startsWith("data-")) {
+          if (name === "data-bx-shape") {
             if (_a(ah) === false) {
-              ah.removeAttribute(aE);
+              ah.removeAttribute(name);
             }
-          } else if (aE === "data-bx-d") {
+          } else if (name === "data-bx-d") {
             if (Zt(ah) === false) {
-              ah.removeAttribute(aE);
+              ah.removeAttribute(name);
             }
-          } else if (aE === "data-bx-origin") {
-            ah.removeAttribute(aE);
+          } else if (name === "data-bx-origin") {
+            ah.removeAttribute(name);
           }
-        } else if (aE === "href" && ah.localName === "a") {
-          ah.removeAttribute(aE);
-          ah.setAttribute("_href", aF);
+        } else if (name === "href" && ah.localName === "a") {
+          ah.removeAttribute(name);
+          ah.setAttribute("_href", value);
         }
       }
     }
@@ -31513,19 +31498,19 @@ let Ga = (af, ag = Va) => {
   }
   {
     let aU = [];
-    for (let { name: aV, value: aW } of [...aj.attributes]) {
-      aj.removeAttribute(aV);
-      if (aV !== "xmlns" && aV !== "xmlns:bx") {
+    for (let { name, value } of [...aj.attributes]) {
+      aj.removeAttribute(name);
+      if (name !== "xmlns" && name !== "xmlns:bx") {
         aU.push({
-          name: aV,
-          value: aW,
+          name: name,
+          value: value,
         });
       }
     }
     aj.setAttribute("xmlns", u);
     aj.setAttribute("xmlns:bx", d);
-    for (let { name: aX, value: aY } of aU) {
-      aj.setAttribute(aX, aY);
+    for (let { name, value } of aU) {
+      aj.setAttribute(name, value);
     }
   }
   {
@@ -31650,15 +31635,15 @@ class Wa extends EventTarget {
     let ak = [];
     let al = [];
     if (this.#vn) {
-      for (let { id: am, data: an } of this.#vn) {
+      for (let { id: am, data } of this.#vn) {
         ak.push({
           uid: am,
-          createdTime: an.createdTime,
-          updatedTime: an.updatedTime,
-          library: an.library !== undefined ? an.library : "none",
-          folder: an.folder !== undefined ? [...an.folder] : [],
-          name: an.name !== undefined ? an.name : an.title,
-          size: an.size !== undefined ? an.size : 0,
+          createdTime: data.createdTime,
+          updatedTime: data.updatedTime,
+          library: data.library !== undefined ? data.library : "none",
+          folder: data.folder !== undefined ? [...data.folder] : [],
+          name: data.name !== undefined ? data.name : data.title,
+          size: data.size !== undefined ? data.size : 0,
         });
       }
     }
@@ -31727,15 +31712,15 @@ class Wa extends EventTarget {
   getFile(af) {
     let ag = null;
     if (this.#vn) {
-      for (let { id: ah, data: aj } of this.#vn) {
+      for (let { id: ah, data } of this.#vn) {
         if (ah === af) {
           ag = {
             uid: af,
-            createdTime: aj.createdTime,
-            updatedTime: aj.updatedTime,
-            folder: aj.folder !== undefined ? [...aj.folder] : [],
-            name: aj.name !== undefined ? aj.name : aj.title,
-            size: aj.size !== undefined ? aj.size : 0,
+            createdTime: data.createdTime,
+            updatedTime: data.updatedTime,
+            folder: data.folder !== undefined ? [...data.folder] : [],
+            name: data.name !== undefined ? data.name : data.title,
+            size: data.size !== undefined ? data.size : 0,
           };
           break;
         }
@@ -31746,9 +31731,9 @@ class Wa extends EventTarget {
   getFolderSize(af) {
     let ag = 0;
     if (this.#vn) {
-      for (let { id: ah, data: aj } of this.#vn) {
-        let ak = aj.folder !== undefined ? aj.folder : [];
-        let al = aj.size !== undefined ? aj.size : 0;
+      for (let { id: ah, data } of this.#vn) {
+        let ak = data.folder !== undefined ? data.folder : [];
+        let al = data.size !== undefined ? data.size : 0;
         if (q(ak.slice(0, af.length), af, true)) {
           ag += al;
         }
@@ -32162,11 +32147,11 @@ class Ka extends HTMLElement {
   }
   openContextMenu() {
     return new Promise(async (af) => {
-      let { selectedFolders: ag, selectedFiles: ah } = this.currentView;
+      let { selectedFolders, selectedFiles } = this.currentView;
       let aj = [];
       this.#$n;
       aj =
-        ag.length === 0 && ah.length === 0
+        selectedFolders.length === 0 && selectedFiles.length === 0
           ? [
               {
                 value: "newFile",
@@ -32186,7 +32171,7 @@ class Ka extends HTMLElement {
                 },
               },
             ]
-          : ag.length === 1 && ah.length === 0
+          : selectedFolders.length === 1 && selectedFiles.length === 0
           ? [
               {
                 value: "newFolder",
@@ -32224,7 +32209,7 @@ class Ka extends HTMLElement {
                 },
               },
             ]
-          : ag.length === 0 && ah.length === 1
+          : selectedFolders.length === 0 && selectedFiles.length === 1
           ? [
               {
                 value: "newFolder",
@@ -32522,20 +32507,20 @@ class Ka extends HTMLElement {
   }
   moveSelectionToFolder(af) {
     return new Promise(async (ag) => {
-      let { selectedFolders: ah, selectedFiles: aj } = this.currentView;
+      let { selectedFolders, selectedFiles } = this.currentView;
       let ak = af.length === 0 ? "Cloud" : af[af.length - 1];
-      let al = ah.length + aj.length;
+      let al = selectedFolders.length + selectedFiles.length;
       let am = {};
       if (al === 1) {
         this.#Hn('Moving 1 item to "' + ak + '"...');
       } else {
         this.#Hn("Moving " + al + ' items to "' + ak + '"...');
       }
-      for (let an of aj) {
+      for (let an of selectedFiles) {
         this.#Cn.getFile(an);
         am[an] = af;
       }
-      for (let ap of ah) {
+      for (let ap of selectedFolders) {
         let [aq] = this.#Cn.query(ap, "", "nameAsc", true);
         for (let ar of aq) {
           let au = ar.folder.slice(this.#Sn.length);
@@ -32601,9 +32586,9 @@ class Ka extends HTMLElement {
   }
   #Gn(af) {
     return new Promise(async (ag) => {
-      let { selectedFiles: ah, selectedFolders: aj } = this.currentView;
-      let ak = [...ah];
-      for (let al of aj) {
+      let { selectedFiles, selectedFolders } = this.currentView;
+      let ak = [...selectedFiles];
+      for (let al of selectedFolders) {
         let [am] = this.#Cn.query(al, "", "nameAsc", true);
         for (let an of am) {
           ak.push(an.uid);
@@ -32749,11 +32734,11 @@ class Ka extends HTMLElement {
   }
   #Fn() {
     if (this.type === "manage") {
-      let { location: af, search: ag, sort: ah } = this;
-      let [aj, ak] = this.#Cn.query(af, ag, ah, ag !== "");
-      let { selectedFiles: al, selectedFolders: am } = this.currentView;
+      let { location, search, sort } = this;
+      let [aj, ak] = this.#Cn.query(location, search, sort, search !== "");
+      let { selectedFiles, selectedFolders } = this.currentView;
       let an = aj.length + ak.length;
-      let ap = al.length + am.length;
+      let ap = selectedFiles.length + selectedFolders.length;
       let aq = "";
       let ar = "";
       aq = ap === 0 ? an + " items" : ap + " of " + an + " items selected";
@@ -32767,10 +32752,10 @@ class Ka extends HTMLElement {
             au += this.#Cn.getFolderSize(aw);
           }
         } else {
-          for (let ax of al) {
+          for (let ax of selectedFiles) {
             au += aj.find((ay) => ay.uid === ax).size;
           }
-          for (let ay of am) {
+          for (let ay of selectedFolders) {
             au += this.#Cn.getFolderSize(ay);
           }
         }
@@ -33011,8 +32996,8 @@ class Za extends HTMLElement {
     let ag = af.target.closest("bx-cloudfilepreview, bx-cloudfolderpreview");
     let ah = [...this["#previews"].querySelectorAll("*")];
     let aj = [...this["#previews"].querySelectorAll("[selected]")];
-    let { ctrl: ak, shift: al } = ui.fromEvent(af);
-    let am = this.#Zn.type === "manage" && (ak === true || al === true);
+    let { ctrl, shift } = ui.fromEvent(af);
+    let am = this.#Zn.type === "manage" && (ctrl === true || shift === true);
     new DOMPoint(af.clientX, af.clientY);
     if (af.buttons <= 1) {
       if (ag) {
@@ -33042,7 +33027,7 @@ class Za extends HTMLElement {
           );
         }
       } else if (af.offsetX < af.target.clientWidth) {
-        if (aj.length > 0 && al === false) {
+        if (aj.length > 0 && shift === false) {
           for (let aq of aj) {
             aq.selected = false;
           }
@@ -33238,12 +33223,12 @@ class Za extends HTMLElement {
   }
   #tl(af) {
     let ag = af.target;
-    let { oldName: ah, newName: aj } = af.detail;
-    if (aj !== ah) {
+    let { oldName, newName } = af.detail;
+    if (newName !== oldName) {
       if (ag.localName === "bx-cloudfilepreview") {
-        this.#Zn.renameFile(ag.value, aj);
+        this.#Zn.renameFile(ag.value, newName);
       } else if (ag.localName === "bx-cloudfolderpreview") {
-        this.#Zn.renameFolder(ag.value, aj);
+        this.#Zn.renameFolder(ag.value, newName);
       }
     }
   }
@@ -33605,10 +33590,10 @@ class Za extends HTMLElement {
     }
   }
   #A() {
-    let { location: af, search: ag, sort: ah } = this.#Zn;
-    let { selectedFiles: aj, selectedFolders: ak } = this;
+    let { location, search, sort } = this.#Zn;
+    let { selectedFiles, selectedFolders } = this;
     let al = this.#Zn.cloudStorageModel;
-    let [am, an] = al.query(af, ag, ah, ag !== "");
+    let [am, an] = al.query(location, search, sort, search !== "");
     this["#previews"].innerHTML = "";
     for (let ap of an) {
       let aq = ie`<bx-cloudfolderpreview class="preview"></bx-cloudfolderpreview>`;
@@ -33620,7 +33605,7 @@ class Za extends HTMLElement {
         aq.editable = false;
         aq.disabled = false;
       }
-      for (let ar of ak) {
+      for (let ar of selectedFolders) {
         if (q(ar, ap, true)) {
           aq.selected = true;
         }
@@ -33628,11 +33613,11 @@ class Za extends HTMLElement {
       this["#previews"].append(aq);
     }
     for (let au of am) {
-      let { uid: av, name: aw, library: ax, path: ay } = au;
+      let { uid, name, library, path } = au;
       let az = ie`<bx-cloudfilepreview class="preview"></bx-cloudfilepreview>`;
-      az.value = av;
-      az.name = aw;
-      az.library = ax !== "none";
+      az.value = uid;
+      az.name = name;
+      az.library = library !== "none";
       if (this.#Zn.type === "manage") {
         az.editable = true;
         az.disabled = false;
@@ -33643,13 +33628,13 @@ class Za extends HTMLElement {
         az.editable = false;
         az.disabled = true;
       }
-      if (aj.includes(av)) {
+      if (selectedFiles.includes(uid)) {
         az.selected = true;
       }
       this["#previews"].append(az);
     }
     this["#placeholder"].hidden = am.length > 0 || an.length > 0;
-    if (ag === "") {
+    if (search === "") {
       if (this.#Zn.cloudStorageModel.ready === false) {
         this["#placeholder-title"].textContent = "";
         this["#placeholder-description"].textContent = "";
@@ -33865,7 +33850,7 @@ class Xa extends HTMLElement {
     this.#rl = af;
     let ag;
     let ah;
-    let { naturalWidth: aj, naturalHeight: ak } = af;
+    let { naturalWidth, naturalHeight } = af;
     let al = af.getBoundingClientRect();
     this["#image"].src = af.src;
     this.setAttribute("open", "");
@@ -33889,13 +33874,13 @@ class Xa extends HTMLElement {
         window.innerWidth - am * 2 - an,
         window.innerHeight - am * 2
       );
-      if (ag.width > aj) {
-        ag.x = window.innerWidth / 2 - aj / 2;
-        ag.width = aj;
+      if (ag.width > naturalWidth) {
+        ag.x = window.innerWidth / 2 - naturalWidth / 2;
+        ag.width = naturalWidth;
       }
-      if (ag.height > ak) {
-        ag.y = window.innerHeight / 2 - ak / 2;
-        ag.height = ak;
+      if (ag.height > naturalHeight) {
+        ag.y = window.innerHeight / 2 - naturalHeight / 2;
+        ag.height = naturalHeight;
       }
     }
     {
@@ -33916,12 +33901,12 @@ class Xa extends HTMLElement {
       ah = Rt(al, av);
     }
     {
-      let aw = new DOMRect(0, 0, aj, ak);
+      let aw = new DOMRect(0, 0, naturalWidth, naturalHeight);
       let ax = dt(aw, al);
       let ay = dt(aw, ah);
       this["#backdrop"].style.opacity = 1;
-      this["#image"].style.width = aj + "px";
-      this["#image"].style.height = ak + "px";
+      this["#image"].style.width = naturalWidth + "px";
+      this["#image"].style.height = naturalHeight + "px";
       this["#image"].style.transform = ay.toString();
       let az = this["#image"].animate(
         {
@@ -33948,7 +33933,7 @@ class Xa extends HTMLElement {
     if (this.#hl) {
       return;
     }
-    let { naturalWidth: af, naturalHeight: ag } = this.#rl;
+    let { naturalWidth, naturalHeight } = this.#rl;
     let ah = this["#image"].getBoundingClientRect();
     let aj = this.#rl.getBoundingClientRect();
     window.removeEventListener("scroll", this.#cl);
@@ -33956,7 +33941,7 @@ class Xa extends HTMLElement {
     window.removeEventListener("keydown", this.#ul);
     this.#T.removeEventListener("locationchange", this.#ys);
     {
-      let ak = new DOMRect(0, 0, af, ag);
+      let ak = new DOMRect(0, 0, naturalWidth, naturalHeight);
       let al = dt(ak, ah);
       let am = dt(ak, aj);
       this["#backdrop"].style.opacity = 0;
@@ -34469,8 +34454,15 @@ class po {
     }
   }
   #Ll(af, ag, ah, aj, ak, al) {
-    let { transform: am } = this.#ml.PDF.Util;
-    this.transformMatrix = am(this.transformMatrix, [af, ag, ah, aj, ak, al]);
+    let { transform } = this.#ml.PDF.Util;
+    this.transformMatrix = transform(this.transformMatrix, [
+      af,
+      ag,
+      ah,
+      aj,
+      ak,
+      al,
+    ]);
     this.tgrp = null;
   }
   #Ul() {
@@ -34679,20 +34671,15 @@ class po {
     if (aj === 0) {
       return;
     }
-    let {
-      fontSizeScale: ak,
-      charSpacing: al,
-      wordSpacing: am,
-      fontDirection: an,
-    } = ag;
-    let { vertical: ap, defaultVMetrics: aq } = ah;
-    let ar = ap ? 1 : -1;
+    let { fontSizeScale, charSpacing, wordSpacing, fontDirection } = ag;
+    let { vertical, defaultVMetrics } = ah;
+    let ar = vertical ? 1 : -1;
     let au = aj * ag.fontMatrix[0];
-    let av = ag.textHScale * an;
+    let av = ag.textHScale * fontDirection;
     let aw = 0;
     for (let az of af) {
       if (az === null) {
-        aw += an * am;
+        aw += fontDirection * wordSpacing;
         continue;
       }
       if (typeof az == "number") {
@@ -34701,38 +34688,40 @@ class po {
       }
       let aA;
       let aB;
-      let aC = (az.isSpace ? am : 0) + al;
+      let aC = (az.isSpace ? wordSpacing : 0) + charSpacing;
       let aD = az.fontChar;
       let aE = az.width;
-      if (ap) {
+      if (vertical) {
         let aF;
-        let aG = az.vmetric || aq;
+        let aG = az.vmetric || defaultVMetrics;
         aF = az.vmetric ? aG[1] : aE * 0.5;
         aF = -aF * au;
         let aH = aG[2] * au;
         aE = aG ? -aG[0] : aE;
-        aA = aF / ak;
-        aB = (aw + aH) / ak;
+        aA = aF / fontSizeScale;
+        aB = (aw + aH) / fontSizeScale;
       } else {
-        aA = aw / ak;
+        aA = aw / fontSizeScale;
         aB = 0;
       }
       if (az.isInFont || ah.missingFile) {
         ag.xcoords.push(ag.x + aA);
-        if (ap) {
+        if (vertical) {
           ag.ycoords.push(-ag.y + aB);
         }
         ag.tspan.textContent += aD;
       }
-      aw += ap ? aE * au - aC * an : aE * au + aC * an;
+      aw += vertical
+        ? aE * au - aC * fontDirection
+        : aE * au + aC * fontDirection;
     }
     ag.tspan.setAttribute("x", ag.xcoords.map(xo).join(" "));
-    if (ap) {
+    if (vertical) {
       ag.tspan.setAttribute("y", ag.ycoords.map(xo).join(" "));
     } else {
       ag.tspan.setAttribute("y", xo(-ag.y));
     }
-    if (ap) {
+    if (vertical) {
       ag.y -= aw;
     } else {
       ag.x += aw * av;
@@ -34800,10 +34789,10 @@ class po {
     this.current.ycoords = [];
   }
   #or(af) {
-    let { width: ag, height: ah } = this.viewport;
+    let { width, height } = this.viewport;
     let aj = this.#ml.PDF.Util.inverseTransform(this.transformMatrix);
     let [ak, al, am, an] = this.#ml.PDF.Util.getAxialAlignedBoundingBox(
-      [0, 0, ag, ah],
+      [0, 0, width, height],
       aj
     );
     let ap = ei("svg:rect");
@@ -35033,7 +35022,7 @@ class po {
     this.current.fillAlpha = af;
   }
   #fr(af) {
-    let { applyTransform: ag, normalizeRect: ah } = this.#ml.PDF.Util;
+    let { applyTransform, normalizeRect } = this.#ml.PDF.Util;
     let aj = af[1];
     let ak = af[2];
     let al = af[3] || Ja;
@@ -35042,7 +35031,10 @@ class po {
     let au = af[6];
     let av = af[7];
     let aw = "shading" + this.#xl.shading++;
-    let [ax, ay, az, aA] = ah([...ag([am, an], al), ...ag([ap, aq], al)]);
+    let [ax, ay, az, aA] = normalizeRect([
+      ...applyTransform([am, an], al),
+      ...applyTransform([ap, aq], al),
+    ]);
     let [aB, aC] = this.#ml.PDF.Util.singularValueDecompose2dScale(al);
     let aD = ar * aB;
     let aE = au * aC;
@@ -35358,12 +35350,12 @@ class yo extends HTMLElement {
     return [...this.#Tr];
   }
   get modKeys() {
-    let { ctrl: af, alt: ag, meta: ah, shift: aj } = this.#$r;
+    let { ctrl, alt, meta, shift } = this.#$r;
     return {
-      ctrl: af,
-      alt: ag,
-      meta: ah,
-      shift: aj,
+      ctrl: ctrl,
+      alt: alt,
+      meta: meta,
+      shift: shift,
     };
   }
   get textInputMode() {
@@ -35840,18 +35832,18 @@ class yo extends HTMLElement {
       this.dispatchEvent(new CustomEvent("pointerschange"));
     }
     {
-      let { ctrl: ag, alt: ah, meta: aj, shift: ak } = ui.fromEvent(af);
+      let { ctrl, alt, meta, shift } = ui.fromEvent(af);
       if (
-        ag !== this.#$r.ctrl ||
-        ah !== this.#$r.alt ||
-        aj !== this.#$r.meta ||
-        ak !== this.#$r.shift
+        ctrl !== this.#$r.ctrl ||
+        alt !== this.#$r.alt ||
+        meta !== this.#$r.meta ||
+        shift !== this.#$r.shift
       ) {
         this.#$r = {
-          ctrl: ag,
-          alt: ah,
-          meta: aj,
-          shift: ak,
+          ctrl: ctrl,
+          alt: alt,
+          meta: meta,
+          shift: shift,
         };
         this.dispatchEvent(new CustomEvent("modkeyschange"));
       }
@@ -35897,18 +35889,18 @@ class yo extends HTMLElement {
     this.#kr = af.clientY;
     this.#Cr = af.pressure;
     {
-      let { ctrl: ag, alt: ah, meta: aj, shift: ak } = ui.fromEvent(af);
+      let { ctrl, alt, meta, shift } = ui.fromEvent(af);
       if (
-        ag !== this.#$r.ctrl ||
-        ah !== this.#$r.alt ||
-        aj !== this.#$r.meta ||
-        ak !== this.#$r.shift
+        ctrl !== this.#$r.ctrl ||
+        alt !== this.#$r.alt ||
+        meta !== this.#$r.meta ||
+        shift !== this.#$r.shift
       ) {
         this.#$r = {
-          ctrl: ag,
-          alt: ah,
-          meta: aj,
-          shift: ak,
+          ctrl: ctrl,
+          alt: alt,
+          meta: meta,
+          shift: shift,
         };
         this.dispatchEvent(new CustomEvent("modkeyschange"));
       }
@@ -35921,18 +35913,18 @@ class yo extends HTMLElement {
       this.dispatchEvent(new CustomEvent("pointerschange"));
     }
     {
-      let { ctrl: ag, alt: ah, meta: aj, shift: ak } = ui.fromEvent(af);
+      let { ctrl, alt, meta, shift } = ui.fromEvent(af);
       if (
-        ag !== this.#$r.ctrl ||
-        ah !== this.#$r.alt ||
-        aj !== this.#$r.meta ||
-        ak !== this.#$r.shift
+        ctrl !== this.#$r.ctrl ||
+        alt !== this.#$r.alt ||
+        meta !== this.#$r.meta ||
+        shift !== this.#$r.shift
       ) {
         this.#$r = {
-          ctrl: ag,
-          alt: ah,
-          meta: aj,
-          shift: ak,
+          ctrl: ctrl,
+          alt: alt,
+          meta: meta,
+          shift: shift,
         };
         this.dispatchEvent(new CustomEvent("modkeyschange"));
       }
@@ -35995,18 +35987,18 @@ class yo extends HTMLElement {
     }
   }
   #Rr(af) {
-    let { ctrl: ag, alt: ah, meta: aj, shift: ak } = ui.fromEvent(af);
+    let { ctrl, alt, meta, shift } = ui.fromEvent(af);
     if (
-      ag !== this.#$r.ctrl ||
-      ah !== this.#$r.alt ||
-      aj !== this.#$r.meta ||
-      ak !== this.#$r.shift
+      ctrl !== this.#$r.ctrl ||
+      alt !== this.#$r.alt ||
+      meta !== this.#$r.meta ||
+      shift !== this.#$r.shift
     ) {
       this.#$r = {
-        ctrl: ag,
-        alt: ah,
-        meta: aj,
-        shift: ak,
+        ctrl: ctrl,
+        alt: alt,
+        meta: meta,
+        shift: shift,
       };
       this.dispatchEvent(new CustomEvent("modkeyschange"));
     }
@@ -36040,8 +36032,8 @@ class yo extends HTMLElement {
     );
   }
   #Fr(af) {
-    let { ctrl: ag, alt: ah, meta: aj, shift: ak } = this.#$r;
-    if (ag || ah || aj || ak) {
+    let { ctrl, alt, meta, shift } = this.#$r;
+    if (ctrl || alt || meta || shift) {
       this.#$r = {
         ctrl: false,
         alt: false,
@@ -37221,15 +37213,15 @@ class So extends yo {
     });
   }
   #Zt(af) {
-    let { key: ag, value: ah, origin: aj } = af.detail;
-    if (ag === "bx-uisettings:locale") {
+    let { key, value, origin } = af.detail;
+    if (key === "bx-uisettings:locale") {
       this.#Kr();
     } else if (
-      ag === "bx-uisettings:theme" ||
-      ag === "bx-uisettings:colorScheme"
+      key === "bx-uisettings:theme" ||
+      key === "bx-uisettings:colorScheme"
     ) {
       this.#Wr();
-    } else if (ag === "bx-uisettings:accentColor") {
+    } else if (key === "bx-uisettings:accentColor") {
       this.#hh();
     }
     this.#sh();
@@ -37238,32 +37230,33 @@ class So extends yo {
     this.#Wr();
   }
   async #ii(af) {
-    let { method: ag, fromLocation: ah, toLocation: aj, state: ak } = af.detail;
-    let al = new URLSearchParams(ah ? ah.search : "");
-    let am = new URLSearchParams(aj.search);
+    let { method, fromLocation, toLocation, state } = af.detail;
+    let al = new URLSearchParams(fromLocation ? fromLocation.search : "");
+    let am = new URLSearchParams(toLocation.search);
     let an = _i(al, am);
     {
-      let ap = ah === null || ah.pathname !== aj.pathname;
+      let ap =
+        fromLocation === null || fromLocation.pathname !== toLocation.pathname;
       let aq = al.get("page") !== am.get("page");
       let ar = al.get("year") !== am.get("year");
-      if (ag === "load") {
+      if (method === "load") {
         await this.#ch();
         await this.#dh();
         this.restoreScrollOffset();
-      } else if (ag === "push" || ag === "replace") {
+      } else if (method === "push" || method === "replace") {
         if (ap || aq || ar) {
           await this.#ch();
           await this.#dh();
           this.restoreScrollOffset();
         }
-      } else if (ag === "pop" && (ap || aq || ar)) {
+      } else if (method === "pop" && (ap || aq || ar)) {
         await this.#ch();
         await this.#dh();
         this.restoreScrollOffset();
       }
     }
     if (
-      (ah === null || ah.hash !== aj.hash) &&
+      (fromLocation === null || fromLocation.hash !== toLocation.hash) &&
       location.hash.startsWith("#tour-") === false
     ) {
       this.restoreScrollOffset();

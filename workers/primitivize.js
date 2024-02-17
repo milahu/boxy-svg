@@ -19,7 +19,7 @@ globalThis.addEventListener("message", async (k) => {
   let [q, v] = k.data;
   v = i(e, v);
   s = new f(q, v, t);
-  let { geometryPrecision: x, transformPrecision: y } = v;
+  let { geometryPrecision, transformPrecision } = v;
   globalThis.postMessage([
     0,
     '<svg viewBox="0 0 ' + q.width + " " + q.height + '">',
@@ -60,13 +60,13 @@ globalThis.addEventListener("message", async (k) => {
         K.translateSelf(-L.x, -L.y);
       }
       if (v.drawAs === "shapes") {
-        G = n(G, x);
-        H = n(H, x);
-        I = n(I, x);
-        J = n(J, x);
+        G = n(G, geometryPrecision);
+        H = n(H, geometryPrecision);
+        I = n(I, geometryPrecision);
+        J = n(J, geometryPrecision);
         let N = "";
         if (K) {
-          N = 'transform="' + r(l(K, y)) + '"';
+          N = 'transform="' + r(l(K, transformPrecision)) + '"';
         }
         C =
           '<rect x="' +
@@ -91,7 +91,7 @@ globalThis.addEventListener("message", async (k) => {
           '"';
         let P = "";
         if (K) {
-          P = 'transform="' + r(l(K, y)) + '"';
+          P = 'transform="' + r(l(K, transformPrecision)) + '"';
         }
         C += "<path " + O + " " + P + " " + B + "></path>";
       }
@@ -108,13 +108,13 @@ globalThis.addEventListener("message", async (k) => {
         U.rotateSelf(a(z.shape.angle));
         U.translateSelf(-a0.x, -a0.y);
       }
-      let V = n(Q + S / 2, x);
-      let W = n(R + T / 2, x);
-      let X = n(S / 2, x);
-      let Y = n(T / 2, x);
+      let V = n(Q + S / 2, geometryPrecision);
+      let W = n(R + T / 2, geometryPrecision);
+      let X = n(S / 2, geometryPrecision);
+      let Y = n(T / 2, geometryPrecision);
       let Z = "";
       if (U) {
-        Z = 'transform="' + r(l(U, y)) + '"';
+        Z = 'transform="' + r(l(U, transformPrecision)) + '"';
       }
       if (v.drawAs === "shapes") {
         C =
@@ -464,14 +464,14 @@ class $ {
     let Q;
     let R;
     let S;
-    let { shape: T, current: U, target: V } = q;
-    let W = T.data;
-    let X = U.data;
-    let Y = V.data;
-    let Z = T.width;
-    let a0 = T.height;
-    let a1 = U.width;
-    let a2 = U.height;
+    let { shape, current, target } = q;
+    let W = shape.data;
+    let X = current.data;
+    let Y = target.data;
+    let Z = shape.width;
+    let a0 = shape.height;
+    let a1 = current.width;
+    let a2 = current.height;
     var a3 = 0;
     for (N = 0; N < a0; N += 1) {
       S = N + k.top;
@@ -507,14 +507,14 @@ class $ {
     let B;
     let C;
     let D;
-    let { shape: E, current: F, target: G } = q;
-    let H = E.data;
-    let I = F.data;
-    let J = G.data;
-    let K = E.width;
-    let L = E.height;
-    let N = F.width;
-    let O = F.height;
+    let { shape, current, target } = q;
+    let H = shape.data;
+    let I = current.data;
+    let J = target.data;
+    let K = shape.width;
+    let L = shape.height;
+    let N = current.width;
+    let O = current.height;
     let P = [0, 0, 0];
     let Q = 0;
     for (A = 0; A < L; A += 1) {

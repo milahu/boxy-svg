@@ -15,21 +15,21 @@ globalThis.addEventListener("message", async (j) => {
   let [k, q] = j.data;
   q = r(l, q);
   let v = a(k);
-  let { width: w, height: x } = k;
-  let { variance: z, seed: A, renderAs: B } = q;
-  let C = q.cellSize * Math.min(w, x);
-  if (C < w * 0.02) {
-    C = n(w * 0.02);
+  let { width, height } = k;
+  let { variance, seed, renderAs } = q;
+  let C = q.cellSize * Math.min(width, height);
+  if (C < width * 0.02) {
+    C = n(width * 0.02);
   }
   let D = [];
   let E = "";
   {
-    let F = (Math.floor((w + C * 4) / C) * C - w) / 2;
-    let G = (Math.floor((x + C * 4) / C) * C - x) / 2;
-    let H = (C * z) / 2;
-    let I = new t(A);
-    for (let J = -F; J < w + F; J += C) {
-      for (let K = -G; K < x + G; K += C) {
+    let F = (Math.floor((width + C * 4) / C) * C - width) / 2;
+    let G = (Math.floor((height + C * 4) / C) * C - height) / 2;
+    let H = (C * variance) / 2;
+    let I = new t(seed);
+    for (let J = -F; J < width + F; J += C) {
+      for (let K = -G; K < height + G; K += C) {
         let L = J + C * 0.5 + (I() * H * 2 - H);
         let N = K + C * 0.5 + (I() * H * 2 - H);
         D.push([Math.floor(L), Math.floor(N)]);
@@ -40,9 +40,9 @@ globalThis.addEventListener("message", async (j) => {
     let O = e.from(D).triangles;
     E =
       '<svg viewBox="0 0 ' +
-      w +
+      width +
       " " +
-      x +
+      height +
       '" style="shape-rendering: crispedges;">';
     for (let P = 0; P < O.length; P += 3) {
       let Q = [O[P], O[P + 1], O[P + 2]].map((T) => D[T]);
@@ -55,7 +55,7 @@ globalThis.addEventListener("message", async (j) => {
             U[0] = n(U[0], q.geometryPrecision);
             U[1] = n(U[1], q.geometryPrecision);
           }
-          if (B === "paths") {
+          if (renderAs === "paths") {
             let [V, ...W] = T;
             let X = "M " + V[0] + " " + V[1];
             for (let Y of W) {
@@ -63,7 +63,7 @@ globalThis.addEventListener("message", async (j) => {
             }
             X += " Z";
             E += '<path d="' + X + '" style="fill: ' + S + ';"></path>';
-          } else if (B === "polygons") {
+          } else if (renderAs === "polygons") {
             E +=
               '<polygon points="' +
               T.map((Z) => Z[0] + " " + Z[1]).join(" ") +

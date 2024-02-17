@@ -10,35 +10,28 @@ globalThis.addEventListener("message", (j) => {
   let [k, m] = j.data;
   m = t(e, m);
   let q = r(k);
-  let { width: v, height: w } = k;
-  let {
-    columns: z,
-    rows: A,
-    pixelShape: B,
-    pixelSize: C,
-    renderAs: D,
-    geometryPrecision: E,
-  } = m;
-  let F = v / z;
-  let G = w / A;
-  let H = '<svg viewBox="0 0 ' + v + " " + w + '">';
-  if (B === "rectangle") {
-    for (let I = 0; I < z; I += 1) {
-      for (let J = 0; J < A; J += 1) {
+  let { width, height } = k;
+  let { columns, rows, pixelShape, pixelSize, renderAs, geometryPrecision } = m;
+  let F = width / columns;
+  let G = height / rows;
+  let H = '<svg viewBox="0 0 ' + width + " " + height + '">';
+  if (pixelShape === "rectangle") {
+    for (let I = 0; I < columns; I += 1) {
+      for (let J = 0; J < rows; J += 1) {
         let K = I * F;
         let L = J * G;
-        let M = i((K + F / 2) / v, (L + G / 2) / w, k, q);
+        let M = i((K + F / 2) / width, (L + G / 2) / height, k, q);
         if (M !== "rgba(0,0,0,0)") {
-          let N = F * C;
-          let O = G * C;
+          let N = F * pixelSize;
+          let O = G * pixelSize;
           let P = K + F / 2 - N / 2;
           let Q = L + G / 2 - O / 2;
-          if (D === "shapes") {
+          if (renderAs === "shapes") {
             let R = {
-              x: l(P, E),
-              y: l(Q, E),
-              width: l(N, E),
-              height: l(O, E),
+              x: l(P, geometryPrecision),
+              y: l(Q, geometryPrecision),
+              width: l(N, geometryPrecision),
+              height: l(O, geometryPrecision),
               style: "fill: " + M + ";",
             };
             H +=
@@ -47,14 +40,14 @@ globalThis.addEventListener("message", (j) => {
                 .map(([S, T]) => S + '="' + T + '"')
                 .join(" ") +
               "></rect>";
-          } else if (D === "paths") {
+          } else if (renderAs === "paths") {
             let S = {
               d: [
-                ["M", l(P, E), l(Q, E)],
-                ["H", l(P + N, E)],
-                ["V", l(Q + O, E)],
-                ["H", l(P, E)],
-                ["V", l(Q, E)],
+                ["M", l(P, geometryPrecision), l(Q, geometryPrecision)],
+                ["H", l(P + N, geometryPrecision)],
+                ["V", l(Q + O, geometryPrecision)],
+                ["H", l(P, geometryPrecision)],
+                ["V", l(Q, geometryPrecision)],
                 ["Z"],
               ]
                 .map((T) => T.join(" "))
@@ -71,25 +64,25 @@ globalThis.addEventListener("message", (j) => {
         }
       }
     }
-  } else if (B === "ellipse") {
-    for (let T = 0; T < z; T += 1) {
-      for (let U = 0; U < A; U += 1) {
+  } else if (pixelShape === "ellipse") {
+    for (let T = 0; T < columns; T += 1) {
+      for (let U = 0; U < rows; U += 1) {
         let V = T * F + F / 2;
         let W = U * G + G / 2;
-        let X = (F / 2) * C;
-        let Y = (G / 2) * C;
-        let Z = i(V / v, W / w, k, q);
+        let X = (F / 2) * pixelSize;
+        let Y = (G / 2) * pixelSize;
+        let Z = i(V / width, W / height, k, q);
         if (Z !== "rgba(0,0,0,0)") {
-          V = l(V, E);
-          W = l(W, E);
-          X = l(X, E);
-          Y = l(Y, E);
-          if (D === "shapes") {
+          V = l(V, geometryPrecision);
+          W = l(W, geometryPrecision);
+          X = l(X, geometryPrecision);
+          Y = l(Y, geometryPrecision);
+          if (renderAs === "shapes") {
             let a0 = {
-              cx: l(V, E),
-              cy: l(W, E),
-              rx: l(X, E),
-              ry: l(Y, E),
+              cx: l(V, geometryPrecision),
+              cy: l(W, geometryPrecision),
+              rx: l(X, geometryPrecision),
+              ry: l(Y, geometryPrecision),
               style: "fill: " + Z + ";",
             };
             H +=
@@ -98,8 +91,8 @@ globalThis.addEventListener("message", (j) => {
                 .map(([a1, a2]) => a1 + '="' + a2 + '"')
                 .join(" ") +
               "></ellipse>";
-          } else if (D === "paths") {
-            let a1 = E;
+          } else if (renderAs === "paths") {
+            let a1 = geometryPrecision;
             let a2 = {
               d: [
                 ["M", l(V - X, a1), l(W, a1)],

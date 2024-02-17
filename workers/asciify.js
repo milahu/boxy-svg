@@ -13,18 +13,18 @@ globalThis.addEventListener("message", (j) => {
   let [k, q] = j.data;
   q = t(e, q);
   let v = r(k);
-  let { width: w, height: z } = k;
-  let A = w / q.columns;
-  let B = z / q.rows;
+  let { width, height } = k;
+  let A = width / q.columns;
+  let B = height / q.rows;
   let D = B * q.fontSize;
-  let E = '<svg viewBox="0 0 ' + w + " " + z + '">';
+  let E = '<svg viewBox="0 0 ' + width + " " + height + '">';
   for (let F = 0; F < q.rows; F += 1) {
     let G = F * B;
     let H = G + B / 2;
     for (let I = 0; I < q.columns; I += 1) {
       let J = I * A;
       let K = J + A / 2;
-      let [L, M, N, O] = o(K / w, H / z, k, v);
+      let [L, M, N, O] = o(K / width, H / height, k, v);
       if (O > 0) {
         let P = a(L, M, N, O);
         let Q =
@@ -60,7 +60,7 @@ globalThis.addEventListener("message", (j) => {
     for (let U = 0; U < q.columns; U += 1) {
       let V = U * A;
       let W = V + A / 2;
-      let [X, Y, Z, a0] = o(W / w, T / z, k, v);
+      let [X, Y, Z, a0] = o(W / width, T / height, k, v);
       let a1 = (X + Y + Z) * (a0 / 255);
       let a2 = 765 / (q.chars.length - 1);
       let a3 = q.chars[Math.round(a1 / a2)];

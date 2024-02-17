@@ -1793,12 +1793,12 @@ new (class {
         }
         {
           let ab = this.#e.cache;
-          for (let { family: ac, faceNames: ad } of M) {
+          for (let { family, faceNames } of M) {
             let ae = await ab.get({
-              family: ac,
+              family: family,
             });
             if (ae) {
-              for (let af of ad) {
+              for (let af of faceNames) {
                 let ag = ae.urls[af];
                 if (ag) {
                   let ah = af.substring(0, 3);
@@ -1815,7 +1815,7 @@ new (class {
                   let ak = aj.join(",");
                   let al = h`
                     @font-face {
-                      font-family: "${ac}";
+                      font-family: "${family}";
                       font-style: ${ai};
                       font-weight: ${ah};
                       font-display: ${P};
@@ -2180,7 +2180,7 @@ class x extends HTMLElement {
     this.setAttribute("tabindex", "0");
   }
 }
-let { sin: k, cos: v, abs: w, log: N, floor: U, PI: A } = Math;
+let { sin, cos, abs, log, floor, PI } = Math;
 let C = [
   {
     color: "#d7392e",
@@ -2240,11 +2240,11 @@ class T extends x {
     this["#seat-radius-input"].value = r(H * 100, 2);
     this["#parties-box"].innerHTML = "";
     for (let J = 0; J < I.length; J += 1) {
-      let { seats: K, color: L } = I[J];
+      let { seats, color } = I[J];
       let M = document.importNode(T.#m.content, true).firstElementChild;
       this["#parties-box"].append(M);
-      M.querySelector("x-colorselect").value = L;
-      M.querySelector("x-numberinput").value = K;
+      M.querySelector("x-colorselect").value = color;
+      M.querySelector("x-numberinput").value = seats;
     }
     z.addEventListener("localeschange", (this.#h = () => this.#x()));
     this.#x();
@@ -2381,18 +2381,18 @@ class T extends x {
     let P = [];
     let Q = [];
     let R = null;
-    let { geometryPrecision: S } = this.#u.board;
+    let { geometryPrecision } = this.#u.board;
     for (let Y of G) {
       K += Y.seats;
     }
     let V = (Z, a0, a1) =>
-      (A * a0 * a1) / (Z - a0) / (1 + (A * (a0 - 1) * a0) / 2 / (Z - a0));
+      (PI * a0 * a1) / (Z - a0) / (1 + (PI * (a0 - 1) * a0) / 2 / (Z - a0));
     let W = (Z, a0, a1) => {
       let a2 = (V(Z, a0, a1) * a0) / a1 - (1 - H);
-      return w(a2);
+      return abs(a2);
     };
     {
-      let Z = U(N(K) / N(2)) || 1;
+      let Z = floor(log(K) / log(2)) || 1;
       let a0 = W(K, Z, J);
       let a1 = 0;
       if (W(K, Z + 1, J) < a0) {
@@ -2445,12 +2445,12 @@ class T extends x {
       for (let ad = 1; ad <= L; ad += 1) {
         let ae = [];
         let af = J - (ad - 1) * X;
-        let ag = (A * af) / (O[ad] - 1 || 1);
+        let ag = (PI * af) / (O[ad] - 1 || 1);
         for (let ah = 0; ah <= O[ad] - 1; ah += 1) {
           let ai = {
-            x: r(af * v((ah * ag) / af - A), S),
-            y: r(af * k((ah * ag) / af - A), S),
-            r: r((I / 2) * X, S),
+            x: r(af * cos((ah * ag) / af - PI), geometryPrecision),
+            y: r(af * sin((ah * ag) / af - PI), geometryPrecision),
+            r: r((I / 2) * X, geometryPrecision),
           };
           ae.push(ai);
         }

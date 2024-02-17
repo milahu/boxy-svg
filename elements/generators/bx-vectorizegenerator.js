@@ -1769,12 +1769,12 @@ new (class {
         }
         {
           let a7 = this.#e.cache;
-          for (let { family: a8, faceNames: a9 } of J) {
+          for (let { family, faceNames } of J) {
             let aa = await a7.get({
-              family: a8,
+              family: family,
             });
             if (aa) {
-              for (let ab of a9) {
+              for (let ab of faceNames) {
                 let ac = aa.urls[ab];
                 if (ac) {
                   let ad = ab.substring(0, 3);
@@ -1791,7 +1791,7 @@ new (class {
                   let ag = af.join(",");
                   let ah = c`
                     @font-face {
-                      font-family: "${a8}";
+                      font-family: "${family}";
                       font-style: ${ae};
                       font-weight: ${ad};
                       font-display: ${L};

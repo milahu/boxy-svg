@@ -2702,12 +2702,12 @@ new (class {
         }
         {
           let aB = this.#r.cache;
-          for (let { family: aC, faceNames: aD } of af) {
+          for (let { family, faceNames } of af) {
             let aE = await aB.get({
-              family: aC,
+              family: family,
             });
             if (aE) {
-              for (let aF of aD) {
+              for (let aF of faceNames) {
                 let aG = aE.urls[aF];
                 if (aG) {
                   let aH = aF.substring(0, 3);
@@ -2724,7 +2724,7 @@ new (class {
                   let aK = aJ.join(",");
                   let aL = I`
                     @font-face {
-                      font-family: "${aC}";
+                      font-family: "${family}";
                       font-style: ${aI};
                       font-weight: ${aH};
                       font-display: ${ah};
@@ -3753,13 +3753,13 @@ let ke = (a8) => {
         ad.style.setProperty(af, ah);
       }
     }
-    for (let { name: ai, value: aj } of a8.attributes) {
+    for (let { name, value } of a8.attributes) {
       if (
-        F.includes(ai) &&
-        ai !== "transform" &&
-        ad.hasAttribute(ai) === false
+        F.includes(name) &&
+        name !== "transform" &&
+        ad.hasAttribute(name) === false
       ) {
-        ad.setAttribute(ai, aj);
+        ad.setAttribute(name, value);
       }
     }
     for (let ak of a8.classList) {
@@ -3821,8 +3821,8 @@ let Ne = (a8, a9 = ve) => {
       if (aa.localName === "title") {
         let am = fe("svg:bx-title");
         am.innerHTML = aa.innerHTML;
-        for (let { name: an, value: ao } of aa.attributes) {
-          am.setAttribute(an, ao);
+        for (let { name, value } of aa.attributes) {
+          am.setAttribute(name, value);
         }
         aa.replaceWith(am);
         continue;
@@ -3837,12 +3837,12 @@ let Ne = (a8, a9 = ve) => {
       }
       if (aa.localName === "set") {
         let ar = fe("svg:animate");
-        for (let { name: as, value: at } of aa.attributes) {
-          if (as === "to") {
-            ar.setAttribute("from", at);
-            ar.setAttribute("to", at);
+        for (let { name, value } of aa.attributes) {
+          if (name === "to") {
+            ar.setAttribute("from", value);
+            ar.setAttribute("to", value);
           } else {
-            ar.setAttribute(as, at);
+            ar.setAttribute(name, value);
           }
         }
         aa.replaceWith(ar);
@@ -3870,44 +3870,47 @@ let Ne = (a8, a9 = ve) => {
           continue;
         }
       }
-      for (let { name: au, value: av } of [...aa.attributes]) {
-        if (au.includes(":")) {
-          aa.removeAttribute(au);
-          if (au.startsWith("bx:")) {
-            au = "data-bx-" + au.split(":")[1];
-            aa.setAttribute(au, av);
-          } else if (au === "xlink:href" && aa.hasAttribute("href") === false) {
-            au = "href";
-            aa.setAttribute(au, av);
+      for (let { name, value } of [...aa.attributes]) {
+        if (name.includes(":")) {
+          aa.removeAttribute(name);
+          if (name.startsWith("bx:")) {
+            name = "data-bx-" + name.split(":")[1];
+            aa.setAttribute(name, value);
           } else if (
-            au === "xlink:title" &&
+            name === "xlink:href" &&
+            aa.hasAttribute("href") === false
+          ) {
+            name = "href";
+            aa.setAttribute(name, value);
+          } else if (
+            name === "xlink:title" &&
             aa.hasAttribute("title") === false
           ) {
-            au = "title";
-            aa.setAttribute(au, av);
+            name = "title";
+            aa.setAttribute(name, value);
           } else {
-            if (au !== "xml:lang") {
+            if (name !== "xml:lang") {
               continue;
             }
-            au = "lang";
-            aa.setAttribute(au, av);
+            name = "lang";
+            aa.setAttribute(name, value);
           }
         }
-        if (au.startsWith("data-")) {
-          if (au === "data-bx-shape") {
+        if (name.startsWith("data-")) {
+          if (name === "data-bx-shape") {
             if (ye(aa) === false) {
-              aa.removeAttribute(au);
+              aa.removeAttribute(name);
             }
-          } else if (au === "data-bx-d") {
+          } else if (name === "data-bx-d") {
             if (pe(aa) === false) {
-              aa.removeAttribute(au);
+              aa.removeAttribute(name);
             }
-          } else if (au === "data-bx-origin") {
-            aa.removeAttribute(au);
+          } else if (name === "data-bx-origin") {
+            aa.removeAttribute(name);
           }
-        } else if (au === "href" && aa.localName === "a") {
-          aa.removeAttribute(au);
-          aa.setAttribute("_href", av);
+        } else if (name === "href" && aa.localName === "a") {
+          aa.removeAttribute(name);
+          aa.setAttribute("_href", value);
         }
       }
     }
@@ -3961,19 +3964,19 @@ let Ne = (a8, a9 = ve) => {
   }
   {
     let aK = [];
-    for (let { name: aL, value: aM } of [...ab.attributes]) {
-      ab.removeAttribute(aL);
-      if (aL !== "xmlns" && aL !== "xmlns:bx") {
+    for (let { name, value } of [...ab.attributes]) {
+      ab.removeAttribute(name);
+      if (name !== "xmlns" && name !== "xmlns:bx") {
         aK.push({
-          name: aL,
-          value: aM,
+          name: name,
+          value: value,
         });
       }
     }
     ab.setAttribute("xmlns", s);
     ab.setAttribute("xmlns:bx", r);
-    for (let { name: aN, value: aO } of aK) {
-      ab.setAttribute(aN, aO);
+    for (let { name, value } of aK) {
+      ab.setAttribute(name, value);
     }
   }
   {
@@ -4055,10 +4058,10 @@ let Ne = (a8, a9 = ve) => {
     {
       let ba = [];
       for (let bb of aR) {
-        let { styleElement: bc, fontRulesByFamily: bd, otherRules: bf } = bb;
-        let bg = Object.keys(bd);
+        let { styleElement, fontRulesByFamily, otherRules } = bb;
+        let bg = Object.keys(fontRulesByFamily);
         if (bg.length === 0) {
-          if (bc.hasAttribute("data-bx-fonts")) {
+          if (styleElement.hasAttribute("data-bx-fonts")) {
             aS = true;
             break;
           }
@@ -4068,11 +4071,11 @@ let Ne = (a8, a9 = ve) => {
             aS = true;
             break;
           }
-          if (bc.getAttribute("data-bx-fonts") !== bh) {
+          if (styleElement.getAttribute("data-bx-fonts") !== bh) {
             aS = true;
             break;
           }
-          if (bf.length > 0) {
+          if (otherRules.length > 0) {
             aS = true;
             break;
           }
@@ -4093,12 +4096,8 @@ let Ne = (a8, a9 = ve) => {
           }
         }
       }
-      for (let {
-        styleElement: bm,
-        fontRulesByFamily: bn,
-        otherRules: bo,
-      } of aR) {
-        for (let [bp, bq] of Object.entries(bn)) {
+      for (let { styleElement, fontRulesByFamily, otherRules } of aR) {
+        for (let [bp, bq] of Object.entries(fontRulesByFamily)) {
           let br = fe("svg:style");
           let bs = "";
           bq.sort((bt) => (bt.type === CSSRule.IMPORT_RULE ? -1 : 1));
@@ -4107,21 +4106,21 @@ let Ne = (a8, a9 = ve) => {
           }
           br.textContent = bs;
           br.setAttribute("data-bx-fonts", bp);
-          if (bm.hasAttribute("data-bx-pinned")) {
+          if (styleElement.hasAttribute("data-bx-pinned")) {
             br.setAttribute("data-bx-pinned", "");
           }
-          bm.before(br);
+          styleElement.before(br);
         }
-        if (bo.length === 0) {
-          bm.remove();
+        if (otherRules.length === 0) {
+          styleElement.remove();
         } else {
           let bu = "";
-          for (let bv of bo) {
+          for (let bv of otherRules) {
             bu += bv.cssText;
           }
-          bm.removeAttribute("data-bx-fonts");
-          bm.removeAttribute("data-bx-pinned");
-          bm.textContent = bu;
+          styleElement.removeAttribute("data-bx-fonts");
+          styleElement.removeAttribute("data-bx-pinned");
+          styleElement.textContent = bu;
         }
       }
     }
@@ -4335,15 +4334,15 @@ let Ce = (a8, a9) => {
           aa.replaceWith(af);
           ad = true;
         } else {
-          for (let { name: ai, value: aj } of [...aa.attributes]) {
-            if (ai === "href" || ai === "_href") {
-              aa.setAttribute("xlink:href", aj);
-              aa.removeAttribute(ai);
+          for (let { name, value } of [...aa.attributes]) {
+            if (name === "href" || name === "_href") {
+              aa.setAttribute("xlink:href", value);
+              aa.removeAttribute(name);
               ac = true;
-            } else if (ai.startsWith("data-bx-")) {
-              let ak = ai.substring(8);
-              aa.setAttributeNS(r, "bx:" + ak, aj);
-              aa.removeAttribute(ai);
+            } else if (name.startsWith("data-bx-")) {
+              let ak = name.substring(8);
+              aa.setAttributeNS(r, "bx:" + ak, value);
+              aa.removeAttribute(name);
               ad = true;
             }
           }
@@ -4351,8 +4350,8 @@ let Ce = (a8, a9) => {
       } else {
         let al = fe("svg:title");
         al.innerHTML = aa.innerHTML;
-        for (let { name: am, value: an } of aa.attributes) {
-          al.setAttribute(am, an);
+        for (let { name, value } of aa.attributes) {
+          al.setAttribute(name, value);
         }
         aa.replaceWith(al);
       }
@@ -4372,17 +4371,17 @@ let Ce = (a8, a9) => {
     let ap = document.createNodeIterator(a8, NodeFilter.SHOW_ELEMENT);
     while ((ao = ap.nextNode())) {
       if (ao.localName !== "bx-title") {
-        for (let { name: aq, value: ar } of [...ao.attributes]) {
-          if (aq === "href" || aq === "_href") {
-            ao.setAttribute("xlink:href", ar);
-            ao.removeAttribute(aq);
+        for (let { name, value } of [...ao.attributes]) {
+          if (name === "href" || name === "_href") {
+            ao.setAttribute("xlink:href", value);
+            ao.removeAttribute(name);
           }
         }
       } else {
         let as = fe("svg:title");
         as.innerHTML = ao.innerHTML;
-        for (let { name: at, value: au } of ao.attributes) {
-          as.setAttribute(at, au);
+        for (let { name, value } of ao.attributes) {
+          as.setAttribute(name, value);
         }
         ao.replaceWith(as);
       }
@@ -4410,7 +4409,7 @@ let Ee = (a8, a9 = "png", aa = {}) =>
           ak.fillRect(0, 0, af.naturalWidth, af.naturalHeight);
           ak.drawImage(af, 0, 0);
           let al = (await import("/libs/upng/upng.js")).default;
-          let { changeDpiBlob: am } = await import(
+          let { changeDpiBlob } = await import(
             "/libs/change-dpi/change-dpi.js"
           );
           let an = ak.getImageData(0, 0, aj.width, aj.height);
@@ -4419,7 +4418,7 @@ let Ee = (a8, a9 = "png", aa = {}) =>
           let aq = new Blob([ap], {
             type: "image/png",
           });
-          aq = am(aq, ag);
+          aq = changeDpiBlob(aq, ag);
           URL.revokeObjectURL(ad);
           ab(aq);
         },
@@ -4447,14 +4446,14 @@ let Ee = (a8, a9 = "png", aa = {}) =>
           an.fillStyle = ak;
           an.fillRect(0, 0, ai.naturalWidth, ai.naturalHeight);
           an.drawImage(ai, 0, 0);
-          let { changeDpiBlob: ao } = await import(
+          let { changeDpiBlob } = await import(
             "/libs/change-dpi/change-dpi.js"
           );
           let ap = await am.convertToBlob({
             type: "image/jpeg",
             quality: al,
           });
-          ap = ao(ap, aj);
+          ap = changeDpiBlob(ap, aj);
           URL.revokeObjectURL(ah);
           ab(ap);
         },

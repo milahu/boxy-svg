@@ -2076,12 +2076,12 @@ new (class {
         }
         {
           let aA = this.#d.cache;
-          for (let { family: aB, faceNames: aC } of ad) {
+          for (let { family, faceNames } of ad) {
             let aD = await aA.get({
-              family: aB,
+              family: family,
             });
             if (aD) {
-              for (let aE of aC) {
+              for (let aE of faceNames) {
                 let aF = aD.urls[aE];
                 if (aF) {
                   let aG = aE.substring(0, 3);
@@ -2098,7 +2098,7 @@ new (class {
                   let aJ = aI.join(",");
                   let aK = U`
                     @font-face {
-                      font-family: "${aB}";
+                      font-family: "${family}";
                       font-style: ${aH};
                       font-weight: ${aG};
                       font-display: ${ag};
@@ -2642,18 +2642,7 @@ let q = (a7, a8 = true) => {
   }
   return a9;
 };
-let {
-  sin: G,
-  cos: H,
-  acos: Q,
-  atan2: _,
-  abs: W,
-  sqrt: J,
-  pow: K,
-  PI: X,
-  min: Y,
-  max: ee,
-} = Math;
+let { sin, cos, acos, atan2, abs, sqrt, pow, PI, min, max } = Math;
 document.createElementNS("http://www.w3.org/2000/svg", "svg");
 let te = (a7, a8) => {
   let a9 = [
@@ -2664,10 +2653,10 @@ let te = (a7, a8) => {
   ].map((ah) => ah.matrixTransform(a8));
   let aa = a9.map((ah) => ah.x);
   let ab = a9.map((ah) => ah.y);
-  let ac = Y(...aa);
-  let ad = Y(...ab);
-  let af = ee(...aa);
-  let ag = ee(...ab);
+  let ac = min(...aa);
+  let ad = min(...ab);
+  let af = max(...aa);
+  let ag = max(...ab);
   return new DOMRect(ac, ad, af - ac, ag - ad);
 };
 let ie = (a7) => {
@@ -2693,9 +2682,9 @@ let ae = (a7, a8) => {
   let ac = Math.min(a7.bottom, a8.bottom);
   return new DOMRect(a9, ab, aa - a9, ac - ab);
 };
-let { sin: ne, asin: se, cos: le, tan: oe, sqrt: re, abs: pe, PI: he } = Math;
+let { sin: ne, asin, cos: le, tan, sqrt: re, abs: pe, PI: he } = Math;
 let ue = (a7, a8, a9, aa, ab, ac, ad, af, ag, ah) => {
-  let ai = (X * ad) / 180;
+  let ai = (PI * ad) / 180;
   let aj;
   let ak;
   let al;
@@ -2737,8 +2726,8 @@ let ue = (a7, a8, a9, aa, ab, ac, ad, af, ag, ah) => {
       );
     al = (aJ * ab * aF) / ac + (a7 + a9) / 2;
     am = (aJ * -ac * aE) / ab + (a8 + aa) / 2;
-    aj = se(parseFloat(((a8 - am) / ac).toFixed(9)));
-    ak = se(parseFloat(((aa - am) / ac).toFixed(9)));
+    aj = asin(parseFloat(((a8 - am) / ac).toFixed(9)));
+    ak = asin(parseFloat(((aa - am) / ac).toFixed(9)));
     if (a7 < al) {
       aj = he - aj;
     }
@@ -2776,7 +2765,7 @@ let ue = (a7, a8, a9, aa, ab, ac, ad, af, ag, ah) => {
   let ar = ne(aj);
   let as = le(ak);
   let at = ne(ak);
-  let au = oe(ap / 4);
+  let au = tan(ap / 4);
   let av = (4 / 3) * ab * au;
   let aw = (4 / 3) * ac * au;
   let ax = [a7, a8];
@@ -4164,15 +4153,15 @@ let Ve = (a7, a8) => {
           a9.replaceWith(ad);
           ac = true;
         } else {
-          for (let { name: ah, value: ai } of [...a9.attributes]) {
-            if (ah === "href" || ah === "_href") {
-              a9.setAttribute("xlink:href", ai);
-              a9.removeAttribute(ah);
+          for (let { name, value } of [...a9.attributes]) {
+            if (name === "href" || name === "_href") {
+              a9.setAttribute("xlink:href", value);
+              a9.removeAttribute(name);
               ab = true;
-            } else if (ah.startsWith("data-bx-")) {
-              let aj = ah.substring(8);
-              a9.setAttributeNS(s, "bx:" + aj, ai);
-              a9.removeAttribute(ah);
+            } else if (name.startsWith("data-bx-")) {
+              let aj = name.substring(8);
+              a9.setAttributeNS(s, "bx:" + aj, value);
+              a9.removeAttribute(name);
               ac = true;
             }
           }
@@ -4180,8 +4169,8 @@ let Ve = (a7, a8) => {
       } else {
         let ak = Fe("svg:title");
         ak.innerHTML = a9.innerHTML;
-        for (let { name: al, value: am } of a9.attributes) {
-          ak.setAttribute(al, am);
+        for (let { name, value } of a9.attributes) {
+          ak.setAttribute(name, value);
         }
         a9.replaceWith(ak);
       }
@@ -4201,17 +4190,17 @@ let Ve = (a7, a8) => {
     let ao = document.createNodeIterator(a7, NodeFilter.SHOW_ELEMENT);
     while ((an = ao.nextNode())) {
       if (an.localName !== "bx-title") {
-        for (let { name: ap, value: aq } of [...an.attributes]) {
-          if (ap === "href" || ap === "_href") {
-            an.setAttribute("xlink:href", aq);
-            an.removeAttribute(ap);
+        for (let { name, value } of [...an.attributes]) {
+          if (name === "href" || name === "_href") {
+            an.setAttribute("xlink:href", value);
+            an.removeAttribute(name);
           }
         }
       } else {
         let ar = Fe("svg:title");
         ar.innerHTML = an.innerHTML;
-        for (let { name: as, value: at } of an.attributes) {
-          ar.setAttribute(as, at);
+        for (let { name, value } of an.attributes) {
+          ar.setAttribute(name, value);
         }
         an.replaceWith(ar);
       }
@@ -4395,7 +4384,7 @@ class Be extends ze {
                 ap.fillRect(0, 0, ak.naturalWidth, ak.naturalHeight);
                 ap.drawImage(ak, 0, 0);
                 let aq = (await import("/libs/upng/upng.js")).default;
-                let { changeDpiBlob: ar } = await import(
+                let { changeDpiBlob } = await import(
                   "/libs/change-dpi/change-dpi.js"
                 );
                 let as = ap.getImageData(0, 0, ao.width, ao.height);
@@ -4404,7 +4393,7 @@ class Be extends ze {
                 let av = new Blob([au], {
                   type: "image/png",
                 });
-                av = ar(av, al);
+                av = changeDpiBlob(av, al);
                 URL.revokeObjectURL(aj);
                 ah(av);
               },
@@ -4432,14 +4421,14 @@ class Be extends ze {
                 as.fillStyle = ap;
                 as.fillRect(0, 0, an.naturalWidth, an.naturalHeight);
                 as.drawImage(an, 0, 0);
-                let { changeDpiBlob: at } = await import(
+                let { changeDpiBlob } = await import(
                   "/libs/change-dpi/change-dpi.js"
                 );
                 let au = await ar.convertToBlob({
                   type: "image/jpeg",
                   quality: aq,
                 });
-                au = at(au, ao);
+                au = changeDpiBlob(au, ao);
                 URL.revokeObjectURL(am);
                 ah(au);
               },
@@ -4597,7 +4586,7 @@ class Be extends ze {
     let a8 = this.#V;
     let a9 = this["#preview"].cloneNode(true);
     a9.removeAttribute("id");
-    let { width: aa, height: ab } = a9.viewBox.baseVal;
+    let { width, height } = a9.viewBox.baseVal;
     a7.undoManager.checkpoint(["#generators.primitivize"], "#generators-panel");
     let ac = a7.insertArtworkIntoBBox(a9, a8.getBoundingClientRect());
     for (let ag of a8.style) {
@@ -4615,15 +4604,15 @@ class Be extends ze {
         },
         {
           type: "L",
-          values: [aa, 0],
+          values: [width, 0],
         },
         {
           type: "L",
-          values: [aa, ab],
+          values: [width, height],
         },
         {
           type: "L",
-          values: [0, ab],
+          values: [0, height],
         },
         {
           type: "L",
@@ -4639,7 +4628,7 @@ class Be extends ze {
         let am = E(ak);
         al = te(al, am);
         if (
-          ((ad = new DOMRect(0, 0, aa, ab)),
+          ((ad = new DOMRect(0, 0, width, height)),
           (af = al).x >= ad.x &&
             af.y >= ad.y &&
             af.x + af.width <= ad.x + ad.width &&

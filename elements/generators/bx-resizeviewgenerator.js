@@ -1965,9 +1965,9 @@ let D = (a6, a7 = false) => {
   }
   return a6;
 };
-let { isFinite: U, isNaN: S, parseFloat: C } = Number;
-let N = (a6) => !S(a6) && typeof a6 == "number";
-let { sqrt: A } = Math;
+let { isFinite, isNaN, parseFloat } = Number;
+let N = (a6) => !isNaN(a6) && typeof a6 == "number";
+let { sqrt } = Math;
 const T = "Invalid argument passed to Vector contstructor";
 class F {
   x = 0;
@@ -2002,7 +2002,7 @@ class F {
     return new F(a6.x, a6.y);
   }
   get length() {
-    return A(this.x * this.x + this.y * this.y);
+    return sqrt(this.x * this.x + this.y * this.y);
   }
   set length(a6) {
     if (this.length !== 0) {
@@ -2270,12 +2270,12 @@ new (class {
         }
         {
           let aB = this.#f.cache;
-          for (let { family: aC, faceNames: aD } of ac) {
+          for (let { family, faceNames } of ac) {
             let aE = await aB.get({
-              family: aC,
+              family: family,
             });
             if (aE) {
-              for (let aF of aD) {
+              for (let aF of faceNames) {
                 let aG = aE.urls[aF];
                 if (aG) {
                   let aH = aF.substring(0, 3);
@@ -2292,7 +2292,7 @@ new (class {
                   let aK = aJ.join(",");
                   let aL = s`
                     @font-face {
-                      font-family: "${aC}";
+                      font-family: "${family}";
                       font-style: ${aI};
                       font-weight: ${aH};
                       font-display: ${af};
@@ -2697,8 +2697,8 @@ let q = (a6, a7 = "auto") => {
   let ac = X(() => oe(a6));
   {
     let ad = getComputedStyle(a6);
-    let { transformBox: af } = ad;
-    if (af === "fill-box" && a6.style.transformOrigin !== "") {
+    let { transformBox } = ad;
+    if (transformBox === "fill-box" && a6.style.transformOrigin !== "") {
       let ag = a6.style.transformOrigin
         .split(" ")
         .map((ah) => ah.trim())
@@ -2732,9 +2732,9 @@ let q = (a6, a7 = "auto") => {
       }
       aa = "objectBoundingBox";
     } else {
-      let { transformOrigin: ak } = ad;
-      let al = ak.split(" ").map((am) => CSSUnitValue.parse(am));
-      if (af === "fill-box") {
+      let { transformOrigin } = ad;
+      let al = transformOrigin.split(" ").map((am) => CSSUnitValue.parse(am));
+      if (transformBox === "fill-box") {
         let am = ac();
         a8 = al[0].value / am.width;
         a9 = al[1].value / am.height;
@@ -2834,8 +2834,8 @@ let W = (a6) => {
     return true;
   }
   {
-    let { transformBox: a7, transformOrigin: a8 } = getComputedStyle(a6);
-    return a7 !== "view-box" || a8 !== "0px 0px";
+    let { transformBox, transformOrigin } = getComputedStyle(a6);
+    return transformBox !== "view-box" || transformOrigin !== "0px 0px";
   }
 };
 let J = (a6, a7, a8 = false) => {
@@ -3108,18 +3108,7 @@ let pe = (a6, a7 = true) => {
   let a9 = oe(a6, a7);
   return Se(a9, a8);
 };
-let {
-  sin: ue,
-  cos: he,
-  acos: fe,
-  atan2: me,
-  abs: ce,
-  sqrt: de,
-  pow: ye,
-  PI: ge,
-  min: be,
-  max: xe,
-} = Math;
+let { sin, cos, acos, atan2, abs, sqrt: de, pow, PI: ge, min, max } = Math;
 let { isNaN: we } = Number;
 document.createElementNS("http://www.w3.org/2000/svg", "svg");
 let ve = (a6, a7, a8, a9 = 0) => {
@@ -3135,7 +3124,7 @@ let ve = (a6, a7, a8, a9 = 0) => {
     let ad = new F(a7, a8);
     ab = ad;
     let af = (aa = ac).x * ab.x + aa.y * ab.y;
-    let ag = fe(af / (ac.length * ad.length));
+    let ag = acos(af / (ac.length * ad.length));
     if (we(ag)) {
       return true;
     }
@@ -3154,7 +3143,7 @@ let Me = (a6, a7) => {
 let Pe = (a6, a7, a8) => {
   let a9 = new F(a6, a7);
   let aa = new F(a6, a8);
-  let ab = me(aa.y, aa.x) - me(a9.y, a9.x);
+  let ab = atan2(aa.y, aa.x) - atan2(a9.y, a9.x);
   return Oe(ke(ab));
 };
 let Oe = (a6) => {
@@ -3179,10 +3168,10 @@ let Se = (a6, a7) => {
   ].map((ag) => ag.matrixTransform(a7));
   let a9 = a8.map((ag) => ag.x);
   let aa = a8.map((ag) => ag.y);
-  let ab = be(...a9);
-  let ac = be(...aa);
-  let ad = xe(...a9);
-  let af = xe(...aa);
+  let ab = min(...a9);
+  let ac = min(...aa);
+  let ad = max(...a9);
+  let af = max(...aa);
   return new DOMRect(ab, ac, ad - ab, af - ac);
 };
 let Ce = (a6) => {
@@ -3208,7 +3197,7 @@ let Ne = (a6, a7) => {
   let ab = Math.min(a6.bottom, a7.bottom);
   return new DOMRect(a8, aa, a9 - a8, ab - aa);
 };
-let { sin: Ae, asin: Te, cos: Fe, tan: Ve, sqrt: Ee, abs: Be, PI: Le } = Math;
+let { sin: Ae, asin, cos: Fe, tan, sqrt: Ee, abs: Be, PI: Le } = Math;
 let ze = (a6, a7, a8, a9, aa, ab, ac, ad, af, ag) => {
   let ah;
   let aj;
@@ -3252,8 +3241,8 @@ let ze = (a6, a7, a8, a9, aa, ab, ac, ad, af, ag) => {
       );
     ak = (aK * aa * aG) / ab + (a6 + a8) / 2;
     al = (aK * -ab * aF) / aa + (a7 + a9) / 2;
-    ah = Te(parseFloat(((a7 - al) / ab).toFixed(9)));
-    aj = Te(parseFloat(((a9 - al) / ab).toFixed(9)));
+    ah = asin(parseFloat(((a7 - al) / ab).toFixed(9)));
+    aj = asin(parseFloat(((a9 - al) / ab).toFixed(9)));
     if (a6 < ak) {
       ah = Le - ah;
     }
@@ -3291,7 +3280,7 @@ let ze = (a6, a7, a8, a9, aa, ab, ac, ad, af, ag) => {
   let ar = Ae(ah);
   let as = Fe(aj);
   let au = Ae(aj);
-  let av = Ve(ap / 4);
+  let av = tan(ap / 4);
   let aw = (4 / 3) * aa * av;
   let ax = (4 / 3) * ab * av;
   let ay = [a6, a7];
@@ -4083,8 +4072,8 @@ let Je = (a6) => {
   let aa = [];
   while ((a9 = a8.nextNode())) {
     if (y.includes(a9.localName)) {
-      let { fill: ab, stroke: ac } = getComputedStyle(a9);
-      for (let ad of [ab, ac]) {
+      let { fill, stroke } = getComputedStyle(a9);
+      for (let ad of [fill, stroke]) {
         if (ad.startsWith('url("#')) {
           if (
             ad.substring(6, ad.length - 2) === a6.id &&
@@ -4997,15 +4986,15 @@ let ct = (a6, a7) => {
           a8.replaceWith(ac);
           ab = true;
         } else {
-          for (let { name: ag, value: ah } of [...a8.attributes]) {
-            if (ag === "href" || ag === "_href") {
-              a8.setAttribute("xlink:href", ah);
-              a8.removeAttribute(ag);
+          for (let { name, value } of [...a8.attributes]) {
+            if (name === "href" || name === "_href") {
+              a8.setAttribute("xlink:href", value);
+              a8.removeAttribute(name);
               aa = true;
-            } else if (ag.startsWith("data-bx-")) {
-              let aj = ag.substring(8);
-              a8.setAttributeNS(o, "bx:" + aj, ah);
-              a8.removeAttribute(ag);
+            } else if (name.startsWith("data-bx-")) {
+              let aj = name.substring(8);
+              a8.setAttributeNS(o, "bx:" + aj, value);
+              a8.removeAttribute(name);
               ab = true;
             }
           }
@@ -5013,8 +5002,8 @@ let ct = (a6, a7) => {
       } else {
         let ak = ot("svg:title");
         ak.innerHTML = a8.innerHTML;
-        for (let { name: al, value: am } of a8.attributes) {
-          ak.setAttribute(al, am);
+        for (let { name, value } of a8.attributes) {
+          ak.setAttribute(name, value);
         }
         a8.replaceWith(ak);
       }
@@ -5034,17 +5023,17 @@ let ct = (a6, a7) => {
     let ao = document.createNodeIterator(a6, NodeFilter.SHOW_ELEMENT);
     while ((an = ao.nextNode())) {
       if (an.localName !== "bx-title") {
-        for (let { name: ap, value: aq } of [...an.attributes]) {
-          if (ap === "href" || ap === "_href") {
-            an.setAttribute("xlink:href", aq);
-            an.removeAttribute(ap);
+        for (let { name, value } of [...an.attributes]) {
+          if (name === "href" || name === "_href") {
+            an.setAttribute("xlink:href", value);
+            an.removeAttribute(name);
           }
         }
       } else {
         let ar = ot("svg:title");
         ar.innerHTML = an.innerHTML;
-        for (let { name: as, value: au } of an.attributes) {
-          ar.setAttribute(as, au);
+        for (let { name, value } of an.attributes) {
+          ar.setAttribute(name, value);
         }
         an.replaceWith(ar);
       }
@@ -5430,8 +5419,8 @@ let Ut = (a6, a7) => {
           let as = Me(aq, ar);
           let au = Me(ar, ap);
           let av = Me(ap, aq);
-          let aw = fe((as * as + au * au - av * av) / (as * 2 * au));
-          let ax = (as * au * av) / 4 / (as * 0.5 * au * ue(aw));
+          let aw = acos((as * as + au * au - av * av) / (as * 2 * au));
+          let ax = (as * au * av) / 4 / (as * 0.5 * au * sin(aw));
           return {
             type: "A",
             values: [
@@ -6100,10 +6089,8 @@ let Kt = (a6, a7, a8) => {
 };
 let { abs: ei, min: ti, max: ii } = Math;
 let { parseFloat: ni } = Number;
-const {
-  SVG_UNIT_TYPE_OBJECTBOUNDINGBOX: li,
-  SVG_UNIT_TYPE_USERSPACEONUSE: ai,
-} = SVGUnitTypes;
+const { SVG_UNIT_TYPE_OBJECTBOUNDINGBOX, SVG_UNIT_TYPE_USERSPACEONUSE } =
+  SVGUnitTypes;
 let si = Symbol();
 let ri = Symbol();
 let oi = Symbol();
@@ -6163,30 +6150,30 @@ let bi = (a6, a7 = {}) => {
     Ui(a6, a7);
   } else if (a8 === "path") {
     if (a6.hasAttribute("data-bx-shape")) {
-      let { type: a9 } = wt(a6);
-      if (a9 === "rect") {
+      let { type } = wt(a6);
+      if (type === "rect") {
         Ai(a6, a7);
-      } else if (a9 === "frame") {
+      } else if (type === "frame") {
         Vi(a6, a7);
-      } else if (a9 === "ring") {
+      } else if (type === "ring") {
         Ei(a6, a7);
-      } else if (a9 === "pie") {
+      } else if (type === "pie") {
         Bi(a6, a7);
-      } else if (a9 === "crescent") {
+      } else if (type === "crescent") {
         Ci(a6, a7);
-      } else if (a9 === "triangle") {
+      } else if (type === "triangle") {
         Ni(a6, a7);
-      } else if (a9 === "n-gon") {
+      } else if (type === "n-gon") {
         Ti(a6, a7);
-      } else if (a9 === "star") {
+      } else if (type === "star") {
         Fi(a6, a7);
-      } else if (a9 === "cog") {
+      } else if (type === "cog") {
         Li(a6, a7);
-      } else if (a9 === "arrow") {
+      } else if (type === "arrow") {
         zi(a6, a7);
-      } else if (a9 === "cross") {
+      } else if (type === "cross") {
         Gi(a6, a7);
-      } else if (a9 === "spiral") {
+      } else if (type === "spiral") {
         Ri(a6, a7);
       } else {
         Si(a6, a7);
@@ -6196,24 +6183,20 @@ let bi = (a6, a7 = {}) => {
     }
   }
 };
-let xi = (a6, { transformPrecision: a7 }) => {
-  Y(a6, H(a6), a7);
+let xi = (a6, { transformPrecision }) => {
+  Y(a6, H(a6), transformPrecision);
 };
-let wi = (a6, { transformPrecision: a7 }) => {
-  Y(a6, H(a6), a7);
+let wi = (a6, { transformPrecision }) => {
+  Y(a6, H(a6), transformPrecision);
 };
 let vi = (a6, a7) => {
   let a8 = H(a6);
-  let {
-    geometryPrecision: a9,
-    transformPrecision: aa,
-    preserveRectRadii: ab,
-  } = a7;
+  let { geometryPrecision, transformPrecision, preserveRectRadii } = a7;
   if (a8.is2D) {
     Ii(a6);
     let ac = Zi(a6);
     let ad = H(a6);
-    let { scaleX: af, scaleY: ag } = It(ad);
+    let { scaleX, scaleY } = It(ad);
     let ah = a6.x.baseVal.value;
     let aj = a6.y.baseVal.value;
     let ak = a6.width.baseVal.value;
@@ -6223,13 +6206,13 @@ let vi = (a6, a7) => {
     let ao = new DOMPoint(ah, aj).matrixTransform(ad);
     let ap = new DOMPoint(ah + ak, aj).matrixTransform(ad);
     let aq = new DOMPoint(ah, aj + al).matrixTransform(ad);
-    ah *= af;
-    aj *= ag;
-    ak *= ei(af);
-    al *= ei(ag);
-    if (ab === false) {
-      am *= ei(af);
-      an *= ei(ag);
+    ah *= scaleX;
+    aj *= scaleY;
+    ak *= ei(scaleX);
+    al *= ei(scaleY);
+    if (preserveRectRadii === false) {
+      am *= ei(scaleX);
+      an *= ei(scaleY);
     }
     let ar = new DOMPoint(ah, aj);
     let as = new DOMPoint(ah + ak, aj);
@@ -6249,33 +6232,34 @@ let vi = (a6, a7) => {
       ["rx", am],
       ["ry", an],
     ]) {
-      ax = M(ax, a9);
+      ax = M(ax, geometryPrecision);
       if (ax === 0) {
         a6.removeAttribute(aw);
       } else {
         a6.setAttribute(aw, ax);
       }
     }
-    Y(a6, av, aa);
-    ac(a9, aa);
+    Y(a6, av, transformPrecision);
+    ac(geometryPrecision, transformPrecision);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Mi = (a6, a7) => {
   let a8 = H(a6);
-  let { scaleX: a9, scaleY: aa, skewXY: ab, skewXZ: ac } = It(a8);
-  let {
-    geometryPrecision: ad,
-    transformPrecision: af,
-    preserveRotation: ag,
-  } = a7;
-  if (a8.is2D && M(a9, ad) === M(aa, ad) && ab === 0 && ac === 0) {
+  let { scaleX, scaleY, skewXY, skewXZ } = It(a8);
+  let { geometryPrecision, transformPrecision, preserveRotation } = a7;
+  if (
+    a8.is2D &&
+    M(scaleX, geometryPrecision) === M(scaleY, geometryPrecision) &&
+    skewXY === 0 &&
+    skewXZ === 0
+  ) {
     Ii(a6);
     let ah = Zi(a6);
     let aj = H(a6);
-    if (ag === false) {
+    if (preserveRotation === false) {
       let ak = new DOMPoint(a6.cx.baseVal.value, a6.cy.baseVal.value);
       let al = new DOMPoint(
         a6.cx.baseVal.value + a6.r.baseVal.value,
@@ -6284,12 +6268,12 @@ let Mi = (a6, a7) => {
       let am = ak.matrixTransform(aj);
       let an = al.matrixTransform(aj);
       let ao = new F(am, an).length;
-      a6.setAttribute("cx", M(am.x, ad));
-      a6.setAttribute("cy", M(am.y, ad));
-      a6.setAttribute("r", M(ao, ad));
+      a6.setAttribute("cx", M(am.x, geometryPrecision));
+      a6.setAttribute("cy", M(am.y, geometryPrecision));
+      a6.setAttribute("r", M(ao, geometryPrecision));
       Y(a6, null);
     } else {
-      let ap = a9;
+      let ap = scaleX;
       let aq = a6.cx.baseVal.value;
       let ar = a6.cy.baseVal.value;
       let as = a6.r.baseVal.value;
@@ -6301,7 +6285,7 @@ let Mi = (a6, a7) => {
       let ay = new DOMPoint(aq + as, ar);
       let az = new DOMPoint(aq, ar + as);
       let aA = ee(ax, ay, az, au, av, aw);
-      aA = I(aA, af);
+      aA = I(aA, transformPrecision);
       if (ei(aA.a) === 1 && aA.b === 0 && aA.c === 0 && ei(aA.d) === 1) {
         if (aA.e !== 0 || aA.f !== 0) {
           aq = aA.a === 1 ? aq + aA.e : aq - aA.e;
@@ -6316,7 +6300,7 @@ let Mi = (a6, a7) => {
         ["cy", ar],
         ["r", as],
       ]) {
-        aC = M(aC, ad);
+        aC = M(aC, geometryPrecision);
         if (aC === 0) {
           a6.removeAttribute(aB);
         } else {
@@ -6325,20 +6309,20 @@ let Mi = (a6, a7) => {
       }
       Y(a6, aA);
     }
-    ah(ad, af);
+    ah(geometryPrecision, transformPrecision);
     ji(a6, a7);
   } else {
-    Y(a6, a8, af);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Pi = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     Ii(a6);
     let ab = Zi(a6);
     let ac = H(a6);
-    let { scaleX: ad, scaleY: af } = It(ac);
+    let { scaleX, scaleY } = It(ac);
     let ag = a6.cx.baseVal.value;
     let ah = a6.cy.baseVal.value;
     let aj = a6.rx.baseVal.value;
@@ -6346,13 +6330,13 @@ let Pi = (a6, a7) => {
     let al = new DOMPoint(ag, ah).matrixTransform(ac);
     let am = new DOMPoint(ag + aj, ah).matrixTransform(ac);
     let an = new DOMPoint(ag, ah + ak).matrixTransform(ac);
-    aj *= ei(ad);
-    ak *= ei(af);
+    aj *= ei(scaleX);
+    ak *= ei(scaleY);
     let ao = new DOMPoint(ag, ah);
     let ap = new DOMPoint(ag + aj, ah);
     let aq = new DOMPoint(ag, ah + ak);
     let ar = ee(ao, ap, aq, al, am, an);
-    ar = I(ar, aa);
+    ar = I(ar, transformPrecision);
     if (ei(ar.a) === 1 && ar.b === 0 && ar.c === 0 && ei(ar.d) === 1) {
       if (ar.e !== 0 || ar.f !== 0) {
         ag = ar.a === 1 ? ag + ar.e : ag - ar.e;
@@ -6369,7 +6353,7 @@ let Pi = (a6, a7) => {
       ["rx", aj],
       ["ry", ak],
     ]) {
-      au = M(au, a9);
+      au = M(au, geometryPrecision);
       if (au === 0) {
         a6.removeAttribute(as);
       } else {
@@ -6377,21 +6361,21 @@ let Pi = (a6, a7) => {
       }
     }
     Y(a6, ar);
-    ab(a9, aa);
+    ab(geometryPrecision, transformPrecision);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Oi = (a6, a7) => {
-  let { geometryPrecision: a8, transformPrecision: a9 } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   let aa = H(a6);
-  let { scaleX: ab, scaleY: ac } = It(aa);
+  let { scaleX, scaleY } = It(aa);
   if (
     !aa.is2D ||
-    (ab !== ac && a6.getAttribute("preserveAspectRatio") !== "none")
+    (scaleX !== scaleY && a6.getAttribute("preserveAspectRatio") !== "none")
   ) {
-    Y(a6, aa, a9);
+    Y(a6, aa, transformPrecision);
   } else {
     Ii(a6);
     let ad = Zi(a6);
@@ -6415,15 +6399,15 @@ let Oi = (a6, a7) => {
     let al = new DOMPoint(ag, ah).matrixTransform(af);
     let am = new DOMPoint(ag + aj, ah).matrixTransform(af);
     let an = new DOMPoint(ag, ah + ak).matrixTransform(af);
-    ag *= ab;
-    ah *= ac;
-    aj *= ei(ab);
-    ak *= ei(ac);
+    ag *= scaleX;
+    ah *= scaleY;
+    aj *= ei(scaleX);
+    ak *= ei(scaleY);
     let ao = new DOMPoint(ag, ah);
     let ap = new DOMPoint(ag + aj, ah);
     let aq = new DOMPoint(ag, ah + ak);
     let ar = ee(ao, ap, aq, al, am, an);
-    ar = I(ar, a9);
+    ar = I(ar, transformPrecision);
     if (ei(ar.a) === 1 && ar.b === 0 && ar.c === 0 && ei(ar.d) === 1) {
       if (ar.e !== 0 || ar.f !== 0) {
         ag = ar.a === 1 ? ag + ar.e : ag - ar.e;
@@ -6438,7 +6422,7 @@ let Oi = (a6, a7) => {
       ["width", aj],
       ["height", ak],
     ]) {
-      av = M(av, a8);
+      av = M(av, geometryPrecision);
       if (av === 0) {
         a6.removeAttribute(au);
       } else {
@@ -6446,20 +6430,16 @@ let Oi = (a6, a7) => {
       }
     }
     Y(a6, ar);
-    ad(a8, a9);
+    ad(geometryPrecision, transformPrecision);
     ji(a6, a7);
   }
 };
 let ki = (a6, a7) => {
   let a8 = H(a6);
-  let {
-    geometryPrecision: a9,
-    transformPrecision: aa,
-    preserveRotation: ab,
-  } = a7;
-  let { skewXY: ac, skewXZ: ad } = It(a8);
+  let { geometryPrecision, transformPrecision, preserveRotation } = a7;
+  let { skewXY, skewXZ } = It(a8);
   if (a8.is2D) {
-    if (ab && ac === 0 && ad === 0) {
+    if (preserveRotation && skewXY === 0 && skewXZ === 0) {
       Ii(a6);
       let af = ne(a6);
       let ag = ne(a6.parentElement);
@@ -6472,14 +6452,14 @@ let ki = (a6, a7) => {
       let al = new DOMPoint(a6.x2.baseVal.value, a6.y2.baseVal.value);
       let am = ak.matrixTransform(aj);
       let an = al.matrixTransform(aj);
-      a6.setAttribute("x1", M(am.x, a9));
-      a6.setAttribute("y1", M(am.y, a9));
-      a6.setAttribute("x2", M(an.x, a9));
-      a6.setAttribute("y2", M(an.y, a9));
+      a6.setAttribute("x1", M(am.x, geometryPrecision));
+      a6.setAttribute("y1", M(am.y, geometryPrecision));
+      a6.setAttribute("x2", M(an.x, geometryPrecision));
+      a6.setAttribute("y2", M(an.y, geometryPrecision));
       Y(a6, null);
-      ah(a9, aa);
+      ah(geometryPrecision, transformPrecision);
       if (af !== ag) {
-        le(a6, af, aa);
+        le(a6, af, transformPrecision);
       }
       ji(a6, a7);
     } else {
@@ -6491,28 +6471,24 @@ let ki = (a6, a7) => {
       let ar = new DOMPoint(a6.x2.baseVal.value, a6.y2.baseVal.value);
       let as = aq.matrixTransform(ap);
       let au = ar.matrixTransform(ap);
-      a6.setAttribute("x1", M(as.x, a9));
-      a6.setAttribute("y1", M(as.y, a9));
-      a6.setAttribute("x2", M(au.x, a9));
-      a6.setAttribute("y2", M(au.y, a9));
+      a6.setAttribute("x1", M(as.x, geometryPrecision));
+      a6.setAttribute("y1", M(as.y, geometryPrecision));
+      a6.setAttribute("x2", M(au.x, geometryPrecision));
+      a6.setAttribute("y2", M(au.y, geometryPrecision));
       Y(a6, null);
-      Q(a6, ao, "userSpaceOnUse", a9, aa);
+      Q(a6, ao, "userSpaceOnUse", geometryPrecision, transformPrecision);
       ji(a6, a7);
     }
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Di = (a6, a7) => {
   let a8 = H(a6);
-  let {
-    geometryPrecision: a9,
-    transformPrecision: aa,
-    preserveRotation: ab,
-  } = a7;
-  let { skewXY: ac, skewXZ: ad } = It(a8);
+  let { geometryPrecision, transformPrecision, preserveRotation } = a7;
+  let { skewXY, skewXZ } = It(a8);
   if (a8.is2D) {
-    if (ab && ac === 0 && ad === 0) {
+    if (preserveRotation && skewXY === 0 && skewXZ === 0) {
       Ii(a6);
       let af = ne(a6);
       let ag = ne(a6.parentElement);
@@ -6524,13 +6500,13 @@ let Di = (a6, a7) => {
       let ak = [];
       for (let al of a6.points) {
         let { x: am, y: an } = DOMPoint.fromPoint(al).matrixTransform(aj);
-        ak.push(M(am, a9), M(an, a9));
+        ak.push(M(am, geometryPrecision), M(an, geometryPrecision));
       }
       a6.setAttribute("points", ak.join(" "));
       Y(a6, null);
-      ah(a9, aa);
+      ah(geometryPrecision, transformPrecision);
       if (af !== ag) {
-        le(a6, af, aa);
+        le(a6, af, transformPrecision);
       }
       ji(a6, a7);
     } else {
@@ -6541,39 +6517,35 @@ let Di = (a6, a7) => {
       let aq = [];
       for (let ar of a6.points) {
         let { x: as, y: au } = DOMPoint.fromPoint(ar).matrixTransform(ap);
-        aq.push(M(as, a9), M(au, a9));
+        aq.push(M(as, geometryPrecision), M(au, geometryPrecision));
       }
       a6.setAttribute("points", aq.join(" "));
       Y(a6, null);
-      Q(a6, ao, "userSpaceOnUse", a9, aa);
+      Q(a6, ao, "userSpaceOnUse", geometryPrecision, transformPrecision);
       ji(a6, a7);
     }
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ui = (a6, a7) => {
-  let { transformPrecision: a8 } = a7;
+  let { transformPrecision } = a7;
   if (_(a6)) {
-    Y(a6, H(a6), a8);
+    Y(a6, H(a6), transformPrecision);
   }
 };
 let Si = (a6, a7) => {
   let a8 = H(a6);
-  let {
-    geometryPrecision: a9,
-    transformPrecision: aa,
-    preserveRotation: ab,
-  } = a7;
-  let { skewXY: ac, skewXZ: ad } = It(a8);
-  if (Math.abs(ac) < 0.000001) {
-    ac = 0;
+  let { geometryPrecision, transformPrecision, preserveRotation } = a7;
+  let { skewXY, skewXZ } = It(a8);
+  if (Math.abs(skewXY) < 0.000001) {
+    skewXY = 0;
   }
-  if (Math.abs(ad) < 0.000001) {
-    ad = 0;
+  if (Math.abs(skewXZ) < 0.000001) {
+    skewXZ = 0;
   }
   if (a8.is2D) {
-    if (ab && ac === 0 && ad === 0) {
+    if (preserveRotation && skewXY === 0 && skewXZ === 0) {
       Ii(a6);
       let af = ne(a6);
       let ag = ne(a6.parentElement);
@@ -6583,12 +6555,12 @@ let Si = (a6, a7) => {
       let ah = Zi(a6);
       let aj = H(a6);
       let ak = nt(a6);
-      let al = ie(ak, aj, a9);
+      let al = ie(ak, aj, geometryPrecision);
       lt(a6, al);
       Y(a6, null);
-      ah(a9, aa);
+      ah(geometryPrecision, transformPrecision);
       if (af !== ag) {
-        le(a6, af, aa);
+        le(a6, af, transformPrecision);
       }
       ji(a6, a7);
     } else {
@@ -6597,38 +6569,38 @@ let Si = (a6, a7) => {
       Zi(a6);
       let an = H(a6);
       let ao = nt(a6);
-      let ap = ie(ao, an, a9);
+      let ap = ie(ao, an, geometryPrecision);
       lt(a6, ap);
       Y(a6, null);
-      Q(a6, am, "userSpaceOnUse", a9, aa);
+      Q(a6, am, "userSpaceOnUse", geometryPrecision, transformPrecision);
       ji(a6, a7);
     }
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ci = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     if (a8.isIdentity) {
       Y(a6, null);
     } else {
-      let { scaleX: ab, scaleY: ac } = It(a8);
-      if (ab === ac) {
+      let { scaleX, scaleY } = It(a8);
+      if (scaleX === scaleY) {
         let [ad] = q(a6, "userSpaceOnUse");
         a8.translateSelf(-ad.x, -ad.y);
         let [af, ag, ah, aj, ak] = wt(a6).values;
         let al = new DOMPoint(af, ag).matrixTransform(a8);
         let am = new DOMPoint(af + ah, ag).matrixTransform(a8);
         let an = new DOMPoint(af, ag + ah).matrixTransform(a8);
-        ah *= ei(ab);
+        ah *= ei(scaleX);
         let ao = new DOMPoint(af, ag);
         let ap = new DOMPoint(af + ah, ag);
         let aq = new DOMPoint(af, ag + ah);
         let ar = ee(ao, ap, aq, al, am, an);
         ar.translateSelf(ad.x, ad.y);
-        ar = I(ar, aa);
+        ar = I(ar, transformPrecision);
         if (ei(ar.a) === 1 && ar.b === 0 && ar.c === 0 && ei(ar.d) === 1) {
           if (ar.e !== 0 || ar.f !== 0) {
             af = ar.a === 1 ? af + ar.e : af - ar.e;
@@ -6638,7 +6610,7 @@ let Ci = (a6, a7) => {
           }
         }
         let as = [af, ag, ah, aj, ak];
-        as = as.map((au) => M(au, a9));
+        as = as.map((au) => M(au, geometryPrecision));
         Ii(a6);
         vt(
           a6,
@@ -6646,39 +6618,39 @@ let Ci = (a6, a7) => {
             type: "crescent",
             values: as,
           },
-          a9
+          geometryPrecision
         );
         Y(a6, ar);
         ji(a6, a7);
       } else {
-        Y(a6, a8, aa);
+        Y(a6, a8, transformPrecision);
       }
     }
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ni = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     let [ab] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ab.x, -ab.y);
-    let { scaleX: ac, scaleY: ad } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let [af, ag, ah, aj, ak, al] = wt(a6).values;
     let am = new DOMPoint(af, ag).matrixTransform(a8);
     let an = new DOMPoint(af + ah, ag).matrixTransform(a8);
     let ao = new DOMPoint(af, ag + aj).matrixTransform(a8);
-    af *= ei(ac);
-    ag *= ei(ad);
-    ah *= ei(ac);
-    aj *= ei(ad);
+    af *= ei(scaleX);
+    ag *= ei(scaleY);
+    ah *= ei(scaleX);
+    aj *= ei(scaleY);
     let ap = new DOMPoint(af, ag);
     let aq = new DOMPoint(af + ah, ag);
     let ar = new DOMPoint(af, ag + aj);
     let as = ee(ap, aq, ar, am, an, ao);
     as.translateSelf(ab.x, ab.y);
-    as = I(as, aa);
+    as = I(as, transformPrecision);
     if (ei(as.a) === 1 && as.b === 0 && as.c === 0 && ei(as.d) === 1) {
       if (as.e !== 0 || as.f !== 0) {
         af = as.a === 1 ? af + as.e : af - as.e;
@@ -6689,27 +6661,23 @@ let Ni = (a6, a7) => {
     }
     let au = {
       type: "triangle",
-      values: [af, ag, ah, aj, ak, al].map((av) => M(av, a9)),
+      values: [af, ag, ah, aj, ak, al].map((av) => M(av, geometryPrecision)),
     };
     Ii(a6);
-    vt(a6, au, a9);
+    vt(a6, au, geometryPrecision);
     Y(a6, as);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ai = (a6, a7) => {
   let a8 = H(a6);
-  let {
-    geometryPrecision: a9,
-    transformPrecision: aa,
-    preserveRectRadii: ab,
-  } = a7;
+  let { geometryPrecision, transformPrecision, preserveRectRadii } = a7;
   if (a8.is2D) {
     let [ac] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ac.x, -ac.y);
-    let { scaleX: ad, scaleY: af } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let [ag, ah, aj, ak, al, am, an, ao, ap, aq, ar, as] = wt(a6).values;
     let au = new DOMPoint(ag, ah).matrixTransform(a8);
     let av = new DOMPoint(ag + aj, ah).matrixTransform(a8);
@@ -6726,19 +6694,19 @@ let Ai = (a6, a7) => {
     if (as === undefined) {
       as = ao;
     }
-    ag *= ei(ad);
-    ah *= ei(af);
-    aj *= ei(ad);
-    ak *= ei(af);
-    if (ab === false) {
-      al *= ei(ad);
-      am *= ei(ad);
-      an *= ei(ad);
-      ao *= ei(ad);
-      ap *= ei(af);
-      aq *= ei(af);
-      ar *= ei(af);
-      as *= ei(af);
+    ag *= ei(scaleX);
+    ah *= ei(scaleY);
+    aj *= ei(scaleX);
+    ak *= ei(scaleY);
+    if (preserveRectRadii === false) {
+      al *= ei(scaleX);
+      am *= ei(scaleX);
+      an *= ei(scaleX);
+      ao *= ei(scaleX);
+      ap *= ei(scaleY);
+      aq *= ei(scaleY);
+      ar *= ei(scaleY);
+      as *= ei(scaleY);
     }
     let ax;
     let ay = new DOMPoint(ag, ah);
@@ -6746,7 +6714,7 @@ let Ai = (a6, a7) => {
     let aA = new DOMPoint(ag, ah + ak);
     let aB = ee(ay, az, aA, au, av, aw);
     aB.translateSelf(ac.x, ac.y);
-    aB = I(aB, aa);
+    aB = I(aB, transformPrecision);
     if (ei(aB.a) === 1 && aB.b === 0 && aB.c === 0 && ei(aB.d) === 1) {
       if (aB.e !== 0 || aB.f !== 0) {
         ag = aB.a === 1 ? ag + aB.e : ag - aB.e;
@@ -6759,7 +6727,7 @@ let Ai = (a6, a7) => {
       al === ap && am === aq && an === ar && ao === as
         ? [ag, ah, aj, ak, al, am, an, ao]
         : [ag, ah, aj, ak, al, am, an, ao, ap, aq, ar, as];
-    ax = ax.map((aC) => M(aC, a9));
+    ax = ax.map((aC) => M(aC, geometryPrecision));
     Ii(a6);
     vt(
       a6,
@@ -6767,33 +6735,33 @@ let Ai = (a6, a7) => {
         type: "rect",
         values: ax,
       },
-      a9
+      geometryPrecision
     );
     Y(a6, aB);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ti = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     let [ab] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ab.x, -ab.y);
-    let { scaleX: ac, scaleY: ad } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let [af, ag, ah, aj, ak, al] = wt(a6).values;
     let am = new DOMPoint(af, ag).matrixTransform(a8);
     let an = new DOMPoint(af + ah, ag).matrixTransform(a8);
     let ao = new DOMPoint(af, ag + aj).matrixTransform(a8);
-    ah *= ei(ac);
-    aj *= ei(ad);
+    ah *= ei(scaleX);
+    aj *= ei(scaleY);
     let ap = new DOMPoint(af, ag);
     let aq = new DOMPoint(af + ah, ag);
     let ar = new DOMPoint(af, ag + aj);
     let as = ee(ap, aq, ar, am, an, ao);
     as.translateSelf(ab.x, ab.y);
-    as = I(as, aa);
+    as = I(as, transformPrecision);
     if (ei(as.a) === 1 && as.b === 0 && as.c === 0 && ei(as.d) === 1) {
       if (as.e !== 0 || as.f !== 0) {
         af = as.a === 1 ? af + as.e : af - as.e;
@@ -6803,7 +6771,7 @@ let Ti = (a6, a7) => {
       }
     }
     let au = [af, ag, ah, aj, ak, al];
-    au = au.map((av) => M(av, a9));
+    au = au.map((av) => M(av, geometryPrecision));
     Ii(a6);
     vt(
       a6,
@@ -6811,33 +6779,33 @@ let Ti = (a6, a7) => {
         type: "n-gon",
         values: au,
       },
-      a9
+      geometryPrecision
     );
     Y(a6, as);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Fi = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     let [ab] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ab.x, -ab.y);
-    let { scaleX: ac, scaleY: ad } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let [af, ag, ah, aj, ak, al] = wt(a6).values;
     let am = new DOMPoint(af, ag).matrixTransform(a8);
     let an = new DOMPoint(af + ah, ag).matrixTransform(a8);
     let ao = new DOMPoint(af, ag + aj).matrixTransform(a8);
-    ah *= ei(ac);
-    aj *= ei(ad);
+    ah *= ei(scaleX);
+    aj *= ei(scaleY);
     let ap = new DOMPoint(af, ag);
     let aq = new DOMPoint(af + ah, ag);
     let ar = new DOMPoint(af, ag + aj);
     let as = ee(ap, aq, ar, am, an, ao);
     as.translateSelf(ab.x, ab.y);
-    as = I(as, aa);
+    as = I(as, transformPrecision);
     if (ei(as.a) === 1 && as.b === 0 && as.c === 0 && ei(as.d) === 1) {
       if (as.e !== 0 || as.f !== 0) {
         af = as.a === 1 ? af + as.e : af - as.e;
@@ -6846,7 +6814,7 @@ let Fi = (a6, a7) => {
         as.f = 0;
       }
     }
-    let au = [af, ag, ah, aj, ak, al].map((av) => M(av, a9));
+    let au = [af, ag, ah, aj, ak, al].map((av) => M(av, geometryPrecision));
     Ii(a6);
     vt(
       a6,
@@ -6854,38 +6822,38 @@ let Fi = (a6, a7) => {
         type: "star",
         values: au,
       },
-      a9
+      geometryPrecision
     );
     Y(a6, as);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Vi = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     let [ab] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ab.x, -ab.y);
     let ac;
-    let { scaleX: ad, scaleY: af } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let [ag, ah, aj, ak, al, am, an, ao, ap, aq] = wt(a6).values;
     let ar = new DOMPoint(ag, ah).matrixTransform(a8);
     let as = new DOMPoint(ag + aj, ah).matrixTransform(a8);
     let au = new DOMPoint(ag, ah + ak).matrixTransform(a8);
-    ag *= ei(ad);
-    ah *= ei(af);
-    aj *= ei(ad);
-    ak *= ei(af);
-    al *= ei(ad);
-    am *= ei(af);
+    ag *= ei(scaleX);
+    ah *= ei(scaleY);
+    aj *= ei(scaleX);
+    ak *= ei(scaleY);
+    al *= ei(scaleX);
+    am *= ei(scaleY);
     ac =
-      ad === af || M(ei(ad), 6) === 1
-        ? ei(ad)
-        : M(ei(af), 6) === 1
-        ? ei(af)
-        : Math.min(ei(ad), ei(af));
+      scaleX === scaleY || M(ei(scaleX), 6) === 1
+        ? ei(scaleX)
+        : M(ei(scaleY), 6) === 1
+        ? ei(scaleY)
+        : Math.min(ei(scaleX), ei(scaleY));
     an *= ac;
     ao *= ac;
     ap *= ac;
@@ -6895,7 +6863,7 @@ let Vi = (a6, a7) => {
     let ax = new DOMPoint(ag, ah + ak);
     let ay = ee(av, aw, ax, ar, as, au);
     ay.translateSelf(ab.x, ab.y);
-    ay = I(ay, aa);
+    ay = I(ay, transformPrecision);
     if (ei(ay.a) === 1 && ay.b === 0 && ay.c === 0 && ei(ay.d) === 1) {
       if (ay.e !== 0 || ay.f !== 0) {
         ag = ay.a === 1 ? ag + ay.e : ag - ay.e;
@@ -6905,7 +6873,7 @@ let Vi = (a6, a7) => {
       }
     }
     let az = [ag, ah, aj, ak, al, am, an, ao, ap, aq];
-    az = az.map((aA) => M(aA, a9));
+    az = az.map((aA) => M(aA, geometryPrecision));
     Ii(a6);
     vt(
       a6,
@@ -6913,35 +6881,35 @@ let Vi = (a6, a7) => {
         type: "frame",
         values: az,
       },
-      a9
+      geometryPrecision
     );
     Y(a6, ay);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ei = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     let [ab] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ab.x, -ab.y);
     let [ac, ad, af, ag, ah, aj] = wt(a6).values;
-    let { scaleX: ak, scaleY: al } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let am = new DOMPoint(ac, ad).matrixTransform(a8);
     let an = new DOMPoint(ac + ah, ad).matrixTransform(a8);
     let ao = new DOMPoint(ac, ad + aj).matrixTransform(a8);
-    af *= ei(ak);
-    ag *= ei(al);
-    ah *= ei(ak);
-    aj *= ei(al);
+    af *= ei(scaleX);
+    ag *= ei(scaleY);
+    ah *= ei(scaleX);
+    aj *= ei(scaleY);
     let ap = new DOMPoint(ac, ad);
     let aq = new DOMPoint(ac + ah, ad);
     let ar = new DOMPoint(ac, ad + aj);
     let as = ee(ap, aq, ar, am, an, ao);
     as.translateSelf(ab.x, ab.y);
-    as = I(as, aa);
+    as = I(as, transformPrecision);
     if (ei(as.a) === 1 && as.b === 0 && as.c === 0 && ei(as.d) === 1) {
       if (as.e !== 0 || as.f !== 0) {
         ac = as.a === 1 ? ac + as.e : ac - as.e;
@@ -6950,7 +6918,7 @@ let Ei = (a6, a7) => {
         as.f = 0;
       }
     }
-    let au = [ac, ad, af, ag, ah, aj].map((av) => M(av, a9));
+    let au = [ac, ad, af, ag, ah, aj].map((av) => M(av, geometryPrecision));
     Ii(a6);
     vt(
       a6,
@@ -6958,47 +6926,47 @@ let Ei = (a6, a7) => {
         type: "ring",
         values: au,
       },
-      a9
+      geometryPrecision
     );
     Y(a6, as);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Bi = (a6, a7) => {
-  let { transformPrecision: a8 } = a7;
-  Y(a6, H(a6), a8);
+  let { transformPrecision } = a7;
+  Y(a6, H(a6), transformPrecision);
 };
 let Li = (a6, a7) => {
-  let { transformPrecision: a8 } = a7;
-  Y(a6, H(a6), a8);
+  let { transformPrecision } = a7;
+  Y(a6, H(a6), transformPrecision);
 };
 let zi = (a6, a7) => {
   let a8 = Zi(a6);
   let a9 = H(a6);
-  let { geometryPrecision: aa, transformPrecision: ab } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a9.is2D) {
     let [ac] = q(a6, "userSpaceOnUse");
     a9.translateSelf(-ac.x, -ac.y);
-    let { scaleX: ad, scaleY: af } = It(a9);
+    let { scaleX, scaleY } = It(a9);
     let [ag, ah, aj, ak, al, am, an] = wt(a6).values;
     let ao = new DOMPoint(ag, ah).matrixTransform(a9);
     let ap = new DOMPoint(ag + aj, ah).matrixTransform(a9);
     let aq = new DOMPoint(ag, ah + ak).matrixTransform(a9);
-    ag *= ad;
-    ah *= af;
-    aj *= ei(ad);
-    ak *= ei(af);
-    am *= ei(ad);
-    an *= ei(ad);
-    al *= ei(af);
+    ag *= scaleX;
+    ah *= scaleY;
+    aj *= ei(scaleX);
+    ak *= ei(scaleY);
+    am *= ei(scaleX);
+    an *= ei(scaleX);
+    al *= ei(scaleY);
     let ar = new DOMPoint(ag, ah);
     let as = new DOMPoint(ag + aj, ah);
     let au = new DOMPoint(ag, ah + ak);
     let av = ee(ar, as, au, ao, ap, aq);
     av.translateSelf(ac.x, ac.y);
-    av = I(av, ab);
+    av = I(av, transformPrecision);
     if (ei(av.a) === 1 && av.b === 0 && av.c === 0 && ei(av.d) === 1) {
       ag = av.a === 1 ? ag + av.e : ag - av.e;
       ah = av.d === 1 ? ah + av.f : ah - av.f;
@@ -7012,38 +6980,38 @@ let zi = (a6, a7) => {
         type: "arrow",
         values: [ag, ah, aj, ak, al, am, an],
       },
-      aa
+      geometryPrecision
     );
     Y(a6, av);
-    a8(aa, ab);
+    a8(geometryPrecision, transformPrecision);
     ji(a6, a7);
   } else {
-    Y(a6, a9, ab);
+    Y(a6, a9, transformPrecision);
   }
 };
 let Gi = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     let [ab] = q(a6, "userSpaceOnUse");
     a8.translateSelf(-ab.x, -ab.y);
-    let { scaleX: ac, scaleY: ad } = It(a8);
+    let { scaleX, scaleY } = It(a8);
     let [af, ag, ah, aj, ak, al, am] = wt(a6).values;
     let an = new DOMPoint(af, ag).matrixTransform(a8);
     let ao = new DOMPoint(af + ah, ag).matrixTransform(a8);
     let ap = new DOMPoint(af, ag + aj).matrixTransform(a8);
-    af *= ei(ac);
-    ag *= ei(ad);
-    ah *= ei(ac);
-    aj *= ei(ad);
-    ak *= ei(ad);
-    al *= ei(ac);
+    af *= ei(scaleX);
+    ag *= ei(scaleY);
+    ah *= ei(scaleX);
+    aj *= ei(scaleY);
+    ak *= ei(scaleY);
+    al *= ei(scaleX);
     let aq = new DOMPoint(af, ag);
     let ar = new DOMPoint(af + ah, ag);
     let as = new DOMPoint(af, ag + aj);
     let au = ee(aq, ar, as, an, ao, ap);
     au.translateSelf(ab.x, ab.y);
-    au = I(au, aa);
+    au = I(au, transformPrecision);
     if (ei(au.a) === 1 && au.b === 0 && au.c === 0 && ei(au.d) === 1) {
       af = au.a === 1 ? af + au.e : af - au.e;
       ag = au.d === 1 ? ag + au.f : ag - au.f;
@@ -7057,37 +7025,37 @@ let Gi = (a6, a7) => {
         type: "cross",
         values: [af, ag, ah, aj, ak, al, am],
       },
-      a9
+      geometryPrecision
     );
     Y(a6, au);
     ji(a6, a7);
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let Ri = (a6, a7) => {
   let a8 = H(a6);
-  let { geometryPrecision: a9, transformPrecision: aa } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   if (a8.is2D) {
     if (a8.isIdentity) {
       Y(a6, null);
     } else {
-      let { scaleX: ab, scaleY: ac } = It(a8);
-      if (ab === ac) {
+      let { scaleX, scaleY } = It(a8);
+      if (scaleX === scaleY) {
         let [ad] = q(a6, "userSpaceOnUse");
         a8.translateSelf(-ad.x, -ad.y);
         let [af, ag, ah, aj, ak, al] = wt(a6).values;
         let am = new DOMPoint(af, ag).matrixTransform(a8);
         let an = new DOMPoint(af + aj, ag).matrixTransform(a8);
         let ao = new DOMPoint(af, ag + aj).matrixTransform(a8);
-        ah *= ei(ab);
-        aj *= ei(ab);
+        ah *= ei(scaleX);
+        aj *= ei(scaleX);
         let ap = new DOMPoint(af, ag);
         let aq = new DOMPoint(af + aj, ag);
         let ar = new DOMPoint(af, ag + aj);
         let as = ee(ap, aq, ar, am, an, ao);
         as.translateSelf(ad.x, ad.y);
-        as = I(as, aa);
+        as = I(as, transformPrecision);
         if (ei(as.a) === 1 && as.b === 0 && as.c === 0 && ei(as.d) === 1) {
           if (as.e !== 0 || as.f !== 0) {
             af = as.a === 1 ? af + as.e : af - as.e;
@@ -7097,7 +7065,7 @@ let Ri = (a6, a7) => {
           }
         }
         let au = [af, ag, ah, aj, ak, al];
-        au = au.map((av) => M(av, a9));
+        au = au.map((av) => M(av, geometryPrecision));
         Ii(a6);
         vt(
           a6,
@@ -7105,34 +7073,34 @@ let Ri = (a6, a7) => {
             type: "spiral",
             values: au,
           },
-          a9
+          geometryPrecision
         );
         Y(a6, as);
         ji(a6, a7);
       } else {
-        Y(a6, a8, aa);
+        Y(a6, a8, transformPrecision);
       }
     }
   } else {
-    Y(a6, a8, aa);
+    Y(a6, a8, transformPrecision);
   }
 };
 let $i = (a6, a7) => {
-  let { geometryPrecision: a8, transformPrecision: a9 } = a7;
+  let { geometryPrecision, transformPrecision } = a7;
   let aa = [...a6.children].find((ac) => ac.localName === "textPath");
   let ab = null;
   if (aa) {
     ab = pt(aa).querySelector(aa.href.baseVal);
   }
   if (ab) {
-    let ac = I(H(a6), a9);
+    let ac = I(H(a6), transformPrecision);
     Y(a6, ac);
   } else {
     let ad = H(a6);
-    let { scaleX: af, scaleY: ag } = It(ad);
+    let { scaleX, scaleY } = It(ad);
     if (
       ad.is2D &&
-      af === ag &&
+      scaleX === scaleY &&
       ((ah) => {
         if (ah.localName === "text") {
           for (let aj of ah.querySelectorAll("tspan")) {
@@ -7187,15 +7155,15 @@ let $i = (a6, a7) => {
       let ao = new DOMPoint(ak, al).matrixTransform(aj);
       let ap = new DOMPoint(ak + am, al).matrixTransform(aj);
       let aq = new DOMPoint(ak, al + an).matrixTransform(aj);
-      let ar = ak * af;
-      let as = al * ag;
-      let au = am * ei(af);
-      let av = an * ei(ag);
+      let ar = ak * scaleX;
+      let as = al * scaleY;
+      let au = am * ei(scaleX);
+      let av = an * ei(scaleY);
       let aw = new DOMPoint(ar, as);
       let ax = new DOMPoint(ar + au, as);
       let ay = new DOMPoint(ar, as + av);
       let az = ee(aw, ax, ay, ao, ap, aq);
-      az = I(az, a9);
+      az = I(az, transformPrecision);
       if (ei(az.a) === 1 && az.b === 0 && az.c === 0 && ei(az.d) === 1) {
         if (az.e !== 0 || az.f !== 0) {
           ar = az.a === 1 ? ar + az.e : ar - az.e;
@@ -7206,14 +7174,18 @@ let $i = (a6, a7) => {
       }
       let aA = ar - ak;
       let aB = as - al;
-      let aC = [...a6.x.baseVal].map((aF) => M(aF.value + aA, a8));
-      let aD = [...a6.y.baseVal].map((aF) => M(aF.value + aB, a8));
-      ar = M(ar, a8);
-      as = M(as, a8);
+      let aC = [...a6.x.baseVal].map((aF) =>
+        M(aF.value + aA, geometryPrecision)
+      );
+      let aD = [...a6.y.baseVal].map((aF) =>
+        M(aF.value + aB, geometryPrecision)
+      );
+      ar = M(ar, geometryPrecision);
+      as = M(as, geometryPrecision);
       if (aC.length > 0) {
         a6.setAttribute("x", aC.join(" "));
       } else {
-        let aF = M(aA, a8);
+        let aF = M(aA, geometryPrecision);
         if (aF === 0) {
           a6.removeAttribute("x");
         } else {
@@ -7223,7 +7195,7 @@ let $i = (a6, a7) => {
       if (aD.length > 0) {
         a6.setAttribute("y", aD.join(" "));
       } else {
-        let aG = M(aB, a8);
+        let aG = M(aB, geometryPrecision);
         if (aG === 0) {
           a6.removeAttribute("y");
         } else {
@@ -7231,8 +7203,12 @@ let $i = (a6, a7) => {
         }
       }
       for (let aH of a6.querySelectorAll("tspan")) {
-        let aI = [...aH.x.baseVal].map((aK) => M(aK.value + aA, a8));
-        let aJ = [...aH.y.baseVal].map((aK) => M(aK.value + aB, a8));
+        let aI = [...aH.x.baseVal].map((aK) =>
+          M(aK.value + aA, geometryPrecision)
+        );
+        let aJ = [...aH.y.baseVal].map((aK) =>
+          M(aK.value + aB, geometryPrecision)
+        );
         if (aI.length > 0) {
           aH.setAttribute("x", aI.join(" "));
         }
@@ -7241,26 +7217,26 @@ let $i = (a6, a7) => {
         }
       }
       Y(a6, az);
-      ah(a8, a9);
+      ah(geometryPrecision, transformPrecision);
       ji(a6, a7);
       if (a6.querySelectorAll("tspan").length === 0) {
         let aK = getComputedStyle(a6).getPropertyValue("font-size");
         aK = ni(aK);
-        aK = M(aK * ag, 1);
+        aK = M(aK * scaleY, 1);
         a6.style.setProperty("font-size", aK);
       } else {
         for (let aL of a6.querySelectorAll("tspan")) {
           let aM = getComputedStyle(aL).getPropertyValue("font-size");
           aM = ni(aM);
-          aM = M(aM * ag, 1);
+          aM = M(aM * scaleY, 1);
           aL.style.setProperty("font-size", aM);
           let aN = getComputedStyle(aL).getPropertyValue("word-spacing");
           aN = ni(aN);
-          aN = M(aN * ag, 2);
+          aN = M(aN * scaleY, 2);
           aL.style.setProperty("word-spacing", aN);
           let aO = getComputedStyle(aL).getPropertyValue("letter-spacing");
           aO = ni(aO);
-          aO = M(aO * ag, 2);
+          aO = M(aO * scaleY, 2);
           aL.style.setProperty("letter-spacing", aO);
           ji(aL, a7);
         }
@@ -7268,7 +7244,7 @@ let $i = (a6, a7) => {
     } else if (ad.isIdentity) {
       Y(a6, null);
     } else {
-      Y(a6, ad, a9);
+      Y(a6, ad, transformPrecision);
     }
   }
 };
@@ -7298,12 +7274,12 @@ let Ii = (a6) => {
     let a8 = [Ke(a6, "fill"), Ke(a6, "stroke")];
     let a9 = a8.filter((ad) => ad && ad.localName.endsWith("Gradient"));
     let aa = a8.filter((ad) => ad && ad.localName === "pattern");
-    let { scaleX: ab, scaleY: ac } = It(H(a6));
-    a6[ri] = ab;
-    a6[oi] = ac;
+    let { scaleX, scaleY } = It(H(a6));
+    a6[ri] = scaleX;
+    a6[oi] = scaleY;
     for (let ad of a9) {
       let af = _e(ad);
-      if (af.gradientUnits === ai) {
+      if (af.gradientUnits === SVG_UNIT_TYPE_USERSPACEONUSE) {
         if (ad.localName === "linearGradient") {
           let ag = new DOMPoint(af.x1.value, af.y1.value);
           let ah = new DOMPoint(af.x2.value, af.y2.value);
@@ -7329,7 +7305,7 @@ let Ii = (a6) => {
     }
     for (let au of aa) {
       let av = We(au);
-      if (av.patternUnits === ai) {
+      if (av.patternUnits === SVG_UNIT_TYPE_USERSPACEONUSE) {
         let aw = new DOMPoint(av.x.value, av.y.value);
         let ax = new DOMPoint(av.x.value + av.width.value, av.y.value);
         let ay = new DOMPoint(
@@ -7342,7 +7318,7 @@ let Ii = (a6) => {
         au[di] = az.matrixTransform(a7);
         au[yi] = aA.matrixTransform(a7);
         au[gi] = aB.matrixTransform(a7);
-      } else if (av.patternUnits === li) {
+      } else if (av.patternUnits === SVG_UNIT_TYPE_OBJECTBOUNDINGBOX) {
         let aC = K(a6);
         let aD = oe(a6);
         let aE = av.x.valueInSpecifiedUnits;
@@ -7383,10 +7359,10 @@ let Ii = (a6) => {
 let ji = (a6, a7) => {
   let a8 = K(a6).inverse();
   let {
-    geometryPrecision: a9,
-    preserveStrokeWidth: aa,
-    transformPrecision: ab,
-    transformDirection: ac,
+    geometryPrecision,
+    preserveStrokeWidth,
+    transformPrecision,
+    transformDirection,
   } = a7;
   if (x.includes(a6.localName)) {
     let ad = getComputedStyle(a6).clipPath;
@@ -7427,23 +7403,23 @@ let ji = (a6, a7) => {
     let au = [Ke(a6, "fill"), Ke(a6, "stroke")];
     let av = au.filter((ax) => ax && ax.localName.endsWith("Gradient"));
     let aw = au.filter((ax) => ax && ax.localName === "pattern");
-    if (aa === false) {
+    if (preserveStrokeWidth === false) {
       let ax = a6[ri];
       let ay = a6[oi];
       let az = getComputedStyle(a6).getPropertyValue("stroke-width");
       az = ni(az);
       az *=
-        ac === "left" || ac === "right"
+        transformDirection === "left" || transformDirection === "right"
           ? ei(ax)
-          : ac === "top" || ac === "bottom"
+          : transformDirection === "top" || transformDirection === "bottom"
           ? ei(ay)
           : (ei(ax) + ei(ay)) / 2;
-      az = M(az, a9);
+      az = M(az, geometryPrecision);
       a6.style.setProperty("stroke-width", az);
     }
     for (let aA of av) {
       let aB = _e(aA);
-      if (aB.gradientUnits === ai) {
+      if (aB.gradientUnits === SVG_UNIT_TYPE_USERSPACEONUSE) {
         let aC;
         if (aA.localName === "linearGradient") {
           let aD = new DOMPoint(aB.x1.value, aB.y1.value);
@@ -7470,7 +7446,7 @@ let ji = (a6, a7) => {
             aA[ci].matrixTransform(a8)
           );
         }
-        aC = I(aC, ab);
+        aC = I(aC, transformPrecision);
         for (let aJ of Ye(aA)) {
           if (aJ.hasAttribute("gradientTransform") === false) {
             if (aA.hasAttribute("gradientTransform")) {
@@ -7518,7 +7494,7 @@ let ji = (a6, a7) => {
         }
         aK = aQ;
       }
-      if (aL.patternUnits === ai) {
+      if (aL.patternUnits === SVG_UNIT_TYPE_USERSPACEONUSE) {
         let aV = new DOMPoint(aL.x.value, aL.y.value);
         let aW = new DOMPoint(aL.x.value + aL.width.value, aL.y.value);
         let aX = new DOMPoint(
@@ -7533,9 +7509,9 @@ let ji = (a6, a7) => {
           aO.matrixTransform(a8),
           aP.matrixTransform(a8)
         );
-        let aZ = I(aY, ab);
+        let aZ = I(aY, transformPrecision);
         aK.setAttribute("patternTransform", aZ.toString());
-      } else if (aL.patternUnits === li) {
+      } else if (aL.patternUnits === SVG_UNIT_TYPE_OBJECTBOUNDINGBOX) {
         let b0 = oe(a6);
         let b1 = aL.x.valueInSpecifiedUnits;
         let b2 = aL.y.valueInSpecifiedUnits;
@@ -7567,7 +7543,7 @@ let ji = (a6, a7) => {
         let bh = bd.matrixTransform(aL.patternTransform.inverse());
         let bj = ee(b8, b9, ba, bf, bg, bh);
         let bk = aL.patternTransform.multiply(bj);
-        bk = I(bk, ab);
+        bk = I(bk, transformPrecision);
         aK.setAttribute("patternTransform", bk.toString());
       }
     }
@@ -7595,7 +7571,7 @@ let Zi = (a6) => {
   }
   return a7;
 };
-let { isArray: Xi } = Array;
+let { isArray } = Array;
 class Hi extends ht {
   static t = a` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="view-subsection"> <h4 id="view-heading"><x-message href="#view"></x-message></h4> <x-select id="view-select"> <x-menu id="view-menu"></x-menu> </x-select> </section> <section id="area-subsection"> <h4 id="area-heading"><x-message href="#objects"></x-message></h4> <x-buttons id="area-buttons" tracking="1"> <x-button id="all-area-button" value="all" toggled> <x-label><x-message href="#objects.all"></x-message></x-label> </x-button> <x-button id="selected-area-button" value="selected"> <x-label><x-message href="#objects.selected"></x-message></x-label> </x-button> </x-buttons> </section> <section id="padding-subsection"> <h4 id="padding-heading"><x-message href="#padding"></x-message></h4> <bx-edgeinput id="padding-input"></bx-edgeinput> </section> <section id="origin-subsection"> <x-box id="origin-heading-box"> <h4 id="origin-heading"><x-message href="#origin"></x-message></h4> <x-switch id="origin-switch" size="small"></x-switch> </x-box> <x-box id="origin-box"> <x-box id="origin-x-box" vertical> <x-label id="origin-x-label"><x-message href="#x"></x-message></x-label> <x-numberinput id="origin-x-input" value="0" condensed> <x-stepper></x-stepper> <x-label><x-message href="#origin.auto"></x-message></x-label> </x-numberinput> </x-box> <x-box id="origin-y-box" vertical> <x-label id="origin-y-label"><x-message href="#y"></x-message></x-label> <x-numberinput id="origin-y-input" value="0" condensed> <x-stepper></x-stepper> <x-label><x-message href="#origin.auto"></x-message></x-label> </x-numberinput> </x-box> </x-box> </section> </section> <hr id="preview-section-hr"> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <image id="preview" part="preview"></image> <table id="preview-table"> <tr> <td><x-message href="#coords.x"></x-message>:</td> <td id="preview-x-td">0</td> </tr> <tr> <td><x-message href="#coords.y"></x-message>:</td> <td id="preview-y-td">0</td> </tr> <tr> <td><x-message href="#width"></x-message>:</td> <td id="preview-width-td">100</td> </tr> <tr> <td><x-message href="#height"></x-message>:</td> <td id="preview-height-td">100</td> </tr> </table> </section> </template>
   `;
@@ -7743,7 +7719,7 @@ class Hi extends ht {
       let a9 = a7.map((ah) => pe(ah));
       let aa = Se(Ce(a9), K(a6.currentWorkspace).inverse());
       let ab = this["#padding-input"].value;
-      if (Xi(ab) === false) {
+      if (isArray(ab) === false) {
         ab = [ab, ab, ab, ab];
       }
       let [ac, ad, af, ag] = ab;
@@ -7873,9 +7849,9 @@ class Hi extends ht {
     }
     if (a6) {
       let ak = a2.getConfig("bx-resizeviewgenerator:origin", null);
-      this["#origin-switch"].toggled = Xi(ak);
-      this["#origin-x-input"].value = Xi(ak) ? ak[0] : 0;
-      this["#origin-y-input"].value = Xi(ak) ? ak[1] : 0;
+      this["#origin-switch"].toggled = isArray(ak);
+      this["#origin-x-input"].value = isArray(ak) ? ak[0] : 0;
+      this["#origin-y-input"].value = isArray(ak) ? ak[1] : 0;
     }
     if (this["#view-select"].value === null) {
       this["#origin-heading"].disabled = true;
@@ -7942,7 +7918,7 @@ class Hi extends ht {
         let ad = aa.map((ao) => pe(ao));
         let af = Ce(ad);
         let ag = this["#padding-input"].value;
-        if (Xi(ag) === false) {
+        if (isArray(ag) === false) {
           ag = [ag, ag, ag, ag];
         }
         let [ah, aj, ak, al] = ag;
