@@ -37491,6 +37491,13 @@ class So extends yo {
   #ch() {
     return new Promise(async (af) => {
       let ag = location.pathname;
+
+      // use relative path
+      // 33 == "/elements/apps/bx-portalwebapp.js".length
+      // part of scripts/patch-absolute-paths.sh
+      const basePathLength = (new URL(import.meta.url)).pathname.length - 33;
+      ag = ag.slice(basePathLength);
+
       let ah = this.getAttribute("path") || null;
       if (ag !== ah) {
         if (ag === "/") {
