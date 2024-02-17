@@ -9222,10 +9222,10 @@ var Bi = new (class {
         let ah = ab.App.initializeApp({
           projectId: "boxy-svg",
           apiKey: Y,
-          databaseURL: "https://boxy-svg.firebaseio.com",
-          storageBucket: "boxy-svg.appspot.com",
-          authDomain: "boxy-svg.com",
-          messagingSenderId: "166009762809",
+          databaseURL: "http://localhost",
+          storageBucket: "localhost",
+          authDomain: "localhost",
+          messagingSenderId: "100000000000",
         });
         this.#De = new zi(ah);
         this.#Be = new Li(ah);
