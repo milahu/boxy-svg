@@ -1,1 +1,131 @@
-const a7=c;(function(d,f){const a6=c,g=d();while(!![]){try{const h=-parseInt(a6(0xcb))/0x1*(parseInt(a6(0xd3))/0x2)+parseInt(a6(0xc3))/0x3*(parseInt(a6(0xda))/0x4)+parseInt(a6(0xdc))/0x5+-parseInt(a6(0xc1))/0x6+parseInt(a6(0xc6))/0x7*(-parseInt(a6(0xe5))/0x8)+-parseInt(a6(0xb3))/0x9*(parseInt(a6(0xc2))/0xa)+-parseInt(a6(0xd2))/0xb*(-parseInt(a6(0xb6))/0xc);if(h===f)break;else g['push'](g['shift']());}catch(i){g['push'](g['shift']());}}}(b,0x57590));function b(){const ae=['3288690wqAnPS','860910crVPbs','3HcxWkx','<svg\x20viewBox=\x220\x200\x20','postMessage','21pPfJAu','·*+=$@#','#000000','charBackgroundColorSource','toString','1831eJwXzS','#ffffff','</tspan>','charCustomColor','</svg>','custom','fontSize','112695JHOKyF','762SGMTOY','EPSILON','width','geometryPrecision','rgba(','rows','charColorSource','139288eZDlCe','drawImage','1828325nmPWnf','map','pow','</text>','<text\x20','></rect>','length','fill:\x20','rgba(0,0,0,0)','1835144vyiqze','columns','9wntFpq','entries','round','2316WskrQd','height','chars','getContext','data','push','<rect\x20','join','getImageData','sample','white-space:\x20pre;\x20text-anchor:\x20middle;\x20dominant-baseline:\x20central;\x20font-family:\x20monospace;\x20font-size:\x20'];b=function(){return ae;};return b();}let e={'columns':0x14,'rows':0x14,'chars':a7(0xc7),'charColorSource':a7(0xd0),'charCustomColor':a7(0xcc),'charBackgroundColorSource':a7(0xbf),'charCustomBackgroundColor':a7(0xc8),'fontSize':0x1,'geometryPrecision':0x3};globalThis['addEventListener']('message',j=>{const a8=a7;let [k,q]=j[a8(0xba)];q=t(e,q);let v=r(k),{width:w,height:z}=k,A=w/q['columns'],B=z/q[a8(0xd8)],D=B*q[a8(0xd1)],E=a8(0xc4)+w+'\x20'+z+'\x22>';for(let F=0x0;F<q['rows'];F+=0x1){let G=F*B,H=G+B/0x2;for(let I=0x0;I<q[a8(0xb2)];I+=0x1){let J=I*A,K=J+A/0x2,[L,M,N,O]=o(K/w,H/z,k,v);if(O>0x0){let P=a(L,M,N,O),Q=a8(0xbf)===q[a8(0xc9)]?P:q['charCustomBackgroundColor'];E+=a8(0xbc)+s({'x':l(J,q[a8(0xd6)]),'y':l(G,q['geometryPrecision']),'width':l(A,q[a8(0xd6)]),'height':l(B,q[a8(0xd6)]),'style':a8(0xe3)+Q+';'})+a8(0xe1);}}}for(let R=0x0;R<q[a8(0xd8)];R+=0x1){let S=R*B,T=S+B/0x2;E+=a8(0xe0)+s({'y':l(S+B/0x2,q['geometryPrecision']),'style':a8(0xc0)+D+'px;'})+'>';for(let U=0x0;U<q['columns'];U+=0x1){let V=U*A,W=V+A/0x2,[X,Y,Z,a0]=o(W/w,T/z,k,v),a1=(X+Y+Z)*(a0/0xff),a2=0x2fd/(q[a8(0xb8)][a8(0xe2)]-0x1),a3=q['chars'][Math['round'](a1/a2)];if(a0>0x0){let a4=a(X,Y,Z,a0),a5=a8(0xbf)===q[a8(0xd9)]?a4:q[a8(0xce)];E+='<tspan\x20'+s({'x':l(V+A/0x2,q[a8(0xd6)]),'style':a8(0xe3)+a5+';'})+'>'+a3+a8(0xcd);}}E+=a8(0xdf);}E+=a8(0xcf),globalThis[a8(0xc5)](E);});function c(a,d){const e=b();return c=function(f,g){f=f-0xb2;let h=e[f];return h;},c(a,d);}let t=(d,f)=>{const a9=a7;let g={};for(let [h,i]of Object[a9(0xb4)](d))g[h]=void 0x0!==f[h]?f[h]:d[h];return g;},l=(d,f=0x0)=>{const aa=a7;let g=Math[aa(0xde)](0xa,f);return Math['round']((d+Number[aa(0xd4)])*g)/g;},r=d=>{const ab=a7;let f=new OffscreenCanvas(d[ab(0xd5)],d[ab(0xb7)])[ab(0xb9)]('2d');f[ab(0xdb)](d,0x0,0x0);let g=f[ab(0xbe)](0x0,0x0,d[ab(0xd5)],d[ab(0xb7)]),h=[];for(let i=0x0;i<g[ab(0xba)][ab(0xe2)];i+=0x4)h[ab(0xbb)]([g[ab(0xba)][i],g['data'][i+0x1],g['data'][i+0x2],g[ab(0xba)][i+0x3]]);return h;},o=(d,f,g,h)=>h[Math[a7(0xb5)](d*g['width'])+Math[a7(0xb5)](f*g[a7(0xb7)])*g[a7(0xd5)]]||[0x0,0x0,0x0,0x0],a=(d,f,g,h)=>{const ad=a7;let i=j=>{const ac=c;let k=j[ac(0xca)](0x10);return 0x1==k['length']?'0'+k:k;};return 0xff===h?'#'+i(d)+i(f)+i(g):0x0===h?ad(0xe4):ad(0xd7)+d+','+f+','+g+','+(h=l(h/0xff,0x2))+')';},s=d=>Object[a7(0xb4)](d)[a7(0xdd)](([f,g])=>f+'=\x22'+g+'\x22')[a7(0xbd)]('\x20');
+let e = {
+  columns: 20,
+  rows: 20,
+  chars: "·*+=$@#",
+  charColorSource: "custom",
+  charCustomColor: "#ffffff",
+  charBackgroundColorSource: "sample",
+  charCustomBackgroundColor: "#000000",
+  fontSize: 1,
+  geometryPrecision: 3,
+};
+globalThis.addEventListener("message", (j) => {
+  let [k, q] = j.data;
+  q = t(e, q);
+  let v = r(k);
+  let { width: w, height: z } = k;
+  let A = w / q.columns;
+  let B = z / q.rows;
+  let D = B * q.fontSize;
+  let E = '<svg viewBox="0 0 ' + w + " " + z + '">';
+  for (let F = 0; F < q.rows; F += 1) {
+    let G = F * B;
+    let H = G + B / 2;
+    for (let I = 0; I < q.columns; I += 1) {
+      let J = I * A;
+      let K = J + A / 2;
+      let [L, M, N, O] = o(K / w, H / z, k, v);
+      if (O > 0) {
+        let P = a(L, M, N, O);
+        let Q =
+          q.charBackgroundColorSource === "sample"
+            ? P
+            : q.charCustomBackgroundColor;
+        E +=
+          "<rect " +
+          s({
+            x: l(J, q.geometryPrecision),
+            y: l(G, q.geometryPrecision),
+            width: l(A, q.geometryPrecision),
+            height: l(B, q.geometryPrecision),
+            style: "fill: " + Q + ";",
+          }) +
+          "></rect>";
+      }
+    }
+  }
+  for (let R = 0; R < q.rows; R += 1) {
+    let S = R * B;
+    let T = S + B / 2;
+    E +=
+      "<text " +
+      s({
+        y: l(S + B / 2, q.geometryPrecision),
+        style:
+          "white-space: pre; text-anchor: middle; dominant-baseline: central; font-family: monospace; font-size: " +
+          D +
+          "px;",
+      }) +
+      ">";
+    for (let U = 0; U < q.columns; U += 1) {
+      let V = U * A;
+      let W = V + A / 2;
+      let [X, Y, Z, a0] = o(W / w, T / z, k, v);
+      let a1 = (X + Y + Z) * (a0 / 255);
+      let a2 = 765 / (q.chars.length - 1);
+      let a3 = q.chars[Math.round(a1 / a2)];
+      if (a0 > 0) {
+        let a4 = a(X, Y, Z, a0);
+        let a5 = q.charColorSource === "sample" ? a4 : q.charCustomColor;
+        E +=
+          "<tspan " +
+          s({
+            x: l(V + A / 2, q.geometryPrecision),
+            style: "fill: " + a5 + ";",
+          }) +
+          ">" +
+          a3 +
+          "</tspan>";
+      }
+    }
+    E += "</text>";
+  }
+  E += "</svg>";
+  globalThis.postMessage(E);
+});
+let t = (d, f) => {
+  let g = {};
+  for (let [h, i] of Object.entries(d)) {
+    g[h] = f[h] !== undefined ? f[h] : d[h];
+  }
+  return g;
+};
+let l = (d, f = 0) => {
+  let g = Math.pow(10, f);
+  return Math.round((d + Number.EPSILON) * g) / g;
+};
+let r = (d) => {
+  let f = new OffscreenCanvas(d.width, d.height).getContext("2d");
+  f.drawImage(d, 0, 0);
+  let g = f.getImageData(0, 0, d.width, d.height);
+  let h = [];
+  for (let i = 0; i < g.data.length; i += 4) {
+    h.push([g.data[i], g.data[i + 1], g.data[i + 2], g.data[i + 3]]);
+  }
+  return h;
+};
+let o = (d, f, g, h) =>
+  h[Math.round(d * g.width) + Math.round(f * g.height) * g.width] || [
+    0, 0, 0, 0,
+  ];
+let a = (d, f, g, h) => {
+  let i = (j) => {
+    let k = j.toString(16);
+    if (k.length == 1) {
+      return "0" + k;
+    } else {
+      return k;
+    }
+  };
+  if (h === 255) {
+    return "#" + i(d) + i(f) + i(g);
+  } else if (h === 0) {
+    return "rgba(0,0,0,0)";
+  } else {
+    return "rgba(" + d + "," + f + "," + g + "," + (h = l(h / 255, 2)) + ")";
+  }
+};
+let s = (d) =>
+  Object.entries(d)
+    .map(([f, g]) => f + '="' + g + '"')
+    .join(" ");

@@ -1,4 +1,1793 @@
-const af=k;(function(A,B){const ae=k,C=A();while(!![]){try{const D=-parseInt(ae(0x18a))/0x1+parseInt(ae(0x233))/0x2*(parseInt(ae(0x237))/0x3)+-parseInt(ae(0x1fa))/0x4+-parseInt(ae(0x24e))/0x5*(-parseInt(ae(0x14e))/0x6)+parseInt(ae(0x189))/0x7*(-parseInt(ae(0x2b8))/0x8)+-parseInt(ae(0x2c6))/0x9+-parseInt(ae(0x2ae))/0xa*(-parseInt(ae(0x12b))/0xb);if(D===B)break;else C['push'](C['shift']());}catch(E){C['push'](C['shift']());}}}(j,0x3bdbc));import q from'/libs/xel/xel.js';import'/libs/color/color.js';import'/libs/css-parser/css-parser.js';import'/libs/paper/paper.js';import'/libs/seed-random/seed-random.js';import'/libs/dom-purify/dom-purify.js';import v from'/libs/dexie/dexie.js';function j(){const aJ=['join','toArray','tspan','stores','permissions','U+1000-109F,\x20U+200C-200D,\x20U+25CC','Safari/','not-allowed','parse','query','toggle','smaller','horizontal-tb','800','28feomgi','444865mtMqJw','svg:g','optimizeLegibility','use','text-bottom','transform-origin','createElementNS','token','getFamilyDescriptor','linearRGB','200','feComponentTransfer','inline','upgrade','#end-marker','now','#opacity','presentationAttributeName','getAll','ideographic','400italic','_shadowStyleSheet','#font','oblique','pre','fill-rule','polyline','#transform-origin','pre-wrap','#flood-opacity','startsWith','optimizeSpeed','hanging','#transform-box','type','#stroke-line-join','U+590-5FF,\x20U+20AA,\x20U+25CC,\x20U+FB1D-FB4F','#will-change','right','mix-blend-mode','checkpoint','lowercase','getLocalFontsMetadata','U+0-FF,\x20U+131,\x20U+152-153,\x20U+2BB-2BC,\x20U+2C6,\x20U+2DA,\x20U+2DC,\x20U+2000-206F,\x20U+2074,\x20U+20AC,\x20U+2122,\x20U+2191,\x20U+2193,\x20U+2212,\x20U+2215,\x20U+FEFF,\x20U+FFFD','text-top','Client','urls','ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL','getFontFaceRulesFromUrl','ultralight','font-style','token-list','central','stroke-opacity','googleFonts','filter','auto','ltr','nonzero','fill','app','disabled','wght','center','100','marker','circle','bx-barcodegenerator:format','U+964-965,\x20U+B82-BFA,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','setConfig','wider','color-dodge','transform','unicode-bidi','92f3tewguhsn8o0qp.a1.typesense.net','saturation','push','0\x200','#paint-order','where','transform-list','inset','ital','1000','writing-mode','nowrap','includes','heavy','ultra-condensed','#line-height','text-after-edge','feGaussianBlur','extra-expanded','text\x20a','#visibility','vector-effect','content','#clip-rule','color-interpolation-filters','constructor','U+964-965,\x20U+981-9FB,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','900','substring','#isolation','getConfig','#text-anchor','00000000000','tabindex','importNode','platform','nw-resize','inherit','1797576GJtsmu','url','setCustomValidity','#label-position-center-button','vertical-lr','feMorphology','col-resize','view-box','darken','dasharray','baseline-shift','difference','ew-resize','LocalFontsManager','grab','Roboto','flood-color','semi-condensed','children','end','trending','600','black','400','text-before-edge','then','toggled','#label-position-left-button','text-rendering','#font-stretch','x-large','bounding-box','ne-resize','clip-rule','500','evenodd','marker-mid','luminosity','isolate','#label-position-label','crosshair','light','block','hard-light','text','alphabetic','change','GoogleFontsManager','bolder','ready','find','board','uppercase','closest','trim','https://fonts.google.com/specimen/','white-space','14nzOLwj','0000000','multiply','w-resize','77391EvUckd','bx-barcodegenerator:labelPosition','wait\x20','stroke-linejoin','click','stroke-miterlimit','lighting-color','state','shape-rendering','overflow','#label-switch','no-change','alias','serif','700italic','s-resize','#mask','cache','text-transform','direction','#generators-panel','replaceSync','style','364865boHFwa','sw-resize','linear','crispEdges','#fill','embed','text-anchor','createElement','#cursor','n-resize','system-ui','#alignment-baseline','remove','feConvolveMatrix','#footer','feDropShadow','semi-expanded','visiblePainted','#image-rendering','markers','clear','U+1780-17FF,\x20U+200C,\x20U+25CC','butt','toLowerCase','thumbnail','stop','U+E01-E5B,\x20U+200C-200D,\x20U+25CC','scroll','svg','spline','U+900-97F,\x20U+1CD0-1CF6,\x20U+1CF8-1CF9,\x20U+200C-200D,\x20U+20A8,\x20U+20B9,\x20U+25CC,\x20U+A830-A839,\x20U+A8E0-A8FB','querySelector','#stroke','image-rendering','queryLocalFonts','getRootNode','feColorMatrix','fantasy','stroke-dasharray','xx-large','stop-color','FONT_FACE_RULE','feMerge','medium','stroke-linecap','font-size','no-drop','#text-transform','#generators.barcode','append','#baseline-shift','expanded','line','non-scaling-stroke','#stop-color','bidi-override','font-family','large','setAttribute','U+102-103,\x20U+110-111,\x20U+128-129,\x20U+168-169,\x20U+1A0-1A1,\x20U+1AF-1B0,\x20U+1EA0-1EF9,\x20U+20AB','will-change','zoom-in','textPath','dateRank','color-interpolation','value','#text-decoration','extrabold','polygon','paced','Chrome','hue','faces','license','word-spacing','#fill-rule','#flood-color','left','all','trendingRank','#clip-path','move','demibold','semibold','TEST','marker-start','painted','subset','square','cursor','mask','flood-opacity','number','small','feComposite','split','20AdkLlx','foreignObject','0000000000000','none','overlay','mathematical','geometricPrecision','http://www.w3.org/2000/svg','local-fonts','font','257128cZBopi','U+307,\x20U+323,\x20U+964-965,\x20U+D02-D7F,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','#font-size','#filter','rtl','#color','fill-box','middle','feBlend','top','soft-light','0000','#unicode-bidi','nwse-resize','142434RONrTP','refresh','initial','U+964-965,\x20U+B01-B77,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','isolation','extends','#dominant-baseline','bx-editor','vertical-text','subsets','xx-small','#display','symbol','color','length','marker-end','baseline','sub','add','feDiffuseLighting','larger','hidden','#stroke-dash-array','searchParams','font-weight','row-resize','unset','cloneNode','round','image','feDisplacementMap','#preview','slice','stop-opacity','stroke','progress','#value-input','copy','reset-size','feSpecularLighting','opacity','path','count','stroke-dashoffset','feTurbulence','search','#000','#stroke-dash-offset','#font-weight','font-variant','display','use-script','bx-generator','userAgent','#label-position-buttons','stroke-width','#stroke-line-cap','rect','bottom','700','attachShadow','ellipse','overline','#main','#font-variant','start','iPhone','3659766tRPTly','status','#format-select','firstElementChild','isConnected','#text-rendering','category','italic','EAN8','export','popularityRank','visible','popularity','hairline','U+964-965,\x20U+A01-A75,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+262C,\x20U+A830-A839','documents','#white-space','#direction','host','#font-family','U+400-45F,\x20U+490-491,\x20U+4B0-4B1,\x20U+2116','U+F00-FFF,\x20U+200C-200D,\x20U+25CC','pointer','ns-resize','getFamilyWeights','insertArtwork','screen','letter-spacing','zoom-out','00000','U+1F00-1FFF','visibleStroke','#generate-button','innerHTML','U+370-3FF','36MatQJo','family','stroke-box','map','sort','get','#marker','addEventListener','capitalize','currentColor','super','alignment-baseline','Mac','percentage','message','#color-interpolation','#fill-opacity','miter','childElementCount','[id]','#label-position-right-button','alphabetical','input','define','https','normal','#transform','filter-function-list','template','443','#label-position-inset-button','bulkPut','underline','lighten','collections','#font-style','U+460-52F,\x20U+1C80-1C88,\x20U+20B4,\x20U+2DE0-2DFF,\x20U+A640-A69F,\x20U+FE2E-FE2F','#mid-marker','cell','version','context-menu','cursive','visibility','equals','clip-path'];j=function(){return aJ;};return j();}import w from'/libs/typesense/typesense.js';import'/libs/pako/pako.js';import z from'/libs/bar-code/bar-code.js';const n=af(0x2b5),l=[af(0x1cc),af(0x125),af(0x282),af(0x2ef),af(0x292),'polyline',af(0x2ff)],o=['text',af(0x28c),af(0x17d)],s=[...l,...o,af(0x2af),af(0x2e3)],r=[...l,...o];[{'name':af(0x159),'displayName':af(0x259),'presentationAttributeName':af(0x159),'initialValue':af(0x2d6),'values':[{'type':af(0x191),'tokens':[af(0x2d6),af(0x18e),af(0x227),af(0x19d),af(0x2bf),af(0x1be),af(0x2b3),af(0x1b6),af(0x300),af(0x1c9),af(0x2c1),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[af(0x226),'tspan',af(0x28c),'text\x20a'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x204),'displayName':af(0x280),'presentationAttributeName':af(0x204),'initialValue':'0','values':[{'type':af(0x2aa)},{'type':af(0x15b)},{'type':af(0x2d4)},{'type':af(0x191),'tokens':[af(0x2d7),af(0x158),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[af(0x226),af(0x17d),af(0x28c),af(0x1e7)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x17a),'displayName':af(0x29e),'presentationAttributeName':af(0x17a),'initialValue':af(0x2b1),'values':[{'type':af(0x1fb)},{'type':'token','tokens':[af(0x2be),'stroke-box','view-box',af(0x2b1),'inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,af(0x26a),'g','a',af(0x18d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x21b),'displayName':af(0x1eb),'presentationAttributeName':af(0x21b),'initialValue':af(0x1c4),'values':[{'type':af(0x191),'tokens':['nonzero','evenodd',af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,af(0x18d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2d3),'displayName':af(0x2bd),'presentationAttributeName':af(0x2d3),'initialValue':'#000','values':[{'type':'color'},{'type':'token','tokens':[af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,af(0x26a),'g','a',af(0x18d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',af(0x26b),af(0x293)]},{'name':af(0x28e),'displayName':af(0x15d),'presentationAttributeName':'color-interpolation','initialValue':'sRGB','values':[{'type':'token','tokens':[af(0x1c2),'sRGB',af(0x193),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[...s,'svg','g','a',af(0x18d),'linearGradient','radialGradient'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x1ec),'displayName':af(0x15d),'presentationAttributeName':af(0x1ec),'initialValue':af(0x193),'values':[{'type':af(0x191),'tokens':[af(0x1c2),'sRGB',af(0x193),'inherit','initial',af(0x2e0)]}],'appliesTo':[af(0x2c0),af(0x272),af(0x195),af(0x2ac),af(0x25b),af(0x2d9),af(0x2e4),af(0x25d),af(0x1e5),af(0x278),af(0x1ff),af(0x2ed),af(0x2f2)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2a7),'displayName':af(0x256),'presentationAttributeName':af(0x2a7),'initialValue':af(0x1c2),'values':[{'type':af(0x1fb)},{'type':af(0x191),'tokens':[af(0x176),'help',af(0x141),af(0x2e9),af(0x239),af(0x174),af(0x222),'text',af(0x2ce),af(0x243),af(0x2eb),af(0x29f),af(0x27c),af(0x182),af(0x208),'grabbing','e-resize',af(0x257),af(0x21a),af(0x1f8),af(0x246),'se-resize',af(0x24f),af(0x236),af(0x206),af(0x142),'nesw-resize',af(0x2c5),af(0x200),af(0x2df),'all-scroll',af(0x28b),af(0x147),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,af(0x26a),'g','a',af(0x18d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x24a),'displayName':af(0x13c),'presentationAttributeName':af(0x24a),'initialValue':af(0x1c3),'values':[{'type':af(0x191),'tokens':[af(0x1c3),af(0x2bc),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':['text',af(0x28c),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2f8),'displayName':af(0x2d1),'presentationAttributeName':af(0x2f8),'initialValue':af(0x196),'values':[{'type':af(0x191),'tokens':[af(0x2b1),af(0x196),af(0x224),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,'textPath',af(0x17d),'svg','g','a',af(0x18d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'dominant-baseline','displayName':af(0x2cc),'presentationAttributeName':'dominant-baseline','initialValue':af(0x1c2),'values':[{'type':af(0x191),'tokens':[af(0x1c2),af(0x2f9),af(0x242),af(0x2ec),af(0x19d),af(0x227),af(0x1aa),af(0x2b3),af(0x1be),'middle',af(0x1e4),af(0x212),'inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x226),af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x1c5),'displayName':af(0x252),'presentationAttributeName':'fill','initialValue':'#000','values':[{'type':af(0x2d3)},{'type':'url'},{'type':af(0x191),'tokens':[af(0x2b1),af(0x157),'inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),'spline',af(0x293)]},{'name':'fill-opacity','displayName':af(0x15e),'presentationAttributeName':'fill-opacity','initialValue':'1','values':[{'type':af(0x2aa)},{'type':'percentage'},{'type':af(0x191),'tokens':['inherit',af(0x2c8),'unset']}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',af(0x26b),af(0x293)]},{'name':'fill-rule','displayName':af(0x299),'presentationAttributeName':af(0x1a3),'initialValue':af(0x1c4),'values':[{'type':af(0x191),'tokens':[af(0x1c4),af(0x21d),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'filter','displayName':af(0x2bb),'presentationAttributeName':af(0x1c1),'initialValue':af(0x2b1),'values':[{'type':af(0x169)},{'type':'token','tokens':['none',af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[...s,af(0x28c),af(0x17d),'g','a','svg','use'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x20a),'displayName':af(0x29a),'presentationAttributeName':af(0x20a),'initialValue':af(0x2f4),'values':[{'type':'color'},{'type':af(0x191),'tokens':[af(0x157),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':['feFlood'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),af(0x293)]},{'name':af(0x2a9),'displayName':af(0x1a7),'presentationAttributeName':af(0x2a9),'initialValue':'1','values':[{'type':af(0x2aa),'min':0x0},{'type':af(0x15b),'min':0x0},{'type':af(0x191),'tokens':[af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':['feFlood'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),'paced']},{'name':'font','displayName':af(0x1a0),'presentationAttributeName':af(0x2b7),'initialValue':null,'values':[{'type':af(0x2b7)},{'type':af(0x191),'tokens':[af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x226),af(0x28c),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x286),'displayName':af(0x13e),'presentationAttributeName':af(0x286),'initialValue':null,'values':[{'type':af(0x286)},{'type':af(0x191),'tokens':[af(0x177),af(0x273),'monospace','sans-serif',af(0x244),af(0x258),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[af(0x226),af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x27b),'displayName':af(0x2ba),'presentationAttributeName':'font-size','initialValue':af(0x279),'values':[{'type':af(0x191),'tokens':[af(0x2d0),'x-small',af(0x2ab),af(0x279),af(0x287),af(0x218),af(0x275),af(0x2da),af(0x186),af(0x1f9),af(0x2c8),af(0x2e0)]},{'type':af(0x2aa),'min':0x0},{'type':af(0x15b),'min':0x0},{'type':'length','min':0x0}],'appliesTo':[af(0x226),af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),'spline','paced']},{'name':'font-stretch','displayName':af(0x217),'presentationAttributeName':'font-stretch','initialValue':'normal','values':[{'type':'token','tokens':[af(0x167),af(0x1d0),'narrower',af(0x1e2),'extra-condensed','condensed',af(0x20b),af(0x25e),af(0x281),af(0x1e6),'ultra-expanded',af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':['text',af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x1bc),'displayName':af(0x171),'presentationAttributeName':'font-style','initialValue':af(0x167),'values':[{'type':af(0x191),'tokens':['normal','italic','oblique',af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x226),af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-variant','displayName':af(0x128),'presentationAttributeName':af(0x2f7),'initialValue':af(0x167),'values':[{'type':af(0x191),'tokens':[af(0x167),'small-caps',af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':['text',af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2de),'displayName':af(0x2f6),'presentationAttributeName':af(0x2de),'initialValue':'normal','values':[{'type':af(0x2aa)},{'type':af(0x191),'tokens':['normal','bold',af(0x22a),'lighter',af(0x1f9),'initial','unset']}],'appliesTo':['text','textPath',af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x26f),'displayName':af(0x260),'presentationAttributeName':af(0x26f),'initialValue':'auto','values':[{'type':af(0x191),'tokens':['auto','pixelated','crisp-edges',af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x2e3)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2ca),'displayName':af(0x1f1),'presentationAttributeName':null,'initialValue':af(0x1c2),'values':[{'type':af(0x191),'tokens':[af(0x220),af(0x1c2),'inherit',af(0x2c8),'unset']}],'appliesTo':[...s,'svg','g','a',af(0x18d),af(0x2d2),af(0x1cb),'textPath',af(0x17d)],'inheritable':!0x1,'animatable':!0x1},{'name':af(0x146),'displayName':'#letter-spacing','presentationAttributeName':'letter-spacing','initialValue':af(0x167),'values':[{'type':af(0x2aa)},{'type':af(0x2d4)},{'type':af(0x191),'tokens':[af(0x167),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x226),af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),af(0x293)]},{'name':af(0x23d),'displayName':'#lighting-color','presentationAttributeName':'lighting-color','initialValue':'#fff','values':[{'type':af(0x2d3)},{'type':'token','tokens':[af(0x157),'inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x2d9),af(0x2ed)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[af(0x250),'spline',af(0x293)]},{'name':'line-height','displayName':af(0x1e3),'presentationAttributeName':'line-height','initialValue':'normal','values':[{'type':af(0x2aa),'min':0x0},{'type':af(0x15b),'min':0x0},{'type':af(0x2d4),'min':0x0},{'type':af(0x191),'tokens':[af(0x167),af(0x1f9),af(0x2c8),'unset']}],'appliesTo':[af(0x226),af(0x17d),af(0x28c),'text\x20a'],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',af(0x26b),af(0x293)]},{'name':'marker','displayName':af(0x154),'presentationAttributeName':af(0x1cb),'initialValue':af(0x2b1),'values':[{'type':af(0x1fb)},{'type':af(0x191),'tokens':['none','inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[...l],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2a3),'displayName':'#start-marker','presentationAttributeName':'marker-start','initialValue':af(0x2b1),'values':[{'type':af(0x1fb)},{'type':af(0x191),'tokens':[af(0x2b1),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...l],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'marker-mid','displayName':af(0x173),'presentationAttributeName':af(0x21e),'initialValue':af(0x2b1),'values':[{'type':af(0x1fb)},{'type':af(0x191),'tokens':[af(0x2b1),af(0x1f9),'initial','unset']}],'appliesTo':[...l],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2d5),'displayName':af(0x198),'presentationAttributeName':'marker-end','initialValue':af(0x2b1),'values':[{'type':af(0x1fb)},{'type':af(0x191),'tokens':[af(0x2b1),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[...l],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x2a8),'displayName':af(0x247),'presentationAttributeName':af(0x2a8),'initialValue':af(0x2b1),'values':[{'type':af(0x1fb)},{'type':af(0x191),'tokens':[af(0x2b1),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,'g','a','svg',af(0x18d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x1b1),'displayName':'#blend-mode','presentationAttributeName':null,'initialValue':af(0x167),'values':[{'type':af(0x191),'tokens':[af(0x167),af(0x235),af(0x145),af(0x2b2),af(0x202),af(0x16f),af(0x1d1),'color-burn',af(0x225),af(0x2c2),af(0x205),'exclusion',af(0x295),af(0x1d5),af(0x2d3),af(0x21f),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[...s,'svg','g','a',af(0x18d),af(0x2d2),af(0x1cb),af(0x28c),af(0x17d)],'inheritable':!0x1,'animatable':!0x1},{'name':af(0x2ee),'displayName':af(0x19a),'presentationAttributeName':af(0x2ee),'initialValue':'1','values':[{'type':af(0x2aa)},{'type':af(0x191),'tokens':[af(0x1f9),af(0x2c8),'unset']}],'appliesTo':[...s,'svg','g','a','use',af(0x2d2),'marker',af(0x28c),af(0x17d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),'paced']},{'name':af(0x240),'displayName':'#overflow','presentationAttributeName':af(0x240),'initialValue':af(0x136),'values':[{'type':af(0x191),'tokens':[af(0x136),'hidden',af(0x269),af(0x1c2),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x26a),af(0x2d2),'pattern',af(0x1cb),af(0x2e3)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'paint-order','displayName':af(0x1d8),'presentationAttributeName':null,'initialValue':af(0x167),'values':[{'type':af(0x191),'tokens':[af(0x167)]},{'type':af(0x1bd),'tokens':[af(0x1c5),af(0x2e8),af(0x261)]}],'inheritable':!0x0,'appliesTo':[...r],'animatable':!0x1},{'name':'pointer-events','displayName':'#pointer-events','presentationAttributeName':'pointer-events','initialValue':'auto','values':[{'type':af(0x191),'tokens':[af(0x219),af(0x25f),'visibleFill',af(0x14a),af(0x136),af(0x2a4),af(0x1c5),af(0x2e8),af(0x29c),af(0x2b1),af(0x1f9),'initial',af(0x2e0)]}],'inheritable':!0x0,'appliesTo':[...s,af(0x26a),'g','a',af(0x18d)],'animatable':!0x0,'interpolation':[]},{'name':af(0x23f),'displayName':'#shape-rendering','presentationAttributeName':af(0x23f),'initialValue':'auto','values':[{'type':'token','tokens':[af(0x1c2),af(0x1a9),af(0x251),af(0x2b4),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...l],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x276),'displayName':af(0x284),'presentationAttributeName':'stop-color','initialValue':af(0x2f4),'values':[{'type':af(0x2d3)},{'type':af(0x191),'tokens':[af(0x157),'inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':['stop'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),af(0x293)]},{'name':af(0x2e7),'displayName':'#stop-opacity','presentationAttributeName':af(0x2e7),'initialValue':'1','values':[{'type':af(0x2aa)},{'type':'percentage'},{'type':'token','tokens':[af(0x1f9),af(0x2c8),'unset']}],'appliesTo':[af(0x267)],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear',af(0x26b),af(0x293)]},{'name':'stroke','displayName':af(0x26e),'presentationAttributeName':af(0x2e8),'initialValue':af(0x2b1),'values':[{'type':'color'},{'type':af(0x1fb)},{'type':'token','tokens':[af(0x2b1),'currentColor','inherit',af(0x2c8),'unset']}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',af(0x26b),af(0x293)]},{'name':af(0x274),'displayName':af(0x2dc),'presentationAttributeName':af(0x274),'initialValue':'none','values':[{'type':af(0x203)},{'type':af(0x191),'tokens':['none',af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b)]},{'name':af(0x2f1),'displayName':af(0x2f5),'presentationAttributeName':'stroke-dashoffset','initialValue':'0','values':[{'type':'number'},{'type':af(0x15b)},{'type':af(0x2d4)},{'type':af(0x191),'tokens':['inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),af(0x293)]},{'name':af(0x27a),'displayName':af(0x2fe),'presentationAttributeName':af(0x27a),'initialValue':af(0x264),'values':[{'type':af(0x191),'tokens':[af(0x264),'round',af(0x2a6),af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'stroke-linejoin','displayName':af(0x1ad),'presentationAttributeName':af(0x23a),'initialValue':'miter','values':[{'type':'token','tokens':[af(0x15f),af(0x2e2),'bevel',af(0x1f9),af(0x2c8),'unset']}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x23c),'displayName':'#stroke-miter-limit','presentationAttributeName':af(0x23c),'initialValue':'4','values':[{'type':af(0x2aa),'min':0x1},{'type':af(0x191),'tokens':[af(0x1f9),af(0x2c8),'unset']}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),af(0x293)]},{'name':af(0x1bf),'displayName':'#stroke-opacity','presentationAttributeName':af(0x1bf),'initialValue':'1','values':[{'type':'number'},{'type':af(0x15b)},{'type':'token','tokens':[af(0x1f9),'initial',af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),'paced']},{'name':af(0x2fd),'displayName':'#stroke-width','presentationAttributeName':af(0x2fd),'initialValue':'1','values':[{'type':af(0x2aa)},{'type':af(0x15b)},{'type':af(0x2d4)},{'type':af(0x191),'tokens':[af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...r],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),'paced']},{'name':af(0x254),'displayName':af(0x1f3),'presentationAttributeName':af(0x254),'initialValue':af(0x129),'values':[{'type':af(0x191),'tokens':[af(0x129),af(0x2bf),af(0x20d),af(0x1f9),'initial','unset']}],'appliesTo':[af(0x226),af(0x28c),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'text-decoration','displayName':af(0x290),'presentationAttributeName':'text-decoration','initialValue':'none','values':[{'type':af(0x1bd),'tokens':[af(0x16e),af(0x126),'line-through']},{'type':af(0x191),'tokens':[af(0x2b1),'inherit','initial',af(0x2e0)]}],'appliesTo':['text',af(0x28c),af(0x17d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x216),'displayName':af(0x130),'presentationAttributeName':af(0x216),'initialValue':af(0x1c2),'values':[{'type':af(0x191),'tokens':[af(0x1c2),af(0x1a9),af(0x18c),af(0x2b4),af(0x1f9),af(0x2c8),'unset']}],'appliesTo':[af(0x226)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x249),'displayName':af(0x27d),'presentationAttributeName':null,'initialValue':af(0x2b1),'values':[{'type':'token','tokens':[af(0x156),af(0x22e),af(0x1b3),af(0x2b1),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':['text',af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x1},{'name':'transform','displayName':af(0x168),'presentationAttributeName':af(0x1d2),'initialValue':af(0x2b1),'values':[{'type':af(0x1da)},{'type':af(0x191),'tokens':[af(0x2b1)]}],'appliesTo':[af(0x1cc),af(0x125),af(0x282),af(0x2ef),af(0x292),af(0x1a4),af(0x2ff),af(0x2e3),af(0x226),'tspan',af(0x18d),'a','g',af(0x26a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b)]},{'name':'transform-box','displayName':af(0x1ab),'presentationAttributeName':null,'initialValue':'view-box','values':[{'type':af(0x191),'tokens':['content-box','border-box',af(0x2be),af(0x150),af(0x201)]}],'appliesTo':[af(0x1cc),af(0x125),af(0x282),af(0x2ef),af(0x292),af(0x1a4),af(0x2ff),af(0x2e3),af(0x226),'tspan',af(0x18d),'a','g',af(0x26a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x18f),'displayName':af(0x1a5),'presentationAttributeName':'transform-origin','initialValue':af(0x1d7),'values':[{'type':af(0x191),'tokens':[af(0x29b),'center',af(0x1b0),'top',af(0x300)]},{'type':af(0x2d4)}],'appliesTo':[af(0x1cc),af(0x125),af(0x282),af(0x2ef),af(0x292),af(0x1a4),af(0x2ff),'image',af(0x226),af(0x17d),'use','a','g',af(0x26a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x1d3),'displayName':af(0x2c4),'presentationAttributeName':af(0x1d3),'initialValue':'normal','values':[{'type':af(0x191),'tokens':['normal',af(0x253),af(0x285),af(0x1f9),af(0x2c8),'unset']}],'appliesTo':['text',af(0x28c),af(0x17d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x1e9),'displayName':'#vector-effect','presentationAttributeName':'vector-effect','initialValue':af(0x2b1),'values':[{'type':'token','tokens':[af(0x283),af(0x2b1),af(0x1f9),af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,af(0x18d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':af(0x178),'displayName':af(0x1e8),'presentationAttributeName':'visibility','initialValue':af(0x136),'values':[{'type':af(0x191),'tokens':[af(0x136),af(0x2db),'inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[...s,af(0x226),af(0x28c),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'word-spacing','displayName':'#word-spacing','presentationAttributeName':af(0x298),'initialValue':af(0x167),'values':[{'type':'number'},{'type':'length'},{'type':af(0x191),'tokens':[af(0x167),'inherit',af(0x2c8),'unset']}],'appliesTo':['text','textPath','tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[af(0x250),af(0x26b),af(0x293)]},{'name':'white-space','displayName':af(0x13b),'presentationAttributeName':af(0x232),'initialValue':af(0x167),'values':[{'type':af(0x191),'tokens':['normal',af(0x1a2),af(0x1df),af(0x1a6),'pre-line','inherit',af(0x2c8),af(0x2e0)]}],'appliesTo':[af(0x226),af(0x28c),af(0x17d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':af(0x28a),'displayName':af(0x1af),'initialValue':af(0x1c2),'values':[{'type':af(0x191),'tokens':[af(0x1c2),af(0x1ea),af(0x1b1),af(0x1c1),af(0x2ee),af(0x1d2)]}],'appliesTo':[af(0x2ff),af(0x1cc),'ellipse',af(0x282),af(0x2ef),'polygon',af(0x1a4),af(0x2e3),af(0x226),'tspan',af(0x18d),af(0x26a),'a','g',af(0x2af)],'inheritable':!0x0,'animatable':!0x1},{'name':'writing-mode','displayName':'#writing-mode','presentationAttributeName':af(0x1de),'initialValue':af(0x187),'values':[{'type':af(0x191),'tokens':['horizontal-tb',af(0x1fe),'vertical-rl','inherit',af(0x2c8),'unset']}],'appliesTo':[af(0x226),af(0x17d),af(0x28c)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]}][af(0x151)](A=>A[af(0x19b)])[af(0x1c1)](A=>A);const p={'arabic':'U+600-6FF,\x20U+200C-200E,\x20U+2010-2011,\x20U+204F,\x20U+2E41,\x20U+FB50-FDFF,\x20U+FE80-FEFC','bengali':af(0x1ee),'cyrillic':af(0x13f),'cyrillic-ext':af(0x172),'devanagari':af(0x26c),'greek':af(0x14d),'greek-ext':af(0x149),'gujarati':'U+964-965,\x20U+A80-AFF,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+A830-A839','gurmukhi':af(0x139),'hebrew':af(0x1ae),'kannada':'U+964-965,\x20U+C82-CF2,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','khmer':af(0x263),'latin':af(0x1b5),'latin-ext':'U+100-24F,\x20U+259,\x20U+1E00-1EFF,\x20U+2020,\x20U+20A0-20AB,\x20U+20AD-20CF,\x20U+2113,\x20U+2C60-2C7F,\x20U+A720-A7FF','malayalam':af(0x2b9),'myanmar':af(0x180),'oriya':af(0x2c9),'sinhala':'U+964-965,\x20U+D82-DF4,\x20U+200C-200D,\x20U+25CC','tamil':af(0x1ce),'thai':af(0x268),'telugu':'U+951-952,\x20U+964-965,\x20U+C00-C7F,\x20U+1CDA,\x20U+200C-200D,\x20U+25CC','tibetan':af(0x140),'vietnamese':af(0x289)};let m=document[af(0x255)](af(0x16a)),u=(A,...B)=>{const ag=af;let C=[];for(let F=0x0;F<A[ag(0x2d4)];F+=0x1)C[ag(0x1d6)](A[F]),void 0x0!==B[F]&&C[ag(0x1d6)](B[F]);let D=C[ag(0x17b)]('');m['innerHTML']=D;let E=document[ag(0x1f6)](m['content'],!0x0);return 0x1===E[ag(0x20c)][ag(0x2d4)]?E[ag(0x12e)]:E;},h=(A,...B)=>{const ah=af;let C=[];for(let F=0x0;F<A[ah(0x2d4)];F+=0x1)C[ah(0x1d6)](A[F]),void 0x0!==B[F]&&C[ah(0x1d6)](B[F]);let D=C[ah(0x17b)](''),E=new CSSStyleSheet();return E['replaceSync'](D),E;};new class{#e;#t=null;#i={};constructor(){const ai=af;this.#e=new v(ai(0x229)),this.#e[ai(0x175)](0x1)[ai(0x17e)]({'cache':ai(0x14f)});}['search'](A='',B=af(0x163),C=af(0x29c),D=af(0x29c),E=af(0x29c)){return new Promise(async F=>{const aj=k;await this.#a();let G=[],H=this.#e[aj(0x248)];''!==A[aj(0x230)]()&&(H=H[aj(0x1c1)](I=>I['family'][aj(0x265)]()[aj(0x1e0)](A[aj(0x230)]()[aj(0x265)]()))),aj(0x29c)!==C&&(H=H['filter'](I=>I['category']===C)),'all'!==D&&(H=H['filter'](I=>I[aj(0x2cf)][aj(0x1e0)](D))),G=await H[aj(0x17c)](),'date'===B?G=G[aj(0x152)]((I,J)=>I[aj(0x28d)]>J[aj(0x28d)]?-0x1:0x1):aj(0x137)===B?G=G['sort']((I,J)=>I['popularityRank']>J[aj(0x135)]?-0x1:0x1):aj(0x20e)===B&&(G=G['sort']((I,J)=>I[aj(0x29d)]>J[aj(0x29d)]?-0x1:0x1)),aj(0x29c)!==E&&(G=G['slice'](0x28*E,0x28*(E+0x1))),F(G);});}[af(0x2c7)](){return new Promise(async(A,B)=>{const ak=k;let C;null===this.#t&&(this.#t=new w[(ak(0x1b7))]({'apiKey':ak(0x1b9),'connectionTimeoutSeconds':0x5,'nodes':[{'host':ak(0x1d4),'port':ak(0x16b),'protocol':ak(0x166)}]}));try{C=await this.#t[ak(0x170)](ak(0x1c0))[ak(0x13a)]()[ak(0x134)]();}catch(E){return B(E);}let D=C[ak(0x2ad)]('\x0a')[ak(0x151)](F=>JSON[ak(0x183)](F))[ak(0x151)](F=>({'family':F['family'],'faces':F[ak(0x296)],'category':F[ak(0x131)],'subsets':F[ak(0x2cf)],'license':F[ak(0x297)],'thumbnail':F[ak(0x266)],'urls':F[ak(0x1b8)],'dateRank':F[ak(0x28d)],'popularityRank':F[ak(0x135)],'trendingRank':F[ak(0x29d)],'pageURL':ak(0x231)+F['id'],'cachedTime':Date[ak(0x199)]()}));await this.#e[ak(0x248)][ak(0x262)](),await this.#e[ak(0x248)][ak(0x16d)](D),A();});}[af(0x1ba)](A,B=!0x1){return new Promise(async C=>{const al=k;let D=[];if(await this.#a(),B){let E=await this.#n(A);for(let F of E['cssRules'])F[al(0x1ac)]===CSSRule[al(0x277)]&&D['push'](F);}else{let G=[],H=new URL(A),I=H[al(0x2dd)][al(0x153)](al(0x2f8))||al(0x1c2);if(A[al(0x1a8)]('https://fonts.googleapis.com/css?')){let J=H[al(0x2dd)][al(0x153)](al(0x14f));J['split']('|'),H[al(0x2dd)][al(0x153)](al(0x2a5));let K={'regular':al(0x211),'bold':al(0x301),'italic':'400italic','bolditalic':al(0x245),'r':al(0x211),'b':al(0x301),'i':al(0x19e)};for(let L of J['split']('|')){let M=[],[N,O]=L[al(0x2ad)](':');for(let P of O[al(0x2ad)](','))P=K[P]||P,M[al(0x1d6)](P);G[al(0x1d6)]({'family':N,'faceNames':M});}}else{if(A[al(0x1a8)]('https://fonts.googleapis.com/css2?')){let Q=H[al(0x2dd)][al(0x19c)](al(0x14f));for(let R of Q){let [S,T]=R['split'](':');if(void 0x0===T)G['push']({'family':S,'faceNames':[al(0x211)]});else{let U=[],[V,W]=T['split']('@'),X=V[al(0x2ad)](','),Y=W[al(0x2ad)](';');for(let Z of Y){let a0={'wght':al(0x211),'ital':'0'};for(let a1=0x0;a1<X[al(0x2d4)];a1+=0x1){a0[X[a1]]=Z[al(0x2ad)](',')[a1];}U[al(0x1d6)](a0[al(0x1c8)]+('1'===a0[al(0x1dc)]?al(0x132):''));}G[al(0x1d6)]({'family':S,'faceNames':U});}}}}{let a2=this.#e[al(0x248)];for(let {family:a3,faceNames:a4}of G){let a5=await a2[al(0x153)]({'family':a3});if(a5)for(let a6 of a4){let a7=a5['urls'][a6];if(a7){let a8=a6[al(0x1f0)](0x0,0x3),a9=a6[al(0x1e0)](al(0x132))?al(0x132):al(0x167),aa=[];for(let ad of a5[al(0x2cf)])p[ad]&&aa['push'](p[ad]);0x0===aa['length']&&(aa='U+0-10FFFF');let ab=aa[al(0x17b)](','),ac=h`
+import q from "/libs/xel/xel.js";
+import "/libs/color/color.js";
+import "/libs/css-parser/css-parser.js";
+import "/libs/paper/paper.js";
+import "/libs/seed-random/seed-random.js";
+import "/libs/dom-purify/dom-purify.js";
+import v from "/libs/dexie/dexie.js";
+import w from "/libs/typesense/typesense.js";
+import "/libs/pako/pako.js";
+import z from "/libs/bar-code/bar-code.js";
+const n = "http://www.w3.org/2000/svg";
+const l = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
+const o = ["text", "textPath", "tspan"];
+const s = [...l, ...o, "foreignObject", "image"];
+const r = [...l, ...o];
+[
+  {
+    name: "alignment-baseline",
+    displayName: "#alignment-baseline",
+    presentationAttributeName: "alignment-baseline",
+    initialValue: "baseline",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "baseline",
+          "text-bottom",
+          "alphabetic",
+          "ideographic",
+          "middle",
+          "central",
+          "mathematical",
+          "text-top",
+          "bottom",
+          "center",
+          "top",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "baseline-shift",
+    displayName: "#baseline-shift",
+    presentationAttributeName: "baseline-shift",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["sub", "super", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-path",
+    displayName: "#clip-path",
+    presentationAttributeName: "clip-path",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "fill-box",
+          "stroke-box",
+          "view-box",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-rule",
+    displayName: "#clip-rule",
+    presentationAttributeName: "clip-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color",
+    displayName: "#color",
+    presentationAttributeName: "color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "color-interpolation",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation",
+    initialValue: "sRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "linearGradient",
+      "radialGradient",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color-interpolation-filters",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation-filters",
+    initialValue: "linearRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      "feBlend",
+      "feColorMatrix",
+      "feComponentTransfer",
+      "feComposite",
+      "feConvolveMatrix",
+      "feDiffuseLighting",
+      "feDisplacementMap",
+      "feDropShadow",
+      "feGaussianBlur",
+      "feMerge",
+      "feMorphology",
+      "feSpecularLighting",
+      "feTurbulence",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "cursor",
+    displayName: "#cursor",
+    presentationAttributeName: "cursor",
+    initialValue: "auto",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "context-menu",
+          "help",
+          "pointer",
+          "progress",
+          "wait ",
+          "cell",
+          "crosshair",
+          "text",
+          "vertical-text",
+          "alias",
+          "copy",
+          "move",
+          "no-drop",
+          "not-allowed",
+          "grab",
+          "grabbing",
+          "e-resize",
+          "n-resize",
+          "ne-resize",
+          "nw-resize",
+          "s-resize",
+          "se-resize",
+          "sw-resize",
+          "w-resize",
+          "ew-resize",
+          "ns-resize",
+          "nesw-resize",
+          "nwse-resize",
+          "col-resize",
+          "row-resize",
+          "all-scroll",
+          "zoom-in",
+          "zoom-out",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "direction",
+    displayName: "#direction",
+    presentationAttributeName: "direction",
+    initialValue: "ltr",
+    values: [
+      {
+        type: "token",
+        tokens: ["ltr", "rtl", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "display",
+    displayName: "#display",
+    presentationAttributeName: "display",
+    initialValue: "inline",
+    values: [
+      {
+        type: "token",
+        tokens: ["none", "inline", "block", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "textPath", "tspan", "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "dominant-baseline",
+    displayName: "#dominant-baseline",
+    presentationAttributeName: "dominant-baseline",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "use-script",
+          "no-change",
+          "reset-size",
+          "ideographic",
+          "alphabetic",
+          "hanging",
+          "mathematical",
+          "central",
+          "middle",
+          "text-after-edge",
+          "text-before-edge",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "fill",
+    displayName: "#fill",
+    presentationAttributeName: "fill",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-opacity",
+    displayName: "#fill-opacity",
+    presentationAttributeName: "fill-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-rule",
+    displayName: "#fill-rule",
+    presentationAttributeName: "fill-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "filter",
+    displayName: "#filter",
+    presentationAttributeName: "filter",
+    initialValue: "none",
+    values: [
+      {
+        type: "filter-function-list",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "textPath", "tspan", "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "flood-color",
+    displayName: "#flood-color",
+    presentationAttributeName: "flood-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "flood-opacity",
+    displayName: "#flood-opacity",
+    presentationAttributeName: "flood-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font",
+    displayName: "#font",
+    presentationAttributeName: "font",
+    initialValue: null,
+    values: [
+      {
+        type: "font",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-family",
+    displayName: "#font-family",
+    presentationAttributeName: "font-family",
+    initialValue: null,
+    values: [
+      {
+        type: "font-family",
+      },
+      {
+        type: "token",
+        tokens: [
+          "cursive",
+          "fantasy",
+          "monospace",
+          "sans-serif",
+          "serif",
+          "system-ui",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-size",
+    displayName: "#font-size",
+    presentationAttributeName: "font-size",
+    initialValue: "medium",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "xx-small",
+          "x-small",
+          "small",
+          "medium",
+          "large",
+          "x-large",
+          "xx-large",
+          "larger",
+          "smaller",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font-stretch",
+    displayName: "#font-stretch",
+    presentationAttributeName: "font-stretch",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "wider",
+          "narrower",
+          "ultra-condensed",
+          "extra-condensed",
+          "condensed",
+          "semi-condensed",
+          "semi-expanded",
+          "expanded",
+          "extra-expanded",
+          "ultra-expanded",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-style",
+    displayName: "#font-style",
+    presentationAttributeName: "font-style",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "italic", "oblique", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-variant",
+    displayName: "#font-variant",
+    presentationAttributeName: "font-variant",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "small-caps", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-weight",
+    displayName: "#font-weight",
+    presentationAttributeName: "font-weight",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "bold",
+          "bolder",
+          "lighter",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "image-rendering",
+    displayName: "#image-rendering",
+    presentationAttributeName: "image-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "pixelated",
+          "crisp-edges",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["image"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "isolation",
+    displayName: "#isolation",
+    presentationAttributeName: null,
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: ["isolate", "auto", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "letter-spacing",
+    displayName: "#letter-spacing",
+    presentationAttributeName: "letter-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "lighting-color",
+    displayName: "#lighting-color",
+    presentationAttributeName: "lighting-color",
+    initialValue: "#fff",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feDiffuseLighting", "feSpecularLighting"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "line-height",
+    displayName: "#line-height",
+    presentationAttributeName: "line-height",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "marker",
+    displayName: "#marker",
+    presentationAttributeName: "marker",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-start",
+    displayName: "#start-marker",
+    presentationAttributeName: "marker-start",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-mid",
+    displayName: "#mid-marker",
+    presentationAttributeName: "marker-mid",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-end",
+    displayName: "#end-marker",
+    presentationAttributeName: "marker-end",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mask",
+    displayName: "#mask",
+    presentationAttributeName: "mask",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mix-blend-mode",
+    displayName: "#blend-mode",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "multiply",
+          "screen",
+          "overlay",
+          "darken",
+          "lighten",
+          "color-dodge",
+          "color-burn",
+          "hard-light",
+          "soft-light",
+          "difference",
+          "exclusion",
+          "hue",
+          "saturation",
+          "color",
+          "luminosity",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "opacity",
+    displayName: "#opacity",
+    presentationAttributeName: "opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "overflow",
+    displayName: "#overflow",
+    presentationAttributeName: "overflow",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "visible",
+          "hidden",
+          "scroll",
+          "auto",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["svg", "symbol", "pattern", "marker", "image"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "paint-order",
+    displayName: "#paint-order",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal"],
+      },
+      {
+        type: "token-list",
+        tokens: ["fill", "stroke", "markers"],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...r],
+    animatable: false,
+  },
+  {
+    name: "pointer-events",
+    displayName: "#pointer-events",
+    presentationAttributeName: "pointer-events",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "bounding-box",
+          "visiblePainted",
+          "visibleFill",
+          "visibleStroke",
+          "visible",
+          "painted",
+          "fill",
+          "stroke",
+          "all",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "shape-rendering",
+    displayName: "#shape-rendering",
+    presentationAttributeName: "shape-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "crispEdges",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...l],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stop-color",
+    displayName: "#stop-color",
+    presentationAttributeName: "stop-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stop-opacity",
+    displayName: "#stop-opacity",
+    presentationAttributeName: "stop-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke",
+    displayName: "#stroke",
+    presentationAttributeName: "stroke",
+    initialValue: "none",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-dasharray",
+    displayName: "#stroke-dash-array",
+    presentationAttributeName: "stroke-dasharray",
+    initialValue: "none",
+    values: [
+      {
+        type: "dasharray",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "stroke-dashoffset",
+    displayName: "#stroke-dash-offset",
+    presentationAttributeName: "stroke-dashoffset",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-linecap",
+    displayName: "#stroke-line-cap",
+    presentationAttributeName: "stroke-linecap",
+    initialValue: "butt",
+    values: [
+      {
+        type: "token",
+        tokens: ["butt", "round", "square", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-linejoin",
+    displayName: "#stroke-line-join",
+    presentationAttributeName: "stroke-linejoin",
+    initialValue: "miter",
+    values: [
+      {
+        type: "token",
+        tokens: ["miter", "round", "bevel", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-miterlimit",
+    displayName: "#stroke-miter-limit",
+    presentationAttributeName: "stroke-miterlimit",
+    initialValue: "4",
+    values: [
+      {
+        type: "number",
+        min: 1,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-opacity",
+    displayName: "#stroke-opacity",
+    presentationAttributeName: "stroke-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-width",
+    displayName: "#stroke-width",
+    presentationAttributeName: "stroke-width",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...r],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "text-anchor",
+    displayName: "#text-anchor",
+    presentationAttributeName: "text-anchor",
+    initialValue: "start",
+    values: [
+      {
+        type: "token",
+        tokens: ["start", "middle", "end", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-decoration",
+    displayName: "#text-decoration",
+    presentationAttributeName: "text-decoration",
+    initialValue: "none",
+    values: [
+      {
+        type: "token-list",
+        tokens: ["underline", "overline", "line-through"],
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-rendering",
+    displayName: "#text-rendering",
+    presentationAttributeName: "text-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "optimizeLegibility",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-transform",
+    displayName: "#text-transform",
+    presentationAttributeName: null,
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "capitalize",
+          "uppercase",
+          "lowercase",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "transform",
+    displayName: "#transform",
+    presentationAttributeName: "transform",
+    initialValue: "none",
+    values: [
+      {
+        type: "transform-list",
+      },
+      {
+        type: "token",
+        tokens: ["none"],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "transform-box",
+    displayName: "#transform-box",
+    presentationAttributeName: null,
+    initialValue: "view-box",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "content-box",
+          "border-box",
+          "fill-box",
+          "stroke-box",
+          "view-box",
+        ],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "transform-origin",
+    displayName: "#transform-origin",
+    presentationAttributeName: "transform-origin",
+    initialValue: "0 0",
+    values: [
+      {
+        type: "token",
+        tokens: ["left", "center", "right", "top", "bottom"],
+      },
+      {
+        type: "length",
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "unicode-bidi",
+    displayName: "#unicode-bidi",
+    presentationAttributeName: "unicode-bidi",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "embed",
+          "bidi-override",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "vector-effect",
+    displayName: "#vector-effect",
+    presentationAttributeName: "vector-effect",
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: ["non-scaling-stroke", "none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "visibility",
+    displayName: "#visibility",
+    presentationAttributeName: "visibility",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: ["visible", "hidden", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "word-spacing",
+    displayName: "#word-spacing",
+    presentationAttributeName: "word-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "white-space",
+    displayName: "#white-space",
+    presentationAttributeName: "white-space",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "pre",
+          "nowrap",
+          "pre-wrap",
+          "pre-line",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "will-change",
+    displayName: "#will-change",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "content",
+          "mix-blend-mode",
+          "filter",
+          "opacity",
+          "transform",
+        ],
+      },
+    ],
+    appliesTo: [
+      "rect",
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "svg",
+      "a",
+      "g",
+      "foreignObject",
+    ],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "writing-mode",
+    displayName: "#writing-mode",
+    presentationAttributeName: "writing-mode",
+    initialValue: "horizontal-tb",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "horizontal-tb",
+          "vertical-lr",
+          "vertical-rl",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+]
+  .map((A) => A.presentationAttributeName)
+  .filter((A) => A);
+const p = {
+  arabic:
+    "U+600-6FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC",
+  bengali: "U+964-965, U+981-9FB, U+200C-200D, U+20B9, U+25CC",
+  cyrillic: "U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+  "cyrillic-ext":
+    "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+  devanagari:
+    "U+900-97F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB",
+  greek: "U+370-3FF",
+  "greek-ext": "U+1F00-1FFF",
+  gujarati: "U+964-965, U+A80-AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839",
+  gurmukhi:
+    "U+964-965, U+A01-A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839",
+  hebrew: "U+590-5FF, U+20AA, U+25CC, U+FB1D-FB4F",
+  kannada: "U+964-965, U+C82-CF2, U+200C-200D, U+20B9, U+25CC",
+  khmer: "U+1780-17FF, U+200C, U+25CC",
+  latin:
+    "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+  "latin-ext":
+    "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+  malayalam: "U+307, U+323, U+964-965, U+D02-D7F, U+200C-200D, U+20B9, U+25CC",
+  myanmar: "U+1000-109F, U+200C-200D, U+25CC",
+  oriya: "U+964-965, U+B01-B77, U+200C-200D, U+20B9, U+25CC",
+  sinhala: "U+964-965, U+D82-DF4, U+200C-200D, U+25CC",
+  tamil: "U+964-965, U+B82-BFA, U+200C-200D, U+20B9, U+25CC",
+  thai: "U+E01-E5B, U+200C-200D, U+25CC",
+  telugu: "U+951-952, U+964-965, U+C00-C7F, U+1CDA, U+200C-200D, U+25CC",
+  tibetan: "U+F00-FFF, U+200C-200D, U+25CC",
+  vietnamese:
+    "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+};
+let m = document.createElement("template");
+let u = (A, ...B) => {
+  let C = [];
+  for (let F = 0; F < A.length; F += 1) {
+    C.push(A[F]);
+    if (B[F] !== undefined) {
+      C.push(B[F]);
+    }
+  }
+  let D = C.join("");
+  m.innerHTML = D;
+  let E = document.importNode(m.content, true);
+  if (E.children.length === 1) {
+    return E.firstElementChild;
+  } else {
+    return E;
+  }
+};
+let h = (A, ...B) => {
+  let C = [];
+  for (let F = 0; F < A.length; F += 1) {
+    C.push(A[F]);
+    if (B[F] !== undefined) {
+      C.push(B[F]);
+    }
+  }
+  let D = C.join("");
+  let E = new CSSStyleSheet();
+  E.replaceSync(D);
+  return E;
+};
+new (class {
+  #e;
+  #t = null;
+  #i = {};
+  constructor() {
+    this.#e = new v("GoogleFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+  }
+  search(A = "", B = "alphabetical", C = "all", D = "all", E = "all") {
+    return new Promise(async (F) => {
+      await this.#a();
+      let G = [];
+      let H = this.#e.cache;
+      if (A.trim() !== "") {
+        H = H.filter((I) =>
+          I.family.toLowerCase().includes(A.trim().toLowerCase())
+        );
+      }
+      if (C !== "all") {
+        H = H.filter((I) => I.category === C);
+      }
+      if (D !== "all") {
+        H = H.filter((I) => I.subsets.includes(D));
+      }
+      G = await H.toArray();
+      if (B === "date") {
+        G = G.sort((I, J) => (I.dateRank > J.dateRank ? -1 : 1));
+      } else if (B === "popularity") {
+        G = G.sort((I, J) => (I.popularityRank > J.popularityRank ? -1 : 1));
+      } else if (B === "trending") {
+        G = G.sort((I, J) => (I.trendingRank > J.trendingRank ? -1 : 1));
+      }
+      if (E !== "all") {
+        G = G.slice(E * 40, (E + 1) * 40);
+      }
+      F(G);
+    });
+  }
+  refresh() {
+    return new Promise(async (A, B) => {
+      let C;
+      if (this.#t === null) {
+        this.#t = new w.Client({
+          apiKey: "ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL",
+          connectionTimeoutSeconds: 5,
+          nodes: [
+            {
+              host: "92f3tewguhsn8o0qp.a1.typesense.net",
+              port: "443",
+              protocol: "https",
+            },
+          ],
+        });
+      }
+      try {
+        C = await this.#t.collections("googleFonts").documents().export();
+      } catch (E) {
+        return B(E);
+      }
+      let D = C.split("\n")
+        .map((F) => JSON.parse(F))
+        .map((F) => ({
+          family: F.family,
+          faces: F.faces,
+          category: F.category,
+          subsets: F.subsets,
+          license: F.license,
+          thumbnail: F.thumbnail,
+          urls: F.urls,
+          dateRank: F.dateRank,
+          popularityRank: F.popularityRank,
+          trendingRank: F.trendingRank,
+          pageURL: "https://fonts.google.com/specimen/" + F.id,
+          cachedTime: Date.now(),
+        }));
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(D);
+      A();
+    });
+  }
+  getFontFaceRulesFromUrl(A, B = false) {
+    return new Promise(async (C) => {
+      let D = [];
+      await this.#a();
+      if (B) {
+        let E = await this.#n(A);
+        for (let F of E.cssRules) {
+          if (F.type === CSSRule.FONT_FACE_RULE) {
+            D.push(F);
+          }
+        }
+      } else {
+        let G = [];
+        let H = new URL(A);
+        let I = H.searchParams.get("display") || "auto";
+        if (A.startsWith("https://fonts.googleapis.com/css?")) {
+          let J = H.searchParams.get("family");
+          J.split("|");
+          H.searchParams.get("subset");
+          let K = {
+            regular: "400",
+            bold: "700",
+            italic: "400italic",
+            bolditalic: "700italic",
+            r: "400",
+            b: "700",
+            i: "400italic",
+          };
+          for (let L of J.split("|")) {
+            let M = [];
+            let [N, O] = L.split(":");
+            for (let P of O.split(",")) {
+              P = K[P] || P;
+              M.push(P);
+            }
+            G.push({
+              family: N,
+              faceNames: M,
+            });
+          }
+        } else if (A.startsWith("https://fonts.googleapis.com/css2?")) {
+          let Q = H.searchParams.getAll("family");
+          for (let R of Q) {
+            let [S, T] = R.split(":");
+            if (T === undefined) {
+              G.push({
+                family: S,
+                faceNames: ["400"],
+              });
+            } else {
+              let U = [];
+              let [V, W] = T.split("@");
+              let X = V.split(",");
+              let Y = W.split(";");
+              for (let Z of Y) {
+                let a0 = {
+                  wght: "400",
+                  ital: "0",
+                };
+                for (let a1 = 0; a1 < X.length; a1 += 1) {
+                  a0[X[a1]] = Z.split(",")[a1];
+                }
+                U.push(a0.wght + (a0.ital === "1" ? "italic" : ""));
+              }
+              G.push({
+                family: S,
+                faceNames: U,
+              });
+            }
+          }
+        }
+        {
+          let a2 = this.#e.cache;
+          for (let { family: a3, faceNames: a4 } of G) {
+            let a5 = await a2.get({
+              family: a3,
+            });
+            if (a5) {
+              for (let a6 of a4) {
+                let a7 = a5.urls[a6];
+                if (a7) {
+                  let a8 = a6.substring(0, 3);
+                  let a9 = a6.includes("italic") ? "italic" : "normal";
+                  let aa = [];
+                  for (let ad of a5.subsets) {
+                    if (p[ad]) {
+                      aa.push(p[ad]);
+                    }
+                  }
+                  if (aa.length === 0) {
+                    aa = "U+0-10FFFF";
+                  }
+                  let ab = aa.join(",");
+                  let ac = h`
                     @font-face {
                       font-family: "${a3}";
                       font-style: ${a9};
@@ -7,8 +1796,244 @@ const af=k;(function(A,B){const ae=k,C=A();while(!![]){try{const D=-parseInt(ae(
                       font-unicode-range: ${ab};
                       src: url(${a7});
                     }
-                  `;D[al(0x1d6)](ac['cssRules'][0x0]);}}}}}C(D);});}['getFamilyDescriptor'](A){return new Promise(async B=>{const am=k;await this.#a(),B((await this.#e['cache'][am(0x1d9)](am(0x14f))[am(0x179)](A)[am(0x17c)]())[0x0]||null);});}#n(A){return new Promise(async B=>{const an=k;let C=null;if(this.#i[A])C=this.#i[A];else{let D=await fetch(A),E=await D[an(0x226)]();C=new CSSStyleSheet(),C[an(0x24c)](E),this.#i[A]=C;}B(C);});}#a(){return new Promise(async A=>{const ao=k;let B=await this.#e['cache'][ao(0x2f0)](),C=!0x0;if(B>0x0){let D=await this.#e[ao(0x248)][ao(0x153)](ao(0x209));if(D){let E=0x4d3f6400;C=Date['now']()-D['cachedTime']>E;}}0x0!==B&&!0x0!==C||await this[ao(0x2c7)](),A();});}}(),[af(0x12a),'iPad'][af(0x1e0)](navigator[af(0x1f7)])||navigator['platform'][af(0x1a8)](af(0x15a)),navigator['userAgent']['indexOf'](af(0x181))>-0x1&&navigator[af(0x2fb)]['indexOf'](af(0x294)),null!==window['frameElement']||document['body']['dataset'][af(0x1c6)];let b=(A,B,C)=>A[af(0x2ad)](B)['join'](C),d=A=>{const ap=af;A=A['toLowerCase'](),A=b(A,'\x20',''),A=b(A,'-','');let B='400';return(A=b(A,'_',''))[ap(0x1e0)]('thin')||A['includes'](ap(0x138))?B=ap(0x1ca):A[ap(0x1e0)]('extralight')||A[ap(0x1e0)](ap(0x1bb))?B=ap(0x194):A[ap(0x1e0)](ap(0x223))?B='300':A[ap(0x1e0)](ap(0x279))?B=ap(0x21c):A[ap(0x1e0)](ap(0x2a1))||A[ap(0x1e0)](ap(0x2a0))?B=ap(0x20f):A[ap(0x1e0)](ap(0x291))||A[ap(0x1e0)]('ultrabold')?B=ap(0x188):A[ap(0x1e0)]('bold')?B='700':(A[ap(0x1e0)](ap(0x210))||A[ap(0x1e0)](ap(0x1e1)))&&(B=ap(0x1ef)),B;},c=A=>{const aq=af;A=A[aq(0x265)](),A=b(A,'\x20',''),A=b(A,'-','');let B=aq(0x167);return(A=b(A,'_',''))['includes'](aq(0x132))?B='italic':A[aq(0x1e0)](aq(0x1a1))&&(B=aq(0x1a1)),B;};new class extends EventTarget{#l='init';#o=[];#e;get[af(0x12c)](){return this.#l;}constructor(){const ar=af;super(),this.#e=new v(ar(0x207)),this.#e['version'](0x1)[ar(0x17e)]({'cache':ar(0x14f)}),this.#e[ar(0x175)](0x2)[ar(0x17e)]({'cache':ar(0x14f)})[ar(0x197)](A=>A[ar(0x248)][ar(0x262)]()),void 0x0===window[ar(0x270)]?this.#l='no-api':navigator[ar(0x17f)][ar(0x184)]({'name':ar(0x2b6)})[ar(0x213)](A=>{const as=ar;'granted'===A[as(0x23e)]?this[as(0x2c7)]():'prompt'!==A[as(0x23e)]&&(this.#l='no-permission');});}[af(0x2f3)](A='',B='all'){return new Promise(async C=>{const at=k;let D=[],E=this.#e[at(0x248)];''!==A[at(0x230)]()&&(E=E[at(0x1c1)](F=>F[at(0x14f)][at(0x265)]()[at(0x1e0)](A['trim']()[at(0x265)]()))),D=await E[at(0x17c)](),'all'!==B&&(D=D[at(0x2e6)](0x28*B,0x28*(B+0x1))),C(D);});}[af(0x2c7)](){return new Promise(async(A,B)=>{const au=k;let C;try{C=await this[au(0x1b4)](!0x0);}catch(E){return B(E);}let D=[];for(let F of C){let G=d(F[au(0x24d)])+(au(0x132)===c(F[au(0x24d)])?'i':''),H=D[au(0x22c)](I=>I[au(0x14f)]===F[au(0x14f)]);if(H)!0x1===H[au(0x296)]['includes'](G)&&H[au(0x296)][au(0x1d6)](G);else{let I={'family':F[au(0x14f)],'faces':[G]};D[au(0x1d6)](I);}}for(let J of D)J[au(0x296)][au(0x152)]();await this.#e[au(0x248)][au(0x262)](),await this.#e['cache'][au(0x16d)](D),this.#l=au(0x22b),A();});}[af(0x1b4)](A=!0x1){return new Promise(async(B,C)=>{const av=k;if('no-api'===this[av(0x12c)])B([]);else{if(this.#o[av(0x2d4)]<0xa||A)try{this.#o=await window['queryLocalFonts']();}catch(D){return C({'message':D[av(0x15c)],'name':D['name']});}B(this.#o);}});}['getCacheSize'](){return new Promise(async A=>{const aw=k;A(await this.#e[aw(0x248)][aw(0x2f0)]());});}['getFamilyDescriptor'](A){return new Promise(async B=>{const ax=k;B((await this.#e[ax(0x248)][ax(0x1d9)](ax(0x14f))['equals'](A)[ax(0x17c)]())[0x0]||null);});}[af(0x143)](A){return new Promise(async B=>{const ay=k;let C=await this[ay(0x192)](A);if(C){let D=new Set();for(let E of C[ay(0x296)]){let F=E[ay(0x1f0)](0x0,0x3);D[ay(0x2d8)](F);}B([...D]);}else B([ay(0x211)]);});}}(),document[af(0x190)](af(0x2b5),af(0x26a));function k(a,b){const c=j();return k=function(d,e){d=d-0x125;let f=c[d];return f;},k(a,b);}let y=(A,B,C=!0x0)=>{const az=af;let D=A[az(0x22f)](B);return C&&!D&&A['getRootNode']()[az(0x13d)]?y(A[az(0x271)]()[az(0x13d)],B):D;};class x extends HTMLElement{static #s=u` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
-  `;static #r=h`
+                  `;
+                  D.push(ac.cssRules[0]);
+                }
+              }
+            }
+          }
+        }
+      }
+      C(D);
+    });
+  }
+  getFamilyDescriptor(A) {
+    return new Promise(async (B) => {
+      await this.#a();
+      B((await this.#e.cache.where("family").equals(A).toArray())[0] || null);
+    });
+  }
+  #n(A) {
+    return new Promise(async (B) => {
+      let C = null;
+      if (this.#i[A]) {
+        C = this.#i[A];
+      } else {
+        let D = await fetch(A);
+        let E = await D.text();
+        C = new CSSStyleSheet();
+        C.replaceSync(E);
+        this.#i[A] = C;
+      }
+      B(C);
+    });
+  }
+  #a() {
+    return new Promise(async (A) => {
+      let B = await this.#e.cache.count();
+      let C = true;
+      if (B > 0) {
+        let D = await this.#e.cache.get("Roboto");
+        if (D) {
+          let E = 1296000000;
+          C = Date.now() - D.cachedTime > E;
+        }
+      }
+      if (B === 0 || C === true) {
+        await this.refresh();
+      }
+      A();
+    });
+  }
+})();
+if (!["iPhone", "iPad"].includes(navigator.platform)) {
+  navigator.platform.startsWith("Mac");
+}
+if (navigator.userAgent.indexOf("Safari/") > -1) {
+  navigator.userAgent.indexOf("Chrome");
+}
+if (window.frameElement === null) {
+  document.body.dataset.app;
+}
+let b = (A, B, C) => A.split(B).join(C);
+let d = (A) => {
+  A = A.toLowerCase();
+  A = b(A, " ", "");
+  A = b(A, "-", "");
+  let B = "400";
+  if ((A = b(A, "_", "")).includes("thin") || A.includes("hairline")) {
+    B = "100";
+  } else if (A.includes("extralight") || A.includes("ultralight")) {
+    B = "200";
+  } else if (A.includes("light")) {
+    B = "300";
+  } else if (A.includes("medium")) {
+    B = "500";
+  } else if (A.includes("semibold") || A.includes("demibold")) {
+    B = "600";
+  } else if (A.includes("extrabold") || A.includes("ultrabold")) {
+    B = "800";
+  } else if (A.includes("bold")) {
+    B = "700";
+  } else if (A.includes("black") || A.includes("heavy")) {
+    B = "900";
+  }
+  return B;
+};
+let c = (A) => {
+  A = A.toLowerCase();
+  A = b(A, " ", "");
+  A = b(A, "-", "");
+  let B = "normal";
+  if ((A = b(A, "_", "")).includes("italic")) {
+    B = "italic";
+  } else if (A.includes("oblique")) {
+    B = "oblique";
+  }
+  return B;
+};
+new (class extends EventTarget {
+  #l = "init";
+  #o = [];
+  #e;
+  get status() {
+    return this.#l;
+  }
+  constructor() {
+    super();
+    this.#e = new v("LocalFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+    this.#e
+      .version(2)
+      .stores({
+        cache: "family",
+      })
+      .upgrade((A) => A.cache.clear());
+    if (window.queryLocalFonts === undefined) {
+      this.#l = "no-api";
+    } else {
+      navigator.permissions
+        .query({
+          name: "local-fonts",
+        })
+        .then((A) => {
+          if (A.state === "granted") {
+            this.refresh();
+          } else if (A.state !== "prompt") {
+            this.#l = "no-permission";
+          }
+        });
+    }
+  }
+  search(A = "", B = "all") {
+    return new Promise(async (C) => {
+      let D = [];
+      let E = this.#e.cache;
+      if (A.trim() !== "") {
+        E = E.filter((F) =>
+          F.family.toLowerCase().includes(A.trim().toLowerCase())
+        );
+      }
+      D = await E.toArray();
+      if (B !== "all") {
+        D = D.slice(B * 40, (B + 1) * 40);
+      }
+      C(D);
+    });
+  }
+  refresh() {
+    return new Promise(async (A, B) => {
+      let C;
+      try {
+        C = await this.getLocalFontsMetadata(true);
+      } catch (E) {
+        return B(E);
+      }
+      let D = [];
+      for (let F of C) {
+        let G = d(F.style) + (c(F.style) === "italic" ? "i" : "");
+        let H = D.find((I) => I.family === F.family);
+        if (H) {
+          if (H.faces.includes(G) === false) {
+            H.faces.push(G);
+          }
+        } else {
+          let I = {
+            family: F.family,
+            faces: [G],
+          };
+          D.push(I);
+        }
+      }
+      for (let J of D) {
+        J.faces.sort();
+      }
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(D);
+      this.#l = "ready";
+      A();
+    });
+  }
+  getLocalFontsMetadata(A = false) {
+    return new Promise(async (B, C) => {
+      if (this.status === "no-api") {
+        B([]);
+      } else {
+        if (this.#o.length < 10 || A) {
+          try {
+            this.#o = await window.queryLocalFonts();
+          } catch (D) {
+            return C({
+              message: D.message,
+              name: D.name,
+            });
+          }
+        }
+        B(this.#o);
+      }
+    });
+  }
+  getCacheSize() {
+    return new Promise(async (A) => {
+      A(await this.#e.cache.count());
+    });
+  }
+  getFamilyDescriptor(A) {
+    return new Promise(async (B) => {
+      B((await this.#e.cache.where("family").equals(A).toArray())[0] || null);
+    });
+  }
+  getFamilyWeights(A) {
+    return new Promise(async (B) => {
+      let C = await this.getFamilyDescriptor(A);
+      if (C) {
+        let D = new Set();
+        for (let E of C.faces) {
+          let F = E.substring(0, 3);
+          D.add(F);
+        }
+        B([...D]);
+      } else {
+        B(["400"]);
+      }
+    });
+  }
+})();
+document.createElementNS("http://www.w3.org/2000/svg", "svg");
+let y = (A, B, C = true) => {
+  let D = A.closest(B);
+  if (C && !D && A.getRootNode().host) {
+    return y(A.getRootNode().host, B);
+  } else {
+    return D;
+  }
+};
+class x extends HTMLElement {
+  static #s = u` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
+  `;
+  static #r = h`
     :host {
       display: flex;
       flex-flow: column;
@@ -93,6 +2118,183 @@ const af=k;(function(A,B){const ae=k,C=A();while(!![]){try{const D=-parseInt(ae(
       background: none;
       height: 4px;
     }
-  `;#p;constructor(){const aA=af;super();let A=this[aA(0x1ed)]['t'],B=this[aA(0x1ed)]['l'];this.#p=this[aA(0x302)]({'mode':'closed'}),this.#p['adoptedStyleSheets']=[q['themeStyleSheet'],x.#r,this[aA(0x1ed)][aA(0x19f)]],this.#p[aA(0x27f)](document['importNode'](x.#s[aA(0x1ea)],!0x0)),A&&this.#p[aA(0x26d)](aA(0x127))[aA(0x27f)](document['importNode'](A[aA(0x1ea)],!0x0)),B&&this.#p['querySelector'](aA(0x25c))[aA(0x27f)](document['importNode'](B[aA(0x1ea)],!0x0));for(let C of this.#p['querySelectorAll'](aA(0x161)))this['#'+C['id']]=C;this[aA(0x288)](aA(0x2cb),aA(0x2fa)),this[aA(0x288)](aA(0x1f5),'0');}}let g={'CODE128':'Test','CODE39':af(0x2a2),'EAN2':'00','EAN5':af(0x148),'EAN8':af(0x234),'EAN13':'000000000000','UPC':af(0x1f4),'MSI':af(0x2c3),'MSI10':af(0x2c3),'MSI11':'0000','MSI1010':af(0x2c3),'MSI1110':af(0x2c3),'codabar':af(0x2c3),'pharmacode':af(0x1dd),'ITF14':af(0x2b0)};class f extends x{static ['t']=u` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="format-subsection"> <h4><x-message href="#format"></x-message></h4> <x-select id="format-select"> <x-menu> <x-menuitem value="CODE128" toggled><x-label>CODE 128</x-label></x-menuitem> <x-menuitem value="CODE39"><x-label>CODE 39</x-label></x-menuitem> <hr> <x-menuitem value="EAN2"><x-label>EAN-2</x-label></x-menuitem> <x-menuitem value="EAN5"><x-label>EAN-5 </x-label></x-menuitem> <x-menuitem value="EAN8"><x-label>EAN-8</x-label></x-menuitem> <x-menuitem value="EAN13"><x-label>EAN-13</x-label></x-menuitem> <x-menuitem value="UPC"><x-label>UPC</x-label></x-menuitem> <hr> <x-menuitem value="MSI"><x-label>MSI</x-label></x-menuitem> <x-menuitem value="MSI10"><x-label>MSI10</x-label></x-menuitem> <x-menuitem value="MSI11"><x-label>MSI11</x-label></x-menuitem> <x-menuitem value="MSI1010"><x-label>MSI1010</x-label></x-menuitem> <x-menuitem value="MSI1110"><x-label>MSI1110</x-label></x-menuitem> <hr> <x-menuitem value="codabar"><x-label>Codabar</x-label></x-menuitem> <x-menuitem value="pharmacode"><x-label>Pharmacode</x-label></x-menuitem> <x-menuitem value="ITF14"><x-label>ITF14</x-label></x-menuitem> </x-menu> </x-select> </section> <section id="value-subsection"> <h4><x-message href="#value"></x-message></h4> <x-input id="value-input" value="9999" validation="instant"></x-input> </section> <section id="label-subsection"> <header id="label-header"> <h4 id="label-heading"><x-message href="#label"></x-message></h4> <x-switch id="label-switch" size="small" toggled></x-switch> </header> <x-box id="label-position-box" vertical> <x-label id="label-position-label"><x-message href="#position"></x-message></x-label> <x-buttons id="label-position-buttons" tracking="1"> <x-button id="label-position-left-button" value="left" condensed> <x-label><x-message href="#position.left"></x-message></x-label> </x-button> <x-button id="label-position-center-button" value="center" condensed toggled> <x-label><x-message href="#position.center"></x-message></x-label> </x-button> <x-button id="label-position-right-button" value="right" condensed> <x-label><x-message href="#position.right"></x-message></x-label> </x-button> <x-button id="label-position-inset-button" value="inset" condensed> <x-label><x-message href="#inset"></x-message></x-label> </x-button> </x-buttons> </x-box> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid"></svg> </section> </template>
-  `;static ['l']=u` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#generate"></x-message></x-label> </x-button> </template>
-  `;static [af(0x19f)]=h`#format-select{width:100%}#value-subsection{margin-top:14px}#value-input{max-width:none}#display-value-box{margin-top:8px}#label-subsection{margin-top:14px}#label-header{display:flex;align-items:center}#label-heading{margin:0;flex:1}#label-position-box{margin-top:8px}#label-position-label{font-size:11px;font-weight:500;margin:0 0 4px 0}#label-position-buttons{width:100%}#label-position-buttons x-button{flex:1}`;#m;constructor(){const aB=af;super(),this[aB(0x12d)][aB(0x155)](aB(0x228),()=>this.#u()),this['#value-input'][aB(0x155)](aB(0x164),()=>this.#h()),this[aB(0x241)][aB(0x155)](aB(0x185),()=>this.#b()),this['#label-position-buttons']['addEventListener'](aB(0x185),()=>this.#d()),this[aB(0x14b)][aB(0x155)](aB(0x23b),()=>this.#c());}async['connectedCallback'](){const aC=af;this.#m=y(this,aC(0x2cd));let A=q[aC(0x1f2)](aC(0x1cd),'CODE128'),B=q['getConfig']('bx-barcodegenerator:showLabel',!0x0),C=q[aC(0x1f2)]('bx-barcodegenerator:labelPosition',aC(0x1c9));this[aC(0x12d)]['value']=A,this[aC(0x2ea)][aC(0x28f)]=g[A],this[aC(0x241)][aC(0x214)]=B,this['#label-position-buttons'][aC(0x28f)]=C,this.#y();}#u(){const aD=af;let A=this[aD(0x12d)][aD(0x28f)];this[aD(0x2ea)][aD(0x28f)]=g[A],q[aD(0x1cf)]('bx-barcodegenerator:format',A),this.#y();}#h(){this.#y();}#b(){const aE=af;q[aE(0x1cf)]('bx-barcodegenerator:showLabel',this[aE(0x241)][aE(0x214)]),this.#y();}#d(){const aF=af;q['setConfig'](aF(0x238),this['#label-position-buttons'][aF(0x28f)]),this.#y();}#c(){const aG=af;let A=this['#preview'][aG(0x2e1)](!0x0);this.#m['board']['undoManager'][aG(0x1b2)]([aG(0x27e)],aG(0x24b)),this.#m[aG(0x22d)][aG(0x144)](A);}#x(A,B){let C;return z({},B,{'format':A,'valid':D=>C=D}),C;}#y(){const aH=af;let A=this[aH(0x12d)][aH(0x28f)],B=this['#value-input']['value'],C=this.#x(A,B);if(this[aH(0x2ea)][aH(0x1fc)](C?'':'Invalid\x20value'),aH(0x133)===A||'EAN13'===A||'UPC'===A?!0x1===this['#label-position-inset-button'][aH(0x12f)]&&this[aH(0x2fc)][aH(0x27f)](this[aH(0x16c)]):(aH(0x1db)===this[aH(0x2fc)]['value']&&(this[aH(0x2fc)][aH(0x28f)]='center'),this[aH(0x16c)][aH(0x214)]=!0x1,this[aH(0x16c)][aH(0x25a)]()),this[aH(0x241)][aH(0x214)]?(this[aH(0x221)][aH(0x1c7)]=!0x1,this['#label-position-left-button']['disabled']=!0x1,this[aH(0x1fd)][aH(0x1c7)]=!0x1,this['#label-position-right-button'][aH(0x1c7)]=!0x1,this[aH(0x16c)]['disabled']=!0x1):(this[aH(0x221)]['disabled']=!0x0,this[aH(0x215)][aH(0x1c7)]=!0x0,this[aH(0x1fd)][aH(0x1c7)]=!0x0,this[aH(0x162)][aH(0x1c7)]=!0x0,this[aH(0x16c)][aH(0x1c7)]=!0x0),C){let D=this[aH(0x241)][aH(0x214)]?this['#label-position-buttons'][aH(0x28f)]:aH(0x1c9);if(z(this[aH(0x2e5)],B,{'format':A,'textAlign':aH(0x1db)===D?'center':D,'flat':'inset'!==D,'displayValue':this[aH(0x241)][aH(0x214)]}),this[aH(0x2e5)]['firstElementChild']['remove'](),this[aH(0x2e5)][aH(0x160)]>0x1){let E=((F,G=null)=>{const aI=aH;let H=F['split'](':'),I=null;if(0x1===H[aI(0x2d4)]){let [J]=H;I=document[aI(0x255)](J,G);}else{if(0x2===H[aI(0x2d4)]){let [K,L]=H;'svg'===K&&(I=document[aI(0x190)](n,L,G));}}return I;})(aH(0x18b));for(let F of[...this[aH(0x2e5)]['children']])E[aH(0x27f)](F);this[aH(0x2e5)][aH(0x27f)](E);}}else this[aH(0x2e5)][aH(0x14c)]='';this[aH(0x14b)][aH(0x1c7)]=!0x1===C;}}customElements[af(0x165)]('bx-barcodegenerator',f);
+  `;
+  #p;
+  constructor() {
+    super();
+    let A = this.constructor.t;
+    let B = this.constructor.l;
+    this.#p = this.attachShadow({
+      mode: "closed",
+    });
+    this.#p.adoptedStyleSheets = [
+      q.themeStyleSheet,
+      x.#r,
+      this.constructor._shadowStyleSheet,
+    ];
+    this.#p.append(document.importNode(x.#s.content, true));
+    if (A) {
+      this.#p
+        .querySelector("#main")
+        .append(document.importNode(A.content, true));
+    }
+    if (B) {
+      this.#p
+        .querySelector("#footer")
+        .append(document.importNode(B.content, true));
+    }
+    for (let C of this.#p.querySelectorAll("[id]")) {
+      this["#" + C.id] = C;
+    }
+    this.setAttribute("extends", "bx-generator");
+    this.setAttribute("tabindex", "0");
+  }
+}
+let g = {
+  CODE128: "Test",
+  CODE39: "TEST",
+  EAN2: "00",
+  EAN5: "00000",
+  EAN8: "0000000",
+  EAN13: "000000000000",
+  UPC: "00000000000",
+  MSI: "0000",
+  MSI10: "0000",
+  MSI11: "0000",
+  MSI1010: "0000",
+  MSI1110: "0000",
+  codabar: "0000",
+  pharmacode: "1000",
+  ITF14: "0000000000000",
+};
+class f extends x {
+  static t = u` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="format-subsection"> <h4><x-message href="#format"></x-message></h4> <x-select id="format-select"> <x-menu> <x-menuitem value="CODE128" toggled><x-label>CODE 128</x-label></x-menuitem> <x-menuitem value="CODE39"><x-label>CODE 39</x-label></x-menuitem> <hr> <x-menuitem value="EAN2"><x-label>EAN-2</x-label></x-menuitem> <x-menuitem value="EAN5"><x-label>EAN-5 </x-label></x-menuitem> <x-menuitem value="EAN8"><x-label>EAN-8</x-label></x-menuitem> <x-menuitem value="EAN13"><x-label>EAN-13</x-label></x-menuitem> <x-menuitem value="UPC"><x-label>UPC</x-label></x-menuitem> <hr> <x-menuitem value="MSI"><x-label>MSI</x-label></x-menuitem> <x-menuitem value="MSI10"><x-label>MSI10</x-label></x-menuitem> <x-menuitem value="MSI11"><x-label>MSI11</x-label></x-menuitem> <x-menuitem value="MSI1010"><x-label>MSI1010</x-label></x-menuitem> <x-menuitem value="MSI1110"><x-label>MSI1110</x-label></x-menuitem> <hr> <x-menuitem value="codabar"><x-label>Codabar</x-label></x-menuitem> <x-menuitem value="pharmacode"><x-label>Pharmacode</x-label></x-menuitem> <x-menuitem value="ITF14"><x-label>ITF14</x-label></x-menuitem> </x-menu> </x-select> </section> <section id="value-subsection"> <h4><x-message href="#value"></x-message></h4> <x-input id="value-input" value="9999" validation="instant"></x-input> </section> <section id="label-subsection"> <header id="label-header"> <h4 id="label-heading"><x-message href="#label"></x-message></h4> <x-switch id="label-switch" size="small" toggled></x-switch> </header> <x-box id="label-position-box" vertical> <x-label id="label-position-label"><x-message href="#position"></x-message></x-label> <x-buttons id="label-position-buttons" tracking="1"> <x-button id="label-position-left-button" value="left" condensed> <x-label><x-message href="#position.left"></x-message></x-label> </x-button> <x-button id="label-position-center-button" value="center" condensed toggled> <x-label><x-message href="#position.center"></x-message></x-label> </x-button> <x-button id="label-position-right-button" value="right" condensed> <x-label><x-message href="#position.right"></x-message></x-label> </x-button> <x-button id="label-position-inset-button" value="inset" condensed> <x-label><x-message href="#inset"></x-message></x-label> </x-button> </x-buttons> </x-box> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid"></svg> </section> </template>
+  `;
+  static l = u` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#generate"></x-message></x-label> </x-button> </template>
+  `;
+  static _shadowStyleSheet = h`#format-select{width:100%}#value-subsection{margin-top:14px}#value-input{max-width:none}#display-value-box{margin-top:8px}#label-subsection{margin-top:14px}#label-header{display:flex;align-items:center}#label-heading{margin:0;flex:1}#label-position-box{margin-top:8px}#label-position-label{font-size:11px;font-weight:500;margin:0 0 4px 0}#label-position-buttons{width:100%}#label-position-buttons x-button{flex:1}`;
+  #m;
+  constructor() {
+    super();
+    this["#format-select"].addEventListener("change", () => this.#u());
+    this["#value-input"].addEventListener("input", () => this.#h());
+    this["#label-switch"].addEventListener("toggle", () => this.#b());
+    this["#label-position-buttons"].addEventListener("toggle", () => this.#d());
+    this["#generate-button"].addEventListener("click", () => this.#c());
+  }
+  async connectedCallback() {
+    this.#m = y(this, "bx-editor");
+    let A = q.getConfig("bx-barcodegenerator:format", "CODE128");
+    let B = q.getConfig("bx-barcodegenerator:showLabel", true);
+    let C = q.getConfig("bx-barcodegenerator:labelPosition", "center");
+    this["#format-select"].value = A;
+    this["#value-input"].value = g[A];
+    this["#label-switch"].toggled = B;
+    this["#label-position-buttons"].value = C;
+    this.#y();
+  }
+  #u() {
+    let A = this["#format-select"].value;
+    this["#value-input"].value = g[A];
+    q.setConfig("bx-barcodegenerator:format", A);
+    this.#y();
+  }
+  #h() {
+    this.#y();
+  }
+  #b() {
+    q.setConfig("bx-barcodegenerator:showLabel", this["#label-switch"].toggled);
+    this.#y();
+  }
+  #d() {
+    q.setConfig(
+      "bx-barcodegenerator:labelPosition",
+      this["#label-position-buttons"].value
+    );
+    this.#y();
+  }
+  #c() {
+    let A = this["#preview"].cloneNode(true);
+    this.#m.board.undoManager.checkpoint(
+      ["#generators.barcode"],
+      "#generators-panel"
+    );
+    this.#m.board.insertArtwork(A);
+  }
+  #x(A, B) {
+    let C;
+    z({}, B, {
+      format: A,
+      valid: (D) => (C = D),
+    });
+    return C;
+  }
+  #y() {
+    let A = this["#format-select"].value;
+    let B = this["#value-input"].value;
+    let C = this.#x(A, B);
+    this["#value-input"].setCustomValidity(C ? "" : "Invalid value");
+    if (A === "EAN8" || A === "EAN13" || A === "UPC") {
+      if (this["#label-position-inset-button"].isConnected === false) {
+        this["#label-position-buttons"].append(
+          this["#label-position-inset-button"]
+        );
+      }
+    } else {
+      if (this["#label-position-buttons"].value === "inset") {
+        this["#label-position-buttons"].value = "center";
+      }
+      this["#label-position-inset-button"].toggled = false;
+      this["#label-position-inset-button"].remove();
+    }
+    if (this["#label-switch"].toggled) {
+      this["#label-position-label"].disabled = false;
+      this["#label-position-left-button"].disabled = false;
+      this["#label-position-center-button"].disabled = false;
+      this["#label-position-right-button"].disabled = false;
+      this["#label-position-inset-button"].disabled = false;
+    } else {
+      this["#label-position-label"].disabled = true;
+      this["#label-position-left-button"].disabled = true;
+      this["#label-position-center-button"].disabled = true;
+      this["#label-position-right-button"].disabled = true;
+      this["#label-position-inset-button"].disabled = true;
+    }
+    if (C) {
+      let D = this["#label-switch"].toggled
+        ? this["#label-position-buttons"].value
+        : "center";
+      z(this["#preview"], B, {
+        format: A,
+        textAlign: D === "inset" ? "center" : D,
+        flat: D !== "inset",
+        displayValue: this["#label-switch"].toggled,
+      });
+      this["#preview"].firstElementChild.remove();
+      if (this["#preview"].childElementCount > 1) {
+        let E = ((F, G = null) => {
+          let H = F.split(":");
+          let I = null;
+          if (H.length === 1) {
+            let [J] = H;
+            I = document.createElement(J, G);
+          } else if (H.length === 2) {
+            let [K, L] = H;
+            if (K === "svg") {
+              I = document.createElementNS(n, L, G);
+            }
+          }
+          return I;
+        })("svg:g");
+        for (let F of [...this["#preview"].children]) {
+          E.append(F);
+        }
+        this["#preview"].append(E);
+      }
+    } else {
+      this["#preview"].innerHTML = "";
+    }
+    this["#generate-button"].disabled = C === false;
+  }
+}
+customElements.define("bx-barcodegenerator", f);

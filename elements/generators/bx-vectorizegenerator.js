@@ -1,4 +1,1795 @@
-const ak=q;(function(D,E){const aj=q,F=D();while(!![]){try{const G=-parseInt(aj(0x39f))/0x1+-parseInt(aj(0x178))/0x2+-parseInt(aj(0x39b))/0x3+-parseInt(aj(0x348))/0x4+-parseInt(aj(0x2d9))/0x5+parseInt(aj(0x3a0))/0x6+parseInt(aj(0x2c2))/0x7;if(G===E)break;else F['push'](F['shift']());}catch(H){F['push'](F['shift']());}}}(j,0xc2fa2));import z from'/libs/xel/xel.js';import'/libs/color/color.js';import'/libs/css-parser/css-parser.js';import'/libs/paper/paper.js';import'/libs/seed-random/seed-random.js';import'/libs/dom-purify/dom-purify.js';import A from'/libs/dexie/dexie.js';import B from'/libs/typesense/typesense.js';import'/libs/pako/pako.js';const a=ak(0x35a),n=[ak(0x26f),ak(0x245),'line',ak(0x1a3),'polygon',ak(0x2b1),ak(0x357)],o=['text',ak(0x1c7),'tspan'],l=[...n,...o,ak(0x371),ak(0x2b2)],s=[...n,...o],r=[{'name':ak(0x1fc),'displayName':ak(0x34e),'presentationAttributeName':ak(0x1fc),'initialValue':'baseline','values':[{'type':ak(0x301),'tokens':['baseline',ak(0x1d4),ak(0x293),ak(0x1f3),'middle',ak(0x212),'mathematical',ak(0x35f),ak(0x169),'center','top',ak(0x337),ak(0x349),'unset']}],'appliesTo':['text',ak(0x215),'textPath',ak(0x1e2)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x2f3),'displayName':ak(0x32e),'presentationAttributeName':ak(0x2f3),'initialValue':'0','values':[{'type':'number'},{'type':ak(0x34a)},{'type':'length'},{'type':ak(0x301),'tokens':[ak(0x1e9),ak(0x379),ak(0x337),'initial','unset']}],'appliesTo':[ak(0x272),ak(0x215),ak(0x1c7),ak(0x1e2)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x231),'displayName':'#clip-path','presentationAttributeName':ak(0x231),'initialValue':ak(0x392),'values':[{'type':'url'},{'type':ak(0x301),'tokens':[ak(0x2c3),ak(0x33a),'view-box',ak(0x392),'inherit','initial','unset']}],'appliesTo':[...l,ak(0x2e7),'g','a',ak(0x38e)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x177),'displayName':ak(0x2f8),'presentationAttributeName':ak(0x177),'initialValue':ak(0x173),'values':[{'type':'token','tokens':[ak(0x173),'evenodd',ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...l,'use'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'color','displayName':ak(0x2b0),'presentationAttributeName':ak(0x2b3),'initialValue':ak(0x398),'values':[{'type':'color'},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...l,ak(0x2e7),'g','a',ak(0x38e)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),'paced']},{'name':ak(0x290),'displayName':ak(0x339),'presentationAttributeName':'color-interpolation','initialValue':ak(0x35c),'values':[{'type':'token','tokens':[ak(0x2ad),ak(0x35c),'linearRGB',ak(0x337),ak(0x349),'unset']}],'appliesTo':[...l,ak(0x2e7),'g','a',ak(0x38e),ak(0x259),ak(0x391)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x22c),'displayName':ak(0x339),'presentationAttributeName':'color-interpolation-filters','initialValue':'linearRGB','values':[{'type':ak(0x301),'tokens':['auto',ak(0x35c),ak(0x26a),'inherit','initial','unset']}],'appliesTo':[ak(0x2ae),'feColorMatrix',ak(0x362),ak(0x37d),ak(0x342),ak(0x2fd),ak(0x1a1),ak(0x328),ak(0x2aa),'feMerge',ak(0x189),'feSpecularLighting',ak(0x200)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'cursor','displayName':'#cursor','presentationAttributeName':ak(0x25f),'initialValue':ak(0x2ad),'values':[{'type':ak(0x384)},{'type':ak(0x301),'tokens':[ak(0x21c),ak(0x17f),'pointer',ak(0x374),'wait\x20','cell',ak(0x36a),ak(0x272),ak(0x28e),'alias',ak(0x1df),ak(0x25b),ak(0x325),ak(0x2cc),ak(0x206),ak(0x324),'e-resize','n-resize',ak(0x1ab),'nw-resize','s-resize',ak(0x1c0),'sw-resize',ak(0x355),'ew-resize',ak(0x20b),'nesw-resize','nwse-resize',ak(0x294),'row-resize',ak(0x26e),'zoom-in','zoom-out','inherit',ak(0x349),ak(0x380)]}],'appliesTo':[...l,ak(0x2e7),'g','a',ak(0x38e)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x288),'displayName':ak(0x2c5),'presentationAttributeName':ak(0x288),'initialValue':ak(0x1f9),'values':[{'type':'token','tokens':[ak(0x1f9),ak(0x364),'inherit',ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x218),'displayName':ak(0x2e1),'presentationAttributeName':'display','initialValue':'inline','values':[{'type':ak(0x301),'tokens':[ak(0x392),'inline','block',ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...l,ak(0x1c7),'tspan','svg','g','a',ak(0x38e)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'dominant-baseline','displayName':ak(0x2f0),'presentationAttributeName':ak(0x2bc),'initialValue':ak(0x2ad),'values':[{'type':'token','tokens':['auto',ak(0x26d),'no-change',ak(0x2fe),'ideographic',ak(0x293),ak(0x1a6),ak(0x368),ak(0x212),ak(0x269),'text-after-edge',ak(0x375),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x33c),'displayName':ak(0x386),'presentationAttributeName':ak(0x33c),'initialValue':ak(0x398),'values':[{'type':ak(0x2b3)},{'type':'url'},{'type':'token','tokens':[ak(0x392),ak(0x366),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ak(0x1ed),ak(0x1ae)]},{'name':ak(0x228),'displayName':ak(0x1fb),'presentationAttributeName':ak(0x228),'initialValue':'1','values':[{'type':'number'},{'type':ak(0x34a)},{'type':'token','tokens':[ak(0x337),'initial',ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),ak(0x1ae)]},{'name':ak(0x174),'displayName':ak(0x23b),'presentationAttributeName':ak(0x174),'initialValue':ak(0x173),'values':[{'type':ak(0x301),'tokens':[ak(0x173),ak(0x2f9),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x1a9),'displayName':ak(0x196),'presentationAttributeName':ak(0x1a9),'initialValue':'none','values':[{'type':ak(0x38f)},{'type':'token','tokens':[ak(0x392),'inherit','initial',ak(0x380)]}],'appliesTo':[...l,'textPath',ak(0x215),'g','a','svg',ak(0x38e)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x232),'displayName':ak(0x224),'presentationAttributeName':ak(0x232),'initialValue':ak(0x398),'values':[{'type':ak(0x2b3)},{'type':'token','tokens':[ak(0x366),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':['feFlood'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),ak(0x1ae)]},{'name':'flood-opacity','displayName':'#flood-opacity','presentationAttributeName':ak(0x377),'initialValue':'1','values':[{'type':ak(0x292),'min':0x0},{'type':ak(0x34a),'min':0x0},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),'unset']}],'appliesTo':[ak(0x184)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),ak(0x1ae)]},{'name':ak(0x179),'displayName':'#font','presentationAttributeName':'font','initialValue':null,'values':[{'type':ak(0x179)},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-family','displayName':ak(0x333),'presentationAttributeName':'font-family','initialValue':null,'values':[{'type':'font-family'},{'type':'token','tokens':['cursive',ak(0x175),ak(0x2bd),ak(0x1a5),ak(0x326),ak(0x1d9),ak(0x337),'initial',ak(0x380)]}],'appliesTo':['text',ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-size','displayName':'#font-size','presentationAttributeName':ak(0x22f),'initialValue':'medium','values':[{'type':ak(0x301),'tokens':[ak(0x36e),ak(0x363),ak(0x18b),ak(0x1b5),'large',ak(0x2a3),ak(0x2c6),'larger',ak(0x21f),ak(0x337),'initial',ak(0x380)]},{'type':'number','min':0x0},{'type':'percentage','min':0x0},{'type':ak(0x17e),'min':0x0}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ak(0x1ed),ak(0x1ae)]},{'name':ak(0x2f1),'displayName':ak(0x2ea),'presentationAttributeName':'font-stretch','initialValue':ak(0x1a2),'values':[{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x2e8),ak(0x21b),ak(0x166),ak(0x37f),'condensed',ak(0x283),ak(0x1bf),ak(0x16d),'extra-expanded',ak(0x255),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-style','displayName':ak(0x209),'presentationAttributeName':'font-style','initialValue':ak(0x1a2),'values':[{'type':'token','tokens':[ak(0x1a2),ak(0x340),ak(0x267),ak(0x337),'initial',ak(0x380)]}],'appliesTo':['text',ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x23f),'displayName':'#font-variant','presentationAttributeName':'font-variant','initialValue':ak(0x1a2),'values':[{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x313),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),'textPath',ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x17a),'displayName':'#font-weight','presentationAttributeName':ak(0x17a),'initialValue':'normal','values':[{'type':ak(0x292)},{'type':ak(0x301),'tokens':[ak(0x1a2),'bold',ak(0x17b),ak(0x2f6),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':['text',ak(0x1c7),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'image-rendering','displayName':ak(0x271),'presentationAttributeName':ak(0x229),'initialValue':ak(0x2ad),'values':[{'type':ak(0x301),'tokens':[ak(0x2ad),ak(0x1c8),ak(0x23e),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x2b2)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x2e2),'displayName':ak(0x1de),'presentationAttributeName':null,'initialValue':ak(0x2ad),'values':[{'type':ak(0x301),'tokens':[ak(0x1ec),'auto','inherit',ak(0x349),ak(0x380)]}],'appliesTo':[...l,'svg','g','a',ak(0x38e),'symbol','marker',ak(0x1c7),'tspan'],'inheritable':!0x1,'animatable':!0x1},{'name':ak(0x38a),'displayName':'#letter-spacing','presentationAttributeName':ak(0x38a),'initialValue':ak(0x1a2),'values':[{'type':ak(0x292)},{'type':ak(0x17e)},{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':['text',ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),'paced']},{'name':ak(0x219),'displayName':ak(0x2a6),'presentationAttributeName':ak(0x219),'initialValue':ak(0x2fb),'values':[{'type':ak(0x2b3)},{'type':'token','tokens':['currentColor',ak(0x337),'initial','unset']}],'appliesTo':['feDiffuseLighting','feSpecularLighting'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),'paced']},{'name':ak(0x234),'displayName':ak(0x1c3),'presentationAttributeName':ak(0x234),'initialValue':ak(0x1a2),'values':[{'type':ak(0x292),'min':0x0},{'type':ak(0x34a),'min':0x0},{'type':'length','min':0x0},{'type':ak(0x301),'tokens':['normal',ak(0x337),ak(0x349),'unset']}],'appliesTo':[ak(0x272),'tspan',ak(0x1c7),ak(0x1e2)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),'spline',ak(0x1ae)]},{'name':ak(0x20c),'displayName':ak(0x31e),'presentationAttributeName':ak(0x20c),'initialValue':ak(0x392),'values':[{'type':ak(0x384)},{'type':'token','tokens':['none','inherit',ak(0x349),ak(0x380)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x1e5),'displayName':ak(0x1f0),'presentationAttributeName':ak(0x1e5),'initialValue':ak(0x392),'values':[{'type':'url'},{'type':ak(0x301),'tokens':[ak(0x392),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x1ce),'displayName':ak(0x2bf),'presentationAttributeName':ak(0x1ce),'initialValue':ak(0x392),'values':[{'type':'url'},{'type':ak(0x301),'tokens':[ak(0x392),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'marker-end','displayName':ak(0x1b4),'presentationAttributeName':ak(0x2d2),'initialValue':ak(0x392),'values':[{'type':ak(0x384)},{'type':'token','tokens':['none','inherit',ak(0x349),ak(0x380)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'mask','displayName':ak(0x319),'presentationAttributeName':ak(0x346),'initialValue':ak(0x392),'values':[{'type':ak(0x384)},{'type':ak(0x301),'tokens':['none',ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...l,'g','a','svg','use'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x247),'displayName':ak(0x211),'presentationAttributeName':null,'initialValue':ak(0x1a2),'values':[{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x35b),ak(0x213),ak(0x23c),ak(0x2d4),ak(0x180),'color-dodge',ak(0x257),ak(0x298),'soft-light',ak(0x244),ak(0x252),ak(0x314),'saturation',ak(0x2b3),ak(0x38d),ak(0x337),'initial','unset']}],'appliesTo':[...l,ak(0x2e7),'g','a',ak(0x38e),ak(0x387),ak(0x20c),ak(0x1c7),ak(0x215)],'inheritable':!0x1,'animatable':!0x1},{'name':ak(0x239),'displayName':ak(0x291),'presentationAttributeName':'opacity','initialValue':'1','values':[{'type':ak(0x292)},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...l,ak(0x2e7),'g','a','use',ak(0x387),ak(0x20c),ak(0x1c7),ak(0x215)],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear',ak(0x1ed),ak(0x1ae)]},{'name':ak(0x2e4),'displayName':'#overflow','presentationAttributeName':ak(0x2e4),'initialValue':'visible','values':[{'type':ak(0x301),'tokens':[ak(0x277),ak(0x1b6),ak(0x347),ak(0x2ad),ak(0x337),ak(0x349),'unset']}],'appliesTo':['svg',ak(0x387),ak(0x22a),ak(0x20c),ak(0x2b2)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x372),'displayName':'#paint-order','presentationAttributeName':null,'initialValue':ak(0x1a2),'values':[{'type':ak(0x301),'tokens':['normal']},{'type':ak(0x381),'tokens':['fill','stroke',ak(0x17d)]}],'inheritable':!0x0,'appliesTo':[...s],'animatable':!0x1},{'name':ak(0x36c),'displayName':ak(0x20d),'presentationAttributeName':'pointer-events','initialValue':ak(0x2ad),'values':[{'type':ak(0x301),'tokens':[ak(0x171),'visiblePainted','visibleFill',ak(0x399),ak(0x277),ak(0x284),ak(0x33c),'stroke',ak(0x19e),ak(0x392),ak(0x337),ak(0x349),ak(0x380)]}],'inheritable':!0x0,'appliesTo':[...l,'svg','g','a',ak(0x38e)],'animatable':!0x0,'interpolation':[]},{'name':'shape-rendering','displayName':ak(0x30e),'presentationAttributeName':ak(0x24d),'initialValue':ak(0x2ad),'values':[{'type':ak(0x301),'tokens':[ak(0x2ad),'optimizeSpeed',ak(0x29a),'geometricPrecision',ak(0x337),'initial','unset']}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x26c),'displayName':ak(0x2ac),'presentationAttributeName':ak(0x26c),'initialValue':ak(0x398),'values':[{'type':ak(0x2b3)},{'type':ak(0x301),'tokens':['currentColor','inherit','initial',ak(0x380)]}],'appliesTo':['stop'],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear',ak(0x1ed),ak(0x1ae)]},{'name':ak(0x1bd),'displayName':ak(0x29d),'presentationAttributeName':ak(0x1bd),'initialValue':'1','values':[{'type':ak(0x292)},{'type':ak(0x34a)},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),'unset']}],'appliesTo':[ak(0x276)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed),ak(0x1ae)]},{'name':ak(0x1b2),'displayName':ak(0x29e),'presentationAttributeName':ak(0x1b2),'initialValue':'none','values':[{'type':ak(0x2b3)},{'type':'url'},{'type':ak(0x301),'tokens':[ak(0x392),ak(0x366),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),'spline',ak(0x1ae)]},{'name':ak(0x28d),'displayName':ak(0x359),'presentationAttributeName':ak(0x28d),'initialValue':'none','values':[{'type':ak(0x205)},{'type':ak(0x301),'tokens':[ak(0x392),ak(0x337),'initial',ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed)]},{'name':'stroke-dashoffset','displayName':ak(0x2a9),'presentationAttributeName':ak(0x358),'initialValue':'0','values':[{'type':ak(0x292)},{'type':'percentage'},{'type':ak(0x17e)},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ak(0x1ed),ak(0x1ae)]},{'name':ak(0x361),'displayName':ak(0x1c9),'presentationAttributeName':ak(0x361),'initialValue':ak(0x264),'values':[{'type':ak(0x301),'tokens':['butt',ak(0x378),ak(0x188),ak(0x337),ak(0x349),'unset']}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x300),'displayName':ak(0x25a),'presentationAttributeName':'stroke-linejoin','initialValue':ak(0x273),'values':[{'type':ak(0x301),'tokens':[ak(0x273),ak(0x378),'bevel',ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x27f),'displayName':'#stroke-miter-limit','presentationAttributeName':ak(0x27f),'initialValue':'4','values':[{'type':ak(0x292),'min':0x1},{'type':ak(0x301),'tokens':[ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ak(0x1ed),ak(0x1ae)]},{'name':ak(0x1f2),'displayName':ak(0x170),'presentationAttributeName':'stroke-opacity','initialValue':'1','values':[{'type':'number'},{'type':ak(0x34a)},{'type':ak(0x301),'tokens':['inherit',ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),'spline','paced']},{'name':ak(0x2d3),'displayName':ak(0x28f),'presentationAttributeName':ak(0x2d3),'initialValue':'1','values':[{'type':ak(0x292)},{'type':ak(0x34a)},{'type':'length'},{'type':ak(0x301),'tokens':['inherit',ak(0x349),ak(0x380)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ak(0x31d),'spline',ak(0x1ae)]},{'name':'text-anchor','displayName':ak(0x27a),'presentationAttributeName':ak(0x304),'initialValue':ak(0x18c),'values':[{'type':ak(0x301),'tokens':[ak(0x18c),ak(0x269),'end',ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x18f),'displayName':'#text-decoration','presentationAttributeName':ak(0x18f),'initialValue':ak(0x392),'values':[{'type':ak(0x381),'tokens':[ak(0x250),ak(0x227),'line-through']},{'type':ak(0x301),'tokens':[ak(0x392),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),'textPath',ak(0x215)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'text-rendering','displayName':ak(0x242),'presentationAttributeName':'text-rendering','initialValue':ak(0x2ad),'values':[{'type':ak(0x301),'tokens':[ak(0x2ad),ak(0x389),ak(0x331),'geometricPrecision',ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x336),'displayName':ak(0x210),'presentationAttributeName':null,'initialValue':ak(0x392),'values':[{'type':'token','tokens':[ak(0x34f),ak(0x233),ak(0x20f),ak(0x392),'inherit','initial',ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x1},{'name':ak(0x1e6),'displayName':ak(0x2ff),'presentationAttributeName':ak(0x1e6),'initialValue':'none','values':[{'type':ak(0x24c)},{'type':'token','tokens':[ak(0x392)]}],'appliesTo':[ak(0x26f),ak(0x245),ak(0x383),'path',ak(0x1e1),ak(0x2b1),ak(0x357),'image',ak(0x272),ak(0x215),'use','a','g',ak(0x2e7)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ak(0x31d),ak(0x1ed)]},{'name':ak(0x32c),'displayName':ak(0x230),'presentationAttributeName':null,'initialValue':'view-box','values':[{'type':ak(0x301),'tokens':[ak(0x216),ak(0x1b3),ak(0x2c3),ak(0x33a),ak(0x318)]}],'appliesTo':[ak(0x26f),'ellipse',ak(0x383),ak(0x1a3),ak(0x1e1),ak(0x2b1),ak(0x357),ak(0x2b2),'text','tspan',ak(0x38e),'a','g',ak(0x2e7)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x2c8),'displayName':ak(0x351),'presentationAttributeName':ak(0x2c8),'initialValue':ak(0x1a4),'values':[{'type':'token','tokens':['left',ak(0x261),'right',ak(0x31f),ak(0x169)]},{'type':ak(0x17e)}],'appliesTo':[ak(0x26f),ak(0x245),'line','path',ak(0x1e1),ak(0x2b1),'rect',ak(0x2b2),ak(0x272),ak(0x215),ak(0x38e),'a','g',ak(0x2e7)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'unicode-bidi','displayName':ak(0x338),'presentationAttributeName':ak(0x296),'initialValue':ak(0x1a2),'values':[{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x30d),ak(0x1b7),ak(0x337),'initial',ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ak(0x32b),'displayName':ak(0x199),'presentationAttributeName':ak(0x32b),'initialValue':'none','values':[{'type':ak(0x301),'tokens':[ak(0x29b),ak(0x392),ak(0x337),'initial',ak(0x380)]}],'appliesTo':[...l,'use'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'visibility','displayName':ak(0x365),'presentationAttributeName':'visibility','initialValue':ak(0x277),'values':[{'type':ak(0x301),'tokens':['visible',ak(0x1b6),ak(0x337),'initial',ak(0x380)]}],'appliesTo':[...l,ak(0x272),'textPath',ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x21d),'displayName':'#word-spacing','presentationAttributeName':ak(0x21d),'initialValue':ak(0x1a2),'values':[{'type':ak(0x292)},{'type':ak(0x17e)},{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x337),ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x1c7),ak(0x215)],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear','spline',ak(0x1ae)]},{'name':'white-space','displayName':'#white-space','presentationAttributeName':ak(0x1b9),'initialValue':'normal','values':[{'type':ak(0x301),'tokens':[ak(0x1a2),ak(0x201),ak(0x1be),'pre-wrap',ak(0x31a),ak(0x337),ak(0x349),'unset']}],'appliesTo':[ak(0x272),'textPath','tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ak(0x2a4),'displayName':ak(0x29f),'initialValue':'auto','values':[{'type':ak(0x301),'tokens':[ak(0x2ad),ak(0x1ad),ak(0x247),ak(0x1a9),ak(0x239),ak(0x1e6)]}],'appliesTo':['rect',ak(0x26f),ak(0x245),ak(0x383),ak(0x1a3),ak(0x1e1),ak(0x2b1),'image',ak(0x272),ak(0x215),'use',ak(0x2e7),'a','g',ak(0x371)],'inheritable':!0x0,'animatable':!0x1},{'name':ak(0x262),'displayName':ak(0x2c1),'presentationAttributeName':ak(0x262),'initialValue':ak(0x39c),'values':[{'type':'token','tokens':[ak(0x39c),ak(0x1d6),ak(0x395),'inherit',ak(0x349),ak(0x380)]}],'appliesTo':[ak(0x272),ak(0x215),'textPath'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]}];r[ak(0x397)](D=>D[ak(0x1f7)])[ak(0x1a9)](D=>D);let p=(D,E=0x0)=>{const al=ak;let F=Math[al(0x31b)](0xa,E);return Math[al(0x378)]((D+Number[al(0x354)])*F)/F;};const h={'arabic':ak(0x220),'bengali':'U+964-965,\x20U+981-9FB,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','cyrillic':'U+400-45F,\x20U+490-491,\x20U+4B0-4B1,\x20U+2116','cyrillic-ext':ak(0x2ed),'devanagari':'U+900-97F,\x20U+1CD0-1CF6,\x20U+1CF8-1CF9,\x20U+200C-200D,\x20U+20A8,\x20U+20B9,\x20U+25CC,\x20U+A830-A839,\x20U+A8E0-A8FB','greek':ak(0x25e),'greek-ext':ak(0x2ef),'gujarati':ak(0x246),'gurmukhi':ak(0x385),'hebrew':'U+590-5FF,\x20U+20AA,\x20U+25CC,\x20U+FB1D-FB4F','kannada':ak(0x2ce),'khmer':ak(0x18a),'latin':ak(0x322),'latin-ext':ak(0x36d),'malayalam':ak(0x2c4),'myanmar':ak(0x17c),'oriya':'U+964-965,\x20U+B01-B77,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','sinhala':'U+964-965,\x20U+D82-DF4,\x20U+200C-200D,\x20U+25CC','tamil':ak(0x37e),'thai':'U+E01-E5B,\x20U+200C-200D,\x20U+25CC','telugu':ak(0x21e),'tibetan':'U+F00-FFF,\x20U+200C-200D,\x20U+25CC','vietnamese':ak(0x2d6)};let m=document['createElement'](ak(0x334)),u=(D,...E)=>{const am=ak;let F=[];for(let I=0x0;I<D[am(0x17e)];I+=0x1)F[am(0x2c7)](D[I]),void 0x0!==E[I]&&F[am(0x2c7)](E[I]);let G=F[am(0x2b4)]('');m[am(0x1c5)]=G;let H=document[am(0x241)](m[am(0x1ad)],!0x0);return 0x1===H[am(0x1af)][am(0x17e)]?H[am(0x281)]:H;},c=(D,...E)=>{const an=ak;let F=[];for(let I=0x0;I<D['length'];I+=0x1)F['push'](D[I]),void 0x0!==E[I]&&F[an(0x2c7)](E[I]);let G=F[an(0x2b4)](''),H=new CSSStyleSheet();return H[an(0x2b8)](G),H;};new class{#e;#t=null;#i={};constructor(){const ao=ak;this.#e=new A(ao(0x1f8)),this.#e[ao(0x182)](0x1)['stores']({'cache':ao(0x2e5)});}[ak(0x226)](D='',E=ak(0x2a8),F=ak(0x19e),G='all',H='all'){return new Promise(async I=>{const ap=q;await this.#a();let J=[],K=this.#e['cache'];''!==D['trim']()&&(K=K[ap(0x1a9)](L=>L[ap(0x2e5)]['toLowerCase']()[ap(0x183)](D[ap(0x2d8)]()[ap(0x2e3)]()))),ap(0x19e)!==F&&(K=K[ap(0x1a9)](L=>L['category']===F)),ap(0x19e)!==G&&(K=K['filter'](L=>L['subsets']['includes'](G))),J=await K['toArray'](),'date'===E?J=J[ap(0x221)]((L,M)=>L['dateRank']>M[ap(0x191)]?-0x1:0x1):'popularity'===E?J=J[ap(0x221)]((L,M)=>L[ap(0x33b)]>M[ap(0x33b)]?-0x1:0x1):ap(0x2d5)===E&&(J=J[ap(0x221)]((L,M)=>L[ap(0x181)]>M[ap(0x181)]?-0x1:0x1)),'all'!==H&&(J=J[ap(0x1fa)](0x28*H,0x28*(H+0x1))),I(J);});}[ak(0x2c9)](){return new Promise(async(D,E)=>{const aq=q;let F;null===this.#t&&(this.#t=new B[(aq(0x295))]({'apiKey':aq(0x22b),'connectionTimeoutSeconds':0x5,'nodes':[{'host':aq(0x251),'port':aq(0x1cf),'protocol':aq(0x1ff)}]}));try{F=await this.#t[aq(0x235)]('googleFonts')[aq(0x2b7)]()[aq(0x382)]();}catch(H){return E(H);}let G=F[aq(0x335)]('\x0a')[aq(0x397)](I=>JSON[aq(0x310)](I))[aq(0x397)](I=>({'family':I[aq(0x2e5)],'faces':I['faces'],'category':I['category'],'subsets':I['subsets'],'license':I['license'],'thumbnail':I[aq(0x23a)],'urls':I['urls'],'dateRank':I[aq(0x191)],'popularityRank':I[aq(0x33b)],'trendingRank':I[aq(0x181)],'pageURL':aq(0x2e9)+I['id'],'cachedTime':Date[aq(0x1cc)]()}));await this.#e[aq(0x31c)][aq(0x1ef)](),await this.#e[aq(0x31c)][aq(0x243)](G),D();});}['getFontFaceRulesFromUrl'](D,E=!0x1){return new Promise(async F=>{const ar=q;let G=[];if(await this.#a(),E){let H=await this.#n(D);for(let I of H[ar(0x327)])I[ar(0x2da)]===CSSRule[ar(0x1f1)]&&G['push'](I);}else{let J=[],K=new URL(D),L=K[ar(0x2af)][ar(0x19d)](ar(0x218))||ar(0x2ad);if(D[ar(0x280)](ar(0x2f5))){let M=K[ar(0x2af)]['get'](ar(0x2e5));M[ar(0x335)]('|'),K[ar(0x2af)][ar(0x19d)](ar(0x270));let O={'regular':ar(0x1cb),'bold':ar(0x306),'italic':ar(0x2be),'bolditalic':ar(0x254),'r':ar(0x1cb),'b':ar(0x306),'i':ar(0x2be)};for(let P of M[ar(0x335)]('|')){let Q=[],[R,S]=P[ar(0x335)](':');for(let T of S['split'](','))T=O[T]||T,Q['push'](T);J[ar(0x2c7)]({'family':R,'faceNames':Q});}}else{if(D['startsWith'](ar(0x2a7))){let V=K[ar(0x2af)]['getAll']('family');for(let W of V){let [X,Y]=W[ar(0x335)](':');if(void 0x0===Y)J[ar(0x2c7)]({'family':X,'faceNames':[ar(0x1cb)]});else{let Z=[],[a0,a1]=Y[ar(0x335)]('@'),a2=a0[ar(0x335)](','),a3=a1[ar(0x335)](';');for(let a4 of a3){let a5={'wght':ar(0x1cb),'ital':'0'};for(let a6=0x0;a6<a2[ar(0x17e)];a6+=0x1){a5[a2[a6]]=a4[ar(0x335)](',')[a6];}Z[ar(0x2c7)](a5[ar(0x2ba)]+('1'===a5['ital']?ar(0x340):''));}J[ar(0x2c7)]({'family':X,'faceNames':Z});}}}}{let a7=this.#e['cache'];for(let {family:a8,faceNames:a9}of J){let aa=await a7[ar(0x19d)]({'family':a8});if(aa)for(let ab of a9){let ac=aa[ar(0x194)][ab];if(ac){let ad=ab[ar(0x24e)](0x0,0x3),ae=ab[ar(0x183)]('italic')?ar(0x340):ar(0x1a2),af=[];for(let ai of aa[ar(0x32f)])h[ai]&&af[ar(0x2c7)](h[ai]);0x0===af[ar(0x17e)]&&(af=ar(0x2a2));let ag=af[ar(0x2b4)](','),ah=c`
+import z from "/libs/xel/xel.js";
+import "/libs/color/color.js";
+import "/libs/css-parser/css-parser.js";
+import "/libs/paper/paper.js";
+import "/libs/seed-random/seed-random.js";
+import "/libs/dom-purify/dom-purify.js";
+import A from "/libs/dexie/dexie.js";
+import B from "/libs/typesense/typesense.js";
+import "/libs/pako/pako.js";
+const a = "http://www.w3.org/2000/svg";
+const n = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
+const o = ["text", "textPath", "tspan"];
+const l = [...n, ...o, "foreignObject", "image"];
+const s = [...n, ...o];
+const r = [
+  {
+    name: "alignment-baseline",
+    displayName: "#alignment-baseline",
+    presentationAttributeName: "alignment-baseline",
+    initialValue: "baseline",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "baseline",
+          "text-bottom",
+          "alphabetic",
+          "ideographic",
+          "middle",
+          "central",
+          "mathematical",
+          "text-top",
+          "bottom",
+          "center",
+          "top",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "baseline-shift",
+    displayName: "#baseline-shift",
+    presentationAttributeName: "baseline-shift",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["sub", "super", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-path",
+    displayName: "#clip-path",
+    presentationAttributeName: "clip-path",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "fill-box",
+          "stroke-box",
+          "view-box",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-rule",
+    displayName: "#clip-rule",
+    presentationAttributeName: "clip-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color",
+    displayName: "#color",
+    presentationAttributeName: "color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "color-interpolation",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation",
+    initialValue: "sRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "linearGradient",
+      "radialGradient",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color-interpolation-filters",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation-filters",
+    initialValue: "linearRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      "feBlend",
+      "feColorMatrix",
+      "feComponentTransfer",
+      "feComposite",
+      "feConvolveMatrix",
+      "feDiffuseLighting",
+      "feDisplacementMap",
+      "feDropShadow",
+      "feGaussianBlur",
+      "feMerge",
+      "feMorphology",
+      "feSpecularLighting",
+      "feTurbulence",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "cursor",
+    displayName: "#cursor",
+    presentationAttributeName: "cursor",
+    initialValue: "auto",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "context-menu",
+          "help",
+          "pointer",
+          "progress",
+          "wait ",
+          "cell",
+          "crosshair",
+          "text",
+          "vertical-text",
+          "alias",
+          "copy",
+          "move",
+          "no-drop",
+          "not-allowed",
+          "grab",
+          "grabbing",
+          "e-resize",
+          "n-resize",
+          "ne-resize",
+          "nw-resize",
+          "s-resize",
+          "se-resize",
+          "sw-resize",
+          "w-resize",
+          "ew-resize",
+          "ns-resize",
+          "nesw-resize",
+          "nwse-resize",
+          "col-resize",
+          "row-resize",
+          "all-scroll",
+          "zoom-in",
+          "zoom-out",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "direction",
+    displayName: "#direction",
+    presentationAttributeName: "direction",
+    initialValue: "ltr",
+    values: [
+      {
+        type: "token",
+        tokens: ["ltr", "rtl", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "display",
+    displayName: "#display",
+    presentationAttributeName: "display",
+    initialValue: "inline",
+    values: [
+      {
+        type: "token",
+        tokens: ["none", "inline", "block", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "textPath", "tspan", "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "dominant-baseline",
+    displayName: "#dominant-baseline",
+    presentationAttributeName: "dominant-baseline",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "use-script",
+          "no-change",
+          "reset-size",
+          "ideographic",
+          "alphabetic",
+          "hanging",
+          "mathematical",
+          "central",
+          "middle",
+          "text-after-edge",
+          "text-before-edge",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "fill",
+    displayName: "#fill",
+    presentationAttributeName: "fill",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-opacity",
+    displayName: "#fill-opacity",
+    presentationAttributeName: "fill-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-rule",
+    displayName: "#fill-rule",
+    presentationAttributeName: "fill-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "filter",
+    displayName: "#filter",
+    presentationAttributeName: "filter",
+    initialValue: "none",
+    values: [
+      {
+        type: "filter-function-list",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "textPath", "tspan", "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "flood-color",
+    displayName: "#flood-color",
+    presentationAttributeName: "flood-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "flood-opacity",
+    displayName: "#flood-opacity",
+    presentationAttributeName: "flood-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font",
+    displayName: "#font",
+    presentationAttributeName: "font",
+    initialValue: null,
+    values: [
+      {
+        type: "font",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-family",
+    displayName: "#font-family",
+    presentationAttributeName: "font-family",
+    initialValue: null,
+    values: [
+      {
+        type: "font-family",
+      },
+      {
+        type: "token",
+        tokens: [
+          "cursive",
+          "fantasy",
+          "monospace",
+          "sans-serif",
+          "serif",
+          "system-ui",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-size",
+    displayName: "#font-size",
+    presentationAttributeName: "font-size",
+    initialValue: "medium",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "xx-small",
+          "x-small",
+          "small",
+          "medium",
+          "large",
+          "x-large",
+          "xx-large",
+          "larger",
+          "smaller",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font-stretch",
+    displayName: "#font-stretch",
+    presentationAttributeName: "font-stretch",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "wider",
+          "narrower",
+          "ultra-condensed",
+          "extra-condensed",
+          "condensed",
+          "semi-condensed",
+          "semi-expanded",
+          "expanded",
+          "extra-expanded",
+          "ultra-expanded",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-style",
+    displayName: "#font-style",
+    presentationAttributeName: "font-style",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "italic", "oblique", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-variant",
+    displayName: "#font-variant",
+    presentationAttributeName: "font-variant",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "small-caps", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-weight",
+    displayName: "#font-weight",
+    presentationAttributeName: "font-weight",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "bold",
+          "bolder",
+          "lighter",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "image-rendering",
+    displayName: "#image-rendering",
+    presentationAttributeName: "image-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "pixelated",
+          "crisp-edges",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["image"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "isolation",
+    displayName: "#isolation",
+    presentationAttributeName: null,
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: ["isolate", "auto", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "letter-spacing",
+    displayName: "#letter-spacing",
+    presentationAttributeName: "letter-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "lighting-color",
+    displayName: "#lighting-color",
+    presentationAttributeName: "lighting-color",
+    initialValue: "#fff",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feDiffuseLighting", "feSpecularLighting"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "line-height",
+    displayName: "#line-height",
+    presentationAttributeName: "line-height",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "marker",
+    displayName: "#marker",
+    presentationAttributeName: "marker",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-start",
+    displayName: "#start-marker",
+    presentationAttributeName: "marker-start",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-mid",
+    displayName: "#mid-marker",
+    presentationAttributeName: "marker-mid",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-end",
+    displayName: "#end-marker",
+    presentationAttributeName: "marker-end",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mask",
+    displayName: "#mask",
+    presentationAttributeName: "mask",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mix-blend-mode",
+    displayName: "#blend-mode",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "multiply",
+          "screen",
+          "overlay",
+          "darken",
+          "lighten",
+          "color-dodge",
+          "color-burn",
+          "hard-light",
+          "soft-light",
+          "difference",
+          "exclusion",
+          "hue",
+          "saturation",
+          "color",
+          "luminosity",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "opacity",
+    displayName: "#opacity",
+    presentationAttributeName: "opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "overflow",
+    displayName: "#overflow",
+    presentationAttributeName: "overflow",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "visible",
+          "hidden",
+          "scroll",
+          "auto",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["svg", "symbol", "pattern", "marker", "image"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "paint-order",
+    displayName: "#paint-order",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal"],
+      },
+      {
+        type: "token-list",
+        tokens: ["fill", "stroke", "markers"],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...s],
+    animatable: false,
+  },
+  {
+    name: "pointer-events",
+    displayName: "#pointer-events",
+    presentationAttributeName: "pointer-events",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "bounding-box",
+          "visiblePainted",
+          "visibleFill",
+          "visibleStroke",
+          "visible",
+          "painted",
+          "fill",
+          "stroke",
+          "all",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "shape-rendering",
+    displayName: "#shape-rendering",
+    presentationAttributeName: "shape-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "crispEdges",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stop-color",
+    displayName: "#stop-color",
+    presentationAttributeName: "stop-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stop-opacity",
+    displayName: "#stop-opacity",
+    presentationAttributeName: "stop-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke",
+    displayName: "#stroke",
+    presentationAttributeName: "stroke",
+    initialValue: "none",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-dasharray",
+    displayName: "#stroke-dash-array",
+    presentationAttributeName: "stroke-dasharray",
+    initialValue: "none",
+    values: [
+      {
+        type: "dasharray",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "stroke-dashoffset",
+    displayName: "#stroke-dash-offset",
+    presentationAttributeName: "stroke-dashoffset",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-linecap",
+    displayName: "#stroke-line-cap",
+    presentationAttributeName: "stroke-linecap",
+    initialValue: "butt",
+    values: [
+      {
+        type: "token",
+        tokens: ["butt", "round", "square", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-linejoin",
+    displayName: "#stroke-line-join",
+    presentationAttributeName: "stroke-linejoin",
+    initialValue: "miter",
+    values: [
+      {
+        type: "token",
+        tokens: ["miter", "round", "bevel", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-miterlimit",
+    displayName: "#stroke-miter-limit",
+    presentationAttributeName: "stroke-miterlimit",
+    initialValue: "4",
+    values: [
+      {
+        type: "number",
+        min: 1,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-opacity",
+    displayName: "#stroke-opacity",
+    presentationAttributeName: "stroke-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-width",
+    displayName: "#stroke-width",
+    presentationAttributeName: "stroke-width",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "text-anchor",
+    displayName: "#text-anchor",
+    presentationAttributeName: "text-anchor",
+    initialValue: "start",
+    values: [
+      {
+        type: "token",
+        tokens: ["start", "middle", "end", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-decoration",
+    displayName: "#text-decoration",
+    presentationAttributeName: "text-decoration",
+    initialValue: "none",
+    values: [
+      {
+        type: "token-list",
+        tokens: ["underline", "overline", "line-through"],
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-rendering",
+    displayName: "#text-rendering",
+    presentationAttributeName: "text-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "optimizeLegibility",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-transform",
+    displayName: "#text-transform",
+    presentationAttributeName: null,
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "capitalize",
+          "uppercase",
+          "lowercase",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "transform",
+    displayName: "#transform",
+    presentationAttributeName: "transform",
+    initialValue: "none",
+    values: [
+      {
+        type: "transform-list",
+      },
+      {
+        type: "token",
+        tokens: ["none"],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "transform-box",
+    displayName: "#transform-box",
+    presentationAttributeName: null,
+    initialValue: "view-box",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "content-box",
+          "border-box",
+          "fill-box",
+          "stroke-box",
+          "view-box",
+        ],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "transform-origin",
+    displayName: "#transform-origin",
+    presentationAttributeName: "transform-origin",
+    initialValue: "0 0",
+    values: [
+      {
+        type: "token",
+        tokens: ["left", "center", "right", "top", "bottom"],
+      },
+      {
+        type: "length",
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "unicode-bidi",
+    displayName: "#unicode-bidi",
+    presentationAttributeName: "unicode-bidi",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "embed",
+          "bidi-override",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "vector-effect",
+    displayName: "#vector-effect",
+    presentationAttributeName: "vector-effect",
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: ["non-scaling-stroke", "none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "visibility",
+    displayName: "#visibility",
+    presentationAttributeName: "visibility",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: ["visible", "hidden", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "word-spacing",
+    displayName: "#word-spacing",
+    presentationAttributeName: "word-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "white-space",
+    displayName: "#white-space",
+    presentationAttributeName: "white-space",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "pre",
+          "nowrap",
+          "pre-wrap",
+          "pre-line",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "will-change",
+    displayName: "#will-change",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "content",
+          "mix-blend-mode",
+          "filter",
+          "opacity",
+          "transform",
+        ],
+      },
+    ],
+    appliesTo: [
+      "rect",
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "svg",
+      "a",
+      "g",
+      "foreignObject",
+    ],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "writing-mode",
+    displayName: "#writing-mode",
+    presentationAttributeName: "writing-mode",
+    initialValue: "horizontal-tb",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "horizontal-tb",
+          "vertical-lr",
+          "vertical-rl",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+];
+r.map((D) => D.presentationAttributeName).filter((D) => D);
+let p = (D, E = 0) => {
+  let F = Math.pow(10, E);
+  return Math.round((D + Number.EPSILON) * F) / F;
+};
+const h = {
+  arabic:
+    "U+600-6FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC",
+  bengali: "U+964-965, U+981-9FB, U+200C-200D, U+20B9, U+25CC",
+  cyrillic: "U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+  "cyrillic-ext":
+    "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+  devanagari:
+    "U+900-97F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB",
+  greek: "U+370-3FF",
+  "greek-ext": "U+1F00-1FFF",
+  gujarati: "U+964-965, U+A80-AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839",
+  gurmukhi:
+    "U+964-965, U+A01-A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839",
+  hebrew: "U+590-5FF, U+20AA, U+25CC, U+FB1D-FB4F",
+  kannada: "U+964-965, U+C82-CF2, U+200C-200D, U+20B9, U+25CC",
+  khmer: "U+1780-17FF, U+200C, U+25CC",
+  latin:
+    "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+  "latin-ext":
+    "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+  malayalam: "U+307, U+323, U+964-965, U+D02-D7F, U+200C-200D, U+20B9, U+25CC",
+  myanmar: "U+1000-109F, U+200C-200D, U+25CC",
+  oriya: "U+964-965, U+B01-B77, U+200C-200D, U+20B9, U+25CC",
+  sinhala: "U+964-965, U+D82-DF4, U+200C-200D, U+25CC",
+  tamil: "U+964-965, U+B82-BFA, U+200C-200D, U+20B9, U+25CC",
+  thai: "U+E01-E5B, U+200C-200D, U+25CC",
+  telugu: "U+951-952, U+964-965, U+C00-C7F, U+1CDA, U+200C-200D, U+25CC",
+  tibetan: "U+F00-FFF, U+200C-200D, U+25CC",
+  vietnamese:
+    "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+};
+let m = document.createElement("template");
+let u = (D, ...E) => {
+  let F = [];
+  for (let I = 0; I < D.length; I += 1) {
+    F.push(D[I]);
+    if (E[I] !== undefined) {
+      F.push(E[I]);
+    }
+  }
+  let G = F.join("");
+  m.innerHTML = G;
+  let H = document.importNode(m.content, true);
+  if (H.children.length === 1) {
+    return H.firstElementChild;
+  } else {
+    return H;
+  }
+};
+let c = (D, ...E) => {
+  let F = [];
+  for (let I = 0; I < D.length; I += 1) {
+    F.push(D[I]);
+    if (E[I] !== undefined) {
+      F.push(E[I]);
+    }
+  }
+  let G = F.join("");
+  let H = new CSSStyleSheet();
+  H.replaceSync(G);
+  return H;
+};
+new (class {
+  #e;
+  #t = null;
+  #i = {};
+  constructor() {
+    this.#e = new A("GoogleFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+  }
+  search(D = "", E = "alphabetical", F = "all", G = "all", H = "all") {
+    return new Promise(async (I) => {
+      await this.#a();
+      let J = [];
+      let K = this.#e.cache;
+      if (D.trim() !== "") {
+        K = K.filter((L) =>
+          L.family.toLowerCase().includes(D.trim().toLowerCase())
+        );
+      }
+      if (F !== "all") {
+        K = K.filter((L) => L.category === F);
+      }
+      if (G !== "all") {
+        K = K.filter((L) => L.subsets.includes(G));
+      }
+      J = await K.toArray();
+      if (E === "date") {
+        J = J.sort((L, M) => (L.dateRank > M.dateRank ? -1 : 1));
+      } else if (E === "popularity") {
+        J = J.sort((L, M) => (L.popularityRank > M.popularityRank ? -1 : 1));
+      } else if (E === "trending") {
+        J = J.sort((L, M) => (L.trendingRank > M.trendingRank ? -1 : 1));
+      }
+      if (H !== "all") {
+        J = J.slice(H * 40, (H + 1) * 40);
+      }
+      I(J);
+    });
+  }
+  refresh() {
+    return new Promise(async (D, E) => {
+      let F;
+      if (this.#t === null) {
+        this.#t = new B.Client({
+          apiKey: "ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL",
+          connectionTimeoutSeconds: 5,
+          nodes: [
+            {
+              host: "92f3tewguhsn8o0qp.a1.typesense.net",
+              port: "443",
+              protocol: "https",
+            },
+          ],
+        });
+      }
+      try {
+        F = await this.#t.collections("googleFonts").documents().export();
+      } catch (H) {
+        return E(H);
+      }
+      let G = F.split("\n")
+        .map((I) => JSON.parse(I))
+        .map((I) => ({
+          family: I.family,
+          faces: I.faces,
+          category: I.category,
+          subsets: I.subsets,
+          license: I.license,
+          thumbnail: I.thumbnail,
+          urls: I.urls,
+          dateRank: I.dateRank,
+          popularityRank: I.popularityRank,
+          trendingRank: I.trendingRank,
+          pageURL: "https://fonts.google.com/specimen/" + I.id,
+          cachedTime: Date.now(),
+        }));
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(G);
+      D();
+    });
+  }
+  getFontFaceRulesFromUrl(D, E = false) {
+    return new Promise(async (F) => {
+      let G = [];
+      await this.#a();
+      if (E) {
+        let H = await this.#n(D);
+        for (let I of H.cssRules) {
+          if (I.type === CSSRule.FONT_FACE_RULE) {
+            G.push(I);
+          }
+        }
+      } else {
+        let J = [];
+        let K = new URL(D);
+        let L = K.searchParams.get("display") || "auto";
+        if (D.startsWith("https://fonts.googleapis.com/css?")) {
+          let M = K.searchParams.get("family");
+          M.split("|");
+          K.searchParams.get("subset");
+          let O = {
+            regular: "400",
+            bold: "700",
+            italic: "400italic",
+            bolditalic: "700italic",
+            r: "400",
+            b: "700",
+            i: "400italic",
+          };
+          for (let P of M.split("|")) {
+            let Q = [];
+            let [R, S] = P.split(":");
+            for (let T of S.split(",")) {
+              T = O[T] || T;
+              Q.push(T);
+            }
+            J.push({
+              family: R,
+              faceNames: Q,
+            });
+          }
+        } else if (D.startsWith("https://fonts.googleapis.com/css2?")) {
+          let V = K.searchParams.getAll("family");
+          for (let W of V) {
+            let [X, Y] = W.split(":");
+            if (Y === undefined) {
+              J.push({
+                family: X,
+                faceNames: ["400"],
+              });
+            } else {
+              let Z = [];
+              let [a0, a1] = Y.split("@");
+              let a2 = a0.split(",");
+              let a3 = a1.split(";");
+              for (let a4 of a3) {
+                let a5 = {
+                  wght: "400",
+                  ital: "0",
+                };
+                for (let a6 = 0; a6 < a2.length; a6 += 1) {
+                  a5[a2[a6]] = a4.split(",")[a6];
+                }
+                Z.push(a5.wght + (a5.ital === "1" ? "italic" : ""));
+              }
+              J.push({
+                family: X,
+                faceNames: Z,
+              });
+            }
+          }
+        }
+        {
+          let a7 = this.#e.cache;
+          for (let { family: a8, faceNames: a9 } of J) {
+            let aa = await a7.get({
+              family: a8,
+            });
+            if (aa) {
+              for (let ab of a9) {
+                let ac = aa.urls[ab];
+                if (ac) {
+                  let ad = ab.substring(0, 3);
+                  let ae = ab.includes("italic") ? "italic" : "normal";
+                  let af = [];
+                  for (let ai of aa.subsets) {
+                    if (h[ai]) {
+                      af.push(h[ai]);
+                    }
+                  }
+                  if (af.length === 0) {
+                    af = "U+0-10FFFF";
+                  }
+                  let ag = af.join(",");
+                  let ah = c`
                     @font-face {
                       font-family: "${a8}";
                       font-style: ${ae};
@@ -7,8 +1798,316 @@ const ak=q;(function(D,E){const aj=q,F=D();while(!![]){try{const G=-parseInt(aj(
                       font-unicode-range: ${ag};
                       src: url(${ac});
                     }
-                  `;G['push'](ah[ar(0x327)][0x0]);}}}}}F(G);});}[ak(0x34b)](D){return new Promise(async E=>{const as=q;await this.#a(),E((await this.#e[as(0x31c)][as(0x323)](as(0x2e5))[as(0x2dd)](D)[as(0x33d)]())[0x0]||null);});}#n(D){return new Promise(async E=>{const at=q;let F=null;if(this.#i[D])F=this.#i[D];else{let G=await fetch(D),H=await G[at(0x272)]();F=new CSSStyleSheet(),F[at(0x2b8)](H),this.#i[D]=F;}E(F);});}#a(){return new Promise(async D=>{const au=q;let E=await this.#e[au(0x31c)][au(0x1a8)](),F=!0x0;if(E>0x0){let G=await this.#e[au(0x31c)][au(0x19d)](au(0x27d));if(G){let H=0x4d3f6400;F=Date[au(0x1cc)]()-G['cachedTime']>H;}}0x0!==E&&!0x0!==F||await this[au(0x2c9)](),D();});}}(),[ak(0x190),ak(0x266)][ak(0x183)](navigator['platform'])||navigator[ak(0x315)][ak(0x280)]('Mac');const d=navigator[ak(0x305)][ak(0x202)]('Safari/')>-0x1&&-0x1===navigator[ak(0x305)][ak(0x202)](ak(0x1e8));null!==window['frameElement']||document[ak(0x1ca)][ak(0x16f)][ak(0x39d)];function q(a,b){const c=j();return q=function(d,e){d=d-0x166;let f=c[d];return f;},q(a,b);}function j(){const bo=['number','alphabetic','col-resize','Client','unicode-bidi','bx-vectorizegenerator:ignoreWhite','hard-light','hairline','crispEdges','non-scaling-stroke','\x0a\x20\x20','#stop-opacity','#stroke','#will-change','init','#preset-select','U+0-10FFFF','x-large','will-change','#min-color-ratio-input','#lighting-color','https://fonts.googleapis.com/css2?','alphabetical','#stroke-dash-offset','feGaussianBlur','localName','#stop-color','auto','feBlend','searchParams','#color','polyline','image','color','join','thin','m13','documents','replaceSync','getFamilyWeights','wght','#tracing-heading','dominant-baseline','monospace','400italic','#mid-marker','#color-quant-cycles-heading','#writing-mode','21541170zvvrxb','fill-box','U+307,\x20U+323,\x20U+964-965,\x20U+D02-D7F,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','#direction','xx-large','push','transform-origin','refresh','rightAngleEnhance','lineFilter','not-allowed','replaceAll','U+964-965,\x20U+C82-CF2,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','disconnectedCallback','minColorRatio','bold','marker-end','stroke-width','darken','trending','U+102-103,\x20U+110-111,\x20U+128-129,\x20U+168-169,\x20U+1A0-1A1,\x20U+1AF-1B0,\x20U+1EA0-1EF9,\x20U+20AB','bx-editor','trim','4340275akMOyF','type','#color-sampling-heading','getCacheSize','equals','data','preview','semibold','#display','isolation','toLowerCase','overflow','family','#working-size-heading','svg','wider','https://fonts.google.com/specimen/','#font-stretch','createElementNS','bx-vectorizegenerator:qtres','U+460-52F,\x20U+1C80-1C88,\x20U+20B4,\x20U+2DE0-2DFF,\x20U+A640-A69F,\x20U+FE2E-FE2F','workingSize','U+1F00-1FFF','#dominant-baseline','font-stretch','transformPrecision','baseline-shift','bx-vectorizegenerator:numberOfColors','https://fonts.googleapis.com/css?','lighter','outermostSelectedObjectElements','#clip-rule','evenodd','local-fonts','#fff','extralight','feDiffuseLighting','reset-size','#transform','stroke-linejoin','token','#working-size-slider','m14','text-anchor','userAgent','700','changeend','bx-vectorizegenerator:workingSize','bx-vectorizegenerator:blurDelta','entries','colorSampling','name','embed','#shape-rendering','m21','parse','click','gradientTransform','small-caps','hue','platform','#min-color-ratio-heading','removeAttribute','view-box','#mask','pre-line','pow','cache','linear','#marker','top','bx-vectorizegenerator:rightAngleEnhance','bx-vectorizegenerator:blurRadius','U+0-FF,\x20U+131,\x20U+152-153,\x20U+2BB-2BC,\x20U+2C6,\x20U+2DA,\x20U+2DC,\x20U+2000-206F,\x20U+2074,\x20U+20AC,\x20U+2122,\x20U+2191,\x20U+2193,\x20U+2212,\x20U+2215,\x20U+FEFF,\x20U+FFFD','where','grabbing','no-drop','serif','cssRules','feDropShadow','black','changestart','vector-effect','transform-box','undoManager','#baseline-shift','subsets','checkpoint','optimizeLegibility','stores','#font-family','template','split','text-transform','inherit','#unicode-bidi','#color-interpolation','stroke-box','popularityRank','fill','toArray','#preprocessing-heading','matrix','italic','#color-quant-cycles-input','feConvolveMatrix','#stroke-width-slider','disabled','part','mask','scroll','2924456dhgYog','initial','percentage','getFamilyDescriptor','shadowRoot','colorQuantCycles','#alignment-baseline','capitalize','demibold','#transform-origin','options','createImageBitmap','EPSILON','w-resize','queryLocalFonts','rect','stroke-dashoffset','#stroke-dash-array','http://www.w3.org/2000/svg','multiply','sRGB','granted','selectedelementschange','text-top','bx-vectorizegenerator:pathOmit','stroke-linecap','feComponentTransfer','x-small','rtl','#visibility','currentColor','replaceWith','mathematical','viewBox','crosshair','#qtres-input','pointer-events','U+100-24F,\x20U+259,\x20U+1E00-1EFF,\x20U+2020,\x20U+20A0-20AB,\x20U+20AD-20CF,\x20U+2113,\x20U+2C60-2C7F,\x20U+A720-A7FF','xx-small','is2D','ltres','foreignObject','paint-order','selectedElements','progress','text-before-edge','m12','flood-opacity','round','super','workspacemutation','querySelectorAll','500','feComposite','U+964-965,\x20U+B82-BFA,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','extra-condensed','unset','token-list','export','line','url','U+964-965,\x20U+A01-A75,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+262C,\x20U+A830-A839','#fill','symbol','find','optimizeSpeed','letter-spacing','bx-vectorizegenerator:lineFilter','#blur-radius-input','luminosity','use','filter-function-list','#number-of-colors-input','radialGradient','none','getRootNode','#path-omit-heading','vertical-rl','computedStyleMap','map','#000','visibleStroke','strokeWidth','1307445JwSscz','horizontal-tb','app','addEventListener','403199OdVRUx','1452924Yxxnxn','_shadowStyleSheet','ultra-condensed','m42','600','bottom','change','#path-omit-input','style','expanded','#preview-button','dataset','#stroke-opacity','bounding-box','permissions','nonzero','fill-rule','fantasy','ignoreWhite','clip-rule','165310xGBjcR','font','font-weight','bolder','U+1000-109F,\x20U+200C-200D,\x20U+25CC','markers','length','help','lighten','trendingRank','version','includes','feFlood','#line-filter-checkbox','m11','div','square','feMorphology','U+1780-17FF,\x20U+200C,\x20U+25CC','small','start','postMessage','appliesTo','text-decoration','iPhone','dateRank','query','#generators-panel','urls','setConfig','#filter','#ltres-input','multiplySelf','#vector-effect','#preview-label','#footer','heavy','get','all','attachShadow','offscreen-container','feDisplacementMap','normal','path','0\x200','sans-serif','hanging','#options-heading','count','filter','append','ne-resize','#blur-delta-heading','content','paced','children','getBoundingClientRect','getLocalFontsMetadata','stroke','border-box','#end-marker','medium','hidden','bidi-override','firstChild','white-space','<x-message\x20href=\x22#generating-preview\x22\x20ellipsis></x-message>','300','pathOmit','stop-opacity','nowrap','semi-expanded','se-resize','message','state','#line-height','consolidate','innerHTML','no-permission','textPath','pixelated','#stroke-line-cap','body','400','now','getConfig','marker-mid','443','toString','closed','qtres','toMatrix','text-bottom','#preview','vertical-lr','#qtres-heading','ultralight','system-ui','setProperty','m44','isConnected','#color-sampling-buttons','#isolation','copy','m34','polygon','text\x20a','patternTransform','toggled','marker-start','transform','querySelector','Chrome','sub','define','m22','isolate','spline','light','clear','#start-marker','FONT_FACE_RULE','stroke-opacity','ideographic','m24','then','bx-vectorizegenerator:ltres','presentationAttributeName','GoogleFontsManager','ltr','slice','#fill-opacity','alignment-baseline','m43','#rendering-heading','https','feTurbulence','pre','indexOf','#right-angle-enhance-checkbox','m41','dasharray','grab','baseVal','host','#font-style','isIdentity','ns-resize','marker','#pointer-events','#blur-delta-input','lowercase','#text-transform','#blend-mode','central','screen','getPropertyValue','tspan','content-box','#stroke-width-heading','display','lighting-color','removeEventListener','narrower','context-menu','word-spacing','U+951-952,\x20U+964-965,\x20U+C00-C7F,\x20U+1CDA,\x20U+200C-200D,\x20U+25CC','smaller','U+600-6FF,\x20U+200C-200E,\x20U+2010-2011,\x20U+204F,\x20U+2E41,\x20U+FB50-FDFF,\x20U+FE80-FEFC','sort','#working-size-box','bx-vectorizegenerator:strokeWidth','#flood-color','value','search','overline','fill-opacity','image-rendering','pattern','ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL','color-interpolation-filters','status','bx-vectorizegenerator:minColorRatio','font-size','#transform-box','clip-path','flood-color','uppercase','line-height','collections','bx-vectorizegenerator:colorSampling','connectedCallback','target','opacity','thumbnail','#fill-rule','overlay','height','crisp-edges','font-variant','#stroke-width-box','importNode','#text-rendering','bulkPut','difference','ellipse','U+964-965,\x20U+A80-AFF,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+A830-A839','mix-blend-mode','900','faces','blurRadius','closest','transform-list','shape-rendering','substring','childElementCount','underline','92f3tewguhsn8o0qp.a1.typesense.net','exclusion','toggle','700italic','ultra-expanded','#preview-heading','color-burn','fromMatrix','linearGradient','#stroke-line-join','move','removeProperty','board','U+370-3FF','cursor','parentNode','center','writing-mode','#stroke-width-input','butt','numberOfColors','iPad','oblique','#ignore-white-checkbox','middle','linearRGB','adoptedStyleSheets','stop-color','use-script','all-scroll','circle','subset','#image-rendering','text','miter','scaleSelf','bx-vectorizegenerator','stop','visible','svg:g','setAttribute','#text-anchor','ultrabold','width','Roboto','[id]','stroke-miterlimit','startsWith','firstElementChild','class','semi-condensed','painted','#working-size-input','tabindex','remove','direction','#generate-button','100','#right-angle-enhance-label','#blur-radius-heading','stroke-dasharray','vertical-text','#stroke-width','color-interpolation','#opacity'];j=function(){return bo;};return j();}let b=(D,E,F)=>D[ak(0x335)](E)['join'](F),g=D=>{const av=ak;D=D[av(0x2e3)](),D=b(D,'\x20',''),D=b(D,'-','');let E=av(0x1cb);return(D=b(D,'_',''))[av(0x183)](av(0x2b5))||D[av(0x183)](av(0x299))?E=av(0x28a):D[av(0x183)](av(0x2fc))||D[av(0x183)](av(0x1d8))?E='200':D[av(0x183)](av(0x1ee))?E=av(0x1bb):D[av(0x183)](av(0x1b5))?E=av(0x37c):D[av(0x183)](av(0x2e0))||D[av(0x183)](av(0x350))?E=av(0x168):D[av(0x183)]('extrabold')||D[av(0x183)](av(0x27b))?E='800':D[av(0x183)](av(0x2d1))?E=av(0x306):(D['includes'](av(0x329))||D['includes'](av(0x19c)))&&(E=av(0x248)),E;},x=D=>{const aw=ak;D=D[aw(0x2e3)](),D=b(D,'\x20',''),D=b(D,'-','');let E='normal';return(D=b(D,'_',''))[aw(0x183)]('italic')?E=aw(0x340):D[aw(0x183)]('oblique')&&(E=aw(0x267)),E;};new class extends EventTarget{#o=ak(0x2a0);#l=[];#e;get[ak(0x22d)](){return this.#o;}constructor(){const ax=ak;super(),this.#e=new A('LocalFontsManager'),this.#e[ax(0x182)](0x1)['stores']({'cache':'family'}),this.#e[ax(0x182)](0x2)[ax(0x332)]({'cache':'family'})['upgrade'](D=>D['cache'][ax(0x1ef)]()),void 0x0===window[ax(0x356)]?this.#o='no-api':navigator[ax(0x172)][ax(0x192)]({'name':ax(0x2fa)})[ax(0x1f5)](D=>{const ay=ax;ay(0x35d)===D[ay(0x1c2)]?this[ay(0x2c9)]():'prompt'!==D[ay(0x1c2)]&&(this.#o=ay(0x1c6));});}[ak(0x226)](D='',E=ak(0x19e)){return new Promise(async F=>{const az=q;let G=[],H=this.#e[az(0x31c)];''!==D[az(0x2d8)]()&&(H=H[az(0x1a9)](I=>I[az(0x2e5)][az(0x2e3)]()['includes'](D[az(0x2d8)]()[az(0x2e3)]()))),G=await H['toArray'](),az(0x19e)!==E&&(G=G[az(0x1fa)](0x28*E,0x28*(E+0x1))),F(G);});}[ak(0x2c9)](){return new Promise(async(D,E)=>{const aA=q;let F;try{F=await this[aA(0x1b1)](!0x0);}catch(H){return E(H);}let G=[];for(let I of F){let J=g(I[aA(0x16c)])+(aA(0x340)===x(I[aA(0x16c)])?'i':''),K=G[aA(0x388)](L=>L[aA(0x2e5)]===I[aA(0x2e5)]);if(K)!0x1===K[aA(0x249)][aA(0x183)](J)&&K[aA(0x249)][aA(0x2c7)](J);else{let L={'family':I[aA(0x2e5)],'faces':[J]};G[aA(0x2c7)](L);}}for(let M of G)M[aA(0x249)][aA(0x221)]();await this.#e['cache'][aA(0x1ef)](),await this.#e[aA(0x31c)][aA(0x243)](G),this.#o='ready',D();});}[ak(0x1b1)](D=!0x1){return new Promise(async(E,F)=>{const aB=q;if('no-api'===this[aB(0x22d)])E([]);else{if(this.#l['length']<0xa||D)try{this.#l=await window[aB(0x356)]();}catch(G){return F({'message':G[aB(0x1c1)],'name':G[aB(0x30c)]});}E(this.#l);}});}[ak(0x2dc)](){return new Promise(async D=>{const aC=q;D(await this.#e[aC(0x31c)]['count']());});}[ak(0x34b)](D){return new Promise(async E=>{const aD=q;E((await this.#e[aD(0x31c)][aD(0x323)]('family')[aD(0x2dd)](D)[aD(0x33d)]())[0x0]||null);});}[ak(0x2b9)](D){return new Promise(async E=>{const aE=q;let F=await this['getFamilyDescriptor'](D);if(F){let G=new Set();for(let H of F[aE(0x249)]){let I=H[aE(0x24e)](0x0,0x3);G['add'](I);}E([...G]);}else E([aE(0x1cb)]);});}}();let f=(D,E)=>D[ak(0x36f)]?new DOMMatrix([p(D['a'],E),p(D['b'],E),p(D['c'],E),p(D['d'],E),p(D['e'],E),p(D['f'],E)]):new DOMMatrix([p(D[ak(0x186)],E),p(D[ak(0x376)],E),p(D[ak(0x2b6)],E),p(D[ak(0x303)],E),p(D[ak(0x30f)],E),p(D[ak(0x1eb)],E),p(D['m23'],E),p(D[ak(0x1f4)],E),p(D['m31'],E),p(D['m32'],E),p(D['m33'],E),p(D[ak(0x1e0)],E),p(D[ak(0x204)],E),p(D[ak(0x167)],E),p(D[ak(0x1fd)],E),p(D[ak(0x1db)],E)]);const y='\x0a\x20\x20position:\x20fixed;\x0a\x20\x20top:\x20-1px;\x0a\x20\x20left:\x20-1px;\x0a\x20\x20width:\x201px;\x0a\x20\x20height:\x201px;\x0a\x20\x20contain:\x20strict;\x0a\x20\x20overflow:\x20hidden;\x0a'[ak(0x2cd)](ak(0x29c),'');class k{#s;#r;get['shadowRoot'](){const aF=ak;return this.#s[aF(0x34c)];}constructor(D){const aG=ak;this.#r=D,this.#s=document['createElement'](aG(0x187)),this.#s[aG(0x279)](aG(0x16c),y),this.#s[aG(0x279)](aG(0x282),aG(0x1a0)),this.#s['attachShadow']({'mode':'open'}),this.#s[aG(0x34c)]['append'](D),document[aG(0x1ca)][aG(0x1aa)](this.#s);}['destroy'](){const aH=ak;this.#r[aH(0x260)]===this.#s[aH(0x34c)]&&this.#r['remove'](),this.#s[aH(0x287)](),this.#s=null;}}document[ak(0x2eb)](ak(0x35a),ak(0x2e7));let v=D=>{const aI=ak;let E=document['createDocumentFragment'](),F=document[aI(0x2eb)](a,aI(0x2e7));for(F[aI(0x1c5)]=D;F[aI(0x1b8)];)E[aI(0x1aa)](F[aI(0x1b8)]);return E[aI(0x24f)]>0x1?E:0x1===E[aI(0x24f)]?E['children'][0x0]:null;},w=(D,E,F=!0x0)=>{const aJ=ak;let G=D[aJ(0x24b)](E);return F&&!G&&D[aJ(0x393)]()[aJ(0x208)]?w(D[aJ(0x393)]()['host'],E):G;};class C extends HTMLElement{static #p=u` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
-  `;static #h=c`
+                  `;
+                  G.push(ah.cssRules[0]);
+                }
+              }
+            }
+          }
+        }
+      }
+      F(G);
+    });
+  }
+  getFamilyDescriptor(D) {
+    return new Promise(async (E) => {
+      await this.#a();
+      E((await this.#e.cache.where("family").equals(D).toArray())[0] || null);
+    });
+  }
+  #n(D) {
+    return new Promise(async (E) => {
+      let F = null;
+      if (this.#i[D]) {
+        F = this.#i[D];
+      } else {
+        let G = await fetch(D);
+        let H = await G.text();
+        F = new CSSStyleSheet();
+        F.replaceSync(H);
+        this.#i[D] = F;
+      }
+      E(F);
+    });
+  }
+  #a() {
+    return new Promise(async (D) => {
+      let E = await this.#e.cache.count();
+      let F = true;
+      if (E > 0) {
+        let G = await this.#e.cache.get("Roboto");
+        if (G) {
+          let H = 1296000000;
+          F = Date.now() - G.cachedTime > H;
+        }
+      }
+      if (E === 0 || F === true) {
+        await this.refresh();
+      }
+      D();
+    });
+  }
+})();
+if (!["iPhone", "iPad"].includes(navigator.platform)) {
+  navigator.platform.startsWith("Mac");
+}
+const d =
+  navigator.userAgent.indexOf("Safari/") > -1 &&
+  navigator.userAgent.indexOf("Chrome") === -1;
+if (window.frameElement === null) {
+  document.body.dataset.app;
+}
+let b = (D, E, F) => D.split(E).join(F);
+let g = (D) => {
+  D = D.toLowerCase();
+  D = b(D, " ", "");
+  D = b(D, "-", "");
+  let E = "400";
+  if ((D = b(D, "_", "")).includes("thin") || D.includes("hairline")) {
+    E = "100";
+  } else if (D.includes("extralight") || D.includes("ultralight")) {
+    E = "200";
+  } else if (D.includes("light")) {
+    E = "300";
+  } else if (D.includes("medium")) {
+    E = "500";
+  } else if (D.includes("semibold") || D.includes("demibold")) {
+    E = "600";
+  } else if (D.includes("extrabold") || D.includes("ultrabold")) {
+    E = "800";
+  } else if (D.includes("bold")) {
+    E = "700";
+  } else if (D.includes("black") || D.includes("heavy")) {
+    E = "900";
+  }
+  return E;
+};
+let x = (D) => {
+  D = D.toLowerCase();
+  D = b(D, " ", "");
+  D = b(D, "-", "");
+  let E = "normal";
+  if ((D = b(D, "_", "")).includes("italic")) {
+    E = "italic";
+  } else if (D.includes("oblique")) {
+    E = "oblique";
+  }
+  return E;
+};
+new (class extends EventTarget {
+  #o = "init";
+  #l = [];
+  #e;
+  get status() {
+    return this.#o;
+  }
+  constructor() {
+    super();
+    this.#e = new A("LocalFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+    this.#e
+      .version(2)
+      .stores({
+        cache: "family",
+      })
+      .upgrade((D) => D.cache.clear());
+    if (window.queryLocalFonts === undefined) {
+      this.#o = "no-api";
+    } else {
+      navigator.permissions
+        .query({
+          name: "local-fonts",
+        })
+        .then((D) => {
+          if (D.state === "granted") {
+            this.refresh();
+          } else if (D.state !== "prompt") {
+            this.#o = "no-permission";
+          }
+        });
+    }
+  }
+  search(D = "", E = "all") {
+    return new Promise(async (F) => {
+      let G = [];
+      let H = this.#e.cache;
+      if (D.trim() !== "") {
+        H = H.filter((I) =>
+          I.family.toLowerCase().includes(D.trim().toLowerCase())
+        );
+      }
+      G = await H.toArray();
+      if (E !== "all") {
+        G = G.slice(E * 40, (E + 1) * 40);
+      }
+      F(G);
+    });
+  }
+  refresh() {
+    return new Promise(async (D, E) => {
+      let F;
+      try {
+        F = await this.getLocalFontsMetadata(true);
+      } catch (H) {
+        return E(H);
+      }
+      let G = [];
+      for (let I of F) {
+        let J = g(I.style) + (x(I.style) === "italic" ? "i" : "");
+        let K = G.find((L) => L.family === I.family);
+        if (K) {
+          if (K.faces.includes(J) === false) {
+            K.faces.push(J);
+          }
+        } else {
+          let L = {
+            family: I.family,
+            faces: [J],
+          };
+          G.push(L);
+        }
+      }
+      for (let M of G) {
+        M.faces.sort();
+      }
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(G);
+      this.#o = "ready";
+      D();
+    });
+  }
+  getLocalFontsMetadata(D = false) {
+    return new Promise(async (E, F) => {
+      if (this.status === "no-api") {
+        E([]);
+      } else {
+        if (this.#l.length < 10 || D) {
+          try {
+            this.#l = await window.queryLocalFonts();
+          } catch (G) {
+            return F({
+              message: G.message,
+              name: G.name,
+            });
+          }
+        }
+        E(this.#l);
+      }
+    });
+  }
+  getCacheSize() {
+    return new Promise(async (D) => {
+      D(await this.#e.cache.count());
+    });
+  }
+  getFamilyDescriptor(D) {
+    return new Promise(async (E) => {
+      E((await this.#e.cache.where("family").equals(D).toArray())[0] || null);
+    });
+  }
+  getFamilyWeights(D) {
+    return new Promise(async (E) => {
+      let F = await this.getFamilyDescriptor(D);
+      if (F) {
+        let G = new Set();
+        for (let H of F.faces) {
+          let I = H.substring(0, 3);
+          G.add(I);
+        }
+        E([...G]);
+      } else {
+        E(["400"]);
+      }
+    });
+  }
+})();
+let f = (D, E) =>
+  D.is2D
+    ? new DOMMatrix([
+        p(D.a, E),
+        p(D.b, E),
+        p(D.c, E),
+        p(D.d, E),
+        p(D.e, E),
+        p(D.f, E),
+      ])
+    : new DOMMatrix([
+        p(D.m11, E),
+        p(D.m12, E),
+        p(D.m13, E),
+        p(D.m14, E),
+        p(D.m21, E),
+        p(D.m22, E),
+        p(D.m23, E),
+        p(D.m24, E),
+        p(D.m31, E),
+        p(D.m32, E),
+        p(D.m33, E),
+        p(D.m34, E),
+        p(D.m41, E),
+        p(D.m42, E),
+        p(D.m43, E),
+        p(D.m44, E),
+      ]);
+const y =
+  "\n  position: fixed;\n  top: -1px;\n  left: -1px;\n  width: 1px;\n  height: 1px;\n  contain: strict;\n  overflow: hidden;\n".replaceAll(
+    "\n  ",
+    ""
+  );
+class k {
+  #s;
+  #r;
+  get shadowRoot() {
+    return this.#s.shadowRoot;
+  }
+  constructor(D) {
+    this.#r = D;
+    this.#s = document.createElement("div");
+    this.#s.setAttribute("style", y);
+    this.#s.setAttribute("class", "offscreen-container");
+    this.#s.attachShadow({
+      mode: "open",
+    });
+    this.#s.shadowRoot.append(D);
+    document.body.append(this.#s);
+  }
+  destroy() {
+    if (this.#r.parentNode === this.#s.shadowRoot) {
+      this.#r.remove();
+    }
+    this.#s.remove();
+    this.#s = null;
+  }
+}
+document.createElementNS("http://www.w3.org/2000/svg", "svg");
+let v = (D) => {
+  let E = document.createDocumentFragment();
+  let F = document.createElementNS(a, "svg");
+  for (F.innerHTML = D; F.firstChild; ) {
+    E.append(F.firstChild);
+  }
+  if (E.childElementCount > 1) {
+    return E;
+  } else if (E.childElementCount === 1) {
+    return E.children[0];
+  } else {
+    return null;
+  }
+};
+let w = (D, E, F = true) => {
+  let G = D.closest(E);
+  if (F && !G && D.getRootNode().host) {
+    return w(D.getRootNode().host, E);
+  } else {
+    return G;
+  }
+};
+class C extends HTMLElement {
+  static #p = u` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
+  `;
+  static #h = c`
     :host {
       display: flex;
       flex-flow: column;
@@ -93,6 +2192,746 @@ const ak=q;(function(D,E){const aj=q,F=D();while(!![]){try{const G=-parseInt(aj(
       background: none;
       height: 4px;
     }
-  `;#m;constructor(){const aK=ak;super();let D=this['constructor']['t'],E=this['constructor']['o'];this.#m=this[aK(0x19f)]({'mode':aK(0x1d1)}),this.#m[aK(0x26b)]=[z['themeStyleSheet'],C.#h,this['constructor']['_shadowStyleSheet']],this.#m[aK(0x1aa)](document[aK(0x241)](C.#p[aK(0x1ad)],!0x0)),D&&this.#m[aK(0x1e7)]('#main')[aK(0x1aa)](document[aK(0x241)](D[aK(0x1ad)],!0x0)),E&&this.#m[aK(0x1e7)](aK(0x19b))['append'](document[aK(0x241)](E['content'],!0x0));for(let F of this.#m[aK(0x37b)](aK(0x27e)))this['#'+F['id']]=F;this['setAttribute']('extends','bx-generator'),this[aK(0x279)](aK(0x286),'0');}}let N={'default':{'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x10,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0x1,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x1,'ignoreWhite':!0x1},'blackAndWhite':{'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x2,'minColorRatio':0x0,'colorQuantCycles':0x1,'colorSampling':0x0,'ltres':0x1,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x0,'lineFilter':!0x1,'ignoreWhite':!0x0},'grayscale':{'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x7,'minColorRatio':0x0,'colorQuantCycles':0x1,'colorSampling':0x0,'ltres':0x1,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x1,'ignoreWhite':!0x1},'posterized':{'workingSize':0x200,'blurRadius':0x5,'blurDelta':0x14,'numberOfColors':0x5,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0x1,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x1,'ignoreWhite':!0x1},'curvy':{'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x10,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0.01,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x1,'strokeWidth':0x1,'lineFilter':!0x0,'ignoreWhite':!0x1},'sharp':{'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x10,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0x1,'qtres':0.01,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x1,'ignoreWhite':!0x1},'detailed':{'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x40,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0.5,'qtres':0.5,'pathOmit':0x0,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x1,'ignoreWhite':!0x1},'smoothed':{'workingSize':0x200,'blurRadius':0x5,'blurDelta':0x40,'numberOfColors':0x10,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0x1,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x1,'ignoreWhite':!0x1}};class U extends C{static ['t']=u` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="preset-subsection"> <h4 id="preset-heading"><x-message href="#vectorize-preset"></x-message></h4> <x-select id="preset-select"> <x-menu> <x-menuitem value="default" toggled> <x-label><x-message href="#vectorize-preset.default"></x-message></x-label> </x-menuitem> <hr> <x-menuitem value="blackAndWhite"> <x-label><x-message href="#vectorize-preset.black-and-white"></x-message></x-label> </x-menuitem> <x-menuitem value="grayscale"> <x-label><x-message href="#vectorize-preset.grayscale"></x-message></x-label> </x-menuitem> <x-menuitem value="posterized"> <x-label><x-message href="#vectorize-preset.posterized"></x-message></x-label> </x-menuitem> <x-menuitem value="curvy"> <x-label><x-message href="#vectorize-preset.curvy"></x-message></x-label> </x-menuitem> <x-menuitem value="sharp"> <x-label><x-message href="#vectorize-preset.sharp"></x-message></x-label> </x-menuitem> <x-menuitem value="detailed"> <x-label><x-message href="#vectorize-preset.detailed"></x-message></x-label> </x-menuitem> <x-menuitem value="smoothed"> <x-label><x-message href="#vectorize-preset.smoothed"></x-message></x-label> </x-menuitem> </x-menu> </x-select> </section> <hr> <section id="preprocessing-subsection"> <h4 id="preprocessing-heading"><x-message href="#preprocessing"></x-message></h4> <section id="working-size-subsection"> <h5 id="working-size-heading"><x-message href="#working-size"></x-message></h5> <x-box id="working-size-box"> <x-slider id="working-size-slider" min="10" max="1000" step="1"></x-slider> <x-numberinput id="working-size-input" min="10" max="2000" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="blur-subsection"> <x-box id="blur-radius-box" vertical> <h5 id="blur-radius-heading"><x-message href="#blur-radius"></x-message></h5> <x-numberinput id="blur-radius-input" min="0" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-box id="blur-delta-box" vertical> <h5 id="blur-delta-heading"><x-message href="#blur-delta"></x-message></h5> <x-numberinput id="blur-delta-input" min="0" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> </section> <hr> <section id="color-subsection"> <h4 id="color-heading"><x-message href="#color-quantization" autocapitalize></x-message></h4> <x-box id="color-inputs-box"> <x-box id="number-of-colors-box" vertical> <h5 id="number-of-colors-heading"><x-message href="#colors"></x-message></h5> <x-numberinput id="number-of-colors-input" min="1" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Number of colors to use</x-tooltip> </x-numberinput> </x-box> <x-box id="min-color-ratio-box" vertical> <h5 id="min-color-ratio-heading"><x-message href="#min-ratio"></x-message></h5> <x-numberinput id="min-color-ratio-input" min="0" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Color quantization will randomize a color if fewer pixels than TOTAL PIXELS * MIN RATIO has it</x-tooltip> </x-numberinput> </x-box> <x-box id="color-quant-cycles-box" vertical> <h5 id="color-quant-cycles-heading"><x-message href="#cycles"></x-message></h5> <x-numberinput id="color-quant-cycles-input" min="0" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Color quantization will be repeated this many times</x-tooltip> </x-numberinput> </x-box> </x-box> <x-box id="color-sampling-box" vertical> <h5 id="color-sampling-heading"><x-message href="#sampling"></x-message></h5> <x-buttons id="color-sampling-buttons" tracking="1"> <x-button value="2" condensed> <x-label><x-message href="#sampling.deterministic"></x-message></x-label> </x-button> <x-button value="1" condensed> <x-label><x-message href="#sampling.random"></x-message></x-label> </x-button> <x-button value="0" condensed> <x-label><x-message href="#sampling.none"></x-message></x-label> </x-button> </x-buttons> </x-box> </section> <hr> <section id="tracing-subsection"> <h4 id="tracing-heading"><x-message href="#vectorize-tracing"></x-message></h4> <x-box id="tracing-box"> <x-box id="ltres-box" vertical> <h5 id="ltres-heading"><x-message href="#vectorize-tracing.l-treshold"></x-message></h5> <x-numberinput id="ltres-input" min="0" max="10" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Error treshold for straight lines</x-tooltip> </x-numberinput> </x-box> <x-box id="qtres-box" vertical> <h5 id="qtres-heading"><x-message href="#vectorize-tracing.q-treshold"></x-message></h5> <x-numberinput id="qtres-input" min="0" max="10" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Error treshold for quadratic splines</x-tooltip> </x-numberinput> </x-box> <x-box id="path-omit-box" vertical> <h5 id="path-omit-heading"><x-message href="#vectorize-tracing.path-omit"></x-message></h5> <x-numberinput id="path-omit-input" min="0" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Edge node paths shorter than this will be discarded for noise reduction</x-tooltip> </x-numberinput> </x-box> </x-box> <x-checkbox id="right-angle-enhance-checkbox"> <x-label id="right-angle-enhance-label"><x-message href="#vectorize-tracing.enhance"></x-message></x-label> </x-checkbox> </section> <hr> <section id="rendering-subsection"> <h4 id="rendering-heading"><x-message href="#rendering"></x-message></h4> <x-box id="stroke-width-box" vertical> <h5 id="stroke-width-heading"><x-message href="#stroke-width"></x-message></h5> <x-box> <x-slider id="stroke-width-slider" min="0" max="20" step="1"></x-slider> <x-numberinput id="stroke-width-input" min="0" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </x-box> <x-checkbox id="line-filter-checkbox"> <x-label><x-message href="#vectorize-rendering.line-filter"></x-message></x-label> </x-checkbox> <x-checkbox id="ignore-white-checkbox"> <x-label><x-message href="#vectorize-rendering.ignore-white"></x-message></x-label> </x-checkbox> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <x-button id="preview-button"> <x-label><x-message href="#generate"></x-message></x-label> </x-button> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid" hidden></svg> <x-label id="preview-label" hidden></x-label> </section> </template>
-  `;static ['o']=u` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#generators.vectorize"></x-message></x-label> </x-button> </template>
-  `;static [ak(0x3a1)]=c`#preset-select{width:100%}#working-size-subsection{display:flex;flex-flow:column}#working-size-subsection h5{margin-bottom:0}#working-size-box{width:100%}#working-size-slider{flex:1}#working-size-input{margin-left:10px;width:60px}#blur-subsection{display:flex;margin-top:4px}#blur-radius-box{flex:1;margin-right:4px}#blur-radius-input{width:100%}#blur-delta-box{flex:1;margin-left:4px}#blur-delta-input{width:100%}#color-inputs-box{align-items:flex-end}#number-of-colors-box{flex:1}#number-of-colors-input{width:100%}#min-color-ratio-box{flex:1;margin:0 8px}#min-color-ratio-input{width:100%}#color-quant-cycles-box{flex:1}#color-quant-cycles-input{width:100%}#color-sampling-box{margin-top:8px}#color-sampling-buttons{width:100%}#color-sampling-buttons x-button{flex:1}#tracing-box{align-items:flex-end}#ltres-box{flex:1}#ltres-input{width:100%}#qtres-box{flex:1;margin:0 8px}#qtres-input{width:100%}#path-omit-box{flex:1}#path-omit-input{width:100%}#right-angle-enhance-checkbox{margin-top:6px}#right-angle-enhance-checkbox x-label{font-size:12px}#stroke-width-box x-box{width:100%}#stroke-width-heading{margin-bottom:0}#stroke-width-slider{flex:1}#stroke-width-input{margin-left:10px;width:60px}#line-filter-checkbox{margin-top:6px}#line-filter-checkbox x-label{font-size:12px}#ignore-white-checkbox{margin-top:6px}#ignore-white-checkbox x-label{font-size:12px}#preview{height:160px}#preview-label{text-align:center;font-weight:600;font-size:12px;opacity:.7}`;get[ak(0x352)](){const aL=ak;return{'workingSize':this['#working-size-input']['value'],'blurRadius':this[aL(0x38c)][aL(0x225)],'blurDelta':this[aL(0x20e)][aL(0x225)],'numberOfColors':this['#number-of-colors-input'][aL(0x225)],'minColorRatio':this[aL(0x2a5)][aL(0x225)],'colorQuantCycles':this['#color-quant-cycles-input'][aL(0x225)],'colorSampling':parseInt(this['#color-sampling-buttons'][aL(0x225)]),'ltres':this[aL(0x197)][aL(0x225)],'qtres':this[aL(0x36b)]['value'],'pathOmit':this['#path-omit-input'][aL(0x225)],'rightAngleEnhance':this[aL(0x203)][aL(0x1e4)],'strokeWidth':this[aL(0x263)][aL(0x225)],'lineFilter':this[aL(0x185)]['toggled'],'ignoreWhite':this[aL(0x268)][aL(0x1e4)],'geometryPrecision':this.#u[aL(0x25d)]['geometryPrecision']};}#u;#c;#d;constructor(){const aM=ak;super(),this[aM(0x2a1)][aM(0x39e)](aM(0x16a),()=>this.#b()),this[aM(0x222)][aM(0x39e)]('changestart',()=>this.#g()),this['#blur-radius-input'][aM(0x39e)](aM(0x32a),()=>this.#x()),this[aM(0x20e)][aM(0x39e)](aM(0x32a),()=>this.#f()),this[aM(0x390)]['addEventListener'](aM(0x32a),()=>this.#y()),this[aM(0x2a5)]['addEventListener'](aM(0x32a),()=>this.#k()),this[aM(0x341)]['addEventListener']('changestart',()=>this.#v()),this['#color-sampling-buttons'][aM(0x39e)](aM(0x253),()=>this.#w()),this[aM(0x197)]['addEventListener'](aM(0x32a),()=>this.#C()),this[aM(0x36b)][aM(0x39e)](aM(0x32a),()=>this.#N()),this[aM(0x16b)]['addEventListener'](aM(0x32a),()=>this.#U()),this[aM(0x203)]['addEventListener'](aM(0x253),()=>this.#z()),this[aM(0x240)][aM(0x39e)]('changestart',()=>this.#A()),this[aM(0x185)][aM(0x39e)]('toggle',()=>this.#F()),this[aM(0x268)][aM(0x39e)](aM(0x253),()=>this.#T()),this[aM(0x16e)][aM(0x39e)](aM(0x311),()=>this.#S()),this[aM(0x289)][aM(0x39e)](aM(0x311),()=>this.#V());}[ak(0x237)](){const aN=ak;this.#u=w(this,aN(0x2d7));let D=this.#u[aN(0x25d)],E=z[aN(0x1cd)](aN(0x308),0x200),F=z[aN(0x1cd)](aN(0x321),0x0),G=z[aN(0x1cd)]('bx-vectorizegenerator:blurDelta',0x14),H=z[aN(0x1cd)](aN(0x2f4),0x10),I=z[aN(0x1cd)](aN(0x22e),0x0),J=z[aN(0x1cd)]('bx-vectorizegenerator:colorQuantCycles',0x3),K=z['getConfig']('bx-vectorizegenerator:colorSampling',0x2),L=z[aN(0x1cd)](aN(0x1f6),0x1),M=z[aN(0x1cd)](aN(0x2ec),0x1),O=z['getConfig'](aN(0x360),0x8),P=z['getConfig'](aN(0x320),!0x0),Q=z[aN(0x1cd)](aN(0x223),0x1),R=z[aN(0x1cd)](aN(0x38b),!0x1),S=z[aN(0x1cd)](aN(0x297),!0x1);this['#working-size-slider'][aN(0x225)]=E,this[aN(0x285)][aN(0x225)]=E,this[aN(0x38c)][aN(0x225)]=F,this[aN(0x20e)][aN(0x225)]=G,this[aN(0x390)]['value']=H,this[aN(0x2a5)][aN(0x225)]=I,this[aN(0x341)][aN(0x225)]=J,this[aN(0x1dd)][aN(0x225)]=K+'',this['#ltres-input'][aN(0x225)]=L,this[aN(0x36b)][aN(0x225)]=M,this['#path-omit-input'][aN(0x225)]=O,this['#right-angle-enhance-checkbox']['toggled']=P,this[aN(0x263)][aN(0x225)]=Q,this[aN(0x343)]['value']=Q,this[aN(0x185)]['toggled']=R,this[aN(0x268)]['toggled']=S,D[aN(0x39e)](aN(0x35e),this.#c=()=>{this.#D(),this.#P();}),D[aN(0x39e)](aN(0x37a),this.#d=()=>{this.#D(),this.#P();}),this.#P(),this.#R();}[ak(0x2cf)](){const aO=ak;let D=this.#u[aO(0x25d)];D['removeEventListener']('selectedelementschange',this.#c),D[aO(0x21a)](aO(0x37a),this.#d);}#b(){const aP=ak;let D=this[aP(0x2a1)]['value'],E=N[D];if(this.#D(),E){for(let [F,G]of Object[aP(0x30a)](E))z[aP(0x195)]('bx-vectorizegenerator:'+F,G);this[aP(0x302)][aP(0x225)]=E[aP(0x2ee)],this['#working-size-input']['value']=E[aP(0x2ee)],this[aP(0x38c)][aP(0x225)]=E[aP(0x24a)],this['#blur-delta-input']['value']=E['blurDelta'],this['#number-of-colors-input'][aP(0x225)]=E[aP(0x265)],this['#min-color-ratio-input'][aP(0x225)]=E[aP(0x2d0)],this[aP(0x341)][aP(0x225)]=E[aP(0x34d)],this[aP(0x1dd)]['value']=E[aP(0x30b)]+'',this[aP(0x197)][aP(0x225)]=E[aP(0x370)],this[aP(0x36b)][aP(0x225)]=E[aP(0x1d2)],this[aP(0x16b)][aP(0x225)]=E[aP(0x1bc)],this[aP(0x203)][aP(0x1e4)]=E[aP(0x2ca)],this['#stroke-width-input'][aP(0x225)]=E[aP(0x39a)],this['#stroke-width-slider']['value']=E[aP(0x39a)],this[aP(0x185)][aP(0x1e4)]=E[aP(0x2cb)],this[aP(0x268)]['toggled']=E[aP(0x176)];}}#g(){const aQ=ak;let D,E;this.#D(),this[aQ(0x222)][aQ(0x39e)](aQ(0x16a),D=F=>{const aR=aQ;F[aR(0x238)]===this['#working-size-slider']?this[aR(0x285)][aR(0x225)]=this[aR(0x302)][aR(0x225)]:F[aR(0x238)]===this['#working-size-input']&&(this[aR(0x302)][aR(0x225)]=this[aR(0x285)]['value']);}),this[aQ(0x222)][aQ(0x39e)](aQ(0x307),E=()=>{const aS=aQ;this['#working-size-box'][aS(0x21a)](aS(0x16a),D),this[aS(0x222)][aS(0x21a)](aS(0x307),E),z[aS(0x195)]('bx-vectorizegenerator:workingSize',this[aS(0x302)][aS(0x225)]),this.#R();});}#x(){const aT=ak;this.#D(),this['#blur-radius-input'][aT(0x39e)](aT(0x307),()=>{const aU=aT;z[aU(0x195)](aU(0x321),this[aU(0x38c)][aU(0x225)]),this.#R();},{'once':!0x0});}#f(){const aV=ak;this.#D(),this[aV(0x20e)][aV(0x39e)](aV(0x307),()=>{const aW=aV;z['setConfig'](aW(0x309),this['#blur-delta-input'][aW(0x225)]),this.#R();},{'once':!0x0});}#y(){const aX=ak;this.#D(),this[aX(0x390)][aX(0x39e)]('changeend',()=>{const aY=aX;z[aY(0x195)]('bx-vectorizegenerator:numberOfColors',this[aY(0x390)][aY(0x225)]),this.#R();},{'once':!0x0});}#k(){const aZ=ak;this.#D(),this[aZ(0x2a5)][aZ(0x39e)](aZ(0x307),()=>{const b0=aZ;z[b0(0x195)]('bx-vectorizegenerator:minColorRatio',this[b0(0x2a5)]['value']),this.#R();},{'once':!0x0});}#v(){const b1=ak;this.#D(),this[b1(0x341)][b1(0x39e)](b1(0x307),()=>{z['setConfig']('bx-vectorizegenerator:colorQuantCycles',this['#color-quant-cycles-input']['value']),this.#R();});}#w(){const b2=ak;this.#D(),z[b2(0x195)](b2(0x236),this[b2(0x1dd)][b2(0x225)]),this.#R();}#C(){const b3=ak;this.#D(),this[b3(0x197)][b3(0x39e)](b3(0x307),()=>{const b4=b3;z[b4(0x195)](b4(0x1f6),this[b4(0x197)]['value']),this.#R();},{'once':!0x0});}#N(){const b5=ak;this.#D(),this['#qtres-input']['addEventListener'](b5(0x307),()=>{const b6=b5;z[b6(0x195)](b6(0x2ec),this[b6(0x36b)][b6(0x225)]),this.#R();},{'once':!0x0});}#U(){const b7=ak;this.#D(),this['#path-omit-input'][b7(0x39e)]('changeend',()=>{const b8=b7;z[b8(0x195)](b8(0x360),this[b8(0x16b)][b8(0x225)]),this.#R();},{'once':!0x0});}#z(){const b9=ak;this.#D(),z[b9(0x195)]('bx-vectorizegenerator:rightAngleEnhance',this['#right-angle-enhance-checkbox']['toggled']),this.#R();}#A(){const ba=ak;let D,E;this.#D(),this[ba(0x240)][ba(0x39e)]('change',D=F=>{const bb=ba;F[bb(0x238)]===this[bb(0x343)]?this[bb(0x263)][bb(0x225)]=this[bb(0x343)][bb(0x225)]:F['target']===this[bb(0x263)]&&(this[bb(0x343)][bb(0x225)]=this[bb(0x263)][bb(0x225)]);}),this[ba(0x240)][ba(0x39e)]('changeend',E=()=>{const bc=ba;this[bc(0x240)]['removeEventListener'](bc(0x16a),D),this[bc(0x240)][bc(0x21a)]('changeend',E),z[bc(0x195)](bc(0x223),this[bc(0x263)][bc(0x225)]),this.#R();});}#F(){const bd=ak;this.#D(),z[bd(0x195)](bd(0x38b),this[bd(0x185)][bd(0x1e4)]),this.#R();}#T(){const be=ak;this.#D(),z[be(0x195)]('bx-vectorizegenerator:ignoreWhite',this[be(0x268)][be(0x1e4)]),this.#R();}#S(){this.#B();}async #V(){const bf=ak;let D,E=this.#u[bf(0x25d)],F=E[bf(0x373)][0x0],G=await window[bf(0x353)](F),H=(R=>{const bg=bf;if(!0x1===R[bg(0x1dc)]&&new k(R),d){let S=null;if(''===R[bg(0x16c)][bg(0x1e6)])return S=bg(0x259)===R[bg(0x2ab)]||bg(0x391)===R['localName']?R[bg(0x312)][bg(0x207)][bg(0x1c4)]():bg(0x22a)===R['localName']?R['patternTransform'][bg(0x207)]['consolidate']():R[bg(0x1e6)]['baseVal']['consolidate'](),S?DOMMatrix[bg(0x258)](S[bg(0x33f)]):new DOMMatrix();{let T=R['computedStyleMap']()[bg(0x19d)](bg(0x1e6));return bg(0x392)===T[bg(0x225)]?new DOMMatrix():T[bg(0x1d3)]();}}{let V=R[bg(0x396)]()[bg(0x19d)](bg(0x1e6));return bg(0x392)===V[bg(0x225)]?new DOMMatrix():V[bg(0x1d3)]();}})(F),I=F['getBBox'](),J=await this.#O(G,this[bf(0x352)]),K=v(J),L=I[bf(0x27c)]/K['viewBox'][bf(0x207)][bf(0x27c)],M=I[bf(0x23d)]/K[bf(0x369)][bf(0x207)]['height'],O=I['x']-K[bf(0x369)]['baseVal']['x']*L,P=I['y']-K['viewBox']['baseVal']['y']*M,Q=new DOMMatrix();if(Q[bf(0x198)](H),Q['translateSelf'](O,P),Q[bf(0x274)](L,M),Q=f(Q,E[bf(0x2f2)]),E[bf(0x32d)][bf(0x330)](['#generators.vectorize'],bf(0x193)),0x1===K[bf(0x1af)][bf(0x17e)])D=K['children'][0x0];else{D=((R,S=null)=>{const bh=bf;let T=R[bh(0x335)](':'),V=null;if(0x1===T[bh(0x17e)]){let [W]=T;V=document['createElement'](W,S);}else{if(0x2===T['length']){let [X,Y]=T;bh(0x2e7)===X&&(V=document['createElementNS'](a,Y,S));}}return V;})(bf(0x278));for(let R of[...K[bf(0x1af)]])D[bf(0x1aa)](R);}((S,T,V=null)=>{const bi=bf;S[bi(0x16c)][bi(0x25c)](bi(0x1e6)),null===T?bi(0x259)===S[bi(0x2ab)]||bi(0x391)===S[bi(0x2ab)]?S[bi(0x317)](bi(0x312)):bi(0x22a)===S[bi(0x2ab)]?S['removeAttribute'](bi(0x1e3)):S[bi(0x317)](bi(0x1e6)):(null!==V&&(T=f(T,V)),T[bi(0x20a)]?bi(0x259)===S[bi(0x2ab)]||'radialGradient'===S[bi(0x2ab)]?S[bi(0x317)](bi(0x312)):'pattern'===S[bi(0x2ab)]?S[bi(0x317)](bi(0x1e3)):S[bi(0x317)](bi(0x1e6)):bi(0x259)===S[bi(0x2ab)]||'radialGradient'===S[bi(0x2ab)]?S[bi(0x279)](bi(0x312),T[bi(0x1d0)]()):bi(0x22a)===S[bi(0x2ab)]?S[bi(0x279)](bi(0x1e3),T['toString']()):S[bi(0x279)](bi(0x1e6),T[bi(0x1d0)]()));})(D,Q);for(let S of F['style']){let T=F[bf(0x16c)][bf(0x214)](S),V=r['find'](W=>W[bf(0x30c)]===S);V&&V[bf(0x18e)]['includes'](D[bf(0x2ab)])&&D[bf(0x16c)][bf(0x1da)](S,T);}F['replaceWith'](D),E[bf(0x373)]=[D],E['selectedTextRange']=null;}#O(D,E){return new Promise(F=>{const bj=q;let G=new Worker('/workers/vectorize.js');G[bj(0x39e)]('message',H=>F(H[bj(0x2de)]),!0x1),G[bj(0x18d)]([D,E]);});}async #B(){const bk=ak;this['#preview-button'][bk(0x1b6)]=!0x0,this[bk(0x19a)]['hidden']=!0x1,this[bk(0x19a)]['innerHTML']=bk(0x1ba);let D=this.#u[bk(0x25d)][bk(0x373)][0x0],E=await window[bk(0x353)](D);D[bk(0x1b0)]();let F=await this.#O(E,this[bk(0x352)]),G=v(F);G[bk(0x279)]('id',bk(0x2df)),G[bk(0x279)](bk(0x345),'preview'),this[bk(0x1d5)][bk(0x367)](G),this[bk(0x1d5)]=G,this[bk(0x19a)]['textContent']='',this[bk(0x19a)][bk(0x1b6)]=!0x0,this['#preview-section']['scrollIntoViewIfNeeded']();}#D(){const bl=ak;this['#preview-button'][bl(0x1b6)]=!0x1,this[bl(0x1d5)][bl(0x279)]('hidden',''),this[bl(0x19a)][bl(0x1b6)]=!0x0;}#P(){const bm=ak;let D=null;0x1===this.#u[bm(0x25d)][bm(0x2f7)][bm(0x17e)]&&bm(0x2b2)===this.#u['board']['outermostSelectedObjectElements'][0x0][bm(0x2ab)]&&(D=this.#u[bm(0x25d)][bm(0x2f7)][0x0]);let E=null===D;this[bm(0x1a7)]['disabled']=E,this['#preset-heading'][bm(0x344)]=E,this[bm(0x2a1)][bm(0x344)]=E,this[bm(0x33e)][bm(0x344)]=E,this[bm(0x2e6)]['disabled']=E,this[bm(0x302)][bm(0x344)]=E,this[bm(0x285)][bm(0x344)]=E,this[bm(0x28c)][bm(0x344)]=E,this[bm(0x38c)][bm(0x344)]=E,this[bm(0x1ac)][bm(0x344)]=E,this[bm(0x20e)]['disabled']=E,this['#color-heading'][bm(0x344)]=E,this['#number-of-colors-heading'][bm(0x344)]=E,this[bm(0x390)][bm(0x344)]=E,this[bm(0x316)][bm(0x344)]=E,this[bm(0x2a5)][bm(0x344)]=E,this[bm(0x2c0)][bm(0x344)]=E,this[bm(0x341)]['disabled']=E,this[bm(0x2db)][bm(0x344)]=E;for(let F of this[bm(0x1dd)][bm(0x1af)])F['disabled']=E;this[bm(0x2bb)]['disabled']=E,this['#ltres-heading'][bm(0x344)]=E,this['#ltres-input']['disabled']=E,this[bm(0x1d7)][bm(0x344)]=E,this[bm(0x36b)][bm(0x344)]=E,this[bm(0x394)][bm(0x344)]=E,this['#path-omit-input'][bm(0x344)]=E,this['#right-angle-enhance-checkbox'][bm(0x344)]=E,this[bm(0x28b)]['disabled']=E,this[bm(0x1fe)]['disabled']=E,this[bm(0x217)]['disabled']=E,this[bm(0x343)][bm(0x344)]=E,this[bm(0x263)]['disabled']=E,this[bm(0x185)][bm(0x344)]=E,this[bm(0x268)][bm(0x344)]=E,this[bm(0x256)][bm(0x344)]=E,this['#preview-button'][bm(0x344)]=E,this[bm(0x289)]['disabled']=null===D;}#R(){const bn=ak;let D=null;for(let [E,F]of Object['entries'](N))if(this['#working-size-input'][bn(0x225)]===F[bn(0x2ee)]&&this['#working-size-slider'][bn(0x225)]===F[bn(0x2ee)]&&this['#blur-radius-input'][bn(0x225)]===F[bn(0x24a)]&&this['#blur-delta-input']['value']===F['blurDelta']&&this[bn(0x390)][bn(0x225)]===F[bn(0x265)]&&this[bn(0x2a5)][bn(0x225)]===F[bn(0x2d0)]&&this[bn(0x341)]['value']===F[bn(0x34d)]&&this[bn(0x1dd)][bn(0x225)]===F[bn(0x30b)]+''&&this['#ltres-input'][bn(0x225)]===F[bn(0x370)]&&this[bn(0x36b)]['value']===F[bn(0x1d2)]&&this['#path-omit-input'][bn(0x225)]===F[bn(0x1bc)]&&this[bn(0x203)][bn(0x1e4)]===F['rightAngleEnhance']&&this['#stroke-width-input'][bn(0x225)]===F['strokeWidth']&&this[bn(0x185)]['toggled']===F[bn(0x2cb)]&&this[bn(0x268)]['toggled']===F[bn(0x176)]){D=E;break;}this['#preset-select'][bn(0x225)]=D;}}customElements[ak(0x1ea)](ak(0x275),U);
+  `;
+  #m;
+  constructor() {
+    super();
+    let D = this.constructor.t;
+    let E = this.constructor.o;
+    this.#m = this.attachShadow({
+      mode: "closed",
+    });
+    this.#m.adoptedStyleSheets = [
+      z.themeStyleSheet,
+      C.#h,
+      this.constructor._shadowStyleSheet,
+    ];
+    this.#m.append(document.importNode(C.#p.content, true));
+    if (D) {
+      this.#m
+        .querySelector("#main")
+        .append(document.importNode(D.content, true));
+    }
+    if (E) {
+      this.#m
+        .querySelector("#footer")
+        .append(document.importNode(E.content, true));
+    }
+    for (let F of this.#m.querySelectorAll("[id]")) {
+      this["#" + F.id] = F;
+    }
+    this.setAttribute("extends", "bx-generator");
+    this.setAttribute("tabindex", "0");
+  }
+}
+let N = {
+  default: {
+    workingSize: 512,
+    blurRadius: 0,
+    blurDelta: 20,
+    numberOfColors: 16,
+    minColorRatio: 0,
+    colorQuantCycles: 3,
+    colorSampling: 2,
+    ltres: 1,
+    qtres: 1,
+    pathOmit: 8,
+    rightAngleEnhance: true,
+    strokeWidth: 1,
+    lineFilter: false,
+    ignoreWhite: false,
+  },
+  blackAndWhite: {
+    workingSize: 512,
+    blurRadius: 0,
+    blurDelta: 20,
+    numberOfColors: 2,
+    minColorRatio: 0,
+    colorQuantCycles: 1,
+    colorSampling: 0,
+    ltres: 1,
+    qtres: 1,
+    pathOmit: 8,
+    rightAngleEnhance: true,
+    strokeWidth: 0,
+    lineFilter: false,
+    ignoreWhite: true,
+  },
+  grayscale: {
+    workingSize: 512,
+    blurRadius: 0,
+    blurDelta: 20,
+    numberOfColors: 7,
+    minColorRatio: 0,
+    colorQuantCycles: 1,
+    colorSampling: 0,
+    ltres: 1,
+    qtres: 1,
+    pathOmit: 8,
+    rightAngleEnhance: true,
+    strokeWidth: 1,
+    lineFilter: false,
+    ignoreWhite: false,
+  },
+  posterized: {
+    workingSize: 512,
+    blurRadius: 5,
+    blurDelta: 20,
+    numberOfColors: 5,
+    minColorRatio: 0,
+    colorQuantCycles: 3,
+    colorSampling: 2,
+    ltres: 1,
+    qtres: 1,
+    pathOmit: 8,
+    rightAngleEnhance: true,
+    strokeWidth: 1,
+    lineFilter: false,
+    ignoreWhite: false,
+  },
+  curvy: {
+    workingSize: 512,
+    blurRadius: 0,
+    blurDelta: 20,
+    numberOfColors: 16,
+    minColorRatio: 0,
+    colorQuantCycles: 3,
+    colorSampling: 2,
+    ltres: 0.01,
+    qtres: 1,
+    pathOmit: 8,
+    rightAngleEnhance: false,
+    strokeWidth: 1,
+    lineFilter: true,
+    ignoreWhite: false,
+  },
+  sharp: {
+    workingSize: 512,
+    blurRadius: 0,
+    blurDelta: 20,
+    numberOfColors: 16,
+    minColorRatio: 0,
+    colorQuantCycles: 3,
+    colorSampling: 2,
+    ltres: 1,
+    qtres: 0.01,
+    pathOmit: 8,
+    rightAngleEnhance: true,
+    strokeWidth: 1,
+    lineFilter: false,
+    ignoreWhite: false,
+  },
+  detailed: {
+    workingSize: 512,
+    blurRadius: 0,
+    blurDelta: 20,
+    numberOfColors: 64,
+    minColorRatio: 0,
+    colorQuantCycles: 3,
+    colorSampling: 2,
+    ltres: 0.5,
+    qtres: 0.5,
+    pathOmit: 0,
+    rightAngleEnhance: true,
+    strokeWidth: 1,
+    lineFilter: false,
+    ignoreWhite: false,
+  },
+  smoothed: {
+    workingSize: 512,
+    blurRadius: 5,
+    blurDelta: 64,
+    numberOfColors: 16,
+    minColorRatio: 0,
+    colorQuantCycles: 3,
+    colorSampling: 2,
+    ltres: 1,
+    qtres: 1,
+    pathOmit: 8,
+    rightAngleEnhance: true,
+    strokeWidth: 1,
+    lineFilter: false,
+    ignoreWhite: false,
+  },
+};
+class U extends C {
+  static t = u` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="preset-subsection"> <h4 id="preset-heading"><x-message href="#vectorize-preset"></x-message></h4> <x-select id="preset-select"> <x-menu> <x-menuitem value="default" toggled> <x-label><x-message href="#vectorize-preset.default"></x-message></x-label> </x-menuitem> <hr> <x-menuitem value="blackAndWhite"> <x-label><x-message href="#vectorize-preset.black-and-white"></x-message></x-label> </x-menuitem> <x-menuitem value="grayscale"> <x-label><x-message href="#vectorize-preset.grayscale"></x-message></x-label> </x-menuitem> <x-menuitem value="posterized"> <x-label><x-message href="#vectorize-preset.posterized"></x-message></x-label> </x-menuitem> <x-menuitem value="curvy"> <x-label><x-message href="#vectorize-preset.curvy"></x-message></x-label> </x-menuitem> <x-menuitem value="sharp"> <x-label><x-message href="#vectorize-preset.sharp"></x-message></x-label> </x-menuitem> <x-menuitem value="detailed"> <x-label><x-message href="#vectorize-preset.detailed"></x-message></x-label> </x-menuitem> <x-menuitem value="smoothed"> <x-label><x-message href="#vectorize-preset.smoothed"></x-message></x-label> </x-menuitem> </x-menu> </x-select> </section> <hr> <section id="preprocessing-subsection"> <h4 id="preprocessing-heading"><x-message href="#preprocessing"></x-message></h4> <section id="working-size-subsection"> <h5 id="working-size-heading"><x-message href="#working-size"></x-message></h5> <x-box id="working-size-box"> <x-slider id="working-size-slider" min="10" max="1000" step="1"></x-slider> <x-numberinput id="working-size-input" min="10" max="2000" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="blur-subsection"> <x-box id="blur-radius-box" vertical> <h5 id="blur-radius-heading"><x-message href="#blur-radius"></x-message></h5> <x-numberinput id="blur-radius-input" min="0" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-box id="blur-delta-box" vertical> <h5 id="blur-delta-heading"><x-message href="#blur-delta"></x-message></h5> <x-numberinput id="blur-delta-input" min="0" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> </section> <hr> <section id="color-subsection"> <h4 id="color-heading"><x-message href="#color-quantization" autocapitalize></x-message></h4> <x-box id="color-inputs-box"> <x-box id="number-of-colors-box" vertical> <h5 id="number-of-colors-heading"><x-message href="#colors"></x-message></h5> <x-numberinput id="number-of-colors-input" min="1" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Number of colors to use</x-tooltip> </x-numberinput> </x-box> <x-box id="min-color-ratio-box" vertical> <h5 id="min-color-ratio-heading"><x-message href="#min-ratio"></x-message></h5> <x-numberinput id="min-color-ratio-input" min="0" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Color quantization will randomize a color if fewer pixels than TOTAL PIXELS * MIN RATIO has it</x-tooltip> </x-numberinput> </x-box> <x-box id="color-quant-cycles-box" vertical> <h5 id="color-quant-cycles-heading"><x-message href="#cycles"></x-message></h5> <x-numberinput id="color-quant-cycles-input" min="0" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Color quantization will be repeated this many times</x-tooltip> </x-numberinput> </x-box> </x-box> <x-box id="color-sampling-box" vertical> <h5 id="color-sampling-heading"><x-message href="#sampling"></x-message></h5> <x-buttons id="color-sampling-buttons" tracking="1"> <x-button value="2" condensed> <x-label><x-message href="#sampling.deterministic"></x-message></x-label> </x-button> <x-button value="1" condensed> <x-label><x-message href="#sampling.random"></x-message></x-label> </x-button> <x-button value="0" condensed> <x-label><x-message href="#sampling.none"></x-message></x-label> </x-button> </x-buttons> </x-box> </section> <hr> <section id="tracing-subsection"> <h4 id="tracing-heading"><x-message href="#vectorize-tracing"></x-message></h4> <x-box id="tracing-box"> <x-box id="ltres-box" vertical> <h5 id="ltres-heading"><x-message href="#vectorize-tracing.l-treshold"></x-message></h5> <x-numberinput id="ltres-input" min="0" max="10" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Error treshold for straight lines</x-tooltip> </x-numberinput> </x-box> <x-box id="qtres-box" vertical> <h5 id="qtres-heading"><x-message href="#vectorize-tracing.q-treshold"></x-message></h5> <x-numberinput id="qtres-input" min="0" max="10" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Error treshold for quadratic splines</x-tooltip> </x-numberinput> </x-box> <x-box id="path-omit-box" vertical> <h5 id="path-omit-heading"><x-message href="#vectorize-tracing.path-omit"></x-message></h5> <x-numberinput id="path-omit-input" min="0" step="1" condensed> <x-stepper></x-stepper> <x-tooltip>Edge node paths shorter than this will be discarded for noise reduction</x-tooltip> </x-numberinput> </x-box> </x-box> <x-checkbox id="right-angle-enhance-checkbox"> <x-label id="right-angle-enhance-label"><x-message href="#vectorize-tracing.enhance"></x-message></x-label> </x-checkbox> </section> <hr> <section id="rendering-subsection"> <h4 id="rendering-heading"><x-message href="#rendering"></x-message></h4> <x-box id="stroke-width-box" vertical> <h5 id="stroke-width-heading"><x-message href="#stroke-width"></x-message></h5> <x-box> <x-slider id="stroke-width-slider" min="0" max="20" step="1"></x-slider> <x-numberinput id="stroke-width-input" min="0" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </x-box> <x-checkbox id="line-filter-checkbox"> <x-label><x-message href="#vectorize-rendering.line-filter"></x-message></x-label> </x-checkbox> <x-checkbox id="ignore-white-checkbox"> <x-label><x-message href="#vectorize-rendering.ignore-white"></x-message></x-label> </x-checkbox> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <x-button id="preview-button"> <x-label><x-message href="#generate"></x-message></x-label> </x-button> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid" hidden></svg> <x-label id="preview-label" hidden></x-label> </section> </template>
+  `;
+  static o = u` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#generators.vectorize"></x-message></x-label> </x-button> </template>
+  `;
+  static _shadowStyleSheet = c`#preset-select{width:100%}#working-size-subsection{display:flex;flex-flow:column}#working-size-subsection h5{margin-bottom:0}#working-size-box{width:100%}#working-size-slider{flex:1}#working-size-input{margin-left:10px;width:60px}#blur-subsection{display:flex;margin-top:4px}#blur-radius-box{flex:1;margin-right:4px}#blur-radius-input{width:100%}#blur-delta-box{flex:1;margin-left:4px}#blur-delta-input{width:100%}#color-inputs-box{align-items:flex-end}#number-of-colors-box{flex:1}#number-of-colors-input{width:100%}#min-color-ratio-box{flex:1;margin:0 8px}#min-color-ratio-input{width:100%}#color-quant-cycles-box{flex:1}#color-quant-cycles-input{width:100%}#color-sampling-box{margin-top:8px}#color-sampling-buttons{width:100%}#color-sampling-buttons x-button{flex:1}#tracing-box{align-items:flex-end}#ltres-box{flex:1}#ltres-input{width:100%}#qtres-box{flex:1;margin:0 8px}#qtres-input{width:100%}#path-omit-box{flex:1}#path-omit-input{width:100%}#right-angle-enhance-checkbox{margin-top:6px}#right-angle-enhance-checkbox x-label{font-size:12px}#stroke-width-box x-box{width:100%}#stroke-width-heading{margin-bottom:0}#stroke-width-slider{flex:1}#stroke-width-input{margin-left:10px;width:60px}#line-filter-checkbox{margin-top:6px}#line-filter-checkbox x-label{font-size:12px}#ignore-white-checkbox{margin-top:6px}#ignore-white-checkbox x-label{font-size:12px}#preview{height:160px}#preview-label{text-align:center;font-weight:600;font-size:12px;opacity:.7}`;
+  get options() {
+    return {
+      workingSize: this["#working-size-input"].value,
+      blurRadius: this["#blur-radius-input"].value,
+      blurDelta: this["#blur-delta-input"].value,
+      numberOfColors: this["#number-of-colors-input"].value,
+      minColorRatio: this["#min-color-ratio-input"].value,
+      colorQuantCycles: this["#color-quant-cycles-input"].value,
+      colorSampling: parseInt(this["#color-sampling-buttons"].value),
+      ltres: this["#ltres-input"].value,
+      qtres: this["#qtres-input"].value,
+      pathOmit: this["#path-omit-input"].value,
+      rightAngleEnhance: this["#right-angle-enhance-checkbox"].toggled,
+      strokeWidth: this["#stroke-width-input"].value,
+      lineFilter: this["#line-filter-checkbox"].toggled,
+      ignoreWhite: this["#ignore-white-checkbox"].toggled,
+      geometryPrecision: this.#u.board.geometryPrecision,
+    };
+  }
+  #u;
+  #c;
+  #d;
+  constructor() {
+    super();
+    this["#preset-select"].addEventListener("change", () => this.#b());
+    this["#working-size-box"].addEventListener("changestart", () => this.#g());
+    this["#blur-radius-input"].addEventListener("changestart", () => this.#x());
+    this["#blur-delta-input"].addEventListener("changestart", () => this.#f());
+    this["#number-of-colors-input"].addEventListener("changestart", () =>
+      this.#y()
+    );
+    this["#min-color-ratio-input"].addEventListener("changestart", () =>
+      this.#k()
+    );
+    this["#color-quant-cycles-input"].addEventListener("changestart", () =>
+      this.#v()
+    );
+    this["#color-sampling-buttons"].addEventListener("toggle", () => this.#w());
+    this["#ltres-input"].addEventListener("changestart", () => this.#C());
+    this["#qtres-input"].addEventListener("changestart", () => this.#N());
+    this["#path-omit-input"].addEventListener("changestart", () => this.#U());
+    this["#right-angle-enhance-checkbox"].addEventListener("toggle", () =>
+      this.#z()
+    );
+    this["#stroke-width-box"].addEventListener("changestart", () => this.#A());
+    this["#line-filter-checkbox"].addEventListener("toggle", () => this.#F());
+    this["#ignore-white-checkbox"].addEventListener("toggle", () => this.#T());
+    this["#preview-button"].addEventListener("click", () => this.#S());
+    this["#generate-button"].addEventListener("click", () => this.#V());
+  }
+  connectedCallback() {
+    this.#u = w(this, "bx-editor");
+    let D = this.#u.board;
+    let E = z.getConfig("bx-vectorizegenerator:workingSize", 512);
+    let F = z.getConfig("bx-vectorizegenerator:blurRadius", 0);
+    let G = z.getConfig("bx-vectorizegenerator:blurDelta", 20);
+    let H = z.getConfig("bx-vectorizegenerator:numberOfColors", 16);
+    let I = z.getConfig("bx-vectorizegenerator:minColorRatio", 0);
+    let J = z.getConfig("bx-vectorizegenerator:colorQuantCycles", 3);
+    let K = z.getConfig("bx-vectorizegenerator:colorSampling", 2);
+    let L = z.getConfig("bx-vectorizegenerator:ltres", 1);
+    let M = z.getConfig("bx-vectorizegenerator:qtres", 1);
+    let O = z.getConfig("bx-vectorizegenerator:pathOmit", 8);
+    let P = z.getConfig("bx-vectorizegenerator:rightAngleEnhance", true);
+    let Q = z.getConfig("bx-vectorizegenerator:strokeWidth", 1);
+    let R = z.getConfig("bx-vectorizegenerator:lineFilter", false);
+    let S = z.getConfig("bx-vectorizegenerator:ignoreWhite", false);
+    this["#working-size-slider"].value = E;
+    this["#working-size-input"].value = E;
+    this["#blur-radius-input"].value = F;
+    this["#blur-delta-input"].value = G;
+    this["#number-of-colors-input"].value = H;
+    this["#min-color-ratio-input"].value = I;
+    this["#color-quant-cycles-input"].value = J;
+    this["#color-sampling-buttons"].value = K + "";
+    this["#ltres-input"].value = L;
+    this["#qtres-input"].value = M;
+    this["#path-omit-input"].value = O;
+    this["#right-angle-enhance-checkbox"].toggled = P;
+    this["#stroke-width-input"].value = Q;
+    this["#stroke-width-slider"].value = Q;
+    this["#line-filter-checkbox"].toggled = R;
+    this["#ignore-white-checkbox"].toggled = S;
+    D.addEventListener(
+      "selectedelementschange",
+      (this.#c = () => {
+        this.#D();
+        this.#P();
+      })
+    );
+    D.addEventListener(
+      "workspacemutation",
+      (this.#d = () => {
+        this.#D();
+        this.#P();
+      })
+    );
+    this.#P();
+    this.#R();
+  }
+  disconnectedCallback() {
+    let D = this.#u.board;
+    D.removeEventListener("selectedelementschange", this.#c);
+    D.removeEventListener("workspacemutation", this.#d);
+  }
+  #b() {
+    let D = this["#preset-select"].value;
+    let E = N[D];
+    this.#D();
+    if (E) {
+      for (let [F, G] of Object.entries(E)) {
+        z.setConfig("bx-vectorizegenerator:" + F, G);
+      }
+      this["#working-size-slider"].value = E.workingSize;
+      this["#working-size-input"].value = E.workingSize;
+      this["#blur-radius-input"].value = E.blurRadius;
+      this["#blur-delta-input"].value = E.blurDelta;
+      this["#number-of-colors-input"].value = E.numberOfColors;
+      this["#min-color-ratio-input"].value = E.minColorRatio;
+      this["#color-quant-cycles-input"].value = E.colorQuantCycles;
+      this["#color-sampling-buttons"].value = E.colorSampling + "";
+      this["#ltres-input"].value = E.ltres;
+      this["#qtres-input"].value = E.qtres;
+      this["#path-omit-input"].value = E.pathOmit;
+      this["#right-angle-enhance-checkbox"].toggled = E.rightAngleEnhance;
+      this["#stroke-width-input"].value = E.strokeWidth;
+      this["#stroke-width-slider"].value = E.strokeWidth;
+      this["#line-filter-checkbox"].toggled = E.lineFilter;
+      this["#ignore-white-checkbox"].toggled = E.ignoreWhite;
+    }
+  }
+  #g() {
+    let D;
+    let E;
+    this.#D();
+    this["#working-size-box"].addEventListener(
+      "change",
+      (D = (F) => {
+        if (F.target === this["#working-size-slider"]) {
+          this["#working-size-input"].value =
+            this["#working-size-slider"].value;
+        } else if (F.target === this["#working-size-input"]) {
+          this["#working-size-slider"].value =
+            this["#working-size-input"].value;
+        }
+      })
+    );
+    this["#working-size-box"].addEventListener(
+      "changeend",
+      (E = () => {
+        this["#working-size-box"].removeEventListener("change", D);
+        this["#working-size-box"].removeEventListener("changeend", E);
+        z.setConfig(
+          "bx-vectorizegenerator:workingSize",
+          this["#working-size-slider"].value
+        );
+        this.#R();
+      })
+    );
+  }
+  #x() {
+    this.#D();
+    this["#blur-radius-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig(
+          "bx-vectorizegenerator:blurRadius",
+          this["#blur-radius-input"].value
+        );
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #f() {
+    this.#D();
+    this["#blur-delta-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig(
+          "bx-vectorizegenerator:blurDelta",
+          this["#blur-delta-input"].value
+        );
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #y() {
+    this.#D();
+    this["#number-of-colors-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig(
+          "bx-vectorizegenerator:numberOfColors",
+          this["#number-of-colors-input"].value
+        );
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #k() {
+    this.#D();
+    this["#min-color-ratio-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig(
+          "bx-vectorizegenerator:minColorRatio",
+          this["#min-color-ratio-input"].value
+        );
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #v() {
+    this.#D();
+    this["#color-quant-cycles-input"].addEventListener("changeend", () => {
+      z.setConfig(
+        "bx-vectorizegenerator:colorQuantCycles",
+        this["#color-quant-cycles-input"].value
+      );
+      this.#R();
+    });
+  }
+  #w() {
+    this.#D();
+    z.setConfig(
+      "bx-vectorizegenerator:colorSampling",
+      this["#color-sampling-buttons"].value
+    );
+    this.#R();
+  }
+  #C() {
+    this.#D();
+    this["#ltres-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig("bx-vectorizegenerator:ltres", this["#ltres-input"].value);
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #N() {
+    this.#D();
+    this["#qtres-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig("bx-vectorizegenerator:qtres", this["#qtres-input"].value);
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #U() {
+    this.#D();
+    this["#path-omit-input"].addEventListener(
+      "changeend",
+      () => {
+        z.setConfig(
+          "bx-vectorizegenerator:pathOmit",
+          this["#path-omit-input"].value
+        );
+        this.#R();
+      },
+      {
+        once: true,
+      }
+    );
+  }
+  #z() {
+    this.#D();
+    z.setConfig(
+      "bx-vectorizegenerator:rightAngleEnhance",
+      this["#right-angle-enhance-checkbox"].toggled
+    );
+    this.#R();
+  }
+  #A() {
+    let D;
+    let E;
+    this.#D();
+    this["#stroke-width-box"].addEventListener(
+      "change",
+      (D = (F) => {
+        if (F.target === this["#stroke-width-slider"]) {
+          this["#stroke-width-input"].value =
+            this["#stroke-width-slider"].value;
+        } else if (F.target === this["#stroke-width-input"]) {
+          this["#stroke-width-slider"].value =
+            this["#stroke-width-input"].value;
+        }
+      })
+    );
+    this["#stroke-width-box"].addEventListener(
+      "changeend",
+      (E = () => {
+        this["#stroke-width-box"].removeEventListener("change", D);
+        this["#stroke-width-box"].removeEventListener("changeend", E);
+        z.setConfig(
+          "bx-vectorizegenerator:strokeWidth",
+          this["#stroke-width-input"].value
+        );
+        this.#R();
+      })
+    );
+  }
+  #F() {
+    this.#D();
+    z.setConfig(
+      "bx-vectorizegenerator:lineFilter",
+      this["#line-filter-checkbox"].toggled
+    );
+    this.#R();
+  }
+  #T() {
+    this.#D();
+    z.setConfig(
+      "bx-vectorizegenerator:ignoreWhite",
+      this["#ignore-white-checkbox"].toggled
+    );
+    this.#R();
+  }
+  #S() {
+    this.#B();
+  }
+  async #V() {
+    let D;
+    let E = this.#u.board;
+    let F = E.selectedElements[0];
+    let G = await window.createImageBitmap(F);
+    let H = ((R) => {
+      if (R.isConnected === false) {
+        new k(R);
+      }
+      if (d) {
+        let S = null;
+        if (R.style.transform === "") {
+          S =
+            R.localName === "linearGradient" || R.localName === "radialGradient"
+              ? R.gradientTransform.baseVal.consolidate()
+              : R.localName === "pattern"
+              ? R.patternTransform.baseVal.consolidate()
+              : R.transform.baseVal.consolidate();
+          if (S) {
+            return DOMMatrix.fromMatrix(S.matrix);
+          } else {
+            return new DOMMatrix();
+          }
+        }
+        {
+          let T = R.computedStyleMap().get("transform");
+          if (T.value === "none") {
+            return new DOMMatrix();
+          } else {
+            return T.toMatrix();
+          }
+        }
+      }
+      {
+        let V = R.computedStyleMap().get("transform");
+        if (V.value === "none") {
+          return new DOMMatrix();
+        } else {
+          return V.toMatrix();
+        }
+      }
+    })(F);
+    let I = F.getBBox();
+    let J = await this.#O(G, this.options);
+    let K = v(J);
+    let L = I.width / K.viewBox.baseVal.width;
+    let M = I.height / K.viewBox.baseVal.height;
+    let O = I.x - K.viewBox.baseVal.x * L;
+    let P = I.y - K.viewBox.baseVal.y * M;
+    let Q = new DOMMatrix();
+    Q.multiplySelf(H);
+    Q.translateSelf(O, P);
+    Q.scaleSelf(L, M);
+    Q = f(Q, E.transformPrecision);
+    E.undoManager.checkpoint(["#generators.vectorize"], "#generators-panel");
+    if (K.children.length === 1) {
+      D = K.children[0];
+    } else {
+      D = ((R, S = null) => {
+        let T = R.split(":");
+        let V = null;
+        if (T.length === 1) {
+          let [W] = T;
+          V = document.createElement(W, S);
+        } else if (T.length === 2) {
+          let [X, Y] = T;
+          if (X === "svg") {
+            V = document.createElementNS(a, Y, S);
+          }
+        }
+        return V;
+      })("svg:g");
+      for (let R of [...K.children]) {
+        D.append(R);
+      }
+    }
+    ((S, T, V = null) => {
+      S.style.removeProperty("transform");
+      if (T === null) {
+        if (
+          S.localName === "linearGradient" ||
+          S.localName === "radialGradient"
+        ) {
+          S.removeAttribute("gradientTransform");
+        } else if (S.localName === "pattern") {
+          S.removeAttribute("patternTransform");
+        } else {
+          S.removeAttribute("transform");
+        }
+      } else {
+        if (V !== null) {
+          T = f(T, V);
+        }
+        if (T.isIdentity) {
+          if (
+            S.localName === "linearGradient" ||
+            S.localName === "radialGradient"
+          ) {
+            S.removeAttribute("gradientTransform");
+          } else if (S.localName === "pattern") {
+            S.removeAttribute("patternTransform");
+          } else {
+            S.removeAttribute("transform");
+          }
+        } else if (
+          S.localName === "linearGradient" ||
+          S.localName === "radialGradient"
+        ) {
+          S.setAttribute("gradientTransform", T.toString());
+        } else if (S.localName === "pattern") {
+          S.setAttribute("patternTransform", T.toString());
+        } else {
+          S.setAttribute("transform", T.toString());
+        }
+      }
+    })(D, Q);
+    for (let S of F.style) {
+      let T = F.style.getPropertyValue(S);
+      let V = r.find((W) => W.name === S);
+      if (V && V.appliesTo.includes(D.localName)) {
+        D.style.setProperty(S, T);
+      }
+    }
+    F.replaceWith(D);
+    E.selectedElements = [D];
+    E.selectedTextRange = null;
+  }
+  #O(D, E) {
+    return new Promise((F) => {
+      let G = new Worker("/workers/vectorize.js");
+      G.addEventListener("message", (H) => F(H.data), false);
+      G.postMessage([D, E]);
+    });
+  }
+  async #B() {
+    this["#preview-button"].hidden = true;
+    this["#preview-label"].hidden = false;
+    this["#preview-label"].innerHTML =
+      '<x-message href="#generating-preview" ellipsis></x-message>';
+    let D = this.#u.board.selectedElements[0];
+    let E = await window.createImageBitmap(D);
+    D.getBoundingClientRect();
+    let F = await this.#O(E, this.options);
+    let G = v(F);
+    G.setAttribute("id", "preview");
+    G.setAttribute("part", "preview");
+    this["#preview"].replaceWith(G);
+    this["#preview"] = G;
+    this["#preview-label"].textContent = "";
+    this["#preview-label"].hidden = true;
+    this["#preview-section"].scrollIntoViewIfNeeded();
+  }
+  #D() {
+    this["#preview-button"].hidden = false;
+    this["#preview"].setAttribute("hidden", "");
+    this["#preview-label"].hidden = true;
+  }
+  #P() {
+    let D = null;
+    if (
+      this.#u.board.outermostSelectedObjectElements.length === 1 &&
+      this.#u.board.outermostSelectedObjectElements[0].localName === "image"
+    ) {
+      D = this.#u.board.outermostSelectedObjectElements[0];
+    }
+    let E = D === null;
+    this["#options-heading"].disabled = E;
+    this["#preset-heading"].disabled = E;
+    this["#preset-select"].disabled = E;
+    this["#preprocessing-heading"].disabled = E;
+    this["#working-size-heading"].disabled = E;
+    this["#working-size-slider"].disabled = E;
+    this["#working-size-input"].disabled = E;
+    this["#blur-radius-heading"].disabled = E;
+    this["#blur-radius-input"].disabled = E;
+    this["#blur-delta-heading"].disabled = E;
+    this["#blur-delta-input"].disabled = E;
+    this["#color-heading"].disabled = E;
+    this["#number-of-colors-heading"].disabled = E;
+    this["#number-of-colors-input"].disabled = E;
+    this["#min-color-ratio-heading"].disabled = E;
+    this["#min-color-ratio-input"].disabled = E;
+    this["#color-quant-cycles-heading"].disabled = E;
+    this["#color-quant-cycles-input"].disabled = E;
+    this["#color-sampling-heading"].disabled = E;
+    for (let F of this["#color-sampling-buttons"].children) {
+      F.disabled = E;
+    }
+    this["#tracing-heading"].disabled = E;
+    this["#ltres-heading"].disabled = E;
+    this["#ltres-input"].disabled = E;
+    this["#qtres-heading"].disabled = E;
+    this["#qtres-input"].disabled = E;
+    this["#path-omit-heading"].disabled = E;
+    this["#path-omit-input"].disabled = E;
+    this["#right-angle-enhance-checkbox"].disabled = E;
+    this["#right-angle-enhance-label"].disabled = E;
+    this["#rendering-heading"].disabled = E;
+    this["#stroke-width-heading"].disabled = E;
+    this["#stroke-width-slider"].disabled = E;
+    this["#stroke-width-input"].disabled = E;
+    this["#line-filter-checkbox"].disabled = E;
+    this["#ignore-white-checkbox"].disabled = E;
+    this["#preview-heading"].disabled = E;
+    this["#preview-button"].disabled = E;
+    this["#generate-button"].disabled = D === null;
+  }
+  #R() {
+    let D = null;
+    for (let [E, F] of Object.entries(N)) {
+      if (
+        this["#working-size-input"].value === F.workingSize &&
+        this["#working-size-slider"].value === F.workingSize &&
+        this["#blur-radius-input"].value === F.blurRadius &&
+        this["#blur-delta-input"].value === F.blurDelta &&
+        this["#number-of-colors-input"].value === F.numberOfColors &&
+        this["#min-color-ratio-input"].value === F.minColorRatio &&
+        this["#color-quant-cycles-input"].value === F.colorQuantCycles &&
+        this["#color-sampling-buttons"].value === F.colorSampling + "" &&
+        this["#ltres-input"].value === F.ltres &&
+        this["#qtres-input"].value === F.qtres &&
+        this["#path-omit-input"].value === F.pathOmit &&
+        this["#right-angle-enhance-checkbox"].toggled === F.rightAngleEnhance &&
+        this["#stroke-width-input"].value === F.strokeWidth &&
+        this["#line-filter-checkbox"].toggled === F.lineFilter &&
+        this["#ignore-white-checkbox"].toggled === F.ignoreWhite
+      ) {
+        D = E;
+        break;
+      }
+    }
+    this["#preset-select"].value = D;
+  }
+}
+customElements.define("bx-vectorizegenerator", U);

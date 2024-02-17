@@ -1,1 +1,705 @@
-const a5=j;(function(k,q){const a4=j,v=k();while(!![]){try{const x=parseInt(a4(0x1d9))/0x1*(-parseInt(a4(0x190))/0x2)+-parseInt(a4(0x1ee))/0x3*(-parseInt(a4(0x1dc))/0x4)+parseInt(a4(0x1a6))/0x5*(-parseInt(a4(0x19b))/0x6)+parseInt(a4(0x1e2))/0x7*(-parseInt(a4(0x1b8))/0x8)+parseInt(a4(0x1f3))/0x9+parseInt(a4(0x1d3))/0xa*(parseInt(a4(0x1ed))/0xb)+parseInt(a4(0x1ec))/0xc;if(x===q)break;else v['push'](v['shift']());}catch(y){v['push'](v['shift']());}}}(b,0xf0d66));let t,e={'shapesType':['triangles'],'shapesNumber':0x28,'shapesAlpha':0.7,'autoAdjustShapesAlpha':!0x0,'workingSize':0x80,'backgroundColor':a5(0x1b3),'shapesPerIteration':0x64,'maxMutations':0x10,'seed':0x64,'drawAs':a5(0x1c9),'geometryPrecision':0x3,'transformPrecision':0x6},s=null;globalThis[a5(0x182)](a5(0x1e8),async k=>{const a6=a5;t||(t=(await import('/libs/seed-random/seed-random.js'))[a6(0x1cd)]);let [q,v]=k[a6(0x1d5)];v=i(e,v),s=new f(q,v,t);let {geometryPrecision:x,transformPrecision:y}=v;globalThis[a6(0x1ac)]([0x0,'<svg\x20viewBox=\x220\x200\x20'+q[a6(0x17c)]+'\x20'+q['height']+'\x22>']),s[a6(0x1a8)]=z=>{const a7=a6;let A=s[a7(0x1f9)](),B=a7(0x181)+h(z['color'][0x0],z[a7(0x1cc)][0x1],z[a7(0x1cc)][0x2],z[a7(0x1f7)])+';\x22',C='';if(z[a7(0x1b5)]instanceof w){let D=z[a7(0x1b5)][a7(0x192)][a7(0x1df)](([G,H])=>new DOMPoint(G*s['scale'],H*s[a7(0x1e5)])),[E,...F]=D;C+=a7(0x1a0)+(a7(0x1db)+E['x']+'\x20'+E['y']+'\x20'+F['map'](({x:G,y:H})=>'L\x20'+G+'\x20'+H)[a7(0x1cb)]('\x20')+a7(0x1c4))+'\x20'+B+a7(0x1dd);}else{if(z[a7(0x1b5)]instanceof m){let G=z[a7(0x1b5)][a7(0x1c2)][a7(0x185)]*s[a7(0x1e5)],H=z[a7(0x1b5)][a7(0x1c2)]['top']*s[a7(0x1e5)],I=z[a7(0x1b5)][a7(0x1c2)][a7(0x17c)]*s['scale'],J=z['shape'][a7(0x1c2)][a7(0x17e)]*s['scale'],K=null;if(0x0!==z[a7(0x1b5)][a7(0x18f)]){let L=new DOMPoint(G+I/0x2,H+J/0x2);K=new DOMMatrix(),K[a7(0x187)](L['x'],L['y']),K['rotateSelf'](a(z['shape'][a7(0x18f)])),K[a7(0x187)](-L['x'],-L['y']);}if(a7(0x1f2)===v['drawAs']){G=n(G,x),H=n(H,x),I=n(I,x),J=n(J,x);let N='';K&&(N=a7(0x1f0)+r(l(K,y))+'\x22'),C=a7(0x19f)+G+a7(0x1b2)+H+a7(0x1aa)+I+a7(0x1da)+J+'\x22\x20'+N+'\x20'+B+a7(0x184);}else{if(a7(0x1c9)===v[a7(0x197)]){let O='d=\x22'+[['M',G,H],['H',G+I],['V',H+J],['H',G],['V',H],['Z']][a7(0x1df)](Q=>Q[a7(0x1cb)]('\x20'))[a7(0x1cb)]('\x20')+'\x22',P='';K&&(P='transform=\x22'+r(l(K,y))+'\x22'),C+=a7(0x1a0)+O+'\x20'+P+'\x20'+B+a7(0x1dd);}}}else{if(z['shape']instanceof d){let Q=z[a7(0x1b5)][a7(0x1c2)][a7(0x185)]*s[a7(0x1e5)],R=z[a7(0x1b5)][a7(0x1c2)][a7(0x199)]*s[a7(0x1e5)],S=z[a7(0x1b5)][a7(0x1c2)][a7(0x17c)]*s[a7(0x1e5)],T=z[a7(0x1b5)][a7(0x1c2)]['height']*s[a7(0x1e5)],U=null;if(0x0!==z[a7(0x1b5)][a7(0x18f)]){let a0=new DOMPoint(Q+S/0x2,R+T/0x2);U=new DOMMatrix(),U[a7(0x187)](a0['x'],a0['y']),U[a7(0x186)](a(z[a7(0x1b5)]['angle'])),U[a7(0x187)](-a0['x'],-a0['y']);}let V=n(Q+S/0x2,x),W=n(R+T/0x2,x),X=n(S/0x2,x),Y=n(T/0x2,x),Z='';if(U&&(Z=a7(0x1f0)+r(l(U,y))+'\x22'),'shapes'===v[a7(0x197)])C='<ellipse\x20cx=\x22'+V+a7(0x1b4)+W+'\x22\x20rx=\x22'+X+a7(0x1e0)+Y+'\x22\x20'+Z+'\x20'+B+a7(0x194);else'paths'===v[a7(0x197)]&&(C=a7(0x193)+[{'type':'M','values':[V+X,W]},{'type':'A','values':[X,Y,0x0,0x0,0x1,V,W+Y]},{'type':'A','values':[X,Y,0x0,0x0,0x1,V-X,W]},{'type':'A','values':[X,Y,0x0,0x0,0x1,V,W-Y]},{'type':'A','values':[X,Y,0x0,0x0,0x1,V+X,W]},{'type':'Z','values':[]}]['map'](a1=>a1[a7(0x1e7)]+'\x20'+a1[a7(0x1eb)][a7(0x1cb)]('\x20'))[a7(0x1cb)]('\x20')+'\x22\x20'+Z+'\x20'+B+a7(0x1dd));}}}globalThis[a7(0x1ac)]([A,C]);},s['onEnd']=z=>{const a8=a6;globalThis[a8(0x1ac)]([0x1,'</svg>']);},s['start']();});function j(a,c){const d=b();return j=function(e,f){e=e-0x17b;let g=d[e];return g;},j(a,c);}let i=(k,q)=>{let v={};for(let [x,y]of Object['entries'](k))v[x]=void 0x0!==q[x]?q[x]:k[x];return v;},h=(k,q,v,x)=>{let y=z=>{const a9=j;let A=z[a9(0x1fd)](0x10);return 0x1==A['length']?'0'+A:A;};return 0x1===x?'#'+y(k)+y(q)+y(v):'rgba('+k+','+q+','+v+','+(x=n(x,0x2))+')';},r=k=>a5(0x1ce)+k['a']+',\x20'+k['b']+',\x20'+k['c']+',\x20'+k['d']+',\x20'+k['e']+',\x20'+k['f']+')',a=k=>k*(0xb4/Math['PI']),n=(k,q=0x0)=>{const aa=a5;let v=Math[aa(0x196)](0xa,q);return Math[aa(0x1a7)]((k+Number['EPSILON'])*v)/v;},l=(k,q)=>k[a5(0x1d8)]?new DOMMatrix([n(k['a'],q),n(k['b'],q),n(k['c'],q),n(k['d'],q),n(k['e'],q),n(k['f'],q)]):new DOMMatrix([n(k[a5(0x1cf)],q),n(k[a5(0x1a1)],q),n(k['m13'],q),n(k[a5(0x1c6)],q),n(k[a5(0x17d)],q),n(k[a5(0x18b)],q),n(k[a5(0x1c5)],q),n(k['m24'],q),n(k[a5(0x1fb)],q),n(k[a5(0x1de)],q),n(k['m33'],q),n(k[a5(0x19c)],q),n(k[a5(0x1e3)],q),n(k[a5(0x19e)],q),n(k[a5(0x1c0)],q),n(k[a5(0x1fa)],q)]),o=(k,q,v)=>Math[a5(0x1e4)](q,Math['min'](v,k)),u=(k,q)=>Math[a5(0x1e1)](k/(0x3*q))/0xff,c=(...k)=>{const ab=a5;let q=k[ab(0x1b6)]((v,x)=>[v[0x0]+x[0x0],v[0x1]+x[0x1]]);return[q[0x0]/k[ab(0x1f1)],q[0x1]/k['length']];};class f{#t=0x0;#e=0x0;#s=0x0;#i;get[a5(0x17c)](){return this.#t;}get['height'](){return this.#e;}constructor(k,q,v){const ac=a5;let x=Math[ac(0x1e4)](k[ac(0x17c)]/q[ac(0x1af)],k[ac(0x17e)]/q[ac(0x1af)],0x1),y=k[ac(0x17c)]/x,z=k[ac(0x17e)]/x,A=new p(y,z,q['backgroundColor']);A['context'][ac(0x1be)](k,0x0,0x0,y,z),this[ac(0x183)]=q,this[ac(0x1e5)]=x,this[ac(0x18e)]=new v(q[ac(0x1bc)]),this['onStep']=()=>{},this['onEnd']=()=>{},this.#t=A[ac(0x17c)],this.#e=A[ac(0x17e)],this.#i=new M(A,new p(this.#t,this.#e,q['backgroundColor']));}['getProgress'](){const ad=a5;return n(this.#s/this[ad(0x183)][ad(0x18c)],0x2);}[a5(0x18e)](){}['getRandomPoint'](k,q){const ae=a5;return[~~(this[ae(0x18e)]()*k),~~(this[ae(0x18e)]()*q)];}[a5(0x200)](){this.#h();}async #h(){const af=a5;let k=await this.#r();k=await this.#a(k),this.#s+=0x1,k[af(0x1d6)]<this.#i[af(0x1d6)]&&(this.#i=k[af(0x1ba)](this.#i),this['onStep'](k)),this.#n();}#n(){const ag=a5;this.#s<this[ag(0x183)]['shapesNumber']?setTimeout(()=>this.#h(),0xa):this['onEnd'](this.#i);}#r(){const ah=a5;let k=this['options']['shapesPerIteration'],q=null,v=[];for(let x=0x0;x<k;x+=0x1){let y,z=Math[ah(0x1a2)](this['getRandomNumber']()*this[ah(0x183)][ah(0x19a)][ah(0x1f1)]),A=this[ah(0x183)][ah(0x19a)][z];ah(0x180)===A?y=w:ah(0x189)===A?y=m:ah(0x195)===A&&(y=d);let B=new y(this);B['init']();let C=new $(B,this)['compute'](this.#i)[ah(0x1d4)](D=>{const ai=ah;(!q||D[ai(0x1d6)]<q[ai(0x1d6)])&&(q=D);});v[ah(0x1c3)](C);}return Promise[ah(0x1f6)](v)[ah(0x1d4)](()=>q);}#a(k){const aj=a5;let q=this[aj(0x183)][aj(0x1d0)],v=0x0,x=null,y=k,z=new Promise(B=>x=B),A=()=>{const ak=aj;if(v>=q)return x(y);y[ak(0x1a9)]()['compute'](this.#i)[ak(0x1d4)](B=>{const al=ak;B[al(0x1d6)]<y[al(0x1d6)]?(v=0x0,y=B):v+=0x1,A();});};return A(),z;}}class p extends OffscreenCanvas{#l=null;constructor(k,q,v){const am=a5;super(k,q),this[am(0x19d)]=this[am(0x1ea)]('2d'),v&&(this[am(0x19d)][am(0x1a5)]=v,this[am(0x19d)][am(0x18a)](0x0,0x0,k,q));}[a5(0x1b9)](k){const an=a5;this['context'][an(0x1f8)]=k[an(0x1f7)],this[an(0x19d)]['fillStyle']=an(0x1b7)+k[an(0x1cc)][0x0]+',\x20'+k[an(0x1cc)][0x1]+',\x20'+k[an(0x1cc)][0x2]+')',this['context'][an(0x1a4)]='rgb('+k['color'][0x0]+',\x20'+k[an(0x1cc)][0x1]+',\x20'+k[an(0x1cc)][0x2]+')',k[an(0x1b5)][an(0x188)](this[an(0x19d)]);}[a5(0x1ae)](){const ao=a5;return this.#l||(this.#l=this[ao(0x19d)]['getImageData'](0x0,0x0,this[ao(0x17c)],this[ao(0x17e)])),this.#l;}['getDifference'](k){const ap=a5;let q=this[ap(0x1ae)](),v=k[ap(0x1ae)](),x=0x0;for(let y=0x0;y<q[ap(0x1d5)]['length'];y+=0x1)if(y%0x4!=0x3){let z=v['data'][y]-q['data'][y];x+=z*z;}return x;}[a5(0x17f)](k){const aq=a5;let q=this[aq(0x1d7)](k);return u(q,this[aq(0x17c)]*this['height']);}[a5(0x1a3)](){const ar=a5;let k=new p(this[ar(0x17c)],this['height']);return k[ar(0x19d)][ar(0x1be)](this,0x0,0x0),k;}}class M{constructor(k,q,v=Infinity){const as=a5;this[as(0x18d)]=k,this['destCanvas']=q,this[as(0x1d6)]=Infinity===v?k[as(0x17f)](q):v;}}class ${#o=null;[a5(0x1b5)]=null;[a5(0x1f7)]=null;['color']=[0x0,0x0,0x0];[a5(0x1d6)]=Infinity;constructor(k,q){const at=a5;this.#o=q,this[at(0x1b5)]=k,this[at(0x1f7)]=this.#o[at(0x183)][at(0x198)];}[a5(0x1ba)](k){const au=a5;let q=k[au(0x1bd)][au(0x1a3)]();return q[au(0x1b9)](this),new M(k[au(0x18d)],q,this[au(0x1d6)]);}[a5(0x1a9)](){const av=a5;let k=this['shape'][av(0x1a9)](),q=new $(k,this.#o);if(this.#o['options']['autoAdjustShapesAlpha']){let v=this['alpha']+0.08*(this.#o[av(0x18e)]()-0.5);q[av(0x1f7)]=o(v,0.1,0x1);}return q;}['compute'](k){const aw=a5;let q={'shape':this[aw(0x1b5)][aw(0x1ff)](this[aw(0x1f7)])[aw(0x1ae)](),'current':k['destCanvas'][aw(0x1ae)](),'target':k[aw(0x18d)][aw(0x1ae)]()},v=k['destCanvas']['width']*k[aw(0x1bd)][aw(0x17e)],x=this[aw(0x1b5)]['bbox'],y=this.#u(x,q,this[aw(0x1f7)]),z=this.#c(x,q,y),A=((B,C)=>Math[aw(0x196)](0xff*B,0x2)*(0x3*C))(k[aw(0x1d6)],v);return this[aw(0x1cc)]=[...y],this[aw(0x1d6)]=u(A+z,v),Promise[aw(0x1d2)](this);}#c(k,q,z){const ax=a5;let A,B,C,E,F,G,H,J,K,L,N,Q,R,S,{shape:T,current:U,target:V}=q,W=T['data'],X=U[ax(0x1d5)],Y=V['data'],Z=T[ax(0x17c)],a0=T[ax(0x17e)],a1=U[ax(0x17c)],a2=U[ax(0x17e)];var a3=0x0;for(N=0x0;N<a0;N+=0x1)if(S=N+k['top'],!(S<0x0||S>=a2)){for(L=0x0;L<Z;L+=0x1)R=k[ax(0x185)]+L,R<0x0||R>=a1||(K=0x4*(L+N*Z),A=W[K+0x3],0x0!==A&&(Q=0x4*(R+S*a1),A/=0xff,B=0x1-A,C=Y[Q]-X[Q],E=Y[Q+0x1]-X[Q+0x1],F=Y[Q+0x2]-X[Q+0x2],G=Y[Q]-(z[0x0]*A+X[Q]*B),J=Y[Q+0x1]-(z[0x1]*A+X[Q+0x1]*B),H=Y[Q+0x2]-(z[0x2]*A+X[Q+0x2]*B),a3-=C*C+E*E+F*F,a3+=G*G+J*J+H*H));}return a3;}#u(k,q,v){const ay=a5;let x,z,A,B,C,D,{shape:E,current:F,target:G}=q,H=E['data'],I=F['data'],J=G[ay(0x1d5)],K=E['width'],L=E[ay(0x17e)],N=F[ay(0x17c)],O=F[ay(0x17e)],P=[0x0,0x0,0x0],Q=0x0;for(A=0x0;A<L;A+=0x1)if(D=A+k[ay(0x199)],!(D<0x0||D>=O)){for(z=0x0;z<K;z+=0x1)C=k['left']+z,C<0x0||C>=N||(x=0x4*(z+A*K),0x0!==H[x+0x3]&&(B=0x4*(C+D*N),P[0x0]+=(J[B]-I[B])/v+I[B],P[0x1]+=(J[B+0x1]-I[B+0x1])/v+I[B+0x1],P[0x2]+=(J[B+0x2]-I[B+0x2])/v+I[B+0x2],Q+=0x1));}return P['map'](R=>~~(R/Q))[ay(0x1df)](R=>o(R,0x0,0xff));}}class g{['points']=[];['bbox']={};[a5(0x18f)]=0x0;['t']=null;constructor(k){this['t']=k;}[a5(0x1ad)](){const az=a5;{let k=this['t'][az(0x1ca)](this['t']['width'],this['t']['height']),q=this['t'][az(0x1ca)](this['t'][az(0x17c)],this['t'][az(0x17e)]),v=Math[az(0x1bb)](k[0x0],q[0x0]),x=Math[az(0x1e4)](k[0x0],q[0x0]),y=Math['min'](k[0x1],q[0x1]),z=Math[az(0x1e4)](k[0x1],q[0x1]);this[az(0x192)]=[[v,y],[x,y],[x,z],[v,z]];}return this[az(0x1ef)](),this;}['computeBBox'](){const aA=a5;let k=[this['points'][aA(0x1b6)]((v,x)=>Math[aA(0x1bb)](v,x[0x0]),Infinity),this[aA(0x192)][aA(0x1b6)]((v,x)=>Math[aA(0x1bb)](v,x[0x1]),Infinity)],q=[this[aA(0x192)][aA(0x1b6)]((v,x)=>Math['max'](v,x[0x0]),-Infinity),this['points'][aA(0x1b6)]((v,x)=>Math['max'](v,x[0x1]),-Infinity)];return this[aA(0x1c2)]={'left':k[0x0],'top':k[0x1],'width':q[0x0]-k[0x0]||0x1,'height':q[0x1]-k[0x1]||0x1},this;}[a5(0x1a9)](){const aB=a5;let k=new this[(aB(0x1f4))](this['t']);k[aB(0x192)]=this[aB(0x192)][aB(0x1df)](v=>v['slice']());let q=~~(0x14*(this['t']['getRandomNumber']()-0.5));switch(Math[aB(0x1a2)](0x8*this['t'][aB(0x18e)]())){case 0x0:k[aB(0x192)][0x0][0x0]+=q,k['points'][0x3][0x0]+=q;break;case 0x1:k[aB(0x192)][0x0][0x1]+=q,k[aB(0x192)][0x1][0x1]+=q;break;case 0x2:k[aB(0x192)][0x1][0x0]+=q,k[aB(0x192)][0x2][0x0]+=q;break;case 0x3:k[aB(0x192)][0x2][0x1]+=q,k[aB(0x192)][0x3][0x1]+=q;break;case 0x4:case 0x5:case 0x6:case 0x7:k[aB(0x18f)]=(q/0x14+0.5)*Math['PI'];}return k[aB(0x1ef)]();}[a5(0x1ff)](k){const aC=a5;let q=new p(this[aC(0x1c2)][aC(0x17c)],this['bbox'][aC(0x17e)]),v=q[aC(0x19d)];return v[aC(0x1a5)]=aC(0x17b),v[aC(0x1f8)]=k,v[aC(0x1e9)](-this[aC(0x1c2)]['left'],-this['bbox'][aC(0x199)]),this['render'](v),q;}}class w extends g{[a5(0x1ad)](){const aD=a5;{let k=this['t'][aD(0x1ca)](this['t'][aD(0x17c)],this['t'][aD(0x17e)]),q=[k];for(let v=0x1;v<0x3;v+=0x1){let x=0x2*this['t'][aD(0x18e)]()*Math['PI'],y=0x14*this['t']['getRandomNumber']();q[aD(0x1c3)]([k[0x0]+~~(y*Math[aD(0x191)](x)),k[0x1]+~~(y*Math[aD(0x1b0)](x))]);}this['points']=q;}return this[aD(0x1ef)](),this;}[a5(0x1a9)](){const aE=a5;let k=new w(this['t']);k[aE(0x192)]=this[aE(0x192)]['map'](z=>z[aE(0x1bf)]());let q=Math[aE(0x1a2)](this['t'][aE(0x18e)]()*this['points']['length']),v=k['points'][q],x=0x2*this['t'][aE(0x18e)]()*Math['PI'],y=0x14*this['t'][aE(0x18e)]();return v[0x0]+=~~(y*Math[aE(0x191)](x)),v[0x1]+=~~(y*Math[aE(0x1b0)](x)),k['computeBBox']();}[a5(0x188)](k){const aF=a5;k[aF(0x1fc)](),this[aF(0x192)][aF(0x1d1)](([q,v],x)=>{const aG=aF;x?k[aG(0x1ab)](q,v):k[aG(0x1b1)](q,v);}),k[aF(0x1c7)](),k[aF(0x1e6)]();}}class m extends g{['render'](k){const aH=a5;k[aH(0x1c8)]();let [q,v]=c(this['points'][0x0],this[aH(0x192)][0x2]);k[aH(0x1e9)](q,v),k[aH(0x1f5)](this[aH(0x18f)]),k['translate'](-q,-v),k[aH(0x1fc)](),this[aH(0x192)][aH(0x1d1)](([x,y],z)=>{const aI=aH;z?k[aI(0x1ab)](x,y):k[aI(0x1b1)](x,y);}),k[aH(0x1c7)](),k['fill'](),k[aH(0x1c1)]();}}function b(){const aK=['values','13179768ajQDag','11WQAQvY','2883QAMLpt','computeBBox','transform=\x22','length','shapes','9931833YeOUnA','constructor','rotate','all','alpha','globalAlpha','getProgress','m44','m31','beginPath','toString','ellipse','rasterize','start','#000','width','m21','height','getDistance','triangles','style=\x22fill:\x20','addEventListener','options','></rect>','left','rotateSelf','translateSelf','render','rectangles','fillRect','m22','shapesNumber','sourceCanvas','getRandomNumber','angle','75088teHWZn','cos','points','<path\x20d=\x22','></ellipse>','ellipses','pow','drawAs','shapesAlpha','top','shapesType','6WhqApd','m34','context','m42','<rect\x20x=\x22','<path\x20','m12','floor','clone','strokeStyle','fillStyle','7887225FhywJz','round','onStep','mutate','\x22\x20width=\x22','lineTo','postMessage','init','getImageData','workingSize','sin','moveTo','\x22\x20y=\x22','#ffffff','\x22\x20cy=\x22','shape','reduce','rgb(','8kCQRTY','drawStep','apply','min','seed','destCanvas','drawImage','slice','m43','restore','bbox','push','\x20Z\x22','m23','m14','closePath','save','paths','getRandomPoint','join','color','default','matrix(','m11','maxMutations','forEach','resolve','2126590RTsTYm','then','data','distance','getDifference','is2D','14zvWXfx','\x22\x20height=\x22','d=\x22M\x20','4396PYmEHg','></path>','m32','map','\x22\x20ry=\x22','sqrt','2667826rJFkyO','m41','max','scale','fill','type','message','translate','getContext'];b=function(){return aK;};return b();}class d extends g{['render'](k){const aJ=a5;k['save']();let [q,v]=c(this[aJ(0x192)][0x0],this[aJ(0x192)][0x2]),x=[this[aJ(0x192)]['reduce']((B,C)=>Math['min'](B,C[0x0]),Infinity),this[aJ(0x192)][aJ(0x1b6)]((B,C)=>Math['min'](B,C[0x1]),Infinity)],y=[this[aJ(0x192)][aJ(0x1b6)]((B,C)=>Math[aJ(0x1e4)](B,C[0x0]),-Infinity),this[aJ(0x192)][aJ(0x1b6)]((B,C)=>Math[aJ(0x1e4)](B,C[0x1]),-Infinity)],z=(y[0x0]-x[0x0]||0x1)/0x2,A=(y[0x1]-x[0x1]||0x1)/0x2;k[aJ(0x1e9)](q,v),k[aJ(0x1f5)](this[aJ(0x18f)]),k['translate'](-q,-v),k[aJ(0x1fc)](),k[aJ(0x1fe)](q,v,z,A,0x0,0x0,0x2*Math['PI'],!0x1),k[aJ(0x1c7)](),k[aJ(0x1e6)](),k['restore']();}}
+let t;
+let e = {
+  shapesType: ["triangles"],
+  shapesNumber: 40,
+  shapesAlpha: 0.7,
+  autoAdjustShapesAlpha: true,
+  workingSize: 128,
+  backgroundColor: "#ffffff",
+  shapesPerIteration: 100,
+  maxMutations: 16,
+  seed: 100,
+  drawAs: "paths",
+  geometryPrecision: 3,
+  transformPrecision: 6,
+};
+let s = null;
+globalThis.addEventListener("message", async (k) => {
+  t ||= (await import("/libs/seed-random/seed-random.js")).default;
+  let [q, v] = k.data;
+  v = i(e, v);
+  s = new f(q, v, t);
+  let { geometryPrecision: x, transformPrecision: y } = v;
+  globalThis.postMessage([
+    0,
+    '<svg viewBox="0 0 ' + q.width + " " + q.height + '">',
+  ]);
+  s.onStep = (z) => {
+    let A = s.getProgress();
+    let B =
+      'style="fill: ' + h(z.color[0], z.color[1], z.color[2], z.alpha) + ';"';
+    let C = "";
+    if (z.shape instanceof w) {
+      let D = z.shape.points.map(
+        ([G, H]) => new DOMPoint(G * s.scale, H * s.scale)
+      );
+      let [E, ...F] = D;
+      C +=
+        "<path " +
+        ('d="M ' +
+          E.x +
+          " " +
+          E.y +
+          " " +
+          F.map(({ x: G, y: H }) => "L " + G + " " + H).join(" ") +
+          ' Z"') +
+        " " +
+        B +
+        "></path>";
+    } else if (z.shape instanceof m) {
+      let G = z.shape.bbox.left * s.scale;
+      let H = z.shape.bbox.top * s.scale;
+      let I = z.shape.bbox.width * s.scale;
+      let J = z.shape.bbox.height * s.scale;
+      let K = null;
+      if (z.shape.angle !== 0) {
+        let L = new DOMPoint(G + I / 2, H + J / 2);
+        K = new DOMMatrix();
+        K.translateSelf(L.x, L.y);
+        K.rotateSelf(a(z.shape.angle));
+        K.translateSelf(-L.x, -L.y);
+      }
+      if (v.drawAs === "shapes") {
+        G = n(G, x);
+        H = n(H, x);
+        I = n(I, x);
+        J = n(J, x);
+        let N = "";
+        if (K) {
+          N = 'transform="' + r(l(K, y)) + '"';
+        }
+        C =
+          '<rect x="' +
+          G +
+          '" y="' +
+          H +
+          '" width="' +
+          I +
+          '" height="' +
+          J +
+          '" ' +
+          N +
+          " " +
+          B +
+          "></rect>";
+      } else if (v.drawAs === "paths") {
+        let O =
+          'd="' +
+          [["M", G, H], ["H", G + I], ["V", H + J], ["H", G], ["V", H], ["Z"]]
+            .map((Q) => Q.join(" "))
+            .join(" ") +
+          '"';
+        let P = "";
+        if (K) {
+          P = 'transform="' + r(l(K, y)) + '"';
+        }
+        C += "<path " + O + " " + P + " " + B + "></path>";
+      }
+    } else if (z.shape instanceof d) {
+      let Q = z.shape.bbox.left * s.scale;
+      let R = z.shape.bbox.top * s.scale;
+      let S = z.shape.bbox.width * s.scale;
+      let T = z.shape.bbox.height * s.scale;
+      let U = null;
+      if (z.shape.angle !== 0) {
+        let a0 = new DOMPoint(Q + S / 2, R + T / 2);
+        U = new DOMMatrix();
+        U.translateSelf(a0.x, a0.y);
+        U.rotateSelf(a(z.shape.angle));
+        U.translateSelf(-a0.x, -a0.y);
+      }
+      let V = n(Q + S / 2, x);
+      let W = n(R + T / 2, x);
+      let X = n(S / 2, x);
+      let Y = n(T / 2, x);
+      let Z = "";
+      if (U) {
+        Z = 'transform="' + r(l(U, y)) + '"';
+      }
+      if (v.drawAs === "shapes") {
+        C =
+          '<ellipse cx="' +
+          V +
+          '" cy="' +
+          W +
+          '" rx="' +
+          X +
+          '" ry="' +
+          Y +
+          '" ' +
+          Z +
+          " " +
+          B +
+          "></ellipse>";
+      } else if (v.drawAs === "paths") {
+        C =
+          '<path d="' +
+          [
+            {
+              type: "M",
+              values: [V + X, W],
+            },
+            {
+              type: "A",
+              values: [X, Y, 0, 0, 1, V, W + Y],
+            },
+            {
+              type: "A",
+              values: [X, Y, 0, 0, 1, V - X, W],
+            },
+            {
+              type: "A",
+              values: [X, Y, 0, 0, 1, V, W - Y],
+            },
+            {
+              type: "A",
+              values: [X, Y, 0, 0, 1, V + X, W],
+            },
+            {
+              type: "Z",
+              values: [],
+            },
+          ]
+            .map((a1) => a1.type + " " + a1.values.join(" "))
+            .join(" ") +
+          '" ' +
+          Z +
+          " " +
+          B +
+          "></path>";
+      }
+    }
+    globalThis.postMessage([A, C]);
+  };
+  s.onEnd = (z) => {
+    globalThis.postMessage([1, "</svg>"]);
+  };
+  s.start();
+});
+let i = (k, q) => {
+  let v = {};
+  for (let [x, y] of Object.entries(k)) {
+    v[x] = q[x] !== undefined ? q[x] : k[x];
+  }
+  return v;
+};
+let h = (k, q, v, x) => {
+  let y = (z) => {
+    let A = z.toString(16);
+    if (A.length == 1) {
+      return "0" + A;
+    } else {
+      return A;
+    }
+  };
+  if (x === 1) {
+    return "#" + y(k) + y(q) + y(v);
+  } else {
+    return "rgba(" + k + "," + q + "," + v + "," + (x = n(x, 2)) + ")";
+  }
+};
+let r = (k) =>
+  "matrix(" +
+  k.a +
+  ", " +
+  k.b +
+  ", " +
+  k.c +
+  ", " +
+  k.d +
+  ", " +
+  k.e +
+  ", " +
+  k.f +
+  ")";
+let a = (k) => k * (180 / Math.PI);
+let n = (k, q = 0) => {
+  let v = Math.pow(10, q);
+  return Math.round((k + Number.EPSILON) * v) / v;
+};
+let l = (k, q) =>
+  k.is2D
+    ? new DOMMatrix([
+        n(k.a, q),
+        n(k.b, q),
+        n(k.c, q),
+        n(k.d, q),
+        n(k.e, q),
+        n(k.f, q),
+      ])
+    : new DOMMatrix([
+        n(k.m11, q),
+        n(k.m12, q),
+        n(k.m13, q),
+        n(k.m14, q),
+        n(k.m21, q),
+        n(k.m22, q),
+        n(k.m23, q),
+        n(k.m24, q),
+        n(k.m31, q),
+        n(k.m32, q),
+        n(k.m33, q),
+        n(k.m34, q),
+        n(k.m41, q),
+        n(k.m42, q),
+        n(k.m43, q),
+        n(k.m44, q),
+      ]);
+let o = (k, q, v) => Math.max(q, Math.min(v, k));
+let u = (k, q) => Math.sqrt(k / (q * 3)) / 255;
+let c = (...k) => {
+  let q = k.reduce((v, x) => [v[0] + x[0], v[1] + x[1]]);
+  return [q[0] / k.length, q[1] / k.length];
+};
+class f {
+  #t = 0;
+  #e = 0;
+  #s = 0;
+  #i;
+  get width() {
+    return this.#t;
+  }
+  get height() {
+    return this.#e;
+  }
+  constructor(k, q, v) {
+    let x = Math.max(k.width / q.workingSize, k.height / q.workingSize, 1);
+    let y = k.width / x;
+    let z = k.height / x;
+    let A = new p(y, z, q.backgroundColor);
+    A.context.drawImage(k, 0, 0, y, z);
+    this.options = q;
+    this.scale = x;
+    this.getRandomNumber = new v(q.seed);
+    this.onStep = () => {};
+    this.onEnd = () => {};
+    this.#t = A.width;
+    this.#e = A.height;
+    this.#i = new M(A, new p(this.#t, this.#e, q.backgroundColor));
+  }
+  getProgress() {
+    return n(this.#s / this.options.shapesNumber, 2);
+  }
+  getRandomNumber() {}
+  getRandomPoint(k, q) {
+    return [~~(this.getRandomNumber() * k), ~~(this.getRandomNumber() * q)];
+  }
+  start() {
+    this.#h();
+  }
+  async #h() {
+    let k = await this.#r();
+    k = await this.#a(k);
+    this.#s += 1;
+    if (k.distance < this.#i.distance) {
+      this.#i = k.apply(this.#i);
+      this.onStep(k);
+    }
+    this.#n();
+  }
+  #n() {
+    if (this.#s < this.options.shapesNumber) {
+      setTimeout(() => this.#h(), 10);
+    } else {
+      this.onEnd(this.#i);
+    }
+  }
+  #r() {
+    let k = this.options.shapesPerIteration;
+    let q = null;
+    let v = [];
+    for (let x = 0; x < k; x += 1) {
+      let y;
+      let z = Math.floor(
+        this.getRandomNumber() * this.options.shapesType.length
+      );
+      let A = this.options.shapesType[z];
+      if (A === "triangles") {
+        y = w;
+      } else if (A === "rectangles") {
+        y = m;
+      } else if (A === "ellipses") {
+        y = d;
+      }
+      let B = new y(this);
+      B.init();
+      let C = new $(B, this).compute(this.#i).then((D) => {
+        if (!q || D.distance < q.distance) {
+          q = D;
+        }
+      });
+      v.push(C);
+    }
+    return Promise.all(v).then(() => q);
+  }
+  #a(k) {
+    let q = this.options.maxMutations;
+    let v = 0;
+    let x = null;
+    let y = k;
+    let z = new Promise((B) => (x = B));
+    let A = () => {
+      if (v >= q) {
+        return x(y);
+      }
+      y.mutate()
+        .compute(this.#i)
+        .then((B) => {
+          if (B.distance < y.distance) {
+            v = 0;
+            y = B;
+          } else {
+            v += 1;
+          }
+          A();
+        });
+    };
+    A();
+    return z;
+  }
+}
+class p extends OffscreenCanvas {
+  #l = null;
+  constructor(k, q, v) {
+    super(k, q);
+    this.context = this.getContext("2d");
+    if (v) {
+      this.context.fillStyle = v;
+      this.context.fillRect(0, 0, k, q);
+    }
+  }
+  drawStep(k) {
+    this.context.globalAlpha = k.alpha;
+    this.context.fillStyle =
+      "rgb(" + k.color[0] + ", " + k.color[1] + ", " + k.color[2] + ")";
+    this.context.strokeStyle =
+      "rgb(" + k.color[0] + ", " + k.color[1] + ", " + k.color[2] + ")";
+    k.shape.render(this.context);
+  }
+  getImageData() {
+    this.#l ||= this.context.getImageData(0, 0, this.width, this.height);
+    return this.#l;
+  }
+  getDifference(k) {
+    let q = this.getImageData();
+    let v = k.getImageData();
+    let x = 0;
+    for (let y = 0; y < q.data.length; y += 1) {
+      if (y % 4 != 3) {
+        let z = v.data[y] - q.data[y];
+        x += z * z;
+      }
+    }
+    return x;
+  }
+  getDistance(k) {
+    let q = this.getDifference(k);
+    return u(q, this.width * this.height);
+  }
+  clone() {
+    let k = new p(this.width, this.height);
+    k.context.drawImage(this, 0, 0);
+    return k;
+  }
+}
+class M {
+  constructor(k, q, v = Infinity) {
+    this.sourceCanvas = k;
+    this.destCanvas = q;
+    this.distance = v === Infinity ? k.getDistance(q) : v;
+  }
+}
+class $ {
+  #o = null;
+  shape = null;
+  alpha = null;
+  color = [0, 0, 0];
+  distance = Infinity;
+  constructor(k, q) {
+    this.#o = q;
+    this.shape = k;
+    this.alpha = this.#o.options.shapesAlpha;
+  }
+  apply(k) {
+    let q = k.destCanvas.clone();
+    q.drawStep(this);
+    return new M(k.sourceCanvas, q, this.distance);
+  }
+  mutate() {
+    let k = this.shape.mutate();
+    let q = new $(k, this.#o);
+    if (this.#o.options.autoAdjustShapesAlpha) {
+      let v = this.alpha + (this.#o.getRandomNumber() - 0.5) * 0.08;
+      q.alpha = o(v, 0.1, 1);
+    }
+    return q;
+  }
+  compute(k) {
+    let q = {
+      shape: this.shape.rasterize(this.alpha).getImageData(),
+      current: k.destCanvas.getImageData(),
+      target: k.sourceCanvas.getImageData(),
+    };
+    let v = k.destCanvas.width * k.destCanvas.height;
+    let x = this.shape.bbox;
+    let y = this.#u(x, q, this.alpha);
+    let z = this.#c(x, q, y);
+    let A = ((B, C) => Math.pow(B * 255, 2) * (C * 3))(k.distance, v);
+    this.color = [...y];
+    this.distance = u(A + z, v);
+    return Promise.resolve(this);
+  }
+  #c(k, q, z) {
+    let A;
+    let B;
+    let C;
+    let E;
+    let F;
+    let G;
+    let H;
+    let J;
+    let K;
+    let L;
+    let N;
+    let Q;
+    let R;
+    let S;
+    let { shape: T, current: U, target: V } = q;
+    let W = T.data;
+    let X = U.data;
+    let Y = V.data;
+    let Z = T.width;
+    let a0 = T.height;
+    let a1 = U.width;
+    let a2 = U.height;
+    var a3 = 0;
+    for (N = 0; N < a0; N += 1) {
+      S = N + k.top;
+      if (S >= 0 && S < a2) {
+        for (L = 0; L < Z; L += 1) {
+          R = k.left + L;
+          if (R >= 0 && R < a1) {
+            K = (L + N * Z) * 4;
+            A = W[K + 3];
+            if (A !== 0) {
+              Q = (R + S * a1) * 4;
+              A /= 255;
+              B = 1 - A;
+              C = Y[Q] - X[Q];
+              E = Y[Q + 1] - X[Q + 1];
+              F = Y[Q + 2] - X[Q + 2];
+              G = Y[Q] - (z[0] * A + X[Q] * B);
+              J = Y[Q + 1] - (z[1] * A + X[Q + 1] * B);
+              H = Y[Q + 2] - (z[2] * A + X[Q + 2] * B);
+              a3 -= C * C + E * E + F * F;
+              a3 += G * G + J * J + H * H;
+            }
+          }
+        }
+      }
+    }
+    return a3;
+  }
+  #u(k, q, v) {
+    let x;
+    let z;
+    let A;
+    let B;
+    let C;
+    let D;
+    let { shape: E, current: F, target: G } = q;
+    let H = E.data;
+    let I = F.data;
+    let J = G.data;
+    let K = E.width;
+    let L = E.height;
+    let N = F.width;
+    let O = F.height;
+    let P = [0, 0, 0];
+    let Q = 0;
+    for (A = 0; A < L; A += 1) {
+      D = A + k.top;
+      if (D >= 0 && D < O) {
+        for (z = 0; z < K; z += 1) {
+          C = k.left + z;
+          if (C >= 0 && C < N) {
+            x = (z + A * K) * 4;
+            if (H[x + 3] !== 0) {
+              B = (C + D * N) * 4;
+              P[0] += (J[B] - I[B]) / v + I[B];
+              P[1] += (J[B + 1] - I[B + 1]) / v + I[B + 1];
+              P[2] += (J[B + 2] - I[B + 2]) / v + I[B + 2];
+              Q += 1;
+            }
+          }
+        }
+      }
+    }
+    return P.map((R) => ~~(R / Q)).map((R) => o(R, 0, 255));
+  }
+}
+class g {
+  points = [];
+  bbox = {};
+  angle = 0;
+  t = null;
+  constructor(k) {
+    this.t = k;
+  }
+  init() {
+    {
+      let k = this.t.getRandomPoint(this.t.width, this.t.height);
+      let q = this.t.getRandomPoint(this.t.width, this.t.height);
+      let v = Math.min(k[0], q[0]);
+      let x = Math.max(k[0], q[0]);
+      let y = Math.min(k[1], q[1]);
+      let z = Math.max(k[1], q[1]);
+      this.points = [
+        [v, y],
+        [x, y],
+        [x, z],
+        [v, z],
+      ];
+    }
+    this.computeBBox();
+    return this;
+  }
+  computeBBox() {
+    let k = [
+      this.points.reduce((v, x) => Math.min(v, x[0]), Infinity),
+      this.points.reduce((v, x) => Math.min(v, x[1]), Infinity),
+    ];
+    let q = [
+      this.points.reduce((v, x) => Math.max(v, x[0]), -Infinity),
+      this.points.reduce((v, x) => Math.max(v, x[1]), -Infinity),
+    ];
+    this.bbox = {
+      left: k[0],
+      top: k[1],
+      width: q[0] - k[0] || 1,
+      height: q[1] - k[1] || 1,
+    };
+    return this;
+  }
+  mutate() {
+    let k = new this.constructor(this.t);
+    k.points = this.points.map((v) => v.slice());
+    let q = ~~((this.t.getRandomNumber() - 0.5) * 20);
+    switch (Math.floor(this.t.getRandomNumber() * 8)) {
+      case 0:
+        k.points[0][0] += q;
+        k.points[3][0] += q;
+        break;
+      case 1:
+        k.points[0][1] += q;
+        k.points[1][1] += q;
+        break;
+      case 2:
+        k.points[1][0] += q;
+        k.points[2][0] += q;
+        break;
+      case 3:
+        k.points[2][1] += q;
+        k.points[3][1] += q;
+        break;
+      case 4:
+      case 5:
+      case 6:
+      case 7:
+        k.angle = (q / 20 + 0.5) * Math.PI;
+    }
+    return k.computeBBox();
+  }
+  rasterize(k) {
+    let q = new p(this.bbox.width, this.bbox.height);
+    let v = q.context;
+    v.fillStyle = "#000";
+    v.globalAlpha = k;
+    v.translate(-this.bbox.left, -this.bbox.top);
+    this.render(v);
+    return q;
+  }
+}
+class w extends g {
+  init() {
+    {
+      let k = this.t.getRandomPoint(this.t.width, this.t.height);
+      let q = [k];
+      for (let v = 1; v < 3; v += 1) {
+        let x = this.t.getRandomNumber() * 2 * Math.PI;
+        let y = this.t.getRandomNumber() * 20;
+        q.push([k[0] + ~~(y * Math.cos(x)), k[1] + ~~(y * Math.sin(x))]);
+      }
+      this.points = q;
+    }
+    this.computeBBox();
+    return this;
+  }
+  mutate() {
+    let k = new w(this.t);
+    k.points = this.points.map((z) => z.slice());
+    let q = Math.floor(this.t.getRandomNumber() * this.points.length);
+    let v = k.points[q];
+    let x = this.t.getRandomNumber() * 2 * Math.PI;
+    let y = this.t.getRandomNumber() * 20;
+    v[0] += ~~(y * Math.cos(x));
+    v[1] += ~~(y * Math.sin(x));
+    return k.computeBBox();
+  }
+  render(k) {
+    k.beginPath();
+    this.points.forEach(([q, v], x) => {
+      if (x) {
+        k.lineTo(q, v);
+      } else {
+        k.moveTo(q, v);
+      }
+    });
+    k.closePath();
+    k.fill();
+  }
+}
+class m extends g {
+  render(k) {
+    k.save();
+    let [q, v] = c(this.points[0], this.points[2]);
+    k.translate(q, v);
+    k.rotate(this.angle);
+    k.translate(-q, -v);
+    k.beginPath();
+    this.points.forEach(([x, y], z) => {
+      if (z) {
+        k.lineTo(x, y);
+      } else {
+        k.moveTo(x, y);
+      }
+    });
+    k.closePath();
+    k.fill();
+    k.restore();
+  }
+}
+class d extends g {
+  render(k) {
+    k.save();
+    let [q, v] = c(this.points[0], this.points[2]);
+    let x = [
+      this.points.reduce((B, C) => Math.min(B, C[0]), Infinity),
+      this.points.reduce((B, C) => Math.min(B, C[1]), Infinity),
+    ];
+    let y = [
+      this.points.reduce((B, C) => Math.max(B, C[0]), -Infinity),
+      this.points.reduce((B, C) => Math.max(B, C[1]), -Infinity),
+    ];
+    let z = (y[0] - x[0] || 1) / 2;
+    let A = (y[1] - x[1] || 1) / 2;
+    k.translate(q, v);
+    k.rotate(this.angle);
+    k.translate(-q, -v);
+    k.beginPath();
+    k.ellipse(q, v, z, A, 0, 0, Math.PI * 2, false);
+    k.closePath();
+    k.fill();
+    k.restore();
+  }
+}

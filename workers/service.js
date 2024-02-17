@@ -1,1 +1,194 @@
-const n=c;(function(d,f){const m=c,g=d();while(!![]){try{const h=parseInt(m(0xcf))/0x1*(-parseInt(m(0xf3))/0x2)+parseInt(m(0xbb))/0x3*(-parseInt(m(0x124))/0x4)+-parseInt(m(0x123))/0x5*(-parseInt(m(0xbe))/0x6)+-parseInt(m(0x12b))/0x7*(-parseInt(m(0xe4))/0x8)+-parseInt(m(0x105))/0x9*(-parseInt(m(0xf6))/0xa)+-parseInt(m(0xc3))/0xb*(parseInt(m(0x10d))/0xc)+parseInt(m(0xc4))/0xd;if(h===f)break;else g['push'](g['shift']());}catch(i){g['push'](g['shift']());}}}(b,0xe91b8));const e=['/app',n(0xc0),n(0xb9),'/elements/apps/bx-progressivewebapp.js',n(0xec),n(0x113),'/templates/progressive-web-app-menu.tpl','/images/app/1024.png','/images/app/128.png',n(0xd8),'/images/app/192.png',n(0x112),n(0x110),n(0xb4),n(0xfc),'/images/app/512.png',n(0xdb),n(0xca),n(0xb6),n(0x115),n(0x117),n(0xc8),n(0xab),'/images/iconsets/user-agents.svg',n(0x12c),n(0xe5),n(0xe9),n(0xe3),n(0xdd),n(0x109),n(0x119),n(0xb3),n(0xda),n(0xf7),n(0xce),'/workers/slice-bitmap.js',n(0x111),n(0xc1),n(0x114),n(0x11d),'/elements/generators/bx-barcodegenerator.js',n(0xd2),n(0xa9),n(0x10f),n(0xc6),'/elements/generators/bx-primitivizegenerator.js',n(0x118),n(0xe1),n(0xf1),n(0xbf),n(0xfa),n(0xb1),n(0xaa),n(0xe2),n(0xe0),n(0xb7),n(0xa7),n(0xf2),n(0xad),'/libs/code-mirror/code-mirror.js',n(0xde),n(0xcc),n(0xfb),n(0xd3),'/libs/dexie/dexie.js',n(0x102),n(0x103),n(0xdc),n(0x11e),'/libs/gif/gif.worker.js','/libs/image-tracer/image-tracer.js',n(0xd9),n(0x108),n(0xe8),n(0x11f),n(0xfe),n(0x104),n(0xeb),n(0xdf),n(0xd5),n(0xe7),'/libs/pdf/fonts/FoxitSerifBoldItalic.pfb',n(0x10c),n(0xa8),n(0x11c),n(0xcd),'/libs/pdf/fonts/LiberationSans-Bold.ttf',n(0x129),n(0x126),'/libs/pdf/fonts/LiberationSans-Regular.ttf',n(0xef),n(0xd6),n(0xff),n(0xee),n(0x101),n(0xb8),n(0xc5),'/libs/rough/rough.js','/libs/seed-random/seed-random.js',n(0x122),n(0x120),'/libs/xel/themes/adwaita-dark.css',n(0x116),n(0x11b),n(0xac),n(0x12e),n(0xe6),'/libs/xel/xel.js',n(0xd0),n(0xba),n(0x127),n(0xd4)],s=['https://cdn.paddle.com/paddle/paddle.js',n(0x11a)],a=n(0x106);function b(){const v=['/themes/cupertino.css','/libs/color/color.js','/libs/pdf/fonts/FoxitFixedItalic.pfb','/libs/bar-code/bar-code.js','/elements/generators/bx-qrcodegenerator.js','/elements/generators/bx-vectorizegenerator.js','/themes/cupertino-dark.css','8FKCkjC','/themes/adwaita.css','/libs/xel/themes/fluent.css','/libs/pdf/fonts/FoxitSerifBold.pfb','/libs/path-data-polyfill/path-data-polyfill.js','/themes/base.css','url','/libs/pdf/fonts/FoxitFixedBoldItalic.pfb','/boxy-svg.webmanifest','postMessage','/libs/prose-mirror/prose-mirror.css','/libs/pdf/pdf.js','waitUntil','/elements/generators/bx-rasterizegenerator.js','/libs/chroma/chroma.js','914TIgTIp','data','addAll','9530tcDVyi','/workers/primitivize.js','match','/app/','/elements/generators/bx-sketchifygenerator.js','/libs/dagre/dagre.js','/images/app/48.png','clients','/libs/pdf/fonts/FoxitFixed.pfb','/libs/preact/preact.js','/app/serviceWorkerVersion','/libs/prose-mirror/prose-mirror.js','/libs/dom-purify/dom-purify.js','/libs/firebase/firebase.js','/libs/pdf/fonts/FoxitFixedBold.pfb','14481szhmEY','4.23.4','no-cache','/libs/paper/paper.js','/themes/fluent-dark.css','/app','then','/libs/pdf/fonts/FoxitSerifItalic.pfb','1740csYIlM','hidden','/elements/generators/bx-parliamentchartgenerator.js','/images/app/256.png','/workers/triangulate.js','/images/app/24.png','/templates/about.tpl','/elements/generators/bx-adduniqueidsgenerator.js','/images/cursors/blank.svg','/libs/xel/themes/adwaita.css','/images/cursors/text-add.svg','/elements/generators/bx-printingmarksgenerator.js','/themes/fluent.css','https://storage.boxy-svg.com/artworks/-MBUGsEWFPUYxQC0U5rC.svg','/libs/xel/themes/cupertino-dark.css','/libs/pdf/fonts/LICENSE_FOXIT','/elements/generators/bx-asciifygenerator.js','/libs/gif/gif.js','/libs/pdf/fonts/FoxitDingbats.pfb','/libs/upng/upng.js','visibilityState','/libs/typesense/typesense.js','515510nsTbOo','4wmxEup','message','/libs/pdf/fonts/LiberationSans-Italic.ttf','/locales/es.ftl','push','/libs/pdf/fonts/LiberationSans-BoldItalic.ttf','fetch','3841467aRCqMa','/themes/adwaita-dark.css','map','/libs/xel/themes/fluent-dark.css','startsWith','/libs/change-dpi/change-dpi.js','/libs/pdf/fonts/FoxitSymbol.pfb','/elements/generators/bx-jigsawpuzzlegenerator.js','/elements/generators/bx-triangulategenerator.js','/images/iconsets/default.svg','/libs/xel/themes/cupertino.css','/libs/code-mirror/code-mirror-tiny.js','origin','addEventListener','request','/elements/generators/bx-triangulatedsurfacegenerator.js','matchAll','/workers/asciify.js','/images/app/32.png','focused','/images/cornell-box.jpg','/libs/cantarell/cantarell.woff2','/libs/qr-code/qr-code.js','/progressive-web-app.js','/locales/en.ftl','45717TEGAcY','window','keys','24sEUhjV','/elements/generators/bx-resizeviewgenerator.js','/fallback.js','/workers/vectorize.js','respondWith','122419DZjPsl','22588605yMenJE','/libs/rgb-quant/rgb-quant.js','/elements/generators/bx-pixelategenerator.js','install','/images/cursors/text.svg','no-cors','/images/boxy-svg.svg','activate','/libs/css-parser/css-parser.js','/libs/pdf/fonts/LICENSE_LIBERATION','/workers/sketchify.js','3607TTWPZX','/locales/de.ftl','getAppWindows','/elements/generators/bx-firegenerator.js','/libs/delaunator/delaunator.js','/locales/pl.ftl','/libs/pdf/fonts/FoxitSerif.pfb','/libs/pdf/pdf.worker.js','open','/images/app/16.png','/libs/pako/pako.js','/workers/pixelate.js','/images/app/64.png','/libs/font-kit/font-kit.js'];b=function(){return v;};return b();}function c(a,d){const e=b();return c=function(f,g){f=f-0xa7;let h=e[f];return h;},c(a,d);}let t=new BroadcastChannel('ServiceWorkerBridge');globalThis['addEventListener'](n(0xc7),d=>{const o=n;d[o(0xf0)](new Promise(async f=>{const p=o;let g=await caches[p(0xd7)](a),h=e[p(0x12d)](j=>new Request(j,{'cache':p(0x107)}));await g[p(0xf5)](h);for(let j of s){let k=new Request(j,{'mode':p(0xc9)}),l=await fetch(k);await g['put'](k,l);}f();}));}),globalThis[n(0xaf)](n(0xcb),d=>{d['waitUntil'](new Promise(async f=>{const q=c;let g=await caches[q(0xbd)]();for(let h of g)h!==a&&await caches['delete'](h);f();}));}),globalThis[n(0xaf)](n(0x12a),d=>{const r=n;d[r(0xb0)]['url']===location['origin']+r(0x100)?d['respondWith'](new Response(a,{'headers':{'content-type':'text/plain'}})):d['request']['url'][r(0x12f)](location[r(0xae)]+r(0xf9))?d[r(0xc2)](caches[r(0xf8)](location[r(0xae)]+r(0x10a))[r(0x10b)](f=>f||fetch(location['origin']+r(0x10a)))):d['request'][r(0xea)]['startsWith'](location[r(0xae)]+'/')&&d[r(0xc2)](caches['match'](d[r(0xb0)])[r(0x10b)](f=>f||fetch(d[r(0xb0)])));}),t[n(0xaf)](n(0x125),async d=>{const u=n;if(d[u(0xf4)]&&u(0xd1)===d[u(0xf4)]['name']){let f=await globalThis[u(0xfd)][u(0xb2)]({'type':u(0xbc)}),g=[];for(let h of f)g[u(0x128)]({'id':h['id'],'url':h[u(0xea)],'focused':h[u(0xb5)],'hidden':u(0x10e)===h[u(0x121)]});t[u(0xed)]({'id':d[u(0xf4)]['id'],'arg':g});}});
+const e = [
+  "/app",
+  "/fallback.js",
+  "/progressive-web-app.js",
+  "/elements/apps/bx-progressivewebapp.js",
+  "/boxy-svg.webmanifest",
+  "/templates/about.tpl",
+  "/templates/progressive-web-app-menu.tpl",
+  "/images/app/1024.png",
+  "/images/app/128.png",
+  "/images/app/16.png",
+  "/images/app/192.png",
+  "/images/app/24.png",
+  "/images/app/256.png",
+  "/images/app/32.png",
+  "/images/app/48.png",
+  "/images/app/512.png",
+  "/images/app/64.png",
+  "/images/boxy-svg.svg",
+  "/images/cornell-box.jpg",
+  "/images/cursors/blank.svg",
+  "/images/cursors/text-add.svg",
+  "/images/cursors/text.svg",
+  "/images/iconsets/default.svg",
+  "/images/iconsets/user-agents.svg",
+  "/themes/adwaita-dark.css",
+  "/themes/adwaita.css",
+  "/themes/base.css",
+  "/themes/cupertino-dark.css",
+  "/themes/cupertino.css",
+  "/themes/fluent-dark.css",
+  "/themes/fluent.css",
+  "/workers/asciify.js",
+  "/workers/pixelate.js",
+  "/workers/primitivize.js",
+  "/workers/sketchify.js",
+  "/workers/slice-bitmap.js",
+  "/workers/triangulate.js",
+  "/workers/vectorize.js",
+  "/elements/generators/bx-adduniqueidsgenerator.js",
+  "/elements/generators/bx-asciifygenerator.js",
+  "/elements/generators/bx-barcodegenerator.js",
+  "/elements/generators/bx-firegenerator.js",
+  "/elements/generators/bx-jigsawpuzzlegenerator.js",
+  "/elements/generators/bx-parliamentchartgenerator.js",
+  "/elements/generators/bx-pixelategenerator.js",
+  "/elements/generators/bx-primitivizegenerator.js",
+  "/elements/generators/bx-printingmarksgenerator.js",
+  "/elements/generators/bx-qrcodegenerator.js",
+  "/elements/generators/bx-rasterizegenerator.js",
+  "/elements/generators/bx-resizeviewgenerator.js",
+  "/elements/generators/bx-sketchifygenerator.js",
+  "/elements/generators/bx-triangulatedsurfacegenerator.js",
+  "/elements/generators/bx-triangulategenerator.js",
+  "/elements/generators/bx-vectorizegenerator.js",
+  "/libs/bar-code/bar-code.js",
+  "/libs/cantarell/cantarell.woff2",
+  "/libs/change-dpi/change-dpi.js",
+  "/libs/chroma/chroma.js",
+  "/libs/code-mirror/code-mirror-tiny.js",
+  "/libs/code-mirror/code-mirror.js",
+  "/libs/color/color.js",
+  "/libs/css-parser/css-parser.js",
+  "/libs/dagre/dagre.js",
+  "/libs/delaunator/delaunator.js",
+  "/libs/dexie/dexie.js",
+  "/libs/dom-purify/dom-purify.js",
+  "/libs/firebase/firebase.js",
+  "/libs/font-kit/font-kit.js",
+  "/libs/gif/gif.js",
+  "/libs/gif/gif.worker.js",
+  "/libs/image-tracer/image-tracer.js",
+  "/libs/pako/pako.js",
+  "/libs/paper/paper.js",
+  "/libs/path-data-polyfill/path-data-polyfill.js",
+  "/libs/pdf/fonts/FoxitDingbats.pfb",
+  "/libs/pdf/fonts/FoxitFixed.pfb",
+  "/libs/pdf/fonts/FoxitFixedBold.pfb",
+  "/libs/pdf/fonts/FoxitFixedBoldItalic.pfb",
+  "/libs/pdf/fonts/FoxitFixedItalic.pfb",
+  "/libs/pdf/fonts/FoxitSerif.pfb",
+  "/libs/pdf/fonts/FoxitSerifBold.pfb",
+  "/libs/pdf/fonts/FoxitSerifBoldItalic.pfb",
+  "/libs/pdf/fonts/FoxitSerifItalic.pfb",
+  "/libs/pdf/fonts/FoxitSymbol.pfb",
+  "/libs/pdf/fonts/LICENSE_FOXIT",
+  "/libs/pdf/fonts/LICENSE_LIBERATION",
+  "/libs/pdf/fonts/LiberationSans-Bold.ttf",
+  "/libs/pdf/fonts/LiberationSans-BoldItalic.ttf",
+  "/libs/pdf/fonts/LiberationSans-Italic.ttf",
+  "/libs/pdf/fonts/LiberationSans-Regular.ttf",
+  "/libs/pdf/pdf.js",
+  "/libs/pdf/pdf.worker.js",
+  "/libs/preact/preact.js",
+  "/libs/prose-mirror/prose-mirror.css",
+  "/libs/prose-mirror/prose-mirror.js",
+  "/libs/qr-code/qr-code.js",
+  "/libs/rgb-quant/rgb-quant.js",
+  "/libs/rough/rough.js",
+  "/libs/seed-random/seed-random.js",
+  "/libs/typesense/typesense.js",
+  "/libs/upng/upng.js",
+  "/libs/xel/themes/adwaita-dark.css",
+  "/libs/xel/themes/adwaita.css",
+  "/libs/xel/themes/cupertino-dark.css",
+  "/libs/xel/themes/cupertino.css",
+  "/libs/xel/themes/fluent-dark.css",
+  "/libs/xel/themes/fluent.css",
+  "/libs/xel/xel.js",
+  "/locales/de.ftl",
+  "/locales/en.ftl",
+  "/locales/es.ftl",
+  "/locales/pl.ftl",
+];
+const s = [
+  "https://cdn.paddle.com/paddle/paddle.js",
+  "https://storage.boxy-svg.com/artworks/-MBUGsEWFPUYxQC0U5rC.svg",
+];
+const a = "4.23.4";
+let t = new BroadcastChannel("ServiceWorkerBridge");
+globalThis.addEventListener("install", (d) => {
+  d.waitUntil(
+    new Promise(async (f) => {
+      let g = await caches.open(a);
+      let h = e.map(
+        (j) =>
+          new Request(j, {
+            cache: "no-cache",
+          })
+      );
+      await g.addAll(h);
+      for (let j of s) {
+        let k = new Request(j, {
+          mode: "no-cors",
+        });
+        let l = await fetch(k);
+        await g.put(k, l);
+      }
+      f();
+    })
+  );
+});
+globalThis.addEventListener("activate", (d) => {
+  d.waitUntil(
+    new Promise(async (f) => {
+      let g = await caches.keys();
+      for (let h of g) {
+        if (h !== a) {
+          await caches.delete(h);
+        }
+      }
+      f();
+    })
+  );
+});
+globalThis.addEventListener("fetch", (d) => {
+  if (d.request.url === location.origin + "/app/serviceWorkerVersion") {
+    d.respondWith(
+      new Response(a, {
+        headers: {
+          "content-type": "text/plain",
+        },
+      })
+    );
+  } else if (d.request.url.startsWith(location.origin + "/app/")) {
+    d.respondWith(
+      caches
+        .match(location.origin + "/app")
+        .then((f) => f || fetch(location.origin + "/app"))
+    );
+  } else if (d.request.url.startsWith(location.origin + "/")) {
+    d.respondWith(caches.match(d.request).then((f) => f || fetch(d.request)));
+  }
+});
+t.addEventListener("message", async (d) => {
+  if (d.data && d.data.name === "getAppWindows") {
+    let f = await globalThis.clients.matchAll({
+      type: "window",
+    });
+    let g = [];
+    for (let h of f) {
+      g.push({
+        id: h.id,
+        url: h.url,
+        focused: h.focused,
+        hidden: h.visibilityState === "hidden",
+      });
+    }
+    t.postMessage({
+      id: d.data.id,
+      arg: g,
+    });
+  }
+});

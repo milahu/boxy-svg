@@ -1,4 +1,1806 @@
-const aM=q;function q(a,b){const c=j();return q=function(d,e){d=d-0x104;let f=c[d];return f;},q(a,b);}(function(C,D){const aL=q,E=C();while(!![]){try{const F=-parseInt(aL(0x144))/0x1*(parseInt(aL(0x23c))/0x2)+-parseInt(aL(0x269))/0x3*(-parseInt(aL(0x27d))/0x4)+parseInt(aL(0x2b8))/0x5*(parseInt(aL(0x1eb))/0x6)+-parseInt(aL(0x2dd))/0x7*(-parseInt(aL(0x11f))/0x8)+-parseInt(aL(0x222))/0x9*(-parseInt(aL(0x263))/0xa)+-parseInt(aL(0x2d9))/0xb*(-parseInt(aL(0x2ba))/0xc)+-parseInt(aL(0x12d))/0xd;if(F===D)break;else E['push'](E['shift']());}catch(G){E['push'](E['shift']());}}}(j,0x6371e));import w from'/libs/xel/xel.js';import'/libs/color/color.js';import'/libs/css-parser/css-parser.js';import'/libs/paper/paper.js';import z from'/libs/seed-random/seed-random.js';import'/libs/dom-purify/dom-purify.js';import A from'/libs/dexie/dexie.js';import B from'/libs/typesense/typesense.js';import'/libs/pako/pako.js';const n=[aM(0x188),'ellipse',aM(0x105),aM(0x28a),aM(0x195),'polyline',aM(0x1b9)],l=['text',aM(0x191),aM(0x2b5)],s=[...n,...l,'foreignObject',aM(0x2a5)],o=[...n,...l];[{'name':'alignment-baseline','displayName':aM(0x233),'presentationAttributeName':aM(0x2af),'initialValue':'baseline','values':[{'type':aM(0x10a),'tokens':[aM(0x1a3),aM(0x2a2),aM(0x192),aM(0x259),aM(0x1b6),'central',aM(0x190),aM(0x2ac),aM(0x136),aM(0x123),aM(0x2cf),aM(0x255),aM(0x25f),'unset']}],'appliesTo':[aM(0x250),aM(0x2b5),aM(0x191),aM(0x21d)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x143),'displayName':aM(0x268),'presentationAttributeName':aM(0x143),'initialValue':'0','values':[{'type':aM(0x1d7)},{'type':'percentage'},{'type':aM(0x122)},{'type':aM(0x10a),'tokens':[aM(0x2bd),aM(0x2f4),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':['text','tspan',aM(0x191),'text\x20a'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x1dd),'displayName':aM(0x13c),'presentationAttributeName':aM(0x1dd),'initialValue':aM(0x1e5),'values':[{'type':aM(0x16c)},{'type':'token','tokens':[aM(0x1dc),aM(0x115),aM(0x29f),aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,'svg','g','a',aM(0x25a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x16e),'displayName':aM(0x16b),'presentationAttributeName':'clip-rule','initialValue':'nonzero','values':[{'type':'token','tokens':['nonzero',aM(0x1d6),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x25a)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x219),'displayName':aM(0x19a),'presentationAttributeName':aM(0x219),'initialValue':'#000','values':[{'type':aM(0x219)},{'type':'token','tokens':[aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x187),'g','a','use'],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',aM(0x10b),aM(0x28e)]},{'name':aM(0x214),'displayName':aM(0x290),'presentationAttributeName':aM(0x214),'initialValue':aM(0x173),'values':[{'type':'token','tokens':[aM(0x225),'sRGB','linearRGB',aM(0x255),aM(0x25f),'unset']}],'appliesTo':[...s,aM(0x187),'g','a',aM(0x25a),'linearGradient',aM(0x281)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x110),'displayName':aM(0x290),'presentationAttributeName':aM(0x110),'initialValue':'linearRGB','values':[{'type':aM(0x10a),'tokens':[aM(0x225),aM(0x173),'linearRGB',aM(0x255),aM(0x25f),'unset']}],'appliesTo':['feBlend',aM(0x14e),aM(0x294),aM(0x267),aM(0x2df),'feDiffuseLighting','feDisplacementMap',aM(0x2e9),aM(0x262),aM(0x27a),'feMorphology',aM(0x1c0),'feTurbulence'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x291),'displayName':aM(0x1a9),'presentationAttributeName':aM(0x291),'initialValue':'auto','values':[{'type':aM(0x16c)},{'type':aM(0x10a),'tokens':[aM(0x18d),aM(0x276),'pointer',aM(0x116),aM(0x2d2),'cell',aM(0x251),aM(0x250),aM(0x25c),'alias',aM(0x11c),aM(0x129),aM(0x13f),'not-allowed',aM(0x193),aM(0x2d3),'e-resize','n-resize','ne-resize',aM(0x203),aM(0x26e),aM(0x2c4),aM(0x178),aM(0x152),'ew-resize','ns-resize',aM(0x1fd),'nwse-resize',aM(0x186),'row-resize',aM(0x1d0),'zoom-in','zoom-out','inherit','initial','unset']}],'appliesTo':[...s,aM(0x187),'g','a','use'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'direction','displayName':aM(0x205),'presentationAttributeName':aM(0x1a7),'initialValue':aM(0x2da),'values':[{'type':aM(0x10a),'tokens':[aM(0x2da),'rtl','inherit',aM(0x25f),'unset']}],'appliesTo':['text',aM(0x191),aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'display','displayName':'#display','presentationAttributeName':aM(0x150),'initialValue':aM(0x17e),'values':[{'type':aM(0x10a),'tokens':[aM(0x1e5),'inline',aM(0x2f6),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x191),aM(0x2b5),aM(0x187),'g','a',aM(0x25a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x247),'displayName':aM(0x13e),'presentationAttributeName':'dominant-baseline','initialValue':aM(0x225),'values':[{'type':aM(0x10a),'tokens':[aM(0x225),aM(0x217),aM(0x20a),aM(0x156),aM(0x259),aM(0x192),aM(0x175),aM(0x190),'central',aM(0x1b6),aM(0x25b),'text-before-edge',aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x2e4),'displayName':aM(0x1ca),'presentationAttributeName':aM(0x2e4),'initialValue':aM(0x114),'values':[{'type':aM(0x219)},{'type':'url'},{'type':'token','tokens':['none',aM(0x1be),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),'spline',aM(0x28e)]},{'name':aM(0x2f7),'displayName':aM(0x229),'presentationAttributeName':aM(0x2f7),'initialValue':'1','values':[{'type':aM(0x1d7)},{'type':'percentage'},{'type':'token','tokens':[aM(0x255),'initial','unset']}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),'paced']},{'name':aM(0x1c8),'displayName':aM(0x2c1),'presentationAttributeName':aM(0x1c8),'initialValue':aM(0x27f),'values':[{'type':'token','tokens':[aM(0x27f),aM(0x1d6),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x212),'displayName':'#filter','presentationAttributeName':aM(0x212),'initialValue':'none','values':[{'type':'filter-function-list'},{'type':'token','tokens':[aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x191),aM(0x2b5),'g','a',aM(0x187),aM(0x25a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x10d),'displayName':aM(0x12f),'presentationAttributeName':aM(0x10d),'initialValue':aM(0x114),'values':[{'type':aM(0x219)},{'type':aM(0x10a),'tokens':['currentColor',aM(0x255),aM(0x25f),'unset']}],'appliesTo':[aM(0x230)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),'paced']},{'name':aM(0x220),'displayName':aM(0x241),'presentationAttributeName':'flood-opacity','initialValue':'1','values':[{'type':aM(0x1d7),'min':0x0},{'type':aM(0x121),'min':0x0},{'type':'token','tokens':['inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':['feFlood'],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear',aM(0x10b),'paced']},{'name':aM(0x2e3),'displayName':aM(0x118),'presentationAttributeName':aM(0x2e3),'initialValue':null,'values':[{'type':aM(0x2e3)},{'type':aM(0x10a),'tokens':[aM(0x255),aM(0x25f),'unset']}],'appliesTo':['text','textPath',aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-family','displayName':aM(0x28d),'presentationAttributeName':aM(0x218),'initialValue':null,'values':[{'type':'font-family'},{'type':aM(0x10a),'tokens':[aM(0x21a),aM(0x295),aM(0x11e),aM(0x2c5),aM(0x149),aM(0x117),aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x15b),'displayName':aM(0x22d),'presentationAttributeName':'font-size','initialValue':'medium','values':[{'type':aM(0x10a),'tokens':['xx-small',aM(0x1a2),aM(0x128),'medium','large',aM(0x1f1),aM(0x243),aM(0x273),aM(0x13b),aM(0x255),aM(0x25f),aM(0x27b)]},{'type':'number','min':0x0},{'type':aM(0x121),'min':0x0},{'type':aM(0x122),'min':0x0}],'appliesTo':[aM(0x250),'textPath',aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),aM(0x28e)]},{'name':aM(0x240),'displayName':aM(0x1e0),'presentationAttributeName':aM(0x240),'initialValue':aM(0x146),'values':[{'type':aM(0x10a),'tokens':['normal','wider','narrower',aM(0x209),'extra-condensed','condensed','semi-condensed',aM(0x297),aM(0x277),aM(0x26d),aM(0x1e2),'inherit','initial',aM(0x27b)]}],'appliesTo':['text',aM(0x191),aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x18f),'displayName':'#font-style','presentationAttributeName':aM(0x18f),'initialValue':'normal','values':[{'type':aM(0x10a),'tokens':[aM(0x146),aM(0x1b3),aM(0x159),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x211),'displayName':aM(0x2de),'presentationAttributeName':aM(0x211),'initialValue':aM(0x146),'values':[{'type':'token','tokens':['normal',aM(0x1d8),aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-weight','displayName':aM(0x200),'presentationAttributeName':aM(0x1f7),'initialValue':aM(0x146),'values':[{'type':aM(0x1d7)},{'type':'token','tokens':[aM(0x146),aM(0x17c),aM(0x1e8),'lighter',aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'image-rendering','displayName':aM(0x27c),'presentationAttributeName':aM(0x261),'initialValue':'auto','values':[{'type':'token','tokens':['auto',aM(0x22b),aM(0x2ab),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x2a5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'isolation','displayName':'#isolation','presentationAttributeName':null,'initialValue':aM(0x225),'values':[{'type':aM(0x10a),'tokens':['isolate',aM(0x225),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x187),'g','a','use',aM(0x131),'marker',aM(0x191),aM(0x2b5)],'inheritable':!0x1,'animatable':!0x1},{'name':aM(0x165),'displayName':aM(0x148),'presentationAttributeName':aM(0x165),'initialValue':aM(0x146),'values':[{'type':aM(0x1d7)},{'type':aM(0x122)},{'type':aM(0x10a),'tokens':[aM(0x146),aM(0x255),aM(0x25f),'unset']}],'appliesTo':[aM(0x250),'textPath',aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),'spline',aM(0x28e)]},{'name':aM(0x242),'displayName':aM(0x1f4),'presentationAttributeName':'lighting-color','initialValue':'#fff','values':[{'type':aM(0x219)},{'type':'token','tokens':[aM(0x1be),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x13d),aM(0x1c0)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[aM(0x130),'spline',aM(0x28e)]},{'name':aM(0x22c),'displayName':'#line-height','presentationAttributeName':aM(0x22c),'initialValue':aM(0x146),'values':[{'type':aM(0x1d7),'min':0x0},{'type':aM(0x121),'min':0x0},{'type':aM(0x122),'min':0x0},{'type':aM(0x10a),'tokens':[aM(0x146),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':['text',aM(0x2b5),aM(0x191),aM(0x21d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),'spline',aM(0x28e)]},{'name':'marker','displayName':aM(0x27e),'presentationAttributeName':aM(0x232),'initialValue':aM(0x1e5),'values':[{'type':aM(0x16c)},{'type':'token','tokens':[aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'marker-start','displayName':aM(0x2ca),'presentationAttributeName':aM(0x124),'initialValue':aM(0x1e5),'values':[{'type':aM(0x16c)},{'type':'token','tokens':[aM(0x1e5),aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x19b),'displayName':'#mid-marker','presentationAttributeName':aM(0x19b),'initialValue':aM(0x1e5),'values':[{'type':'url'},{'type':'token','tokens':[aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x237),'displayName':aM(0x1f0),'presentationAttributeName':aM(0x237),'initialValue':'none','values':[{'type':aM(0x16c)},{'type':aM(0x10a),'tokens':['none',aM(0x255),'initial','unset']}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'mask','displayName':aM(0x17f),'presentationAttributeName':aM(0x21e),'initialValue':aM(0x1e5),'values':[{'type':aM(0x16c)},{'type':aM(0x10a),'tokens':[aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,'g','a',aM(0x187),aM(0x25a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x2c7),'displayName':'#blend-mode','presentationAttributeName':null,'initialValue':'normal','values':[{'type':aM(0x10a),'tokens':[aM(0x146),aM(0x2c2),aM(0x2ee),'overlay',aM(0x2be),'lighten',aM(0x1b8),aM(0x1a6),aM(0x29e),'soft-light','difference',aM(0x21f),aM(0x2e8),aM(0x221),aM(0x219),aM(0x182),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,'svg','g','a','use',aM(0x131),aM(0x232),aM(0x191),'tspan'],'inheritable':!0x1,'animatable':!0x1},{'name':aM(0x1f9),'displayName':aM(0x1a8),'presentationAttributeName':aM(0x1f9),'initialValue':'1','values':[{'type':aM(0x1d7)},{'type':aM(0x10a),'tokens':[aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[...s,aM(0x187),'g','a',aM(0x25a),aM(0x131),aM(0x232),'textPath','tspan'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),'paced']},{'name':aM(0x184),'displayName':aM(0x2a4),'presentationAttributeName':aM(0x184),'initialValue':aM(0x2c8),'values':[{'type':aM(0x10a),'tokens':[aM(0x2c8),aM(0x1c3),aM(0x14a),aM(0x225),'inherit','initial',aM(0x27b)]}],'appliesTo':['svg',aM(0x131),aM(0x16f),aM(0x232),aM(0x2a5)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x11a),'displayName':aM(0x2a0),'presentationAttributeName':null,'initialValue':'normal','values':[{'type':'token','tokens':[aM(0x146)]},{'type':aM(0x1cf),'tokens':[aM(0x2e4),aM(0x108),aM(0x2f1)]}],'inheritable':!0x0,'appliesTo':[...o],'animatable':!0x1},{'name':'pointer-events','displayName':aM(0x1df),'presentationAttributeName':aM(0x2f3),'initialValue':aM(0x225),'values':[{'type':'token','tokens':['bounding-box',aM(0x14d),aM(0x185),aM(0x19d),aM(0x2c8),aM(0x19f),'fill',aM(0x108),aM(0x157),aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'inheritable':!0x0,'appliesTo':[...s,aM(0x187),'g','a',aM(0x25a)],'animatable':!0x0,'interpolation':[]},{'name':aM(0x25d),'displayName':aM(0x280),'presentationAttributeName':aM(0x25d),'initialValue':'auto','values':[{'type':aM(0x10a),'tokens':['auto',aM(0x119),aM(0x1b1),'geometricPrecision',aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...n],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'stop-color','displayName':'#stop-color','presentationAttributeName':'stop-color','initialValue':aM(0x114),'values':[{'type':aM(0x219)},{'type':aM(0x10a),'tokens':[aM(0x1be),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x1af)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),aM(0x28e)]},{'name':aM(0x248),'displayName':aM(0x283),'presentationAttributeName':aM(0x248),'initialValue':'1','values':[{'type':'number'},{'type':aM(0x121)},{'type':aM(0x10a),'tokens':[aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x1af)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),aM(0x28e)]},{'name':aM(0x108),'displayName':'#stroke','presentationAttributeName':aM(0x108),'initialValue':aM(0x1e5),'values':[{'type':'color'},{'type':aM(0x16c)},{'type':aM(0x10a),'tokens':['none',aM(0x1be),'inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),aM(0x28e)]},{'name':aM(0x20f),'displayName':aM(0x1ad),'presentationAttributeName':'stroke-dasharray','initialValue':aM(0x1e5),'values':[{'type':aM(0x1c5)},{'type':aM(0x10a),'tokens':[aM(0x1e5),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),'spline']},{'name':aM(0x164),'displayName':aM(0x1ed),'presentationAttributeName':aM(0x164),'initialValue':'0','values':[{'type':aM(0x1d7)},{'type':aM(0x121)},{'type':aM(0x122)},{'type':aM(0x10a),'tokens':[aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),'spline',aM(0x28e)]},{'name':aM(0x197),'displayName':aM(0x2d0),'presentationAttributeName':aM(0x197),'initialValue':'butt','values':[{'type':aM(0x10a),'tokens':['butt','round',aM(0x206),aM(0x255),aM(0x25f),'unset']}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'stroke-linejoin','displayName':aM(0x2db),'presentationAttributeName':aM(0x120),'initialValue':aM(0x12c),'values':[{'type':aM(0x10a),'tokens':[aM(0x12c),'round',aM(0x127),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x1b2),'displayName':aM(0x181),'presentationAttributeName':'stroke-miterlimit','initialValue':'4','values':[{'type':aM(0x1d7),'min':0x1},{'type':aM(0x10a),'tokens':[aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),'paced']},{'name':aM(0x2c3),'displayName':'#stroke-opacity','presentationAttributeName':aM(0x2c3),'initialValue':'1','values':[{'type':'number'},{'type':aM(0x121)},{'type':aM(0x10a),'tokens':['inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),aM(0x28e)]},{'name':aM(0x1d4),'displayName':'#stroke-width','presentationAttributeName':aM(0x1d4),'initialValue':'1','values':[{'type':'number'},{'type':'percentage'},{'type':'length'},{'type':aM(0x10a),'tokens':[aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...o],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),'paced']},{'name':aM(0x1f5),'displayName':aM(0x183),'presentationAttributeName':aM(0x1f5),'initialValue':'start','values':[{'type':aM(0x10a),'tokens':['start',aM(0x1b6),aM(0x282),'inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':['text',aM(0x191),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x1d9),'displayName':aM(0x2e5),'presentationAttributeName':aM(0x1d9),'initialValue':aM(0x1e5),'values':[{'type':aM(0x1cf),'tokens':[aM(0x166),aM(0x2ae),'line-through']},{'type':aM(0x10a),'tokens':['none','inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),aM(0x2b5)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'text-rendering','displayName':aM(0x135),'presentationAttributeName':'text-rendering','initialValue':aM(0x225),'values':[{'type':aM(0x10a),'tokens':['auto',aM(0x119),aM(0x274),aM(0x15f),aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[aM(0x250)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x2aa),'displayName':aM(0x1a0),'presentationAttributeName':null,'initialValue':aM(0x1e5),'values':[{'type':aM(0x10a),'tokens':[aM(0x1ab),'uppercase',aM(0x2c6),aM(0x1e5),aM(0x255),aM(0x25f),'unset']}],'appliesTo':[aM(0x250),'textPath','tspan'],'inheritable':!0x0,'animatable':!0x1},{'name':aM(0x2b4),'displayName':'#transform','presentationAttributeName':'transform','initialValue':'none','values':[{'type':aM(0x1c7)},{'type':aM(0x10a),'tokens':[aM(0x1e5)]}],'appliesTo':[aM(0x188),aM(0x1a5),'line',aM(0x28a),aM(0x195),aM(0x17b),aM(0x1b9),'image',aM(0x250),aM(0x2b5),aM(0x25a),'a','g',aM(0x187)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b)]},{'name':aM(0x199),'displayName':aM(0x147),'presentationAttributeName':null,'initialValue':'view-box','values':[{'type':aM(0x10a),'tokens':[aM(0x151),'border-box',aM(0x1dc),'stroke-box',aM(0x29f)]}],'appliesTo':[aM(0x188),'ellipse','line',aM(0x28a),aM(0x195),aM(0x17b),aM(0x1b9),aM(0x2a5),aM(0x250),aM(0x2b5),'use','a','g',aM(0x187)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x246),'displayName':aM(0x1ee),'presentationAttributeName':'transform-origin','initialValue':aM(0x155),'values':[{'type':aM(0x10a),'tokens':['left',aM(0x123),aM(0x19c),'top',aM(0x136)]},{'type':aM(0x122)}],'appliesTo':[aM(0x188),aM(0x1a5),aM(0x105),aM(0x28a),aM(0x195),aM(0x17b),aM(0x1b9),aM(0x2a5),aM(0x250),aM(0x2b5),aM(0x25a),'a','g',aM(0x187)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x29c),'displayName':aM(0x14f),'presentationAttributeName':aM(0x29c),'initialValue':aM(0x146),'values':[{'type':aM(0x10a),'tokens':['normal',aM(0x196),'bidi-override','inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),aM(0x2b5)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x26b),'displayName':aM(0x26c),'presentationAttributeName':aM(0x26b),'initialValue':'none','values':[{'type':aM(0x10a),'tokens':[aM(0x254),'none','inherit',aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x25a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':aM(0x2bb),'displayName':'#visibility','presentationAttributeName':'visibility','initialValue':'visible','values':[{'type':aM(0x10a),'tokens':['visible','hidden',aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[...s,aM(0x250),'textPath',aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':aM(0x2ef),'displayName':'#word-spacing','presentationAttributeName':aM(0x2ef),'initialValue':aM(0x146),'values':[{'type':aM(0x1d7)},{'type':aM(0x122)},{'type':aM(0x10a),'tokens':[aM(0x146),aM(0x255),'initial',aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),aM(0x2b5)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[aM(0x130),aM(0x10b),aM(0x28e)]},{'name':aM(0x298),'displayName':aM(0x1b4),'presentationAttributeName':aM(0x298),'initialValue':aM(0x146),'values':[{'type':aM(0x10a),'tokens':[aM(0x146),'pre',aM(0x158),aM(0x14c),'pre-line',aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':[aM(0x250),aM(0x191),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'will-change','displayName':aM(0x252),'initialValue':aM(0x225),'values':[{'type':aM(0x10a),'tokens':[aM(0x225),aM(0x160),'mix-blend-mode',aM(0x212),aM(0x1f9),'transform']}],'appliesTo':[aM(0x1b9),aM(0x188),aM(0x1a5),'line',aM(0x28a),aM(0x195),'polyline','image','text',aM(0x2b5),aM(0x25a),aM(0x187),'a','g','foreignObject'],'inheritable':!0x0,'animatable':!0x1},{'name':aM(0x2ec),'displayName':aM(0x133),'presentationAttributeName':'writing-mode','initialValue':'horizontal-tb','values':[{'type':aM(0x10a),'tokens':[aM(0x10e),aM(0x145),aM(0x278),aM(0x255),aM(0x25f),aM(0x27b)]}],'appliesTo':['text',aM(0x2b5),aM(0x191)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]}]['map'](C=>C[aM(0x1f2)])[aM(0x212)](C=>C);let r=(C,D=0x0)=>{const aN=aM;let E=Math['pow'](0xa,D);return Math[aN(0x170)]((C+Number[aN(0x2b2)])*E)/E;},p=(C,D,E=Infinity,F=null)=>(null!==F&&(C=r(C,F)),C<D?C=D:C>E&&(C=E),C);const h={'arabic':aM(0x109),'bengali':'U+964-965,\x20U+981-9FB,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','cyrillic':'U+400-45F,\x20U+490-491,\x20U+4B0-4B1,\x20U+2116','cyrillic-ext':aM(0x107),'devanagari':aM(0x2cb),'greek':aM(0x231),'greek-ext':aM(0x2a1),'gujarati':aM(0x176),'gurmukhi':aM(0x28b),'hebrew':aM(0x1f6),'kannada':aM(0x112),'khmer':'U+1780-17FF,\x20U+200C,\x20U+25CC','latin':'U+0-FF,\x20U+131,\x20U+152-153,\x20U+2BB-2BC,\x20U+2C6,\x20U+2DA,\x20U+2DC,\x20U+2000-206F,\x20U+2074,\x20U+20AC,\x20U+2122,\x20U+2191,\x20U+2193,\x20U+2212,\x20U+2215,\x20U+FEFF,\x20U+FFFD','latin-ext':aM(0x2b3),'malayalam':aM(0x239),'myanmar':aM(0x236),'oriya':aM(0x287),'sinhala':aM(0x171),'tamil':aM(0x154),'thai':'U+E01-E5B,\x20U+200C-200D,\x20U+25CC','telugu':aM(0x223),'tibetan':aM(0x264),'vietnamese':'U+102-103,\x20U+110-111,\x20U+128-129,\x20U+168-169,\x20U+1A0-1A1,\x20U+1AF-1B0,\x20U+1EA0-1EF9,\x20U+20AB'};let u=document[aM(0x19e)](aM(0x10f)),m=(C,...D)=>{const aO=aM;let E=[];for(let H=0x0;H<C[aO(0x122)];H+=0x1)E[aO(0x1aa)](C[H]),void 0x0!==D[H]&&E[aO(0x1aa)](D[H]);let F=E[aO(0x265)]('');u[aO(0x202)]=F;let G=document[aO(0x2eb)](u[aO(0x160)],!0x0);return 0x1===G[aO(0x2e6)]['length']?G[aO(0x1e4)]:G;},d=(C,...D)=>{const aP=aM;let E=[];for(let H=0x0;H<C[aP(0x122)];H+=0x1)E[aP(0x1aa)](C[H]),void 0x0!==D[H]&&E[aP(0x1aa)](D[H]);let F=E[aP(0x265)](''),G=new CSSStyleSheet();return G[aP(0x2cc)](F),G;};new class{#e;#t=null;#i={};constructor(){const aQ=aM;this.#e=new A(aQ(0x293)),this.#e[aQ(0x24c)](0x1)[aQ(0x289)]({'cache':aQ(0x15e)});}[aM(0x224)](C='',D=aM(0x1c1),E=aM(0x157),F=aM(0x157),G=aM(0x157)){return new Promise(async H=>{const aR=q;await this.#a();let I=[],J=this.#e[aR(0x299)];''!==C[aR(0x226)]()&&(J=J[aR(0x212)](K=>K[aR(0x15e)]['toLowerCase']()[aR(0x2d4)](C[aR(0x226)]()[aR(0x275)]()))),aR(0x157)!==E&&(J=J[aR(0x212)](K=>K[aR(0x29a)]===E)),aR(0x157)!==F&&(J=J['filter'](K=>K[aR(0x1c2)][aR(0x2d4)](F))),I=await J[aR(0x296)](),aR(0x26a)===D?I=I[aR(0x162)]((K,L)=>K[aR(0x2dc)]>L[aR(0x2dc)]?-0x1:0x1):aR(0x2e2)===D?I=I[aR(0x162)]((K,L)=>K[aR(0x2cd)]>L['popularityRank']?-0x1:0x1):aR(0x1da)===D&&(I=I['sort']((K,L)=>K['trendingRank']>L[aR(0x1f8)]?-0x1:0x1)),aR(0x157)!==G&&(I=I[aR(0x2e1)](0x28*G,0x28*(G+0x1))),H(I);});}[aM(0x168)](){return new Promise(async(C,D)=>{const aS=q;let E;null===this.#t&&(this.#t=new B[(aS(0x2bc))]({'apiKey':aS(0x13a),'connectionTimeoutSeconds':0x5,'nodes':[{'host':aS(0x125),'port':aS(0x253),'protocol':aS(0x106)}]}));try{E=await this.#t[aS(0x29d)]('googleFonts')[aS(0x257)]()[aS(0x2e7)]();}catch(G){return D(G);}let F=E[aS(0x1fa)]('\x0a')[aS(0x14b)](H=>JSON[aS(0x249)](H))['map'](H=>({'family':H[aS(0x15e)],'faces':H[aS(0x266)],'category':H[aS(0x29a)],'subsets':H[aS(0x1c2)],'license':H[aS(0x20e)],'thumbnail':H[aS(0x228)],'urls':H[aS(0x180)],'dateRank':H[aS(0x2dc)],'popularityRank':H[aS(0x2cd)],'trendingRank':H[aS(0x1f8)],'pageURL':aS(0x11b)+H['id'],'cachedTime':Date[aS(0x138)]()}));await this.#e['cache']['clear'](),await this.#e[aS(0x299)][aS(0x24b)](F),C();});}[aM(0x23f)](C,D=!0x1){return new Promise(async E=>{const aT=q;let F=[];if(await this.#a(),D){let G=await this.#n(C);for(let H of G[aT(0x270)])H[aT(0x10c)]===CSSRule[aT(0x2d6)]&&F[aT(0x1aa)](H);}else{let I=[],J=new URL(C),K=J[aT(0x2f0)]['get'](aT(0x150))||aT(0x225);if(C[aT(0x15a)](aT(0x258))){let L=J[aT(0x2f0)]['get'](aT(0x15e));L[aT(0x1fa)]('|'),J['searchParams'][aT(0x28c)](aT(0x153));let M={'regular':aT(0x213),'bold':aT(0x24d),'italic':aT(0x18b),'bolditalic':aT(0x22f),'r':aT(0x213),'b':aT(0x24d),'i':aT(0x18b)};for(let N of L[aT(0x1fa)]('|')){let O=[],[P,Q]=N['split'](':');for(let R of Q[aT(0x1fa)](','))R=M[R]||R,O[aT(0x1aa)](R);I['push']({'family':P,'faceNames':O});}}else{if(C[aT(0x15a)]('https://fonts.googleapis.com/css2?')){let S=J[aT(0x2f0)][aT(0x172)](aT(0x15e));for(let T of S){let [U,V]=T[aT(0x1fa)](':');if(void 0x0===V)I[aT(0x1aa)]({'family':U,'faceNames':['400']});else{let W=[],[X,Y]=V[aT(0x1fa)]('@'),Z=X[aT(0x1fa)](','),a0=Y[aT(0x1fa)](';');for(let a1 of a0){let a2={'wght':'400','ital':'0'};for(let a3=0x0;a3<Z[aT(0x122)];a3+=0x1){a2[Z[a3]]=a1[aT(0x1fa)](',')[a3];}W[aT(0x1aa)](a2[aT(0x245)]+('1'===a2['ital']?aT(0x1b3):''));}I[aT(0x1aa)]({'family':U,'faceNames':W});}}}}{let a4=this.#e[aT(0x299)];for(let {family:a5,faceNames:a6}of I){let a7=await a4['get']({'family':a5});if(a7)for(let a8 of a6){let a9=a7[aT(0x180)][a8];if(a9){let aa=a8[aT(0x20c)](0x0,0x3),ab=a8[aT(0x2d4)](aT(0x1b3))?aT(0x1b3):aT(0x146),ac=[];for(let af of a7['subsets'])h[af]&&ac[aT(0x1aa)](h[af]);0x0===ac[aT(0x122)]&&(ac=aT(0x292));let ad=ac[aT(0x265)](','),ae=d`
+import w from "/libs/xel/xel.js";
+import "/libs/color/color.js";
+import "/libs/css-parser/css-parser.js";
+import "/libs/paper/paper.js";
+import z from "/libs/seed-random/seed-random.js";
+import "/libs/dom-purify/dom-purify.js";
+import A from "/libs/dexie/dexie.js";
+import B from "/libs/typesense/typesense.js";
+import "/libs/pako/pako.js";
+const n = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
+const l = ["text", "textPath", "tspan"];
+const s = [...n, ...l, "foreignObject", "image"];
+const o = [...n, ...l];
+[
+  {
+    name: "alignment-baseline",
+    displayName: "#alignment-baseline",
+    presentationAttributeName: "alignment-baseline",
+    initialValue: "baseline",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "baseline",
+          "text-bottom",
+          "alphabetic",
+          "ideographic",
+          "middle",
+          "central",
+          "mathematical",
+          "text-top",
+          "bottom",
+          "center",
+          "top",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "baseline-shift",
+    displayName: "#baseline-shift",
+    presentationAttributeName: "baseline-shift",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["sub", "super", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-path",
+    displayName: "#clip-path",
+    presentationAttributeName: "clip-path",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "fill-box",
+          "stroke-box",
+          "view-box",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-rule",
+    displayName: "#clip-rule",
+    presentationAttributeName: "clip-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color",
+    displayName: "#color",
+    presentationAttributeName: "color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "color-interpolation",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation",
+    initialValue: "sRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "linearGradient",
+      "radialGradient",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color-interpolation-filters",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation-filters",
+    initialValue: "linearRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      "feBlend",
+      "feColorMatrix",
+      "feComponentTransfer",
+      "feComposite",
+      "feConvolveMatrix",
+      "feDiffuseLighting",
+      "feDisplacementMap",
+      "feDropShadow",
+      "feGaussianBlur",
+      "feMerge",
+      "feMorphology",
+      "feSpecularLighting",
+      "feTurbulence",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "cursor",
+    displayName: "#cursor",
+    presentationAttributeName: "cursor",
+    initialValue: "auto",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "context-menu",
+          "help",
+          "pointer",
+          "progress",
+          "wait ",
+          "cell",
+          "crosshair",
+          "text",
+          "vertical-text",
+          "alias",
+          "copy",
+          "move",
+          "no-drop",
+          "not-allowed",
+          "grab",
+          "grabbing",
+          "e-resize",
+          "n-resize",
+          "ne-resize",
+          "nw-resize",
+          "s-resize",
+          "se-resize",
+          "sw-resize",
+          "w-resize",
+          "ew-resize",
+          "ns-resize",
+          "nesw-resize",
+          "nwse-resize",
+          "col-resize",
+          "row-resize",
+          "all-scroll",
+          "zoom-in",
+          "zoom-out",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "direction",
+    displayName: "#direction",
+    presentationAttributeName: "direction",
+    initialValue: "ltr",
+    values: [
+      {
+        type: "token",
+        tokens: ["ltr", "rtl", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "display",
+    displayName: "#display",
+    presentationAttributeName: "display",
+    initialValue: "inline",
+    values: [
+      {
+        type: "token",
+        tokens: ["none", "inline", "block", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "textPath", "tspan", "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "dominant-baseline",
+    displayName: "#dominant-baseline",
+    presentationAttributeName: "dominant-baseline",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "use-script",
+          "no-change",
+          "reset-size",
+          "ideographic",
+          "alphabetic",
+          "hanging",
+          "mathematical",
+          "central",
+          "middle",
+          "text-after-edge",
+          "text-before-edge",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "fill",
+    displayName: "#fill",
+    presentationAttributeName: "fill",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-opacity",
+    displayName: "#fill-opacity",
+    presentationAttributeName: "fill-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-rule",
+    displayName: "#fill-rule",
+    presentationAttributeName: "fill-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "filter",
+    displayName: "#filter",
+    presentationAttributeName: "filter",
+    initialValue: "none",
+    values: [
+      {
+        type: "filter-function-list",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "textPath", "tspan", "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "flood-color",
+    displayName: "#flood-color",
+    presentationAttributeName: "flood-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "flood-opacity",
+    displayName: "#flood-opacity",
+    presentationAttributeName: "flood-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font",
+    displayName: "#font",
+    presentationAttributeName: "font",
+    initialValue: null,
+    values: [
+      {
+        type: "font",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-family",
+    displayName: "#font-family",
+    presentationAttributeName: "font-family",
+    initialValue: null,
+    values: [
+      {
+        type: "font-family",
+      },
+      {
+        type: "token",
+        tokens: [
+          "cursive",
+          "fantasy",
+          "monospace",
+          "sans-serif",
+          "serif",
+          "system-ui",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-size",
+    displayName: "#font-size",
+    presentationAttributeName: "font-size",
+    initialValue: "medium",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "xx-small",
+          "x-small",
+          "small",
+          "medium",
+          "large",
+          "x-large",
+          "xx-large",
+          "larger",
+          "smaller",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font-stretch",
+    displayName: "#font-stretch",
+    presentationAttributeName: "font-stretch",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "wider",
+          "narrower",
+          "ultra-condensed",
+          "extra-condensed",
+          "condensed",
+          "semi-condensed",
+          "semi-expanded",
+          "expanded",
+          "extra-expanded",
+          "ultra-expanded",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-style",
+    displayName: "#font-style",
+    presentationAttributeName: "font-style",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "italic", "oblique", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-variant",
+    displayName: "#font-variant",
+    presentationAttributeName: "font-variant",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "small-caps", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-weight",
+    displayName: "#font-weight",
+    presentationAttributeName: "font-weight",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "bold",
+          "bolder",
+          "lighter",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "image-rendering",
+    displayName: "#image-rendering",
+    presentationAttributeName: "image-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "pixelated",
+          "crisp-edges",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["image"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "isolation",
+    displayName: "#isolation",
+    presentationAttributeName: null,
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: ["isolate", "auto", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "letter-spacing",
+    displayName: "#letter-spacing",
+    presentationAttributeName: "letter-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "lighting-color",
+    displayName: "#lighting-color",
+    presentationAttributeName: "lighting-color",
+    initialValue: "#fff",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feDiffuseLighting", "feSpecularLighting"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "line-height",
+    displayName: "#line-height",
+    presentationAttributeName: "line-height",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "marker",
+    displayName: "#marker",
+    presentationAttributeName: "marker",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-start",
+    displayName: "#start-marker",
+    presentationAttributeName: "marker-start",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-mid",
+    displayName: "#mid-marker",
+    presentationAttributeName: "marker-mid",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-end",
+    displayName: "#end-marker",
+    presentationAttributeName: "marker-end",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mask",
+    displayName: "#mask",
+    presentationAttributeName: "mask",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mix-blend-mode",
+    displayName: "#blend-mode",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "multiply",
+          "screen",
+          "overlay",
+          "darken",
+          "lighten",
+          "color-dodge",
+          "color-burn",
+          "hard-light",
+          "soft-light",
+          "difference",
+          "exclusion",
+          "hue",
+          "saturation",
+          "color",
+          "luminosity",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "opacity",
+    displayName: "#opacity",
+    presentationAttributeName: "opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...s,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "overflow",
+    displayName: "#overflow",
+    presentationAttributeName: "overflow",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "visible",
+          "hidden",
+          "scroll",
+          "auto",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["svg", "symbol", "pattern", "marker", "image"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "paint-order",
+    displayName: "#paint-order",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal"],
+      },
+      {
+        type: "token-list",
+        tokens: ["fill", "stroke", "markers"],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...o],
+    animatable: false,
+  },
+  {
+    name: "pointer-events",
+    displayName: "#pointer-events",
+    presentationAttributeName: "pointer-events",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "bounding-box",
+          "visiblePainted",
+          "visibleFill",
+          "visibleStroke",
+          "visible",
+          "painted",
+          "fill",
+          "stroke",
+          "all",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...s, "svg", "g", "a", "use"],
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "shape-rendering",
+    displayName: "#shape-rendering",
+    presentationAttributeName: "shape-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "crispEdges",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...n],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stop-color",
+    displayName: "#stop-color",
+    presentationAttributeName: "stop-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stop-opacity",
+    displayName: "#stop-opacity",
+    presentationAttributeName: "stop-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke",
+    displayName: "#stroke",
+    presentationAttributeName: "stroke",
+    initialValue: "none",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-dasharray",
+    displayName: "#stroke-dash-array",
+    presentationAttributeName: "stroke-dasharray",
+    initialValue: "none",
+    values: [
+      {
+        type: "dasharray",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "stroke-dashoffset",
+    displayName: "#stroke-dash-offset",
+    presentationAttributeName: "stroke-dashoffset",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-linecap",
+    displayName: "#stroke-line-cap",
+    presentationAttributeName: "stroke-linecap",
+    initialValue: "butt",
+    values: [
+      {
+        type: "token",
+        tokens: ["butt", "round", "square", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-linejoin",
+    displayName: "#stroke-line-join",
+    presentationAttributeName: "stroke-linejoin",
+    initialValue: "miter",
+    values: [
+      {
+        type: "token",
+        tokens: ["miter", "round", "bevel", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-miterlimit",
+    displayName: "#stroke-miter-limit",
+    presentationAttributeName: "stroke-miterlimit",
+    initialValue: "4",
+    values: [
+      {
+        type: "number",
+        min: 1,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-opacity",
+    displayName: "#stroke-opacity",
+    presentationAttributeName: "stroke-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-width",
+    displayName: "#stroke-width",
+    presentationAttributeName: "stroke-width",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...o],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "text-anchor",
+    displayName: "#text-anchor",
+    presentationAttributeName: "text-anchor",
+    initialValue: "start",
+    values: [
+      {
+        type: "token",
+        tokens: ["start", "middle", "end", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-decoration",
+    displayName: "#text-decoration",
+    presentationAttributeName: "text-decoration",
+    initialValue: "none",
+    values: [
+      {
+        type: "token-list",
+        tokens: ["underline", "overline", "line-through"],
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-rendering",
+    displayName: "#text-rendering",
+    presentationAttributeName: "text-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "optimizeLegibility",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-transform",
+    displayName: "#text-transform",
+    presentationAttributeName: null,
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "capitalize",
+          "uppercase",
+          "lowercase",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "transform",
+    displayName: "#transform",
+    presentationAttributeName: "transform",
+    initialValue: "none",
+    values: [
+      {
+        type: "transform-list",
+      },
+      {
+        type: "token",
+        tokens: ["none"],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "transform-box",
+    displayName: "#transform-box",
+    presentationAttributeName: null,
+    initialValue: "view-box",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "content-box",
+          "border-box",
+          "fill-box",
+          "stroke-box",
+          "view-box",
+        ],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "transform-origin",
+    displayName: "#transform-origin",
+    presentationAttributeName: "transform-origin",
+    initialValue: "0 0",
+    values: [
+      {
+        type: "token",
+        tokens: ["left", "center", "right", "top", "bottom"],
+      },
+      {
+        type: "length",
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "unicode-bidi",
+    displayName: "#unicode-bidi",
+    presentationAttributeName: "unicode-bidi",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "embed",
+          "bidi-override",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "vector-effect",
+    displayName: "#vector-effect",
+    presentationAttributeName: "vector-effect",
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: ["non-scaling-stroke", "none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "visibility",
+    displayName: "#visibility",
+    presentationAttributeName: "visibility",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: ["visible", "hidden", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s, "text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "word-spacing",
+    displayName: "#word-spacing",
+    presentationAttributeName: "word-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "white-space",
+    displayName: "#white-space",
+    presentationAttributeName: "white-space",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "pre",
+          "nowrap",
+          "pre-wrap",
+          "pre-line",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "will-change",
+    displayName: "#will-change",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "content",
+          "mix-blend-mode",
+          "filter",
+          "opacity",
+          "transform",
+        ],
+      },
+    ],
+    appliesTo: [
+      "rect",
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "svg",
+      "a",
+      "g",
+      "foreignObject",
+    ],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "writing-mode",
+    displayName: "#writing-mode",
+    presentationAttributeName: "writing-mode",
+    initialValue: "horizontal-tb",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "horizontal-tb",
+          "vertical-lr",
+          "vertical-rl",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+]
+  .map((C) => C.presentationAttributeName)
+  .filter((C) => C);
+let r = (C, D = 0) => {
+  let E = Math.pow(10, D);
+  return Math.round((C + Number.EPSILON) * E) / E;
+};
+let p = (C, D, E = Infinity, F = null) => {
+  if (F !== null) {
+    C = r(C, F);
+  }
+  if (C < D) {
+    C = D;
+  } else if (C > E) {
+    C = E;
+  }
+  return C;
+};
+const h = {
+  arabic:
+    "U+600-6FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC",
+  bengali: "U+964-965, U+981-9FB, U+200C-200D, U+20B9, U+25CC",
+  cyrillic: "U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+  "cyrillic-ext":
+    "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+  devanagari:
+    "U+900-97F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB",
+  greek: "U+370-3FF",
+  "greek-ext": "U+1F00-1FFF",
+  gujarati: "U+964-965, U+A80-AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839",
+  gurmukhi:
+    "U+964-965, U+A01-A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839",
+  hebrew: "U+590-5FF, U+20AA, U+25CC, U+FB1D-FB4F",
+  kannada: "U+964-965, U+C82-CF2, U+200C-200D, U+20B9, U+25CC",
+  khmer: "U+1780-17FF, U+200C, U+25CC",
+  latin:
+    "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+  "latin-ext":
+    "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+  malayalam: "U+307, U+323, U+964-965, U+D02-D7F, U+200C-200D, U+20B9, U+25CC",
+  myanmar: "U+1000-109F, U+200C-200D, U+25CC",
+  oriya: "U+964-965, U+B01-B77, U+200C-200D, U+20B9, U+25CC",
+  sinhala: "U+964-965, U+D82-DF4, U+200C-200D, U+25CC",
+  tamil: "U+964-965, U+B82-BFA, U+200C-200D, U+20B9, U+25CC",
+  thai: "U+E01-E5B, U+200C-200D, U+25CC",
+  telugu: "U+951-952, U+964-965, U+C00-C7F, U+1CDA, U+200C-200D, U+25CC",
+  tibetan: "U+F00-FFF, U+200C-200D, U+25CC",
+  vietnamese:
+    "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+};
+let u = document.createElement("template");
+let m = (C, ...D) => {
+  let E = [];
+  for (let H = 0; H < C.length; H += 1) {
+    E.push(C[H]);
+    if (D[H] !== undefined) {
+      E.push(D[H]);
+    }
+  }
+  let F = E.join("");
+  u.innerHTML = F;
+  let G = document.importNode(u.content, true);
+  if (G.children.length === 1) {
+    return G.firstElementChild;
+  } else {
+    return G;
+  }
+};
+let d = (C, ...D) => {
+  let E = [];
+  for (let H = 0; H < C.length; H += 1) {
+    E.push(C[H]);
+    if (D[H] !== undefined) {
+      E.push(D[H]);
+    }
+  }
+  let F = E.join("");
+  let G = new CSSStyleSheet();
+  G.replaceSync(F);
+  return G;
+};
+new (class {
+  #e;
+  #t = null;
+  #i = {};
+  constructor() {
+    this.#e = new A("GoogleFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+  }
+  search(C = "", D = "alphabetical", E = "all", F = "all", G = "all") {
+    return new Promise(async (H) => {
+      await this.#a();
+      let I = [];
+      let J = this.#e.cache;
+      if (C.trim() !== "") {
+        J = J.filter((K) =>
+          K.family.toLowerCase().includes(C.trim().toLowerCase())
+        );
+      }
+      if (E !== "all") {
+        J = J.filter((K) => K.category === E);
+      }
+      if (F !== "all") {
+        J = J.filter((K) => K.subsets.includes(F));
+      }
+      I = await J.toArray();
+      if (D === "date") {
+        I = I.sort((K, L) => (K.dateRank > L.dateRank ? -1 : 1));
+      } else if (D === "popularity") {
+        I = I.sort((K, L) => (K.popularityRank > L.popularityRank ? -1 : 1));
+      } else if (D === "trending") {
+        I = I.sort((K, L) => (K.trendingRank > L.trendingRank ? -1 : 1));
+      }
+      if (G !== "all") {
+        I = I.slice(G * 40, (G + 1) * 40);
+      }
+      H(I);
+    });
+  }
+  refresh() {
+    return new Promise(async (C, D) => {
+      let E;
+      if (this.#t === null) {
+        this.#t = new B.Client({
+          apiKey: "ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL",
+          connectionTimeoutSeconds: 5,
+          nodes: [
+            {
+              host: "92f3tewguhsn8o0qp.a1.typesense.net",
+              port: "443",
+              protocol: "https",
+            },
+          ],
+        });
+      }
+      try {
+        E = await this.#t.collections("googleFonts").documents().export();
+      } catch (G) {
+        return D(G);
+      }
+      let F = E.split("\n")
+        .map((H) => JSON.parse(H))
+        .map((H) => ({
+          family: H.family,
+          faces: H.faces,
+          category: H.category,
+          subsets: H.subsets,
+          license: H.license,
+          thumbnail: H.thumbnail,
+          urls: H.urls,
+          dateRank: H.dateRank,
+          popularityRank: H.popularityRank,
+          trendingRank: H.trendingRank,
+          pageURL: "https://fonts.google.com/specimen/" + H.id,
+          cachedTime: Date.now(),
+        }));
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(F);
+      C();
+    });
+  }
+  getFontFaceRulesFromUrl(C, D = false) {
+    return new Promise(async (E) => {
+      let F = [];
+      await this.#a();
+      if (D) {
+        let G = await this.#n(C);
+        for (let H of G.cssRules) {
+          if (H.type === CSSRule.FONT_FACE_RULE) {
+            F.push(H);
+          }
+        }
+      } else {
+        let I = [];
+        let J = new URL(C);
+        let K = J.searchParams.get("display") || "auto";
+        if (C.startsWith("https://fonts.googleapis.com/css?")) {
+          let L = J.searchParams.get("family");
+          L.split("|");
+          J.searchParams.get("subset");
+          let M = {
+            regular: "400",
+            bold: "700",
+            italic: "400italic",
+            bolditalic: "700italic",
+            r: "400",
+            b: "700",
+            i: "400italic",
+          };
+          for (let N of L.split("|")) {
+            let O = [];
+            let [P, Q] = N.split(":");
+            for (let R of Q.split(",")) {
+              R = M[R] || R;
+              O.push(R);
+            }
+            I.push({
+              family: P,
+              faceNames: O,
+            });
+          }
+        } else if (C.startsWith("https://fonts.googleapis.com/css2?")) {
+          let S = J.searchParams.getAll("family");
+          for (let T of S) {
+            let [U, V] = T.split(":");
+            if (V === undefined) {
+              I.push({
+                family: U,
+                faceNames: ["400"],
+              });
+            } else {
+              let W = [];
+              let [X, Y] = V.split("@");
+              let Z = X.split(",");
+              let a0 = Y.split(";");
+              for (let a1 of a0) {
+                let a2 = {
+                  wght: "400",
+                  ital: "0",
+                };
+                for (let a3 = 0; a3 < Z.length; a3 += 1) {
+                  a2[Z[a3]] = a1.split(",")[a3];
+                }
+                W.push(a2.wght + (a2.ital === "1" ? "italic" : ""));
+              }
+              I.push({
+                family: U,
+                faceNames: W,
+              });
+            }
+          }
+        }
+        {
+          let a4 = this.#e.cache;
+          for (let { family: a5, faceNames: a6 } of I) {
+            let a7 = await a4.get({
+              family: a5,
+            });
+            if (a7) {
+              for (let a8 of a6) {
+                let a9 = a7.urls[a8];
+                if (a9) {
+                  let aa = a8.substring(0, 3);
+                  let ab = a8.includes("italic") ? "italic" : "normal";
+                  let ac = [];
+                  for (let af of a7.subsets) {
+                    if (h[af]) {
+                      ac.push(h[af]);
+                    }
+                  }
+                  if (ac.length === 0) {
+                    ac = "U+0-10FFFF";
+                  }
+                  let ad = ac.join(",");
+                  let ae = d`
                     @font-face {
                       font-family: "${a5}";
                       font-style: ${ab};
@@ -7,8 +1809,303 @@ const aM=q;function q(a,b){const c=j();return q=function(d,e){d=d-0x104;let f=c[
                       font-unicode-range: ${ad};
                       src: url(${a9});
                     }
-                  `;F['push'](ae[aT(0x270)][0x0]);}}}}}E(F);});}[aM(0x23a)](C){return new Promise(async D=>{const aU=q;await this.#a(),D((await this.#e[aU(0x299)][aU(0x271)](aU(0x15e))[aU(0x1e6)](C)[aU(0x296)]())[0x0]||null);});}#n(C){return new Promise(async D=>{const aV=q;let E=null;if(this.#i[C])E=this.#i[C];else{let F=await fetch(C),G=await F[aV(0x250)]();E=new CSSStyleSheet(),E[aV(0x2cc)](G),this.#i[C]=E;}D(E);});}#a(){return new Promise(async C=>{const aW=q;let D=await this.#e[aW(0x299)][aW(0x1fb)](),E=!0x0;if(D>0x0){let F=await this.#e[aW(0x299)][aW(0x28c)]('Roboto');if(F){let G=0x4d3f6400;E=Date[aW(0x138)]()-F[aW(0x24a)]>G;}}0x0!==D&&!0x0!==E||await this['refresh'](),C();});}}(),[aM(0x260),aM(0x2b0)][aM(0x2d4)](navigator[aM(0x141)])||navigator[aM(0x141)][aM(0x15a)](aM(0x1b7)),navigator['userAgent']['indexOf'](aM(0x25e))>-0x1&&navigator['userAgent'][aM(0x2bf)](aM(0x2a9)),null!==window[aM(0x1cc)]||document[aM(0x1ef)][aM(0x285)][aM(0x140)];function j(){const bE=['U+370-3FF','marker','#alignment-baseline','demibold','setAttribute','U+1000-109F,\x20U+200C-200D,\x20U+25CC','marker-end','define','U+307,\x20U+323,\x20U+964-965,\x20U+D02-D7F,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','getFamilyDescriptor','board','7906MFWFAF','#lock-off','adoptedStyleSheets','getFontFaceRulesFromUrl','font-stretch','#flood-opacity','lighting-color','xx-large','800','wght','transform-origin','dominant-baseline','stop-opacity','parse','cachedTime','bulkPut','version','700','host','checkpoint','text','crosshair','#will-change','443','non-scaling-stroke','inherit','black','documents','https://fonts.googleapis.com/css?','ideographic','use','text-after-edge','vertical-text','shape-rendering','Safari/','initial','iPhone','image-rendering','feGaussianBlur','10SfKRhK','U+F00-FFF,\x20U+200C-200D,\x20U+25CC','join','faces','feComposite','#baseline-shift','88593QgTXPn','date','vector-effect','#vector-effect','extra-expanded','s-resize','insertArtwork','cssRules','where','#seed-slider','larger','optimizeLegibility','toLowerCase','help','expanded','vertical-rl','#footer','feMerge','unset','#image-rendering','44pqRyfP','#marker','nonzero','#shape-rendering','radialGradient','end','#stop-opacity','target','dataset','message','U+964-965,\x20U+B01-B77,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','width','stores','path','U+964-965,\x20U+A01-A75,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+262C,\x20U+A830-A839','get','#font-family','paced','#jitter-slider','#color-interpolation','cursor','U+0-10FFFF','GoogleFontsManager','feComponentTransfer','fantasy','toArray','semi-expanded','white-space','cache','category','add','unicode-bidi','collections','hard-light','view-box','#paint-order','U+1F00-1FFF','text-bottom','500','#overflow','image','getLocalFontsMetadata','#rows-input','style','Chrome','text-transform','crisp-edges','text-top','tabindex','overline','alignment-baseline','iPad','#tab-size-box','EPSILON','U+100-24F,\x20U+259,\x20U+1E00-1EFF,\x20U+2020,\x20U+20A0-20AB,\x20U+20AD-20CF,\x20U+2113,\x20U+2C60-2C7F,\x20U+A720-A7FF','transform','tspan','bx-jigsawpuzzlegenerator:jitter','#seed-box','5395FPtMpn','getFamilyWeights','12DUkZUE','visibility','Client','sub','darken','indexOf','values','#fill-rule','multiply','stroke-opacity','se-resize','sans-serif','lowercase','mix-blend-mode','visible','_shadowStyleSheet','#start-marker','U+900-97F,\x20U+1CD0-1CF6,\x20U+1CF8-1CF9,\x20U+200C-200D,\x20U+20A8,\x20U+20B9,\x20U+25CC,\x20U+A830-A839,\x20U+A8E0-A8FB','replaceSync','popularityRank','100','top','#stroke-line-cap','querySelector','wait\x20','grabbing','includes','bx-jigsawpuzzlegenerator:height','FONT_FACE_RULE','#lock-on','bx-jigsawpuzzlegenerator:width','4195290qtFBOX','ltr','#stroke-line-join','dateRank','8414FCPlYT','#font-variant','feConvolveMatrix','clear','slice','popularity','font','fill','#text-decoration','children','export','hue','feDropShadow','extends','importNode','writing-mode','#generate-button','screen','word-spacing','searchParams','markers','undoManager','pointer-events','super','bx-jigsawpuzzlegenerator:rows','block','fill-opacity','removeEventListener','line','https','U+460-52F,\x20U+1C80-1C88,\x20U+20B4,\x20U+2DE0-2DFF,\x20U+A640-A69F,\x20U+FE2E-FE2F','stroke','U+600-6FF,\x20U+200C-200E,\x20U+2010-2011,\x20U+204F,\x20U+2E41,\x20U+FB50-FDFF,\x20U+FE80-FEFC','token','spline','type','flood-color','horizontal-tb','template','color-interpolation-filters','#tab-size-input','U+964-965,\x20U+C82-CF2,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','height','#000','stroke-box','progress','system-ui','#font','optimizeSpeed','paint-order','https://fonts.google.com/specimen/','copy','#height-input','monospace','5248GWSvKI','stroke-linejoin','percentage','length','center','marker-start','92f3tewguhsn8o0qp.a1.typesense.net','bx-jigsawpuzzlegenerator:preserveAspectRatio','bevel','small','move','rows','300','miter','23294479EnOgxy','getRootNode','#flood-color','linear','symbol','#columns-input','#writing-mode','jitter','#text-rendering','bottom','find','now','querySelectorAll','ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL','smaller','#clip-path','feDiffuseLighting','#dominant-baseline','no-drop','app','platform','#seed-input','baseline-shift','65PcqYbA','vertical-lr','normal','#transform-box','#letter-spacing','serif','scroll','map','pre-wrap','visiblePainted','feColorMatrix','#unicode-bidi','display','content-box','w-resize','subset','U+964-965,\x20U+B82-BFA,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','0\x200','reset-size','all','nowrap','oblique','startsWith','font-size','disconnectedCallback','#generators-panel','family','geometricPrecision','content','options','sort','local-fonts','stroke-dashoffset','letter-spacing','underline','selectedelementschange','refresh','reverse','LocalFontsManager','#clip-rule','url','closest','clip-rule','pattern','round','U+964-965,\x20U+D82-DF4,\x20U+200C-200D,\x20U+25CC','getAll','sRGB','value','hanging','U+964-965,\x20U+A80-AFF,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+A830-A839','heavy','sw-resize','extrabold','createElementNS','polyline','bold','state','inline','#mask','urls','#stroke-miter-limit','luminosity','#text-anchor','overflow','visibleFill','col-resize','svg','circle','#preview','#main','400italic','query','context-menu','changestart','font-style','mathematical','textPath','alphabetic','grab','bx-editor','polygon','embed','stroke-linecap','setConfig','transform-box','#color','marker-mid','right','visibleStroke','createElement','painted','#text-transform','apply','x-small','baseline','bx-jigsawpuzzlegenerator:columns','ellipse','color-burn','direction','#opacity','#cursor','push','capitalize','ready','#stroke-dash-array','no-api','stop','medium','crispEdges','stroke-miterlimit','italic','#white-space','permissions','middle','Mac','color-dodge','rect','semibold','append','bx-jigsawpuzzlegenerator:tabSize','getConfig','currentColor','[id]','feSpecularLighting','alphabetical','subsets','hidden','cloneNode','dasharray','bx-jigsawpuzzlegenerator:seed','transform-list','fill-rule','<g>','#fill','queryLocalFonts','frameElement','tabSize','then','token-list','all-scroll','#aspect-ratio-icon','workspacemutation','status','stroke-width','#jitter-box','evenodd','number','small-caps','text-decoration','trending','thin','fill-box','clip-path','#jitter-input','#pointer-events','#font-stretch','change','ultra-expanded','getCacheSize','firstElementChild','none','equals','name','bolder','prompt','extralight','2724HKIYVU','addEventListener','#stroke-dash-offset','#transform-origin','body','#end-marker','x-large','presentationAttributeName','viewBox','#lighting-color','text-anchor','U+590-5FF,\x20U+20AA,\x20U+25CC,\x20U+FB1D-FB4F','font-weight','trendingRank','opacity','split','count','light','nesw-resize','#generators.jigsaw-puzzle','columns','#font-weight','bx-jigsawpuzzlegenerator','innerHTML','nw-resize','#width-input','#direction','square','changeend','#aspect-ratio-button','ultra-condensed','no-change','#tab-size-slider','substring','toggled','license','stroke-dasharray','upgrade','font-variant','filter','400','color-interpolation','constructor','click','use-script','font-family','color','cursive','granted','geometryPrecision','text\x20a','mask','exclusion','flood-opacity','saturation','4243905rPsdea','U+951-952,\x20U+964-965,\x20U+C00-C7F,\x20U+1CDA,\x20U+200C-200D,\x20U+25CC','search','auto','trim','themeStyleSheet','thumbnail','#fill-opacity','init','pixelated','line-height','#font-size','200','700italic','feFlood'];j=function(){return bE;};return j();}let c=(C,D,E)=>C[aM(0x1fa)](D)['join'](E),b=C=>{const aX=aM;C=C['toLowerCase'](),C=c(C,'\x20',''),C=c(C,'-','');let D=aX(0x213);return(C=c(C,'_',''))[aX(0x2d4)](aX(0x1db))||C['includes']('hairline')?D=aX(0x2ce):C[aX(0x2d4)](aX(0x1ea))||C[aX(0x2d4)]('ultralight')?D=aX(0x22e):C[aX(0x2d4)](aX(0x1fc))?D=aX(0x12b):C['includes'](aX(0x1b0))?D=aX(0x2a3):C[aX(0x2d4)](aX(0x1ba))||C[aX(0x2d4)](aX(0x234))?D='600':C[aX(0x2d4)](aX(0x179))||C[aX(0x2d4)]('ultrabold')?D=aX(0x244):C[aX(0x2d4)](aX(0x17c))?D=aX(0x24d):(C['includes'](aX(0x256))||C[aX(0x2d4)](aX(0x177)))&&(D='900'),D;},g=C=>{const aY=aM;C=C[aY(0x275)](),C=c(C,'\x20',''),C=c(C,'-','');let D=aY(0x146);return(C=c(C,'_',''))[aY(0x2d4)]('italic')?D=aY(0x1b3):C['includes'](aY(0x159))&&(D='oblique'),D;};new class extends EventTarget{#l=aM(0x22a);#s=[];#e;get[aM(0x1d3)](){return this.#l;}constructor(){const aZ=aM;super(),this.#e=new A(aZ(0x16a)),this.#e[aZ(0x24c)](0x1)[aZ(0x289)]({'cache':aZ(0x15e)}),this.#e[aZ(0x24c)](0x2)[aZ(0x289)]({'cache':aZ(0x15e)})[aZ(0x210)](C=>C['cache'][aZ(0x2e0)]()),void 0x0===window[aZ(0x1cb)]?this.#l=aZ(0x1ae):navigator[aZ(0x1b5)][aZ(0x18c)]({'name':aZ(0x163)})[aZ(0x1ce)](C=>{const b0=aZ;b0(0x21b)===C[b0(0x17d)]?this[b0(0x168)]():b0(0x1e9)!==C[b0(0x17d)]&&(this.#l='no-permission');});}[aM(0x224)](C='',D=aM(0x157)){return new Promise(async E=>{const b1=q;let F=[],G=this.#e[b1(0x299)];''!==C['trim']()&&(G=G['filter'](H=>H['family']['toLowerCase']()[b1(0x2d4)](C[b1(0x226)]()[b1(0x275)]()))),F=await G[b1(0x296)](),b1(0x157)!==D&&(F=F[b1(0x2e1)](0x28*D,0x28*(D+0x1))),E(F);});}[aM(0x168)](){return new Promise(async(C,D)=>{const b2=q;let E;try{E=await this[b2(0x2a6)](!0x0);}catch(G){return D(G);}let F=[];for(let H of E){let I=b(H[b2(0x2a8)])+(b2(0x1b3)===g(H[b2(0x2a8)])?'i':''),J=F[b2(0x137)](K=>K[b2(0x15e)]===H['family']);if(J)!0x1===J[b2(0x266)]['includes'](I)&&J['faces'][b2(0x1aa)](I);else{let K={'family':H[b2(0x15e)],'faces':[I]};F[b2(0x1aa)](K);}}for(let L of F)L[b2(0x266)][b2(0x162)]();await this.#e[b2(0x299)]['clear'](),await this.#e[b2(0x299)][b2(0x24b)](F),this.#l=b2(0x1ac),C();});}[aM(0x2a6)](C=!0x1){return new Promise(async(D,E)=>{const b3=q;if(b3(0x1ae)===this[b3(0x1d3)])D([]);else{if(this.#s[b3(0x122)]<0xa||C)try{this.#s=await window['queryLocalFonts']();}catch(F){return E({'message':F[b3(0x286)],'name':F[b3(0x1e7)]});}D(this.#s);}});}[aM(0x1e3)](){return new Promise(async C=>{const b4=q;C(await this.#e[b4(0x299)]['count']());});}[aM(0x23a)](C){return new Promise(async D=>{const b5=q;D((await this.#e[b5(0x299)][b5(0x271)](b5(0x15e))[b5(0x1e6)](C)['toArray']())[0x0]||null);});}[aM(0x2b9)](C){return new Promise(async D=>{const b6=q;let E=await this[b6(0x23a)](C);if(E){let F=new Set();for(let G of E[b6(0x266)]){let H=G[b6(0x20c)](0x0,0x3);F[b6(0x29b)](H);}D([...F]);}else D([b6(0x213)]);});}}(),document[aM(0x17a)]('http://www.w3.org/2000/svg',aM(0x187));let y=C=>{const b7=aM;let D=(C=structuredClone(C))[0x0],E=null,F=[];for(let J=0x1;J<C[b7(0x122)];J+=0x1){let K=C[J];'Z'===K[b7(0x10c)]?E=K:F['push'](K);}let G=D[b7(0x2c0)][0x0],H=D[b7(0x2c0)][0x1];'C'===F[F[b7(0x122)]-0x1][b7(0x10c)]?(D[b7(0x2c0)][0x0]=F[F[b7(0x122)]-0x1][b7(0x2c0)][0x4],D['values'][0x1]=F[F[b7(0x122)]-0x1][b7(0x2c0)][0x5]):(D[b7(0x2c0)][0x0]=F[F[b7(0x122)]-0x1][b7(0x2c0)][0x0],D[b7(0x2c0)][0x1]=F[F['length']-0x1][b7(0x2c0)][0x1]);for(let L of F)if('L'===L['type']||'R'===L['type']||'U'===L[b7(0x10c)]||'N'===L['type']){let [M,N]=L[b7(0x2c0)];L[b7(0x2c0)]=[G,H],G=M,H=N;}else{if('C'===L[b7(0x10c)]){let [O,P,Q,R,S,T]=L[b7(0x2c0)];L[b7(0x2c0)]=[Q,R,O,P,G,H],G=S,H=T;}}F[b7(0x169)]();let I=[];I['push'](D);for(let U of F)I[b7(0x1aa)](U);return E&&I['push'](E),I;},x=C=>{const b8=aM;let D='';for(let E=0x0,F=C[b8(0x122)];E<F;E+=0x1){let G=C[E];E>0x0&&(D+='\x20'),D+=G[b8(0x10c)],G?.[b8(0x2c0)]?.[b8(0x122)]>0x0&&(D+='\x20'+G['values'][b8(0x265)]('\x20'));}return D;},f=(C,D,E=!0x0)=>{const b9=aM;let F=C[b9(0x16d)](D);return E&&!F&&C[b9(0x12e)]()[b9(0x24e)]?f(C[b9(0x12e)]()[b9(0x24e)],D):F;};class k extends HTMLElement{static #o=m` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
-  `;static #r=d`
+                  `;
+                  F.push(ae.cssRules[0]);
+                }
+              }
+            }
+          }
+        }
+      }
+      E(F);
+    });
+  }
+  getFamilyDescriptor(C) {
+    return new Promise(async (D) => {
+      await this.#a();
+      D((await this.#e.cache.where("family").equals(C).toArray())[0] || null);
+    });
+  }
+  #n(C) {
+    return new Promise(async (D) => {
+      let E = null;
+      if (this.#i[C]) {
+        E = this.#i[C];
+      } else {
+        let F = await fetch(C);
+        let G = await F.text();
+        E = new CSSStyleSheet();
+        E.replaceSync(G);
+        this.#i[C] = E;
+      }
+      D(E);
+    });
+  }
+  #a() {
+    return new Promise(async (C) => {
+      let D = await this.#e.cache.count();
+      let E = true;
+      if (D > 0) {
+        let F = await this.#e.cache.get("Roboto");
+        if (F) {
+          let G = 1296000000;
+          E = Date.now() - F.cachedTime > G;
+        }
+      }
+      if (D === 0 || E === true) {
+        await this.refresh();
+      }
+      C();
+    });
+  }
+})();
+if (!["iPhone", "iPad"].includes(navigator.platform)) {
+  navigator.platform.startsWith("Mac");
+}
+if (navigator.userAgent.indexOf("Safari/") > -1) {
+  navigator.userAgent.indexOf("Chrome");
+}
+if (window.frameElement === null) {
+  document.body.dataset.app;
+}
+let c = (C, D, E) => C.split(D).join(E);
+let b = (C) => {
+  C = C.toLowerCase();
+  C = c(C, " ", "");
+  C = c(C, "-", "");
+  let D = "400";
+  if ((C = c(C, "_", "")).includes("thin") || C.includes("hairline")) {
+    D = "100";
+  } else if (C.includes("extralight") || C.includes("ultralight")) {
+    D = "200";
+  } else if (C.includes("light")) {
+    D = "300";
+  } else if (C.includes("medium")) {
+    D = "500";
+  } else if (C.includes("semibold") || C.includes("demibold")) {
+    D = "600";
+  } else if (C.includes("extrabold") || C.includes("ultrabold")) {
+    D = "800";
+  } else if (C.includes("bold")) {
+    D = "700";
+  } else if (C.includes("black") || C.includes("heavy")) {
+    D = "900";
+  }
+  return D;
+};
+let g = (C) => {
+  C = C.toLowerCase();
+  C = c(C, " ", "");
+  C = c(C, "-", "");
+  let D = "normal";
+  if ((C = c(C, "_", "")).includes("italic")) {
+    D = "italic";
+  } else if (C.includes("oblique")) {
+    D = "oblique";
+  }
+  return D;
+};
+new (class extends EventTarget {
+  #l = "init";
+  #s = [];
+  #e;
+  get status() {
+    return this.#l;
+  }
+  constructor() {
+    super();
+    this.#e = new A("LocalFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+    this.#e
+      .version(2)
+      .stores({
+        cache: "family",
+      })
+      .upgrade((C) => C.cache.clear());
+    if (window.queryLocalFonts === undefined) {
+      this.#l = "no-api";
+    } else {
+      navigator.permissions
+        .query({
+          name: "local-fonts",
+        })
+        .then((C) => {
+          if (C.state === "granted") {
+            this.refresh();
+          } else if (C.state !== "prompt") {
+            this.#l = "no-permission";
+          }
+        });
+    }
+  }
+  search(C = "", D = "all") {
+    return new Promise(async (E) => {
+      let F = [];
+      let G = this.#e.cache;
+      if (C.trim() !== "") {
+        G = G.filter((H) =>
+          H.family.toLowerCase().includes(C.trim().toLowerCase())
+        );
+      }
+      F = await G.toArray();
+      if (D !== "all") {
+        F = F.slice(D * 40, (D + 1) * 40);
+      }
+      E(F);
+    });
+  }
+  refresh() {
+    return new Promise(async (C, D) => {
+      let E;
+      try {
+        E = await this.getLocalFontsMetadata(true);
+      } catch (G) {
+        return D(G);
+      }
+      let F = [];
+      for (let H of E) {
+        let I = b(H.style) + (g(H.style) === "italic" ? "i" : "");
+        let J = F.find((K) => K.family === H.family);
+        if (J) {
+          if (J.faces.includes(I) === false) {
+            J.faces.push(I);
+          }
+        } else {
+          let K = {
+            family: H.family,
+            faces: [I],
+          };
+          F.push(K);
+        }
+      }
+      for (let L of F) {
+        L.faces.sort();
+      }
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(F);
+      this.#l = "ready";
+      C();
+    });
+  }
+  getLocalFontsMetadata(C = false) {
+    return new Promise(async (D, E) => {
+      if (this.status === "no-api") {
+        D([]);
+      } else {
+        if (this.#s.length < 10 || C) {
+          try {
+            this.#s = await window.queryLocalFonts();
+          } catch (F) {
+            return E({
+              message: F.message,
+              name: F.name,
+            });
+          }
+        }
+        D(this.#s);
+      }
+    });
+  }
+  getCacheSize() {
+    return new Promise(async (C) => {
+      C(await this.#e.cache.count());
+    });
+  }
+  getFamilyDescriptor(C) {
+    return new Promise(async (D) => {
+      D((await this.#e.cache.where("family").equals(C).toArray())[0] || null);
+    });
+  }
+  getFamilyWeights(C) {
+    return new Promise(async (D) => {
+      let E = await this.getFamilyDescriptor(C);
+      if (E) {
+        let F = new Set();
+        for (let G of E.faces) {
+          let H = G.substring(0, 3);
+          F.add(H);
+        }
+        D([...F]);
+      } else {
+        D(["400"]);
+      }
+    });
+  }
+})();
+document.createElementNS("http://www.w3.org/2000/svg", "svg");
+let y = (C) => {
+  let D = (C = structuredClone(C))[0];
+  let E = null;
+  let F = [];
+  for (let J = 1; J < C.length; J += 1) {
+    let K = C[J];
+    if (K.type === "Z") {
+      E = K;
+    } else {
+      F.push(K);
+    }
+  }
+  let G = D.values[0];
+  let H = D.values[1];
+  if (F[F.length - 1].type === "C") {
+    D.values[0] = F[F.length - 1].values[4];
+    D.values[1] = F[F.length - 1].values[5];
+  } else {
+    D.values[0] = F[F.length - 1].values[0];
+    D.values[1] = F[F.length - 1].values[1];
+  }
+  for (let L of F) {
+    if (L.type === "L" || L.type === "R" || L.type === "U" || L.type === "N") {
+      let [M, N] = L.values;
+      L.values = [G, H];
+      G = M;
+      H = N;
+    } else if (L.type === "C") {
+      let [O, P, Q, R, S, T] = L.values;
+      L.values = [Q, R, O, P, G, H];
+      G = S;
+      H = T;
+    }
+  }
+  F.reverse();
+  let I = [];
+  I.push(D);
+  for (let U of F) {
+    I.push(U);
+  }
+  if (E) {
+    I.push(E);
+  }
+  return I;
+};
+let x = (C) => {
+  let D = "";
+  for (let E = 0, F = C.length; E < F; E += 1) {
+    let G = C[E];
+    if (E > 0) {
+      D += " ";
+    }
+    D += G.type;
+    if (G?.values?.length > 0) {
+      D += " " + G.values.join(" ");
+    }
+  }
+  return D;
+};
+let f = (C, D, E = true) => {
+  let F = C.closest(D);
+  if (E && !F && C.getRootNode().host) {
+    return f(C.getRootNode().host, D);
+  } else {
+    return F;
+  }
+};
+class k extends HTMLElement {
+  static #o = m` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
+  `;
+  static #r = d`
     :host {
       display: flex;
       flex-flow: column;
@@ -93,6 +2190,485 @@ const aM=q;function q(a,b){const c=j();return q=function(d,e){d=d-0x104;let f=c[
       background: none;
       height: 4px;
     }
-  `;#p;constructor(){const ba=aM;super();let C=this[ba(0x215)]['t'],D=this[ba(0x215)]['l'];this.#p=this['attachShadow']({'mode':'closed'}),this.#p[ba(0x23e)]=[w[ba(0x227)],k.#r,this[ba(0x215)][ba(0x2c9)]],this.#p['append'](document[ba(0x2eb)](k.#o[ba(0x160)],!0x0)),C&&this.#p[ba(0x2d1)](ba(0x18a))['append'](document[ba(0x2eb)](C[ba(0x160)],!0x0)),D&&this.#p['querySelector'](ba(0x279))[ba(0x1bb)](document[ba(0x2eb)](D['content'],!0x0));for(let E of this.#p[ba(0x139)](ba(0x1bf)))this['#'+E['id']]=E;this['setAttribute'](ba(0x2ea),'bx-generator'),this[ba(0x235)](ba(0x2ad),'0');}}class v extends k{static ['t']=m` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options" autocapitalize></x-message></h3> <section id="size-subsection"> <x-box id="width-box" vertical> <h4 id="width-heading"><x-message href="#width" autocapitalize></x-message></h4> <x-numberinput id="width-input" value="500" min="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-button id="aspect-ratio-button" togglable skin="flat"> <x-icon id="aspect-ratio-icon" href="#lock-off"></x-icon> </x-button> <x-box id="height-box" vertical> <h4 id="height-heading"><x-message href="#height" autocapitalize></x-message></h4> <x-numberinput id="height-input" value="400" min="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="grid-subsection"> <x-box> <x-box id="columns-box" vertical> <h4 id="columns-heading"><x-message href="#columns" autocapitalize></x-message></h4> <x-numberinput id="columns-input" value="1" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-box id="rows-box" vertical> <h4 id="rows-heading"><x-message href="#rows" autocapitalize></x-message></h4> <x-numberinput id="rows-input" value="1" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </x-box> </section> <section id="tab-size-subsection"> <h4 id="tab-size-heading"><x-message href="#puzzle-tab-size" autocapitalize></x-message></h4> <x-box id="tab-size-box"> <x-slider id="tab-size-slider" value="10" min="10" max="30" step="1"></x-slider> <x-numberinput id="tab-size-input" value="10" min="10" max="30" step="1" suffix="%" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="jitter-subsection"> <h4 id="jitter-heading"><x-message href="#jitter" autocapitalize></x-message></h4> <x-box id="jitter-box"> <x-slider id="jitter-slider" value="0" min="0" max="15" step="1"></x-slider> <x-numberinput id="jitter-input" value="0" min="0" max="15" step="1" suffix="%" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="seed-subsection"> <h4 id="seed-heading"><x-message href="#seed" autocapitalize></x-message></h4> <x-box id="seed-box"> <x-slider id="seed-slider" value="0" min="0" max="200" step="1"></x-slider> <x-numberinput id="seed-input" value="0" min="0" max="200" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview" autocapitalize></x-message></h3> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid"></svg> </section> </template>
-  `;static ['l']=m` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#generate" autocapitalize></x-message></x-label> </x-button> </template>
-  `;static [aM(0x2c9)]=d`#size-subsection{display:flex}#size-subsection x-numberinput{width:100%}#size-subsection #height-box,#size-subsection #width-box{flex:1}#size-subsection #height-heading,#size-subsection #width-heading{margin-top:0}#size-subsection #aspect-ratio-button{align-self:flex-end;margin:0}#size-subsection #aspect-ratio-button x-icon{width:18px;height:18px;min-width:18px;margin:0 4px;color:#8c8c8c}#grid-subsection{margin-top:14px}#columns-box{flex:1;margin-right:4px}#columns-input{width:100%}#rows-box{flex:1;margin-left:4px}#rows-input{width:100%}#tab-size-subsection{margin-top:14px}#tab-size-subsection h4{margin:0}#tab-size-slider{flex:1}#tab-size-input{width:60px;margin-left:10px}#jitter-subsection{margin-top:10px}#jitter-subsection h4{margin:0}#jitter-slider{flex:1}#jitter-input{width:60px;margin-left:10px}#seed-subsection{margin-top:10px}#seed-subsection h4{margin:0}#seed-slider{flex:1}#seed-input{margin-left:10px;width:60px}#preview{height:160px}`;get[aM(0x161)](){const bb=aM;return{'width':this[bb(0x204)][bb(0x174)],'height':this[bb(0x11d)][bb(0x174)],'columns':this['#columns-input'][bb(0x174)],'rows':this[bb(0x2a7)][bb(0x174)],'tabSize':this[bb(0x20b)][bb(0x174)],'jitter':this[bb(0x28f)][bb(0x174)],'seed':this[bb(0x272)][bb(0x174)],'geometryPrecision':this.#h[bb(0x23b)][bb(0x21c)]};}#h;#u;#m;constructor(){const bc=aM;super(),this[bc(0x132)][bc(0x1ec)](bc(0x18e),()=>this.#d()),this[bc(0x2a7)][bc(0x1ec)](bc(0x18e),()=>this.#c()),this[bc(0x204)]['addEventListener'](bc(0x18e),()=>this.#b()),this[bc(0x11d)][bc(0x1ec)](bc(0x18e),()=>this.#g()),this['#aspect-ratio-button'][bc(0x1ec)]('toggle',()=>this.#y()),this[bc(0x2b1)][bc(0x1ec)]('changestart',()=>this.#x()),this[bc(0x1d5)][bc(0x1ec)](bc(0x18e),()=>this.#f()),this[bc(0x2b7)][bc(0x1ec)]('changestart',()=>this.#k()),this[bc(0x2ed)][bc(0x1ec)](bc(0x216),()=>this.#v());}async['connectedCallback'](){const bd=aM;this.#h=f(this,bd(0x194));let C=w['getConfig'](bd(0x1a4),0x8),D=w[bd(0x1bd)](bd(0x2f5),0x8),E=w[bd(0x1bd)](bd(0x2d8),0x1f4),F=w[bd(0x1bd)](bd(0x2d5),0x190),G=w[bd(0x1bd)](bd(0x1bc),0.2),H=w[bd(0x1bd)](bd(0x2b6),0.02),I=w[bd(0x1bd)]('bx-jigsawpuzzlegenerator:seed',0x64),J=w[bd(0x1bd)](bd(0x126),!0x1);this['#columns-input'][bd(0x174)]=C,this[bd(0x2a7)][bd(0x174)]=D,this[bd(0x204)]['value']=E,this[bd(0x11d)][bd(0x174)]=F,this['#aspect-ratio-button'][bd(0x20d)]=J,this[bd(0x1d1)]['href']=J?bd(0x2d7):'#lock-off',this[bd(0x20b)][bd(0x174)]=r(0x64*G,0x2),this[bd(0x111)][bd(0x174)]=r(0x64*G,0x2),this[bd(0x28f)]['value']=r(0x64*H,0x2),this[bd(0x1de)][bd(0x174)]=r(0x64*H,0x2),this[bd(0x272)][bd(0x174)]=I,this[bd(0x142)][bd(0x174)]=I,this.#w(),this.#h['board']['addEventListener'](bd(0x167),this.#u=()=>{this.#w();}),this.#h[bd(0x23b)][bd(0x1ec)]('workspacemutation',this.#m=()=>{this.#N();});}[aM(0x15c)](){const be=aM;this.#h['board'][be(0x104)](be(0x167),this.#u),this.#h[be(0x23b)][be(0x104)](be(0x1d2),this.#m);}#d(C){const bf=aM;let D;this[bf(0x132)][bf(0x1ec)]('changeend',D=()=>{const bg=bf;this[bg(0x132)][bg(0x104)]('changeend',D),w[bg(0x198)](bg(0x1a4),this['#columns-input'][bg(0x174)]),this.#U();});}#c(C){const bh=aM;let D;this[bh(0x2a7)][bh(0x1ec)]('changeend',D=()=>{const bi=bh;this['#rows-input'][bi(0x104)]('changeend',D),w[bi(0x198)](bi(0x2f5),this['#rows-input'][bi(0x174)]),this.#U();});}#b(){const bj=aM;let C,D,E=this[bj(0x204)]['value']/this[bj(0x11d)][bj(0x174)];this[bj(0x204)]['addEventListener'](bj(0x1e1),C=()=>{const bk=bj;if(this[bk(0x208)][bk(0x20d)]){let F=this['#width-input'][bk(0x174)]/E;F=p(F,0x1,Infinity,0x0),this['#height-input'][bk(0x174)]=F;}this.#U();}),this[bj(0x204)]['addEventListener'](bj(0x207),D=()=>{const bl=bj;this[bl(0x204)][bl(0x104)]('change',C),this[bl(0x204)][bl(0x104)](bl(0x207),D),w[bl(0x198)]('bx-jigsawpuzzlegenerator:width',this['#width-input']['value']),w[bl(0x198)](bl(0x2d5),this[bl(0x11d)]['value']);});}#g(){const bm=aM;let C,D,E=this[bm(0x11d)][bm(0x174)]/this[bm(0x204)][bm(0x174)];this[bm(0x11d)][bm(0x1ec)](bm(0x1e1),C=()=>{const bn=bm;if(this[bn(0x208)][bn(0x20d)]){let F=this[bn(0x11d)][bn(0x174)]/E;F=p(F,0x1,Infinity,0x0),this[bn(0x204)]['value']=F;}this.#U();}),this[bm(0x11d)][bm(0x1ec)]('changeend',D=()=>{const bo=bm;this[bo(0x11d)]['removeEventListener'](bo(0x1e1),C),this['#height-input'][bo(0x104)](bo(0x207),D),w[bo(0x198)](bo(0x2d8),this[bo(0x204)][bo(0x174)]),w[bo(0x198)](bo(0x2d5),this['#height-input'][bo(0x174)]);});}#y(){const bp=aM;let C=this[bp(0x208)][bp(0x20d)];w[bp(0x198)](bp(0x126),C),this[bp(0x1d1)]['href']=C?bp(0x2d7):bp(0x23d);}#x(){const bq=aM;let C,D;this[bq(0x2b1)][bq(0x1ec)](bq(0x1e1),C=E=>{const br=bq;E[br(0x284)]===this[br(0x20b)]?this['#tab-size-input'][br(0x174)]=this[br(0x20b)][br(0x174)]:E['target']===this[br(0x111)]&&(this[br(0x20b)]['value']=this[br(0x111)][br(0x174)]),this.#U();}),this[bq(0x2b1)][bq(0x1ec)](bq(0x207),D=()=>{const bs=bq;this[bs(0x2b1)][bs(0x104)]('change',C),this[bs(0x2b1)][bs(0x104)](bs(0x207),D),w[bs(0x198)](bs(0x1bc),this[bs(0x20b)]['value']/0x64);});}#f(){const bt=aM;let C,D;this[bt(0x1d5)][bt(0x1ec)](bt(0x1e1),C=E=>{const bu=bt;E[bu(0x284)]===this[bu(0x28f)]?this[bu(0x1de)][bu(0x174)]=this['#jitter-slider']['value']:E['target']===this['#jitter-input']&&(this[bu(0x28f)][bu(0x174)]=this['#jitter-input']['value']),this.#U();}),this[bt(0x1d5)][bt(0x1ec)](bt(0x207),D=()=>{const bv=bt;this[bv(0x1d5)][bv(0x104)](bv(0x1e1),C),this[bv(0x1d5)][bv(0x104)](bv(0x207),D),w[bv(0x198)](bv(0x2b6),this[bv(0x28f)][bv(0x174)]/0x64);});}#k(){const bw=aM;let C,D;this[bw(0x2b7)][bw(0x1ec)](bw(0x1e1),C=E=>{const bx=bw;E['target']===this[bx(0x272)]?this[bx(0x142)][bx(0x174)]=this[bx(0x272)][bx(0x174)]:E[bx(0x284)]===this[bx(0x142)]&&(this[bx(0x272)][bx(0x174)]=this[bx(0x142)][bx(0x174)]),this.#U();}),this['#seed-box'][bw(0x1ec)]('changeend',D=()=>{const by=bw;this[by(0x2b7)]['removeEventListener'](by(0x1e1),C),this[by(0x2b7)][by(0x104)](by(0x207),D),w[by(0x198)](by(0x1c6),this[by(0x272)][by(0x174)]);});}#v(){const bz=aM;let C=this[bz(0x189)][bz(0x1c4)](!0x0);this.#h['board'][bz(0x2f2)][bz(0x24f)]([bz(0x1fe)],bz(0x15d)),this.#h['board'][bz(0x26f)](C);}#z(K){const bA=aM;let Q,X,Y,a0,a1,a2,a3,a4,a5,a6=K[bA(0x288)],a7=K[bA(0x113)],a8=K['seed'],a9=K[bA(0x1cd)]/0xc8,aa=K[bA(0x134)]/0x64,ab=K[bA(0x1ff)],ac=K[bA(0x12a)],ad=new z(a8),ae=(aI,aJ)=>aI+ad()*(aJ-aI),af=()=>{a1=ae(-aa,aa),ag();},ag=()=>{let aI=a4;a4=ad()>0.5,Q=a4==aI?-a1:a1,X=ae(-aa,aa),Y=ae(-aa,aa),a0=ae(-aa,aa),a1=ae(-aa,aa);},ah=()=>a5?a7/ac:a6/ab,ai=()=>a5?a6/ab:a7/ac,aj=aI=>Math[bA(0x170)](0x64*(0x0+ah()*(a5?a3:a2)+ah()*aI))/0x64,ak=aI=>Math[bA(0x170)](0x64*(0x0+ai()*(a5?a2:a3)+ai()*aI*(a4?-0x1:0x1)))/0x64,al=()=>aj(0x0),am=()=>ak(0x0),an=()=>aj(0.2),ao=()=>ak(Q),ap=()=>aj(0.5+X+a0),aq=()=>ak(-a9+Y),ar=()=>aj(0.5-a9+X),as=()=>ak(a9+Y),at=()=>aj(0.5-0x2*a9+X-a0),au=()=>ak(0x3*a9+Y),av=()=>aj(0.5+0x2*a9+X-a0),aw=()=>ak(0x3*a9+Y),ax=()=>aj(0.5+a9+X),ay=()=>ak(a9+Y),az=()=>aj(0.5+X+a0),aA=()=>ak(-a9+Y),aB=()=>aj(0.8),aC=()=>ak(a1),aD=()=>aj(0x1),aE=()=>ak(0x0),aF=[],aG=[],aH=[];for(a5=0x0,a3=0x0;a3<=ac;++a3)for(a2=0x0,af(),aF[a3]=[];a2<=ab;++a2)0x0===a3||a3===ac?aF[a3]['push']([{'type':'M','values':[al(),am()]},{'type':'L','values':[aD(),aE()]}]):aF[a3][bA(0x1aa)]([{'type':'M','values':[al(),am()]},{'type':'C','values':[an(),ao(),ap(),aq(),ar(),as()]},{'type':'C','values':[at(),au(),av(),aw(),ax(),ay()]},{'type':'C','values':[az(),aA(),aB(),aC(),aD(),aE()]}]),ag();for(a5=0x1,a2=0x0;a2<=ab;++a2)for(a3=0x0,af(),aG[a2]=[];a3<=ac;++a3)0x0===a2||a2===ab?aG[a2][bA(0x1aa)]([{'type':'M','values':[am(),al()]},{'type':'L','values':[aE(),aD()]}]):aG[a2][bA(0x1aa)]([{'type':'M','values':[am(),al()]},{'type':'C','values':[ao(),an(),aq(),ap(),as(),ar()]},{'type':'C','values':[au(),at(),aw(),av(),ay(),ax()]},{'type':'C','values':[aA(),az(),aC(),aB(),aE(),aD()]}]),ag();for(let aI=0x0;aI<ab;aI+=0x1)for(let aJ=0x0;aJ<ac;aJ+=0x1){let aK=[...aF[aJ][aI],...aG[aI+0x1][aJ][bA(0x2e1)](0x1),...y(aF[aJ+0x1][aI])[bA(0x2e1)](0x1),...y(aG[aI][aJ])[bA(0x2e1)](0x1),{'type':'Z'}];aH[bA(0x1aa)](aK);}return aH;}#w(){this.#U();}#N=((e,t,i,a=!0x1)=>{let n=null,l=null;return(...s)=>{const bC=q;let o=a&&!n;return clearTimeout(n),n=setTimeout(()=>{const bB=q;n=null,a||(l=e[bB(0x1a1)](i,s));},t),o&&(l=e[bC(0x1a1)](i,s)),l;};})(this.#w,0x3e8,this);#U(){const bD=aM;let C=this.#z(this[bD(0x161)]),D='';for(let E of C){D+='<path\x20style=\x22fill:\x20white;\x20stroke:\x20black;\x20stroke-width:\x201px;\x22\x20d=\x22'+x(E)+'\x22></path>';}this['#preview'][bD(0x202)]=bD(0x1c9)+D+'</g>',this[bD(0x189)][bD(0x235)](bD(0x1f3),'0\x200\x20'+this[bD(0x161)]['width']+'\x20'+this[bD(0x161)][bD(0x113)]);}}customElements[aM(0x238)](aM(0x201),v);
+  `;
+  #p;
+  constructor() {
+    super();
+    let C = this.constructor.t;
+    let D = this.constructor.l;
+    this.#p = this.attachShadow({
+      mode: "closed",
+    });
+    this.#p.adoptedStyleSheets = [
+      w.themeStyleSheet,
+      k.#r,
+      this.constructor._shadowStyleSheet,
+    ];
+    this.#p.append(document.importNode(k.#o.content, true));
+    if (C) {
+      this.#p
+        .querySelector("#main")
+        .append(document.importNode(C.content, true));
+    }
+    if (D) {
+      this.#p
+        .querySelector("#footer")
+        .append(document.importNode(D.content, true));
+    }
+    for (let E of this.#p.querySelectorAll("[id]")) {
+      this["#" + E.id] = E;
+    }
+    this.setAttribute("extends", "bx-generator");
+    this.setAttribute("tabindex", "0");
+  }
+}
+class v extends k {
+  static t = m` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options" autocapitalize></x-message></h3> <section id="size-subsection"> <x-box id="width-box" vertical> <h4 id="width-heading"><x-message href="#width" autocapitalize></x-message></h4> <x-numberinput id="width-input" value="500" min="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-button id="aspect-ratio-button" togglable skin="flat"> <x-icon id="aspect-ratio-icon" href="#lock-off"></x-icon> </x-button> <x-box id="height-box" vertical> <h4 id="height-heading"><x-message href="#height" autocapitalize></x-message></h4> <x-numberinput id="height-input" value="400" min="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="grid-subsection"> <x-box> <x-box id="columns-box" vertical> <h4 id="columns-heading"><x-message href="#columns" autocapitalize></x-message></h4> <x-numberinput id="columns-input" value="1" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-box id="rows-box" vertical> <h4 id="rows-heading"><x-message href="#rows" autocapitalize></x-message></h4> <x-numberinput id="rows-input" value="1" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </x-box> </section> <section id="tab-size-subsection"> <h4 id="tab-size-heading"><x-message href="#puzzle-tab-size" autocapitalize></x-message></h4> <x-box id="tab-size-box"> <x-slider id="tab-size-slider" value="10" min="10" max="30" step="1"></x-slider> <x-numberinput id="tab-size-input" value="10" min="10" max="30" step="1" suffix="%" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="jitter-subsection"> <h4 id="jitter-heading"><x-message href="#jitter" autocapitalize></x-message></h4> <x-box id="jitter-box"> <x-slider id="jitter-slider" value="0" min="0" max="15" step="1"></x-slider> <x-numberinput id="jitter-input" value="0" min="0" max="15" step="1" suffix="%" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="seed-subsection"> <h4 id="seed-heading"><x-message href="#seed" autocapitalize></x-message></h4> <x-box id="seed-box"> <x-slider id="seed-slider" value="0" min="0" max="200" step="1"></x-slider> <x-numberinput id="seed-input" value="0" min="0" max="200" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> </section> <hr> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview" autocapitalize></x-message></h3> <svg id="preview" part="preview" preserveAspectRatio="xMidYMid"></svg> </section> </template>
+  `;
+  static l = m` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#generate" autocapitalize></x-message></x-label> </x-button> </template>
+  `;
+  static _shadowStyleSheet = d`#size-subsection{display:flex}#size-subsection x-numberinput{width:100%}#size-subsection #height-box,#size-subsection #width-box{flex:1}#size-subsection #height-heading,#size-subsection #width-heading{margin-top:0}#size-subsection #aspect-ratio-button{align-self:flex-end;margin:0}#size-subsection #aspect-ratio-button x-icon{width:18px;height:18px;min-width:18px;margin:0 4px;color:#8c8c8c}#grid-subsection{margin-top:14px}#columns-box{flex:1;margin-right:4px}#columns-input{width:100%}#rows-box{flex:1;margin-left:4px}#rows-input{width:100%}#tab-size-subsection{margin-top:14px}#tab-size-subsection h4{margin:0}#tab-size-slider{flex:1}#tab-size-input{width:60px;margin-left:10px}#jitter-subsection{margin-top:10px}#jitter-subsection h4{margin:0}#jitter-slider{flex:1}#jitter-input{width:60px;margin-left:10px}#seed-subsection{margin-top:10px}#seed-subsection h4{margin:0}#seed-slider{flex:1}#seed-input{margin-left:10px;width:60px}#preview{height:160px}`;
+  get options() {
+    return {
+      width: this["#width-input"].value,
+      height: this["#height-input"].value,
+      columns: this["#columns-input"].value,
+      rows: this["#rows-input"].value,
+      tabSize: this["#tab-size-slider"].value,
+      jitter: this["#jitter-slider"].value,
+      seed: this["#seed-slider"].value,
+      geometryPrecision: this.#h.board.geometryPrecision,
+    };
+  }
+  #h;
+  #u;
+  #m;
+  constructor() {
+    super();
+    this["#columns-input"].addEventListener("changestart", () => this.#d());
+    this["#rows-input"].addEventListener("changestart", () => this.#c());
+    this["#width-input"].addEventListener("changestart", () => this.#b());
+    this["#height-input"].addEventListener("changestart", () => this.#g());
+    this["#aspect-ratio-button"].addEventListener("toggle", () => this.#y());
+    this["#tab-size-box"].addEventListener("changestart", () => this.#x());
+    this["#jitter-box"].addEventListener("changestart", () => this.#f());
+    this["#seed-box"].addEventListener("changestart", () => this.#k());
+    this["#generate-button"].addEventListener("click", () => this.#v());
+  }
+  async connectedCallback() {
+    this.#h = f(this, "bx-editor");
+    let C = w.getConfig("bx-jigsawpuzzlegenerator:columns", 8);
+    let D = w.getConfig("bx-jigsawpuzzlegenerator:rows", 8);
+    let E = w.getConfig("bx-jigsawpuzzlegenerator:width", 500);
+    let F = w.getConfig("bx-jigsawpuzzlegenerator:height", 400);
+    let G = w.getConfig("bx-jigsawpuzzlegenerator:tabSize", 0.2);
+    let H = w.getConfig("bx-jigsawpuzzlegenerator:jitter", 0.02);
+    let I = w.getConfig("bx-jigsawpuzzlegenerator:seed", 100);
+    let J = w.getConfig("bx-jigsawpuzzlegenerator:preserveAspectRatio", false);
+    this["#columns-input"].value = C;
+    this["#rows-input"].value = D;
+    this["#width-input"].value = E;
+    this["#height-input"].value = F;
+    this["#aspect-ratio-button"].toggled = J;
+    this["#aspect-ratio-icon"].href = J ? "#lock-on" : "#lock-off";
+    this["#tab-size-slider"].value = r(G * 100, 2);
+    this["#tab-size-input"].value = r(G * 100, 2);
+    this["#jitter-slider"].value = r(H * 100, 2);
+    this["#jitter-input"].value = r(H * 100, 2);
+    this["#seed-slider"].value = I;
+    this["#seed-input"].value = I;
+    this.#w();
+    this.#h.board.addEventListener(
+      "selectedelementschange",
+      (this.#u = () => {
+        this.#w();
+      })
+    );
+    this.#h.board.addEventListener(
+      "workspacemutation",
+      (this.#m = () => {
+        this.#N();
+      })
+    );
+  }
+  disconnectedCallback() {
+    this.#h.board.removeEventListener("selectedelementschange", this.#u);
+    this.#h.board.removeEventListener("workspacemutation", this.#m);
+  }
+  #d(C) {
+    let D;
+    this["#columns-input"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#columns-input"].removeEventListener("changeend", D);
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:columns",
+          this["#columns-input"].value
+        );
+        this.#U();
+      })
+    );
+  }
+  #c(C) {
+    let D;
+    this["#rows-input"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#rows-input"].removeEventListener("changeend", D);
+        w.setConfig("bx-jigsawpuzzlegenerator:rows", this["#rows-input"].value);
+        this.#U();
+      })
+    );
+  }
+  #b() {
+    let C;
+    let D;
+    let E = this["#width-input"].value / this["#height-input"].value;
+    this["#width-input"].addEventListener(
+      "change",
+      (C = () => {
+        if (this["#aspect-ratio-button"].toggled) {
+          let F = this["#width-input"].value / E;
+          F = p(F, 1, Infinity, 0);
+          this["#height-input"].value = F;
+        }
+        this.#U();
+      })
+    );
+    this["#width-input"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#width-input"].removeEventListener("change", C);
+        this["#width-input"].removeEventListener("changeend", D);
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:width",
+          this["#width-input"].value
+        );
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:height",
+          this["#height-input"].value
+        );
+      })
+    );
+  }
+  #g() {
+    let C;
+    let D;
+    let E = this["#height-input"].value / this["#width-input"].value;
+    this["#height-input"].addEventListener(
+      "change",
+      (C = () => {
+        if (this["#aspect-ratio-button"].toggled) {
+          let F = this["#height-input"].value / E;
+          F = p(F, 1, Infinity, 0);
+          this["#width-input"].value = F;
+        }
+        this.#U();
+      })
+    );
+    this["#height-input"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#height-input"].removeEventListener("change", C);
+        this["#height-input"].removeEventListener("changeend", D);
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:width",
+          this["#width-input"].value
+        );
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:height",
+          this["#height-input"].value
+        );
+      })
+    );
+  }
+  #y() {
+    let C = this["#aspect-ratio-button"].toggled;
+    w.setConfig("bx-jigsawpuzzlegenerator:preserveAspectRatio", C);
+    this["#aspect-ratio-icon"].href = C ? "#lock-on" : "#lock-off";
+  }
+  #x() {
+    let C;
+    let D;
+    this["#tab-size-box"].addEventListener(
+      "change",
+      (C = (E) => {
+        if (E.target === this["#tab-size-slider"]) {
+          this["#tab-size-input"].value = this["#tab-size-slider"].value;
+        } else if (E.target === this["#tab-size-input"]) {
+          this["#tab-size-slider"].value = this["#tab-size-input"].value;
+        }
+        this.#U();
+      })
+    );
+    this["#tab-size-box"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#tab-size-box"].removeEventListener("change", C);
+        this["#tab-size-box"].removeEventListener("changeend", D);
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:tabSize",
+          this["#tab-size-slider"].value / 100
+        );
+      })
+    );
+  }
+  #f() {
+    let C;
+    let D;
+    this["#jitter-box"].addEventListener(
+      "change",
+      (C = (E) => {
+        if (E.target === this["#jitter-slider"]) {
+          this["#jitter-input"].value = this["#jitter-slider"].value;
+        } else if (E.target === this["#jitter-input"]) {
+          this["#jitter-slider"].value = this["#jitter-input"].value;
+        }
+        this.#U();
+      })
+    );
+    this["#jitter-box"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#jitter-box"].removeEventListener("change", C);
+        this["#jitter-box"].removeEventListener("changeend", D);
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:jitter",
+          this["#jitter-slider"].value / 100
+        );
+      })
+    );
+  }
+  #k() {
+    let C;
+    let D;
+    this["#seed-box"].addEventListener(
+      "change",
+      (C = (E) => {
+        if (E.target === this["#seed-slider"]) {
+          this["#seed-input"].value = this["#seed-slider"].value;
+        } else if (E.target === this["#seed-input"]) {
+          this["#seed-slider"].value = this["#seed-input"].value;
+        }
+        this.#U();
+      })
+    );
+    this["#seed-box"].addEventListener(
+      "changeend",
+      (D = () => {
+        this["#seed-box"].removeEventListener("change", C);
+        this["#seed-box"].removeEventListener("changeend", D);
+        w.setConfig(
+          "bx-jigsawpuzzlegenerator:seed",
+          this["#seed-slider"].value
+        );
+      })
+    );
+  }
+  #v() {
+    let C = this["#preview"].cloneNode(true);
+    this.#h.board.undoManager.checkpoint(
+      ["#generators.jigsaw-puzzle"],
+      "#generators-panel"
+    );
+    this.#h.board.insertArtwork(C);
+  }
+  #z(K) {
+    let Q;
+    let X;
+    let Y;
+    let a0;
+    let a1;
+    let a2;
+    let a3;
+    let a4;
+    let a5;
+    let a6 = K.width;
+    let a7 = K.height;
+    let a8 = K.seed;
+    let a9 = K.tabSize / 200;
+    let aa = K.jitter / 100;
+    let ab = K.columns;
+    let ac = K.rows;
+    let ad = new z(a8);
+    let ae = (aI, aJ) => aI + ad() * (aJ - aI);
+    let af = () => {
+      a1 = ae(-aa, aa);
+      ag();
+    };
+    let ag = () => {
+      let aI = a4;
+      a4 = ad() > 0.5;
+      Q = a4 == aI ? -a1 : a1;
+      X = ae(-aa, aa);
+      Y = ae(-aa, aa);
+      a0 = ae(-aa, aa);
+      a1 = ae(-aa, aa);
+    };
+    let ah = () => (a5 ? a7 / ac : a6 / ab);
+    let ai = () => (a5 ? a6 / ab : a7 / ac);
+    let aj = (aI) =>
+      Math.round((0 + ah() * (a5 ? a3 : a2) + ah() * aI) * 100) / 100;
+    let ak = (aI) =>
+      Math.round(
+        (0 + ai() * (a5 ? a2 : a3) + ai() * aI * (a4 ? -1 : 1)) * 100
+      ) / 100;
+    let al = () => aj(0);
+    let am = () => ak(0);
+    let an = () => aj(0.2);
+    let ao = () => ak(Q);
+    let ap = () => aj(0.5 + X + a0);
+    let aq = () => ak(-a9 + Y);
+    let ar = () => aj(0.5 - a9 + X);
+    let as = () => ak(a9 + Y);
+    let at = () => aj(0.5 - a9 * 2 + X - a0);
+    let au = () => ak(a9 * 3 + Y);
+    let av = () => aj(0.5 + a9 * 2 + X - a0);
+    let aw = () => ak(a9 * 3 + Y);
+    let ax = () => aj(0.5 + a9 + X);
+    let ay = () => ak(a9 + Y);
+    let az = () => aj(0.5 + X + a0);
+    let aA = () => ak(-a9 + Y);
+    let aB = () => aj(0.8);
+    let aC = () => ak(a1);
+    let aD = () => aj(1);
+    let aE = () => ak(0);
+    let aF = [];
+    let aG = [];
+    let aH = [];
+    a5 = 0;
+    a3 = 0;
+    for (; a3 <= ac; ++a3) {
+      a2 = 0;
+      af();
+      aF[a3] = [];
+      for (; a2 <= ab; ++a2) {
+        if (a3 === 0 || a3 === ac) {
+          aF[a3].push([
+            {
+              type: "M",
+              values: [al(), am()],
+            },
+            {
+              type: "L",
+              values: [aD(), aE()],
+            },
+          ]);
+        } else {
+          aF[a3].push([
+            {
+              type: "M",
+              values: [al(), am()],
+            },
+            {
+              type: "C",
+              values: [an(), ao(), ap(), aq(), ar(), as()],
+            },
+            {
+              type: "C",
+              values: [at(), au(), av(), aw(), ax(), ay()],
+            },
+            {
+              type: "C",
+              values: [az(), aA(), aB(), aC(), aD(), aE()],
+            },
+          ]);
+        }
+        ag();
+      }
+    }
+    a5 = 1;
+    a2 = 0;
+    for (; a2 <= ab; ++a2) {
+      a3 = 0;
+      af();
+      aG[a2] = [];
+      for (; a3 <= ac; ++a3) {
+        if (a2 === 0 || a2 === ab) {
+          aG[a2].push([
+            {
+              type: "M",
+              values: [am(), al()],
+            },
+            {
+              type: "L",
+              values: [aE(), aD()],
+            },
+          ]);
+        } else {
+          aG[a2].push([
+            {
+              type: "M",
+              values: [am(), al()],
+            },
+            {
+              type: "C",
+              values: [ao(), an(), aq(), ap(), as(), ar()],
+            },
+            {
+              type: "C",
+              values: [au(), at(), aw(), av(), ay(), ax()],
+            },
+            {
+              type: "C",
+              values: [aA(), az(), aC(), aB(), aE(), aD()],
+            },
+          ]);
+        }
+        ag();
+      }
+    }
+    for (let aI = 0; aI < ab; aI += 1) {
+      for (let aJ = 0; aJ < ac; aJ += 1) {
+        let aK = [
+          ...aF[aJ][aI],
+          ...aG[aI + 1][aJ].slice(1),
+          ...y(aF[aJ + 1][aI]).slice(1),
+          ...y(aG[aI][aJ]).slice(1),
+          {
+            type: "Z",
+          },
+        ];
+        aH.push(aK);
+      }
+    }
+    return aH;
+  }
+  #w() {
+    this.#U();
+  }
+  #N = ((e, t, i, a = false) => {
+    let n = null;
+    let l = null;
+    return (...s) => {
+      let o = a && !n;
+      clearTimeout(n);
+      n = setTimeout(() => {
+        n = null;
+        if (!a) {
+          l = e.apply(i, s);
+        }
+      }, t);
+      if (o) {
+        l = e.apply(i, s);
+      }
+      return l;
+    };
+  })(this.#w, 1000, this);
+  #U() {
+    let C = this.#z(this.options);
+    let D = "";
+    for (let E of C) {
+      D +=
+        '<path style="fill: white; stroke: black; stroke-width: 1px;" d="' +
+        x(E) +
+        '"></path>';
+    }
+    this["#preview"].innerHTML = "<g>" + D + "</g>";
+    this["#preview"].setAttribute(
+      "viewBox",
+      "0 0 " + this.options.width + " " + this.options.height
+    );
+  }
+}
+customElements.define("bx-jigsawpuzzlegenerator", v);

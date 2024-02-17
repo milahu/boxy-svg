@@ -1,4 +1,1793 @@
-const ac=j;(function(w,x){const ab=j,z=w();while(!![]){try{const A=parseInt(ab(0x2af))/0x1+parseInt(ab(0x21b))/0x2*(-parseInt(ab(0x269))/0x3)+-parseInt(ab(0x1b3))/0x4*(parseInt(ab(0x25b))/0x5)+parseInt(ab(0x277))/0x6+parseInt(ab(0x198))/0x7+-parseInt(ab(0x1e7))/0x8*(-parseInt(ab(0x29f))/0x9)+-parseInt(ab(0x1bf))/0xa;if(A===x)break;else z['push'](z['shift']());}catch(B){z['push'](z['shift']());}}}(g,0x54718));import k from'/libs/xel/xel.js';import'/libs/color/color.js';import'/libs/css-parser/css-parser.js';import'/libs/paper/paper.js';import'/libs/seed-random/seed-random.js';function j(a,b){const c=g();return j=function(d,e){d=d-0x110;let f=c[d];return f;},j(a,b);}import'/libs/dom-purify/dom-purify.js';import q from'/libs/dexie/dexie.js';import v from'/libs/typesense/typesense.js';import'/libs/pako/pako.js';const a=[ac(0x2d0),ac(0x290),ac(0x149),ac(0x1db),ac(0x1d5),'polyline',ac(0x23d)],n=['text',ac(0x2d1),ac(0x177)],l=[...a,...n,ac(0x155),ac(0x122)],o=[...a,ac(0x178),ac(0x122),'g','a',ac(0x12a),'use',ac(0x155)],s=[...a,...n];[{'name':ac(0x11a),'displayName':ac(0x229),'presentationAttributeName':'alignment-baseline','initialValue':ac(0x193),'values':[{'type':ac(0x185),'tokens':[ac(0x193),ac(0x17d),'alphabetic',ac(0x1d9),ac(0x252),ac(0x251),'mathematical',ac(0x225),ac(0x270),ac(0x194),ac(0x11b),'inherit',ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x177),'textPath',ac(0x273)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'baseline-shift','displayName':'#baseline-shift','presentationAttributeName':ac(0x1a2),'initialValue':'0','values':[{'type':ac(0x13a)},{'type':ac(0x233)},{'type':ac(0x1ce)},{'type':ac(0x185),'tokens':[ac(0x1ea),'super',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x177),ac(0x2d1),'text\x20a'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'clip-path','displayName':ac(0x23a),'presentationAttributeName':ac(0x1d2),'initialValue':'none','values':[{'type':ac(0x16b)},{'type':ac(0x185),'tokens':[ac(0x119),ac(0x137),ac(0x191),ac(0x19c),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...l,'svg','g','a',ac(0x226)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x183),'displayName':ac(0x2c2),'presentationAttributeName':ac(0x183),'initialValue':ac(0x130),'values':[{'type':'token','tokens':[ac(0x130),ac(0x123),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...l,'use'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x1a7),'displayName':ac(0x2ba),'presentationAttributeName':ac(0x1a7),'initialValue':ac(0x24f),'values':[{'type':ac(0x1a7)},{'type':ac(0x185),'tokens':[ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[...l,ac(0x12a),'g','a',ac(0x226)],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear','spline',ac(0x2b6)]},{'name':ac(0x116),'displayName':ac(0x1b8),'presentationAttributeName':ac(0x116),'initialValue':ac(0x21d),'values':[{'type':ac(0x185),'tokens':['auto',ac(0x21d),ac(0x1d6),ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[...l,ac(0x12a),'g','a',ac(0x226),'linearGradient',ac(0x24d)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x19a),'displayName':ac(0x1b8),'presentationAttributeName':ac(0x19a),'initialValue':ac(0x1d6),'values':[{'type':ac(0x185),'tokens':['auto','sRGB',ac(0x1d6),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x20e),ac(0x140),ac(0x1e0),ac(0x125),ac(0x28f),ac(0x17e),ac(0x110),ac(0x188),ac(0x283),ac(0x126),ac(0x1bb),ac(0x1c5),'feTurbulence'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'cursor','displayName':ac(0x19f),'presentationAttributeName':ac(0x23c),'initialValue':'auto','values':[{'type':'url'},{'type':ac(0x185),'tokens':[ac(0x2d2),'help',ac(0x253),ac(0x1b2),ac(0x11c),'cell','crosshair',ac(0x178),ac(0x1d0),ac(0x218),ac(0x22e),ac(0x142),ac(0x2b7),ac(0x29d),'grab',ac(0x25a),ac(0x1cf),ac(0x187),'ne-resize',ac(0x1bd),ac(0x14f),ac(0x26e),ac(0x127),ac(0x295),ac(0x2c1),'ns-resize',ac(0x2c4),ac(0x210),ac(0x17a),ac(0x139),ac(0x287),ac(0x1fe),'zoom-out',ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':[...l,ac(0x12a),'g','a',ac(0x226)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x2cc),'displayName':'#direction','presentationAttributeName':ac(0x2cc),'initialValue':ac(0x27a),'values':[{'type':ac(0x185),'tokens':[ac(0x27a),ac(0x1d4),ac(0x1f2),'initial','unset']}],'appliesTo':[ac(0x178),'textPath',ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x216),'displayName':'#display','presentationAttributeName':ac(0x216),'initialValue':'inline','values':[{'type':'token','tokens':['none',ac(0x179),ac(0x1e2),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...l,'textPath',ac(0x177),ac(0x12a),'g','a',ac(0x226)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x263),'displayName':'#dominant-baseline','presentationAttributeName':ac(0x263),'initialValue':ac(0x250),'values':[{'type':ac(0x185),'tokens':[ac(0x250),ac(0x246),'no-change','reset-size',ac(0x1d9),'alphabetic',ac(0x244),ac(0x206),ac(0x251),ac(0x252),ac(0x111),'text-before-edge',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'fill','displayName':ac(0x196),'presentationAttributeName':ac(0x1f5),'initialValue':ac(0x24f),'values':[{'type':ac(0x1a7)},{'type':ac(0x16b)},{'type':ac(0x185),'tokens':[ac(0x19c),ac(0x27d),'inherit','initial',ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear','spline','paced']},{'name':'fill-opacity','displayName':'#fill-opacity','presentationAttributeName':'fill-opacity','initialValue':'1','values':[{'type':ac(0x13a)},{'type':ac(0x233)},{'type':'token','tokens':[ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':ac(0x1b7),'displayName':ac(0x13f),'presentationAttributeName':'fill-rule','initialValue':'nonzero','values':[{'type':'token','tokens':['nonzero',ac(0x123),ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x152),'displayName':'#filter','presentationAttributeName':ac(0x152),'initialValue':ac(0x19c),'values':[{'type':'filter-function-list'},{'type':ac(0x185),'tokens':[ac(0x19c),ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':[...l,ac(0x2d1),ac(0x177),'g','a','svg',ac(0x226)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'flood-color','displayName':ac(0x201),'presentationAttributeName':'flood-color','initialValue':ac(0x24f),'values':[{'type':ac(0x1a7)},{'type':ac(0x185),'tokens':['currentColor',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x15c)],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear',ac(0x279),ac(0x2b6)]},{'name':'flood-opacity','displayName':ac(0x28c),'presentationAttributeName':'flood-opacity','initialValue':'1','values':[{'type':'number','min':0x0},{'type':ac(0x233),'min':0x0},{'type':'token','tokens':[ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x15c)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ac(0x145),'spline',ac(0x2b6)]},{'name':ac(0x242),'displayName':ac(0x204),'presentationAttributeName':ac(0x242),'initialValue':null,'values':[{'type':ac(0x242)},{'type':ac(0x185),'tokens':[ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x286),'displayName':'#font-family','presentationAttributeName':ac(0x286),'initialValue':null,'values':[{'type':ac(0x286)},{'type':'token','tokens':[ac(0x272),'fantasy',ac(0x18b),ac(0x162),ac(0x230),'system-ui',ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-size','displayName':'#font-size','presentationAttributeName':'font-size','initialValue':ac(0x28d),'values':[{'type':ac(0x185),'tokens':[ac(0x12e),ac(0x1f8),ac(0x2a0),ac(0x28d),'large',ac(0x288),ac(0x2a2),ac(0x117),ac(0x249),ac(0x1f2),ac(0x228),ac(0x247)]},{'type':ac(0x13a),'min':0x0},{'type':ac(0x233),'min':0x0},{'type':ac(0x1ce),'min':0x0}],'appliesTo':[ac(0x178),'textPath','tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':'font-stretch','displayName':'#font-stretch','presentationAttributeName':ac(0x271),'initialValue':'normal','values':[{'type':'token','tokens':[ac(0x1f6),'wider',ac(0x2be),ac(0x2bf),ac(0x275),'condensed','semi-condensed',ac(0x27c),ac(0x1a0),'extra-expanded','ultra-expanded','inherit',ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),'textPath',ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x13b),'displayName':'#font-style','presentationAttributeName':'font-style','initialValue':ac(0x1f6),'values':[{'type':'token','tokens':[ac(0x1f6),ac(0x157),ac(0x294),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':['text',ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x2a9),'displayName':ac(0x238),'presentationAttributeName':ac(0x2a9),'initialValue':ac(0x1f6),'values':[{'type':'token','tokens':[ac(0x1f6),ac(0x180),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':['text',ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x18c),'displayName':'#font-weight','presentationAttributeName':ac(0x18c),'initialValue':ac(0x1f6),'values':[{'type':ac(0x13a)},{'type':ac(0x185),'tokens':['normal',ac(0x2ae),ac(0x1ff),'lighter',ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[ac(0x178),ac(0x2d1),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'image-rendering','displayName':ac(0x2c3),'presentationAttributeName':ac(0x15d),'initialValue':ac(0x250),'values':[{'type':ac(0x185),'tokens':[ac(0x250),'pixelated',ac(0x17b),ac(0x1f2),ac(0x228),'unset']}],'appliesTo':['image'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'isolation','displayName':ac(0x19e),'presentationAttributeName':null,'initialValue':'auto','values':[{'type':ac(0x185),'tokens':[ac(0x2aa),'auto','inherit',ac(0x228),ac(0x247)]}],'appliesTo':[...l,'svg','g','a','use','symbol',ac(0x1e6),ac(0x2d1),ac(0x177)],'inheritable':!0x1,'animatable':!0x1},{'name':ac(0x234),'displayName':ac(0x248),'presentationAttributeName':ac(0x234),'initialValue':ac(0x1f6),'values':[{'type':'number'},{'type':ac(0x1ce)},{'type':ac(0x185),'tokens':[ac(0x1f6),'inherit','initial','unset']}],'appliesTo':[ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ac(0x279),ac(0x2b6)]},{'name':'lighting-color','displayName':ac(0x121),'presentationAttributeName':ac(0x136),'initialValue':ac(0x146),'values':[{'type':'color'},{'type':ac(0x185),'tokens':[ac(0x27d),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x17e),ac(0x1c5)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':ac(0x144),'displayName':'#line-height','presentationAttributeName':ac(0x144),'initialValue':ac(0x1f6),'values':[{'type':'number','min':0x0},{'type':ac(0x233),'min':0x0},{'type':ac(0x1ce),'min':0x0},{'type':ac(0x185),'tokens':['normal',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':['text',ac(0x177),ac(0x2d1),ac(0x273)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),'paced']},{'name':ac(0x1e6),'displayName':'#marker','presentationAttributeName':ac(0x1e6),'initialValue':'none','values':[{'type':ac(0x16b)},{'type':'token','tokens':[ac(0x19c),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...a],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x1c1),'displayName':ac(0x28e),'presentationAttributeName':ac(0x1c1),'initialValue':ac(0x19c),'values':[{'type':ac(0x16b)},{'type':ac(0x185),'tokens':[ac(0x19c),ac(0x1f2),'initial','unset']}],'appliesTo':[...a],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'marker-mid','displayName':'#mid-marker','presentationAttributeName':'marker-mid','initialValue':'none','values':[{'type':ac(0x16b)},{'type':'token','tokens':['none',ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[...a],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x15e),'displayName':ac(0x1f4),'presentationAttributeName':ac(0x15e),'initialValue':'none','values':[{'type':'url'},{'type':'token','tokens':[ac(0x19c),'inherit',ac(0x228),'unset']}],'appliesTo':[...a],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'mask','displayName':ac(0x27b),'presentationAttributeName':'mask','initialValue':ac(0x19c),'values':[{'type':ac(0x16b)},{'type':ac(0x185),'tokens':['none',ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[...l,'g','a',ac(0x12a),ac(0x226)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x21f),'displayName':'#blend-mode','presentationAttributeName':null,'initialValue':ac(0x1f6),'values':[{'type':ac(0x185),'tokens':[ac(0x1f6),ac(0x1c0),'screen',ac(0x254),ac(0x2ca),ac(0x14a),'color-dodge',ac(0x26f),ac(0x172),'soft-light',ac(0x12c),ac(0x298),ac(0x245),'saturation',ac(0x1a7),ac(0x11e),ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[...l,ac(0x12a),'g','a',ac(0x226),'symbol',ac(0x1e6),ac(0x2d1),ac(0x177)],'inheritable':!0x1,'animatable':!0x1},{'name':ac(0x11f),'displayName':'#opacity','presentationAttributeName':ac(0x11f),'initialValue':'1','values':[{'type':ac(0x13a)},{'type':'token','tokens':[ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[...l,ac(0x12a),'g','a','use',ac(0x1e3),ac(0x1e6),ac(0x2d1),ac(0x177)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':'overflow','displayName':'#overflow','presentationAttributeName':ac(0x21c),'initialValue':ac(0x1ae),'values':[{'type':ac(0x185),'tokens':['visible','hidden',ac(0x14b),ac(0x250),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x12a),ac(0x1e3),'pattern',ac(0x1e6),'image'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'paint-order','displayName':ac(0x22c),'presentationAttributeName':null,'initialValue':ac(0x1f6),'values':[{'type':ac(0x185),'tokens':[ac(0x1f6)]},{'type':'token-list','tokens':['fill',ac(0x1dd),ac(0x1ed)]}],'inheritable':!0x0,'appliesTo':[...s],'animatable':!0x1},{'name':ac(0x1ac),'displayName':'#pointer-events','presentationAttributeName':'pointer-events','initialValue':'auto','values':[{'type':'token','tokens':['bounding-box',ac(0x1c8),ac(0x1e4),ac(0x1b5),ac(0x1ae),'painted','fill',ac(0x1dd),ac(0x2c9),ac(0x19c),ac(0x1f2),ac(0x228),'unset']}],'inheritable':!0x0,'appliesTo':[...l,'svg','g','a','use'],'animatable':!0x0,'interpolation':[]},{'name':ac(0x181),'displayName':ac(0x150),'presentationAttributeName':ac(0x181),'initialValue':ac(0x250),'values':[{'type':'token','tokens':[ac(0x250),ac(0x176),ac(0x171),'geometricPrecision',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...a],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x28a),'displayName':'#stop-color','presentationAttributeName':ac(0x28a),'initialValue':ac(0x24f),'values':[{'type':ac(0x1a7)},{'type':'token','tokens':['currentColor',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x1fc)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ac(0x145),'spline','paced']},{'name':'stop-opacity','displayName':ac(0x2c0),'presentationAttributeName':ac(0x20b),'initialValue':'1','values':[{'type':ac(0x13a)},{'type':ac(0x233)},{'type':ac(0x185),'tokens':[ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':['stop'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':ac(0x1dd),'displayName':'#stroke','presentationAttributeName':ac(0x1dd),'initialValue':'none','values':[{'type':ac(0x1a7)},{'type':ac(0x16b)},{'type':ac(0x185),'tokens':[ac(0x19c),'currentColor','inherit',ac(0x228),ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':ac(0x1be),'displayName':ac(0x1ec),'presentationAttributeName':ac(0x1be),'initialValue':ac(0x19c),'values':[{'type':ac(0x19d)},{'type':ac(0x185),'tokens':['none',ac(0x1f2),'initial','unset']}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear','spline']},{'name':ac(0x223),'displayName':'#stroke-dash-offset','presentationAttributeName':'stroke-dashoffset','initialValue':'0','values':[{'type':'number'},{'type':ac(0x233)},{'type':ac(0x1ce)},{'type':'token','tokens':[ac(0x1f2),'initial',ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ac(0x279),ac(0x2b6)]},{'name':ac(0x22b),'displayName':ac(0x293),'presentationAttributeName':ac(0x22b),'initialValue':ac(0x1c9),'values':[{'type':'token','tokens':[ac(0x1c9),ac(0x265),ac(0x153),ac(0x1f2),'initial','unset']}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'stroke-linejoin','displayName':ac(0x1f7),'presentationAttributeName':'stroke-linejoin','initialValue':ac(0x274),'values':[{'type':ac(0x185),'tokens':['miter',ac(0x265),'bevel',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x1b9),'displayName':ac(0x156),'presentationAttributeName':ac(0x1b9),'initialValue':'4','values':[{'type':ac(0x13a),'min':0x1},{'type':'token','tokens':['inherit',ac(0x228),ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),'spline',ac(0x2b6)]},{'name':'stroke-opacity','displayName':'#stroke-opacity','presentationAttributeName':ac(0x1a9),'initialValue':'1','values':[{'type':ac(0x13a)},{'type':ac(0x233)},{'type':ac(0x185),'tokens':['inherit',ac(0x228),ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':ac(0x284),'displayName':ac(0x1ab),'presentationAttributeName':'stroke-width','initialValue':'1','values':[{'type':'number'},{'type':ac(0x233)},{'type':ac(0x1ce)},{'type':'token','tokens':[ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...s],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',ac(0x279),ac(0x2b6)]},{'name':'text-anchor','displayName':ac(0x2b2),'presentationAttributeName':'text-anchor','initialValue':ac(0x205),'values':[{'type':'token','tokens':[ac(0x205),'middle',ac(0x2cb),ac(0x1f2),'initial','unset']}],'appliesTo':[ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'text-decoration','displayName':ac(0x268),'presentationAttributeName':'text-decoration','initialValue':ac(0x19c),'values':[{'type':ac(0x15a),'tokens':[ac(0x163),'overline',ac(0x22f)]},{'type':ac(0x185),'tokens':[ac(0x19c),'inherit',ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x2d1),'tspan'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x1d8),'displayName':'#text-rendering','presentationAttributeName':ac(0x1d8),'initialValue':'auto','values':[{'type':'token','tokens':[ac(0x250),ac(0x176),ac(0x237),'geometricPrecision',ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x192),'displayName':ac(0x267),'presentationAttributeName':null,'initialValue':'none','values':[{'type':ac(0x185),'tokens':['capitalize',ac(0x20a),ac(0x1a8),ac(0x19c),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x1},{'name':ac(0x18d),'displayName':'#transform','presentationAttributeName':ac(0x18d),'initialValue':'none','values':[{'type':ac(0x2cf)},{'type':ac(0x185),'tokens':[ac(0x19c)]}],'appliesTo':[ac(0x2d0),'ellipse',ac(0x149),ac(0x1db),ac(0x1d5),ac(0x1e9),ac(0x23d),ac(0x122),'text',ac(0x177),ac(0x226),'a','g',ac(0x12a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear',ac(0x279)]},{'name':'transform-box','displayName':ac(0x25d),'presentationAttributeName':null,'initialValue':ac(0x191),'values':[{'type':ac(0x185),'tokens':[ac(0x2b1),ac(0x23b),ac(0x119),ac(0x137),ac(0x191)]}],'appliesTo':[ac(0x2d0),ac(0x290),'line',ac(0x1db),ac(0x1d5),ac(0x1e9),ac(0x23d),'image',ac(0x178),ac(0x177),ac(0x226),'a','g',ac(0x12a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x208),'displayName':ac(0x2a7),'presentationAttributeName':'transform-origin','initialValue':ac(0x29e),'values':[{'type':ac(0x185),'tokens':[ac(0x154),ac(0x194),ac(0x25f),ac(0x11b),'bottom']},{'type':ac(0x1ce)}],'appliesTo':[ac(0x2d0),'ellipse',ac(0x149),ac(0x1db),'polygon',ac(0x1e9),ac(0x23d),ac(0x122),ac(0x178),ac(0x177),ac(0x226),'a','g',ac(0x12a)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x255),'displayName':ac(0x174),'presentationAttributeName':'unicode-bidi','initialValue':ac(0x1f6),'values':[{'type':'token','tokens':[ac(0x1f6),ac(0x289),ac(0x2b0),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),'textPath',ac(0x177)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'vector-effect','displayName':ac(0x276),'presentationAttributeName':ac(0x164),'initialValue':ac(0x19c),'values':[{'type':ac(0x185),'tokens':['non-scaling-stroke','none','inherit','initial','unset']}],'appliesTo':[...l,ac(0x226)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':ac(0x20d),'displayName':'#visibility','presentationAttributeName':'visibility','initialValue':'visible','values':[{'type':ac(0x185),'tokens':['visible',ac(0x124),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[...l,ac(0x178),ac(0x2d1),ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'word-spacing','displayName':ac(0x18a),'presentationAttributeName':ac(0x278),'initialValue':ac(0x1f6),'values':[{'type':ac(0x13a)},{'type':ac(0x1ce)},{'type':ac(0x185),'tokens':[ac(0x1f6),ac(0x1f2),ac(0x228),'unset']}],'appliesTo':[ac(0x178),ac(0x2d1),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[ac(0x145),ac(0x279),ac(0x2b6)]},{'name':ac(0x16a),'displayName':'#white-space','presentationAttributeName':'white-space','initialValue':'normal','values':[{'type':ac(0x185),'tokens':['normal',ac(0x2cd),ac(0x1f9),'pre-wrap',ac(0x14c),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),'textPath',ac(0x177)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':ac(0x2b4),'displayName':ac(0x258),'initialValue':'auto','values':[{'type':'token','tokens':[ac(0x250),'content','mix-blend-mode',ac(0x152),ac(0x11f),ac(0x18d)]}],'appliesTo':[ac(0x23d),ac(0x2d0),'ellipse',ac(0x149),ac(0x1db),ac(0x1d5),ac(0x1e9),'image',ac(0x178),'tspan','use',ac(0x12a),'a','g',ac(0x155)],'inheritable':!0x0,'animatable':!0x1},{'name':ac(0x135),'displayName':ac(0x215),'presentationAttributeName':ac(0x135),'initialValue':ac(0x202),'values':[{'type':ac(0x185),'tokens':[ac(0x202),ac(0x2a3),ac(0x243),ac(0x1f2),ac(0x228),ac(0x247)]}],'appliesTo':[ac(0x178),ac(0x177),ac(0x2d1)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]}][ac(0x190)](w=>w[ac(0x291)])[ac(0x152)](w=>w);const r={'arabic':ac(0x120),'bengali':'U+964-965,\x20U+981-9FB,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','cyrillic':ac(0x165),'cyrillic-ext':ac(0x21a),'devanagari':ac(0x219),'greek':'U+370-3FF','greek-ext':ac(0x299),'gujarati':'U+964-965,\x20U+A80-AFF,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+A830-A839','gurmukhi':ac(0x22d),'hebrew':ac(0x2b8),'kannada':'U+964-965,\x20U+C82-CF2,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','khmer':'U+1780-17FF,\x20U+200C,\x20U+25CC','latin':'U+0-FF,\x20U+131,\x20U+152-153,\x20U+2BB-2BC,\x20U+2C6,\x20U+2DA,\x20U+2DC,\x20U+2000-206F,\x20U+2074,\x20U+20AC,\x20U+2122,\x20U+2191,\x20U+2193,\x20U+2212,\x20U+2215,\x20U+FEFF,\x20U+FFFD','latin-ext':ac(0x1cb),'malayalam':ac(0x1c6),'myanmar':ac(0x24e),'oriya':'U+964-965,\x20U+B01-B77,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','sinhala':ac(0x207),'tamil':ac(0x239),'thai':ac(0x221),'telugu':ac(0x11d),'tibetan':ac(0x1a3),'vietnamese':'U+102-103,\x20U+110-111,\x20U+128-129,\x20U+168-169,\x20U+1A0-1A1,\x20U+1AF-1B0,\x20U+1EA0-1EF9,\x20U+20AB'};let p=document[ac(0x2a5)](ac(0x24a)),m=(w,...x)=>{const ad=ac;let z=[];for(let C=0x0;C<w[ad(0x1ce)];C+=0x1)z['push'](w[C]),void 0x0!==x[C]&&z[ad(0x259)](x[C]);let A=z['join']('');p[ad(0x1c3)]=A;let B=document[ad(0x2a1)](p[ad(0x20c)],!0x0);return 0x1===B['children'][ad(0x1ce)]?B['firstElementChild']:B;},u=(w,...x)=>{const ae=ac;let z=[];for(let C=0x0;C<w['length'];C+=0x1)z[ae(0x259)](w[C]),void 0x0!==x[C]&&z[ae(0x259)](x[C]);let A=z[ae(0x213)](''),B=new CSSStyleSheet();return B[ae(0x1e8)](A),B;};function g(){const aJ=['direction','pre','https://fonts.google.com/specimen/','transform-list','circle','textPath','context-menu','refresh','feDisplacementMap','text-after-edge','#custom-prefix-input','getFamilyWeights','bx-adduniqueidsgenerator:objects','name','color-interpolation','larger','600','fill-box','alignment-baseline','top','wait\x20','U+951-952,\x20U+964-965,\x20U+C00-C7F,\x20U+1CDA,\x20U+200C-200D,\x20U+25CC','luminosity','opacity','U+600-6FF,\x20U+200C-200E,\x20U+2010-2011,\x20U+204F,\x20U+2E41,\x20U+FB50-FDFF,\x20U+FE80-FEFC','#lighting-color','image','evenodd','hidden','feComposite','feMerge','sw-resize','https','popularity','svg','dateRank','difference','subsets','xx-small','queryLocalFonts','nonzero','query','click','setCustomValidity','define','writing-mode','lighting-color','stroke-box','count','row-resize','number','font-style','getLocalFontsMetadata','substring','FONT_FACE_RULE','#fill-rule','feColorMatrix','sort','move','slice','line-height','linear','#fff','split','tabindex','line','lighten','scroll','pre-line','constructor','find','s-resize','#shape-rendering','getRootNode','filter','square','left','foreignObject','#stroke-miter-limit','italic','where','selectedObjectElements','token-list','userAgent','feFlood','image-rendering','marker-end','equals','board','trending','sans-serif','underline','vector-effect','U+400-45F,\x20U+490-491,\x20U+4B0-4B1,\x20U+2116','toArray','then','#prefix-buttons','bx-adduniqueidsgenerator:customPrefix','white-space','url','selectedelementschange','Chrome','prompt','apply','status','crispEdges','hard-light','wght','#unicode-bidi','Roboto','optimizeSpeed','tspan','text','inline','col-resize','crisp-edges','faces','text-bottom','feDiffuseLighting','documents','small-caps','shape-rendering','urls','clip-rule','subset','token','local-fonts','n-resize','feDropShadow','setConfig','#word-spacing','monospace','font-weight','transform','bulkPut','Safari/','map','view-box','text-transform','baseline','center','[id]','#fill','disabled','1913436EczpEe','family','color-interpolation-filters','checkpoint','none','dasharray','#isolation','#cursor','expanded','body','baseline-shift','U+F00-FFF,\x20U+200C-200D,\x20U+25CC','bx-adduniqueidsgenerator:prefix','Mac','closest','color','lowercase','stroke-opacity','state','#stroke-width','pointer-events','no-permission','visible','object-','export','custom','progress','148HArRGR','invalid-prefix','visibleStroke','popularityRank','fill-rule','#color-interpolation','stroke-miterlimit','trim','feMorphology','type','nw-resize','stroke-dasharray','1572280oRTuDj','multiply','marker-start','googleFonts','innerHTML','getConfig','feSpecularLighting','U+307,\x20U+323,\x20U+964-965,\x20U+D02-D7F,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','search','visiblePainted','butt','https://fonts.googleapis.com/css?','U+100-24F,\x20U+259,\x20U+1E00-1EFF,\x20U+2020,\x20U+20A0-20AB,\x20U+20AD-20CF,\x20U+2113,\x20U+2C60-2C7F,\x20U+A720-A7FF','cssRules','version','length','e-resize','vertical-text','ultrabold','clip-path','querySelector','rtl','polygon','linearRGB','querySelectorAll','text-rendering','ideographic','beforevalidate','path','preventDefault','stroke','workspacemutation','hasAttribute','feComponentTransfer','hairline','block','symbol','visibleFill','frameElement','marker','520EwiJoN','replaceSync','polyline','sub','removeEventListener','#stroke-dash-array','markers','extends','900','https://fonts.googleapis.com/css2?','getFamilyDescriptor','inherit','host','#end-marker','fill','normal','#stroke-line-join','x-small','nowrap','includes','443','stop','700','zoom-in','bolder','change','#flood-color','horizontal-tb','extralight','#font','start','mathematical','U+964-965,\x20U+D82-DF4,\x20U+200C-200D,\x20U+25CC','transform-origin','trendingRank','uppercase','stop-opacity','content','visibility','feBlend','localName','nwse-resize','stores','platform','join','iPhone','#writing-mode','display','#footer','alias','U+900-97F,\x20U+1CD0-1CF6,\x20U+1CF8-1CF9,\x20U+200C-200D,\x20U+20A8,\x20U+20B9,\x20U+25CC,\x20U+A830-A839,\x20U+A8E0-A8FB','U+460-52F,\x20U+1C80-1C88,\x20U+20B4,\x20U+2DE0-2DFF,\x20U+A640-A69F,\x20U+FE2E-FE2F','658xlMSzg','overflow','sRGB','app','mix-blend-mode','granted','U+E01-E5B,\x20U+200C-200D,\x20U+25CC','_shadowStyleSheet','stroke-dashoffset','adoptedStyleSheets','text-top','use','style','initial','#alignment-baseline','init','stroke-linecap','#paint-order','U+964-965,\x20U+A01-A75,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+262C,\x20U+A830-A839','copy','line-through','serif','cachedTime','500','percentage','letter-spacing','currentWorkspace','value','optimizeLegibility','#font-variant','U+964-965,\x20U+B82-BFA,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','#clip-path','border-box','cursor','rect','append','extrabold','undoManager','cache','font','vertical-rl','hanging','hue','use-script','unset','#letter-spacing','smaller','template','getAttribute','attachShadow','radialGradient','U+1000-109F,\x20U+200C-200D,\x20U+25CC','#000','auto','central','middle','pointer','overlay','unicode-bidi','getCacheSize','reportValidity','#will-change','push','grabbing','70485FlRqCM','ultralight','#transform-box','300','right','http://www.w3.org/2000/svg','license','date','dominant-baseline','searchParams','round','alphabetical','#text-transform','#text-decoration','6228JfAZQP','selected','setAttribute','92f3tewguhsn8o0qp.a1.typesense.net','no-api','se-resize','color-burn','bottom','font-stretch','cursive','text\x20a','miter','extra-condensed','#vector-effect','1681092CsnNKV','word-spacing','spline','ltr','#mask','semi-expanded','currentColor','now','connectedCallback','toLowerCase','closed','disconnectedCallback','feGaussianBlur','stroke-width','get','font-family','all-scroll','x-large','embed','stop-color','light','#flood-opacity','medium','#start-marker','feConvolveMatrix','ellipse','presentationAttributeName','200','#stroke-line-cap','oblique','w-resize','Client','toggle','exclusion','U+1F00-1FFF','700italic','#objects-buttons','parse','not-allowed','0\x200','81720FOasWu','small','importNode','xx-large','vertical-lr','demibold','createElement','bx-adduniqueidsgenerator','#transform-origin','getFontFaceRulesFromUrl','font-variant','isolate','thin','addEventListener','heavy','bold','563971usGQuA','bidi-override','content-box','#text-anchor','message','will-change','clear','paced','no-drop','U+590-5FF,\x20U+20AA,\x20U+25CC,\x20U+FB1D-FB4F','#main','#color','400','semibold','indexOf','narrower','ultra-condensed','#stop-opacity','ew-resize','#clip-rule','#image-rendering','nesw-resize','#add-button','createElementNS','group-','generateUniqueID','all','darken','end'];g=function(){return aJ;};return g();}new class{#e;#t=null;#i={};constructor(){const af=ac;this.#e=new q('GoogleFontsManager'),this.#e[af(0x1cd)](0x1)[af(0x211)]({'cache':af(0x199)});}[ac(0x1c7)](w='',x=ac(0x266),z=ac(0x2c9),A='all',B=ac(0x2c9)){return new Promise(async C=>{const ag=j;await this.#a();let D=[],E=this.#e[ag(0x241)];''!==w[ag(0x1ba)]()&&(E=E[ag(0x152)](F=>F[ag(0x199)][ag(0x280)]()[ag(0x1fa)](w[ag(0x1ba)]()[ag(0x280)]()))),ag(0x2c9)!==z&&(E=E[ag(0x152)](F=>F['category']===z)),ag(0x2c9)!==A&&(E=E[ag(0x152)](F=>F[ag(0x12d)][ag(0x1fa)](A))),D=await E[ag(0x166)](),ag(0x262)===x?D=D[ag(0x141)]((F,G)=>F[ag(0x12b)]>G[ag(0x12b)]?-0x1:0x1):ag(0x129)===x?D=D[ag(0x141)]((F,G)=>F['popularityRank']>G[ag(0x1b6)]?-0x1:0x1):ag(0x161)===x&&(D=D[ag(0x141)]((F,G)=>F[ag(0x209)]>G[ag(0x209)]?-0x1:0x1)),'all'!==B&&(D=D[ag(0x143)](0x28*B,0x28*(B+0x1))),C(D);});}[ac(0x2d3)](){return new Promise(async(w,x)=>{const ah=j;let z;null===this.#t&&(this.#t=new v[(ah(0x296))]({'apiKey':'ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL','connectionTimeoutSeconds':0x5,'nodes':[{'host':ah(0x26c),'port':ah(0x1fb),'protocol':ah(0x128)}]}));try{z=await this.#t['collections'](ah(0x1c2))[ah(0x17f)]()[ah(0x1b0)]();}catch(B){return x(B);}let A=z['split']('\x0a')['map'](C=>JSON[ah(0x29c)](C))[ah(0x190)](C=>({'family':C[ah(0x199)],'faces':C[ah(0x17c)],'category':C['category'],'subsets':C[ah(0x12d)],'license':C[ah(0x261)],'thumbnail':C['thumbnail'],'urls':C['urls'],'dateRank':C[ah(0x12b)],'popularityRank':C[ah(0x1b6)],'trendingRank':C[ah(0x209)],'pageURL':ah(0x2ce)+C['id'],'cachedTime':Date[ah(0x27e)]()}));await this.#e[ah(0x241)][ah(0x2b5)](),await this.#e[ah(0x241)][ah(0x18e)](A),w();});}[ac(0x2a8)](w,x=!0x1){return new Promise(async z=>{const ai=j;let A=[];if(await this.#a(),x){let B=await this.#n(w);for(let C of B['cssRules'])C[ai(0x1bc)]===CSSRule[ai(0x13e)]&&A[ai(0x259)](C);}else{let D=[],E=new URL(w),F=E[ai(0x264)]['get'](ai(0x216))||ai(0x250);if(w['startsWith'](ai(0x1ca))){let G=E[ai(0x264)][ai(0x285)](ai(0x199));G[ai(0x147)]('|'),E[ai(0x264)][ai(0x285)](ai(0x184));let H={'regular':ai(0x2bb),'bold':'700','italic':'400italic','bolditalic':ai(0x29a),'r':ai(0x2bb),'b':ai(0x1fd),'i':'400italic'};for(let I of G[ai(0x147)]('|')){let J=[],[K,L]=I[ai(0x147)](':');for(let M of L[ai(0x147)](','))M=H[M]||M,J[ai(0x259)](M);D[ai(0x259)]({'family':K,'faceNames':J});}}else{if(w['startsWith'](ai(0x1f0))){let N=E[ai(0x264)]['getAll']('family');for(let O of N){let [P,Q]=O[ai(0x147)](':');if(void 0x0===Q)D[ai(0x259)]({'family':P,'faceNames':[ai(0x2bb)]});else{let R=[],[S,T]=Q[ai(0x147)]('@'),U=S['split'](','),V=T[ai(0x147)](';');for(let W of V){let X={'wght':ai(0x2bb),'ital':'0'};for(let Y=0x0;Y<U[ai(0x1ce)];Y+=0x1){X[U[Y]]=W['split'](',')[Y];}R[ai(0x259)](X[ai(0x173)]+('1'===X['ital']?ai(0x157):''));}D[ai(0x259)]({'family':P,'faceNames':R});}}}}{let Z=this.#e[ai(0x241)];for(let {family:a0,faceNames:a1}of D){let a2=await Z[ai(0x285)]({'family':a0});if(a2)for(let a3 of a1){let a4=a2[ai(0x182)][a3];if(a4){let a5=a3['substring'](0x0,0x3),a6=a3['includes'](ai(0x157))?ai(0x157):ai(0x1f6),a7=[];for(let aa of a2[ai(0x12d)])r[aa]&&a7[ai(0x259)](r[aa]);0x0===a7[ai(0x1ce)]&&(a7='U+0-10FFFF');let a8=a7[ai(0x213)](','),a9=u`
+import k from "/libs/xel/xel.js";
+import "/libs/color/color.js";
+import "/libs/css-parser/css-parser.js";
+import "/libs/paper/paper.js";
+import "/libs/seed-random/seed-random.js";
+import "/libs/dom-purify/dom-purify.js";
+import q from "/libs/dexie/dexie.js";
+import v from "/libs/typesense/typesense.js";
+import "/libs/pako/pako.js";
+const a = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
+const n = ["text", "textPath", "tspan"];
+const l = [...a, ...n, "foreignObject", "image"];
+const o = [...a, "text", "image", "g", "a", "svg", "use", "foreignObject"];
+const s = [...a, ...n];
+[
+  {
+    name: "alignment-baseline",
+    displayName: "#alignment-baseline",
+    presentationAttributeName: "alignment-baseline",
+    initialValue: "baseline",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "baseline",
+          "text-bottom",
+          "alphabetic",
+          "ideographic",
+          "middle",
+          "central",
+          "mathematical",
+          "text-top",
+          "bottom",
+          "center",
+          "top",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "baseline-shift",
+    displayName: "#baseline-shift",
+    presentationAttributeName: "baseline-shift",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["sub", "super", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-path",
+    displayName: "#clip-path",
+    presentationAttributeName: "clip-path",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "fill-box",
+          "stroke-box",
+          "view-box",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-rule",
+    displayName: "#clip-rule",
+    presentationAttributeName: "clip-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color",
+    displayName: "#color",
+    presentationAttributeName: "color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "color-interpolation",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation",
+    initialValue: "sRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "linearGradient",
+      "radialGradient",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color-interpolation-filters",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation-filters",
+    initialValue: "linearRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      "feBlend",
+      "feColorMatrix",
+      "feComponentTransfer",
+      "feComposite",
+      "feConvolveMatrix",
+      "feDiffuseLighting",
+      "feDisplacementMap",
+      "feDropShadow",
+      "feGaussianBlur",
+      "feMerge",
+      "feMorphology",
+      "feSpecularLighting",
+      "feTurbulence",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "cursor",
+    displayName: "#cursor",
+    presentationAttributeName: "cursor",
+    initialValue: "auto",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "context-menu",
+          "help",
+          "pointer",
+          "progress",
+          "wait ",
+          "cell",
+          "crosshair",
+          "text",
+          "vertical-text",
+          "alias",
+          "copy",
+          "move",
+          "no-drop",
+          "not-allowed",
+          "grab",
+          "grabbing",
+          "e-resize",
+          "n-resize",
+          "ne-resize",
+          "nw-resize",
+          "s-resize",
+          "se-resize",
+          "sw-resize",
+          "w-resize",
+          "ew-resize",
+          "ns-resize",
+          "nesw-resize",
+          "nwse-resize",
+          "col-resize",
+          "row-resize",
+          "all-scroll",
+          "zoom-in",
+          "zoom-out",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "direction",
+    displayName: "#direction",
+    presentationAttributeName: "direction",
+    initialValue: "ltr",
+    values: [
+      {
+        type: "token",
+        tokens: ["ltr", "rtl", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "display",
+    displayName: "#display",
+    presentationAttributeName: "display",
+    initialValue: "inline",
+    values: [
+      {
+        type: "token",
+        tokens: ["none", "inline", "block", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "textPath", "tspan", "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "dominant-baseline",
+    displayName: "#dominant-baseline",
+    presentationAttributeName: "dominant-baseline",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "use-script",
+          "no-change",
+          "reset-size",
+          "ideographic",
+          "alphabetic",
+          "hanging",
+          "mathematical",
+          "central",
+          "middle",
+          "text-after-edge",
+          "text-before-edge",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "fill",
+    displayName: "#fill",
+    presentationAttributeName: "fill",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-opacity",
+    displayName: "#fill-opacity",
+    presentationAttributeName: "fill-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-rule",
+    displayName: "#fill-rule",
+    presentationAttributeName: "fill-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "filter",
+    displayName: "#filter",
+    presentationAttributeName: "filter",
+    initialValue: "none",
+    values: [
+      {
+        type: "filter-function-list",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "textPath", "tspan", "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "flood-color",
+    displayName: "#flood-color",
+    presentationAttributeName: "flood-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "flood-opacity",
+    displayName: "#flood-opacity",
+    presentationAttributeName: "flood-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font",
+    displayName: "#font",
+    presentationAttributeName: "font",
+    initialValue: null,
+    values: [
+      {
+        type: "font",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-family",
+    displayName: "#font-family",
+    presentationAttributeName: "font-family",
+    initialValue: null,
+    values: [
+      {
+        type: "font-family",
+      },
+      {
+        type: "token",
+        tokens: [
+          "cursive",
+          "fantasy",
+          "monospace",
+          "sans-serif",
+          "serif",
+          "system-ui",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-size",
+    displayName: "#font-size",
+    presentationAttributeName: "font-size",
+    initialValue: "medium",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "xx-small",
+          "x-small",
+          "small",
+          "medium",
+          "large",
+          "x-large",
+          "xx-large",
+          "larger",
+          "smaller",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font-stretch",
+    displayName: "#font-stretch",
+    presentationAttributeName: "font-stretch",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "wider",
+          "narrower",
+          "ultra-condensed",
+          "extra-condensed",
+          "condensed",
+          "semi-condensed",
+          "semi-expanded",
+          "expanded",
+          "extra-expanded",
+          "ultra-expanded",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-style",
+    displayName: "#font-style",
+    presentationAttributeName: "font-style",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "italic", "oblique", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-variant",
+    displayName: "#font-variant",
+    presentationAttributeName: "font-variant",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "small-caps", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-weight",
+    displayName: "#font-weight",
+    presentationAttributeName: "font-weight",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "bold",
+          "bolder",
+          "lighter",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "image-rendering",
+    displayName: "#image-rendering",
+    presentationAttributeName: "image-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "pixelated",
+          "crisp-edges",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["image"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "isolation",
+    displayName: "#isolation",
+    presentationAttributeName: null,
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: ["isolate", "auto", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "letter-spacing",
+    displayName: "#letter-spacing",
+    presentationAttributeName: "letter-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "lighting-color",
+    displayName: "#lighting-color",
+    presentationAttributeName: "lighting-color",
+    initialValue: "#fff",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feDiffuseLighting", "feSpecularLighting"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "line-height",
+    displayName: "#line-height",
+    presentationAttributeName: "line-height",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "marker",
+    displayName: "#marker",
+    presentationAttributeName: "marker",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...a],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-start",
+    displayName: "#start-marker",
+    presentationAttributeName: "marker-start",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...a],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-mid",
+    displayName: "#mid-marker",
+    presentationAttributeName: "marker-mid",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...a],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-end",
+    displayName: "#end-marker",
+    presentationAttributeName: "marker-end",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...a],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mask",
+    displayName: "#mask",
+    presentationAttributeName: "mask",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mix-blend-mode",
+    displayName: "#blend-mode",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "multiply",
+          "screen",
+          "overlay",
+          "darken",
+          "lighten",
+          "color-dodge",
+          "color-burn",
+          "hard-light",
+          "soft-light",
+          "difference",
+          "exclusion",
+          "hue",
+          "saturation",
+          "color",
+          "luminosity",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "opacity",
+    displayName: "#opacity",
+    presentationAttributeName: "opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...l,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "overflow",
+    displayName: "#overflow",
+    presentationAttributeName: "overflow",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "visible",
+          "hidden",
+          "scroll",
+          "auto",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["svg", "symbol", "pattern", "marker", "image"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "paint-order",
+    displayName: "#paint-order",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal"],
+      },
+      {
+        type: "token-list",
+        tokens: ["fill", "stroke", "markers"],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...s],
+    animatable: false,
+  },
+  {
+    name: "pointer-events",
+    displayName: "#pointer-events",
+    presentationAttributeName: "pointer-events",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "bounding-box",
+          "visiblePainted",
+          "visibleFill",
+          "visibleStroke",
+          "visible",
+          "painted",
+          "fill",
+          "stroke",
+          "all",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...l, "svg", "g", "a", "use"],
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "shape-rendering",
+    displayName: "#shape-rendering",
+    presentationAttributeName: "shape-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "crispEdges",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...a],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stop-color",
+    displayName: "#stop-color",
+    presentationAttributeName: "stop-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stop-opacity",
+    displayName: "#stop-opacity",
+    presentationAttributeName: "stop-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke",
+    displayName: "#stroke",
+    presentationAttributeName: "stroke",
+    initialValue: "none",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-dasharray",
+    displayName: "#stroke-dash-array",
+    presentationAttributeName: "stroke-dasharray",
+    initialValue: "none",
+    values: [
+      {
+        type: "dasharray",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "stroke-dashoffset",
+    displayName: "#stroke-dash-offset",
+    presentationAttributeName: "stroke-dashoffset",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-linecap",
+    displayName: "#stroke-line-cap",
+    presentationAttributeName: "stroke-linecap",
+    initialValue: "butt",
+    values: [
+      {
+        type: "token",
+        tokens: ["butt", "round", "square", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-linejoin",
+    displayName: "#stroke-line-join",
+    presentationAttributeName: "stroke-linejoin",
+    initialValue: "miter",
+    values: [
+      {
+        type: "token",
+        tokens: ["miter", "round", "bevel", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-miterlimit",
+    displayName: "#stroke-miter-limit",
+    presentationAttributeName: "stroke-miterlimit",
+    initialValue: "4",
+    values: [
+      {
+        type: "number",
+        min: 1,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-opacity",
+    displayName: "#stroke-opacity",
+    presentationAttributeName: "stroke-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-width",
+    displayName: "#stroke-width",
+    presentationAttributeName: "stroke-width",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...s],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "text-anchor",
+    displayName: "#text-anchor",
+    presentationAttributeName: "text-anchor",
+    initialValue: "start",
+    values: [
+      {
+        type: "token",
+        tokens: ["start", "middle", "end", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-decoration",
+    displayName: "#text-decoration",
+    presentationAttributeName: "text-decoration",
+    initialValue: "none",
+    values: [
+      {
+        type: "token-list",
+        tokens: ["underline", "overline", "line-through"],
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-rendering",
+    displayName: "#text-rendering",
+    presentationAttributeName: "text-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "optimizeLegibility",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-transform",
+    displayName: "#text-transform",
+    presentationAttributeName: null,
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "capitalize",
+          "uppercase",
+          "lowercase",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "transform",
+    displayName: "#transform",
+    presentationAttributeName: "transform",
+    initialValue: "none",
+    values: [
+      {
+        type: "transform-list",
+      },
+      {
+        type: "token",
+        tokens: ["none"],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "transform-box",
+    displayName: "#transform-box",
+    presentationAttributeName: null,
+    initialValue: "view-box",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "content-box",
+          "border-box",
+          "fill-box",
+          "stroke-box",
+          "view-box",
+        ],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "transform-origin",
+    displayName: "#transform-origin",
+    presentationAttributeName: "transform-origin",
+    initialValue: "0 0",
+    values: [
+      {
+        type: "token",
+        tokens: ["left", "center", "right", "top", "bottom"],
+      },
+      {
+        type: "length",
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "unicode-bidi",
+    displayName: "#unicode-bidi",
+    presentationAttributeName: "unicode-bidi",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "embed",
+          "bidi-override",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "vector-effect",
+    displayName: "#vector-effect",
+    presentationAttributeName: "vector-effect",
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: ["non-scaling-stroke", "none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "visibility",
+    displayName: "#visibility",
+    presentationAttributeName: "visibility",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: ["visible", "hidden", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...l, "text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "word-spacing",
+    displayName: "#word-spacing",
+    presentationAttributeName: "word-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "white-space",
+    displayName: "#white-space",
+    presentationAttributeName: "white-space",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "pre",
+          "nowrap",
+          "pre-wrap",
+          "pre-line",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "will-change",
+    displayName: "#will-change",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "content",
+          "mix-blend-mode",
+          "filter",
+          "opacity",
+          "transform",
+        ],
+      },
+    ],
+    appliesTo: [
+      "rect",
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "svg",
+      "a",
+      "g",
+      "foreignObject",
+    ],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "writing-mode",
+    displayName: "#writing-mode",
+    presentationAttributeName: "writing-mode",
+    initialValue: "horizontal-tb",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "horizontal-tb",
+          "vertical-lr",
+          "vertical-rl",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+]
+  .map((w) => w.presentationAttributeName)
+  .filter((w) => w);
+const r = {
+  arabic:
+    "U+600-6FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC",
+  bengali: "U+964-965, U+981-9FB, U+200C-200D, U+20B9, U+25CC",
+  cyrillic: "U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+  "cyrillic-ext":
+    "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+  devanagari:
+    "U+900-97F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB",
+  greek: "U+370-3FF",
+  "greek-ext": "U+1F00-1FFF",
+  gujarati: "U+964-965, U+A80-AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839",
+  gurmukhi:
+    "U+964-965, U+A01-A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839",
+  hebrew: "U+590-5FF, U+20AA, U+25CC, U+FB1D-FB4F",
+  kannada: "U+964-965, U+C82-CF2, U+200C-200D, U+20B9, U+25CC",
+  khmer: "U+1780-17FF, U+200C, U+25CC",
+  latin:
+    "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+  "latin-ext":
+    "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+  malayalam: "U+307, U+323, U+964-965, U+D02-D7F, U+200C-200D, U+20B9, U+25CC",
+  myanmar: "U+1000-109F, U+200C-200D, U+25CC",
+  oriya: "U+964-965, U+B01-B77, U+200C-200D, U+20B9, U+25CC",
+  sinhala: "U+964-965, U+D82-DF4, U+200C-200D, U+25CC",
+  tamil: "U+964-965, U+B82-BFA, U+200C-200D, U+20B9, U+25CC",
+  thai: "U+E01-E5B, U+200C-200D, U+25CC",
+  telugu: "U+951-952, U+964-965, U+C00-C7F, U+1CDA, U+200C-200D, U+25CC",
+  tibetan: "U+F00-FFF, U+200C-200D, U+25CC",
+  vietnamese:
+    "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+};
+let p = document.createElement("template");
+let m = (w, ...x) => {
+  let z = [];
+  for (let C = 0; C < w.length; C += 1) {
+    z.push(w[C]);
+    if (x[C] !== undefined) {
+      z.push(x[C]);
+    }
+  }
+  let A = z.join("");
+  p.innerHTML = A;
+  let B = document.importNode(p.content, true);
+  if (B.children.length === 1) {
+    return B.firstElementChild;
+  } else {
+    return B;
+  }
+};
+let u = (w, ...x) => {
+  let z = [];
+  for (let C = 0; C < w.length; C += 1) {
+    z.push(w[C]);
+    if (x[C] !== undefined) {
+      z.push(x[C]);
+    }
+  }
+  let A = z.join("");
+  let B = new CSSStyleSheet();
+  B.replaceSync(A);
+  return B;
+};
+new (class {
+  #e;
+  #t = null;
+  #i = {};
+  constructor() {
+    this.#e = new q("GoogleFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+  }
+  search(w = "", x = "alphabetical", z = "all", A = "all", B = "all") {
+    return new Promise(async (C) => {
+      await this.#a();
+      let D = [];
+      let E = this.#e.cache;
+      if (w.trim() !== "") {
+        E = E.filter((F) =>
+          F.family.toLowerCase().includes(w.trim().toLowerCase())
+        );
+      }
+      if (z !== "all") {
+        E = E.filter((F) => F.category === z);
+      }
+      if (A !== "all") {
+        E = E.filter((F) => F.subsets.includes(A));
+      }
+      D = await E.toArray();
+      if (x === "date") {
+        D = D.sort((F, G) => (F.dateRank > G.dateRank ? -1 : 1));
+      } else if (x === "popularity") {
+        D = D.sort((F, G) => (F.popularityRank > G.popularityRank ? -1 : 1));
+      } else if (x === "trending") {
+        D = D.sort((F, G) => (F.trendingRank > G.trendingRank ? -1 : 1));
+      }
+      if (B !== "all") {
+        D = D.slice(B * 40, (B + 1) * 40);
+      }
+      C(D);
+    });
+  }
+  refresh() {
+    return new Promise(async (w, x) => {
+      let z;
+      if (this.#t === null) {
+        this.#t = new v.Client({
+          apiKey: "ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL",
+          connectionTimeoutSeconds: 5,
+          nodes: [
+            {
+              host: "92f3tewguhsn8o0qp.a1.typesense.net",
+              port: "443",
+              protocol: "https",
+            },
+          ],
+        });
+      }
+      try {
+        z = await this.#t.collections("googleFonts").documents().export();
+      } catch (B) {
+        return x(B);
+      }
+      let A = z
+        .split("\n")
+        .map((C) => JSON.parse(C))
+        .map((C) => ({
+          family: C.family,
+          faces: C.faces,
+          category: C.category,
+          subsets: C.subsets,
+          license: C.license,
+          thumbnail: C.thumbnail,
+          urls: C.urls,
+          dateRank: C.dateRank,
+          popularityRank: C.popularityRank,
+          trendingRank: C.trendingRank,
+          pageURL: "https://fonts.google.com/specimen/" + C.id,
+          cachedTime: Date.now(),
+        }));
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(A);
+      w();
+    });
+  }
+  getFontFaceRulesFromUrl(w, x = false) {
+    return new Promise(async (z) => {
+      let A = [];
+      await this.#a();
+      if (x) {
+        let B = await this.#n(w);
+        for (let C of B.cssRules) {
+          if (C.type === CSSRule.FONT_FACE_RULE) {
+            A.push(C);
+          }
+        }
+      } else {
+        let D = [];
+        let E = new URL(w);
+        let F = E.searchParams.get("display") || "auto";
+        if (w.startsWith("https://fonts.googleapis.com/css?")) {
+          let G = E.searchParams.get("family");
+          G.split("|");
+          E.searchParams.get("subset");
+          let H = {
+            regular: "400",
+            bold: "700",
+            italic: "400italic",
+            bolditalic: "700italic",
+            r: "400",
+            b: "700",
+            i: "400italic",
+          };
+          for (let I of G.split("|")) {
+            let J = [];
+            let [K, L] = I.split(":");
+            for (let M of L.split(",")) {
+              M = H[M] || M;
+              J.push(M);
+            }
+            D.push({
+              family: K,
+              faceNames: J,
+            });
+          }
+        } else if (w.startsWith("https://fonts.googleapis.com/css2?")) {
+          let N = E.searchParams.getAll("family");
+          for (let O of N) {
+            let [P, Q] = O.split(":");
+            if (Q === undefined) {
+              D.push({
+                family: P,
+                faceNames: ["400"],
+              });
+            } else {
+              let R = [];
+              let [S, T] = Q.split("@");
+              let U = S.split(",");
+              let V = T.split(";");
+              for (let W of V) {
+                let X = {
+                  wght: "400",
+                  ital: "0",
+                };
+                for (let Y = 0; Y < U.length; Y += 1) {
+                  X[U[Y]] = W.split(",")[Y];
+                }
+                R.push(X.wght + (X.ital === "1" ? "italic" : ""));
+              }
+              D.push({
+                family: P,
+                faceNames: R,
+              });
+            }
+          }
+        }
+        {
+          let Z = this.#e.cache;
+          for (let { family: a0, faceNames: a1 } of D) {
+            let a2 = await Z.get({
+              family: a0,
+            });
+            if (a2) {
+              for (let a3 of a1) {
+                let a4 = a2.urls[a3];
+                if (a4) {
+                  let a5 = a3.substring(0, 3);
+                  let a6 = a3.includes("italic") ? "italic" : "normal";
+                  let a7 = [];
+                  for (let aa of a2.subsets) {
+                    if (r[aa]) {
+                      a7.push(r[aa]);
+                    }
+                  }
+                  if (a7.length === 0) {
+                    a7 = "U+0-10FFFF";
+                  }
+                  let a8 = a7.join(",");
+                  let a9 = u`
                     @font-face {
                       font-family: "${a0}";
                       font-style: ${a6};
@@ -7,8 +1796,244 @@ const ac=j;(function(w,x){const ab=j,z=w();while(!![]){try{const A=parseInt(ab(0
                       font-unicode-range: ${a8};
                       src: url(${a4});
                     }
-                  `;A[ai(0x259)](a9[ai(0x1cc)][0x0]);}}}}}z(A);});}[ac(0x1f1)](w){return new Promise(async x=>{const aj=j;await this.#a(),x((await this.#e['cache'][aj(0x158)](aj(0x199))[aj(0x15f)](w)['toArray']())[0x0]||null);});}#n(w){return new Promise(async x=>{const ak=j;let z=null;if(this.#i[w])z=this.#i[w];else{let A=await fetch(w),B=await A[ak(0x178)]();z=new CSSStyleSheet(),z[ak(0x1e8)](B),this.#i[w]=z;}x(z);});}#a(){return new Promise(async w=>{const al=j;let x=await this.#e[al(0x241)][al(0x138)](),z=!0x0;if(x>0x0){let A=await this.#e['cache']['get'](al(0x175));if(A){let B=0x4d3f6400;z=Date['now']()-A[al(0x231)]>B;}}0x0!==x&&!0x0!==z||await this['refresh'](),w();});}}(),[ac(0x214),'iPad'][ac(0x1fa)](navigator[ac(0x212)])||navigator[ac(0x212)]['startsWith'](ac(0x1a5)),navigator[ac(0x15b)][ac(0x2bd)](ac(0x18f))>-0x1&&navigator['userAgent'][ac(0x2bd)](ac(0x16d)),null!==window[ac(0x1e5)]||document[ac(0x1a1)]['dataset'][ac(0x21e)];let h=(w,x,z)=>w[ac(0x147)](x)['join'](z),b=w=>{const am=ac;w=w[am(0x280)](),w=h(w,'\x20',''),w=h(w,'-','');let x=am(0x2bb);return(w=h(w,'_',''))[am(0x1fa)](am(0x2ab))||w['includes'](am(0x1e1))?x='100':w[am(0x1fa)](am(0x203))||w[am(0x1fa)](am(0x25c))?x=am(0x292):w[am(0x1fa)](am(0x28b))?x=am(0x25e):w[am(0x1fa)](am(0x28d))?x=am(0x232):w[am(0x1fa)](am(0x2bc))||w['includes'](am(0x2a4))?x=am(0x118):w[am(0x1fa)](am(0x23f))||w['includes'](am(0x1d1))?x='800':w[am(0x1fa)]('bold')?x='700':(w['includes']('black')||w[am(0x1fa)](am(0x2ad)))&&(x=am(0x1ef)),x;},d=w=>{const an=ac;w=w['toLowerCase'](),w=h(w,'\x20',''),w=h(w,'-','');let x=an(0x1f6);return(w=h(w,'_',''))['includes'](an(0x157))?x=an(0x157):w[an(0x1fa)](an(0x294))&&(x=an(0x294)),x;};new class extends EventTarget{#l=ac(0x22a);#o=[];#e;get['status'](){return this.#l;}constructor(){const ao=ac;super(),this.#e=new q('LocalFontsManager'),this.#e[ao(0x1cd)](0x1)[ao(0x211)]({'cache':ao(0x199)}),this.#e[ao(0x1cd)](0x2)['stores']({'cache':'family'})['upgrade'](w=>w[ao(0x241)][ao(0x2b5)]()),void 0x0===window[ao(0x12f)]?this.#l='no-api':navigator['permissions'][ao(0x131)]({'name':ao(0x186)})[ao(0x167)](w=>{const ap=ao;ap(0x220)===w[ap(0x1aa)]?this[ap(0x2d3)]():ap(0x16e)!==w[ap(0x1aa)]&&(this.#l=ap(0x1ad));});}['search'](w='',x=ac(0x2c9)){return new Promise(async z=>{const aq=j;let A=[],B=this.#e['cache'];''!==w['trim']()&&(B=B[aq(0x152)](C=>C[aq(0x199)]['toLowerCase']()[aq(0x1fa)](w[aq(0x1ba)]()['toLowerCase']()))),A=await B[aq(0x166)](),'all'!==x&&(A=A['slice'](0x28*x,0x28*(x+0x1))),z(A);});}['refresh'](){return new Promise(async(w,x)=>{const ar=j;let z;try{z=await this[ar(0x13c)](!0x0);}catch(B){return x(B);}let A=[];for(let C of z){let D=b(C[ar(0x227)])+('italic'===d(C[ar(0x227)])?'i':''),E=A[ar(0x14e)](F=>F[ar(0x199)]===C[ar(0x199)]);if(E)!0x1===E['faces'][ar(0x1fa)](D)&&E[ar(0x17c)]['push'](D);else{let F={'family':C[ar(0x199)],'faces':[D]};A[ar(0x259)](F);}}for(let G of A)G[ar(0x17c)][ar(0x141)]();await this.#e[ar(0x241)][ar(0x2b5)](),await this.#e['cache']['bulkPut'](A),this.#l='ready',w();});}[ac(0x13c)](w=!0x1){return new Promise(async(x,z)=>{const as=j;if(as(0x26d)===this[as(0x170)])x([]);else{if(this.#o[as(0x1ce)]<0xa||w)try{this.#o=await window[as(0x12f)]();}catch(A){return z({'message':A[as(0x2b3)],'name':A[as(0x115)]});}x(this.#o);}});}[ac(0x256)](){return new Promise(async w=>{const at=j;w(await this.#e[at(0x241)][at(0x138)]());});}[ac(0x1f1)](w){return new Promise(async x=>{const au=j;x((await this.#e[au(0x241)][au(0x158)](au(0x199))[au(0x15f)](w)['toArray']())[0x0]||null);});}[ac(0x113)](w){return new Promise(async x=>{const av=j;let z=await this['getFamilyDescriptor'](w);if(z){let A=new Set();for(let B of z[av(0x17c)]){let C=B[av(0x13d)](0x0,0x3);A['add'](C);}x([...A]);}else x([av(0x2bb)]);});}}(),document[ac(0x2c6)](ac(0x260),ac(0x12a));let c=(w,x,z=!0x0)=>{const aw=ac;let A=w[aw(0x1a6)](x);return z&&!A&&w[aw(0x151)]()[aw(0x1f3)]?c(w[aw(0x151)]()['host'],x):A;};class y extends HTMLElement{static #s=m` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
-  `;static #r=u`
+                  `;
+                  A.push(a9.cssRules[0]);
+                }
+              }
+            }
+          }
+        }
+      }
+      z(A);
+    });
+  }
+  getFamilyDescriptor(w) {
+    return new Promise(async (x) => {
+      await this.#a();
+      x((await this.#e.cache.where("family").equals(w).toArray())[0] || null);
+    });
+  }
+  #n(w) {
+    return new Promise(async (x) => {
+      let z = null;
+      if (this.#i[w]) {
+        z = this.#i[w];
+      } else {
+        let A = await fetch(w);
+        let B = await A.text();
+        z = new CSSStyleSheet();
+        z.replaceSync(B);
+        this.#i[w] = z;
+      }
+      x(z);
+    });
+  }
+  #a() {
+    return new Promise(async (w) => {
+      let x = await this.#e.cache.count();
+      let z = true;
+      if (x > 0) {
+        let A = await this.#e.cache.get("Roboto");
+        if (A) {
+          let B = 1296000000;
+          z = Date.now() - A.cachedTime > B;
+        }
+      }
+      if (x === 0 || z === true) {
+        await this.refresh();
+      }
+      w();
+    });
+  }
+})();
+if (!["iPhone", "iPad"].includes(navigator.platform)) {
+  navigator.platform.startsWith("Mac");
+}
+if (navigator.userAgent.indexOf("Safari/") > -1) {
+  navigator.userAgent.indexOf("Chrome");
+}
+if (window.frameElement === null) {
+  document.body.dataset.app;
+}
+let h = (w, x, z) => w.split(x).join(z);
+let b = (w) => {
+  w = w.toLowerCase();
+  w = h(w, " ", "");
+  w = h(w, "-", "");
+  let x = "400";
+  if ((w = h(w, "_", "")).includes("thin") || w.includes("hairline")) {
+    x = "100";
+  } else if (w.includes("extralight") || w.includes("ultralight")) {
+    x = "200";
+  } else if (w.includes("light")) {
+    x = "300";
+  } else if (w.includes("medium")) {
+    x = "500";
+  } else if (w.includes("semibold") || w.includes("demibold")) {
+    x = "600";
+  } else if (w.includes("extrabold") || w.includes("ultrabold")) {
+    x = "800";
+  } else if (w.includes("bold")) {
+    x = "700";
+  } else if (w.includes("black") || w.includes("heavy")) {
+    x = "900";
+  }
+  return x;
+};
+let d = (w) => {
+  w = w.toLowerCase();
+  w = h(w, " ", "");
+  w = h(w, "-", "");
+  let x = "normal";
+  if ((w = h(w, "_", "")).includes("italic")) {
+    x = "italic";
+  } else if (w.includes("oblique")) {
+    x = "oblique";
+  }
+  return x;
+};
+new (class extends EventTarget {
+  #l = "init";
+  #o = [];
+  #e;
+  get status() {
+    return this.#l;
+  }
+  constructor() {
+    super();
+    this.#e = new q("LocalFontsManager");
+    this.#e.version(1).stores({
+      cache: "family",
+    });
+    this.#e
+      .version(2)
+      .stores({
+        cache: "family",
+      })
+      .upgrade((w) => w.cache.clear());
+    if (window.queryLocalFonts === undefined) {
+      this.#l = "no-api";
+    } else {
+      navigator.permissions
+        .query({
+          name: "local-fonts",
+        })
+        .then((w) => {
+          if (w.state === "granted") {
+            this.refresh();
+          } else if (w.state !== "prompt") {
+            this.#l = "no-permission";
+          }
+        });
+    }
+  }
+  search(w = "", x = "all") {
+    return new Promise(async (z) => {
+      let A = [];
+      let B = this.#e.cache;
+      if (w.trim() !== "") {
+        B = B.filter((C) =>
+          C.family.toLowerCase().includes(w.trim().toLowerCase())
+        );
+      }
+      A = await B.toArray();
+      if (x !== "all") {
+        A = A.slice(x * 40, (x + 1) * 40);
+      }
+      z(A);
+    });
+  }
+  refresh() {
+    return new Promise(async (w, x) => {
+      let z;
+      try {
+        z = await this.getLocalFontsMetadata(true);
+      } catch (B) {
+        return x(B);
+      }
+      let A = [];
+      for (let C of z) {
+        let D = b(C.style) + (d(C.style) === "italic" ? "i" : "");
+        let E = A.find((F) => F.family === C.family);
+        if (E) {
+          if (E.faces.includes(D) === false) {
+            E.faces.push(D);
+          }
+        } else {
+          let F = {
+            family: C.family,
+            faces: [D],
+          };
+          A.push(F);
+        }
+      }
+      for (let G of A) {
+        G.faces.sort();
+      }
+      await this.#e.cache.clear();
+      await this.#e.cache.bulkPut(A);
+      this.#l = "ready";
+      w();
+    });
+  }
+  getLocalFontsMetadata(w = false) {
+    return new Promise(async (x, z) => {
+      if (this.status === "no-api") {
+        x([]);
+      } else {
+        if (this.#o.length < 10 || w) {
+          try {
+            this.#o = await window.queryLocalFonts();
+          } catch (A) {
+            return z({
+              message: A.message,
+              name: A.name,
+            });
+          }
+        }
+        x(this.#o);
+      }
+    });
+  }
+  getCacheSize() {
+    return new Promise(async (w) => {
+      w(await this.#e.cache.count());
+    });
+  }
+  getFamilyDescriptor(w) {
+    return new Promise(async (x) => {
+      x((await this.#e.cache.where("family").equals(w).toArray())[0] || null);
+    });
+  }
+  getFamilyWeights(w) {
+    return new Promise(async (x) => {
+      let z = await this.getFamilyDescriptor(w);
+      if (z) {
+        let A = new Set();
+        for (let B of z.faces) {
+          let C = B.substring(0, 3);
+          A.add(C);
+        }
+        x([...A]);
+      } else {
+        x(["400"]);
+      }
+    });
+  }
+})();
+document.createElementNS("http://www.w3.org/2000/svg", "svg");
+let c = (w, x, z = true) => {
+  let A = w.closest(x);
+  if (z && !A && w.getRootNode().host) {
+    return c(w.getRootNode().host, x);
+  } else {
+    return A;
+  }
+};
+class y extends HTMLElement {
+  static #s = m` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
+  `;
+  static #r = u`
     :host {
       display: flex;
       flex-flow: column;
@@ -93,6 +2118,211 @@ const ac=j;(function(w,x){const ab=j,z=w();while(!![]){try{const A=parseInt(ab(0
       background: none;
       height: 4px;
     }
-  `;#p;constructor(){const ax=ac;super();let w=this['constructor']['t'],x=this[ax(0x14d)]['l'];this.#p=this[ax(0x24c)]({'mode':ax(0x281)}),this.#p[ax(0x224)]=[k['themeStyleSheet'],y.#r,this[ax(0x14d)][ax(0x222)]],this.#p[ax(0x23e)](document[ax(0x2a1)](y.#s[ax(0x20c)],!0x0)),w&&this.#p[ax(0x1d3)](ax(0x2b9))[ax(0x23e)](document[ax(0x2a1)](w['content'],!0x0)),x&&this.#p[ax(0x1d3)](ax(0x217))[ax(0x23e)](document['importNode'](x[ax(0x20c)],!0x0));for(let z of this.#p[ax(0x1d7)](ax(0x195)))this['#'+z['id']]=z;this['setAttribute'](ax(0x1ee),'bx-generator'),this[ax(0x26b)](ax(0x148),'0');}}class f extends y{static ['t']=m` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="objects-subsection"> <h4><x-message href="#objects"></x-message></h4> <x-buttons id="objects-buttons" tracking="1"> <x-button value="all" toggled><x-label><x-message href="#objects.all"></x-message></x-label></x-button> <x-button value="selected"><x-label><x-message href="#objects.selected"></x-message></x-label></x-button> </x-buttons> </section> <section id="prefix-subsection"> <h4><x-message href="#prefix"></x-message></h4> <x-buttons id="prefix-buttons" tracking="1"> <x-button value="auto" toggled><x-label><x-message href="#prefix.auto"></x-message></x-label></x-button> <x-button value="custom"><x-label><x-message href="#prefix.custom"></x-message></x-label></x-button> </x-buttons> <x-input id="custom-prefix-input" validation="manual"> <x-label>object-</x-label> </x-input> </section> </section> </template>
-  `;static ['l']=m` <template> <x-button id="add-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#add"></x-message></x-label> </x-button> </template>
-  `;static [ac(0x222)]=u`#objects-buttons{width:100%}#objects-buttons x-button{flex:1}#prefix-subsection{margin-top:14px}#prefix-buttons{width:100%}#prefix-buttons x-button{flex:1}#custom-prefix-input{margin-top:8px;max-width:none}`;#m;#u;#h;constructor(){const ay=ac;super(),this[ay(0x29b)]['addEventListener'](ay(0x297),()=>this.#b()),this[ay(0x168)][ay(0x2ac)](ay(0x297),()=>this.#d()),this[ay(0x112)][ay(0x2ac)](ay(0x1da),w=>this.#c(w)),this[ay(0x112)][ay(0x2ac)](ay(0x200),()=>this.#y()),this[ay(0x2c5)][ay(0x2ac)](ay(0x132),()=>this.#f());}[ac(0x27f)](){const az=ac;this.#m=c(this,'bx-editor');let w=k[az(0x1c4)]('bx-adduniqueidsgenerator:objects',az(0x2c9)),x=k['getConfig']('bx-adduniqueidsgenerator:prefix',az(0x250)),z=k[az(0x1c4)](az(0x169),null);this[az(0x29b)][az(0x236)]=w,this[az(0x168)][az(0x236)]=x,this[az(0x112)]['value']=z,this.#g(),this.#m[az(0x160)][az(0x2ac)](az(0x16c),this.#u=()=>{this.#g();}),this.#m[az(0x160)][az(0x2ac)](az(0x1de),this.#h=()=>{this.#x();});}[ac(0x282)](){const aA=ac;this.#m[aA(0x160)][aA(0x1eb)](aA(0x16c),this.#u),this.#m[aA(0x160)][aA(0x1eb)](aA(0x1de),this.#h);}#b(){const aB=ac;k[aB(0x189)](aB(0x114),this[aB(0x29b)][aB(0x236)]),this.#g();}#d(){const aC=ac;k[aC(0x189)](aC(0x1a4),this[aC(0x168)][aC(0x236)]),this.#g();}#c(w){const aD=ac;w[aD(0x1dc)](),this[aD(0x112)][aD(0x236)]['length']>0x0&&!0x1===(x=>{const aE=aD;if(0x0===x[aE(0x1ce)])return!0x1;for(let z=0x0;z<x[aE(0x1ce)];z+=0x1){let A=x['charCodeAt'](z);if(!0x1==(A>=0x41&&A<=0x5a||A>=0x61&&A<=0x7a)){if(0x0===z)return!0x1;if(!0x1==(A>=0x30&&A<=0x39||0x2d===A||0x2e===A||0x5f===A))return!0x1;}}return!0x0;})(this[aD(0x112)][aD(0x236)])?this[aD(0x112)][aD(0x133)]({'href':aD(0x1b4)}):this['#custom-prefix-input'][aD(0x133)]('');}#y(){const aF=ac;k[aF(0x189)](aF(0x169),this[aF(0x112)]['value']);}#f(){const aG=ac;if(!0x1===this['#custom-prefix-input'][aG(0x257)]())this[aG(0x112)]['focus']();else{this.#m['board'][aG(0x240)][aG(0x19b)](['#generators.add-unique-ids'],'#generators-panel'),this['#add-button'][aG(0x197)]=!0x0;let w=null,x=[];if(aG(0x1b1)===this[aG(0x168)][aG(0x236)]&&(w=0x0===this['#custom-prefix-input'][aG(0x236)][aG(0x1ce)]?aG(0x1af):this[aG(0x112)][aG(0x236)]),'all'===this[aG(0x29b)][aG(0x236)]){for(let z of this.#m[aG(0x160)][aG(0x235)]['querySelectorAll']('*'))o[aG(0x1fa)](z[aG(0x20f)])&&x[aG(0x259)](z);}else'selected'===this[aG(0x29b)][aG(0x236)]&&(x=[...this.#m['board'][aG(0x159)]]);x=x[aG(0x152)](A=>!0x1===A[aG(0x1df)]('id')||''===A[aG(0x24b)]('id'));for(let A of x){let B;B=null===w?'g'===A['localName']?this.#m[aG(0x160)][aG(0x2c8)](aG(0x2c7)):this.#m[aG(0x160)][aG(0x2c8)](A['localName']+'-'):this.#m[aG(0x160)][aG(0x2c8)](w),A[aG(0x26b)]('id',B);}}}#g(){const aH=ac;let w=[];if(aH(0x2c9)===this['#objects-buttons']['value']){for(let x of this.#m[aH(0x160)]['currentWorkspace']['querySelectorAll']('*'))o[aH(0x1fa)](x['localName'])&&w['push'](x);}else aH(0x26a)===this['#objects-buttons'][aH(0x236)]&&(w=[...this.#m[aH(0x160)][aH(0x159)]]);w=w['filter'](z=>!0x1===z[aH(0x1df)]('id')||''===z[aH(0x24b)]('id')),this['#custom-prefix-input'][aH(0x124)]=aH(0x250)===this[aH(0x168)][aH(0x236)],this[aH(0x2c5)][aH(0x197)]=0x0===w[aH(0x1ce)];}#x=((e,t,i,a=!0x1)=>{let n=null,l=null;return(...o)=>{const aI=j;let s=a&&!n;return clearTimeout(n),n=setTimeout(()=>{n=null,a||(l=e['apply'](i,o));},t),s&&(l=e[aI(0x16f)](i,o)),l;};})(this.#g,0x3e8,this);}customElements[ac(0x134)](ac(0x2a6),f);
+  `;
+  #p;
+  constructor() {
+    super();
+    let w = this.constructor.t;
+    let x = this.constructor.l;
+    this.#p = this.attachShadow({
+      mode: "closed",
+    });
+    this.#p.adoptedStyleSheets = [
+      k.themeStyleSheet,
+      y.#r,
+      this.constructor._shadowStyleSheet,
+    ];
+    this.#p.append(document.importNode(y.#s.content, true));
+    if (w) {
+      this.#p
+        .querySelector("#main")
+        .append(document.importNode(w.content, true));
+    }
+    if (x) {
+      this.#p
+        .querySelector("#footer")
+        .append(document.importNode(x.content, true));
+    }
+    for (let z of this.#p.querySelectorAll("[id]")) {
+      this["#" + z.id] = z;
+    }
+    this.setAttribute("extends", "bx-generator");
+    this.setAttribute("tabindex", "0");
+  }
+}
+class f extends y {
+  static t = m` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="objects-subsection"> <h4><x-message href="#objects"></x-message></h4> <x-buttons id="objects-buttons" tracking="1"> <x-button value="all" toggled><x-label><x-message href="#objects.all"></x-message></x-label></x-button> <x-button value="selected"><x-label><x-message href="#objects.selected"></x-message></x-label></x-button> </x-buttons> </section> <section id="prefix-subsection"> <h4><x-message href="#prefix"></x-message></h4> <x-buttons id="prefix-buttons" tracking="1"> <x-button value="auto" toggled><x-label><x-message href="#prefix.auto"></x-message></x-label></x-button> <x-button value="custom"><x-label><x-message href="#prefix.custom"></x-message></x-label></x-button> </x-buttons> <x-input id="custom-prefix-input" validation="manual"> <x-label>object-</x-label> </x-input> </section> </section> </template>
+  `;
+  static l = m` <template> <x-button id="add-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label><x-message href="#add"></x-message></x-label> </x-button> </template>
+  `;
+  static _shadowStyleSheet = u`#objects-buttons{width:100%}#objects-buttons x-button{flex:1}#prefix-subsection{margin-top:14px}#prefix-buttons{width:100%}#prefix-buttons x-button{flex:1}#custom-prefix-input{margin-top:8px;max-width:none}`;
+  #m;
+  #u;
+  #h;
+  constructor() {
+    super();
+    this["#objects-buttons"].addEventListener("toggle", () => this.#b());
+    this["#prefix-buttons"].addEventListener("toggle", () => this.#d());
+    this["#custom-prefix-input"].addEventListener("beforevalidate", (w) =>
+      this.#c(w)
+    );
+    this["#custom-prefix-input"].addEventListener("change", () => this.#y());
+    this["#add-button"].addEventListener("click", () => this.#f());
+  }
+  connectedCallback() {
+    this.#m = c(this, "bx-editor");
+    let w = k.getConfig("bx-adduniqueidsgenerator:objects", "all");
+    let x = k.getConfig("bx-adduniqueidsgenerator:prefix", "auto");
+    let z = k.getConfig("bx-adduniqueidsgenerator:customPrefix", null);
+    this["#objects-buttons"].value = w;
+    this["#prefix-buttons"].value = x;
+    this["#custom-prefix-input"].value = z;
+    this.#g();
+    this.#m.board.addEventListener(
+      "selectedelementschange",
+      (this.#u = () => {
+        this.#g();
+      })
+    );
+    this.#m.board.addEventListener(
+      "workspacemutation",
+      (this.#h = () => {
+        this.#x();
+      })
+    );
+  }
+  disconnectedCallback() {
+    this.#m.board.removeEventListener("selectedelementschange", this.#u);
+    this.#m.board.removeEventListener("workspacemutation", this.#h);
+  }
+  #b() {
+    k.setConfig(
+      "bx-adduniqueidsgenerator:objects",
+      this["#objects-buttons"].value
+    );
+    this.#g();
+  }
+  #d() {
+    k.setConfig(
+      "bx-adduniqueidsgenerator:prefix",
+      this["#prefix-buttons"].value
+    );
+    this.#g();
+  }
+  #c(w) {
+    w.preventDefault();
+    if (
+      this["#custom-prefix-input"].value.length > 0 &&
+      ((x) => {
+        if (x.length === 0) {
+          return false;
+        }
+        for (let z = 0; z < x.length; z += 1) {
+          let A = x.charCodeAt(z);
+          if (((A >= 65 && A <= 90) || (A >= 97 && A <= 122)) == false) {
+            if (z === 0) {
+              return false;
+            }
+            if (
+              ((A >= 48 && A <= 57) || A === 45 || A === 46 || A === 95) ==
+              false
+            ) {
+              return false;
+            }
+          }
+        }
+        return true;
+      })(this["#custom-prefix-input"].value) === false
+    ) {
+      this["#custom-prefix-input"].setCustomValidity({
+        href: "invalid-prefix",
+      });
+    } else {
+      this["#custom-prefix-input"].setCustomValidity("");
+    }
+  }
+  #y() {
+    k.setConfig(
+      "bx-adduniqueidsgenerator:customPrefix",
+      this["#custom-prefix-input"].value
+    );
+  }
+  #f() {
+    if (this["#custom-prefix-input"].reportValidity() === false) {
+      this["#custom-prefix-input"].focus();
+    } else {
+      this.#m.board.undoManager.checkpoint(
+        ["#generators.add-unique-ids"],
+        "#generators-panel"
+      );
+      this["#add-button"].disabled = true;
+      let w = null;
+      let x = [];
+      if (this["#prefix-buttons"].value === "custom") {
+        w =
+          this["#custom-prefix-input"].value.length === 0
+            ? "object-"
+            : this["#custom-prefix-input"].value;
+      }
+      if (this["#objects-buttons"].value === "all") {
+        for (let z of this.#m.board.currentWorkspace.querySelectorAll("*")) {
+          if (o.includes(z.localName)) {
+            x.push(z);
+          }
+        }
+      } else if (this["#objects-buttons"].value === "selected") {
+        x = [...this.#m.board.selectedObjectElements];
+      }
+      x = x.filter(
+        (A) => A.hasAttribute("id") === false || A.getAttribute("id") === ""
+      );
+      for (let A of x) {
+        let B;
+        B =
+          w === null
+            ? A.localName === "g"
+              ? this.#m.board.generateUniqueID("group-")
+              : this.#m.board.generateUniqueID(A.localName + "-")
+            : this.#m.board.generateUniqueID(w);
+        A.setAttribute("id", B);
+      }
+    }
+  }
+  #g() {
+    let w = [];
+    if (this["#objects-buttons"].value === "all") {
+      for (let x of this.#m.board.currentWorkspace.querySelectorAll("*")) {
+        if (o.includes(x.localName)) {
+          w.push(x);
+        }
+      }
+    } else if (this["#objects-buttons"].value === "selected") {
+      w = [...this.#m.board.selectedObjectElements];
+    }
+    w = w.filter(
+      (z) => z.hasAttribute("id") === false || z.getAttribute("id") === ""
+    );
+    this["#custom-prefix-input"].hidden =
+      this["#prefix-buttons"].value === "auto";
+    this["#add-button"].disabled = w.length === 0;
+  }
+  #x = ((e, t, i, a = false) => {
+    let n = null;
+    let l = null;
+    return (...o) => {
+      let s = a && !n;
+      clearTimeout(n);
+      n = setTimeout(() => {
+        n = null;
+        if (!a) {
+          l = e.apply(i, o);
+        }
+      }, t);
+      if (s) {
+        l = e.apply(i, o);
+      }
+      return l;
+    };
+  })(this.#g, 1000, this);
+}
+customElements.define("bx-adduniqueidsgenerator", f);

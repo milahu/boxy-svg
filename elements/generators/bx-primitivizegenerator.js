@@ -1,4 +1,2102 @@
-const c9=a1;(function(a7,a8){const c8=a1,a9=a7();while(!![]){try{const aa=parseInt(c8(0x241))/0x1*(-parseInt(c8(0x1cf))/0x2)+-parseInt(c8(0x391))/0x3*(-parseInt(c8(0x34a))/0x4)+-parseInt(c8(0x396))/0x5+-parseInt(c8(0x368))/0x6+parseInt(c8(0x27e))/0x7+parseInt(c8(0x1d1))/0x8+parseInt(c8(0x316))/0x9*(parseInt(c8(0x311))/0xa);if(aa===a8)break;else a9['push'](a9['shift']());}catch(ab){a9['push'](a9['shift']());}}}(a0,0x38f84));function a0(){const dZ=['cssRules','#flood-color','evenodd','medium','pattern','refresh','crosshair','uppercase','ew-resize','ne-resize','feFlood','exportSVG','name','end','U+0-FF,\x20U+131,\x20U+152-153,\x20U+2BB-2BC,\x20U+2C6,\x20U+2DA,\x20U+2DC,\x20U+2000-206F,\x20U+2074,\x20U+20AC,\x20U+2122,\x20U+2191,\x20U+2193,\x20U+2212,\x20U+2215,\x20U+FEFF,\x20U+FFFD','horizontal-tb','shape-rendering','#working-size-input','viewBox','rtl','radialGradient','addFrame','paint-order','pow','all-scroll','#pointer-events','word-spacing','https://fonts.googleapis.com/css?','left','700','capitalize','3798770iYewzN','</svg>','#stroke-width','#stroke-line-cap','initial','9Kferne','cell','linearRGB','serif','#transform-box','feDisplacementMap','/libs/change-dpi/change-dpi.js','#opacity','fromMatrix','ultra-condensed','collections','connectedCallback','querySelector','normal','clipPath','alphabetic','outermostSelectedObjectElements','bevel','appendChild','stroke-box','#shapes-alpha-box','iPad','width','split','circle','has','#writing-mode','platform','setAttributeNS','bx-generator','load','selectedElements','#fff','#generate-label','nextNode','forEach','#stroke-miter-limit','200','grab','equals','nesw-resize','monospace','stroke','height','rgb(255,\x20255,\x20255)','#seed-slider','join','#clip-path','getBBox','U+964-965,\x20U+981-9FB,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','baseVal','markers','5052nOWKrP','insertBefore','#auto-adjust-shapes-alpha-checkbox','butt','style','text-top','#color','overflow','92f3tewguhsn8o0qp.a1.typesense.net','token-list','cut','#display','importNode','\x0a\x20\x20position:\x20fixed;\x0a\x20\x20top:\x20-1px;\x0a\x20\x20left:\x20-1px;\x0a\x20\x20width:\x201px;\x0a\x20\x20height:\x201px;\x0a\x20\x20contain:\x20strict;\x0a\x20\x20overflow:\x20hidden;\x0a','feSpecularLighting','hex','toFixed','CompoundPath','html','color-interpolation-filters','#working-size-slider','transformPrecision','trending','stop','https://fonts.google.com/specimen/','wait\x20','collapsed','appliesTo','checkpoint','auto','1679508pXeNoG','pixelated','<?xml\x20version=\x221.0\x22\x20encoding=\x22utf-8\x22?>\x0a','FONT_FACE_RULE','currentNode','#shapes-number-input','small-caps','#progress-bar','setAttribute','toString','x-large','popularityRank','#fill-opacity','writing-mode','closePath','textContent','query','#transform','endContainer','not-allowed','bx-primitivizegenerator:workingSize','filter','#ffffff','isolate','trendingRank','dasharray','U+100-24F,\x20U+259,\x20U+1E00-1EFF,\x20U+2020,\x20U+20A0-20AB,\x20U+20AD-20CF,\x20U+2113,\x20U+2C60-2C7F,\x20U+A720-A7FF','#seed-input','toMatrix','computedStyleMap','letter-spacing','documents','feMorphology','line-height','points','convertToBlob','createTreeWalker','image/webp','soft-light','marker-mid','U+460-52F,\x20U+1C80-1C88,\x20U+20B4,\x20U+2DE0-2DFF,\x20U+A640-A69F,\x20U+FE2E-FE2F','849HNwWqr','U+964-965,\x20U+B01-B77,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','alignment-baseline','defs','#000','2265480cdiLUB','image-rendering','saturation','view-box','getContext','xmlns','disabled','extra-expanded','replaceSync','toArray','stroke-linecap','undoManager','extends','cursor','#seed-heading','inherit','all','black','<svg','jpg','ital','\x20/\x20','xmlns:xlink','U+1780-17FF,\x20U+200C,\x20U+25CC','family','matrix','#max-mutations-slider','#max-mutations-box','content','clip-path','800','textPath','removeAttribute','#shapes-alpha-slider','bx-generatorspanel','http://www.w3.org/1999/xlink','400italic','render','filter-function-list','flood-color','constructor','host','unset','<!doctype\x20html>\x0a','style=\x22','#text-anchor','destroy','baseline-shift','mask','stop-opacity','#will-change','color','length','escape','row-resize','feComponentTransfer','bold','#paint-order','narrower','U+1F00-1FFF','map','image/svg+xml;charset=utf-8','baseline','ideographic','https://fonts.googleapis.com/css2?','#options-heading','#generate-button','innerHTML','middle','text-anchor','push','queryLocalFonts','sw-resize','bx-primitivizegenerator:autoAdjustShapesAlpha','bidi-override','ns-resize','getPropertyValue','getAttribute','frameElement','nowrap','#start-marker','line','#shapes-alpha-heading','stores','no-permission','bx:','exclusion','transform-origin','then','attributes','500','url','thumbnail','fill','postMessage','ellipse','text\x20a','Client','#text-transform','message','#font-stretch','drawImage','search','italic','tspan','font-size','300','round','userAgent','#shapes-heading','pre','urls','U+F00-FFF,\x20U+200C-200D,\x20U+25CC','data','getPathData','substring','#visibility','beforeend','#clip-rule','U+400-45F,\x20U+490-491,\x20U+4B0-4B1,\x20U+2116','fill-box','feTurbulence','cloneNode','vector-effect','U+964-965,\x20U+D82-DF4,\x20U+200C-200D,\x20U+25CC','redo','find','svg:path','consolidate','vertical-rl','none','w-resize','closed','text-bottom','/libs/gif/gif.js','lighting-color','no-change','values','init','&quot;','linearGradient','stroke-dashoffset','optimizeLegibility','Failed\x20to\x20serialize\x20artwork','getRootNode','fromRect','gif','fillRect','#mask','adoptedStyleSheets','SHOW_ELEMENT','mix-blend-mode','pop','nonzero','vertical-lr','#transform-origin','terminate','reset-size','outerHTML','lighten','replaceAll','pointer','Stucki','n-resize','600','transform-box','webp','screen','feColorMatrix','background','startsWith','iPhone','closest','hanging','700italic','bx-primitivizegenerator:shapesNumber','lighter','https://boxy-svg.com','data-bx-d','getFamilyDescriptor','rect','stroke-miterlimit','shift','ready','default','toggle','bx-primitivizegenerator:shapesAlpha','U+964-965,\x20U+A80-AFF,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+A830-A839','non-scaling-stroke','spline','#max-mutations-heading','shadowRoot','searchParams','class','visiblePainted','getConfig','zoom-out','fillStyle','central','hue','svg:title','#font-size','#isolation','hard-light','libs/gif/gif.worker.js','0000000','ultralight','top','symbol','#shapes-per-iteration-input','text-decoration','400','stroke-linejoin','http://www.w3.org/2000/xmlns/','condensed','underline','number','remove','0\x200\x20','sRGB','system-ui','tabindex','changeend','s-resize','finished','endOffset','feDropShadow','U+102-103,\x20U+110-111,\x20U+128-129,\x20U+168-169,\x20U+1A0-1A1,\x20U+1AF-1B0,\x20U+1EA0-1EF9,\x20U+20AB','#overflow-heading','createElementNS','querySelectorAll','startContainer','hasAttribute','currentColor','#main','transform-list','slice','getFamilyWeights','font-style','U+590-5FF,\x20U+20AA,\x20U+25CC,\x20U+FB1D-FB4F','14EZvAqC','unicode-bidi','3428536DxkqCW','#preview-section','subsets','png','#alignment-baseline','x-small','export','/workers/primitivize.js','_href','extrabold','#generators-panel','visibleFill','replaceWith','Atkinson','opacity','#shape-rendering','center','bx-editor','content-box','flood-opacity','dateRank','http://www.w3.org/2000/svg','template','href','xmlns:bx','substr','oblique','ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL','#fill','createNodeIterator','body','#draw-as-buttons','GoogleFontsManager','0\x200','toUpperCase','paced','optimizeSpeed','toggled','text-before-edge','themeStyleSheet','white-space','image','#end-marker','options','help','disconnectedCallback','bottom','feComposite','sqrt','bx-title','#shapes-number-heading','getBoundingClientRect','col-resize','clip-rule','lowercase','marker-start','selectedelementschange','#direction','polyline','insertAdjacentHTML','getCacheSize','semi-expanded','visibility','feDiffuseLighting','thin','board','bolder','bx-primitivizegenerator:shapesPerIteration','U+900-97F,\x20U+1CD0-1CF6,\x20U+1CF8-1CF9,\x20U+200C-200D,\x20U+20A8,\x20U+20B9,\x20U+25CC,\x20U+A830-A839,\x20U+A8E0-A8FB','jpeg','buffer','#mid-marker','charCodeAt','U+600-6FF,\x20U+200C-200E,\x20U+2010-2011,\x20U+204F,\x20U+2E41,\x20U+FB50-FDFF,\x20U+FE80-FEFC','getExtentOfChar','data-bx-fonts','mathematical','count','alphabetical','status','#overflow','attachShadow','colors','marker-end','#unicode-bidi','faces','xml','use','localName','isolation','granted','grabbing','#footer','U+E01-E5B,\x20U+200C-200D,\x20U+25CC','bx-primitivizegenerator','abs','state','multiply','change','#stop-color','#shapes-alpha-input','#preview','EPSILON','#baseline-shift','white','wider','max','createObjectURL','semibold','createElement','#overflow-buttons','sans-serif','43277ONPpeG','parse','font-variant','super','#preview-section-hr','srgb','getFontFaceRulesFromUrl','alias','#font','square','text','workspacemutation','image/jpeg','#cursor','demibold','extralight','#stop-opacity','<color>','pre-line','match','sub','feBlend','\x0a\x20\x20','append','font','painted','start','src','dominant-baseline','stroke-dasharray','geometricPrecision','stop-color','selectedTextRange','linear','category','revokeObjectURL','hairline','setPathData','unshift','isConnected','marker','feGaussianBlur','stroke-opacity','#vector-effect','feConvolveMatrix','upgrade','inline','getAll','childElementCount','visible','#seed-box','xlink:href','define','overlay','no-api','Safari/','stroke-width','#shapes-number-box','luminosity','scroll','changestart','723996ZpPGKv','#shapes-type-heading','firstChild','click','percentage','sort','large','popularity','startOffset','display','bulkPut','false-floyd-steinberg','[id]','#shapes-per-iteration-slider','now','indexOf','semi-condensed','stucki','#shapes-type-buttons','ownerSVGElement','replace','transform','get','\x20xmlns:xlink=\x22http://www.w3.org/1999/xlink\x22','crisp-edges','ultra-expanded','SHOW_TEXT','addEventListener','includes','#marker','#algorithm-heading','line-through','naturalWidth','copy','matrixTransform','type','#image-rendering','small','min','data-bx-','font-family','se-resize','nodeType','version','#blend-mode','atkinson','children','#lighting-color','bx-primitivizegenerator:maxMutations','token','clear','color-dodge','bx-primitivizegenerator:shapesType','removeEventListener','getImageData','fantasy','rgba(0,\x200,\x200,\x200)','path','getLocalFontsMetadata','trim','foreignObject','#max-mutations-input','right','polygon','#shapes-per-iteration-box','_shadowStyleSheet','text-rendering','#shapes-number-slider','font-stretch','license','e-resize','#color-interpolation','hidden','900','bx-primitivizegenerator:seed','Chrome','target','createTextNode','cache','zoom-in','svg','transparent','cursive','dpi','crispEdges','concat','naturalHeight','#working-size-box','rgba(255,\x20255,\x20255,\x200)','bx-primitivizegenerator:overflow','U+1000-109F,\x20U+200C-200D,\x20U+25CC','test','darken','where','embed','parentNode','compression','color-burn','font-weight','ltr','image/png','setEnd','/libs/upng/upng.js','color-interpolation','U+951-952,\x20U+964-965,\x20U+C00-C7F,\x20U+1CDA,\x20U+200C-200D,\x20U+25CC','nwse-resize','toLowerCase','#stroke-line-join','https','offscreen-container','setConfig','light','dithering','#stroke','parentElement','value'];a0=function(){return dZ;};return a0();}import a2 from'/libs/xel/xel.js';import a3 from'/libs/color/color.js';import'/libs/css-parser/css-parser.js';import a4 from'/libs/paper/paper.js';import'/libs/seed-random/seed-random.js';import'/libs/dom-purify/dom-purify.js';import a5 from'/libs/dexie/dexie.js';import a6 from'/libs/typesense/typesense.js';import'/libs/pako/pako.js';const s=c9(0x190),l=c9(0x1e6),o=c9(0x3b9),r=c9(0x1b4),p=[c9(0x32e),c9(0x3f5),c9(0x3e7),c9(0x2b7),c9(0x2bd),c9(0x20b),c9(0x193)],h=[c9(0x24b),c9(0x3b5),c9(0x3fe)],u=[...p,...h,c9(0x2ba),'image'],m=[...p,...h],d=[...p,c9(0x24b),'use'],c=[...u,c9(0x324),'a','g',c9(0x228)],f=[{'name':c9(0x393),'displayName':c9(0x1d5),'presentationAttributeName':'alignment-baseline','initialValue':c9(0x3d4),'values':[{'type':c9(0x2af),'tokens':['baseline',c9(0x164),c9(0x325),c9(0x3d5),'middle',c9(0x1a5),c9(0x21d),c9(0x34f),c9(0x1ff),c9(0x1e1),c9(0x1ae),'inherit','initial',c9(0x3c0)]}],'appliesTo':[c9(0x24b),'tspan','textPath',c9(0x3f6)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3c5),'displayName':c9(0x238),'presentationAttributeName':'baseline-shift','initialValue':'0','values':[{'type':c9(0x1b7)},{'type':'percentage'},{'type':c9(0x3ca)},{'type':c9(0x2af),'tokens':[c9(0x255),c9(0x244),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b),'tspan',c9(0x3b5),c9(0x3f6)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3b3),'displayName':c9(0x345),'presentationAttributeName':'clip-path','initialValue':c9(0x161),'values':[{'type':c9(0x3f1)},{'type':c9(0x2af),'tokens':[c9(0x157),c9(0x329),c9(0x399),c9(0x161),c9(0x3a5),'initial',c9(0x3c0)]}],'appliesTo':[...u,c9(0x2ce),'g','a','use'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x206),'displayName':c9(0x155),'presentationAttributeName':c9(0x206),'initialValue':'nonzero','values':[{'type':c9(0x2af),'tokens':[c9(0x178),c9(0x2f4),'inherit',c9(0x315),'unset']}],'appliesTo':[...u,c9(0x228)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3c9),'displayName':c9(0x350),'presentationAttributeName':c9(0x3c9),'initialValue':c9(0x395),'values':[{'type':c9(0x3c9)},{'type':c9(0x2af),'tokens':[c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...u,c9(0x2ce),'g','a',c9(0x228)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x2e5),'displayName':c9(0x2c5),'presentationAttributeName':c9(0x2e5),'initialValue':c9(0x1ba),'values':[{'type':c9(0x2af),'tokens':[c9(0x367),c9(0x1ba),c9(0x318),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...u,c9(0x2ce),'g','a','use',c9(0x16b),c9(0x306)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x35d),'displayName':c9(0x2c5),'presentationAttributeName':'color-interpolation-filters','initialValue':c9(0x318),'values':[{'type':c9(0x2af),'tokens':[c9(0x367),c9(0x1ba),c9(0x318),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x256),c9(0x187),c9(0x3cd),c9(0x200),c9(0x26d),c9(0x210),c9(0x31b),c9(0x1c1),c9(0x26a),'feMerge',c9(0x388),c9(0x358),c9(0x158)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3a3),'displayName':c9(0x24e),'presentationAttributeName':'cursor','initialValue':'auto','values':[{'type':'url'},{'type':c9(0x2af),'tokens':['context-menu',c9(0x1fd),c9(0x180),'progress',c9(0x363),c9(0x317),c9(0x2f8),'text','vertical-text',c9(0x248),c9(0x29f),'move','no-drop',c9(0x37b),c9(0x33c),c9(0x22c),c9(0x2c4),c9(0x182),c9(0x2fb),'nw-resize',c9(0x1be),c9(0x2a7),c9(0x3de),c9(0x162),c9(0x2fa),c9(0x3e1),c9(0x33e),c9(0x2e7),c9(0x205),c9(0x3cc),c9(0x30a),c9(0x2cd),c9(0x1a3),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...u,'svg','g','a',c9(0x228)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'direction','displayName':c9(0x20a),'presentationAttributeName':'direction','initialValue':c9(0x2e1),'values':[{'type':c9(0x2af),'tokens':['ltr',c9(0x305),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x287),'displayName':c9(0x355),'presentationAttributeName':'display','initialValue':c9(0x26f),'values':[{'type':c9(0x2af),'tokens':[c9(0x161),c9(0x26f),'block',c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...u,'textPath','tspan',c9(0x2ce),'g','a','use'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x25d),'displayName':'#dominant-baseline','presentationAttributeName':'dominant-baseline','initialValue':c9(0x367),'values':[{'type':c9(0x2af),'tokens':['auto','use-script',c9(0x167),c9(0x17c),c9(0x3d5),c9(0x325),c9(0x18c),'mathematical','central','middle','text-after-edge',c9(0x1f7),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':['text',c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3f3),'displayName':c9(0x1ed),'presentationAttributeName':'fill','initialValue':c9(0x395),'values':[{'type':'color'},{'type':c9(0x3f1)},{'type':c9(0x2af),'tokens':[c9(0x161),'currentColor',c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':'fill-opacity','displayName':c9(0x374),'presentationAttributeName':'fill-opacity','initialValue':'1','values':[{'type':c9(0x1b7)},{'type':c9(0x282)},{'type':c9(0x2af),'tokens':[c9(0x3a5),'initial',c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':'fill-rule','displayName':'#fill-rule','presentationAttributeName':'fill-rule','initialValue':c9(0x178),'values':[{'type':'token','tokens':[c9(0x178),'evenodd',c9(0x3a5),'initial',c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x37d),'displayName':'#filter','presentationAttributeName':'filter','initialValue':c9(0x161),'values':[{'type':c9(0x3bc)},{'type':c9(0x2af),'tokens':[c9(0x161),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...u,c9(0x3b5),c9(0x3fe),'g','a',c9(0x2ce),'use'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3bd),'displayName':c9(0x2f3),'presentationAttributeName':c9(0x3bd),'initialValue':c9(0x395),'values':[{'type':c9(0x3c9)},{'type':'token','tokens':[c9(0x1c8),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':['feFlood'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x1e4),'displayName':'#flood-opacity','presentationAttributeName':'flood-opacity','initialValue':'1','values':[{'type':c9(0x1b7),'min':0x0},{'type':c9(0x282),'min':0x0},{'type':'token','tokens':[c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x2fc)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':'font','displayName':c9(0x249),'presentationAttributeName':c9(0x259),'initialValue':null,'values':[{'type':'font'},{'type':'token','tokens':['inherit',c9(0x315),'unset']}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x2a6),'displayName':'#font-family','presentationAttributeName':c9(0x2a6),'initialValue':null,'values':[{'type':c9(0x2a6)},{'type':'token','tokens':[c9(0x2d0),c9(0x2b5),c9(0x33f),c9(0x240),c9(0x319),c9(0x1bb),'inherit','initial',c9(0x3c0)]}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'font-size','displayName':c9(0x1a8),'presentationAttributeName':c9(0x3ff),'initialValue':c9(0x2f5),'values':[{'type':c9(0x2af),'tokens':['xx-small',c9(0x1d6),c9(0x2a3),c9(0x2f5),c9(0x284),c9(0x372),'xx-large','larger','smaller','inherit',c9(0x315),'unset']},{'type':c9(0x1b7),'min':0x0},{'type':c9(0x282),'min':0x0},{'type':c9(0x3ca),'min':0x0}],'appliesTo':[c9(0x24b),'textPath',c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),'paced']},{'name':c9(0x2c2),'displayName':c9(0x3fa),'presentationAttributeName':c9(0x2c2),'initialValue':c9(0x323),'values':[{'type':c9(0x2af),'tokens':['normal',c9(0x23a),c9(0x3d0),c9(0x31f),'extra-condensed',c9(0x1b5),c9(0x28e),c9(0x20e),'expanded',c9(0x39d),c9(0x297),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b),c9(0x3b5),'tspan'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x1cd),'displayName':'#font-style','presentationAttributeName':'font-style','initialValue':'normal','values':[{'type':c9(0x2af),'tokens':[c9(0x323),'italic',c9(0x1eb),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':['text',c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x243),'displayName':'#font-variant','presentationAttributeName':'font-variant','initialValue':c9(0x323),'values':[{'type':c9(0x2af),'tokens':['normal',c9(0x36e),'inherit','initial',c9(0x3c0)]}],'appliesTo':['text','textPath',c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x2e0),'displayName':'#font-weight','presentationAttributeName':c9(0x2e0),'initialValue':c9(0x323),'values':[{'type':'number'},{'type':c9(0x2af),'tokens':[c9(0x323),c9(0x3ce),c9(0x213),c9(0x18f),c9(0x3a5),'initial','unset']}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'image-rendering','displayName':c9(0x2a2),'presentationAttributeName':c9(0x397),'initialValue':'auto','values':[{'type':c9(0x2af),'tokens':[c9(0x367),c9(0x369),c9(0x296),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x1fa)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x22a),'displayName':c9(0x1a9),'presentationAttributeName':null,'initialValue':c9(0x367),'values':[{'type':c9(0x2af),'tokens':[c9(0x37f),c9(0x367),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...u,c9(0x2ce),'g','a','use','symbol',c9(0x269),c9(0x3b5),c9(0x3fe)],'inheritable':!0x1,'animatable':!0x1},{'name':c9(0x386),'displayName':'#letter-spacing','presentationAttributeName':c9(0x386),'initialValue':'normal','values':[{'type':c9(0x1b7)},{'type':'length'},{'type':c9(0x2af),'tokens':[c9(0x323),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x166),'displayName':c9(0x2ad),'presentationAttributeName':c9(0x166),'initialValue':c9(0x336),'values':[{'type':c9(0x3c9)},{'type':'token','tokens':['currentColor','inherit','initial',c9(0x3c0)]}],'appliesTo':[c9(0x210),c9(0x358)],'inheritable':!0x1,'animatable':!0x0,'interpolation':['linear','spline',c9(0x1f4)]},{'name':c9(0x389),'displayName':'#line-height','presentationAttributeName':'line-height','initialValue':'normal','values':[{'type':c9(0x1b7),'min':0x0},{'type':c9(0x282),'min':0x0},{'type':'length','min':0x0},{'type':'token','tokens':[c9(0x323),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':['text',c9(0x3fe),c9(0x3b5),c9(0x3f6)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x269),'displayName':c9(0x29b),'presentationAttributeName':c9(0x269),'initialValue':c9(0x161),'values':[{'type':c9(0x3f1)},{'type':c9(0x2af),'tokens':[c9(0x161),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...p],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x208),'displayName':c9(0x3e6),'presentationAttributeName':c9(0x208),'initialValue':c9(0x161),'values':[{'type':'url'},{'type':c9(0x2af),'tokens':[c9(0x161),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...p],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x38f),'displayName':c9(0x218),'presentationAttributeName':c9(0x38f),'initialValue':c9(0x161),'values':[{'type':c9(0x3f1)},{'type':'token','tokens':[c9(0x161),'inherit','initial',c9(0x3c0)]}],'appliesTo':[...p],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x224),'displayName':c9(0x1fb),'presentationAttributeName':'marker-end','initialValue':c9(0x161),'values':[{'type':'url'},{'type':c9(0x2af),'tokens':[c9(0x161),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[...p],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3c6),'displayName':c9(0x173),'presentationAttributeName':c9(0x3c6),'initialValue':'none','values':[{'type':c9(0x3f1)},{'type':c9(0x2af),'tokens':[c9(0x161),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...u,'g','a',c9(0x2ce),c9(0x228)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x176),'displayName':c9(0x2aa),'presentationAttributeName':null,'initialValue':c9(0x323),'values':[{'type':c9(0x2af),'tokens':['normal',c9(0x232),c9(0x186),c9(0x276),c9(0x2da),c9(0x17e),c9(0x2b1),c9(0x2df),c9(0x1aa),c9(0x38e),'difference',c9(0x3ec),c9(0x1a6),c9(0x398),c9(0x3c9),c9(0x27b),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...u,'svg','g','a',c9(0x228),c9(0x1af),c9(0x269),c9(0x3b5),c9(0x3fe)],'inheritable':!0x1,'animatable':!0x1},{'name':c9(0x1df),'displayName':c9(0x31d),'presentationAttributeName':c9(0x1df),'initialValue':'1','values':[{'type':'number'},{'type':c9(0x2af),'tokens':[c9(0x3a5),'initial','unset']}],'appliesTo':[...u,c9(0x2ce),'g','a',c9(0x228),c9(0x1af),c9(0x269),c9(0x3b5),'tspan'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[c9(0x262),'spline',c9(0x1f4)]},{'name':c9(0x351),'displayName':c9(0x221),'presentationAttributeName':c9(0x351),'initialValue':c9(0x272),'values':[{'type':'token','tokens':[c9(0x272),c9(0x2c6),c9(0x27c),c9(0x367),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x2ce),'symbol',c9(0x2f6),'marker',c9(0x1fa)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x308),'displayName':c9(0x3cf),'presentationAttributeName':null,'initialValue':c9(0x323),'values':[{'type':c9(0x2af),'tokens':[c9(0x323)]},{'type':c9(0x353),'tokens':[c9(0x3f3),c9(0x340),c9(0x349)]}],'inheritable':!0x0,'appliesTo':[...m],'animatable':!0x1},{'name':'pointer-events','displayName':c9(0x30b),'presentationAttributeName':'pointer-events','initialValue':c9(0x367),'values':[{'type':c9(0x2af),'tokens':['bounding-box',c9(0x1a1),c9(0x1dc),'visibleStroke',c9(0x272),c9(0x25a),c9(0x3f3),c9(0x340),'all','none',c9(0x3a5),c9(0x315),c9(0x3c0)]}],'inheritable':!0x0,'appliesTo':[...u,'svg','g','a','use'],'animatable':!0x0,'interpolation':[]},{'name':c9(0x302),'displayName':c9(0x1e0),'presentationAttributeName':c9(0x302),'initialValue':c9(0x367),'values':[{'type':'token','tokens':[c9(0x367),c9(0x1f5),c9(0x2d2),c9(0x25f),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...p],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x260),'displayName':c9(0x234),'presentationAttributeName':'stop-color','initialValue':c9(0x395),'values':[{'type':c9(0x3c9)},{'type':c9(0x2af),'tokens':[c9(0x1c8),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x361)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x3c7),'displayName':c9(0x251),'presentationAttributeName':c9(0x3c7),'initialValue':'1','values':[{'type':c9(0x1b7)},{'type':c9(0x282)},{'type':c9(0x2af),'tokens':[c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':['stop'],'inheritable':!0x1,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x340),'displayName':c9(0x2ef),'presentationAttributeName':c9(0x340),'initialValue':c9(0x161),'values':[{'type':'color'},{'type':c9(0x3f1)},{'type':c9(0x2af),'tokens':[c9(0x161),'currentColor','inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),'spline',c9(0x1f4)]},{'name':c9(0x25e),'displayName':'#stroke-dash-array','presentationAttributeName':c9(0x25e),'initialValue':c9(0x161),'values':[{'type':c9(0x381)},{'type':c9(0x2af),'tokens':[c9(0x161),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c)]},{'name':c9(0x16c),'displayName':'#stroke-dash-offset','presentationAttributeName':c9(0x16c),'initialValue':'0','values':[{'type':c9(0x1b7)},{'type':'percentage'},{'type':'length'},{'type':c9(0x2af),'tokens':[c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':['linear',c9(0x19c),c9(0x1f4)]},{'name':'stroke-linecap','displayName':c9(0x314),'presentationAttributeName':c9(0x3a0),'initialValue':c9(0x34d),'values':[{'type':c9(0x2af),'tokens':[c9(0x34d),c9(0x401),c9(0x24a),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x1b3),'displayName':c9(0x2e9),'presentationAttributeName':c9(0x1b3),'initialValue':'miter','values':[{'type':'token','tokens':['miter',c9(0x401),c9(0x327),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x194),'displayName':c9(0x33a),'presentationAttributeName':c9(0x194),'initialValue':'4','values':[{'type':c9(0x1b7),'min':0x1},{'type':c9(0x2af),'tokens':[c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x26b),'displayName':'#stroke-opacity','presentationAttributeName':c9(0x26b),'initialValue':'1','values':[{'type':'number'},{'type':c9(0x282)},{'type':'token','tokens':[c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x279),'displayName':c9(0x313),'presentationAttributeName':c9(0x279),'initialValue':'1','values':[{'type':'number'},{'type':c9(0x282)},{'type':c9(0x3ca)},{'type':'token','tokens':[c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...m],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':'text-anchor','displayName':c9(0x3c3),'presentationAttributeName':c9(0x3db),'initialValue':c9(0x25b),'values':[{'type':c9(0x2af),'tokens':['start',c9(0x3da),c9(0x2ff),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':['text',c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x1b1),'displayName':'#text-decoration','presentationAttributeName':c9(0x1b1),'initialValue':c9(0x161),'values':[{'type':c9(0x353),'tokens':[c9(0x1b6),'overline',c9(0x29d)]},{'type':c9(0x2af),'tokens':['none',c9(0x3a5),'initial','unset']}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'text-rendering','displayName':'#text-rendering','presentationAttributeName':c9(0x2c0),'initialValue':c9(0x367),'values':[{'type':c9(0x2af),'tokens':[c9(0x367),'optimizeSpeed',c9(0x16d),c9(0x25f),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'text-transform','displayName':c9(0x3f8),'presentationAttributeName':null,'initialValue':c9(0x161),'values':[{'type':c9(0x2af),'tokens':[c9(0x310),c9(0x2f9),c9(0x207),c9(0x161),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b),'textPath',c9(0x3fe)],'inheritable':!0x0,'animatable':!0x1},{'name':c9(0x293),'displayName':c9(0x379),'presentationAttributeName':c9(0x293),'initialValue':'none','values':[{'type':c9(0x1ca)},{'type':'token','tokens':[c9(0x161)]}],'appliesTo':[c9(0x32e),c9(0x3f5),c9(0x3e7),c9(0x2b7),c9(0x2bd),c9(0x20b),c9(0x193),c9(0x1fa),c9(0x24b),c9(0x3fe),c9(0x228),'a','g',c9(0x2ce)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[c9(0x262),'spline']},{'name':c9(0x184),'displayName':c9(0x31a),'presentationAttributeName':null,'initialValue':'view-box','values':[{'type':c9(0x2af),'tokens':[c9(0x1e3),'border-box',c9(0x157),c9(0x329),c9(0x399)]}],'appliesTo':[c9(0x32e),'ellipse',c9(0x3e7),'path',c9(0x2bd),c9(0x20b),c9(0x193),c9(0x1fa),c9(0x24b),'tspan','use','a','g',c9(0x2ce)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x3ed),'displayName':c9(0x17a),'presentationAttributeName':c9(0x3ed),'initialValue':c9(0x1f2),'values':[{'type':'token','tokens':[c9(0x30e),c9(0x1e1),c9(0x2bc),c9(0x1ae),'bottom']},{'type':c9(0x3ca)}],'appliesTo':['circle','ellipse',c9(0x3e7),c9(0x2b7),c9(0x2bd),'polyline',c9(0x193),c9(0x1fa),c9(0x24b),c9(0x3fe),'use','a','g',c9(0x2ce)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'unicode-bidi','displayName':c9(0x225),'presentationAttributeName':c9(0x1d0),'initialValue':c9(0x323),'values':[{'type':c9(0x2af),'tokens':[c9(0x323),c9(0x2dc),c9(0x3e0),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b),c9(0x3b5),c9(0x3fe)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':c9(0x15a),'displayName':c9(0x26c),'presentationAttributeName':c9(0x15a),'initialValue':'none','values':[{'type':c9(0x2af),'tokens':[c9(0x19b),c9(0x161),'inherit',c9(0x315),c9(0x3c0)]}],'appliesTo':[...u,c9(0x228)],'inheritable':!0x1,'animatable':!0x0,'interpolation':[]},{'name':'visibility','displayName':c9(0x153),'presentationAttributeName':c9(0x20f),'initialValue':c9(0x272),'values':[{'type':'token','tokens':[c9(0x272),c9(0x2c6),c9(0x3a5),c9(0x315),'unset']}],'appliesTo':[...u,c9(0x24b),'textPath',c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':c9(0x30c),'displayName':'#word-spacing','presentationAttributeName':c9(0x30c),'initialValue':'normal','values':[{'type':c9(0x1b7)},{'type':'length'},{'type':c9(0x2af),'tokens':[c9(0x323),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':['text',c9(0x3b5),c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[c9(0x262),c9(0x19c),c9(0x1f4)]},{'name':c9(0x1f9),'displayName':'#white-space','presentationAttributeName':c9(0x1f9),'initialValue':c9(0x323),'values':[{'type':c9(0x2af),'tokens':['normal',c9(0x14d),c9(0x3e5),'pre-wrap',c9(0x253),c9(0x3a5),'initial',c9(0x3c0)]}],'appliesTo':[c9(0x24b),'textPath',c9(0x3fe)],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]},{'name':'will-change','displayName':c9(0x3c8),'initialValue':c9(0x367),'values':[{'type':'token','tokens':['auto',c9(0x3b2),c9(0x176),c9(0x37d),c9(0x1df),c9(0x293)]}],'appliesTo':[c9(0x193),c9(0x32e),c9(0x3f5),c9(0x3e7),c9(0x2b7),c9(0x2bd),c9(0x20b),'image',c9(0x24b),'tspan','use',c9(0x2ce),'a','g',c9(0x2ba)],'inheritable':!0x0,'animatable':!0x1},{'name':c9(0x375),'displayName':c9(0x330),'presentationAttributeName':c9(0x375),'initialValue':c9(0x301),'values':[{'type':c9(0x2af),'tokens':[c9(0x301),c9(0x179),c9(0x160),c9(0x3a5),c9(0x315),c9(0x3c0)]}],'appliesTo':[c9(0x24b),c9(0x3fe),'textPath'],'inheritable':!0x0,'animatable':!0x0,'interpolation':[]}];f[c9(0x3d2)](a7=>a7['presentationAttributeName'])[c9(0x37d)](a7=>a7);let b=(a7,a8=0x0)=>{const ca=c9;let a9=Math[ca(0x309)](0xa,a8);return Math[ca(0x401)]((a7+Number[ca(0x237)])*a9)/a9;};class g extends a3{get[c9(0x2a1)](){const cb=c9;return cb(0x252);}static['fromString'](a7,a8=!0x1){if(a8)return new g(a7);{let a9=null;try{a9=new g(a7);}catch(aa){}return a9;}}}let x=(a7,a8=!0x1)=>(a8?a7[c9(0x267)](a7[c9(0x177)]()):a7[c9(0x3dc)](a7[c9(0x195)]()),a7);const y=new Set(['Z','M','L','C','Q','A','H','V','S','T','z','m','l','c','q','a','h','v','s','t','R','U','N']);class v{#e;#t;#i;#a;[c9(0x242)](a7){const cc=c9;let a8=[];if(a7?.[cc(0x3ca)]>0x0&&(this.#e=a7,this.#t=0x0,this.#i=this.#e[cc(0x3ca)],this.#a=null,this.#n(),this.#s()))for(;this.#l();){let a9=this.#o();if(null===a9)break;a8[cc(0x3dc)](a9);}return a8;}#o(){const cd=c9;let a7=this.#e[this.#t],a8=y[cd(0x32f)](a7)?a7:null;if(null===a8){if(null===this.#a)return null;if(a8=('+'===a7||'-'===a7||'.'===a7||a7>='0'&&a7<='9')&&'Z'!==this.#a?'M'===this.#a?'L':'m'===this.#a?'l':this.#a:null,null===a8)return null;}else this.#t+=0x1;this.#a=a8;let a9=null,aa=a8[cd(0x1f3)]();return'H'===aa||'V'===aa?a9=[this.#r()]:'M'===aa||'L'===aa||'T'===aa||'R'===aa||'U'===aa?a9=[this.#r(),this.#r()]:'S'===aa||'Q'===aa?a9=[this.#r(),this.#r(),this.#r(),this.#r()]:'C'===aa?a9=[this.#r(),this.#r(),this.#r(),this.#r(),this.#r(),this.#r()]:'A'===aa?a9=[this.#r(),this.#r(),this.#r(),this.#p(),this.#p(),this.#r(),this.#r()]:'Z'===aa&&(this.#n(),a9=[]),null===a9||a9[cd(0x28d)](null)>=0x0?null:{'type':a8,'values':a9};}#l(){return this.#t<this.#i;}#h(){const cf=c9;let a7=this.#e[this.#t];return y[cf(0x32f)](a7)?a7:null;}#s(){if(!this.#l())return!0x0;let a7=this.#h();return'M'===a7||'m'===a7;}#u(){let a7=this.#e[this.#t];return a7<='\x20'&&('\x20'===a7||'\x0a'===a7||'\x09'===a7||'\x0d'===a7||'\x0c'===a7);}#n(){for(;this.#t<this.#i&&this.#u();)this.#t+=0x1;return this.#t<this.#i;}#m(){return!(this.#t<this.#i&&!this.#u()&&','!==this.#e[this.#t])&&(this.#n()&&this.#t<this.#i&&','===this.#e[this.#t]&&(this.#t+=0x1,this.#n()),this.#t<this.#i);}#r(){const cg=c9;let a7=0x0,a8=0x0,a9=0x1,aa=0x0,ab=0x1,ac=0x1,ad=this.#t;if(this.#n(),this.#t<this.#i&&'+'===this.#e[this.#t]?this.#t+=0x1:this.#t<this.#i&&'-'===this.#e[this.#t]&&(this.#t+=0x1,ab=-0x1),this.#t===this.#i||(this.#e[this.#t]<'0'||this.#e[this.#t]>'9')&&'.'!==this.#e[this.#t])return null;let af=this.#t;for(;this.#t<this.#i&&this.#e[this.#t]>='0'&&this.#e[this.#t]<='9';)this.#t+=0x1;if(this.#t!==af){let ah=this.#t-0x1,ai=0x1;for(;ah>=af;)a8+=ai*(this.#e[ah]-'0'),ah-=0x1,ai*=0xa;}if(this.#t<this.#i&&'.'===this.#e[this.#t]){if(this.#t+=0x1,this.#t>=this.#i||this.#e[this.#t]<'0'||this.#e[this.#t]>'9')return null;for(;this.#t<this.#i&&this.#e[this.#t]>='0'&&this.#e[this.#t]<='9';)a9*=0xa,aa+=(this.#e['charAt'](this.#t)-'0')/a9,this.#t+=0x1;}if(this.#t!==ad&&this.#t+0x1<this.#i&&('e'===this.#e[this.#t]||'E'===this.#e[this.#t])&&'x'!==this.#e[this.#t+0x1]&&'m'!==this.#e[this.#t+0x1]){if(this.#t+=0x1,'+'===this.#e[this.#t]?this.#t+=0x1:'-'===this.#e[this.#t]&&(this.#t+=0x1,ac=-0x1),this.#t>=this.#i||this.#e[this.#t]<'0'||this.#e[this.#t]>'9')return null;for(;this.#t<this.#i&&this.#e[this.#t]>='0'&&this.#e[this.#t]<='9';)a7*=0xa,a7+=this.#e[this.#t]-'0',this.#t+=0x1;}let ag=a8+aa;return ag*=ab,a7&&(ag*=Math[cg(0x309)](0xa,ac*a7)),ad===this.#t?null:(this.#m(),ag);}#p(){if(this.#t>=this.#i)return null;let a7=null,a8=this.#e[this.#t];if(this.#t+=0x1,'0'===a8)a7=0x0;else{if('1'!==a8)return null;a7=0x1;}return this.#m(),a7;}}const w={'arabic':c9(0x21a),'bengali':c9(0x347),'cyrillic':c9(0x156),'cyrillic-ext':c9(0x390),'devanagari':c9(0x215),'greek':'U+370-3FF','greek-ext':c9(0x3d1),'gujarati':c9(0x19a),'gurmukhi':'U+964-965,\x20U+A01-A75,\x20U+200C-200D,\x20U+20B9,\x20U+25CC,\x20U+262C,\x20U+A830-A839','hebrew':c9(0x1ce),'kannada':'U+964-965,\x20U+C82-CF2,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','khmer':c9(0x3ad),'latin':c9(0x300),'latin-ext':c9(0x382),'malayalam':'U+307,\x20U+323,\x20U+964-965,\x20U+D02-D7F,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','myanmar':c9(0x2d8),'oriya':c9(0x392),'sinhala':c9(0x15b),'tamil':'U+964-965,\x20U+B82-BFA,\x20U+200C-200D,\x20U+20B9,\x20U+25CC','thai':c9(0x22e),'telugu':c9(0x2e6),'tibetan':c9(0x14f),'vietnamese':c9(0x1c2)};let k=document['createElement'](c9(0x1e7)),N=(a7,...a8)=>{const ch=c9;let a9=[];for(let ac=0x0;ac<a7[ch(0x3ca)];ac+=0x1)a9[ch(0x3dc)](a7[ac]),void 0x0!==a8[ac]&&a9[ch(0x3dc)](a8[ac]);let aa=a9[ch(0x344)]('');k['innerHTML']=aa;let ab=document[ch(0x356)](k[ch(0x3b2)],!0x0);return 0x1===ab[ch(0x2ac)]['length']?ab['firstElementChild']:ab;},U=(a7,...a8)=>{const ci=c9;let a9=[];for(let ac=0x0;ac<a7[ci(0x3ca)];ac+=0x1)a9[ci(0x3dc)](a7[ac]),void 0x0!==a8[ac]&&a9[ci(0x3dc)](a8[ac]);let aa=a9[ci(0x344)](''),ab=new CSSStyleSheet();return ab[ci(0x39e)](aa),ab;};new class{#d;#c=null;#f={};constructor(){const cj=c9;this.#d=new a5(cj(0x1f1)),this.#d[cj(0x2a9)](0x1)[cj(0x3e9)]({'cache':'family'});}[c9(0x3fc)](a7='',a8=c9(0x21f),a9=c9(0x3a6),aa=c9(0x3a6),ab=c9(0x3a6)){return new Promise(async ac=>{const ck=a1;await this.#b();let ad=[],af=this.#d[ck(0x2cc)];''!==a7[ck(0x2b9)]()&&(af=af[ck(0x37d)](ag=>ag['family']['toLowerCase']()[ck(0x29a)](a7['trim']()[ck(0x2e8)]()))),'all'!==a9&&(af=af[ck(0x37d)](ag=>ag[ck(0x263)]===a9)),ck(0x3a6)!==aa&&(af=af[ck(0x37d)](ag=>ag[ck(0x1d3)][ck(0x29a)](aa))),ad=await af['toArray'](),'date'===a8?ad=ad[ck(0x283)]((ag,ah)=>ag[ck(0x1e5)]>ah[ck(0x1e5)]?-0x1:0x1):ck(0x285)===a8?ad=ad['sort']((ag,ah)=>ag[ck(0x373)]>ah['popularityRank']?-0x1:0x1):ck(0x360)===a8&&(ad=ad[ck(0x283)]((ag,ah)=>ag[ck(0x380)]>ah[ck(0x380)]?-0x1:0x1)),ck(0x3a6)!==ab&&(ad=ad[ck(0x1cb)](0x28*ab,0x28*(ab+0x1))),ac(ad);});}[c9(0x2f7)](){return new Promise(async(a7,a8)=>{const cl=a1;let a9;null===this.#c&&(this.#c=new a6[(cl(0x3f7))]({'apiKey':cl(0x1ec),'connectionTimeoutSeconds':0x5,'nodes':[{'host':cl(0x352),'port':'443','protocol':cl(0x2ea)}]}));try{a9=await this.#c[cl(0x320)]('googleFonts')[cl(0x387)]()[cl(0x1d7)]();}catch(ab){return a8(ab);}let aa=a9[cl(0x32d)]('\x0a')[cl(0x3d2)](ac=>JSON['parse'](ac))[cl(0x3d2)](ac=>({'family':ac['family'],'faces':ac[cl(0x226)],'category':ac[cl(0x263)],'subsets':ac[cl(0x1d3)],'license':ac[cl(0x2c3)],'thumbnail':ac[cl(0x3f2)],'urls':ac[cl(0x14e)],'dateRank':ac[cl(0x1e5)],'popularityRank':ac[cl(0x373)],'trendingRank':ac[cl(0x380)],'pageURL':cl(0x362)+ac['id'],'cachedTime':Date[cl(0x28c)]()}));await this.#d[cl(0x2cc)]['clear'](),await this.#d['cache'][cl(0x288)](aa),a7();});}[c9(0x247)](a7,a8=!0x1){return new Promise(async a9=>{const cm=a1;let aa=[];if(await this.#b(),a8){let ab=await this.#g(a7);for(let ac of ab['cssRules'])ac['type']===CSSRule[cm(0x36b)]&&aa[cm(0x3dc)](ac);}else{let ad=[],af=new URL(a7),ag=af[cm(0x19f)][cm(0x294)](cm(0x287))||cm(0x367);if(a7[cm(0x189)](cm(0x30d))){let ah=af[cm(0x19f)][cm(0x294)](cm(0x3ae));ah[cm(0x32d)]('|'),af['searchParams']['get']('subset');let ai={'regular':'400','bold':cm(0x30f),'italic':cm(0x3ba),'bolditalic':cm(0x18d),'r':cm(0x1b2),'b':'700','i':'400italic'};for(let aj of ah[cm(0x32d)]('|')){let ak=[],[al,am]=aj[cm(0x32d)](':');for(let an of am[cm(0x32d)](','))an=ai[an]||an,ak[cm(0x3dc)](an);ad[cm(0x3dc)]({'family':al,'faceNames':ak});}}else{if(a7[cm(0x189)](cm(0x3d6))){let ao=af[cm(0x19f)][cm(0x270)](cm(0x3ae));for(let ap of ao){let [aq,ar]=ap[cm(0x32d)](':');if(void 0x0===ar)ad[cm(0x3dc)]({'family':aq,'faceNames':[cm(0x1b2)]});else{let as=[],[at,au]=ar['split']('@'),av=at['split'](','),aw=au[cm(0x32d)](';');for(let ax of aw){let ay={'wght':cm(0x1b2),'ital':'0'};for(let az=0x0;az<av['length'];az+=0x1){ay[av[az]]=ax[cm(0x32d)](',')[az];}as[cm(0x3dc)](ay['wght']+('1'===ay[cm(0x3aa)]?cm(0x3fd):''));}ad['push']({'family':aq,'faceNames':as});}}}}{let aA=this.#d[cm(0x2cc)];for(let {family:aB,faceNames:aC}of ad){let aD=await aA[cm(0x294)]({'family':aB});if(aD)for(let aE of aC){let aF=aD['urls'][aE];if(aF){let aG=aE[cm(0x152)](0x0,0x3),aH=aE['includes'](cm(0x3fd))?cm(0x3fd):cm(0x323),aI=[];for(let aL of aD[cm(0x1d3)])w[aL]&&aI[cm(0x3dc)](w[aL]);0x0===aI[cm(0x3ca)]&&(aI='U+0-10FFFF');let aJ=aI[cm(0x344)](','),aK=U`
+import a2 from "/libs/xel/xel.js";
+import a3 from "/libs/color/color.js";
+import "/libs/css-parser/css-parser.js";
+import a4 from "/libs/paper/paper.js";
+import "/libs/seed-random/seed-random.js";
+import "/libs/dom-purify/dom-purify.js";
+import a5 from "/libs/dexie/dexie.js";
+import a6 from "/libs/typesense/typesense.js";
+import "/libs/pako/pako.js";
+const s = "https://boxy-svg.com";
+const l = "http://www.w3.org/2000/svg";
+const o = "http://www.w3.org/1999/xlink";
+const r = "http://www.w3.org/2000/xmlns/";
+const p = ["circle", "ellipse", "line", "path", "polygon", "polyline", "rect"];
+const h = ["text", "textPath", "tspan"];
+const u = [...p, ...h, "foreignObject", "image"];
+const m = [...p, ...h];
+const d = [...p, "text", "use"];
+const c = [...u, "clipPath", "a", "g", "use"];
+const f = [
+  {
+    name: "alignment-baseline",
+    displayName: "#alignment-baseline",
+    presentationAttributeName: "alignment-baseline",
+    initialValue: "baseline",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "baseline",
+          "text-bottom",
+          "alphabetic",
+          "ideographic",
+          "middle",
+          "central",
+          "mathematical",
+          "text-top",
+          "bottom",
+          "center",
+          "top",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "baseline-shift",
+    displayName: "#baseline-shift",
+    presentationAttributeName: "baseline-shift",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["sub", "super", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-path",
+    displayName: "#clip-path",
+    presentationAttributeName: "clip-path",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "fill-box",
+          "stroke-box",
+          "view-box",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...u, "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "clip-rule",
+    displayName: "#clip-rule",
+    presentationAttributeName: "clip-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color",
+    displayName: "#color",
+    presentationAttributeName: "color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "color-interpolation",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation",
+    initialValue: "sRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...u,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "linearGradient",
+      "radialGradient",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "color-interpolation-filters",
+    displayName: "#color-interpolation",
+    presentationAttributeName: "color-interpolation-filters",
+    initialValue: "linearRGB",
+    values: [
+      {
+        type: "token",
+        tokens: ["auto", "sRGB", "linearRGB", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      "feBlend",
+      "feColorMatrix",
+      "feComponentTransfer",
+      "feComposite",
+      "feConvolveMatrix",
+      "feDiffuseLighting",
+      "feDisplacementMap",
+      "feDropShadow",
+      "feGaussianBlur",
+      "feMerge",
+      "feMorphology",
+      "feSpecularLighting",
+      "feTurbulence",
+    ],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "cursor",
+    displayName: "#cursor",
+    presentationAttributeName: "cursor",
+    initialValue: "auto",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: [
+          "context-menu",
+          "help",
+          "pointer",
+          "progress",
+          "wait ",
+          "cell",
+          "crosshair",
+          "text",
+          "vertical-text",
+          "alias",
+          "copy",
+          "move",
+          "no-drop",
+          "not-allowed",
+          "grab",
+          "grabbing",
+          "e-resize",
+          "n-resize",
+          "ne-resize",
+          "nw-resize",
+          "s-resize",
+          "se-resize",
+          "sw-resize",
+          "w-resize",
+          "ew-resize",
+          "ns-resize",
+          "nesw-resize",
+          "nwse-resize",
+          "col-resize",
+          "row-resize",
+          "all-scroll",
+          "zoom-in",
+          "zoom-out",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...u, "svg", "g", "a", "use"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "direction",
+    displayName: "#direction",
+    presentationAttributeName: "direction",
+    initialValue: "ltr",
+    values: [
+      {
+        type: "token",
+        tokens: ["ltr", "rtl", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "display",
+    displayName: "#display",
+    presentationAttributeName: "display",
+    initialValue: "inline",
+    values: [
+      {
+        type: "token",
+        tokens: ["none", "inline", "block", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "textPath", "tspan", "svg", "g", "a", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "dominant-baseline",
+    displayName: "#dominant-baseline",
+    presentationAttributeName: "dominant-baseline",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "use-script",
+          "no-change",
+          "reset-size",
+          "ideographic",
+          "alphabetic",
+          "hanging",
+          "mathematical",
+          "central",
+          "middle",
+          "text-after-edge",
+          "text-before-edge",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "fill",
+    displayName: "#fill",
+    presentationAttributeName: "fill",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-opacity",
+    displayName: "#fill-opacity",
+    presentationAttributeName: "fill-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "fill-rule",
+    displayName: "#fill-rule",
+    presentationAttributeName: "fill-rule",
+    initialValue: "nonzero",
+    values: [
+      {
+        type: "token",
+        tokens: ["nonzero", "evenodd", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "filter",
+    displayName: "#filter",
+    presentationAttributeName: "filter",
+    initialValue: "none",
+    values: [
+      {
+        type: "filter-function-list",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "textPath", "tspan", "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "flood-color",
+    displayName: "#flood-color",
+    presentationAttributeName: "flood-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "flood-opacity",
+    displayName: "#flood-opacity",
+    presentationAttributeName: "flood-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feFlood"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font",
+    displayName: "#font",
+    presentationAttributeName: "font",
+    initialValue: null,
+    values: [
+      {
+        type: "font",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-family",
+    displayName: "#font-family",
+    presentationAttributeName: "font-family",
+    initialValue: null,
+    values: [
+      {
+        type: "font-family",
+      },
+      {
+        type: "token",
+        tokens: [
+          "cursive",
+          "fantasy",
+          "monospace",
+          "sans-serif",
+          "serif",
+          "system-ui",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-size",
+    displayName: "#font-size",
+    presentationAttributeName: "font-size",
+    initialValue: "medium",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "xx-small",
+          "x-small",
+          "small",
+          "medium",
+          "large",
+          "x-large",
+          "xx-large",
+          "larger",
+          "smaller",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "font-stretch",
+    displayName: "#font-stretch",
+    presentationAttributeName: "font-stretch",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "wider",
+          "narrower",
+          "ultra-condensed",
+          "extra-condensed",
+          "condensed",
+          "semi-condensed",
+          "semi-expanded",
+          "expanded",
+          "extra-expanded",
+          "ultra-expanded",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-style",
+    displayName: "#font-style",
+    presentationAttributeName: "font-style",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "italic", "oblique", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-variant",
+    displayName: "#font-variant",
+    presentationAttributeName: "font-variant",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal", "small-caps", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "font-weight",
+    displayName: "#font-weight",
+    presentationAttributeName: "font-weight",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "bold",
+          "bolder",
+          "lighter",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "image-rendering",
+    displayName: "#image-rendering",
+    presentationAttributeName: "image-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "pixelated",
+          "crisp-edges",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["image"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "isolation",
+    displayName: "#isolation",
+    presentationAttributeName: null,
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: ["isolate", "auto", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...u,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "letter-spacing",
+    displayName: "#letter-spacing",
+    presentationAttributeName: "letter-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "lighting-color",
+    displayName: "#lighting-color",
+    presentationAttributeName: "lighting-color",
+    initialValue: "#fff",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["feDiffuseLighting", "feSpecularLighting"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "line-height",
+    displayName: "#line-height",
+    presentationAttributeName: "line-height",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+        min: 0,
+      },
+      {
+        type: "percentage",
+        min: 0,
+      },
+      {
+        type: "length",
+        min: 0,
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath", "text a"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "marker",
+    displayName: "#marker",
+    presentationAttributeName: "marker",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...p],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-start",
+    displayName: "#start-marker",
+    presentationAttributeName: "marker-start",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...p],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-mid",
+    displayName: "#mid-marker",
+    presentationAttributeName: "marker-mid",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...p],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "marker-end",
+    displayName: "#end-marker",
+    presentationAttributeName: "marker-end",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...p],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mask",
+    displayName: "#mask",
+    presentationAttributeName: "mask",
+    initialValue: "none",
+    values: [
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "g", "a", "svg", "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "mix-blend-mode",
+    displayName: "#blend-mode",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "multiply",
+          "screen",
+          "overlay",
+          "darken",
+          "lighten",
+          "color-dodge",
+          "color-burn",
+          "hard-light",
+          "soft-light",
+          "difference",
+          "exclusion",
+          "hue",
+          "saturation",
+          "color",
+          "luminosity",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [
+      ...u,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: false,
+  },
+  {
+    name: "opacity",
+    displayName: "#opacity",
+    presentationAttributeName: "opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [
+      ...u,
+      "svg",
+      "g",
+      "a",
+      "use",
+      "symbol",
+      "marker",
+      "textPath",
+      "tspan",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "overflow",
+    displayName: "#overflow",
+    presentationAttributeName: "overflow",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "visible",
+          "hidden",
+          "scroll",
+          "auto",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["svg", "symbol", "pattern", "marker", "image"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "paint-order",
+    displayName: "#paint-order",
+    presentationAttributeName: null,
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: ["normal"],
+      },
+      {
+        type: "token-list",
+        tokens: ["fill", "stroke", "markers"],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...m],
+    animatable: false,
+  },
+  {
+    name: "pointer-events",
+    displayName: "#pointer-events",
+    presentationAttributeName: "pointer-events",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "bounding-box",
+          "visiblePainted",
+          "visibleFill",
+          "visibleStroke",
+          "visible",
+          "painted",
+          "fill",
+          "stroke",
+          "all",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    inheritable: true,
+    appliesTo: [...u, "svg", "g", "a", "use"],
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "shape-rendering",
+    displayName: "#shape-rendering",
+    presentationAttributeName: "shape-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "crispEdges",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: [...p],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stop-color",
+    displayName: "#stop-color",
+    presentationAttributeName: "stop-color",
+    initialValue: "#000",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "token",
+        tokens: ["currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stop-opacity",
+    displayName: "#stop-opacity",
+    presentationAttributeName: "stop-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["stop"],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke",
+    displayName: "#stroke",
+    presentationAttributeName: "stroke",
+    initialValue: "none",
+    values: [
+      {
+        type: "color",
+      },
+      {
+        type: "url",
+      },
+      {
+        type: "token",
+        tokens: ["none", "currentColor", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-dasharray",
+    displayName: "#stroke-dash-array",
+    presentationAttributeName: "stroke-dasharray",
+    initialValue: "none",
+    values: [
+      {
+        type: "dasharray",
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "stroke-dashoffset",
+    displayName: "#stroke-dash-offset",
+    presentationAttributeName: "stroke-dashoffset",
+    initialValue: "0",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-linecap",
+    displayName: "#stroke-line-cap",
+    presentationAttributeName: "stroke-linecap",
+    initialValue: "butt",
+    values: [
+      {
+        type: "token",
+        tokens: ["butt", "round", "square", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-linejoin",
+    displayName: "#stroke-line-join",
+    presentationAttributeName: "stroke-linejoin",
+    initialValue: "miter",
+    values: [
+      {
+        type: "token",
+        tokens: ["miter", "round", "bevel", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "stroke-miterlimit",
+    displayName: "#stroke-miter-limit",
+    presentationAttributeName: "stroke-miterlimit",
+    initialValue: "4",
+    values: [
+      {
+        type: "number",
+        min: 1,
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-opacity",
+    displayName: "#stroke-opacity",
+    presentationAttributeName: "stroke-opacity",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "stroke-width",
+    displayName: "#stroke-width",
+    presentationAttributeName: "stroke-width",
+    initialValue: "1",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "percentage",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...m],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "text-anchor",
+    displayName: "#text-anchor",
+    presentationAttributeName: "text-anchor",
+    initialValue: "start",
+    values: [
+      {
+        type: "token",
+        tokens: ["start", "middle", "end", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-decoration",
+    displayName: "#text-decoration",
+    presentationAttributeName: "text-decoration",
+    initialValue: "none",
+    values: [
+      {
+        type: "token-list",
+        tokens: ["underline", "overline", "line-through"],
+      },
+      {
+        type: "token",
+        tokens: ["none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-rendering",
+    displayName: "#text-rendering",
+    presentationAttributeName: "text-rendering",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "optimizeSpeed",
+          "optimizeLegibility",
+          "geometricPrecision",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "text-transform",
+    displayName: "#text-transform",
+    presentationAttributeName: null,
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "capitalize",
+          "uppercase",
+          "lowercase",
+          "none",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "transform",
+    displayName: "#transform",
+    presentationAttributeName: "transform",
+    initialValue: "none",
+    values: [
+      {
+        type: "transform-list",
+      },
+      {
+        type: "token",
+        tokens: ["none"],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: ["linear", "spline"],
+  },
+  {
+    name: "transform-box",
+    displayName: "#transform-box",
+    presentationAttributeName: null,
+    initialValue: "view-box",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "content-box",
+          "border-box",
+          "fill-box",
+          "stroke-box",
+          "view-box",
+        ],
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "transform-origin",
+    displayName: "#transform-origin",
+    presentationAttributeName: "transform-origin",
+    initialValue: "0 0",
+    values: [
+      {
+        type: "token",
+        tokens: ["left", "center", "right", "top", "bottom"],
+      },
+      {
+        type: "length",
+      },
+    ],
+    appliesTo: [
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "rect",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "a",
+      "g",
+      "svg",
+    ],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "unicode-bidi",
+    displayName: "#unicode-bidi",
+    presentationAttributeName: "unicode-bidi",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "embed",
+          "bidi-override",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "vector-effect",
+    displayName: "#vector-effect",
+    presentationAttributeName: "vector-effect",
+    initialValue: "none",
+    values: [
+      {
+        type: "token",
+        tokens: ["non-scaling-stroke", "none", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "use"],
+    inheritable: false,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "visibility",
+    displayName: "#visibility",
+    presentationAttributeName: "visibility",
+    initialValue: "visible",
+    values: [
+      {
+        type: "token",
+        tokens: ["visible", "hidden", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: [...u, "text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "word-spacing",
+    displayName: "#word-spacing",
+    presentationAttributeName: "word-spacing",
+    initialValue: "normal",
+    values: [
+      {
+        type: "number",
+      },
+      {
+        type: "length",
+      },
+      {
+        type: "token",
+        tokens: ["normal", "inherit", "initial", "unset"],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: ["linear", "spline", "paced"],
+  },
+  {
+    name: "white-space",
+    displayName: "#white-space",
+    presentationAttributeName: "white-space",
+    initialValue: "normal",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "normal",
+          "pre",
+          "nowrap",
+          "pre-wrap",
+          "pre-line",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "textPath", "tspan"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+  {
+    name: "will-change",
+    displayName: "#will-change",
+    initialValue: "auto",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "auto",
+          "content",
+          "mix-blend-mode",
+          "filter",
+          "opacity",
+          "transform",
+        ],
+      },
+    ],
+    appliesTo: [
+      "rect",
+      "circle",
+      "ellipse",
+      "line",
+      "path",
+      "polygon",
+      "polyline",
+      "image",
+      "text",
+      "tspan",
+      "use",
+      "svg",
+      "a",
+      "g",
+      "foreignObject",
+    ],
+    inheritable: true,
+    animatable: false,
+  },
+  {
+    name: "writing-mode",
+    displayName: "#writing-mode",
+    presentationAttributeName: "writing-mode",
+    initialValue: "horizontal-tb",
+    values: [
+      {
+        type: "token",
+        tokens: [
+          "horizontal-tb",
+          "vertical-lr",
+          "vertical-rl",
+          "inherit",
+          "initial",
+          "unset",
+        ],
+      },
+    ],
+    appliesTo: ["text", "tspan", "textPath"],
+    inheritable: true,
+    animatable: true,
+    interpolation: [],
+  },
+];
+f.map((a7) => a7.presentationAttributeName).filter((a7) => a7);
+let b = (a7, a8 = 0) => {
+  let a9 = Math.pow(10, a8);
+  return Math.round((a7 + Number.EPSILON) * a9) / a9;
+};
+class g extends a3 {
+  get type() {
+    return "<color>";
+  }
+  static fromString(a7, a8 = false) {
+    if (a8) {
+      return new g(a7);
+    }
+    {
+      let a9 = null;
+      try {
+        a9 = new g(a7);
+      } catch (aa) {}
+      return a9;
+    }
+  }
+}
+let x = (a7, a8 = false) => {
+  if (a8) {
+    a7.unshift(a7.pop());
+  } else {
+    a7.push(a7.shift());
+  }
+  return a7;
+};
+const y = new Set([
+  "Z",
+  "M",
+  "L",
+  "C",
+  "Q",
+  "A",
+  "H",
+  "V",
+  "S",
+  "T",
+  "z",
+  "m",
+  "l",
+  "c",
+  "q",
+  "a",
+  "h",
+  "v",
+  "s",
+  "t",
+  "R",
+  "U",
+  "N",
+]);
+class v {
+  #e;
+  #t;
+  #i;
+  #a;
+  parse(a7) {
+    let a8 = [];
+    if (
+      a7?.length > 0 &&
+      ((this.#e = a7),
+      (this.#t = 0),
+      (this.#i = this.#e.length),
+      (this.#a = null),
+      this.#n(),
+      this.#s())
+    ) {
+      while (this.#l()) {
+        let a9 = this.#o();
+        if (a9 === null) {
+          break;
+        }
+        a8.push(a9);
+      }
+    }
+    return a8;
+  }
+  #o() {
+    let a7 = this.#e[this.#t];
+    let a8 = y.has(a7) ? a7 : null;
+    if (a8 === null) {
+      if (this.#a === null) {
+        return null;
+      }
+      a8 =
+        (a7 === "+" || a7 === "-" || a7 === "." || (a7 >= "0" && a7 <= "9")) &&
+        this.#a !== "Z"
+          ? this.#a === "M"
+            ? "L"
+            : this.#a === "m"
+            ? "l"
+            : this.#a
+          : null;
+      if (a8 === null) {
+        return null;
+      }
+    } else {
+      this.#t += 1;
+    }
+    this.#a = a8;
+    let a9 = null;
+    let aa = a8.toUpperCase();
+    if (aa === "H" || aa === "V") {
+      a9 = [this.#r()];
+    } else if (
+      aa === "M" ||
+      aa === "L" ||
+      aa === "T" ||
+      aa === "R" ||
+      aa === "U"
+    ) {
+      a9 = [this.#r(), this.#r()];
+    } else if (aa === "S" || aa === "Q") {
+      a9 = [this.#r(), this.#r(), this.#r(), this.#r()];
+    } else if (aa === "C") {
+      a9 = [this.#r(), this.#r(), this.#r(), this.#r(), this.#r(), this.#r()];
+    } else if (aa === "A") {
+      a9 = [
+        this.#r(),
+        this.#r(),
+        this.#r(),
+        this.#p(),
+        this.#p(),
+        this.#r(),
+        this.#r(),
+      ];
+    } else if (aa === "Z") {
+      this.#n();
+      a9 = [];
+    }
+    if (a9 === null || a9.indexOf(null) >= 0) {
+      return null;
+    } else {
+      return {
+        type: a8,
+        values: a9,
+      };
+    }
+  }
+  #l() {
+    return this.#t < this.#i;
+  }
+  #h() {
+    let a7 = this.#e[this.#t];
+    if (y.has(a7)) {
+      return a7;
+    } else {
+      return null;
+    }
+  }
+  #s() {
+    if (!this.#l()) {
+      return true;
+    }
+    let a7 = this.#h();
+    return a7 === "M" || a7 === "m";
+  }
+  #u() {
+    let a7 = this.#e[this.#t];
+    return (
+      a7 <= " " &&
+      (a7 === " " || a7 === "\n" || a7 === "\t" || a7 === "\r" || a7 === "\f")
+    );
+  }
+  #n() {
+    while (this.#t < this.#i && this.#u()) {
+      this.#t += 1;
+    }
+    return this.#t < this.#i;
+  }
+  #m() {
+    return (
+      (this.#t >= this.#i || !!this.#u() || this.#e[this.#t] === ",") &&
+      (this.#n() &&
+        this.#t < this.#i &&
+        this.#e[this.#t] === "," &&
+        ((this.#t += 1), this.#n()),
+      this.#t < this.#i)
+    );
+  }
+  #r() {
+    let a7 = 0;
+    let a8 = 0;
+    let a9 = 1;
+    let aa = 0;
+    let ab = 1;
+    let ac = 1;
+    let ad = this.#t;
+    this.#n();
+    if (this.#t < this.#i && this.#e[this.#t] === "+") {
+      this.#t += 1;
+    } else if (this.#t < this.#i && this.#e[this.#t] === "-") {
+      this.#t += 1;
+      ab = -1;
+    }
+    if (
+      this.#t === this.#i ||
+      ((this.#e[this.#t] < "0" || this.#e[this.#t] > "9") &&
+        this.#e[this.#t] !== ".")
+    ) {
+      return null;
+    }
+    let af = this.#t;
+    while (
+      this.#t < this.#i &&
+      this.#e[this.#t] >= "0" &&
+      this.#e[this.#t] <= "9"
+    ) {
+      this.#t += 1;
+    }
+    if (this.#t !== af) {
+      let ah = this.#t - 1;
+      let ai = 1;
+      while (ah >= af) {
+        a8 += ai * (this.#e[ah] - "0");
+        ah -= 1;
+        ai *= 10;
+      }
+    }
+    if (this.#t < this.#i && this.#e[this.#t] === ".") {
+      this.#t += 1;
+      if (
+        this.#t >= this.#i ||
+        this.#e[this.#t] < "0" ||
+        this.#e[this.#t] > "9"
+      ) {
+        return null;
+      }
+      while (
+        this.#t < this.#i &&
+        this.#e[this.#t] >= "0" &&
+        this.#e[this.#t] <= "9"
+      ) {
+        a9 *= 10;
+        aa += (this.#e.charAt(this.#t) - "0") / a9;
+        this.#t += 1;
+      }
+    }
+    if (
+      this.#t !== ad &&
+      this.#t + 1 < this.#i &&
+      (this.#e[this.#t] === "e" || this.#e[this.#t] === "E") &&
+      this.#e[this.#t + 1] !== "x" &&
+      this.#e[this.#t + 1] !== "m"
+    ) {
+      this.#t += 1;
+      if (this.#e[this.#t] === "+") {
+        this.#t += 1;
+      } else if (this.#e[this.#t] === "-") {
+        this.#t += 1;
+        ac = -1;
+      }
+      if (
+        this.#t >= this.#i ||
+        this.#e[this.#t] < "0" ||
+        this.#e[this.#t] > "9"
+      ) {
+        return null;
+      }
+      while (
+        this.#t < this.#i &&
+        this.#e[this.#t] >= "0" &&
+        this.#e[this.#t] <= "9"
+      ) {
+        a7 *= 10;
+        a7 += this.#e[this.#t] - "0";
+        this.#t += 1;
+      }
+    }
+    let ag = a8 + aa;
+    ag *= ab;
+    if (a7) {
+      ag *= Math.pow(10, ac * a7);
+    }
+    if (ad === this.#t) {
+      return null;
+    } else {
+      this.#m();
+      return ag;
+    }
+  }
+  #p() {
+    if (this.#t >= this.#i) {
+      return null;
+    }
+    let a7 = null;
+    let a8 = this.#e[this.#t];
+    this.#t += 1;
+    if (a8 === "0") {
+      a7 = 0;
+    } else {
+      if (a8 !== "1") {
+        return null;
+      }
+      a7 = 1;
+    }
+    this.#m();
+    return a7;
+  }
+}
+const w = {
+  arabic:
+    "U+600-6FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC",
+  bengali: "U+964-965, U+981-9FB, U+200C-200D, U+20B9, U+25CC",
+  cyrillic: "U+400-45F, U+490-491, U+4B0-4B1, U+2116",
+  "cyrillic-ext":
+    "U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+  devanagari:
+    "U+900-97F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB",
+  greek: "U+370-3FF",
+  "greek-ext": "U+1F00-1FFF",
+  gujarati: "U+964-965, U+A80-AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839",
+  gurmukhi:
+    "U+964-965, U+A01-A75, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839",
+  hebrew: "U+590-5FF, U+20AA, U+25CC, U+FB1D-FB4F",
+  kannada: "U+964-965, U+C82-CF2, U+200C-200D, U+20B9, U+25CC",
+  khmer: "U+1780-17FF, U+200C, U+25CC",
+  latin:
+    "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+  "latin-ext":
+    "U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+  malayalam: "U+307, U+323, U+964-965, U+D02-D7F, U+200C-200D, U+20B9, U+25CC",
+  myanmar: "U+1000-109F, U+200C-200D, U+25CC",
+  oriya: "U+964-965, U+B01-B77, U+200C-200D, U+20B9, U+25CC",
+  sinhala: "U+964-965, U+D82-DF4, U+200C-200D, U+25CC",
+  tamil: "U+964-965, U+B82-BFA, U+200C-200D, U+20B9, U+25CC",
+  thai: "U+E01-E5B, U+200C-200D, U+25CC",
+  telugu: "U+951-952, U+964-965, U+C00-C7F, U+1CDA, U+200C-200D, U+25CC",
+  tibetan: "U+F00-FFF, U+200C-200D, U+25CC",
+  vietnamese:
+    "U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB",
+};
+let k = document.createElement("template");
+let N = (a7, ...a8) => {
+  let a9 = [];
+  for (let ac = 0; ac < a7.length; ac += 1) {
+    a9.push(a7[ac]);
+    if (a8[ac] !== undefined) {
+      a9.push(a8[ac]);
+    }
+  }
+  let aa = a9.join("");
+  k.innerHTML = aa;
+  let ab = document.importNode(k.content, true);
+  if (ab.children.length === 1) {
+    return ab.firstElementChild;
+  } else {
+    return ab;
+  }
+};
+let U = (a7, ...a8) => {
+  let a9 = [];
+  for (let ac = 0; ac < a7.length; ac += 1) {
+    a9.push(a7[ac]);
+    if (a8[ac] !== undefined) {
+      a9.push(a8[ac]);
+    }
+  }
+  let aa = a9.join("");
+  let ab = new CSSStyleSheet();
+  ab.replaceSync(aa);
+  return ab;
+};
+new (class {
+  #d;
+  #c = null;
+  #f = {};
+  constructor() {
+    this.#d = new a5("GoogleFontsManager");
+    this.#d.version(1).stores({
+      cache: "family",
+    });
+  }
+  search(a7 = "", a8 = "alphabetical", a9 = "all", aa = "all", ab = "all") {
+    return new Promise(async (ac) => {
+      await this.#b();
+      let ad = [];
+      let af = this.#d.cache;
+      if (a7.trim() !== "") {
+        af = af.filter((ag) =>
+          ag.family.toLowerCase().includes(a7.trim().toLowerCase())
+        );
+      }
+      if (a9 !== "all") {
+        af = af.filter((ag) => ag.category === a9);
+      }
+      if (aa !== "all") {
+        af = af.filter((ag) => ag.subsets.includes(aa));
+      }
+      ad = await af.toArray();
+      if (a8 === "date") {
+        ad = ad.sort((ag, ah) => (ag.dateRank > ah.dateRank ? -1 : 1));
+      } else if (a8 === "popularity") {
+        ad = ad.sort((ag, ah) =>
+          ag.popularityRank > ah.popularityRank ? -1 : 1
+        );
+      } else if (a8 === "trending") {
+        ad = ad.sort((ag, ah) => (ag.trendingRank > ah.trendingRank ? -1 : 1));
+      }
+      if (ab !== "all") {
+        ad = ad.slice(ab * 40, (ab + 1) * 40);
+      }
+      ac(ad);
+    });
+  }
+  refresh() {
+    return new Promise(async (a7, a8) => {
+      let a9;
+      if (this.#c === null) {
+        this.#c = new a6.Client({
+          apiKey: "ML0qIC62dFtk9Oro0x9Ps3IbO6Tgv5jL",
+          connectionTimeoutSeconds: 5,
+          nodes: [
+            {
+              host: "92f3tewguhsn8o0qp.a1.typesense.net",
+              port: "443",
+              protocol: "https",
+            },
+          ],
+        });
+      }
+      try {
+        a9 = await this.#c.collections("googleFonts").documents().export();
+      } catch (ab) {
+        return a8(ab);
+      }
+      let aa = a9
+        .split("\n")
+        .map((ac) => JSON.parse(ac))
+        .map((ac) => ({
+          family: ac.family,
+          faces: ac.faces,
+          category: ac.category,
+          subsets: ac.subsets,
+          license: ac.license,
+          thumbnail: ac.thumbnail,
+          urls: ac.urls,
+          dateRank: ac.dateRank,
+          popularityRank: ac.popularityRank,
+          trendingRank: ac.trendingRank,
+          pageURL: "https://fonts.google.com/specimen/" + ac.id,
+          cachedTime: Date.now(),
+        }));
+      await this.#d.cache.clear();
+      await this.#d.cache.bulkPut(aa);
+      a7();
+    });
+  }
+  getFontFaceRulesFromUrl(a7, a8 = false) {
+    return new Promise(async (a9) => {
+      let aa = [];
+      await this.#b();
+      if (a8) {
+        let ab = await this.#g(a7);
+        for (let ac of ab.cssRules) {
+          if (ac.type === CSSRule.FONT_FACE_RULE) {
+            aa.push(ac);
+          }
+        }
+      } else {
+        let ad = [];
+        let af = new URL(a7);
+        let ag = af.searchParams.get("display") || "auto";
+        if (a7.startsWith("https://fonts.googleapis.com/css?")) {
+          let ah = af.searchParams.get("family");
+          ah.split("|");
+          af.searchParams.get("subset");
+          let ai = {
+            regular: "400",
+            bold: "700",
+            italic: "400italic",
+            bolditalic: "700italic",
+            r: "400",
+            b: "700",
+            i: "400italic",
+          };
+          for (let aj of ah.split("|")) {
+            let ak = [];
+            let [al, am] = aj.split(":");
+            for (let an of am.split(",")) {
+              an = ai[an] || an;
+              ak.push(an);
+            }
+            ad.push({
+              family: al,
+              faceNames: ak,
+            });
+          }
+        } else if (a7.startsWith("https://fonts.googleapis.com/css2?")) {
+          let ao = af.searchParams.getAll("family");
+          for (let ap of ao) {
+            let [aq, ar] = ap.split(":");
+            if (ar === undefined) {
+              ad.push({
+                family: aq,
+                faceNames: ["400"],
+              });
+            } else {
+              let as = [];
+              let [at, au] = ar.split("@");
+              let av = at.split(",");
+              let aw = au.split(";");
+              for (let ax of aw) {
+                let ay = {
+                  wght: "400",
+                  ital: "0",
+                };
+                for (let az = 0; az < av.length; az += 1) {
+                  ay[av[az]] = ax.split(",")[az];
+                }
+                as.push(ay.wght + (ay.ital === "1" ? "italic" : ""));
+              }
+              ad.push({
+                family: aq,
+                faceNames: as,
+              });
+            }
+          }
+        }
+        {
+          let aA = this.#d.cache;
+          for (let { family: aB, faceNames: aC } of ad) {
+            let aD = await aA.get({
+              family: aB,
+            });
+            if (aD) {
+              for (let aE of aC) {
+                let aF = aD.urls[aE];
+                if (aF) {
+                  let aG = aE.substring(0, 3);
+                  let aH = aE.includes("italic") ? "italic" : "normal";
+                  let aI = [];
+                  for (let aL of aD.subsets) {
+                    if (w[aL]) {
+                      aI.push(w[aL]);
+                    }
+                  }
+                  if (aI.length === 0) {
+                    aI = "U+0-10FFFF";
+                  }
+                  let aJ = aI.join(",");
+                  let aK = U`
                     @font-face {
                       font-family: "${aB}";
                       font-style: ${aH};
@@ -7,8 +2105,1812 @@ const c9=a1;(function(a7,a8){const c8=a1,a9=a7();while(!![]){try{const aa=parseI
                       font-unicode-range: ${aJ};
                       src: url(${aF});
                     }
-                  `;aa[cm(0x3dc)](aK[cm(0x2f2)][0x0]);}}}}}a9(aa);});}[c9(0x192)](a7){return new Promise(async a8=>{const cn=a1;await this.#b(),a8((await this.#d[cn(0x2cc)][cn(0x2db)]('family')[cn(0x33d)](a7)[cn(0x39f)]())[0x0]||null);});}#g(a7){return new Promise(async a8=>{const co=a1;let a9=null;if(this.#f[a7])a9=this.#f[a7];else{let aa=await fetch(a7),ab=await aa[co(0x24b)]();a9=new CSSStyleSheet(),a9[co(0x39e)](ab),this.#f[a7]=a9;}a8(a9);});}#b(){return new Promise(async a7=>{const cp=a1;let a8=await this.#d[cp(0x2cc)][cp(0x21e)](),a9=!0x0;if(a8>0x0){let aa=await this.#d[cp(0x2cc)]['get']('Roboto');if(aa){let ab=0x4d3f6400;a9=Date['now']()-aa['cachedTime']>ab;}}0x0!==a8&&!0x0!==a9||await this[cp(0x2f7)](),a7();});}}(),[c9(0x18a),c9(0x32b)][c9(0x29a)](navigator[c9(0x331)])||navigator[c9(0x331)]['startsWith']('Mac');const C=navigator[c9(0x402)][c9(0x28d)](c9(0x278))>-0x1&&-0x1===navigator[c9(0x402)][c9(0x28d)](c9(0x2c9));null!==window[c9(0x3e4)]||document[c9(0x1ef)]['dataset']['app'];let A=(a7,a8,a9)=>a7['split'](a8)[c9(0x344)](a9),F=a7=>{const cq=c9;a7=a7[cq(0x2e8)](),a7=A(a7,'\x20',''),a7=A(a7,'-','');let a8=cq(0x1b2);return(a7=A(a7,'_',''))[cq(0x29a)](cq(0x211))||a7[cq(0x29a)](cq(0x265))?a8='100':a7[cq(0x29a)](cq(0x250))||a7['includes'](cq(0x1ad))?a8=cq(0x33b):a7[cq(0x29a)](cq(0x2ed))?a8=cq(0x400):a7[cq(0x29a)](cq(0x2f5))?a8=cq(0x3f0):a7[cq(0x29a)](cq(0x23d))||a7[cq(0x29a)](cq(0x24f))?a8=cq(0x183):a7[cq(0x29a)](cq(0x1da))||a7[cq(0x29a)]('ultrabold')?a8=cq(0x3b4):a7[cq(0x29a)]('bold')?a8=cq(0x30f):(a7['includes'](cq(0x3a7))||a7[cq(0x29a)]('heavy'))&&(a8=cq(0x2c7)),a8;},M=a7=>{const cr=c9;a7=a7[cr(0x2e8)](),a7=A(a7,'\x20',''),a7=A(a7,'-','');let a8=cr(0x323);return(a7=A(a7,'_',''))['includes'](cr(0x3fd))?a8=cr(0x3fd):a7['includes'](cr(0x1eb))&&(a8=cr(0x1eb)),a8;},T=a7=>{const cs=c9;let a8,a9=document[cs(0x1ee)](a7,NodeFilter[cs(0x298)],null),aa={'text':!0x0,'textPath':!0x0,'tspan':!0x0};for(;a8=a9['nextNode']();)aa[a8['parentElement']['localName']]||z(a8[cs(0x377)])&&a8['remove']();},z=a7=>!/[^\t\n\r ]/['test'](a7);new class extends EventTarget{#x=c9(0x169);#y=[];#d;get[c9(0x220)](){return this.#x;}constructor(){const ct=c9;super(),this.#d=new a5('LocalFontsManager'),this.#d[ct(0x2a9)](0x1)[ct(0x3e9)]({'cache':'family'}),this.#d[ct(0x2a9)](0x2)[ct(0x3e9)]({'cache':ct(0x3ae)})[ct(0x26e)](a7=>a7[ct(0x2cc)]['clear']()),void 0x0===window[ct(0x3dd)]?this.#x=ct(0x277):navigator['permissions'][ct(0x378)]({'name':'local-fonts'})[ct(0x3ee)](a7=>{const cu=ct;cu(0x22b)===a7['state']?this[cu(0x2f7)]():'prompt'!==a7[cu(0x231)]&&(this.#x=cu(0x3ea));});}[c9(0x3fc)](a7='',a8=c9(0x3a6)){return new Promise(async a9=>{const cv=a1;let aa=[],ab=this.#d[cv(0x2cc)];''!==a7[cv(0x2b9)]()&&(ab=ab[cv(0x37d)](ac=>ac['family'][cv(0x2e8)]()[cv(0x29a)](a7[cv(0x2b9)]()[cv(0x2e8)]()))),aa=await ab[cv(0x39f)](),cv(0x3a6)!==a8&&(aa=aa['slice'](0x28*a8,0x28*(a8+0x1))),a9(aa);});}[c9(0x2f7)](){return new Promise(async(a7,a8)=>{const cw=a1;let a9;try{a9=await this[cw(0x2b8)](!0x0);}catch(ab){return a8(ab);}let aa=[];for(let ac of a9){let ad=F(ac['style'])+(cw(0x3fd)===M(ac[cw(0x34e)])?'i':''),af=aa[cw(0x15d)](ag=>ag[cw(0x3ae)]===ac[cw(0x3ae)]);if(af)!0x1===af['faces'][cw(0x29a)](ad)&&af[cw(0x226)]['push'](ad);else{let ag={'family':ac[cw(0x3ae)],'faces':[ad]};aa[cw(0x3dc)](ag);}}for(let ah of aa)ah[cw(0x226)][cw(0x283)]();await this.#d[cw(0x2cc)][cw(0x2b0)](),await this.#d[cw(0x2cc)]['bulkPut'](aa),this.#x=cw(0x196),a7();});}['getLocalFontsMetadata'](a7=!0x1){return new Promise(async(a8,a9)=>{const cx=a1;if(cx(0x277)===this[cx(0x220)])a8([]);else{if(this.#y['length']<0xa||a7)try{this.#y=await window[cx(0x3dd)]();}catch(aa){return a9({'message':aa[cx(0x3f9)],'name':aa[cx(0x2fe)]});}a8(this.#y);}});}[c9(0x20d)](){return new Promise(async a7=>{const cy=a1;a7(await this.#d[cy(0x2cc)][cy(0x21e)]());});}[c9(0x192)](a7){return new Promise(async a8=>{const cz=a1;a8((await this.#d['cache'][cz(0x2db)](cz(0x3ae))[cz(0x33d)](a7)[cz(0x39f)]())[0x0]||null);});}[c9(0x1cc)](a7){return new Promise(async a8=>{const cA=a1;let a9=await this[cA(0x192)](a7);if(a9){let aa=new Set();for(let ab of a9['faces']){let ac=ab[cA(0x152)](0x0,0x3);aa['add'](ac);}a8([...aa]);}else a8([cA(0x1b2)]);});}}();let P=(a7,a8=0x6)=>{const cB=c9;let a9=null;return'rect'===a7[cB(0x229)]?a9=S(a7,a8):cB(0x32e)===a7[cB(0x229)]?a9=V(a7,a8):cB(0x3f5)===a7[cB(0x229)]?a9=D(a7,a8):cB(0x3e7)===a7[cB(0x229)]?a9=L(a7,a8):cB(0x20b)===a7[cB(0x229)]?a9=B(a7,a8):cB(0x2bd)===a7['localName']&&(a9=R(a7,a8)),a9;},S=(a7,a8=0x6)=>{const cC=c9;let a9=Fe(cC(0x15e)),aa=a7[cC(0x151)]();for(let ab of aa)ab[cC(0x168)]=ab['values'][cC(0x3d2)](ac=>b(ac,a8));a9[cC(0x266)](aa);for(let ac of a7[cC(0x3ef)])!0x1===['x','y','width',cC(0x341),'rx','ry'][cC(0x29a)](ac['name'])&&a9[cC(0x370)](ac[cC(0x2fe)],ac[cC(0x2f1)]);return a9[cC(0x3d9)]=a7[cC(0x3d9)],a9;},V=(a7,a8=0x6)=>{const cD=c9;let a9=Fe(cD(0x15e)),aa=a7['getPathData']();for(let ab of aa)ab['values']=ab['values'][cD(0x3d2)](ac=>b(ac,a8));a9[cD(0x266)](aa);for(let ac of a7[cD(0x3ef)])['cx','cy','r']['includes'](ac[cD(0x2fe)])||a9[cD(0x370)](ac[cD(0x2fe)],ac[cD(0x2f1)]);return a9[cD(0x3d9)]=a7['innerHTML'],a9;},D=(a7,a8=0x6)=>{const cE=c9;let a9=Fe(cE(0x15e)),aa=a7[cE(0x151)]();for(let ab of aa)ab['values']=ab['values'][cE(0x3d2)](ac=>b(ac,a8));a9[cE(0x266)](aa);for(let ac of a7['attributes'])['cx','cy','rx','ry'][cE(0x29a)](ac[cE(0x2fe)])||a9['setAttribute'](ac[cE(0x2fe)],ac[cE(0x2f1)]);return a9[cE(0x3d9)]=a7[cE(0x3d9)],a9;},L=(a7,a8=0x6)=>{const cF=c9;let a9=Fe(cF(0x15e)),aa=a7['getPathData']();for(let ab of aa)ab[cF(0x168)]=ab[cF(0x168)][cF(0x3d2)](ac=>b(ac,a8));a9[cF(0x266)](aa);for(let ac of a7[cF(0x3ef)])['x1','y1','x2','y2'][cF(0x29a)](ac[cF(0x2fe)])||a9[cF(0x370)](ac[cF(0x2fe)],ac['value']);return a9[cF(0x3d9)]=a7[cF(0x3d9)],a9;},B=(a7,a8=0x6)=>{const cG=c9;let a9=Fe(cG(0x15e)),aa=a7[cG(0x151)]();for(let ab of aa)ab[cG(0x168)]=ab[cG(0x168)][cG(0x3d2)](ac=>b(ac,a8));a9[cG(0x266)](aa);for(let ac of a7[cG(0x3ef)])cG(0x38a)!==ac[cG(0x2fe)]&&a9[cG(0x370)](ac['name'],ac[cG(0x2f1)]);return a9[cG(0x3d9)]=a7[cG(0x3d9)],a9;},R=(a7,a8=0x6)=>{const cH=c9;let a9=Fe('svg:path'),aa=a7[cH(0x151)]();for(let ab of aa)ab['values']=ab[cH(0x168)][cH(0x3d2)](ac=>b(ac,a8));a9[cH(0x266)](a7[cH(0x151)]());for(let ac of a7[cH(0x3ef)])cH(0x38a)!==ac[cH(0x2fe)]&&a9[cH(0x370)](ac['name'],ac[cH(0x2f1)]);return a9[cH(0x3d9)]=a7['innerHTML'],a9;};const O=c9(0x357)[c9(0x17f)](c9(0x257),'');class j{#v;#w;get[c9(0x19e)](){const cI=c9;return this.#v[cI(0x19e)];}constructor(a7){const cJ=c9;this.#w=a7,this.#v=document[cJ(0x23e)]('div'),this.#v[cJ(0x370)](cJ(0x34e),O),this.#v[cJ(0x370)](cJ(0x1a0),cJ(0x2eb)),this.#v[cJ(0x222)]({'mode':'open'}),this.#v[cJ(0x19e)]['append'](a7),document[cJ(0x1ef)][cJ(0x258)](this.#v);}[c9(0x3c4)](){const cK=c9;this.#w[cK(0x2dd)]===this.#v[cK(0x19e)]&&this.#w[cK(0x1b8)](),this.#v[cK(0x1b8)](),this.#v=null;}}let E=a7=>{const cL=c9;if(!0x1===a7[cL(0x268)]&&new j(a7),C){let a8=null;if(''===a7[cL(0x34e)][cL(0x293)])return a8=cL(0x16b)===a7[cL(0x229)]||'radialGradient'===a7[cL(0x229)]?a7['gradientTransform'][cL(0x348)][cL(0x15f)]():cL(0x2f6)===a7['localName']?a7['patternTransform'][cL(0x348)][cL(0x15f)]():a7[cL(0x293)][cL(0x348)][cL(0x15f)](),a8?DOMMatrix[cL(0x31e)](a8[cL(0x3af)]):new DOMMatrix();{let a9=a7['computedStyleMap']()[cL(0x294)](cL(0x293));return cL(0x161)===a9[cL(0x2f1)]?new DOMMatrix():a9[cL(0x384)]();}}{let aa=a7[cL(0x385)]()[cL(0x294)](cL(0x293));return cL(0x161)===aa['value']?new DOMMatrix():aa[cL(0x384)]();}},Z=(a7,a8,a9=0x3)=>{const cM=c9;let aa=Ne(a7,!0x0);for(let ab of aa){if('M'===ab['type']||'L'===ab['type']||'R'===ab['type']||'U'===ab[cM(0x2a1)]||'N'===ab[cM(0x2a1)]){let ac=new DOMPoint(ab[cM(0x168)][0x0],ab[cM(0x168)][0x1])[cM(0x2a0)](a8);ab[cM(0x168)]=[ac['x'],ac['y']];}else{if('C'===ab[cM(0x2a1)]){let ad=new DOMPoint(ab[cM(0x168)][0x0],ab[cM(0x168)][0x1])[cM(0x2a0)](a8),af=new DOMPoint(ab[cM(0x168)][0x2],ab['values'][0x3])[cM(0x2a0)](a8),ag=new DOMPoint(ab[cM(0x168)][0x4],ab[cM(0x168)][0x5])['matrixTransform'](a8);ab[cM(0x168)]=[ad['x'],ad['y'],af['x'],af['y'],ag['x'],ag['y']];}}ab[cM(0x168)]=ab[cM(0x168)]['map'](ah=>b(ah,a9));}return aa;},I=a7=>{const cN=c9;let a8=[];if(a7[cN(0x18b)](cN(0x24b))){let a9=[],aa=document[cN(0x38c)](a7,NodeFilter[cN(0x298)]);for(;aa['nextNode']();)a9[cN(0x3dc)](aa[cN(0x36c)]);for(let ab of a9){let ac=ab[cN(0x2f0)];if(cN(0x24b)===ac[cN(0x229)]||cN(0x3fe)===ac[cN(0x229)]||cN(0x3b5)===ac[cN(0x229)])ac['getNumberOfChars']()>0x0&&a8[cN(0x3dc)](ab);else{if('a'===ac[cN(0x229)]){let ad=ac[cN(0x346)]();0x0===ad['x']&&0x0===ad['y']&&0x0===ad['width']&&0x0===ad[cN(0x341)]||a8[cN(0x3dc)](ab);}}}}return a8;},$=(a7,a8)=>{const cO=c9;let a9=a7[cO(0x18b)](cO(0x24b)),aa=0x0,ab=-0x1;for(let ac of I(a9)){if(ac===a7){ab=aa+a8;break;}aa+=ac[cO(0x3ca)];}return[a9,ab];},q=(a7,a8=!0x0)=>{const cQ=c9;let a9=new DOMRect(0x0,0x0,0x0,0x0),aa=a8?(ab=>{const cP=a1;let ac=null;if(c[cP(0x29a)](ab[cP(0x229)])){let ad=getComputedStyle(ab)[cP(0x324)];if(ad&&cP(0x161)!==ad){let af=ad[cP(0x152)](0x6,ad[cP(0x3ca)]-0x2),ag=Me(ab)['querySelector']('#'+CSS[cP(0x3cb)](af))||null;cP(0x324)===ag?.[cP(0x229)]&&ag!==ab&&(ac=ag);}}return ac;})(a7):null;if(aa){let ab=q(a7,!0x1),ac=te(q(aa),E(aa));a9=ae(ab,ac);}else{if(cQ(0x3fe)===a7[cQ(0x229)]){let ad=I(a7),af=document['createRange']();if(ad[cQ(0x3ca)]>0x0&&(af['setStart'](ad[0x0],0x0),af[cQ(0x2e3)](ad[ad['length']-0x1],ad[ad[cQ(0x3ca)]-0x1]['length'])),!0x1===af[cQ(0x364)]){let ag=af[cQ(0x1c6)][cQ(0x18b)]('text'),[,ah]=$(af[cQ(0x1c6)],af[cQ(0x286)]),[,ai]=$(af[cQ(0x37a)],af[cQ(0x1c0)]),aj=[];for(let ak=ah;ak<ai;ak+=0x1){let al=ag[cQ(0x21b)](ak);aj[cQ(0x3dc)](al);}a9=ie(aj);}}else{if(cQ(0x228)===a7[cQ(0x229)])a9=new DOMRect(0x0,0x0,a7[cQ(0x32c)]['baseVal'][cQ(0x2f1)],a7[cQ(0x341)][cQ(0x348)][cQ(0x2f1)]);else{if(cQ(0x324)===a7['localName']){let am=[];for(let an of a7[cQ(0x2ac)])if(d[cQ(0x29a)](an[cQ(0x229)])){let ao=te(DOMRect[cQ(0x170)](an['getBBox']()),E(an));am[cQ(0x3dc)](ao);}am[cQ(0x3ca)]>0x0&&(a9=ie(am));}else a9=DOMRect[cQ(0x170)](a7[cQ(0x346)]());}}}return a9;},{sin:G,cos:H,acos:Q,atan2:_,abs:W,sqrt:J,pow:K,PI:X,min:Y,max:ee}=Math;document[c9(0x1c4)](c9(0x1e6),c9(0x2ce));let te=(a7,a8)=>{const cR=c9;let a9=[new DOMPoint(a7['x'],a7['y']),new DOMPoint(a7['x']+a7[cR(0x32c)],a7['y']),new DOMPoint(a7['x']+a7[cR(0x32c)],a7['y']+a7['height']),new DOMPoint(a7['x'],a7['y']+a7[cR(0x341)])][cR(0x3d2)](ah=>ah['matrixTransform'](a8)),aa=a9[cR(0x3d2)](ah=>ah['x']),ab=a9[cR(0x3d2)](ah=>ah['y']),ac=Y(...aa),ad=Y(...ab),af=ee(...aa),ag=ee(...ab);return new DOMRect(ac,ad,af-ac,ag-ad);},ie=a7=>{const cS=c9;if(0x0===a7[cS(0x3ca)])return new DOMRect(0x0,0x0,0x0,0x0);if(0x1===a7['length']){let a8=a7[0x0];return new DOMRect(a8['x'],a8['y'],a8[cS(0x32c)],a8[cS(0x341)]);}{let a9=Math[cS(0x2a4)](...a7['map'](ad=>ad['x'])),aa=Math[cS(0x2a4)](...a7['map'](ad=>ad['y'])),ab=Math[cS(0x23b)](...a7[cS(0x3d2)](ad=>ad['x']+ad[cS(0x32c)])),ac=Math[cS(0x23b)](...a7[cS(0x3d2)](ad=>ad['y']+ad['height']));return new DOMRect(a9,aa,ab-a9,ac-aa);}},ae=(a7,a8)=>{const cT=c9;let a9=Math['max'](a7['left'],a8[cT(0x30e)]),aa=Math['min'](a7[cT(0x2bc)],a8[cT(0x2bc)]),ab=Math[cT(0x23b)](a7[cT(0x1ae)],a8[cT(0x1ae)]),ac=Math[cT(0x2a4)](a7['bottom'],a8[cT(0x1ff)]);return new DOMRect(a9,ab,aa-a9,ac-ab);},{sin:ne,asin:se,cos:le,tan:oe,sqrt:re,abs:pe,PI:he}=Math,ue=(a7,a8,a9,aa,ab,ac,ad,af,ag,ah)=>{const cU=c9;let ai=X*ad/0xb4,aj,ak,al,am,an=[],ao=(aB,aC,aD)=>({'x':aB*le(aD)-aC*ne(aD),'y':aB*ne(aD)+aC*le(aD)});if(ah)aj=ah[0x0],ak=ah[0x1],al=ah[0x2],am=ah[0x3];else{let aB=ao(a7,a8,-ai);a7=aB['x'],a8=aB['y'];let aC,aD=ao(a9,aa,-ai),aE=(a7-(a9=aD['x']))/0x2,aF=(a8-(aa=aD['y']))/0x2,aG=aE*aE/(ab*ab)+aF*aF/(ac*ac);aG>0x1&&(aG=re(aG),ab*=aG,ac*=aG),aC=af===ag?-0x1:0x1;let aH=ab*ab,aI=ac*ac,aJ=aC*re(pe((aH*aI-aH*aF*aF-aI*aE*aE)/(aH*aF*aF+aI*aE*aE)));al=aJ*ab*aF/ac+(a7+a9)/0x2,am=aJ*-ac*aE/ab+(a8+aa)/0x2,aj=se(parseFloat(((a8-am)/ac)[cU(0x35a)](0x9))),ak=se(parseFloat(((aa-am)/ac)[cU(0x35a)](0x9))),a7<al&&(aj=he-aj),a9<al&&(ak=he-ak),aj<0x0&&(aj=0x2*he+aj),ak<0x0&&(ak=0x2*he+ak),ag&&aj>ak&&(aj-=0x2*he),!ag&&ak>aj&&(ak-=0x2*he);}let ap=ak-aj;if(pe(ap)>0x78*he/0xb4){let aK=ak,aL=a9,aM=aa;ak=ag&&ak>aj?aj+0x78*he/0xb4*0x1:aj+0x78*he/0xb4*-0x1,a9=al+ab*le(ak),aa=am+ac*ne(ak),an=ue(a9,aa,aL,aM,ab,ac,ad,0x0,ag,[ak,aK,al,am]);}ap=ak-aj;let aq=le(aj),ar=ne(aj),as=le(ak),at=ne(ak),au=oe(ap/0x4),av=0x4/0x3*ab*au,aw=0x4/0x3*ac*au,ax=[a7,a8],ay=[a7+av*ar,a8-aw*aq],az=[a9+av*at,aa-aw*as],aA=[a9,aa];if(ay[0x0]=0x2*ax[0x0]-ay[0x0],ay[0x1]=0x2*ax[0x1]-ay[0x1],ah)return[ay,az,aA][cU(0x2d3)](an);{an=[ay,az,aA][cU(0x2d3)](an);let aN=[];for(let aO=0x0;aO<an[cU(0x3ca)];aO+=0x3){let aP=ao(an[aO][0x0],an[aO][0x1],ai),aQ=ao(an[aO+0x1][0x0],an[aO+0x1][0x1],ai),aR=ao(an[aO+0x2][0x0],an[aO+0x2][0x1],ai);aN[cU(0x3dc)]([aP['x'],aP['y'],aQ['x'],aQ['y'],aR['x'],aR['y']]);}return aN;}},me=(a7,a8=!0x1)=>{const cV=c9;let a9;return a7[0x0]instanceof DOMPoint&&(a7=a7[cV(0x3d2)](aa=>[aa['x'],aa['y']])),a9=a8?ce(a7):de(a7),a9;},de=a7=>{const cW=c9;let a8,a9,aa,ab,ac,ad,af=[],ag=!0x1,ah=!0x1;for(let ak=0x0,al=a7[cW(0x3ca)];ak<=al;ak+=0x1)ak<al?(!0x1===ag&&(ag=!0x0,a8=0x0),ai=a7[ak][0x0],aj=a7[ak][0x1],0x0===a8?(a8=0x1,ah=!0x0,a9?af[cW(0x3dc)]({'type':'L','values':[ai,aj]}):af[cW(0x3dc)]({'type':'M','values':[ai,aj]})):0x1===a8?a8=0x2:0x2===a8?(a8=0x3,ah=!0x0,af[cW(0x3dc)]({'type':'L','values':[(0x5*aa+ac)/0x6,(0x5*ab+ad)/0x6]},{'type':'C','values':[(0x2*aa+ac)/0x3,(0x2*ab+ad)/0x3,(aa+0x2*ac)/0x3,(ab+0x2*ad)/0x3,(aa+0x4*ac+ai)/0x6,(ab+0x4*ad+aj)/0x6]})):(ah=!0x0,af['push']({'type':'C','values':[(0x2*aa+ac)/0x3,(0x2*ab+ad)/0x3,(aa+0x2*ac)/0x3,(ab+0x2*ad)/0x3,(aa+0x4*ac+ai)/0x6,(ab+0x4*ad+aj)/0x6]})),aa=ac,ab=ad,ac=ai,ad=aj):!0x0===ag&&(ag=!0x1,0x3===a8?(ah=!0x0,af['push']({'type':'C','values':[(0x2*aa+ac)/0x3,(0x2*ab+ad)/0x3,(aa+0x2*ac)/0x3,(ab+0x2*ad)/0x3,(aa+0x4*ac+ac)/0x6,(ab+0x4*ad+ad)/0x6]},{'type':'L','values':[ac,ad]})):0x2===a8&&(ah=!0x0,af['push']({'type':'L','values':[ac,ad]})),(a9||0x0!==a9&&0x1===a8)&&ah&&af['push']({'type':'Z','values':[]}),a9=0x1-a9);var ai,aj;return af;},ce=a7=>{const cY=c9;let a8,a9,aa,ab,ac,ad,af,ag,ah,ai,aj,ak=[],al=!0x1,am=(an,ao)=>{const cX=a1;0x0===a8?(a8=0x1,ad=an,af=ao):0x1===a8?(a8=0x2,ag=an,ah=ao):0x2===a8?(a8=0x3,ai=an,aj=ao,ak['push']({'type':'M','values':[(a9+0x4*ab+an)/0x6,(aa+0x4*ac+ao)/0x6]})):ak[cX(0x3dc)]({'type':'C','values':[(0x2*a9+ab)/0x3,(0x2*aa+ac)/0x3,(a9+0x2*ab)/0x3,(aa+0x2*ac)/0x3,(a9+0x4*ab+an)/0x6,(aa+0x4*ac+ao)/0x6]}),a9=ab,aa=ac,ab=an,ac=ao;};for(let an=0x0,ao=(a7=x(a7,!0x0))[cY(0x3ca)];an<=ao;an+=0x1)an<ao?(!0x1===al&&(al=!0x0,a8=0x0),am(a7[an][0x0],a7[an][0x1])):!0x0===al&&(al=!0x1,0x1===a8?(ak[cY(0x3dc)]({'type':'M','values':[ad,af]}),ak[cY(0x3dc)]({'type':'Z','values':[]})):0x2===a8?(ak[cY(0x3dc)]({'type':'M','values':[(ad+0x2*ag)/0x3,(af+0x2*ah)/0x3]}),ak[cY(0x3dc)]({'type':'L','values':[(ag+0x2*ad)/0x3,(ah+0x2*af)/0x3]}),ak['push']({'type':'Z','values':[]})):0x3===a8&&(am(ad,af),am(ag,ah),am(ai,aj)));return ak;};const fe=1e-12;let be=(a7,a8=!0x1,a9=0.5)=>{const cZ=c9;let aa;return a7[0x0]instanceof DOMPoint&&(a7=a7[cZ(0x3d2)](ab=>[ab['x'],ab['y']])),aa=a8?xe(a7,a9):ge(a7,a9),aa;},ge=(a7,a8)=>{const d1=c9;let a9,aa,ab,ac,ad,af,ag,ah,ai,aj,ak,al,am,an,ao=[],ap=!0x1,aq=!0x1,ar=(as,at)=>{const d0=a1;if(am){let au=ad-as,av=af-at;al=Math[d0(0x309)](au*au+av*av,a8),ai=Math[d0(0x201)](al);}if(0x0===am)am=0x1,an?(aq=!0x0,ao[d0(0x3dc)]({'type':'L','values':[as,at]})):(aq=!0x0,ao['push']({'type':'M','values':[as,at]}));else{if(0x1===am)am=0x2;else{0x2===am&&(am=0x3);let aw=ab,ax=ac,ay=ad,az=af;if(ag>fe){let aA=0x2*aj+0x3*ag*ah+ak,aB=0x3*ag*(ag+ah);aw=(aw*aA-a9*ak+ad*aj)/aB,ax=(ax*aA-aa*ak+af*aj)/aB;}if(ai>fe){let aC=0x2*al+0x3*ai*ah+ak,aD=0x3*ai*(ai+ah);ay=(ay*aC+ab*al-as*ak)/aD,az=(az*aC+ac*al-at*ak)/aD;}aq=!0x0,ao['push']({'type':'C','values':[aw,ax,ay,az,ad,af]});}}ag=ah,ah=ai,aj=ak,ak=al,a9=ab,ab=ad,ad=as,aa=ac,ac=af,af=at;};for(let as=0x0,at=a7[d1(0x3ca)];as<=at;as+=0x1)as<at?(!0x1===ap&&(ap=!0x0,ag=0x0,ah=0x0,ai=0x0,aj=0x0,ak=0x0,al=0x0,am=0x0),ar(a7[as][0x0],a7[as][0x1])):!0x0===ap&&(ap=!0x1,0x2===am?(aq=!0x0,ao[d1(0x3dc)]({'type':'L','values':[ad,af]})):0x3===am&&ar(ad,af),(an||0x0!==an&&0x1===am)&&aq&&ao[d1(0x3dc)]({'type':'Z','values':[]}),an=0x1-an);return ao;},xe=(a7,a8=0.5)=>{const d3=c9;let a9,aa,ab,ac,ad,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,aq,ar,as,at=[],au=!0x1,av=(aw,ax)=>{const d2=a1;if(as){let ay=ad-aw,az=af-ax;ar=Math[d2(0x309)](ay*ay+az*az,a8),ao=Math[d2(0x201)](ar);}if(0x0===as)as=0x1,ag=aw,ah=ax;else{if(0x1===as)as=0x2,ai=aw,aj=ax,at[d2(0x3dc)]({'type':'M','values':[ai,aj]});else{if(0x2===as)as=0x3,ak=aw,al=ax;else{let aA=ab,aB=ac,aC=ad,aD=af;if(am>fe){let aE=0x2*ap+0x3*am*an+aq,aF=0x3*am*(am+an);aA=(aA*aE-a9*aq+ad*ap)/aF,aB=(aB*aE-aa*aq+af*ap)/aF;}if(ao>fe){let aG=0x2*ar+0x3*ao*an+aq,aH=0x3*ao*(ao+an);aC=(aC*aG+ab*ar-aw*aq)/aH,aD=(aD*aG+ac*ar-ax*aq)/aH;}at[d2(0x3dc)]({'type':'C','values':[aA,aB,aC,aD,ad,af]});}}}am=an,an=ao,ap=aq,aq=ar,a9=ab,ab=ad,ad=aw,aa=ac,ac=af,af=ax;};for(let aw=0x0,ax=(a7=x(a7,!0x0))[d3(0x3ca)];aw<=ax;aw+=0x1)aw<ax?(!0x1===au&&(au=!0x0,am=0x0,an=0x0,ao=0x0,ap=0x0,aq=0x0,ar=0x0,as=0x0),av(a7[aw][0x0],a7[aw][0x1])):!0x0===au&&(au=!0x1,0x1===as?at[d3(0x3dc)]({'type':'M','values':[ag,ah]},{'type':'Z','values':[]}):0x2===as?at[d3(0x3dc)]({'type':'L','values':[ag,ah]},{'type':'Z','values':[]}):0x3===as&&(av(ag,ah),av(ai,aj),av(ak,al)));return at;},ye=new Set(['M','Z','L','C','R','U','N']),ve=new Set(['R','U','N']),we=(a7,a8=!0x0)=>{const d4=c9;let a9=[];if(d4(0x2b7)===a7['localName']){if(!0x1===a8)a9=Ae(a7[d4(0x151)]({'normalize':!0x0}));else{let aa=null;if(a7[d4(0x1c7)](d4(0x191))){let ab=a7[d4(0x3e3)](d4(0x191))[d4(0x2b9)]()[d4(0x32d)](/[\s+,]+/);if(ab[d4(0x3ca)]>=0x3){if(ab[ab[d4(0x3ca)]-0x1]['includes']('@')?ab[ab['length']-0x1]:null){let ac=null;aa=[];for(let ad=0x0;ad<ab[d4(0x3ca)]-0x1;ad+=0x1){let af=ab[ad];ye[d4(0x32f)](af)?(ac={'type':af,'values':[]},aa[d4(0x3dc)](ac)):ac['values']['push'](parseFloat(af));}}}}a9=aa||Ae(a7[d4(0x151)]({'normalize':!0x0}));}}else[d4(0x3e7),'polyline',d4(0x2bd),d4(0x193),'circle',d4(0x3f5)]['includes'](a7[d4(0x229)])&&(a9=a7[d4(0x151)]({'normalize':!0x0}));return a9;},ke=(a7,a8,a9=null)=>{const d5=c9;if(!0x1===(void 0x0!==a8[d5(0x15d)](aa=>ve[d5(0x32f)](aa[d5(0x2a1)])))){if(null!==a9){for(let aa of a8)aa[d5(0x168)]=aa['values'][d5(0x3d2)](ab=>b(ab,a9));}a7[d5(0x266)](a8),a7[d5(0x3b6)](d5(0x191));}else{let ab=Ne(a8,!0x1),ac=a8;null!==a9&&(ab[d5(0x339)](ai=>ai[d5(0x168)]=ai[d5(0x168)][d5(0x3d2)](aj=>b(aj,a9))),ac[d5(0x339)](ai=>ai[d5(0x168)]=ai[d5(0x168)][d5(0x3d2)](aj=>b(aj,a9))));let ad=Ue(ab),af=Ue(ac),ag=0x1,ah=((ai,aj=d5(0x359))=>{const d6=d5;let ak=0x811c9dc5;for(let al=0x0,am=ai[d6(0x3ca)];al<am;al+=0x1)ak^=ai[d6(0x219)](al),ak+=(ak<<0x1)+(ak<<0x4)+(ak<<0x7)+(ak<<0x8)+(ak<<0x18);return ak>>>=0x0,d6(0x359)===aj&&(ak=(d6(0x1ac)+ak[d6(0x371)](0x10))[d6(0x1ea)](-0x8)),ak;})(ad+d5(0x3ab)+af+'\x20'+ag)[d5(0x371)](0x20);a7[d5(0x370)]('d',ad),a7[d5(0x370)]('data-bx-d',af+'\x20'+ag+'@'+ah);}},Ne=(a7,a8=!0x1)=>{const d7=c9;let a9=[],aa=[];{let ab=[],ac=null,ad=0x0,af=0x0;for(let ag of a7)'M'===ag[d7(0x2a1)]||'m'===ag[d7(0x2a1)]?(ab[0x0]&&(aa['push'](ab),ab=[]),ab[d7(0x3dc)](ag),ad=ag[d7(0x168)][0x0],af=ag[d7(0x168)][0x1]):'Z'===ag[d7(0x2a1)]||'z'===ag[d7(0x2a1)]?(ab[d7(0x3dc)](ag),aa['push'](ab),ab=[]):('Z'!==ac&&'z'!==ac||ab[d7(0x3dc)]({'type':'M','values':[ad,af]}),ab[d7(0x3dc)](ag)),ac=ag[d7(0x2a1)];ab[0x0]&&aa[d7(0x3dc)](ab);}for(let ah of aa)if('R'===ah[0x1]?.[d7(0x2a1)]){if(a8)a9['push'](...ah);else{let ai=[],aj=!0x1;for(let ak of ah)'M'===ak['type']||'R'===ak[d7(0x2a1)]?ai[d7(0x3dc)]([ak['values'][0x0],ak['values'][0x1]]):'Z'===ak['type']&&(aj=!0x0);a9[d7(0x3dc)](...be(ai,aj));}}else{if('U'===ah[0x1]?.['type']){if(a8)a9[d7(0x3dc)](...ah);else{let al=[],am=!0x1;for(let an of ah)'M'===an[d7(0x2a1)]||'U'===an[d7(0x2a1)]?al[d7(0x3dc)]([an[d7(0x168)][0x0],an['values'][0x1]]):'Z'===an[d7(0x2a1)]&&(am=!0x0);a9['push'](...me(al,am));}}else{if('N'===ah[0x1]?.['type']);else{let ao=[],ap=[];{let aq=null,ar=null,as=null,at=null;for(let au of ah){let av=au[d7(0x2a1)];if('M'===av){let aw=au[d7(0x168)][0x0],ax=au[d7(0x168)][0x1];ao['push']({'type':'M','values':[aw,ax]}),as=aw,at=ax,aq=aw,ar=ax;}else{if('m'===av){let ay=aq+au[d7(0x168)][0x0],az=ar+au['values'][0x1];ao['push']({'type':'M','values':[ay,az]}),as=ay,at=az,aq=ay,ar=az;}else{if('L'===av){let aA=au['values'][0x0],aB=au[d7(0x168)][0x1];ao['push']({'type':'L','values':[aA,aB]}),aq=aA,ar=aB;}else{if('l'===av){let aC=aq+au[d7(0x168)][0x0],aD=ar+au[d7(0x168)][0x1];ao[d7(0x3dc)]({'type':'L','values':[aC,aD]}),aq=aC,ar=aD;}else{if('C'===av){let aE=au[d7(0x168)][0x0],aF=au[d7(0x168)][0x1],aG=au['values'][0x2],aH=au['values'][0x3],aI=au[d7(0x168)][0x4],aJ=au[d7(0x168)][0x5];ao[d7(0x3dc)]({'type':'C','values':[aE,aF,aG,aH,aI,aJ]}),aq=aI,ar=aJ;}else{if('c'===av){let aK=aq+au[d7(0x168)][0x0],aL=ar+au[d7(0x168)][0x1],aM=aq+au[d7(0x168)][0x2],aN=ar+au[d7(0x168)][0x3],aO=aq+au[d7(0x168)][0x4],aP=ar+au[d7(0x168)][0x5];ao[d7(0x3dc)]({'type':'C','values':[aK,aL,aM,aN,aO,aP]}),aq=aO,ar=aP;}else{if('Q'===av){let aQ=au[d7(0x168)][0x0],aR=au[d7(0x168)][0x1],aS=au[d7(0x168)][0x2],aT=au[d7(0x168)][0x3];ao['push']({'type':'Q','values':[aQ,aR,aS,aT]}),aq=aS,ar=aT;}else{if('q'===av){let aU=aq+au['values'][0x0],aV=ar+au[d7(0x168)][0x1],aW=aq+au['values'][0x2],aX=ar+au[d7(0x168)][0x3];ao['push']({'type':'Q','values':[aU,aV,aW,aX]}),aq=aW,ar=aX;}else{if('A'===av){let aY=au[d7(0x168)][0x5],aZ=au['values'][0x6];ao['push']({'type':'A','values':[au[d7(0x168)][0x0],au[d7(0x168)][0x1],au[d7(0x168)][0x2],au[d7(0x168)][0x3],au[d7(0x168)][0x4],aY,aZ]}),aq=aY,ar=aZ;}else{if('a'===av){let b0=aq+au[d7(0x168)][0x5],b1=ar+au[d7(0x168)][0x6];ao[d7(0x3dc)]({'type':'A','values':[au[d7(0x168)][0x0],au[d7(0x168)][0x1],au['values'][0x2],au[d7(0x168)][0x3],au['values'][0x4],b0,b1]}),aq=b0,ar=b1;}else{if('H'===av){let b2=au[d7(0x168)][0x0];ao[d7(0x3dc)]({'type':'H','values':[b2]}),aq=b2;}else{if('h'===av){let b3=aq+au[d7(0x168)][0x0];ao['push']({'type':'H','values':[b3]}),aq=b3;}else{if('V'===av){let b4=au['values'][0x0];ao['push']({'type':'V','values':[b4]}),ar=b4;}else{if('v'===av){let b5=ar+au[d7(0x168)][0x0];ao[d7(0x3dc)]({'type':'V','values':[b5]}),ar=b5;}else{if('S'===av){let b6=au[d7(0x168)][0x0],b7=au[d7(0x168)][0x1],b8=au[d7(0x168)][0x2],b9=au['values'][0x3];ao[d7(0x3dc)]({'type':'S','values':[b6,b7,b8,b9]}),aq=b8,ar=b9;}else{if('s'===av){let ba=aq+au[d7(0x168)][0x0],bb=ar+au[d7(0x168)][0x1],bc=aq+au[d7(0x168)][0x2],bd=ar+au[d7(0x168)][0x3];ao['push']({'type':'S','values':[ba,bb,bc,bd]}),aq=bc,ar=bd;}else{if('T'===av){let bf=au[d7(0x168)][0x0],bg=au[d7(0x168)][0x1];ao[d7(0x3dc)]({'type':'T','values':[bf,bg]}),aq=bf,ar=bg;}else{if('t'===av){let bh=aq+au['values'][0x0],bi=ar+au['values'][0x1];ao[d7(0x3dc)]({'type':'T','values':[bh,bi]}),aq=bh,ar=bi;}else'Z'!==av&&'z'!==av||(ao[d7(0x3dc)]({'type':'Z','values':[]}),aq=as,ar=at);}}}}}}}}}}}}}}}}}}}{let bj=0x0,bk=0x0,bl=0x0,bm=0x0,bn=null,bo=null,bp=null;for(let bq=0x0;bq<ao[d7(0x3ca)];bq+=0x1){let br=ao[bq];if('M'===br['type']){let bs=br[d7(0x168)][0x0],bt=br[d7(0x168)][0x1];ap[d7(0x3dc)]({'type':'M','values':[bs,bt]}),bl=bs,bm=bt,bj=bs,bk=bt;}else{if('C'===br[d7(0x2a1)]){let bu=br[d7(0x168)][0x0],bv=br['values'][0x1],bw=br[d7(0x168)][0x2],bx=br['values'][0x3],by=br['values'][0x4],bz=br['values'][0x5];ap[d7(0x3dc)]({'type':'C','values':[bu,bv,bw,bx,by,bz]}),bn=bw,bo=bx,bj=by,bk=bz;}else{if('L'===br[d7(0x2a1)]){let bA=br[d7(0x168)][0x0],bB=br['values'][0x1];ap[d7(0x3dc)]({'type':'L','values':[bA,bB]}),bj=bA,bk=bB;}else{if('H'===br[d7(0x2a1)]){let bC=br[d7(0x168)][0x0];ap[d7(0x3dc)]({'type':'L','values':[bC,bk]}),bj=bC;}else{if('V'===br[d7(0x2a1)]){let bD=br[d7(0x168)][0x0];ap['push']({'type':'L','values':[bj,bD]}),bk=bD;}else{if('S'===br[d7(0x2a1)]){let bE,bF,bG=br['values'][0x0],bH=br[d7(0x168)][0x1],bI=br[d7(0x168)][0x2],bJ=br[d7(0x168)][0x3];'C'===bp||'S'===bp?(bE=bj+(bj-bn),bF=bk+(bk-bo)):(bE=bj,bF=bk),ap[d7(0x3dc)]({'type':'C','values':[bE,bF,bG,bH,bI,bJ]}),bn=bG,bo=bH,bj=bI,bk=bJ;}else{if('T'===br[d7(0x2a1)]){let bK,bL,bM=br[d7(0x168)][0x0],bN=br[d7(0x168)][0x1];'Q'===bp||'T'===bp?(bK=bj+(bj-bn),bL=bk+(bk-bo)):(bK=bj,bL=bk);let bO=bj+0x2*(bK-bj)/0x3,bP=bk+0x2*(bL-bk)/0x3,bQ=bM+0x2*(bK-bM)/0x3,bR=bN+0x2*(bL-bN)/0x3;ap[d7(0x3dc)]({'type':'C','values':[bO,bP,bQ,bR,bM,bN]}),bn=bK,bo=bL,bj=bM,bk=bN;}else{if('Q'===br['type']){let bS=br[d7(0x168)][0x0],bT=br[d7(0x168)][0x1],bU=br[d7(0x168)][0x2],bV=br[d7(0x168)][0x3],bW=bj+0x2*(bS-bj)/0x3,bX=bk+0x2*(bT-bk)/0x3,bY=bU+0x2*(bS-bU)/0x3,bZ=bV+0x2*(bT-bV)/0x3;ap[d7(0x3dc)]({'type':'C','values':[bW,bX,bY,bZ,bU,bV]}),bn=bS,bo=bT,bj=bU,bk=bV;}else{if('A'===br[d7(0x2a1)]){let c0=Math[d7(0x230)](br[d7(0x168)][0x0]),c1=Math[d7(0x230)](br[d7(0x168)][0x1]),c2=br[d7(0x168)][0x2],c3=br[d7(0x168)][0x3],c4=br[d7(0x168)][0x4],c5=br[d7(0x168)][0x5],c6=br[d7(0x168)][0x6];if(0x0===c0||0x0===c1)ap[d7(0x3dc)]({'type':'C','values':[bj,bk,c5,c6,c5,c6]}),bj=c5,bk=c6;else(bj!==c5||bk!==c6)&&(ue(bj,bk,c5,c6,c0,c1,c2,c3,c4)[d7(0x339)](function(c7){const d8=d7;ap[d8(0x3dc)]({'type':'C','values':c7});}),bj=c5,bk=c6);}else'Z'===br['type']&&(ap[d7(0x3dc)](br),bj=bl,bk=bm);}}}}}}}}bp=br['type'];}}a9['push'](...ap);}}}return a9;},Ue=a7=>{const d9=c9;let a8='';for(let a9=0x0,aa=a7[d9(0x3ca)];a9<aa;a9+=0x1){let ab=a7[a9];a9>0x0&&(a8+='\x20'),a8+=ab[d9(0x2a1)],ab?.[d9(0x168)]?.[d9(0x3ca)]>0x0&&(a8+='\x20'+ab[d9(0x168)]['join']('\x20'));}return a8;},Ce=(a7,a8=!0x1)=>{const da=c9;let a9;if((a7[da(0x254)](/M/g)||[])[da(0x3ca)]>0x1){if(a9=new a4[(da(0x35b))](a7),a8){for(let aa of a9[da(0x2ac)])aa[da(0x163)]||aa[da(0x376)]();}}else a9=new a4['Path'](a7),a8&&(a9[da(0x163)]||a9['closePath']());return a9;},Ae=a7=>{const db=c9;if(!a7[db(0x15d)](af=>'C'===af['type']||'L'===af[db(0x2a1)]))return[];let a8=[],a9=null,aa=0x0,ab=0x0,ac=0x0,ad=0x0;for(let af of a7){if('M'===af['type'])'M'===a9&&a8['pop'](),a8['push'](af),aa=af[db(0x168)][0x0],ab=af[db(0x168)][0x1],ac=af[db(0x168)][0x0],ad=af[db(0x168)][0x1];else{if('L'===af[db(0x2a1)]){if('Z'===a9)a8[db(0x3dc)]({'type':'M','values':[ac,ad]});else{if(af[db(0x168)][0x0]===aa&&af[db(0x168)][0x1]===ab)continue;}a8[db(0x3dc)](af),aa=af[db(0x168)][0x0],ab=af[db(0x168)][0x1];}else'C'===af[db(0x2a1)]?('Z'===a9&&a8[db(0x3dc)]({'type':'M','values':[ac,ad]}),a8[db(0x3dc)](af),aa=af[db(0x168)][0x4],ab=af['values'][0x5]):'Z'===af[db(0x2a1)]&&(aa===ac&&ab===ad||a8[db(0x3dc)]({'type':'L','values':[ac,ad]}),a8[db(0x3dc)](af),aa=ac,ab=ad);}a9=af[db(0x2a1)];}return a8;},Fe=(a7,a8=null)=>{const dc=c9;let a9=a7[dc(0x32d)](':'),aa=null;if(0x1===a9[dc(0x3ca)]){let [ab]=a9;aa=document['createElement'](ab,a8);}else{if(0x2===a9['length']){let [ac,ad]=a9;'svg'===ac&&(aa=document[dc(0x1c4)](l,ad,a8));}}return aa;},Me=a7=>{const dd=c9;let a8=dd(0x2ce)===a7[dd(0x229)]?a7:null;for(let a9=a7['ownerSVGElement'];a9;a9=a9[dd(0x291)])a8=a9;return a8;},Te=(a7,a8,a9=!0x0)=>{const df=c9;let aa=a7[df(0x18b)](a8);return a9&&!aa&&a7[df(0x16f)]()[df(0x3bf)]?Te(a7[df(0x16f)]()[df(0x3bf)],a8):aa;};class ze extends HTMLElement{static #k=N` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
-  `;static #N=U`
+                  `;
+                  aa.push(aK.cssRules[0]);
+                }
+              }
+            }
+          }
+        }
+      }
+      a9(aa);
+    });
+  }
+  getFamilyDescriptor(a7) {
+    return new Promise(async (a8) => {
+      await this.#b();
+      a8((await this.#d.cache.where("family").equals(a7).toArray())[0] || null);
+    });
+  }
+  #g(a7) {
+    return new Promise(async (a8) => {
+      let a9 = null;
+      if (this.#f[a7]) {
+        a9 = this.#f[a7];
+      } else {
+        let aa = await fetch(a7);
+        let ab = await aa.text();
+        a9 = new CSSStyleSheet();
+        a9.replaceSync(ab);
+        this.#f[a7] = a9;
+      }
+      a8(a9);
+    });
+  }
+  #b() {
+    return new Promise(async (a7) => {
+      let a8 = await this.#d.cache.count();
+      let a9 = true;
+      if (a8 > 0) {
+        let aa = await this.#d.cache.get("Roboto");
+        if (aa) {
+          let ab = 1296000000;
+          a9 = Date.now() - aa.cachedTime > ab;
+        }
+      }
+      if (a8 === 0 || a9 === true) {
+        await this.refresh();
+      }
+      a7();
+    });
+  }
+})();
+if (!["iPhone", "iPad"].includes(navigator.platform)) {
+  navigator.platform.startsWith("Mac");
+}
+const C =
+  navigator.userAgent.indexOf("Safari/") > -1 &&
+  navigator.userAgent.indexOf("Chrome") === -1;
+if (window.frameElement === null) {
+  document.body.dataset.app;
+}
+let A = (a7, a8, a9) => a7.split(a8).join(a9);
+let F = (a7) => {
+  a7 = a7.toLowerCase();
+  a7 = A(a7, " ", "");
+  a7 = A(a7, "-", "");
+  let a8 = "400";
+  if ((a7 = A(a7, "_", "")).includes("thin") || a7.includes("hairline")) {
+    a8 = "100";
+  } else if (a7.includes("extralight") || a7.includes("ultralight")) {
+    a8 = "200";
+  } else if (a7.includes("light")) {
+    a8 = "300";
+  } else if (a7.includes("medium")) {
+    a8 = "500";
+  } else if (a7.includes("semibold") || a7.includes("demibold")) {
+    a8 = "600";
+  } else if (a7.includes("extrabold") || a7.includes("ultrabold")) {
+    a8 = "800";
+  } else if (a7.includes("bold")) {
+    a8 = "700";
+  } else if (a7.includes("black") || a7.includes("heavy")) {
+    a8 = "900";
+  }
+  return a8;
+};
+let M = (a7) => {
+  a7 = a7.toLowerCase();
+  a7 = A(a7, " ", "");
+  a7 = A(a7, "-", "");
+  let a8 = "normal";
+  if ((a7 = A(a7, "_", "")).includes("italic")) {
+    a8 = "italic";
+  } else if (a7.includes("oblique")) {
+    a8 = "oblique";
+  }
+  return a8;
+};
+let T = (a7) => {
+  let a8;
+  let a9 = document.createNodeIterator(a7, NodeFilter.SHOW_TEXT, null);
+  let aa = {
+    text: true,
+    textPath: true,
+    tspan: true,
+  };
+  while ((a8 = a9.nextNode())) {
+    if (!aa[a8.parentElement.localName]) {
+      if (z(a8.textContent)) {
+        a8.remove();
+      }
+    }
+  }
+};
+let z = (a7) => !/[^\t\n\r ]/.test(a7);
+new (class extends EventTarget {
+  #x = "init";
+  #y = [];
+  #d;
+  get status() {
+    return this.#x;
+  }
+  constructor() {
+    super();
+    this.#d = new a5("LocalFontsManager");
+    this.#d.version(1).stores({
+      cache: "family",
+    });
+    this.#d
+      .version(2)
+      .stores({
+        cache: "family",
+      })
+      .upgrade((a7) => a7.cache.clear());
+    if (window.queryLocalFonts === undefined) {
+      this.#x = "no-api";
+    } else {
+      navigator.permissions
+        .query({
+          name: "local-fonts",
+        })
+        .then((a7) => {
+          if (a7.state === "granted") {
+            this.refresh();
+          } else if (a7.state !== "prompt") {
+            this.#x = "no-permission";
+          }
+        });
+    }
+  }
+  search(a7 = "", a8 = "all") {
+    return new Promise(async (a9) => {
+      let aa = [];
+      let ab = this.#d.cache;
+      if (a7.trim() !== "") {
+        ab = ab.filter((ac) =>
+          ac.family.toLowerCase().includes(a7.trim().toLowerCase())
+        );
+      }
+      aa = await ab.toArray();
+      if (a8 !== "all") {
+        aa = aa.slice(a8 * 40, (a8 + 1) * 40);
+      }
+      a9(aa);
+    });
+  }
+  refresh() {
+    return new Promise(async (a7, a8) => {
+      let a9;
+      try {
+        a9 = await this.getLocalFontsMetadata(true);
+      } catch (ab) {
+        return a8(ab);
+      }
+      let aa = [];
+      for (let ac of a9) {
+        let ad = F(ac.style) + (M(ac.style) === "italic" ? "i" : "");
+        let af = aa.find((ag) => ag.family === ac.family);
+        if (af) {
+          if (af.faces.includes(ad) === false) {
+            af.faces.push(ad);
+          }
+        } else {
+          let ag = {
+            family: ac.family,
+            faces: [ad],
+          };
+          aa.push(ag);
+        }
+      }
+      for (let ah of aa) {
+        ah.faces.sort();
+      }
+      await this.#d.cache.clear();
+      await this.#d.cache.bulkPut(aa);
+      this.#x = "ready";
+      a7();
+    });
+  }
+  getLocalFontsMetadata(a7 = false) {
+    return new Promise(async (a8, a9) => {
+      if (this.status === "no-api") {
+        a8([]);
+      } else {
+        if (this.#y.length < 10 || a7) {
+          try {
+            this.#y = await window.queryLocalFonts();
+          } catch (aa) {
+            return a9({
+              message: aa.message,
+              name: aa.name,
+            });
+          }
+        }
+        a8(this.#y);
+      }
+    });
+  }
+  getCacheSize() {
+    return new Promise(async (a7) => {
+      a7(await this.#d.cache.count());
+    });
+  }
+  getFamilyDescriptor(a7) {
+    return new Promise(async (a8) => {
+      a8((await this.#d.cache.where("family").equals(a7).toArray())[0] || null);
+    });
+  }
+  getFamilyWeights(a7) {
+    return new Promise(async (a8) => {
+      let a9 = await this.getFamilyDescriptor(a7);
+      if (a9) {
+        let aa = new Set();
+        for (let ab of a9.faces) {
+          let ac = ab.substring(0, 3);
+          aa.add(ac);
+        }
+        a8([...aa]);
+      } else {
+        a8(["400"]);
+      }
+    });
+  }
+})();
+let P = (a7, a8 = 6) => {
+  let a9 = null;
+  if (a7.localName === "rect") {
+    a9 = S(a7, a8);
+  } else if (a7.localName === "circle") {
+    a9 = V(a7, a8);
+  } else if (a7.localName === "ellipse") {
+    a9 = D(a7, a8);
+  } else if (a7.localName === "line") {
+    a9 = L(a7, a8);
+  } else if (a7.localName === "polyline") {
+    a9 = B(a7, a8);
+  } else if (a7.localName === "polygon") {
+    a9 = R(a7, a8);
+  }
+  return a9;
+};
+let S = (a7, a8 = 6) => {
+  let a9 = Fe("svg:path");
+  let aa = a7.getPathData();
+  for (let ab of aa) {
+    ab.values = ab.values.map((ac) => b(ac, a8));
+  }
+  a9.setPathData(aa);
+  for (let ac of a7.attributes) {
+    if (["x", "y", "width", "height", "rx", "ry"].includes(ac.name) === false) {
+      a9.setAttribute(ac.name, ac.value);
+    }
+  }
+  a9.innerHTML = a7.innerHTML;
+  return a9;
+};
+let V = (a7, a8 = 6) => {
+  let a9 = Fe("svg:path");
+  let aa = a7.getPathData();
+  for (let ab of aa) {
+    ab.values = ab.values.map((ac) => b(ac, a8));
+  }
+  a9.setPathData(aa);
+  for (let ac of a7.attributes) {
+    if (!["cx", "cy", "r"].includes(ac.name)) {
+      a9.setAttribute(ac.name, ac.value);
+    }
+  }
+  a9.innerHTML = a7.innerHTML;
+  return a9;
+};
+let D = (a7, a8 = 6) => {
+  let a9 = Fe("svg:path");
+  let aa = a7.getPathData();
+  for (let ab of aa) {
+    ab.values = ab.values.map((ac) => b(ac, a8));
+  }
+  a9.setPathData(aa);
+  for (let ac of a7.attributes) {
+    if (!["cx", "cy", "rx", "ry"].includes(ac.name)) {
+      a9.setAttribute(ac.name, ac.value);
+    }
+  }
+  a9.innerHTML = a7.innerHTML;
+  return a9;
+};
+let L = (a7, a8 = 6) => {
+  let a9 = Fe("svg:path");
+  let aa = a7.getPathData();
+  for (let ab of aa) {
+    ab.values = ab.values.map((ac) => b(ac, a8));
+  }
+  a9.setPathData(aa);
+  for (let ac of a7.attributes) {
+    if (!["x1", "y1", "x2", "y2"].includes(ac.name)) {
+      a9.setAttribute(ac.name, ac.value);
+    }
+  }
+  a9.innerHTML = a7.innerHTML;
+  return a9;
+};
+let B = (a7, a8 = 6) => {
+  let a9 = Fe("svg:path");
+  let aa = a7.getPathData();
+  for (let ab of aa) {
+    ab.values = ab.values.map((ac) => b(ac, a8));
+  }
+  a9.setPathData(aa);
+  for (let ac of a7.attributes) {
+    if (ac.name !== "points") {
+      a9.setAttribute(ac.name, ac.value);
+    }
+  }
+  a9.innerHTML = a7.innerHTML;
+  return a9;
+};
+let R = (a7, a8 = 6) => {
+  let a9 = Fe("svg:path");
+  let aa = a7.getPathData();
+  for (let ab of aa) {
+    ab.values = ab.values.map((ac) => b(ac, a8));
+  }
+  a9.setPathData(a7.getPathData());
+  for (let ac of a7.attributes) {
+    if (ac.name !== "points") {
+      a9.setAttribute(ac.name, ac.value);
+    }
+  }
+  a9.innerHTML = a7.innerHTML;
+  return a9;
+};
+const O =
+  "\n  position: fixed;\n  top: -1px;\n  left: -1px;\n  width: 1px;\n  height: 1px;\n  contain: strict;\n  overflow: hidden;\n".replaceAll(
+    "\n  ",
+    ""
+  );
+class j {
+  #v;
+  #w;
+  get shadowRoot() {
+    return this.#v.shadowRoot;
+  }
+  constructor(a7) {
+    this.#w = a7;
+    this.#v = document.createElement("div");
+    this.#v.setAttribute("style", O);
+    this.#v.setAttribute("class", "offscreen-container");
+    this.#v.attachShadow({
+      mode: "open",
+    });
+    this.#v.shadowRoot.append(a7);
+    document.body.append(this.#v);
+  }
+  destroy() {
+    if (this.#w.parentNode === this.#v.shadowRoot) {
+      this.#w.remove();
+    }
+    this.#v.remove();
+    this.#v = null;
+  }
+}
+let E = (a7) => {
+  if (a7.isConnected === false) {
+    new j(a7);
+  }
+  if (C) {
+    let a8 = null;
+    if (a7.style.transform === "") {
+      a8 =
+        a7.localName === "linearGradient" || a7.localName === "radialGradient"
+          ? a7.gradientTransform.baseVal.consolidate()
+          : a7.localName === "pattern"
+          ? a7.patternTransform.baseVal.consolidate()
+          : a7.transform.baseVal.consolidate();
+      if (a8) {
+        return DOMMatrix.fromMatrix(a8.matrix);
+      } else {
+        return new DOMMatrix();
+      }
+    }
+    {
+      let a9 = a7.computedStyleMap().get("transform");
+      if (a9.value === "none") {
+        return new DOMMatrix();
+      } else {
+        return a9.toMatrix();
+      }
+    }
+  }
+  {
+    let aa = a7.computedStyleMap().get("transform");
+    if (aa.value === "none") {
+      return new DOMMatrix();
+    } else {
+      return aa.toMatrix();
+    }
+  }
+};
+let Z = (a7, a8, a9 = 3) => {
+  let aa = Ne(a7, true);
+  for (let ab of aa) {
+    if (
+      ab.type === "M" ||
+      ab.type === "L" ||
+      ab.type === "R" ||
+      ab.type === "U" ||
+      ab.type === "N"
+    ) {
+      let ac = new DOMPoint(ab.values[0], ab.values[1]).matrixTransform(a8);
+      ab.values = [ac.x, ac.y];
+    } else if (ab.type === "C") {
+      let ad = new DOMPoint(ab.values[0], ab.values[1]).matrixTransform(a8);
+      let af = new DOMPoint(ab.values[2], ab.values[3]).matrixTransform(a8);
+      let ag = new DOMPoint(ab.values[4], ab.values[5]).matrixTransform(a8);
+      ab.values = [ad.x, ad.y, af.x, af.y, ag.x, ag.y];
+    }
+    ab.values = ab.values.map((ah) => b(ah, a9));
+  }
+  return aa;
+};
+let I = (a7) => {
+  let a8 = [];
+  if (a7.closest("text")) {
+    let a9 = [];
+    let aa = document.createTreeWalker(a7, NodeFilter.SHOW_TEXT);
+    while (aa.nextNode()) {
+      a9.push(aa.currentNode);
+    }
+    for (let ab of a9) {
+      let ac = ab.parentElement;
+      if (
+        ac.localName === "text" ||
+        ac.localName === "tspan" ||
+        ac.localName === "textPath"
+      ) {
+        if (ac.getNumberOfChars() > 0) {
+          a8.push(ab);
+        }
+      } else if (ac.localName === "a") {
+        let ad = ac.getBBox();
+        if (ad.x !== 0 || ad.y !== 0 || ad.width !== 0 || ad.height !== 0) {
+          a8.push(ab);
+        }
+      }
+    }
+  }
+  return a8;
+};
+let $ = (a7, a8) => {
+  let a9 = a7.closest("text");
+  let aa = 0;
+  let ab = -1;
+  for (let ac of I(a9)) {
+    if (ac === a7) {
+      ab = aa + a8;
+      break;
+    }
+    aa += ac.length;
+  }
+  return [a9, ab];
+};
+let q = (a7, a8 = true) => {
+  let a9 = new DOMRect(0, 0, 0, 0);
+  let aa = a8
+    ? ((ab) => {
+        let ac = null;
+        if (c.includes(ab.localName)) {
+          let ad = getComputedStyle(ab).clipPath;
+          if (ad && ad !== "none") {
+            let af = ad.substring(6, ad.length - 2);
+            let ag = Me(ab).querySelector("#" + CSS.escape(af)) || null;
+            if (ag?.localName === "clipPath" && ag !== ab) {
+              ac = ag;
+            }
+          }
+        }
+        return ac;
+      })(a7)
+    : null;
+  if (aa) {
+    let ab = q(a7, false);
+    let ac = te(q(aa), E(aa));
+    a9 = ae(ab, ac);
+  } else if (a7.localName === "tspan") {
+    let ad = I(a7);
+    let af = document.createRange();
+    if (ad.length > 0) {
+      af.setStart(ad[0], 0);
+      af.setEnd(ad[ad.length - 1], ad[ad.length - 1].length);
+    }
+    if (af.collapsed === false) {
+      let ag = af.startContainer.closest("text");
+      let [, ah] = $(af.startContainer, af.startOffset);
+      let [, ai] = $(af.endContainer, af.endOffset);
+      let aj = [];
+      for (let ak = ah; ak < ai; ak += 1) {
+        let al = ag.getExtentOfChar(ak);
+        aj.push(al);
+      }
+      a9 = ie(aj);
+    }
+  } else if (a7.localName === "use") {
+    a9 = new DOMRect(0, 0, a7.width.baseVal.value, a7.height.baseVal.value);
+  } else if (a7.localName === "clipPath") {
+    let am = [];
+    for (let an of a7.children) {
+      if (d.includes(an.localName)) {
+        let ao = te(DOMRect.fromRect(an.getBBox()), E(an));
+        am.push(ao);
+      }
+    }
+    if (am.length > 0) {
+      a9 = ie(am);
+    }
+  } else {
+    a9 = DOMRect.fromRect(a7.getBBox());
+  }
+  return a9;
+};
+let {
+  sin: G,
+  cos: H,
+  acos: Q,
+  atan2: _,
+  abs: W,
+  sqrt: J,
+  pow: K,
+  PI: X,
+  min: Y,
+  max: ee,
+} = Math;
+document.createElementNS("http://www.w3.org/2000/svg", "svg");
+let te = (a7, a8) => {
+  let a9 = [
+    new DOMPoint(a7.x, a7.y),
+    new DOMPoint(a7.x + a7.width, a7.y),
+    new DOMPoint(a7.x + a7.width, a7.y + a7.height),
+    new DOMPoint(a7.x, a7.y + a7.height),
+  ].map((ah) => ah.matrixTransform(a8));
+  let aa = a9.map((ah) => ah.x);
+  let ab = a9.map((ah) => ah.y);
+  let ac = Y(...aa);
+  let ad = Y(...ab);
+  let af = ee(...aa);
+  let ag = ee(...ab);
+  return new DOMRect(ac, ad, af - ac, ag - ad);
+};
+let ie = (a7) => {
+  if (a7.length === 0) {
+    return new DOMRect(0, 0, 0, 0);
+  }
+  if (a7.length === 1) {
+    let a8 = a7[0];
+    return new DOMRect(a8.x, a8.y, a8.width, a8.height);
+  }
+  {
+    let a9 = Math.min(...a7.map((ad) => ad.x));
+    let aa = Math.min(...a7.map((ad) => ad.y));
+    let ab = Math.max(...a7.map((ad) => ad.x + ad.width));
+    let ac = Math.max(...a7.map((ad) => ad.y + ad.height));
+    return new DOMRect(a9, aa, ab - a9, ac - aa);
+  }
+};
+let ae = (a7, a8) => {
+  let a9 = Math.max(a7.left, a8.left);
+  let aa = Math.min(a7.right, a8.right);
+  let ab = Math.max(a7.top, a8.top);
+  let ac = Math.min(a7.bottom, a8.bottom);
+  return new DOMRect(a9, ab, aa - a9, ac - ab);
+};
+let { sin: ne, asin: se, cos: le, tan: oe, sqrt: re, abs: pe, PI: he } = Math;
+let ue = (a7, a8, a9, aa, ab, ac, ad, af, ag, ah) => {
+  let ai = (X * ad) / 180;
+  let aj;
+  let ak;
+  let al;
+  let am;
+  let an = [];
+  let ao = (aB, aC, aD) => ({
+    x: aB * le(aD) - aC * ne(aD),
+    y: aB * ne(aD) + aC * le(aD),
+  });
+  if (ah) {
+    aj = ah[0];
+    ak = ah[1];
+    al = ah[2];
+    am = ah[3];
+  } else {
+    let aB = ao(a7, a8, -ai);
+    a7 = aB.x;
+    a8 = aB.y;
+    let aC;
+    let aD = ao(a9, aa, -ai);
+    let aE = (a7 - (a9 = aD.x)) / 2;
+    let aF = (a8 - (aa = aD.y)) / 2;
+    let aG = (aE * aE) / (ab * ab) + (aF * aF) / (ac * ac);
+    if (aG > 1) {
+      aG = re(aG);
+      ab *= aG;
+      ac *= aG;
+    }
+    aC = af === ag ? -1 : 1;
+    let aH = ab * ab;
+    let aI = ac * ac;
+    let aJ =
+      aC *
+      re(
+        pe(
+          (aH * aI - aH * aF * aF - aI * aE * aE) /
+            (aH * aF * aF + aI * aE * aE)
+        )
+      );
+    al = (aJ * ab * aF) / ac + (a7 + a9) / 2;
+    am = (aJ * -ac * aE) / ab + (a8 + aa) / 2;
+    aj = se(parseFloat(((a8 - am) / ac).toFixed(9)));
+    ak = se(parseFloat(((aa - am) / ac).toFixed(9)));
+    if (a7 < al) {
+      aj = he - aj;
+    }
+    if (a9 < al) {
+      ak = he - ak;
+    }
+    if (aj < 0) {
+      aj = he * 2 + aj;
+    }
+    if (ak < 0) {
+      ak = he * 2 + ak;
+    }
+    if (ag && aj > ak) {
+      aj -= he * 2;
+    }
+    if (!ag && ak > aj) {
+      ak -= he * 2;
+    }
+  }
+  let ap = ak - aj;
+  if (pe(ap) > (he * 120) / 180) {
+    let aK = ak;
+    let aL = a9;
+    let aM = aa;
+    ak =
+      ag && ak > aj
+        ? aj + ((he * 120) / 180) * 1
+        : aj + ((he * 120) / 180) * -1;
+    a9 = al + ab * le(ak);
+    aa = am + ac * ne(ak);
+    an = ue(a9, aa, aL, aM, ab, ac, ad, 0, ag, [ak, aK, al, am]);
+  }
+  ap = ak - aj;
+  let aq = le(aj);
+  let ar = ne(aj);
+  let as = le(ak);
+  let at = ne(ak);
+  let au = oe(ap / 4);
+  let av = (4 / 3) * ab * au;
+  let aw = (4 / 3) * ac * au;
+  let ax = [a7, a8];
+  let ay = [a7 + av * ar, a8 - aw * aq];
+  let az = [a9 + av * at, aa - aw * as];
+  let aA = [a9, aa];
+  ay[0] = ax[0] * 2 - ay[0];
+  ay[1] = ax[1] * 2 - ay[1];
+  if (ah) {
+    return [ay, az, aA].concat(an);
+  }
+  {
+    an = [ay, az, aA].concat(an);
+    let aN = [];
+    for (let aO = 0; aO < an.length; aO += 3) {
+      let aP = ao(an[aO][0], an[aO][1], ai);
+      let aQ = ao(an[aO + 1][0], an[aO + 1][1], ai);
+      let aR = ao(an[aO + 2][0], an[aO + 2][1], ai);
+      aN.push([aP.x, aP.y, aQ.x, aQ.y, aR.x, aR.y]);
+    }
+    return aN;
+  }
+};
+let me = (a7, a8 = false) => {
+  let a9;
+  if (a7[0] instanceof DOMPoint) {
+    a7 = a7.map((aa) => [aa.x, aa.y]);
+  }
+  a9 = a8 ? ce(a7) : de(a7);
+  return a9;
+};
+let de = (a7) => {
+  let a8;
+  let a9;
+  let aa;
+  let ab;
+  let ac;
+  let ad;
+  let af = [];
+  let ag = false;
+  let ah = false;
+  for (let ak = 0, al = a7.length; ak <= al; ak += 1) {
+    if (ak < al) {
+      if (ag === false) {
+        ag = true;
+        a8 = 0;
+      }
+      ai = a7[ak][0];
+      aj = a7[ak][1];
+      if (a8 === 0) {
+        a8 = 1;
+        ah = true;
+        if (a9) {
+          af.push({
+            type: "L",
+            values: [ai, aj],
+          });
+        } else {
+          af.push({
+            type: "M",
+            values: [ai, aj],
+          });
+        }
+      } else if (a8 === 1) {
+        a8 = 2;
+      } else if (a8 === 2) {
+        a8 = 3;
+        ah = true;
+        af.push(
+          {
+            type: "L",
+            values: [(aa * 5 + ac) / 6, (ab * 5 + ad) / 6],
+          },
+          {
+            type: "C",
+            values: [
+              (aa * 2 + ac) / 3,
+              (ab * 2 + ad) / 3,
+              (aa + ac * 2) / 3,
+              (ab + ad * 2) / 3,
+              (aa + ac * 4 + ai) / 6,
+              (ab + ad * 4 + aj) / 6,
+            ],
+          }
+        );
+      } else {
+        ah = true;
+        af.push({
+          type: "C",
+          values: [
+            (aa * 2 + ac) / 3,
+            (ab * 2 + ad) / 3,
+            (aa + ac * 2) / 3,
+            (ab + ad * 2) / 3,
+            (aa + ac * 4 + ai) / 6,
+            (ab + ad * 4 + aj) / 6,
+          ],
+        });
+      }
+      aa = ac;
+      ab = ad;
+      ac = ai;
+      ad = aj;
+    } else if (ag === true) {
+      ag = false;
+      if (a8 === 3) {
+        ah = true;
+        af.push(
+          {
+            type: "C",
+            values: [
+              (aa * 2 + ac) / 3,
+              (ab * 2 + ad) / 3,
+              (aa + ac * 2) / 3,
+              (ab + ad * 2) / 3,
+              (aa + ac * 4 + ac) / 6,
+              (ab + ad * 4 + ad) / 6,
+            ],
+          },
+          {
+            type: "L",
+            values: [ac, ad],
+          }
+        );
+      } else if (a8 === 2) {
+        ah = true;
+        af.push({
+          type: "L",
+          values: [ac, ad],
+        });
+      }
+      if ((a9 || (a9 !== 0 && a8 === 1)) && ah) {
+        af.push({
+          type: "Z",
+          values: [],
+        });
+      }
+      a9 = 1 - a9;
+    }
+  }
+  var ai;
+  var aj;
+  return af;
+};
+let ce = (a7) => {
+  let a8;
+  let a9;
+  let aa;
+  let ab;
+  let ac;
+  let ad;
+  let af;
+  let ag;
+  let ah;
+  let ai;
+  let aj;
+  let ak = [];
+  let al = false;
+  let am = (an, ao) => {
+    if (a8 === 0) {
+      a8 = 1;
+      ad = an;
+      af = ao;
+    } else if (a8 === 1) {
+      a8 = 2;
+      ag = an;
+      ah = ao;
+    } else if (a8 === 2) {
+      a8 = 3;
+      ai = an;
+      aj = ao;
+      ak.push({
+        type: "M",
+        values: [(a9 + ab * 4 + an) / 6, (aa + ac * 4 + ao) / 6],
+      });
+    } else {
+      ak.push({
+        type: "C",
+        values: [
+          (a9 * 2 + ab) / 3,
+          (aa * 2 + ac) / 3,
+          (a9 + ab * 2) / 3,
+          (aa + ac * 2) / 3,
+          (a9 + ab * 4 + an) / 6,
+          (aa + ac * 4 + ao) / 6,
+        ],
+      });
+    }
+    a9 = ab;
+    aa = ac;
+    ab = an;
+    ac = ao;
+  };
+  for (let an = 0, ao = (a7 = x(a7, true)).length; an <= ao; an += 1) {
+    if (an < ao) {
+      if (al === false) {
+        al = true;
+        a8 = 0;
+      }
+      am(a7[an][0], a7[an][1]);
+    } else if (al === true) {
+      al = false;
+      if (a8 === 1) {
+        ak.push({
+          type: "M",
+          values: [ad, af],
+        });
+        ak.push({
+          type: "Z",
+          values: [],
+        });
+      } else if (a8 === 2) {
+        ak.push({
+          type: "M",
+          values: [(ad + ag * 2) / 3, (af + ah * 2) / 3],
+        });
+        ak.push({
+          type: "L",
+          values: [(ag + ad * 2) / 3, (ah + af * 2) / 3],
+        });
+        ak.push({
+          type: "Z",
+          values: [],
+        });
+      } else if (a8 === 3) {
+        am(ad, af);
+        am(ag, ah);
+        am(ai, aj);
+      }
+    }
+  }
+  return ak;
+};
+const fe = 1e-12;
+let be = (a7, a8 = false, a9 = 0.5) => {
+  let aa;
+  if (a7[0] instanceof DOMPoint) {
+    a7 = a7.map((ab) => [ab.x, ab.y]);
+  }
+  aa = a8 ? xe(a7, a9) : ge(a7, a9);
+  return aa;
+};
+let ge = (a7, a8) => {
+  let a9;
+  let aa;
+  let ab;
+  let ac;
+  let ad;
+  let af;
+  let ag;
+  let ah;
+  let ai;
+  let aj;
+  let ak;
+  let al;
+  let am;
+  let an;
+  let ao = [];
+  let ap = false;
+  let aq = false;
+  let ar = (as, at) => {
+    if (am) {
+      let au = ad - as;
+      let av = af - at;
+      al = Math.pow(au * au + av * av, a8);
+      ai = Math.sqrt(al);
+    }
+    if (am === 0) {
+      am = 1;
+      if (an) {
+        aq = true;
+        ao.push({
+          type: "L",
+          values: [as, at],
+        });
+      } else {
+        aq = true;
+        ao.push({
+          type: "M",
+          values: [as, at],
+        });
+      }
+    } else if (am === 1) {
+      am = 2;
+    } else {
+      if (am === 2) {
+        am = 3;
+      }
+      let aw = ab;
+      let ax = ac;
+      let ay = ad;
+      let az = af;
+      if (ag > fe) {
+        let aA = aj * 2 + ag * 3 * ah + ak;
+        let aB = ag * 3 * (ag + ah);
+        aw = (aw * aA - a9 * ak + ad * aj) / aB;
+        ax = (ax * aA - aa * ak + af * aj) / aB;
+      }
+      if (ai > fe) {
+        let aC = al * 2 + ai * 3 * ah + ak;
+        let aD = ai * 3 * (ai + ah);
+        ay = (ay * aC + ab * al - as * ak) / aD;
+        az = (az * aC + ac * al - at * ak) / aD;
+      }
+      aq = true;
+      ao.push({
+        type: "C",
+        values: [aw, ax, ay, az, ad, af],
+      });
+    }
+    ag = ah;
+    ah = ai;
+    aj = ak;
+    ak = al;
+    a9 = ab;
+    ab = ad;
+    ad = as;
+    aa = ac;
+    ac = af;
+    af = at;
+  };
+  for (let as = 0, at = a7.length; as <= at; as += 1) {
+    if (as < at) {
+      if (ap === false) {
+        ap = true;
+        ag = 0;
+        ah = 0;
+        ai = 0;
+        aj = 0;
+        ak = 0;
+        al = 0;
+        am = 0;
+      }
+      ar(a7[as][0], a7[as][1]);
+    } else if (ap === true) {
+      ap = false;
+      if (am === 2) {
+        aq = true;
+        ao.push({
+          type: "L",
+          values: [ad, af],
+        });
+      } else if (am === 3) {
+        ar(ad, af);
+      }
+      if ((an || (an !== 0 && am === 1)) && aq) {
+        ao.push({
+          type: "Z",
+          values: [],
+        });
+      }
+      an = 1 - an;
+    }
+  }
+  return ao;
+};
+let xe = (a7, a8 = 0.5) => {
+  let a9;
+  let aa;
+  let ab;
+  let ac;
+  let ad;
+  let af;
+  let ag;
+  let ah;
+  let ai;
+  let aj;
+  let ak;
+  let al;
+  let am;
+  let an;
+  let ao;
+  let ap;
+  let aq;
+  let ar;
+  let as;
+  let at = [];
+  let au = false;
+  let av = (aw, ax) => {
+    if (as) {
+      let ay = ad - aw;
+      let az = af - ax;
+      ar = Math.pow(ay * ay + az * az, a8);
+      ao = Math.sqrt(ar);
+    }
+    if (as === 0) {
+      as = 1;
+      ag = aw;
+      ah = ax;
+    } else if (as === 1) {
+      as = 2;
+      ai = aw;
+      aj = ax;
+      at.push({
+        type: "M",
+        values: [ai, aj],
+      });
+    } else if (as === 2) {
+      as = 3;
+      ak = aw;
+      al = ax;
+    } else {
+      let aA = ab;
+      let aB = ac;
+      let aC = ad;
+      let aD = af;
+      if (am > fe) {
+        let aE = ap * 2 + am * 3 * an + aq;
+        let aF = am * 3 * (am + an);
+        aA = (aA * aE - a9 * aq + ad * ap) / aF;
+        aB = (aB * aE - aa * aq + af * ap) / aF;
+      }
+      if (ao > fe) {
+        let aG = ar * 2 + ao * 3 * an + aq;
+        let aH = ao * 3 * (ao + an);
+        aC = (aC * aG + ab * ar - aw * aq) / aH;
+        aD = (aD * aG + ac * ar - ax * aq) / aH;
+      }
+      at.push({
+        type: "C",
+        values: [aA, aB, aC, aD, ad, af],
+      });
+    }
+    am = an;
+    an = ao;
+    ap = aq;
+    aq = ar;
+    a9 = ab;
+    ab = ad;
+    ad = aw;
+    aa = ac;
+    ac = af;
+    af = ax;
+  };
+  for (let aw = 0, ax = (a7 = x(a7, true)).length; aw <= ax; aw += 1) {
+    if (aw < ax) {
+      if (au === false) {
+        au = true;
+        am = 0;
+        an = 0;
+        ao = 0;
+        ap = 0;
+        aq = 0;
+        ar = 0;
+        as = 0;
+      }
+      av(a7[aw][0], a7[aw][1]);
+    } else if (au === true) {
+      au = false;
+      if (as === 1) {
+        at.push(
+          {
+            type: "M",
+            values: [ag, ah],
+          },
+          {
+            type: "Z",
+            values: [],
+          }
+        );
+      } else if (as === 2) {
+        at.push(
+          {
+            type: "L",
+            values: [ag, ah],
+          },
+          {
+            type: "Z",
+            values: [],
+          }
+        );
+      } else if (as === 3) {
+        av(ag, ah);
+        av(ai, aj);
+        av(ak, al);
+      }
+    }
+  }
+  return at;
+};
+let ye = new Set(["M", "Z", "L", "C", "R", "U", "N"]);
+let ve = new Set(["R", "U", "N"]);
+let we = (a7, a8 = true) => {
+  let a9 = [];
+  if (a7.localName === "path") {
+    if (a8 === false) {
+      a9 = Ae(
+        a7.getPathData({
+          normalize: true,
+        })
+      );
+    } else {
+      let aa = null;
+      if (a7.hasAttribute("data-bx-d")) {
+        let ab = a7
+          .getAttribute("data-bx-d")
+          .trim()
+          .split(/[\s+,]+/);
+        if (ab.length >= 3) {
+          if (ab[ab.length - 1].includes("@") ? ab[ab.length - 1] : null) {
+            let ac = null;
+            aa = [];
+            for (let ad = 0; ad < ab.length - 1; ad += 1) {
+              let af = ab[ad];
+              if (ye.has(af)) {
+                ac = {
+                  type: af,
+                  values: [],
+                };
+                aa.push(ac);
+              } else {
+                ac.values.push(parseFloat(af));
+              }
+            }
+          }
+        }
+      }
+      a9 =
+        aa ||
+        Ae(
+          a7.getPathData({
+            normalize: true,
+          })
+        );
+    }
+  } else if (
+    ["line", "polyline", "polygon", "rect", "circle", "ellipse"].includes(
+      a7.localName
+    )
+  ) {
+    a9 = a7.getPathData({
+      normalize: true,
+    });
+  }
+  return a9;
+};
+let ke = (a7, a8, a9 = null) => {
+  if ((a8.find((aa) => ve.has(aa.type)) !== undefined) === false) {
+    if (a9 !== null) {
+      for (let aa of a8) {
+        aa.values = aa.values.map((ab) => b(ab, a9));
+      }
+    }
+    a7.setPathData(a8);
+    a7.removeAttribute("data-bx-d");
+  } else {
+    let ab = Ne(a8, false);
+    let ac = a8;
+    if (a9 !== null) {
+      ab.forEach((ai) => (ai.values = ai.values.map((aj) => b(aj, a9))));
+      ac.forEach((ai) => (ai.values = ai.values.map((aj) => b(aj, a9))));
+    }
+    let ad = Ue(ab);
+    let af = Ue(ac);
+    let ag = 1;
+    let ah = ((ai, aj = "hex") => {
+      let ak = 2166136261;
+      for (let al = 0, am = ai.length; al < am; al += 1) {
+        ak ^= ai.charCodeAt(al);
+        ak += (ak << 1) + (ak << 4) + (ak << 7) + (ak << 8) + (ak << 24);
+      }
+      ak >>>= 0;
+      if (aj === "hex") {
+        ak = ("0000000" + ak.toString(16)).substr(-8);
+      }
+      return ak;
+    })(ad + " / " + af + " " + ag).toString(32);
+    a7.setAttribute("d", ad);
+    a7.setAttribute("data-bx-d", af + " " + ag + "@" + ah);
+  }
+};
+let Ne = (a7, a8 = false) => {
+  let a9 = [];
+  let aa = [];
+  {
+    let ab = [];
+    let ac = null;
+    let ad = 0;
+    let af = 0;
+    for (let ag of a7) {
+      if (ag.type === "M" || ag.type === "m") {
+        if (ab[0]) {
+          aa.push(ab);
+          ab = [];
+        }
+        ab.push(ag);
+        ad = ag.values[0];
+        af = ag.values[1];
+      } else if (ag.type === "Z" || ag.type === "z") {
+        ab.push(ag);
+        aa.push(ab);
+        ab = [];
+      } else {
+        if (ac === "Z" || ac === "z") {
+          ab.push({
+            type: "M",
+            values: [ad, af],
+          });
+        }
+        ab.push(ag);
+      }
+      ac = ag.type;
+    }
+    if (ab[0]) {
+      aa.push(ab);
+    }
+  }
+  for (let ah of aa) {
+    if (ah[1]?.type === "R") {
+      if (a8) {
+        a9.push(...ah);
+      } else {
+        let ai = [];
+        let aj = false;
+        for (let ak of ah) {
+          if (ak.type === "M" || ak.type === "R") {
+            ai.push([ak.values[0], ak.values[1]]);
+          } else if (ak.type === "Z") {
+            aj = true;
+          }
+        }
+        a9.push(...be(ai, aj));
+      }
+    } else if (ah[1]?.type === "U") {
+      if (a8) {
+        a9.push(...ah);
+      } else {
+        let al = [];
+        let am = false;
+        for (let an of ah) {
+          if (an.type === "M" || an.type === "U") {
+            al.push([an.values[0], an.values[1]]);
+          } else if (an.type === "Z") {
+            am = true;
+          }
+        }
+        a9.push(...me(al, am));
+      }
+    } else if (ah[1]?.type === "N");
+    else {
+      let ao = [];
+      let ap = [];
+      {
+        let aq = null;
+        let ar = null;
+        let as = null;
+        let at = null;
+        for (let au of ah) {
+          let av = au.type;
+          if (av === "M") {
+            let aw = au.values[0];
+            let ax = au.values[1];
+            ao.push({
+              type: "M",
+              values: [aw, ax],
+            });
+            as = aw;
+            at = ax;
+            aq = aw;
+            ar = ax;
+          } else if (av === "m") {
+            let ay = aq + au.values[0];
+            let az = ar + au.values[1];
+            ao.push({
+              type: "M",
+              values: [ay, az],
+            });
+            as = ay;
+            at = az;
+            aq = ay;
+            ar = az;
+          } else if (av === "L") {
+            let aA = au.values[0];
+            let aB = au.values[1];
+            ao.push({
+              type: "L",
+              values: [aA, aB],
+            });
+            aq = aA;
+            ar = aB;
+          } else if (av === "l") {
+            let aC = aq + au.values[0];
+            let aD = ar + au.values[1];
+            ao.push({
+              type: "L",
+              values: [aC, aD],
+            });
+            aq = aC;
+            ar = aD;
+          } else if (av === "C") {
+            let aE = au.values[0];
+            let aF = au.values[1];
+            let aG = au.values[2];
+            let aH = au.values[3];
+            let aI = au.values[4];
+            let aJ = au.values[5];
+            ao.push({
+              type: "C",
+              values: [aE, aF, aG, aH, aI, aJ],
+            });
+            aq = aI;
+            ar = aJ;
+          } else if (av === "c") {
+            let aK = aq + au.values[0];
+            let aL = ar + au.values[1];
+            let aM = aq + au.values[2];
+            let aN = ar + au.values[3];
+            let aO = aq + au.values[4];
+            let aP = ar + au.values[5];
+            ao.push({
+              type: "C",
+              values: [aK, aL, aM, aN, aO, aP],
+            });
+            aq = aO;
+            ar = aP;
+          } else if (av === "Q") {
+            let aQ = au.values[0];
+            let aR = au.values[1];
+            let aS = au.values[2];
+            let aT = au.values[3];
+            ao.push({
+              type: "Q",
+              values: [aQ, aR, aS, aT],
+            });
+            aq = aS;
+            ar = aT;
+          } else if (av === "q") {
+            let aU = aq + au.values[0];
+            let aV = ar + au.values[1];
+            let aW = aq + au.values[2];
+            let aX = ar + au.values[3];
+            ao.push({
+              type: "Q",
+              values: [aU, aV, aW, aX],
+            });
+            aq = aW;
+            ar = aX;
+          } else if (av === "A") {
+            let aY = au.values[5];
+            let aZ = au.values[6];
+            ao.push({
+              type: "A",
+              values: [
+                au.values[0],
+                au.values[1],
+                au.values[2],
+                au.values[3],
+                au.values[4],
+                aY,
+                aZ,
+              ],
+            });
+            aq = aY;
+            ar = aZ;
+          } else if (av === "a") {
+            let b0 = aq + au.values[5];
+            let b1 = ar + au.values[6];
+            ao.push({
+              type: "A",
+              values: [
+                au.values[0],
+                au.values[1],
+                au.values[2],
+                au.values[3],
+                au.values[4],
+                b0,
+                b1,
+              ],
+            });
+            aq = b0;
+            ar = b1;
+          } else if (av === "H") {
+            let b2 = au.values[0];
+            ao.push({
+              type: "H",
+              values: [b2],
+            });
+            aq = b2;
+          } else if (av === "h") {
+            let b3 = aq + au.values[0];
+            ao.push({
+              type: "H",
+              values: [b3],
+            });
+            aq = b3;
+          } else if (av === "V") {
+            let b4 = au.values[0];
+            ao.push({
+              type: "V",
+              values: [b4],
+            });
+            ar = b4;
+          } else if (av === "v") {
+            let b5 = ar + au.values[0];
+            ao.push({
+              type: "V",
+              values: [b5],
+            });
+            ar = b5;
+          } else if (av === "S") {
+            let b6 = au.values[0];
+            let b7 = au.values[1];
+            let b8 = au.values[2];
+            let b9 = au.values[3];
+            ao.push({
+              type: "S",
+              values: [b6, b7, b8, b9],
+            });
+            aq = b8;
+            ar = b9;
+          } else if (av === "s") {
+            let ba = aq + au.values[0];
+            let bb = ar + au.values[1];
+            let bc = aq + au.values[2];
+            let bd = ar + au.values[3];
+            ao.push({
+              type: "S",
+              values: [ba, bb, bc, bd],
+            });
+            aq = bc;
+            ar = bd;
+          } else if (av === "T") {
+            let bf = au.values[0];
+            let bg = au.values[1];
+            ao.push({
+              type: "T",
+              values: [bf, bg],
+            });
+            aq = bf;
+            ar = bg;
+          } else if (av === "t") {
+            let bh = aq + au.values[0];
+            let bi = ar + au.values[1];
+            ao.push({
+              type: "T",
+              values: [bh, bi],
+            });
+            aq = bh;
+            ar = bi;
+          } else if (av === "Z" || av === "z") {
+            ao.push({
+              type: "Z",
+              values: [],
+            });
+            aq = as;
+            ar = at;
+          }
+        }
+      }
+      {
+        let bj = 0;
+        let bk = 0;
+        let bl = 0;
+        let bm = 0;
+        let bn = null;
+        let bo = null;
+        let bp = null;
+        for (let bq = 0; bq < ao.length; bq += 1) {
+          let br = ao[bq];
+          if (br.type === "M") {
+            let bs = br.values[0];
+            let bt = br.values[1];
+            ap.push({
+              type: "M",
+              values: [bs, bt],
+            });
+            bl = bs;
+            bm = bt;
+            bj = bs;
+            bk = bt;
+          } else if (br.type === "C") {
+            let bu = br.values[0];
+            let bv = br.values[1];
+            let bw = br.values[2];
+            let bx = br.values[3];
+            let by = br.values[4];
+            let bz = br.values[5];
+            ap.push({
+              type: "C",
+              values: [bu, bv, bw, bx, by, bz],
+            });
+            bn = bw;
+            bo = bx;
+            bj = by;
+            bk = bz;
+          } else if (br.type === "L") {
+            let bA = br.values[0];
+            let bB = br.values[1];
+            ap.push({
+              type: "L",
+              values: [bA, bB],
+            });
+            bj = bA;
+            bk = bB;
+          } else if (br.type === "H") {
+            let bC = br.values[0];
+            ap.push({
+              type: "L",
+              values: [bC, bk],
+            });
+            bj = bC;
+          } else if (br.type === "V") {
+            let bD = br.values[0];
+            ap.push({
+              type: "L",
+              values: [bj, bD],
+            });
+            bk = bD;
+          } else if (br.type === "S") {
+            let bE;
+            let bF;
+            let bG = br.values[0];
+            let bH = br.values[1];
+            let bI = br.values[2];
+            let bJ = br.values[3];
+            if (bp === "C" || bp === "S") {
+              bE = bj + (bj - bn);
+              bF = bk + (bk - bo);
+            } else {
+              bE = bj;
+              bF = bk;
+            }
+            ap.push({
+              type: "C",
+              values: [bE, bF, bG, bH, bI, bJ],
+            });
+            bn = bG;
+            bo = bH;
+            bj = bI;
+            bk = bJ;
+          } else if (br.type === "T") {
+            let bK;
+            let bL;
+            let bM = br.values[0];
+            let bN = br.values[1];
+            if (bp === "Q" || bp === "T") {
+              bK = bj + (bj - bn);
+              bL = bk + (bk - bo);
+            } else {
+              bK = bj;
+              bL = bk;
+            }
+            let bO = bj + ((bK - bj) * 2) / 3;
+            let bP = bk + ((bL - bk) * 2) / 3;
+            let bQ = bM + ((bK - bM) * 2) / 3;
+            let bR = bN + ((bL - bN) * 2) / 3;
+            ap.push({
+              type: "C",
+              values: [bO, bP, bQ, bR, bM, bN],
+            });
+            bn = bK;
+            bo = bL;
+            bj = bM;
+            bk = bN;
+          } else if (br.type === "Q") {
+            let bS = br.values[0];
+            let bT = br.values[1];
+            let bU = br.values[2];
+            let bV = br.values[3];
+            let bW = bj + ((bS - bj) * 2) / 3;
+            let bX = bk + ((bT - bk) * 2) / 3;
+            let bY = bU + ((bS - bU) * 2) / 3;
+            let bZ = bV + ((bT - bV) * 2) / 3;
+            ap.push({
+              type: "C",
+              values: [bW, bX, bY, bZ, bU, bV],
+            });
+            bn = bS;
+            bo = bT;
+            bj = bU;
+            bk = bV;
+          } else if (br.type === "A") {
+            let c0 = Math.abs(br.values[0]);
+            let c1 = Math.abs(br.values[1]);
+            let c2 = br.values[2];
+            let c3 = br.values[3];
+            let c4 = br.values[4];
+            let c5 = br.values[5];
+            let c6 = br.values[6];
+            if (c0 === 0 || c1 === 0) {
+              ap.push({
+                type: "C",
+                values: [bj, bk, c5, c6, c5, c6],
+              });
+              bj = c5;
+              bk = c6;
+            } else if (bj !== c5 || bk !== c6) {
+              ue(bj, bk, c5, c6, c0, c1, c2, c3, c4).forEach(function (c7) {
+                ap.push({
+                  type: "C",
+                  values: c7,
+                });
+              });
+              bj = c5;
+              bk = c6;
+            }
+          } else if (br.type === "Z") {
+            ap.push(br);
+            bj = bl;
+            bk = bm;
+          }
+          bp = br.type;
+        }
+      }
+      a9.push(...ap);
+    }
+  }
+  return a9;
+};
+let Ue = (a7) => {
+  let a8 = "";
+  for (let a9 = 0, aa = a7.length; a9 < aa; a9 += 1) {
+    let ab = a7[a9];
+    if (a9 > 0) {
+      a8 += " ";
+    }
+    a8 += ab.type;
+    if (ab?.values?.length > 0) {
+      a8 += " " + ab.values.join(" ");
+    }
+  }
+  return a8;
+};
+let Ce = (a7, a8 = false) => {
+  let a9;
+  if ((a7.match(/M/g) || []).length > 1) {
+    a9 = new a4.CompoundPath(a7);
+    if (a8) {
+      for (let aa of a9.children) {
+        if (!aa.closed) {
+          aa.closePath();
+        }
+      }
+    }
+  } else {
+    a9 = new a4.Path(a7);
+    if (a8) {
+      if (!a9.closed) {
+        a9.closePath();
+      }
+    }
+  }
+  return a9;
+};
+let Ae = (a7) => {
+  if (!a7.find((af) => af.type === "C" || af.type === "L")) {
+    return [];
+  }
+  let a8 = [];
+  let a9 = null;
+  let aa = 0;
+  let ab = 0;
+  let ac = 0;
+  let ad = 0;
+  for (let af of a7) {
+    if (af.type === "M") {
+      if (a9 === "M") {
+        a8.pop();
+      }
+      a8.push(af);
+      aa = af.values[0];
+      ab = af.values[1];
+      ac = af.values[0];
+      ad = af.values[1];
+    } else if (af.type === "L") {
+      if (a9 === "Z") {
+        a8.push({
+          type: "M",
+          values: [ac, ad],
+        });
+      } else if (af.values[0] === aa && af.values[1] === ab) {
+        continue;
+      }
+      a8.push(af);
+      aa = af.values[0];
+      ab = af.values[1];
+    } else if (af.type === "C") {
+      if (a9 === "Z") {
+        a8.push({
+          type: "M",
+          values: [ac, ad],
+        });
+      }
+      a8.push(af);
+      aa = af.values[4];
+      ab = af.values[5];
+    } else if (af.type === "Z") {
+      if (aa !== ac || ab !== ad) {
+        a8.push({
+          type: "L",
+          values: [ac, ad],
+        });
+      }
+      a8.push(af);
+      aa = ac;
+      ab = ad;
+    }
+    a9 = af.type;
+  }
+  return a8;
+};
+let Fe = (a7, a8 = null) => {
+  let a9 = a7.split(":");
+  let aa = null;
+  if (a9.length === 1) {
+    let [ab] = a9;
+    aa = document.createElement(ab, a8);
+  } else if (a9.length === 2) {
+    let [ac, ad] = a9;
+    if (ac === "svg") {
+      aa = document.createElementNS(l, ad, a8);
+    }
+  }
+  return aa;
+};
+let Me = (a7) => {
+  let a8 = a7.localName === "svg" ? a7 : null;
+  for (let a9 = a7.ownerSVGElement; a9; a9 = a9.ownerSVGElement) {
+    a8 = a9;
+  }
+  return a8;
+};
+let Te = (a7, a8, a9 = true) => {
+  let aa = a7.closest(a8);
+  if (a9 && !aa && a7.getRootNode().host) {
+    return Te(a7.getRootNode().host, a8);
+  } else {
+    return aa;
+  }
+};
+class ze extends HTMLElement {
+  static #k = N` <template> <main id="main" part="main"></main> <footer id="footer" part="footer"></footer> </template>
+  `;
+  static #N = U`
     :host {
       display: flex;
       flex-flow: column;
@@ -93,6 +3995,921 @@ const c9=a1;(function(a7,a8){const c8=a1,a9=a7();while(!![]){try{const aa=parseI
       background: none;
       height: 4px;
     }
-  `;#U;constructor(){const dg=c9;super();let a7=this[dg(0x3be)]['t'],a8=this[dg(0x3be)]['l'];this.#U=this[dg(0x222)]({'mode':dg(0x163)}),this.#U[dg(0x174)]=[a2[dg(0x1f8)],ze.#N,this['constructor'][dg(0x2bf)]],this.#U[dg(0x258)](document[dg(0x356)](ze.#k[dg(0x3b2)],!0x0)),a7&&this.#U[dg(0x322)](dg(0x1c9))[dg(0x258)](document[dg(0x356)](a7[dg(0x3b2)],!0x0)),a8&&this.#U['querySelector'](dg(0x22d))[dg(0x258)](document[dg(0x356)](a8[dg(0x3b2)],!0x0));for(let a9 of this.#U[dg(0x1c5)](dg(0x28a)))this['#'+a9['id']]=a9;this[dg(0x370)](dg(0x3a2),dg(0x333)),this[dg(0x370)](dg(0x1bc),'0');}}function a1(a,b){const c=a0();return a1=function(d,e){d=d-0x14d;let f=c[d];return f;},a1(a,b);}let Pe=(a7,a8=c9(0x227),a9=0x2)=>{const dh=c9;a7=a7[dh(0x159)](!0x0);let aa,ab=document[dh(0x1ee)](a7,NodeFilter[dh(0x175)]);for(;aa=ab[dh(0x338)]();)if(aa[dh(0x2a8)]==Node['ELEMENT_NODE']){if(dh(0x394)===aa[dh(0x229)])0x0===aa[dh(0x2ac)][dh(0x3ca)]&&aa[dh(0x1b8)]();else{if(dh(0x34e)===aa[dh(0x229)])''===aa[dh(0x377)][dh(0x292)](/\s+/g,'\x20')['trim']()?aa['remove']():aa['matches']('[data-bx-fonts=\x22google\x22]')&&aa['removeAttribute'](dh(0x21c));else{if(dh(0x227)===a8&&dh(0x2b7)===aa[dh(0x229)]){let ac=aa['getAttribute']('d');ac&&/[\t\n\r]/[dh(0x2d9)](ac)&&aa['setAttribute']('d',ac[dh(0x292)](/[\t\n\r ]+/g,'\x20'));}}}}return Ve(a7,a8),((ad,af=0x2,ag=0x1)=>{T(ad);let ah='',ai={'text':!0x0,'textPath':!0x0,'tspan':!0x0,'title':!0x0,'desc':!0x0};for(let ak=0x0;ak<af;ak+=0x1)ah+='\x20';let aj=(al,am=0x2)=>{const di=a1;if(!ai[al['localName']])for(let an of al['children']){let ao=al[di(0x280)]===an,ap=al['lastChild']===an;if(!0x0===ao){let as=document[di(0x2cb)]('\x0a');an[di(0x2dd)][di(0x34b)](as,an);}let aq='';for(let at=0x0;at<am;at+=0x1)aq+=ah;let ar=document[di(0x2cb)](aq);if(al[di(0x34b)](ar,an),!0x0===ap){let au=document[di(0x2cb)]('\x0a');al[di(0x328)](au);let av='';for(let ax=0x0;ax<am-0x1;ax+=0x1)av+=ah;let aw=document['createTextNode'](av);al[di(0x328)](aw);}else{let ay=document[di(0x2cb)]('\x0a');al[di(0x34b)](ay,an['nextSibling']);}an[di(0x271)]>0x0&&aj(an,am+0x1);}};aj(ad,ag);})(a7,a9),Se(a7,a8);},Se=(a7,a8=c9(0x227))=>{const dj=c9;let a9;if('xml'===a8){if(a9=new XMLSerializer()['serializeToString'](a7),0x0===a9[dj(0x2b9)]()[dj(0x3ca)])throw new Error('Failed\x20to\x20serialize\x20artwork');a9=dj(0x36a)+a9;}else{if('html'===a8){if(a9=a7[dj(0x17d)],0x0===a9[dj(0x2b9)]()[dj(0x3ca)])throw new Error(dj(0x16e));a9=dj(0x3c1)+a9,a9=A(a9,dj(0x295),'');}}{let aa=0x0;for(;;){let ab=a9[dj(0x28d)](dj(0x3c2),aa),ac=-0x1;if(ab>-0x1&&(ac=a9[dj(0x28d)]('\x22',ab+0x7)),-0x1===ab||-0x1===ac)break;{let ad=a9[dj(0x152)](0x0,ab),af=a9[dj(0x152)](ac+0x1),ag=a9[dj(0x152)](ab,ac+0x1)['replaceAll'](dj(0x16a),'\x27');a9=ad+ag+af,aa=ab+ag[dj(0x3ca)],aa=ac+0x1;}}}return a9;},Ve=(a7,a8)=>{const dk=c9;if(dk(0x227)===a8){let a9,aa=document[dk(0x1ee)](a7,NodeFilter[dk(0x175)]),ab=!0x1,ac=!0x1;for(;a9=aa['nextNode']();)if(dk(0x202)!==a9[dk(0x229)]){if(a9[dk(0x229)]['startsWith']('bx-')){let ad=document[dk(0x1c4)](s,dk(0x3eb)+a9['localName'][dk(0x152)](0x3));for(let af of[...a9[dk(0x3ef)]])ad[dk(0x370)](af[dk(0x2fe)],af[dk(0x2f1)]);for(let ag of[...a9['childNodes']])ad[dk(0x258)](ag);a9[dk(0x1dd)](ad),ac=!0x0;}else{for(let {name:ah,value:ai}of[...a9['attributes']])if(dk(0x1e8)===ah||'_href'===ah)a9[dk(0x370)](dk(0x274),ai),a9[dk(0x3b6)](ah),ab=!0x0;else{if(ah[dk(0x189)](dk(0x2a5))){let aj=ah[dk(0x152)](0x8);a9['setAttributeNS'](s,dk(0x3eb)+aj,ai),a9[dk(0x3b6)](ah),ac=!0x0;}}}}else{let ak=Fe(dk(0x1a7));ak['innerHTML']=a9[dk(0x3d9)];for(let {name:al,value:am}of a9[dk(0x3ef)])ak['setAttribute'](al,am);a9[dk(0x1dd)](ak);}a7['removeAttribute'](dk(0x39b)),a7[dk(0x3b6)](dk(0x1e9)),a7[dk(0x3b6)]('xmlns:xlink'),a7[dk(0x332)](r,dk(0x39b),l),ab&&a7[dk(0x332)](r,dk(0x3ac),o),ac&&a7[dk(0x332)](r,dk(0x1e9),s);}else{if(dk(0x35c)===a8){let an,ao=document['createNodeIterator'](a7,NodeFilter[dk(0x175)]);for(;an=ao[dk(0x338)]();)if('bx-title'!==an[dk(0x229)]){for(let {name:ap,value:aq}of[...an[dk(0x3ef)]])'href'!==ap&&dk(0x1d9)!==ap||(an[dk(0x370)](dk(0x274),aq),an[dk(0x3b6)](ap));}else{let ar=Fe(dk(0x1a7));ar[dk(0x3d9)]=an[dk(0x3d9)];for(let {name:as,value:at}of an['attributes'])ar[dk(0x370)](as,at);an[dk(0x1dd)](ar);}}}},De=(a7,a8,a9=0x3)=>Le(a7,a8,'intersect',a9),Le=(a7,a8,a9,aa)=>{const dl=c9;let ab=Ce(Ue(a7),!0x0),ac=Ce(Ue(a8),!0x0),ad=ab[a9](ac),af=[];if(ad){let ah=ad[dl(0x2fd)]()[dl(0x3e3)]('d');ag=ah,af=new v()[dl(0x242)](ag),af=Ne(af);for(let ai of af)ai['values']=ai['values'][dl(0x3d2)](aj=>b(aj,aa));}var ag;return af;};class Be extends ze{static ['t']=N` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="shapes-section"> <h4 id="shapes-heading"><x-message href="#shapes"></x-message></h4> <section id="shapes-type-subsection"> <h5 id="shapes-type-heading"><x-message href="#type"></x-message></h5> <x-buttons id="shapes-type-buttons" tracking="3"> <x-button value="triangles" condensed> <x-icon href="#triangle-shape"></x-icon> <x-tooltip><x-message href="#triangle"></x-message></x-tooltip> </x-button> <x-button value="rectangles" condensed> <x-icon href="#rect-shape"></x-icon> <x-tooltip><x-message href="#rectangle"></x-message></x-tooltip> </x-button> <x-button value="ellipses" condensed> <x-icon href="#circle-shape"></x-icon> <x-tooltip><x-message href="#ellipse"></x-message></x-tooltip> </x-button> </x-buttons> </section> <section id="shapes-number-subsection"> <h5 id="shapes-number-heading"><x-message href="#number"></x-message></h5> <x-box id="shapes-number-box"> <x-slider id="shapes-number-slider" min="1" max="100" step="1"></x-slider> <x-numberinput id="shapes-number-input" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="shapes-alpha-subsection"> <h5 id="shapes-alpha-heading"><x-message href="#alpha"></x-message></h5> <x-box id="shapes-alpha-box"> <x-slider id="shapes-alpha-slider" min="0" max="1" step="0.01"></x-slider> <x-numberinput id="shapes-alpha-input" min="0" max="1" step="0.01" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-box id="auto-adjust-shapes-alpha-box"> <x-checkbox id="auto-adjust-shapes-alpha-checkbox"> <x-label><x-message href="#auto-adjust-alpha"></x-message></x-label> </x-checkbox> </x-box> </section> </section> <hr> <section id="algorithm-subsection"> <h4 id="algorithm-heading"><x-message href="#algorithm"></x-message></h4> <section id="working-size-subsection"> <h5 id="working-size-heading"><x-message href="#working-size"></x-message></h5> <x-box id="working-size-box"> <x-slider id="working-size-slider" min="10" max="1000" step="1"></x-slider> <x-numberinput id="working-size-input" min="10" max="1000" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="shapes-per-iteration-subsection"> <h5 id="shapes-per-iteration-heading"><x-message href="#shapes-per-iteration"></x-message></h5> <x-box id="shapes-per-iteration-box"> <x-slider id="shapes-per-iteration-slider" min="1" max="200" step="1"></x-slider> <x-numberinput id="shapes-per-iteration-input" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="max-mutations-subsection"> <h5 id="max-mutations-heading"><x-message href="#max-mutations"></x-message></h5> <x-box id="max-mutations-box"> <x-slider id="max-mutations-slider" min="1" max="100" step="1"></x-slider> <x-numberinput id="max-mutations-input" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="seed-subsection"> <h5 id="seed-heading"><x-message href="#seed"></x-message></h5> <x-box id="seed-box"> <x-slider id="seed-slider" min="0" max="200" step="1"></x-slider> <x-numberinput id="seed-input" min="0" max="200" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> </section> <hr> <section id="rendering-subsection"> <h4 id="rendering-heading"><x-message href="#rendering"></x-message></h4> <section id="draw-as-subsection"> <h5 id="draw-as-heading"><x-message href="#draw-as"></x-message></h5> <x-buttons id="draw-as-buttons" tracking="1"> <x-button value="paths" condensed> <x-label><x-message href="#paths"></x-message></x-label> </x-button> <x-button value="shapes" condensed> <x-label><x-message href="#shapes"></x-message></x-label> </x-button> </x-buttons> </section> <section id="overflow-subsection"> <h5 id="overflow-heading"><x-message href="#overflow"></x-message></h5> <x-buttons id="overflow-buttons" tracking="1"> <x-button value="cut" condensed> <x-label><x-message href="#overflow.cut"></x-message></x-label> </x-button> <x-button value="visible" condensed> <x-label><x-message href="#overflow.visible"></x-message></x-label> </x-button> </x-buttons> </section> </section> </section> <hr id="preview-section-hr"> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <svg id="preview" part="preview"></svg> </section> </template>
-  `;static ['l']=N` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label id="generate-label"></x-label> </x-button> <x-progressbar id="progress-bar" value="-1"></x-progressbar> </template>
-  `;static [c9(0x2bf)]=U`section section{display:flex;flex-flow:column}#shapes-type-buttons{width:100%}#shapes-type-buttons x-button{flex:1}#shapes-number-subsection{margin-top:8px}#shapes-number-subsection x-box{width:100%}#shapes-number-heading{margin-bottom:0}#shapes-number-slider{flex:1}#shapes-number-input{margin-left:10px;width:60px}#shapes-alpha-subsection x-box{width:100%}#shapes-alpha-heading{margin-bottom:0}#shapes-alpha-slider{flex:1}#shapes-alpha-input{margin-left:10px;width:60px}#auto-adjust-shapes-alpha-box{margin-top:2px}#auto-adjust-shapes-alpha-box x-label{font-size:12px}#working-size-subsection h5{margin-bottom:0}#working-size-slider{flex:1}#working-size-input{margin-left:10px;width:60px}#shapes-per-iteration-subsection h5{margin-bottom:0}#shapes-per-iteration-slider{flex:1}#shapes-per-iteration-input{margin-left:10px;width:60px}#max-mutations-subsection h5{margin-bottom:0}#max-mutations-slider{flex:1}#max-mutations-input{margin-left:10px;width:60px}#seed-subsection h5{margin-bottom:0}#seed-slider{flex:1}#seed-input{margin-left:10px;width:60px}#draw-as-buttons{width:100%}#draw-as-buttons x-button{flex:1}#overflow-subsection{margin-top:8px}#overflow-buttons{width:100%}#overflow-buttons x-button{flex:1}#preview{height:160px}`;get[c9(0x1fc)](){const dm=c9;return{'shapesType':this[dm(0x290)][dm(0x2f1)],'shapesNumber':this['#shapes-number-input']['value'],'shapesAlpha':this[dm(0x235)][dm(0x2f1)],'autoAdjustShapesAlpha':this['#auto-adjust-shapes-alpha-checkbox'][dm(0x1f6)],'workingSize':this[dm(0x303)][dm(0x2f1)],'shapesPerIteration':this[dm(0x1b0)]['value'],'maxMutations':this['#max-mutations-input']['value'],'seed':this['#seed-input'][dm(0x2f1)],'drawAs':this[dm(0x1f0)][dm(0x2f1)],'geometryPrecision':this.#C[dm(0x212)]['geometryPrecision'],'transformPrecision':this.#C[dm(0x212)][dm(0x35f)]};}#A(){return new Promise(a7=>{const dn=a1;this[dn(0x268)]?a7():this.#F[dn(0x3dc)](a7);});}#C;#M;#T;#z;#P;#S=null;#V=null;#F=[];constructor(){const dp=c9;super(),this[dp(0x290)]['addEventListener'](dp(0x198),()=>this.#D()),this[dp(0x1f0)]['addEventListener'](dp(0x198),()=>this.#L()),this[dp(0x23f)][dp(0x299)]('toggle',()=>this.#B()),this[dp(0x27a)]['addEventListener'](dp(0x27d),()=>this.#R()),this[dp(0x32a)][dp(0x299)](dp(0x27d),()=>this.#O()),this[dp(0x34c)][dp(0x299)]('toggle',()=>this.#j()),this[dp(0x2d5)][dp(0x299)](dp(0x27d),()=>this.#E()),this[dp(0x2be)]['addEventListener'](dp(0x27d),()=>this.#Z()),this[dp(0x3b1)][dp(0x299)](dp(0x27d),()=>this.#I()),this[dp(0x273)][dp(0x299)](dp(0x27d),()=>this.#$()),this[dp(0x3d8)][dp(0x299)](dp(0x281),()=>this.#q());}[c9(0x321)](){const dq=c9;this.#C=Te(this,dq(0x1e2));let a7=a2[dq(0x1a2)](dq(0x2b2),['triangles']),a8=a2['getConfig']('bx-primitivizegenerator:drawAs','paths'),a9=a2[dq(0x1a2)]('bx-primitivizegenerator:overflow',dq(0x354)),aa=a2[dq(0x1a2)](dq(0x18e),0x28),ab=a2[dq(0x1a2)](dq(0x199),0.7),ac=a2[dq(0x1a2)](dq(0x3df),!0x0),ad=a2[dq(0x1a2)](dq(0x37c),0x80),af=a2['getConfig'](dq(0x214),0xc8),ag=a2[dq(0x1a2)](dq(0x2ae),0x10),ah=a2[dq(0x1a2)]('bx-primitivizegenerator:seed',0x64);this['#shapes-type-buttons']['value']=a7,this[dq(0x1f0)][dq(0x2f1)]=a8,this['#overflow-buttons'][dq(0x2f1)]=a9,this[dq(0x36d)][dq(0x2f1)]=aa,this[dq(0x2c1)][dq(0x2f1)]=aa,this[dq(0x235)]['value']=ab,this[dq(0x3b7)]['value']=ab,this[dq(0x34c)]['toggled']=ac,this[dq(0x35e)][dq(0x2f1)]=ad,this['#working-size-input'][dq(0x2f1)]=ad,this[dq(0x28b)][dq(0x2f1)]=af,this[dq(0x1b0)][dq(0x2f1)]=af,this[dq(0x3b0)]['value']=ag,this[dq(0x2bb)]['value']=ag,this[dq(0x343)][dq(0x2f1)]=ah,this['#seed-input'][dq(0x2f1)]=ah,this.#C[dq(0x212)][dq(0x299)](dq(0x209),this.#M=()=>{this.#G();}),this.#C[dq(0x212)][dq(0x299)]('workspacemutation',this.#T=()=>{this.#G();}),this.#C[dq(0x212)][dq(0x3a1)][dq(0x299)]('undo',this.#z=()=>{this.#H();}),this.#C[dq(0x212)][dq(0x3a1)]['addEventListener']('redo',this.#P=()=>{this.#H();}),this.#G();for(let ai of this.#F)ai();this.#F=[];}[c9(0x1fe)](){const dr=c9;this.#C['board']['removeEventListener'](dr(0x209),this.#M),this.#C[dr(0x212)][dr(0x2b3)](dr(0x24c),this.#T),this.#C[dr(0x212)][dr(0x3a1)][dr(0x2b3)]('undo',this.#z),this.#C[dr(0x212)]['undoManager'][dr(0x2b3)](dr(0x15c),this.#P),null===Te(this,dr(0x3b8))&&this.#H();}async #Q(){const ds=c9;null!==this.#S&&this.#H();let a7=this.#C[ds(0x212)],a8=null,a9=a7['outermostSelectedObjectElements'][0x0];if(ds(0x1fa)===a9[ds(0x229)])a8=await createImageBitmap(a9);else{let aa=a7['extractArtworkWithSelectedElements'](),ab=Pe(aa),ac=await((ad,af=ds(0x1d4),ag={})=>new Promise(async ah=>{const dt=ds;if(dt(0x1d4)===af){let ai=new Blob([ad],{'type':dt(0x3d3)}),aj=URL['createObjectURL'](ai),ak=new Image();ak[dt(0x25c)]=aj,ak[dt(0x299)](dt(0x334),async()=>{const du=dt;let al=ag[du(0x2d1)]||0x60,am=ag[du(0x223)]||0x0,an=ag[du(0x188)]||du(0x2b6),ao=new OffscreenCanvas(ak['naturalWidth'],ak['naturalHeight']),ap=ao[du(0x39a)]('2d');ap[du(0x1a4)]=an,ap[du(0x172)](0x0,0x0,ak[du(0x29e)],ak[du(0x2d4)]),ap[du(0x3fb)](ak,0x0,0x0);let aq=(await import(du(0x2e4)))['default'],{changeDpiBlob:ar}=await import(du(0x31c)),as=ap[du(0x2b4)](0x0,0x0,ao[du(0x32c)],ao['height']),at=aq['encode']([as[du(0x150)][du(0x217)]],as['width'],as['height'],am),au=new Uint8Array(at),av=new Blob([au],{'type':du(0x2e2)});av=ar(av,al),URL['revokeObjectURL'](aj),ah(av);},{'once':!0x0});}else{if(dt(0x216)===af||dt(0x3a9)===af){let al=new Blob([ad],{'type':dt(0x3d3)}),am=URL['createObjectURL'](al),an=new Image();an[dt(0x25c)]=am,an['addEventListener'](dt(0x334),async()=>{const dv=dt;let ao=ag['dpi']||0x60,ap=ag[dv(0x188)]||dv(0x342),aq=ag[dv(0x2de)]||0x1,ar=new OffscreenCanvas(an['naturalWidth'],an[dv(0x2d4)]),as=ar[dv(0x39a)]('2d');as[dv(0x1a4)]=dv(0x239),as[dv(0x172)](0x0,0x0,an['naturalWidth'],an['naturalHeight']),as[dv(0x1a4)]=ap,as[dv(0x172)](0x0,0x0,an[dv(0x29e)],an[dv(0x2d4)]),as[dv(0x3fb)](an,0x0,0x0);let {changeDpiBlob:at}=await import(dv(0x31c)),au=await ar[dv(0x38b)]({'type':dv(0x24d),'quality':aq});au=at(au,ao),URL[dv(0x264)](am),ah(au);},{'once':!0x0});}else{if(dt(0x171)===af){let ao=new Blob([ad],{'type':dt(0x3d3)}),ap=URL[dt(0x23c)](ao),aq=new Image();aq[dt(0x25c)]=ap,aq[dt(0x299)](dt(0x334),async()=>{const dw=dt;let ar=new g(ag[dw(0x188)]||dw(0x37e));ar=ar['to'](dw(0x246))[dw(0x371)]({'format':dw(0x359)});let as=ag[dw(0x2cf)]||!0x1,at=!0x1;'floyd-steinberg'===ag[dw(0x2ee)]?at='FloydSteinberg':dw(0x289)===ag[dw(0x2ee)]?at='FalseFloydSteinberg':dw(0x28f)===ag[dw(0x2ee)]?at=dw(0x181):dw(0x2ab)===ag['dithering']&&(at=dw(0x1de));let au=new OffscreenCanvas(aq['naturalWidth'],aq['naturalHeight'])[dw(0x39a)]('2d');au[dw(0x1a4)]=ar,au[dw(0x172)](0x0,0x0,aq[dw(0x29e)],aq[dw(0x2d4)]),au[dw(0x3fb)](aq,0x0,0x0);let av=au['getImageData'](0x0,0x0,aq[dw(0x29e)],aq[dw(0x2d4)]),aw=new(0x0,(await import(dw(0x165)))[(dw(0x197))])({'workers':0x2,'quality':0x1,'dither':at,'transparent':as?parseInt('0x'+ar['substring'](0x1)):null,'workerScript':dw(0x1ab)});aw[dw(0x307)](av),aw[dw(0x3bb)](),aw['on'](dw(0x1bf),ax=>{ah(ax);});},{'once':!0x0});}else{if(dt(0x185)===af){let ar=new Blob([ad],{'type':dt(0x3d3)}),as=URL[dt(0x23c)](ar),at=new Image();at['src']=as,at[dt(0x299)](dt(0x334),async()=>{const dx=dt;let au=ag['background']||dx(0x2d6),av=ag[dx(0x2de)]||0x1,aw=new OffscreenCanvas(at['naturalWidth'],at[dx(0x2d4)]),ax=aw[dx(0x39a)]('2d');ax[dx(0x1a4)]=au,ax[dx(0x172)](0x0,0x0,at[dx(0x29e)],at[dx(0x2d4)]),ax['drawImage'](at,0x0,0x0);let ay=await aw[dx(0x38b)]({'type':dx(0x38d),'quality':av});URL[dx(0x264)](as),ah(ay);},{'once':!0x0});}}}}}))(ab,ds(0x1d4),{'colors':0x0});a8=await createImageBitmap(ac);}this.#S=new Worker(ds(0x1d8)),this.#S[ds(0x3f4)]([a8,this[ds(0x1fc)]]),this.#V=a9,this[ds(0x36f)][ds(0x2f1)]=0x0,this.#G(),this[ds(0x236)]['innerHTML']='',this[ds(0x236)]['setAttribute'](ds(0x304),ds(0x1b9)+a8[ds(0x32c)]+'\x20'+a8[ds(0x341)]),this[ds(0x1d2)]['scrollIntoViewIfNeeded'](),this.#S[ds(0x299)](ds(0x3f9),async ad=>{const dy=ds;let [af,ag]=ad['data'];ag[dy(0x189)](dy(0x3a8))?this['#progress-bar'][dy(0x2f1)]=af:dy(0x312)===ag?(await this.#A(),a9[dy(0x268)]&&this.#_(),this[dy(0x236)]['innerHTML']='',this[dy(0x36f)][dy(0x2f1)]=-0x1,this.#S[dy(0x17b)](),this.#S=null,this.#G()):(this[dy(0x36f)]['value']=af,this[dy(0x236)][dy(0x20c)](dy(0x154),ag));});}#W(){const dz=c9;if(null===this.#S)return;this.#C[dz(0x212)],this.#V[dz(0x268)]&&this.#_(),this[dz(0x236)][dz(0x3d9)]='',this[dz(0x36f)][dz(0x2f1)]=-0x1,this.#S[dz(0x17b)](),this.#S=null,this.#V=null,this.#G();}#H(){const dA=c9;null!==this.#S&&(this[dA(0x236)][dA(0x3d9)]='',this[dA(0x36f)][dA(0x2f1)]=-0x1,this.#S[dA(0x17b)](),this.#S=null,this.#V=null,this.#G());}#_(){const dB=c9;let a7=this.#C[dB(0x212)],a8=this.#V,a9=this[dB(0x236)][dB(0x159)](!0x0);a9[dB(0x3b6)]('id');let {width:aa,height:ab}=a9[dB(0x304)][dB(0x348)];a7['undoManager'][dB(0x366)](['#generators.primitivize'],dB(0x1db));let ac=a7['insertArtworkIntoBBox'](a9,a8[dB(0x204)]());for(let ag of a8['style']){let ah=a8[dB(0x34e)][dB(0x3e2)](ag),ai=f['find'](aj=>aj[dB(0x2fe)]===ag);ai&&ai[dB(0x365)][dB(0x29a)]('g')&&ac[dB(0x34e)]['setProperty'](ag,ah);}if(dB(0x354)===this[dB(0x23f)][dB(0x2f1)]){let aj=[{'type':'M','values':[0x0,0x0]},{'type':'L','values':[aa,0x0]},{'type':'L','values':[aa,ab]},{'type':'L','values':[0x0,ab]},{'type':'L','values':[0x0,0x0]},{'type':'Z','values':[]}];for(let ak of ac['children']){let al=q(ak),am=E(ak);if(al=te(al,am),!0x1==(ad=new DOMRect(0x0,0x0,aa,ab),(af=al)['x']>=ad['x']&&af['y']>=ad['y']&&af['x']+af[dB(0x32c)]<=ad['x']+ad[dB(0x32c)]&&af['y']+af['height']<=ad['y']+ad[dB(0x341)])){if(dB(0x2b7)!==ak[dB(0x229)]){let ap=P(ak);ak[dB(0x1dd)](ap),ak=ap;}let an=Z(we(ak),am),ao=De(an,aj,a7['geometryPrecision']);ke(ak,ao),ak[dB(0x3b6)]('transform');}}}var ad,af;a7[dB(0x335)]=[ac],a7[dB(0x261)]=null,a8[dB(0x1b8)]();}#D(a7){const dC=c9;a2[dC(0x2ec)]('bx-primitivizegenerator:shapesType',this['#shapes-type-buttons'][dC(0x2f1)]);}#L(){const dD=c9;a2[dD(0x2ec)]('bx-primitivizegenerator:drawAs',this[dD(0x1f0)]['value']);}#B(){const dE=c9;a2['setConfig'](dE(0x2d7),this['#overflow-buttons']['value']);}#R(){const dF=c9;let a7,a8;this[dF(0x27a)][dF(0x299)]('change',a7=a9=>{const dG=dF;a9[dG(0x2ca)]===this['#shapes-number-slider']?this[dG(0x36d)][dG(0x2f1)]=this['#shapes-number-slider'][dG(0x2f1)]:a9[dG(0x2ca)]===this[dG(0x36d)]&&(this[dG(0x2c1)][dG(0x2f1)]=this['#shapes-number-input'][dG(0x2f1)]);}),this[dF(0x27a)]['addEventListener'](dF(0x1bd),a8=()=>{const dH=dF;this[dH(0x27a)][dH(0x2b3)](dH(0x233),a7),this['#shapes-number-box'][dH(0x2b3)](dH(0x1bd),a8),a2[dH(0x2ec)](dH(0x18e),this[dH(0x36d)][dH(0x2f1)]);});}#O(){const dI=c9;let a7,a8;this[dI(0x32a)]['addEventListener']('change',a7=a9=>{const dJ=dI;a9['target']===this[dJ(0x3b7)]?this['#shapes-alpha-input']['value']=this[dJ(0x3b7)]['value']:a9[dJ(0x2ca)]===this[dJ(0x235)]&&(this[dJ(0x3b7)]['value']=this[dJ(0x235)][dJ(0x2f1)]);}),this[dI(0x32a)][dI(0x299)](dI(0x1bd),a8=()=>{const dK=dI;this[dK(0x32a)]['removeEventListener'](dK(0x233),a7),this[dK(0x32a)][dK(0x2b3)]('changeend',a8),a2[dK(0x2ec)]('bx-primitivizegenerator:shapesAlpha',this[dK(0x235)][dK(0x2f1)]);});}#j(){const dL=c9;a2[dL(0x2ec)]('bx-primitivizegenerator:autoAdjustShapesAlpha',this['#auto-adjust-shapes-alpha-checkbox'][dL(0x1f6)]);}#E(){const dM=c9;let a7,a8;this[dM(0x2d5)]['addEventListener']('change',a7=a9=>{const dN=dM;a9[dN(0x2ca)]===this[dN(0x35e)]?this[dN(0x303)][dN(0x2f1)]=this[dN(0x35e)][dN(0x2f1)]:a9[dN(0x2ca)]===this['#working-size-input']&&(this[dN(0x35e)][dN(0x2f1)]=this[dN(0x303)][dN(0x2f1)]),this.#G();}),this[dM(0x2d5)][dM(0x299)](dM(0x1bd),a8=()=>{const dO=dM;this[dO(0x2d5)][dO(0x2b3)](dO(0x233),a7),this[dO(0x2d5)][dO(0x2b3)]('changeend',a8),a2[dO(0x2ec)](dO(0x37c),this[dO(0x35e)][dO(0x2f1)]);});}#Z(){const dP=c9;let a7,a8;this['#shapes-per-iteration-box'][dP(0x299)]('change',a7=a9=>{const dQ=dP;a9[dQ(0x2ca)]===this[dQ(0x28b)]?this[dQ(0x1b0)][dQ(0x2f1)]=this[dQ(0x28b)][dQ(0x2f1)]:a9[dQ(0x2ca)]===this[dQ(0x1b0)]&&(this[dQ(0x28b)]['value']=this[dQ(0x1b0)][dQ(0x2f1)]),this.#G();}),this[dP(0x2be)][dP(0x299)](dP(0x1bd),a8=()=>{const dR=dP;this[dR(0x2be)][dR(0x2b3)](dR(0x233),a7),this[dR(0x2be)]['removeEventListener'](dR(0x1bd),a8),a2[dR(0x2ec)]('bx-primitivizegenerator:shapesPerIteration',this[dR(0x28b)][dR(0x2f1)]);});}#I(){const dS=c9;let a7,a8;this[dS(0x3b1)][dS(0x299)](dS(0x233),a7=a9=>{const dT=dS;a9[dT(0x2ca)]===this[dT(0x3b0)]?this[dT(0x2bb)]['value']=this[dT(0x3b0)][dT(0x2f1)]:a9[dT(0x2ca)]===this['#max-mutations-input']&&(this[dT(0x3b0)][dT(0x2f1)]=this[dT(0x2bb)][dT(0x2f1)]),this.#G();}),this['#max-mutations-box'][dS(0x299)](dS(0x1bd),a8=()=>{const dU=dS;this['#max-mutations-box'][dU(0x2b3)](dU(0x233),a7),this[dU(0x3b1)]['removeEventListener'](dU(0x1bd),a8),a2[dU(0x2ec)](dU(0x2ae),this[dU(0x3b0)][dU(0x2f1)]);});}#$(){const dV=c9;let a7,a8;this[dV(0x273)][dV(0x299)](dV(0x233),a7=a9=>{const dW=dV;a9[dW(0x2ca)]===this[dW(0x343)]?this[dW(0x383)]['value']=this[dW(0x343)][dW(0x2f1)]:a9[dW(0x2ca)]===this[dW(0x383)]&&(this['#seed-slider'][dW(0x2f1)]=this[dW(0x383)][dW(0x2f1)]),this.#G();}),this[dV(0x273)][dV(0x299)](dV(0x1bd),a8=()=>{const dX=dV;this[dX(0x273)][dX(0x2b3)](dX(0x233),a7),this[dX(0x273)][dX(0x2b3)](dX(0x1bd),a8),a2[dX(0x2ec)](dX(0x2c8),this['#seed-slider']['value']);});}async #q(){this.#S?this.#W():this.#Q();}async #G(){const dY=c9;let a7=null;0x1===this.#C['board'][dY(0x326)][dY(0x3ca)]&&(a7=this.#C['board'][dY(0x326)][0x0]);let a8=null===a7||null!==this.#S;this[dY(0x3d7)][dY(0x39c)]=a8,this[dY(0x403)][dY(0x39c)]=a8,this[dY(0x29c)]['disabled']=a8,this['#rendering-heading'][dY(0x39c)]=a8,this[dY(0x27f)][dY(0x39c)]=a8;for(let a9 of this[dY(0x290)][dY(0x2ac)])a9[dY(0x39c)]=a8;this[dY(0x203)]['disabled']=a8,this[dY(0x2c1)]['disabled']=a8,this[dY(0x36d)][dY(0x39c)]=a8,this[dY(0x3e8)][dY(0x39c)]=a8,this[dY(0x3b7)]['disabled']=a8,this['#shapes-alpha-input']['disabled']=a8,this[dY(0x34c)][dY(0x39c)]=a8,this['#working-size-heading'][dY(0x39c)]=a8,this['#working-size-slider'][dY(0x39c)]=a8,this[dY(0x303)][dY(0x39c)]=a8,this['#shapes-per-iteration-heading']['disabled']=a8,this[dY(0x28b)]['disabled']=a8,this[dY(0x1b0)]['disabled']=a8,this[dY(0x19d)][dY(0x39c)]=a8,this[dY(0x3b0)][dY(0x39c)]=a8,this[dY(0x2bb)][dY(0x39c)]=a8,this[dY(0x3a4)][dY(0x39c)]=a8,this['#seed-slider']['disabled']=a8,this[dY(0x383)]['disabled']=a8,this[dY(0x1c3)]['disabled']=a8;for(let aa of this[dY(0x23f)][dY(0x2ac)])aa[dY(0x39c)]=a8;this['#draw-as-heading']['disabled']=a8;for(let ab of this[dY(0x1f0)]['children'])ab[dY(0x39c)]=a8;this[dY(0x1d2)]['hidden']=null===this.#S,this[dY(0x245)]['hidden']=null===this.#S,null===this.#S?(this[dY(0x337)][dY(0x3d9)]='<x-message\x20href=\x22#generators.primitivize\x22></x-message>',this[dY(0x3d8)]['disabled']=a8):(this[dY(0x337)][dY(0x3d9)]='<x-message\x20href=\x22#stop\x22></x-message>',this[dY(0x3d8)]['disabled']=!0x1);}}customElements[c9(0x275)](c9(0x22f),Be);
+  `;
+  #U;
+  constructor() {
+    super();
+    let a7 = this.constructor.t;
+    let a8 = this.constructor.l;
+    this.#U = this.attachShadow({
+      mode: "closed",
+    });
+    this.#U.adoptedStyleSheets = [
+      a2.themeStyleSheet,
+      ze.#N,
+      this.constructor._shadowStyleSheet,
+    ];
+    this.#U.append(document.importNode(ze.#k.content, true));
+    if (a7) {
+      this.#U
+        .querySelector("#main")
+        .append(document.importNode(a7.content, true));
+    }
+    if (a8) {
+      this.#U
+        .querySelector("#footer")
+        .append(document.importNode(a8.content, true));
+    }
+    for (let a9 of this.#U.querySelectorAll("[id]")) {
+      this["#" + a9.id] = a9;
+    }
+    this.setAttribute("extends", "bx-generator");
+    this.setAttribute("tabindex", "0");
+  }
+}
+let Pe = (a7, a8 = "xml", a9 = 2) => {
+  a7 = a7.cloneNode(true);
+  let aa;
+  let ab = document.createNodeIterator(a7, NodeFilter.SHOW_ELEMENT);
+  while ((aa = ab.nextNode())) {
+    if (aa.nodeType == Node.ELEMENT_NODE) {
+      if (aa.localName === "defs") {
+        if (aa.children.length === 0) {
+          aa.remove();
+        }
+      } else if (aa.localName === "style") {
+        if (aa.textContent.replace(/\s+/g, " ").trim() === "") {
+          aa.remove();
+        } else if (aa.matches('[data-bx-fonts="google"]')) {
+          aa.removeAttribute("data-bx-fonts");
+        }
+      } else if (a8 === "xml" && aa.localName === "path") {
+        let ac = aa.getAttribute("d");
+        if (ac && /[\t\n\r]/.test(ac)) {
+          aa.setAttribute("d", ac.replace(/[\t\n\r ]+/g, " "));
+        }
+      }
+    }
+  }
+  Ve(a7, a8);
+  ((ad, af = 2, ag = 1) => {
+    T(ad);
+    let ah = "";
+    let ai = {
+      text: true,
+      textPath: true,
+      tspan: true,
+      title: true,
+      desc: true,
+    };
+    for (let ak = 0; ak < af; ak += 1) {
+      ah += " ";
+    }
+    let aj = (al, am = 2) => {
+      if (!ai[al.localName]) {
+        for (let an of al.children) {
+          let ao = al.firstChild === an;
+          let ap = al.lastChild === an;
+          if (ao === true) {
+            let as = document.createTextNode("\n");
+            an.parentNode.insertBefore(as, an);
+          }
+          let aq = "";
+          for (let at = 0; at < am; at += 1) {
+            aq += ah;
+          }
+          let ar = document.createTextNode(aq);
+          al.insertBefore(ar, an);
+          if (ap === true) {
+            let au = document.createTextNode("\n");
+            al.appendChild(au);
+            let av = "";
+            for (let ax = 0; ax < am - 1; ax += 1) {
+              av += ah;
+            }
+            let aw = document.createTextNode(av);
+            al.appendChild(aw);
+          } else {
+            let ay = document.createTextNode("\n");
+            al.insertBefore(ay, an.nextSibling);
+          }
+          if (an.childElementCount > 0) {
+            aj(an, am + 1);
+          }
+        }
+      }
+    };
+    aj(ad, ag);
+  })(a7, a9);
+  return Se(a7, a8);
+};
+let Se = (a7, a8 = "xml") => {
+  let a9;
+  if (a8 === "xml") {
+    a9 = new XMLSerializer().serializeToString(a7);
+    if (a9.trim().length === 0) {
+      throw new Error("Failed to serialize artwork");
+    }
+    a9 = '<?xml version="1.0" encoding="utf-8"?>\n' + a9;
+  } else if (a8 === "html") {
+    a9 = a7.outerHTML;
+    if (a9.trim().length === 0) {
+      throw new Error("Failed to serialize artwork");
+    }
+    a9 = "<!doctype html>\n" + a9;
+    a9 = A(a9, ' xmlns:xlink="http://www.w3.org/1999/xlink"', "");
+  }
+  {
+    let aa = 0;
+    while (true) {
+      let ab = a9.indexOf('style="', aa);
+      let ac = -1;
+      if (ab > -1) {
+        ac = a9.indexOf('"', ab + 7);
+      }
+      if (ab === -1 || ac === -1) {
+        break;
+      }
+      {
+        let ad = a9.substring(0, ab);
+        let af = a9.substring(ac + 1);
+        let ag = a9.substring(ab, ac + 1).replaceAll("&quot;", "'");
+        a9 = ad + ag + af;
+        aa = ab + ag.length;
+        aa = ac + 1;
+      }
+    }
+  }
+  return a9;
+};
+let Ve = (a7, a8) => {
+  if (a8 === "xml") {
+    let a9;
+    let aa = document.createNodeIterator(a7, NodeFilter.SHOW_ELEMENT);
+    let ab = false;
+    let ac = false;
+    while ((a9 = aa.nextNode())) {
+      if (a9.localName !== "bx-title") {
+        if (a9.localName.startsWith("bx-")) {
+          let ad = document.createElementNS(
+            s,
+            "bx:" + a9.localName.substring(3)
+          );
+          for (let af of [...a9.attributes]) {
+            ad.setAttribute(af.name, af.value);
+          }
+          for (let ag of [...a9.childNodes]) {
+            ad.append(ag);
+          }
+          a9.replaceWith(ad);
+          ac = true;
+        } else {
+          for (let { name: ah, value: ai } of [...a9.attributes]) {
+            if (ah === "href" || ah === "_href") {
+              a9.setAttribute("xlink:href", ai);
+              a9.removeAttribute(ah);
+              ab = true;
+            } else if (ah.startsWith("data-bx-")) {
+              let aj = ah.substring(8);
+              a9.setAttributeNS(s, "bx:" + aj, ai);
+              a9.removeAttribute(ah);
+              ac = true;
+            }
+          }
+        }
+      } else {
+        let ak = Fe("svg:title");
+        ak.innerHTML = a9.innerHTML;
+        for (let { name: al, value: am } of a9.attributes) {
+          ak.setAttribute(al, am);
+        }
+        a9.replaceWith(ak);
+      }
+    }
+    a7.removeAttribute("xmlns");
+    a7.removeAttribute("xmlns:bx");
+    a7.removeAttribute("xmlns:xlink");
+    a7.setAttributeNS(r, "xmlns", l);
+    if (ab) {
+      a7.setAttributeNS(r, "xmlns:xlink", o);
+    }
+    if (ac) {
+      a7.setAttributeNS(r, "xmlns:bx", s);
+    }
+  } else if (a8 === "html") {
+    let an;
+    let ao = document.createNodeIterator(a7, NodeFilter.SHOW_ELEMENT);
+    while ((an = ao.nextNode())) {
+      if (an.localName !== "bx-title") {
+        for (let { name: ap, value: aq } of [...an.attributes]) {
+          if (ap === "href" || ap === "_href") {
+            an.setAttribute("xlink:href", aq);
+            an.removeAttribute(ap);
+          }
+        }
+      } else {
+        let ar = Fe("svg:title");
+        ar.innerHTML = an.innerHTML;
+        for (let { name: as, value: at } of an.attributes) {
+          ar.setAttribute(as, at);
+        }
+        an.replaceWith(ar);
+      }
+    }
+  }
+};
+let De = (a7, a8, a9 = 3) => Le(a7, a8, "intersect", a9);
+let Le = (a7, a8, a9, aa) => {
+  let ab = Ce(Ue(a7), true);
+  let ac = Ce(Ue(a8), true);
+  let ad = ab[a9](ac);
+  let af = [];
+  if (ad) {
+    let ah = ad.exportSVG().getAttribute("d");
+    ag = ah;
+    af = new v().parse(ag);
+    af = Ne(af);
+    for (let ai of af) {
+      ai.values = ai.values.map((aj) => b(aj, aa));
+    }
+  }
+  var ag;
+  return af;
+};
+class Be extends ze {
+  static t = N` <template> <section id="options-section"> <h3 id="options-heading"><x-message href="#options"></x-message></h3> <section id="shapes-section"> <h4 id="shapes-heading"><x-message href="#shapes"></x-message></h4> <section id="shapes-type-subsection"> <h5 id="shapes-type-heading"><x-message href="#type"></x-message></h5> <x-buttons id="shapes-type-buttons" tracking="3"> <x-button value="triangles" condensed> <x-icon href="#triangle-shape"></x-icon> <x-tooltip><x-message href="#triangle"></x-message></x-tooltip> </x-button> <x-button value="rectangles" condensed> <x-icon href="#rect-shape"></x-icon> <x-tooltip><x-message href="#rectangle"></x-message></x-tooltip> </x-button> <x-button value="ellipses" condensed> <x-icon href="#circle-shape"></x-icon> <x-tooltip><x-message href="#ellipse"></x-message></x-tooltip> </x-button> </x-buttons> </section> <section id="shapes-number-subsection"> <h5 id="shapes-number-heading"><x-message href="#number"></x-message></h5> <x-box id="shapes-number-box"> <x-slider id="shapes-number-slider" min="1" max="100" step="1"></x-slider> <x-numberinput id="shapes-number-input" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="shapes-alpha-subsection"> <h5 id="shapes-alpha-heading"><x-message href="#alpha"></x-message></h5> <x-box id="shapes-alpha-box"> <x-slider id="shapes-alpha-slider" min="0" max="1" step="0.01"></x-slider> <x-numberinput id="shapes-alpha-input" min="0" max="1" step="0.01" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> <x-box id="auto-adjust-shapes-alpha-box"> <x-checkbox id="auto-adjust-shapes-alpha-checkbox"> <x-label><x-message href="#auto-adjust-alpha"></x-message></x-label> </x-checkbox> </x-box> </section> </section> <hr> <section id="algorithm-subsection"> <h4 id="algorithm-heading"><x-message href="#algorithm"></x-message></h4> <section id="working-size-subsection"> <h5 id="working-size-heading"><x-message href="#working-size"></x-message></h5> <x-box id="working-size-box"> <x-slider id="working-size-slider" min="10" max="1000" step="1"></x-slider> <x-numberinput id="working-size-input" min="10" max="1000" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="shapes-per-iteration-subsection"> <h5 id="shapes-per-iteration-heading"><x-message href="#shapes-per-iteration"></x-message></h5> <x-box id="shapes-per-iteration-box"> <x-slider id="shapes-per-iteration-slider" min="1" max="200" step="1"></x-slider> <x-numberinput id="shapes-per-iteration-input" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="max-mutations-subsection"> <h5 id="max-mutations-heading"><x-message href="#max-mutations"></x-message></h5> <x-box id="max-mutations-box"> <x-slider id="max-mutations-slider" min="1" max="100" step="1"></x-slider> <x-numberinput id="max-mutations-input" min="1" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> <section id="seed-subsection"> <h5 id="seed-heading"><x-message href="#seed"></x-message></h5> <x-box id="seed-box"> <x-slider id="seed-slider" min="0" max="200" step="1"></x-slider> <x-numberinput id="seed-input" min="0" max="200" step="1" condensed> <x-stepper></x-stepper> </x-numberinput> </x-box> </section> </section> <hr> <section id="rendering-subsection"> <h4 id="rendering-heading"><x-message href="#rendering"></x-message></h4> <section id="draw-as-subsection"> <h5 id="draw-as-heading"><x-message href="#draw-as"></x-message></h5> <x-buttons id="draw-as-buttons" tracking="1"> <x-button value="paths" condensed> <x-label><x-message href="#paths"></x-message></x-label> </x-button> <x-button value="shapes" condensed> <x-label><x-message href="#shapes"></x-message></x-label> </x-button> </x-buttons> </section> <section id="overflow-subsection"> <h5 id="overflow-heading"><x-message href="#overflow"></x-message></h5> <x-buttons id="overflow-buttons" tracking="1"> <x-button value="cut" condensed> <x-label><x-message href="#overflow.cut"></x-message></x-label> </x-button> <x-button value="visible" condensed> <x-label><x-message href="#overflow.visible"></x-message></x-label> </x-button> </x-buttons> </section> </section> </section> <hr id="preview-section-hr"> <section id="preview-section"> <h3 id="preview-heading"><x-message href="#preview"></x-message></h3> <svg id="preview" part="preview"></svg> </section> </template>
+  `;
+  static l = N` <template> <x-button id="generate-button" size="large"> <x-icon href="#generators-panel"></x-icon> <x-label id="generate-label"></x-label> </x-button> <x-progressbar id="progress-bar" value="-1"></x-progressbar> </template>
+  `;
+  static _shadowStyleSheet = U`section section{display:flex;flex-flow:column}#shapes-type-buttons{width:100%}#shapes-type-buttons x-button{flex:1}#shapes-number-subsection{margin-top:8px}#shapes-number-subsection x-box{width:100%}#shapes-number-heading{margin-bottom:0}#shapes-number-slider{flex:1}#shapes-number-input{margin-left:10px;width:60px}#shapes-alpha-subsection x-box{width:100%}#shapes-alpha-heading{margin-bottom:0}#shapes-alpha-slider{flex:1}#shapes-alpha-input{margin-left:10px;width:60px}#auto-adjust-shapes-alpha-box{margin-top:2px}#auto-adjust-shapes-alpha-box x-label{font-size:12px}#working-size-subsection h5{margin-bottom:0}#working-size-slider{flex:1}#working-size-input{margin-left:10px;width:60px}#shapes-per-iteration-subsection h5{margin-bottom:0}#shapes-per-iteration-slider{flex:1}#shapes-per-iteration-input{margin-left:10px;width:60px}#max-mutations-subsection h5{margin-bottom:0}#max-mutations-slider{flex:1}#max-mutations-input{margin-left:10px;width:60px}#seed-subsection h5{margin-bottom:0}#seed-slider{flex:1}#seed-input{margin-left:10px;width:60px}#draw-as-buttons{width:100%}#draw-as-buttons x-button{flex:1}#overflow-subsection{margin-top:8px}#overflow-buttons{width:100%}#overflow-buttons x-button{flex:1}#preview{height:160px}`;
+  get options() {
+    return {
+      shapesType: this["#shapes-type-buttons"].value,
+      shapesNumber: this["#shapes-number-input"].value,
+      shapesAlpha: this["#shapes-alpha-input"].value,
+      autoAdjustShapesAlpha: this["#auto-adjust-shapes-alpha-checkbox"].toggled,
+      workingSize: this["#working-size-input"].value,
+      shapesPerIteration: this["#shapes-per-iteration-input"].value,
+      maxMutations: this["#max-mutations-input"].value,
+      seed: this["#seed-input"].value,
+      drawAs: this["#draw-as-buttons"].value,
+      geometryPrecision: this.#C.board.geometryPrecision,
+      transformPrecision: this.#C.board.transformPrecision,
+    };
+  }
+  #A() {
+    return new Promise((a7) => {
+      if (this.isConnected) {
+        a7();
+      } else {
+        this.#F.push(a7);
+      }
+    });
+  }
+  #C;
+  #M;
+  #T;
+  #z;
+  #P;
+  #S = null;
+  #V = null;
+  #F = [];
+  constructor() {
+    super();
+    this["#shapes-type-buttons"].addEventListener("toggle", () => this.#D());
+    this["#draw-as-buttons"].addEventListener("toggle", () => this.#L());
+    this["#overflow-buttons"].addEventListener("toggle", () => this.#B());
+    this["#shapes-number-box"].addEventListener("changestart", () => this.#R());
+    this["#shapes-alpha-box"].addEventListener("changestart", () => this.#O());
+    this["#auto-adjust-shapes-alpha-checkbox"].addEventListener("toggle", () =>
+      this.#j()
+    );
+    this["#working-size-box"].addEventListener("changestart", () => this.#E());
+    this["#shapes-per-iteration-box"].addEventListener("changestart", () =>
+      this.#Z()
+    );
+    this["#max-mutations-box"].addEventListener("changestart", () => this.#I());
+    this["#seed-box"].addEventListener("changestart", () => this.#$());
+    this["#generate-button"].addEventListener("click", () => this.#q());
+  }
+  connectedCallback() {
+    this.#C = Te(this, "bx-editor");
+    let a7 = a2.getConfig("bx-primitivizegenerator:shapesType", ["triangles"]);
+    let a8 = a2.getConfig("bx-primitivizegenerator:drawAs", "paths");
+    let a9 = a2.getConfig("bx-primitivizegenerator:overflow", "cut");
+    let aa = a2.getConfig("bx-primitivizegenerator:shapesNumber", 40);
+    let ab = a2.getConfig("bx-primitivizegenerator:shapesAlpha", 0.7);
+    let ac = a2.getConfig(
+      "bx-primitivizegenerator:autoAdjustShapesAlpha",
+      true
+    );
+    let ad = a2.getConfig("bx-primitivizegenerator:workingSize", 128);
+    let af = a2.getConfig("bx-primitivizegenerator:shapesPerIteration", 200);
+    let ag = a2.getConfig("bx-primitivizegenerator:maxMutations", 16);
+    let ah = a2.getConfig("bx-primitivizegenerator:seed", 100);
+    this["#shapes-type-buttons"].value = a7;
+    this["#draw-as-buttons"].value = a8;
+    this["#overflow-buttons"].value = a9;
+    this["#shapes-number-input"].value = aa;
+    this["#shapes-number-slider"].value = aa;
+    this["#shapes-alpha-input"].value = ab;
+    this["#shapes-alpha-slider"].value = ab;
+    this["#auto-adjust-shapes-alpha-checkbox"].toggled = ac;
+    this["#working-size-slider"].value = ad;
+    this["#working-size-input"].value = ad;
+    this["#shapes-per-iteration-slider"].value = af;
+    this["#shapes-per-iteration-input"].value = af;
+    this["#max-mutations-slider"].value = ag;
+    this["#max-mutations-input"].value = ag;
+    this["#seed-slider"].value = ah;
+    this["#seed-input"].value = ah;
+    this.#C.board.addEventListener(
+      "selectedelementschange",
+      (this.#M = () => {
+        this.#G();
+      })
+    );
+    this.#C.board.addEventListener(
+      "workspacemutation",
+      (this.#T = () => {
+        this.#G();
+      })
+    );
+    this.#C.board.undoManager.addEventListener(
+      "undo",
+      (this.#z = () => {
+        this.#H();
+      })
+    );
+    this.#C.board.undoManager.addEventListener(
+      "redo",
+      (this.#P = () => {
+        this.#H();
+      })
+    );
+    this.#G();
+    for (let ai of this.#F) {
+      ai();
+    }
+    this.#F = [];
+  }
+  disconnectedCallback() {
+    this.#C.board.removeEventListener("selectedelementschange", this.#M);
+    this.#C.board.removeEventListener("workspacemutation", this.#T);
+    this.#C.board.undoManager.removeEventListener("undo", this.#z);
+    this.#C.board.undoManager.removeEventListener("redo", this.#P);
+    if (Te(this, "bx-generatorspanel") === null) {
+      this.#H();
+    }
+  }
+  async #Q() {
+    if (this.#S !== null) {
+      this.#H();
+    }
+    let a7 = this.#C.board;
+    let a8 = null;
+    let a9 = a7.outermostSelectedObjectElements[0];
+    if (a9.localName === "image") {
+      a8 = await createImageBitmap(a9);
+    } else {
+      let aa = a7.extractArtworkWithSelectedElements();
+      let ab = Pe(aa);
+      let ac = await ((ad, af = "png", ag = {}) =>
+        new Promise(async (ah) => {
+          if (af === "png") {
+            let ai = new Blob([ad], {
+              type: "image/svg+xml;charset=utf-8",
+            });
+            let aj = URL.createObjectURL(ai);
+            let ak = new Image();
+            ak.src = aj;
+            ak.addEventListener(
+              "load",
+              async () => {
+                let al = ag.dpi || 96;
+                let am = ag.colors || 0;
+                let an = ag.background || "rgba(0, 0, 0, 0)";
+                let ao = new OffscreenCanvas(ak.naturalWidth, ak.naturalHeight);
+                let ap = ao.getContext("2d");
+                ap.fillStyle = an;
+                ap.fillRect(0, 0, ak.naturalWidth, ak.naturalHeight);
+                ap.drawImage(ak, 0, 0);
+                let aq = (await import("/libs/upng/upng.js")).default;
+                let { changeDpiBlob: ar } = await import(
+                  "/libs/change-dpi/change-dpi.js"
+                );
+                let as = ap.getImageData(0, 0, ao.width, ao.height);
+                let at = aq.encode([as.data.buffer], as.width, as.height, am);
+                let au = new Uint8Array(at);
+                let av = new Blob([au], {
+                  type: "image/png",
+                });
+                av = ar(av, al);
+                URL.revokeObjectURL(aj);
+                ah(av);
+              },
+              {
+                once: true,
+              }
+            );
+          } else if (af === "jpeg" || af === "jpg") {
+            let al = new Blob([ad], {
+              type: "image/svg+xml;charset=utf-8",
+            });
+            let am = URL.createObjectURL(al);
+            let an = new Image();
+            an.src = am;
+            an.addEventListener(
+              "load",
+              async () => {
+                let ao = ag.dpi || 96;
+                let ap = ag.background || "rgb(255, 255, 255)";
+                let aq = ag.compression || 1;
+                let ar = new OffscreenCanvas(an.naturalWidth, an.naturalHeight);
+                let as = ar.getContext("2d");
+                as.fillStyle = "white";
+                as.fillRect(0, 0, an.naturalWidth, an.naturalHeight);
+                as.fillStyle = ap;
+                as.fillRect(0, 0, an.naturalWidth, an.naturalHeight);
+                as.drawImage(an, 0, 0);
+                let { changeDpiBlob: at } = await import(
+                  "/libs/change-dpi/change-dpi.js"
+                );
+                let au = await ar.convertToBlob({
+                  type: "image/jpeg",
+                  quality: aq,
+                });
+                au = at(au, ao);
+                URL.revokeObjectURL(am);
+                ah(au);
+              },
+              {
+                once: true,
+              }
+            );
+          } else if (af === "gif") {
+            let ao = new Blob([ad], {
+              type: "image/svg+xml;charset=utf-8",
+            });
+            let ap = URL.createObjectURL(ao);
+            let aq = new Image();
+            aq.src = ap;
+            aq.addEventListener(
+              "load",
+              async () => {
+                let ar = new g(ag.background || "#ffffff");
+                ar = ar.to("srgb").toString({
+                  format: "hex",
+                });
+                let as = ag.transparent || false;
+                let at = false;
+                if (ag.dithering === "floyd-steinberg") {
+                  at = "FloydSteinberg";
+                } else if (ag.dithering === "false-floyd-steinberg") {
+                  at = "FalseFloydSteinberg";
+                } else if (ag.dithering === "stucki") {
+                  at = "Stucki";
+                } else if (ag.dithering === "atkinson") {
+                  at = "Atkinson";
+                }
+                let au = new OffscreenCanvas(
+                  aq.naturalWidth,
+                  aq.naturalHeight
+                ).getContext("2d");
+                au.fillStyle = ar;
+                au.fillRect(0, 0, aq.naturalWidth, aq.naturalHeight);
+                au.drawImage(aq, 0, 0);
+                let av = au.getImageData(
+                  0,
+                  0,
+                  aq.naturalWidth,
+                  aq.naturalHeight
+                );
+                let aw = new (0, (await import("/libs/gif/gif.js")).default)({
+                  workers: 2,
+                  quality: 1,
+                  dither: at,
+                  transparent: as ? parseInt("0x" + ar.substring(1)) : null,
+                  workerScript: "libs/gif/gif.worker.js",
+                });
+                aw.addFrame(av);
+                aw.render();
+                aw.on("finished", (ax) => {
+                  ah(ax);
+                });
+              },
+              {
+                once: true,
+              }
+            );
+          } else if (af === "webp") {
+            let ar = new Blob([ad], {
+              type: "image/svg+xml;charset=utf-8",
+            });
+            let as = URL.createObjectURL(ar);
+            let at = new Image();
+            at.src = as;
+            at.addEventListener(
+              "load",
+              async () => {
+                let au = ag.background || "rgba(255, 255, 255, 0)";
+                let av = ag.compression || 1;
+                let aw = new OffscreenCanvas(at.naturalWidth, at.naturalHeight);
+                let ax = aw.getContext("2d");
+                ax.fillStyle = au;
+                ax.fillRect(0, 0, at.naturalWidth, at.naturalHeight);
+                ax.drawImage(at, 0, 0);
+                let ay = await aw.convertToBlob({
+                  type: "image/webp",
+                  quality: av,
+                });
+                URL.revokeObjectURL(as);
+                ah(ay);
+              },
+              {
+                once: true,
+              }
+            );
+          }
+        }))(ab, "png", {
+        colors: 0,
+      });
+      a8 = await createImageBitmap(ac);
+    }
+    this.#S = new Worker("/workers/primitivize.js");
+    this.#S.postMessage([a8, this.options]);
+    this.#V = a9;
+    this["#progress-bar"].value = 0;
+    this.#G();
+    this["#preview"].innerHTML = "";
+    this["#preview"].setAttribute(
+      "viewBox",
+      "0 0 " + a8.width + " " + a8.height
+    );
+    this["#preview-section"].scrollIntoViewIfNeeded();
+    this.#S.addEventListener("message", async (ad) => {
+      let [af, ag] = ad.data;
+      if (ag.startsWith("<svg")) {
+        this["#progress-bar"].value = af;
+      } else if (ag === "</svg>") {
+        await this.#A();
+        if (a9.isConnected) {
+          this.#_();
+        }
+        this["#preview"].innerHTML = "";
+        this["#progress-bar"].value = -1;
+        this.#S.terminate();
+        this.#S = null;
+        this.#G();
+      } else {
+        this["#progress-bar"].value = af;
+        this["#preview"].insertAdjacentHTML("beforeend", ag);
+      }
+    });
+  }
+  #W() {
+    if (this.#S === null) {
+      return;
+    }
+    this.#C.board;
+    if (this.#V.isConnected) {
+      this.#_();
+    }
+    this["#preview"].innerHTML = "";
+    this["#progress-bar"].value = -1;
+    this.#S.terminate();
+    this.#S = null;
+    this.#V = null;
+    this.#G();
+  }
+  #H() {
+    if (this.#S !== null) {
+      this["#preview"].innerHTML = "";
+      this["#progress-bar"].value = -1;
+      this.#S.terminate();
+      this.#S = null;
+      this.#V = null;
+      this.#G();
+    }
+  }
+  #_() {
+    let a7 = this.#C.board;
+    let a8 = this.#V;
+    let a9 = this["#preview"].cloneNode(true);
+    a9.removeAttribute("id");
+    let { width: aa, height: ab } = a9.viewBox.baseVal;
+    a7.undoManager.checkpoint(["#generators.primitivize"], "#generators-panel");
+    let ac = a7.insertArtworkIntoBBox(a9, a8.getBoundingClientRect());
+    for (let ag of a8.style) {
+      let ah = a8.style.getPropertyValue(ag);
+      let ai = f.find((aj) => aj.name === ag);
+      if (ai && ai.appliesTo.includes("g")) {
+        ac.style.setProperty(ag, ah);
+      }
+    }
+    if (this["#overflow-buttons"].value === "cut") {
+      let aj = [
+        {
+          type: "M",
+          values: [0, 0],
+        },
+        {
+          type: "L",
+          values: [aa, 0],
+        },
+        {
+          type: "L",
+          values: [aa, ab],
+        },
+        {
+          type: "L",
+          values: [0, ab],
+        },
+        {
+          type: "L",
+          values: [0, 0],
+        },
+        {
+          type: "Z",
+          values: [],
+        },
+      ];
+      for (let ak of ac.children) {
+        let al = q(ak);
+        let am = E(ak);
+        al = te(al, am);
+        if (
+          ((ad = new DOMRect(0, 0, aa, ab)),
+          (af = al).x >= ad.x &&
+            af.y >= ad.y &&
+            af.x + af.width <= ad.x + ad.width &&
+            af.y + af.height <= ad.y + ad.height) == false
+        ) {
+          if (ak.localName !== "path") {
+            let ap = P(ak);
+            ak.replaceWith(ap);
+            ak = ap;
+          }
+          let an = Z(we(ak), am);
+          let ao = De(an, aj, a7.geometryPrecision);
+          ke(ak, ao);
+          ak.removeAttribute("transform");
+        }
+      }
+    }
+    var ad;
+    var af;
+    a7.selectedElements = [ac];
+    a7.selectedTextRange = null;
+    a8.remove();
+  }
+  #D(a7) {
+    a2.setConfig(
+      "bx-primitivizegenerator:shapesType",
+      this["#shapes-type-buttons"].value
+    );
+  }
+  #L() {
+    a2.setConfig(
+      "bx-primitivizegenerator:drawAs",
+      this["#draw-as-buttons"].value
+    );
+  }
+  #B() {
+    a2.setConfig(
+      "bx-primitivizegenerator:overflow",
+      this["#overflow-buttons"].value
+    );
+  }
+  #R() {
+    let a7;
+    let a8;
+    this["#shapes-number-box"].addEventListener(
+      "change",
+      (a7 = (a9) => {
+        if (a9.target === this["#shapes-number-slider"]) {
+          this["#shapes-number-input"].value =
+            this["#shapes-number-slider"].value;
+        } else if (a9.target === this["#shapes-number-input"]) {
+          this["#shapes-number-slider"].value =
+            this["#shapes-number-input"].value;
+        }
+      })
+    );
+    this["#shapes-number-box"].addEventListener(
+      "changeend",
+      (a8 = () => {
+        this["#shapes-number-box"].removeEventListener("change", a7);
+        this["#shapes-number-box"].removeEventListener("changeend", a8);
+        a2.setConfig(
+          "bx-primitivizegenerator:shapesNumber",
+          this["#shapes-number-input"].value
+        );
+      })
+    );
+  }
+  #O() {
+    let a7;
+    let a8;
+    this["#shapes-alpha-box"].addEventListener(
+      "change",
+      (a7 = (a9) => {
+        if (a9.target === this["#shapes-alpha-slider"]) {
+          this["#shapes-alpha-input"].value =
+            this["#shapes-alpha-slider"].value;
+        } else if (a9.target === this["#shapes-alpha-input"]) {
+          this["#shapes-alpha-slider"].value =
+            this["#shapes-alpha-input"].value;
+        }
+      })
+    );
+    this["#shapes-alpha-box"].addEventListener(
+      "changeend",
+      (a8 = () => {
+        this["#shapes-alpha-box"].removeEventListener("change", a7);
+        this["#shapes-alpha-box"].removeEventListener("changeend", a8);
+        a2.setConfig(
+          "bx-primitivizegenerator:shapesAlpha",
+          this["#shapes-alpha-input"].value
+        );
+      })
+    );
+  }
+  #j() {
+    a2.setConfig(
+      "bx-primitivizegenerator:autoAdjustShapesAlpha",
+      this["#auto-adjust-shapes-alpha-checkbox"].toggled
+    );
+  }
+  #E() {
+    let a7;
+    let a8;
+    this["#working-size-box"].addEventListener(
+      "change",
+      (a7 = (a9) => {
+        if (a9.target === this["#working-size-slider"]) {
+          this["#working-size-input"].value =
+            this["#working-size-slider"].value;
+        } else if (a9.target === this["#working-size-input"]) {
+          this["#working-size-slider"].value =
+            this["#working-size-input"].value;
+        }
+        this.#G();
+      })
+    );
+    this["#working-size-box"].addEventListener(
+      "changeend",
+      (a8 = () => {
+        this["#working-size-box"].removeEventListener("change", a7);
+        this["#working-size-box"].removeEventListener("changeend", a8);
+        a2.setConfig(
+          "bx-primitivizegenerator:workingSize",
+          this["#working-size-slider"].value
+        );
+      })
+    );
+  }
+  #Z() {
+    let a7;
+    let a8;
+    this["#shapes-per-iteration-box"].addEventListener(
+      "change",
+      (a7 = (a9) => {
+        if (a9.target === this["#shapes-per-iteration-slider"]) {
+          this["#shapes-per-iteration-input"].value =
+            this["#shapes-per-iteration-slider"].value;
+        } else if (a9.target === this["#shapes-per-iteration-input"]) {
+          this["#shapes-per-iteration-slider"].value =
+            this["#shapes-per-iteration-input"].value;
+        }
+        this.#G();
+      })
+    );
+    this["#shapes-per-iteration-box"].addEventListener(
+      "changeend",
+      (a8 = () => {
+        this["#shapes-per-iteration-box"].removeEventListener("change", a7);
+        this["#shapes-per-iteration-box"].removeEventListener("changeend", a8);
+        a2.setConfig(
+          "bx-primitivizegenerator:shapesPerIteration",
+          this["#shapes-per-iteration-slider"].value
+        );
+      })
+    );
+  }
+  #I() {
+    let a7;
+    let a8;
+    this["#max-mutations-box"].addEventListener(
+      "change",
+      (a7 = (a9) => {
+        if (a9.target === this["#max-mutations-slider"]) {
+          this["#max-mutations-input"].value =
+            this["#max-mutations-slider"].value;
+        } else if (a9.target === this["#max-mutations-input"]) {
+          this["#max-mutations-slider"].value =
+            this["#max-mutations-input"].value;
+        }
+        this.#G();
+      })
+    );
+    this["#max-mutations-box"].addEventListener(
+      "changeend",
+      (a8 = () => {
+        this["#max-mutations-box"].removeEventListener("change", a7);
+        this["#max-mutations-box"].removeEventListener("changeend", a8);
+        a2.setConfig(
+          "bx-primitivizegenerator:maxMutations",
+          this["#max-mutations-slider"].value
+        );
+      })
+    );
+  }
+  #$() {
+    let a7;
+    let a8;
+    this["#seed-box"].addEventListener(
+      "change",
+      (a7 = (a9) => {
+        if (a9.target === this["#seed-slider"]) {
+          this["#seed-input"].value = this["#seed-slider"].value;
+        } else if (a9.target === this["#seed-input"]) {
+          this["#seed-slider"].value = this["#seed-input"].value;
+        }
+        this.#G();
+      })
+    );
+    this["#seed-box"].addEventListener(
+      "changeend",
+      (a8 = () => {
+        this["#seed-box"].removeEventListener("change", a7);
+        this["#seed-box"].removeEventListener("changeend", a8);
+        a2.setConfig(
+          "bx-primitivizegenerator:seed",
+          this["#seed-slider"].value
+        );
+      })
+    );
+  }
+  async #q() {
+    if (this.#S) {
+      this.#W();
+    } else {
+      this.#Q();
+    }
+  }
+  async #G() {
+    let a7 = null;
+    if (this.#C.board.outermostSelectedObjectElements.length === 1) {
+      a7 = this.#C.board.outermostSelectedObjectElements[0];
+    }
+    let a8 = a7 === null || this.#S !== null;
+    this["#options-heading"].disabled = a8;
+    this["#shapes-heading"].disabled = a8;
+    this["#algorithm-heading"].disabled = a8;
+    this["#rendering-heading"].disabled = a8;
+    this["#shapes-type-heading"].disabled = a8;
+    for (let a9 of this["#shapes-type-buttons"].children) {
+      a9.disabled = a8;
+    }
+    this["#shapes-number-heading"].disabled = a8;
+    this["#shapes-number-slider"].disabled = a8;
+    this["#shapes-number-input"].disabled = a8;
+    this["#shapes-alpha-heading"].disabled = a8;
+    this["#shapes-alpha-slider"].disabled = a8;
+    this["#shapes-alpha-input"].disabled = a8;
+    this["#auto-adjust-shapes-alpha-checkbox"].disabled = a8;
+    this["#working-size-heading"].disabled = a8;
+    this["#working-size-slider"].disabled = a8;
+    this["#working-size-input"].disabled = a8;
+    this["#shapes-per-iteration-heading"].disabled = a8;
+    this["#shapes-per-iteration-slider"].disabled = a8;
+    this["#shapes-per-iteration-input"].disabled = a8;
+    this["#max-mutations-heading"].disabled = a8;
+    this["#max-mutations-slider"].disabled = a8;
+    this["#max-mutations-input"].disabled = a8;
+    this["#seed-heading"].disabled = a8;
+    this["#seed-slider"].disabled = a8;
+    this["#seed-input"].disabled = a8;
+    this["#overflow-heading"].disabled = a8;
+    for (let aa of this["#overflow-buttons"].children) {
+      aa.disabled = a8;
+    }
+    this["#draw-as-heading"].disabled = a8;
+    for (let ab of this["#draw-as-buttons"].children) {
+      ab.disabled = a8;
+    }
+    this["#preview-section"].hidden = this.#S === null;
+    this["#preview-section-hr"].hidden = this.#S === null;
+    if (this.#S === null) {
+      this["#generate-label"].innerHTML =
+        '<x-message href="#generators.primitivize"></x-message>';
+      this["#generate-button"].disabled = a8;
+    } else {
+      this["#generate-label"].innerHTML =
+        '<x-message href="#stop"></x-message>';
+      this["#generate-button"].disabled = false;
+    }
+  }
+}
+customElements.define("bx-primitivizegenerator", Be);

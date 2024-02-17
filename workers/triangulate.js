@@ -1,1 +1,193 @@
-const a1=c;(function(d,g){const a0=c,h=d();while(!![]){try{const j=-parseInt(a0(0x191))/0x1*(-parseInt(a0(0x1aa))/0x2)+-parseInt(a0(0x19d))/0x3*(parseInt(a0(0x19e))/0x4)+-parseInt(a0(0x187))/0x5+-parseInt(a0(0x1ae))/0x6+parseInt(a0(0x193))/0x7*(parseInt(a0(0x1b0))/0x8)+-parseInt(a0(0x1a7))/0x9*(parseInt(a0(0x1a6))/0xa)+parseInt(a0(0x1a8))/0xb;if(j===g)break;else h['push'](h['shift']());}catch(k){h['push'](h['shift']());}}}(b,0xd1374));function c(a,d){const e=b();return c=function(f,g){f=f-0x187;let h=e[f];return h;},c(a,d);}let e,t,l={'seed':0x64,'cellSize':0.1,'variance':0.75,'renderAs':a1(0x194),'geometryPrecision':0x3};globalThis[a1(0x1a9)](a1(0x1ad),async j=>{const a2=a1;e||t||(e=(await import(a2(0x189)))['default'],t=(await import(a2(0x18b)))[a2(0x18d)]);let [k,q]=j[a2(0x198)];q=r(l,q);let v=a(k),{width:w,height:x}=k,{variance:z,seed:A,renderAs:B}=q,C=q[a2(0x18f)]*Math[a2(0x18a)](w,x);C<0.02*w&&(C=n(0.02*w));let D=[],E='';{let F=(Math[a2(0x1b2)]((w+0x4*C)/C)*C-w)/0x2,G=(Math[a2(0x1b2)]((x+0x4*C)/C)*C-x)/0x2,H=C*z/0x2,I=new t(A);for(let J=-F;J<w+F;J+=C)for(let K=-G;K<x+G;K+=C){let L=J+0.5*C+(I()*H*0x2-H),N=K+0.5*C+(I()*H*0x2-H);D[a2(0x199)]([Math[a2(0x1b2)](L),Math[a2(0x1b2)](N)]);}}{let O=e[a2(0x188)](D)[a2(0x1a2)];E='<svg\x20viewBox=\x220\x200\x20'+w+'\x20'+x+'\x22\x20style=\x22shape-rendering:\x20crispedges;\x22>';for(let P=0x0;P<O[a2(0x197)];P+=0x3){let Q=[O[P],O[P+0x1],O[P+0x2]]['map'](T=>D[T]),R=s(Q),S=o(R['x'],R['y'],k,v);if(a2(0x1a4)!==S){let T=f([0x0,0x0,k['width'],k[a2(0x1ac)]],Q);if(T[a2(0x197)]>0x0){for(let U of T)U[0x0]=n(U[0x0],q[a2(0x192)]),U[0x1]=n(U[0x1],q[a2(0x192)]);if('paths'===B){let [V,...W]=T,X='M\x20'+V[0x0]+'\x20'+V[0x1];for(let Y of W)X+='\x20L\x20'+Y[0x0]+'\x20'+Y[0x1];X+='\x20Z',E+=a2(0x19f)+X+a2(0x1a5)+S+a2(0x196);}else a2(0x190)===B&&(E+=a2(0x1a3)+T[a2(0x18c)](Z=>Z[0x0]+'\x20'+Z[0x1])[a2(0x19c)]('\x20')+'\x22\x20style=\x22fill:\x20'+S+a2(0x1ab));}}}E+=a2(0x1b1);}globalThis[a2(0x1b4)](E);});let r=(d,g)=>{const a3=a1;let h={};for(let [j,k]of Object[a3(0x1a0)](d))h[j]=void 0x0!==g[j]?g[j]:d[j];return h;},a=d=>{const a4=a1;let g=new OffscreenCanvas(d['width'],d[a4(0x1ac)])[a4(0x1af)]('2d');g[a4(0x19a)](d,0x0,0x0);let h=g['getImageData'](0x0,0x0,d[a4(0x195)],d[a4(0x1ac)]),j=[];for(let k=0x0;k<h[a4(0x198)][a4(0x197)];k+=0x4)j[a4(0x199)]([h[a4(0x198)][k],h[a4(0x198)][k+0x1],h['data'][k+0x2],h[a4(0x198)][k+0x3]]);return j;},o=(d,g,h,j)=>{const a5=a1;d=Math[a5(0x1a1)](d),g=Math[a5(0x1a1)](g);{let p=0x1;d<0x0?d=p:d>=h[a5(0x195)]&&(d=h[a5(0x195)]-p),g<0x0?g=p:g>=h[a5(0x1ac)]&&(g=h['height']-p);}let k=j[d+g*h[a5(0x195)]],m=a5(0x1a4);return k&&(m=i(...k)),m;},s=d=>({'x':(d[0x0][0x0]+d[0x1][0x0]+d[0x2][0x0])/0x3,'y':(d[0x0][0x1]+d[0x1][0x1]+d[0x2][0x1])/0x3}),n=(d,g=0x0)=>{const a6=a1;let h=Math['pow'](0xa,g);return Math[a6(0x1a1)]((d+Number[a6(0x19b)])*h)/h;},i=(d,g,h,j)=>{const a8=a1;let k=m=>{const a7=c;let p=m[a7(0x18e)](0x10);return 0x1==p[a7(0x197)]?'0'+p:p;};return 0xff===j?'#'+k(d)+k(g)+k(h):0x0===j?a8(0x1a4):a8(0x1b3)+d+','+g+','+h+','+(j=n(j/0xff,0x2))+')';},f=(d,g)=>{const a9=a1;let j,k=(p,q,u,v)=>0x8&u?[p[0x0]+(q[0x0]-p[0x0])*(v[0x3]-p[0x1])/(q[0x1]-p[0x1]),v[0x3]]:0x4&u?[p[0x0]+(q[0x0]-p[0x0])*(v[0x1]-p[0x1])/(q[0x1]-p[0x1]),v[0x1]]:0x2&u?[v[0x2],p[0x1]+(q[0x1]-p[0x1])*(v[0x2]-p[0x0])/(q[0x0]-p[0x0])]:0x1&u?[v[0x0],p[0x1]+(q[0x1]-p[0x1])*(v[0x0]-p[0x0])/(q[0x0]-p[0x0])]:null,m=(p,q)=>{let u=0x0;return p[0x0]<q[0x0]?u|=0x1:p[0x0]>q[0x2]&&(u|=0x2),p[0x1]<q[0x1]?u|=0x4:p[0x1]>q[0x3]&&(u|=0x8),u;};for(let p=0x1;p<=0x8;p*=0x2){let q=g[g[a9(0x197)]-0x1],u=!(m(q,d)&p);j=[];for(let v=0x0;v<g[a9(0x197)];v++){let w=g[v],x=!(m(w,d)&p);x!==u&&j['push'](k(q,w,p,d)),x&&j[a9(0x199)](w),q=w,u=x;}if(!(g=j)[a9(0x197)])break;}return j;};function b(){const aa=['data','push','drawImage','EPSILON','join','277737mtdsBL','68ASnMYy','<path\x20d=\x22','entries','round','triangles','<polygon\x20points=\x22','rgba(0,0,0,0)','\x22\x20style=\x22fill:\x20','140380WSWSDC','279xvJjPq','30323128ktgHcq','addEventListener','6pOmKSt',';\x22></polygon>','height','message','3511986RlWJTR','getContext','16ZxOSXv','</svg>','floor','rgba(','postMessage','6379275PZTAle','from','/libs/delaunator/delaunator.js','min','/libs/seed-random/seed-random.js','map','default','toString','cellSize','polygons','513283NigoEw','geometryPrecision','1507303nmlMSv','paths','width',';\x22></path>','length'];b=function(){return aa;};return b();}
+let e;
+let t;
+let l = {
+  seed: 100,
+  cellSize: 0.1,
+  variance: 0.75,
+  renderAs: "paths",
+  geometryPrecision: 3,
+};
+globalThis.addEventListener("message", async (j) => {
+  if (!e && !t) {
+    e = (await import("/libs/delaunator/delaunator.js")).default;
+    t = (await import("/libs/seed-random/seed-random.js")).default;
+  }
+  let [k, q] = j.data;
+  q = r(l, q);
+  let v = a(k);
+  let { width: w, height: x } = k;
+  let { variance: z, seed: A, renderAs: B } = q;
+  let C = q.cellSize * Math.min(w, x);
+  if (C < w * 0.02) {
+    C = n(w * 0.02);
+  }
+  let D = [];
+  let E = "";
+  {
+    let F = (Math.floor((w + C * 4) / C) * C - w) / 2;
+    let G = (Math.floor((x + C * 4) / C) * C - x) / 2;
+    let H = (C * z) / 2;
+    let I = new t(A);
+    for (let J = -F; J < w + F; J += C) {
+      for (let K = -G; K < x + G; K += C) {
+        let L = J + C * 0.5 + (I() * H * 2 - H);
+        let N = K + C * 0.5 + (I() * H * 2 - H);
+        D.push([Math.floor(L), Math.floor(N)]);
+      }
+    }
+  }
+  {
+    let O = e.from(D).triangles;
+    E =
+      '<svg viewBox="0 0 ' +
+      w +
+      " " +
+      x +
+      '" style="shape-rendering: crispedges;">';
+    for (let P = 0; P < O.length; P += 3) {
+      let Q = [O[P], O[P + 1], O[P + 2]].map((T) => D[T]);
+      let R = s(Q);
+      let S = o(R.x, R.y, k, v);
+      if (S !== "rgba(0,0,0,0)") {
+        let T = f([0, 0, k.width, k.height], Q);
+        if (T.length > 0) {
+          for (let U of T) {
+            U[0] = n(U[0], q.geometryPrecision);
+            U[1] = n(U[1], q.geometryPrecision);
+          }
+          if (B === "paths") {
+            let [V, ...W] = T;
+            let X = "M " + V[0] + " " + V[1];
+            for (let Y of W) {
+              X += " L " + Y[0] + " " + Y[1];
+            }
+            X += " Z";
+            E += '<path d="' + X + '" style="fill: ' + S + ';"></path>';
+          } else if (B === "polygons") {
+            E +=
+              '<polygon points="' +
+              T.map((Z) => Z[0] + " " + Z[1]).join(" ") +
+              '" style="fill: ' +
+              S +
+              ';"></polygon>';
+          }
+        }
+      }
+    }
+    E += "</svg>";
+  }
+  globalThis.postMessage(E);
+});
+let r = (d, g) => {
+  let h = {};
+  for (let [j, k] of Object.entries(d)) {
+    h[j] = g[j] !== undefined ? g[j] : d[j];
+  }
+  return h;
+};
+let a = (d) => {
+  let g = new OffscreenCanvas(d.width, d.height).getContext("2d");
+  g.drawImage(d, 0, 0);
+  let h = g.getImageData(0, 0, d.width, d.height);
+  let j = [];
+  for (let k = 0; k < h.data.length; k += 4) {
+    j.push([h.data[k], h.data[k + 1], h.data[k + 2], h.data[k + 3]]);
+  }
+  return j;
+};
+let o = (d, g, h, j) => {
+  d = Math.round(d);
+  g = Math.round(g);
+  {
+    let p = 1;
+    if (d < 0) {
+      d = p;
+    } else if (d >= h.width) {
+      d = h.width - p;
+    }
+    if (g < 0) {
+      g = p;
+    } else if (g >= h.height) {
+      g = h.height - p;
+    }
+  }
+  let k = j[d + g * h.width];
+  let m = "rgba(0,0,0,0)";
+  if (k) {
+    m = i(...k);
+  }
+  return m;
+};
+let s = (d) => ({
+  x: (d[0][0] + d[1][0] + d[2][0]) / 3,
+  y: (d[0][1] + d[1][1] + d[2][1]) / 3,
+});
+let n = (d, g = 0) => {
+  let h = Math.pow(10, g);
+  return Math.round((d + Number.EPSILON) * h) / h;
+};
+let i = (d, g, h, j) => {
+  let k = (m) => {
+    let p = m.toString(16);
+    if (p.length == 1) {
+      return "0" + p;
+    } else {
+      return p;
+    }
+  };
+  if (j === 255) {
+    return "#" + k(d) + k(g) + k(h);
+  } else if (j === 0) {
+    return "rgba(0,0,0,0)";
+  } else {
+    return "rgba(" + d + "," + g + "," + h + "," + (j = n(j / 255, 2)) + ")";
+  }
+};
+let f = (d, g) => {
+  let j;
+  let k = (p, q, u, v) =>
+    u & 8
+      ? [p[0] + ((q[0] - p[0]) * (v[3] - p[1])) / (q[1] - p[1]), v[3]]
+      : u & 4
+      ? [p[0] + ((q[0] - p[0]) * (v[1] - p[1])) / (q[1] - p[1]), v[1]]
+      : u & 2
+      ? [v[2], p[1] + ((q[1] - p[1]) * (v[2] - p[0])) / (q[0] - p[0])]
+      : u & 1
+      ? [v[0], p[1] + ((q[1] - p[1]) * (v[0] - p[0])) / (q[0] - p[0])]
+      : null;
+  let m = (p, q) => {
+    let u = 0;
+    if (p[0] < q[0]) {
+      u |= 1;
+    } else if (p[0] > q[2]) {
+      u |= 2;
+    }
+    if (p[1] < q[1]) {
+      u |= 4;
+    } else if (p[1] > q[3]) {
+      u |= 8;
+    }
+    return u;
+  };
+  for (let p = 1; p <= 8; p *= 2) {
+    let q = g[g.length - 1];
+    let u = !(m(q, d) & p);
+    j = [];
+    for (let v = 0; v < g.length; v++) {
+      let w = g[v];
+      let x = !(m(w, d) & p);
+      if (x !== u) {
+        j.push(k(q, w, p, d));
+      }
+      if (x) {
+        j.push(w);
+      }
+      q = w;
+      u = x;
+    }
+    if (!(g = j).length) {
+      break;
+    }
+  }
+  return j;
+};

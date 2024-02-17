@@ -1,1 +1,169 @@
-const E=c;(function(d,f){const D=c,g=d();while(!![]){try{const h=parseInt(D(0x1f2))/0x1+parseInt(D(0x20c))/0x2*(-parseInt(D(0x1ef))/0x3)+-parseInt(D(0x1ff))/0x4*(parseInt(D(0x1e9))/0x5)+parseInt(D(0x1e6))/0x6*(-parseInt(D(0x208))/0x7)+-parseInt(D(0x1e5))/0x8*(-parseInt(D(0x1f8))/0x9)+-parseInt(D(0x1d7))/0xa*(parseInt(D(0x209))/0xb)+parseInt(D(0x1ed))/0xc;if(h===f)break;else g['push'](g['shift']());}catch(j){g['push'](g['shift']());}}}(b,0xa8492));let e,t,r={'workingSize':0x200,'blurRadius':0x0,'blurDelta':0x14,'numberOfColors':0x10,'minColorRatio':0x0,'colorQuantCycles':0x3,'colorSampling':0x2,'ltres':0x1,'qtres':0x1,'pathOmit':0x8,'rightAngleEnhance':!0x0,'strokeWidth':0x1,'lineFilter':!0x0,'ignoreWhite':!0x1,'geometryPrecision':0x3};function c(a,d){const e=b();return c=function(f,g){f=f-0x1d1;let h=e[f];return h;},c(a,d);}globalThis[E(0x1f4)](E(0x1dd),async d=>{const F=E;e||t||(e=(await import(F(0x1df)))[F(0x1e7)],t=(await import(F(0x1e2)))['default']);let [j,k]=d[F(0x1f5)];k=l(r,k);let p=Math[F(0x1f0)](j[F(0x1e0)]/k['workingSize'],j[F(0x1e1)]/k['workingSize'],0x1),q=j[F(0x1e0)]/p,u=j[F(0x1e1)]/p,v=new OffscreenCanvas(q,u)[F(0x1ee)]('2d');v['beginPath'](),v[F(0x1f9)](0x0,0x0,q,u),v[F(0x20e)]=F(0x1e4),v[F(0x1f1)](),v['drawImage'](j,0x0,0x0,q,u);let w=v['getImageData'](0x0,0x0,q,u),x=e[F(0x207)](w,{'blurradius':k['blurRadius'],'blurdelta':k[F(0x1dc)],'numberofcolors':k[F(0x1d4)],'mincolorratio':k['minColorRatio'],'colorquantcycles':k[F(0x1da)],'colorsampling':k[F(0x201)],'ltres':k[F(0x203)],'qtres':k[F(0x1ec)],'pathomit':k['pathOmit'],'rightangleenhance':k[F(0x206)]}),y=i(x,p,k);globalThis[F(0x20a)](y);});let l=(d,f)=>{const G=E;let g={};for(let [h,j]of Object[G(0x200)](d))g[h]=void 0x0!==f[h]?f[h]:d[h];return g;},o=(d,f=0x0)=>{const H=E;let g=Math[H(0x1d9)](0xa,f);return Math[H(0x1f6)]((d+Number[H(0x1d8)])*g)/g;},i=(d,f,g)=>{const I=E;let h='<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20viewBox=\x220\x200\x20'+o(d[I(0x1e0)]*f,g[I(0x1fa)])+'\x20'+o(d[I(0x1e1)]*f,g[I(0x1fa)])+'\x22>';if(!0x0===g['ignoreWhite'])for(let j=0x0;j<d[I(0x1fd)][I(0x205)];j+=0x1){d['palette'][j]['r']+d['palette'][j]['g']+d[I(0x1fd)][j]['b']>=0x258&&(d[I(0x1fd)][j]['r']=0x0,d[I(0x1fd)][j]['g']=0x0,d[I(0x1fd)][j]['b']=0x0,d['palette'][j]['a']=0x0);}for(let k=0x0;k<d['layers']['length'];k+=0x1)for(let m=0x0;m<d['layers'][k][I(0x205)];m+=0x1)d['layers'][k][m][I(0x1d5)]||(h+=a(d,k,m,f,g));return h+=I(0x1fb),h;},a=(d,g,h,j,k)=>{const J=E;let m=d[J(0x1eb)][g],p=o(d['palette'][g]['a']/0xff,0x2),q=m[h],u='',v='';if(0x0===p)return'';if(k[J(0x202)]&&q[J(0x1db)][J(0x205)]<0x3)return'';{let w=d[J(0x1fd)][g],x=new t(J(0x1de),[w['r']/0xff,w['g']/0xff,w['b']/0xff],p)[J(0x20b)]({'format':J(0x1fe)}),y=[];y[J(0x1d6)](J(0x204)+x+';'),k[J(0x1f3)]>0x0&&(y[J(0x1d6)](J(0x1e3)+x+';'),0x1!==k['strokeWidth']&&y[J(0x1d6)]('stroke-width:\x20'+k[J(0x1f3)]+J(0x1e8))),u=J(0x20d)+y[J(0x1f7)]('\x20')+'\x22';}v+='d=\x22',v+='M\x20'+o(q[J(0x1db)][0x0]['x1']*j,k['geometryPrecision'])+'\x20'+o(q['segments'][0x0]['y1']*j,k[J(0x1fa)])+'\x20';for(let z=0x0;z<q[J(0x1db)]['length'];z+=0x1){(v+=q[J(0x1db)][z][J(0x1d1)]+'\x20'+o(q[J(0x1db)][z]['x2']*j,k['geometryPrecision'])+'\x20'+o(q[J(0x1db)][z]['y2']*j,k[J(0x1fa)])+'\x20',q['segments'][z][J(0x1fc)]('x3'))&&(v+=o(q[J(0x1db)][z]['x3']*j,k[J(0x1fa)])+'\x20'+o(q[J(0x1db)][z]['y3']*j,k[J(0x1fa)])+'\x20');}v+='Z\x20';for(let A=0x0;A<q['holechildren'][J(0x205)];A+=0x1){let B=m[q[J(0x1ea)][A]];B['segments'][B['segments']['length']-0x1][J(0x1fc)]('x3')?v+='M\x20'+o(B[J(0x1db)][B[J(0x1db)][J(0x205)]-0x1]['x3']*j)+'\x20'+o(B[J(0x1db)][B[J(0x1db)]['length']-0x1]['y3']*j)+'\x20':v+='M\x20'+o(B[J(0x1db)][B[J(0x1db)][J(0x205)]-0x1]['x2']*j)+'\x20'+o(B[J(0x1db)][B[J(0x1db)][J(0x205)]-0x1]['y2']*j)+'\x20';for(let C=B[J(0x1db)][J(0x205)]-0x1;C>=0x0;C-=0x1){(v+=B[J(0x1db)][C][J(0x1d1)]+'\x20',B[J(0x1db)][C][J(0x1fc)]('x3'))&&(v+=o(B[J(0x1db)][C]['x2']*j)+'\x20'+o(B[J(0x1db)][C]['y2']*j)+'\x20'),v+=o(B['segments'][C]['x1']*j)+'\x20'+o(B['segments'][C]['y1']*j)+'\x20';}v+='Z\x20';}return v+='\x22',J(0x1d2)+v+'\x20'+u+J(0x1d3);};function b(){const K=['fill','1204577obYtss','strokeWidth','addEventListener','data','round','join','3211029fxeSVw','rect','geometryPrecision','</svg>','hasOwnProperty','palette','hex','24pajaJY','entries','colorSampling','lineFilter','ltres','fill:\x20','length','rightAngleEnhance','imagedataToTracedata','5551LhQMOX','13382303DudqxV','postMessage','toString','42GxvWLC','style=\x22','fillStyle','type','<path\x20','></path>','numberOfColors','isholepath','push','10YTFrtr','EPSILON','pow','colorQuantCycles','segments','blurDelta','message','srgb','/libs/image-tracer/image-tracer.js','width','height','/libs/color/color.js','stroke:\x20','white','16rRWCCB','9534DdtxuQ','default','px;','1038845VeNqsB','holechildren','layers','qtres','31621728aNKQPx','getContext','20103YIEdsF','max'];b=function(){return K;};return b();}
+let e;
+let t;
+let r = {
+  workingSize: 512,
+  blurRadius: 0,
+  blurDelta: 20,
+  numberOfColors: 16,
+  minColorRatio: 0,
+  colorQuantCycles: 3,
+  colorSampling: 2,
+  ltres: 1,
+  qtres: 1,
+  pathOmit: 8,
+  rightAngleEnhance: true,
+  strokeWidth: 1,
+  lineFilter: true,
+  ignoreWhite: false,
+  geometryPrecision: 3,
+};
+globalThis.addEventListener("message", async (d) => {
+  if (!e && !t) {
+    e = (await import("/libs/image-tracer/image-tracer.js")).default;
+    t = (await import("/libs/color/color.js")).default;
+  }
+  let [j, k] = d.data;
+  k = l(r, k);
+  let p = Math.max(j.width / k.workingSize, j.height / k.workingSize, 1);
+  let q = j.width / p;
+  let u = j.height / p;
+  let v = new OffscreenCanvas(q, u).getContext("2d");
+  v.beginPath();
+  v.rect(0, 0, q, u);
+  v.fillStyle = "white";
+  v.fill();
+  v.drawImage(j, 0, 0, q, u);
+  let w = v.getImageData(0, 0, q, u);
+  let x = e.imagedataToTracedata(w, {
+    blurradius: k.blurRadius,
+    blurdelta: k.blurDelta,
+    numberofcolors: k.numberOfColors,
+    mincolorratio: k.minColorRatio,
+    colorquantcycles: k.colorQuantCycles,
+    colorsampling: k.colorSampling,
+    ltres: k.ltres,
+    qtres: k.qtres,
+    pathomit: k.pathOmit,
+    rightangleenhance: k.rightAngleEnhance,
+  });
+  let y = i(x, p, k);
+  globalThis.postMessage(y);
+});
+let l = (d, f) => {
+  let g = {};
+  for (let [h, j] of Object.entries(d)) {
+    g[h] = f[h] !== undefined ? f[h] : d[h];
+  }
+  return g;
+};
+let o = (d, f = 0) => {
+  let g = Math.pow(10, f);
+  return Math.round((d + Number.EPSILON) * g) / g;
+};
+let i = (d, f, g) => {
+  let h =
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' +
+    o(d.width * f, g.geometryPrecision) +
+    " " +
+    o(d.height * f, g.geometryPrecision) +
+    '">';
+  if (g.ignoreWhite === true) {
+    for (let j = 0; j < d.palette.length; j += 1) {
+      if (d.palette[j].r + d.palette[j].g + d.palette[j].b >= 600) {
+        d.palette[j].r = 0;
+        d.palette[j].g = 0;
+        d.palette[j].b = 0;
+        d.palette[j].a = 0;
+      }
+    }
+  }
+  for (let k = 0; k < d.layers.length; k += 1) {
+    for (let m = 0; m < d.layers[k].length; m += 1) {
+      if (!d.layers[k][m].isholepath) {
+        h += a(d, k, m, f, g);
+      }
+    }
+  }
+  h += "</svg>";
+  return h;
+};
+let a = (d, g, h, j, k) => {
+  let m = d.layers[g];
+  let p = o(d.palette[g].a / 255, 2);
+  let q = m[h];
+  let u = "";
+  let v = "";
+  if (p === 0) {
+    return "";
+  }
+  if (k.lineFilter && q.segments.length < 3) {
+    return "";
+  }
+  {
+    let w = d.palette[g];
+    let x = new t("srgb", [w.r / 255, w.g / 255, w.b / 255], p).toString({
+      format: "hex",
+    });
+    let y = [];
+    y.push("fill: " + x + ";");
+    if (k.strokeWidth > 0) {
+      y.push("stroke: " + x + ";");
+      if (k.strokeWidth !== 1) {
+        y.push("stroke-width: " + k.strokeWidth + "px;");
+      }
+    }
+    u = 'style="' + y.join(" ") + '"';
+  }
+  v += 'd="';
+  v +=
+    "M " +
+    o(q.segments[0].x1 * j, k.geometryPrecision) +
+    " " +
+    o(q.segments[0].y1 * j, k.geometryPrecision) +
+    " ";
+  for (let z = 0; z < q.segments.length; z += 1) {
+    v +=
+      q.segments[z].type +
+      " " +
+      o(q.segments[z].x2 * j, k.geometryPrecision) +
+      " " +
+      o(q.segments[z].y2 * j, k.geometryPrecision) +
+      " ";
+    if (q.segments[z].hasOwnProperty("x3")) {
+      v +=
+        o(q.segments[z].x3 * j, k.geometryPrecision) +
+        " " +
+        o(q.segments[z].y3 * j, k.geometryPrecision) +
+        " ";
+    }
+  }
+  v += "Z ";
+  for (let A = 0; A < q.holechildren.length; A += 1) {
+    let B = m[q.holechildren[A]];
+    if (B.segments[B.segments.length - 1].hasOwnProperty("x3")) {
+      v +=
+        "M " +
+        o(B.segments[B.segments.length - 1].x3 * j) +
+        " " +
+        o(B.segments[B.segments.length - 1].y3 * j) +
+        " ";
+    } else {
+      v +=
+        "M " +
+        o(B.segments[B.segments.length - 1].x2 * j) +
+        " " +
+        o(B.segments[B.segments.length - 1].y2 * j) +
+        " ";
+    }
+    for (let C = B.segments.length - 1; C >= 0; C -= 1) {
+      v += B.segments[C].type + " ";
+      if (B.segments[C].hasOwnProperty("x3")) {
+        v += o(B.segments[C].x2 * j) + " " + o(B.segments[C].y2 * j) + " ";
+      }
+      v += o(B.segments[C].x1 * j) + " " + o(B.segments[C].y1 * j) + " ";
+    }
+    v += "Z ";
+  }
+  v += '"';
+  return "<path " + v + " " + u + "></path>";
+};
