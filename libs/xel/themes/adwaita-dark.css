@@ -960,11 +960,7 @@ body {
     calc(var(--accent-color-l) + 10%),
     0.7
   );
-  --checkboard-background: linear-gradient(45deg, #5b5b5b 25%, #0000 25%) 0px
-      0px/10px 10px,
-    linear-gradient(-45deg, #5b5b5b 25%, #0000 25%) 0px 5px/10px 10px,
-    linear-gradient(45deg, #0000 75%, #5b5b5b 75%) 5px -5px/10px 10px,
-    linear-gradient(-45deg, #0000 75%, #5b5b5b 75%) -5px 0px/10px 10px, #929292;
+  --checkboard-background: url(data:image/gif;base64,R0lGODlhCgAKAKECADAwMEdHR15eXl5eXiH5BAEKAAIALAAAAAAKAAoAAAIRhB2ZhxoM3GMSykqd1VltzxQAOw==);
 }
 ::selection {
   color: var(--selection-color);
