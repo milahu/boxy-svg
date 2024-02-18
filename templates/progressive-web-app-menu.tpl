@@ -53,12 +53,6 @@
       <x-shortcut class="user-shortcut"></x-shortcut>
     </x-menuitem>
 
-    <x-menuitem value="saveToDiskAs">
-      <x-label><x-message href="#save-as" ellipsis autocapitalize></x-message></x-label>
-      <x-shortcut class="default-shortcut" value="Control+Shift+S"></x-shortcut>
-      <x-shortcut class="user-shortcut"></x-shortcut>
-    </x-menuitem>
-
     <x-menuitem value="saveToCloudAs">
       <x-label><x-message href="#save-to-cloud-as" ellipsis autocapitalize></x-message></x-label>
       <x-shortcut class="default-shortcut"></x-shortcut>
