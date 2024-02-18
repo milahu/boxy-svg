@@ -89,12 +89,6 @@
 
     <hr/>
 
-    <x-menuitem value="download">
-      <x-label><x-message href="#download" ellipsis autocapitalize></x-message></x-label>
-      <x-shortcut class="default-shortcut"></x-shortcut>
-      <x-shortcut class="user-shortcut"></x-shortcut>
-    </x-menuitem>
-
     <x-menuitem value="share">
       <x-label><x-message href="#share" ellipsis autocapitalize></x-message></x-label>
       <x-shortcut class="default-shortcut"></x-shortcut>
