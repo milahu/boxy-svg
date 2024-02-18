@@ -40,11 +40,6 @@
       <x-shortcut class="user-shortcut"></x-shortcut>
     </x-menuitem>
 
-    <x-menuitem id="open-recent-menu-item">
-      <x-label><x-message href="#open-recent" autocapitalize></x-message></x-label>
-      <x-menu id="open-recent-menu"></x-menu>
-    </x-menuitem>
-
     <hr/>
 
     <x-menuitem value="save">
