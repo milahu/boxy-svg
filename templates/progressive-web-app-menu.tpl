@@ -84,13 +84,6 @@
       <x-shortcut class="user-shortcut"></x-shortcut>
     </x-menuitem>
 
-    <hr/>
-
-    <x-menuitem value="close">
-      <x-label><x-message href="#close" autocapitalize></x-message></x-label>
-      <x-shortcut class="default-shortcut" value="Control+W"></x-shortcut>
-      <x-shortcut class="user-shortcut"></x-shortcut>
-    </x-menuitem>
   </x-menu>
 </x-menuitem>
 
