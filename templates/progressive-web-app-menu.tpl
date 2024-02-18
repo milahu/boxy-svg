@@ -78,12 +78,6 @@
 
     <hr/>
 
-    <x-menuitem value="embed">
-      <x-label><x-message href="#embed" ellipsis autocapitalize></x-message></x-label>
-      <x-shortcut class="default-shortcut"></x-shortcut>
-      <x-shortcut class="user-shortcut"></x-shortcut>
-    </x-menuitem>
-
     <x-menuitem value="print">
       <x-label><x-message href="#print" ellipsis autocapitalize></x-message></x-label>
       <x-shortcut class="default-shortcut" value="Control+P"></x-shortcut>
