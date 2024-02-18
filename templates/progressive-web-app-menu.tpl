@@ -78,12 +78,6 @@
 
     <hr/>
 
-    <x-menuitem value="share">
-      <x-label><x-message href="#share" ellipsis autocapitalize></x-message></x-label>
-      <x-shortcut class="default-shortcut"></x-shortcut>
-      <x-shortcut class="user-shortcut"></x-shortcut>
-    </x-menuitem>
-
     <x-menuitem value="embed">
       <x-label><x-message href="#embed" ellipsis autocapitalize></x-message></x-label>
       <x-shortcut class="default-shortcut"></x-shortcut>
