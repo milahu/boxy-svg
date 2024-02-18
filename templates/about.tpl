@@ -22,7 +22,7 @@
   <li><a href="https://tiptap.dev">Tiptap</a></li>
   <li><a href="https://github.com/mishoo/UglifyJS">UglifyJS</a></li>
   <li><a href="https://github.com/photopea/UPNG.js">UPNG.js</a></li>
-  <li><a href="https://xel-toolkit.org/">Xel</a></li>
+  <li><a href="https://anonym.to/?https://xel-toolkit.org/">Xel</a></li>
 </ul>
 
 <h3><x-message href="#cloud-services"></x-message></h3>
