@@ -86,12 +86,6 @@
 
     <hr/>
 
-    <x-menuitem value="reload">
-      <x-label><x-message href="#reload" autocapitalize></x-message></x-label>
-      <x-shortcut class="default-shortcut"></x-shortcut>
-      <x-shortcut class="user-shortcut"></x-shortcut>
-    </x-menuitem>
-
     <x-menuitem value="close">
       <x-label><x-message href="#close" autocapitalize></x-message></x-label>
       <x-shortcut class="default-shortcut" value="Control+W"></x-shortcut>
