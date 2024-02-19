@@ -9,7 +9,7 @@ if (!window.fallback) {
   });
   window.addEventListener("load", () => {
     if (navigator.serviceWorker) {
-      navigator.serviceWorker.register("./workers/service.js", {
+      navigator.serviceWorker.register("./workers_service.js", {
         type: "module",
         scope: "./app",
       });
