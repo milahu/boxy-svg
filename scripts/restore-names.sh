@@ -1,0 +1,390 @@
+#!/usr/bin/env bash
+
+set -e
+
+rules_yaml=""
+rule_id=0
+
+function add() {
+  rules_yaml+=$(
+    echo
+    echo
+    echo "id: rule_$rule_id"
+    echo "language: javascript"
+    echo "rule:"
+    echo "  pattern: '$1'"
+    echo "fix: '$2'"
+    echo
+    echo "---" # rule separator
+  )
+  rule_id=$((rule_id + 1))
+}
+
+# imports
+add 'a2' paper
+add 'a3' color
+add 'a4' cssParser
+add 'a5' dexie
+add 'a6' typeSense
+add 'a7' pako
+add 'a8' domPurify
+add 'a9' seedRandom
+add 'aj' xel
+add 'ak' render
+add 'aq' html_preact
+add 'az' Component
+add 'aA' dagre
+add 'aB' fireBase
+
+# variables and functions
+add 'x' isApple
+add 'm' isSafari
+add 'g' isNotSafari
+add 'f' isFileProtocol
+add 'b' isEmbedded
+add 'k' isNum
+add 'C' isStr
+add 'S' isNum2
+add 'P' errorVectorInit
+add 'D' Vector
+add 'z' nsBoxy
+add 'O' nsSvg
+add 'T' nsXlink
+add 'E' nsXml
+add '$' shapeNodeNames
+add 'A' textNodeNames
+add 'L' allNodeNames1
+add 'U' allNodeNames2
+add 'I' allNodeNames3
+add 'R' allNodeNames4
+add '_' allNodeNames5
+add 'B' allNodeNames6
+add 'G' allNodeNames7
+add 'F' allNodeNames8
+add 'N' allNodeNames9
+add 'V' allNodeNames10
+add 'j' allNodeNames11
+add 'H' filterNodeNames1
+add 'W' filterNodeNames2
+add 'Y' filterNodeNames3
+add 'q' filterNodeNames4
+add 'X' animationNodeNames
+add 'Z' allNodeNames12
+add 'K' allNodeNames13
+add 'J' allNodeNames14
+add 'Q' allNodeNames15
+add 'ee' allNodeNames16
+add 'te' allNodeNames17
+add 'ie' mixBlendModes
+add 'se' textStyles
+add 'ne' pathStyles
+# https://github.com/mdn/content/blob/main/files/en-us/web/accessibility/aria/roles/index.md#6-abstract-roles
+add 'ae' ariaAbstractRoles
+add 'oe' ariaAllRoles
+add 'le' preserveAspectRatioValues
+add 're' allNodeNames18
+add 'he' svgAttributes
+add 'ge' Color
+add 'fe' units1
+add 'be' units2
+add 'we' angleUnits
+add 've' FilterValueList
+add 'ye' SomeReader
+add 'ke' Url
+add 'Ce' ClockValue
+add 'Se' EventValue
+add 'Me' OffsetValue
+add 'Pe' RepeatValue
+add 'De' SyncbaseValue
+add 'ze' ViewBox
+add 'Ue' PathParser
+add 'Je' OffscreenContainer
+add 'Qe' PreserveAspectRatio
+add 'fn' FontFaceSrc
+add 'bn' FontFamily
+add 'Vn' GoogleFontsClient
+add 'jn' LocalFontsManager
+
+add 'nt' sleep
+add 'an' firebaseApiKey
+add 'on' typesenseServer
+add 'ln' pixabayApiKey
+add 'gn' googleFontsClient
+add '#A' fetchCss
+add '$n' fetchFont
+add 'Un' indentXmlDoc
+add '#R' fetchBlob
+add 'ja' getDiagonal
+add 'vo' getImageSize
+#add 'yo' fetchBlobAsBase64
+add 'yo' fetchBase64
+add 'qr' defaultViewSvgStr
+add 'dh' parseSvgStr
+# no. there are multiple #fe methods
+#add '#fe' blobStart
+#add '#fe' createView
+add '#Vt' createViewFromTo
+add 'Op' cleanupIndentStringifyXmlDoc
+add 'Tp' stringifyXmlDoc
+add '$p' sanitizeXmlDoc
+add 'Lp' validateSvgStr
+add '#Mi' updateViews
+add 'Wf' firebaseClient
+add '#tO' fileDownload
+add '#qO' fileImportFromUrl
+add '#iO' filePrint
+add '#YO' getSvgStrOfImageUrl
+add '#dz' parseQueryString
+add 'Gr' defaultStyleShape
+add 'Fr' defaultStyleText
+add 'Wb' fileExportFormats
+
+
+# custom elements
+# grep -E '^customElements.define\(.+' elements/apps/bx-progressivewebapp.js | sed -E "s/^customElements\.define\(\"([^\"]+)\", ([^)]+)\);$/add '\2' \1/" | tr - _
+add 'fo' bx_about
+add 'bo' bx_boardrulers
+add 'lr' bx_transformselectcontext
+add 'hr' bx_directselectcontext
+add 'dr' bx_pancontext
+add 'wr' bx_splinecontext
+add 'Br' bx_freehandcontext
+add 'Yr' bx_blobsettings
+add 'kh' bx_blobcontext
+add 'Mh' bx_rectcontext
+add 'zh' bx_ellipsecontext
+add 'Eh' bx_othershapecontext
+add 'Ah' bx_textcontext
+add 'Uh' bx_textpathcontext
+#add '_h' BxViewcontext
+add '_h' bx_viewcontext
+add 'BxViewcontext' bx_viewcontext
+add 'Bh' bx_manualguidecontext
+add 'qp' bx_board
+add 'Xp' bx_transformsettings
+add 'Zp' bx_editsettings
+add 'Kp' bx_splinesettings
+add 'Jp' bx_freehandsettings
+add 'Qp' bx_rectsettings
+add 'eu' bx_ellipsesettings
+add 'iu' bx_trianglesettings
+add 'su' bx_ngonsettings
+add 'lu' bx_starsettings
+add 'du' bx_crosssettings
+add 'cu' bx_framesettings
+add 'uu' bx_ringsettings
+add 'mu' bx_piesettings
+add 'wu' bx_crescentsettings
+add 'Su' bx_cogsettings
+add 'Mu' bx_spiralsettings
+add 'Pu' bx_arrowsettings
+add 'Du' bx_othershapesettings
+add 'zu' bx_textsettings
+add 'Ou' bx_textpathsettings
+add 'Tu' bx_viewsettings
+add 'Eu' bx_manualguidesettings
+add 'Iu' bx_colorgrabber
+add 'Ru' bx_objectgrabber
+add 'Yu' bx_paintinspector
+add 'Xu' bx_fillpanel
+add 'Qu' bx_dasharrayinput
+add 'sx' bx_strokepanel
+add 'nx' bx_modelview
+add 'ax' bx_dropshadowfilterinspector
+add 'ox' bx_innershadowfilterinspector
+add 'lx' bx_pointlightfilterinspector
+add 'rx' bx_spotlightfilterinspector
+add 'hx' bx_outlinefilterinspector
+add 'dx' bx_gaussianblurfilterinspector
+add 'cx' bx_motionblurfilterinspector
+add 'px' bx_sharpenfilterinspector
+add 'ux' bx_pixeletefilterinspector
+add 'xx' bx_warpfilterinspector
+add 'mx' bx_morphologyfilterinspector
+add 'gx' bx_blackandwhitefilterinspector
+add 'fx' bx_grayscalefilterinspector
+add 'bx' bx_sepiafilterinspector
+add 'wx' bx_saturatefilterinspector
+add 'vx' bx_huerotatefilterinspector
+add 'yx' bx_invertfilterinspector
+add 'kx' bx_brightnessfilterinspector
+add 'Cx' bx_contrastfilterinspector
+add 'Sx' bx_opacityfilterinspector
+add 'Mx' bx_posterizefilterinspector
+add 'Px' bx_duotonefilterinspector
+add 'Ex' bx_filtersinspector
+add 'Ux' bx_compositingpanel
+add 'Rx' bx_fontfamilyselect
+add 'Gx' bx_typographypanel
+add 'Vx' bx_arrowgeometryinspector
+add 'Hx' bx_chargeometryinspector
+add 'Yx' bx_circlegeometryinspector
+add 'Xx' bx_coggeometryinspector
+add 'Qx' bx_crossgeometryinspector
+add 'tm' bx_ellipsegeometryinspector
+add 'sm' bx_gridgeometryinspector
+add 'am' bx_guidegeometryinspector
+add 'om' bx_imagegeometryinspector
+add 'rm' bx_linegeometryinspector
+add 'um' bx_viewboxinput
+add 'mm' bx_markergeometryinspector
+add 'gm' bx_ngongeometryinspector
+add 'bm' bx_nodegeometryinspector
+add 'km' bx_objectgeometryinspector
+add 'Cm' bx_patterngeometryinspector
+add 'Pm' bx_framegeometryinspector
+add 'zm' bx_piegeometryinspector
+add 'Em' bx_rectgeometryinspector
+add 'Um' bx_ringgeometryinspector
+add 'Rm' bx_spiralgeometryinspector
+add '_m' bx_stargeometryinspector
+add 'Gm' bx_svggeometryinspector
+add 'Fm' bx_symbolgeometryinspector
+add 'Nm' bx_crescentgeometryinspector
+add 'Vm' bx_trianglegeometryinspector
+add 'jm' bx_viewgeometryinspector
+add 'Hm' bx_geometrypanel
+add 'Ym' bx_metapanel
+add 'qm' bx_shapepanel
+add 'Xm' bx_arrangementpanel
+add 'Jm' bx_objectsbrowser
+add 'Qm' bx_objectspanel
+add 'ig' bx_colorsbrowser
+add 'ag' bx_gradientinspector
+add 'rg' bx_gradientsbrowser
+add 'cg' bx_patternsbrowser
+add 'xg' bx_markersbrowser
+add 'fg' bx_symbolsbrowser
+add 'yg' bx_filterhostinspector
+add 'kg' bx_filteredgeinspector
+add 'Mg' bx_blendprimitiveinspector
+add 'Pg' bx_compositeprimitiveinspector
+add 'Dg' bx_floodprimitiveinspector
+add 'Xg' bx_imageprimitiveinspector
+add 'Zg' bx_turbulenceprimitiveinspector
+add 'Jg' bx_colormatrixprimitiveinspector
+add 'Qg' bx_componenttransferprimitiveinspector
+add 'tf' bx_convolvematrixprimitiveinspector
+add 'sf' bx_displacementmapprimitiveinspector
+add 'nf' bx_gaussianblurprimitiveinspector
+add 'af' bx_morphologyprimitiveinspector
+add 'of' bx_dropshadowprimitiveinspector
+add 'lf' bx_offsetprimitiveinspector
+add 'rf' bx_lightingprimitiveinspector
+add 'hf' bx_specularlightingprimitiveinspector
+add 'df' bx_diffuselightingprimitiveinspector
+add 'gf' bx_filtergraphinspector
+add 'wf' bx_filtersbrowser
+add 'Sf' bx_fontsbrowser
+add 'Pf' bx_defspanel
+add 'zf' bx_colorhuntcolorslibrarysearchsettings
+add 'qf' bx_colorslibrarybrowser
+add 'Zf' bx_gradientslibrarybrowser
+add 'Kf' bx_googlefontslibrarysearchsettings
+add 'tb' bx_fontslibrarybrowser
+add 'ib' bx_pexelsbitmapslibrarysearchsettings
+add 'sb' bx_pixabaybitmapslibrarysearchsettings
+add 'nb' bx_unsplashbitmapslibrarysearchsettings
+add 'ab' bx_wikimediabitmapslibrarysearchsettings
+add 'cb' bx_bitmapslibrarybrowser
+add 'pb' bx_cloudvectorslibrarysearchsettings
+add 'ub' bx_pixabayvectorslibrarysearchsettings
+add 'xb' bx_wikimediavectorslibrarysearchsettings
+add 'mb' bx_cocomaterialvectorslibrarysearchsettings
+add 'gb' bx_fluenticonsvectorslibrarysearchsettings
+add 'fb' bx_materialiconsvectorslibrarysearchsettings
+add 'bb' bx_remixiconsvectorslibrarysearchsettings
+add 'wb' bx_googleemojisvectorslibrarysearchsettings
+add 'vb' bx_twitteremojisvectorslibrarysearchsettings
+add 'yb' bx_logosvectorslibrarysearchsettings
+add 'Pb' bx_vectorslibrarybrowser
+add 'zb' bx_librarypanel
+add 'Tb' bx_generatorspanel
+add 'Lb' bx_pngexportsettings
+add 'Ib' bx_jpegexportsettings
+add '_b' bx_gifexportsettings
+add 'Gb' bx_webpexportsettings
+add 'Fb' bx_svgexportsettings
+add 'Nb' bx_pdfexportsettings
+add 'Yb' bx_exportpanel
+add 'Xb' bx_historypanel
+add 'iw' bx_elementsinspector
+add 'pw' bx_csscascadeinspector
+add 'uw' bx_elementspanel
+add 'mw' bx_animationtriggerinput
+add 'gw' bx_animationinspector
+add 'fw' bx_animationpicker
+add 'ww' bx_animationsinspector
+add 'Pw' bx_timelineinspector
+add 'Dw' bx_timelineitem
+add 'zw' bx_keyframegrippie
+add 'Tw' bx_easingfunctionpicker
+add '$w' bx_keyframeinspector
+add 'Aw' bx_colorkeyframeinspector
+add 'Lw' bx_colorinterpolationkeyframeinspector
+add 'Uw' bx_displaykeyframeinspector
+add 'Iw' bx_fillrulekeyframeinspector
+add 'Rw' bx_fontfamilykeyframeinspector
+add '_w' bx_fontweightkeyframeinspector
+add 'Bw' bx_fontstylekeyframeinspector
+add 'Gw' bx_fontsizekeyframeinspector
+add 'Fw' bx_imagerenderingkeyframeinspector
+add 'Nw' bx_lengthkeyframeinspector
+add 'Vw' bx_motionkeyframeinspector
+add 'jw' bx_opacitykeyframeinspector
+add 'Hw' bx_overflowkeyframeinspector
+add 'Ww' bx_pathdatakeyframeinspector
+add 'Yw' bx_pointskeyframeinspector
+add 'qw' bx_preserveaspectratiokeyframeinspector
+add 'Xw' bx_shaperenderingkeyframeinspector
+add 'Zw' bx_spacingkeyframeinspector
+add 'Kw' bx_spreadmethodkeyframeinspector
+add 'Jw' bx_strokedasharraykeyframeinspector
+add 'Qw' bx_strokedashoffsetkeyframeinspector
+add 'ev' bx_strokelinecapkeyframeinspector
+add 'tv' bx_strokelinejoinkeyframeinspector
+add 'iv' bx_strokemiterlimitkeyframeinspector
+add 'sv' bx_strokewidthkeyframeinspector
+add 'nv' bx_transformkeyframeinspector
+add 'av' bx_viewboxkeyframeinspector
+add 'ov' bx_visibilitykeyframeinspector
+add 'dv' bx_animationspanel
+add 'cv' bx_codepanel
+add 'pv' bx_commandspanel
+add 'xv' bx_editor
+add 'gv' bx_generalsettings
+add 'fv' bx_uisettings
+add 'bv' bx_markupsettings
+add 'wv' bx_garbagecollectorsettings
+add 'Cv' bx_keyboardsettings
+add 'zv' bx_profilesettings
+add 'Tv' bx_authsettings
+add 'Ev' bx_subscriptionsettings
+add '$v' bx_deleteaccountsettings
+add 'Av' bx_settings
+add 'Lv' bx_quickuisettings
+add 'Uv' bx_quickprofilesettings
+add 'Iv' bx_metabar
+add 'Vv' bx_cloudbrowser
+add 'jv' bx_iconscloudbrowserview
+add 'Hv' bx_columnscloudbrowserview
+add 'Yv' bx_fileshareform
+add 'qv' bx_fileembedform
+add 'Xv' bx_filefromurlform
+add 'Zv' bx_installform
+add 'Kv' bx_loginform
+add 'Jv' bx_passwordconfirmform
+add 'Qv' bx_passwordresetform
+add 'ey' bx_registerform
+add 'iy' bx_messageform
+add 'oy' bx_progressivewebapp
+
+# remove last rule separator
+# fix: error: missing field id
+# https://github.com/ast-grep/ast-grep/issues/942
+rules_yaml=${rules_yaml:0: -4}
+
+# debug: print rules yaml
+echo "rules_yaml:"; echo "$rules_yaml" | grep -n ''
+
+ast-grep scan -U -r <(echo "$rules_yaml") elements/apps/bx-progressivewebapp.js
